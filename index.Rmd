@@ -1,13 +1,20 @@
 ---
-title: "Untitled"
+title: "PEPELAUGH"
+author: "Jardel Barrow"
+date: "YOU"
 output: 
   flexdashboard::flex_dashboard:
+    storyboard: true
     orientation: columns
     vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(tidyverse)
+library(spotifyr)
+library(plotly)
+
 ```
 
 Column {data-width=650}
@@ -16,7 +23,38 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
+spotifyr::get_spotify_access_token()
+SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1")
 
+SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF")
+
+SMTM8 <- get_playlist_audio_features("", "7mELs4UaYz7T16JjgjWTYM")
+
+SMTM7 <- get_playlist_audio_features("", "3LGXYlT6z9XFGWfRp2v4K7")
+
+SMTM7 <- SMTM7[1:29,]
+
+SMTM10 <- SMTM10[1:31,]
+
+HSR1 <- get_playlist_audio_features("", "7JVFL7AYfMBlR41lV8ADjy")
+
+HSR2 <- get_playlist_audio_features("", "0DBlm2LNBAVRMZdDzo0C1g")
+
+HSR3 <- get_playlist_audio_features("", "1lP8NlSXXRoaWkMRGtRlxx")
+
+HSR4 <- get_playlist_audio_features("", "4cfqKlMZdA1uQ7iJT5ITyj")
+
+
+HSR <- rbind(HSR1, HSR2)  
+HSR <- rbind(HSR, HSR3)
+HSR <- rbind(HSR, HSR4)
+
+SMTM <- rbind(SMTM7, SMTM8)
+SMTM <- rbind(SMTM, SMTM9)
+SMTM <- rbind(SMTM, SMTM10)
+
+SMTM_plot <- ggplot(SMTM, aes(x=energy, y=valence))+ geom_point(aes(color=playlist_name))
+ggplotly(SMTM_plot)
 ```
 
 Column {data-width=350}
