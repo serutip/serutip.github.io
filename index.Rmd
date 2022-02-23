@@ -4,7 +4,7 @@ author: "Jardel Barrow"
 date: "YOU"
 output: 
   flexdashboard::flex_dashboard:
-    storyboard: true
+    
     orientation: columns
     vertical_layout: fill
 ---
@@ -23,7 +23,6 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-spotifyr::get_spotify_access_token()
 SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1")
 
 SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF")
