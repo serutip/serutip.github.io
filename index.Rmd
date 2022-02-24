@@ -17,7 +17,7 @@ library(plotly)
 
 ```
 
-Column {data-width=650}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -52,22 +52,16 @@ SMTM <- rbind(SMTM7, SMTM8)
 SMTM <- rbind(SMTM, SMTM9)
 SMTM <- rbind(SMTM, SMTM10)
 
-SMTM_plot <- ggplot(SMTM, aes(x=energy, y=valence))+ geom_point(aes(color=playlist_name))
-ggplotly(SMTM_plot)
+SMTM_plot_tempo_popularity <- ggplot(SMTM, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name)) 
+ggplotly(SMTM_plot_tempo_popularity)
 ```
 
-Column {data-width=350}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart B
 
 ```{r}
-
+HSR_plot_tempo_popularity <- ggplot(HSR, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name)) 
+ggplotly(HSR_plot_tempo_popularity)
 ```
-
-### Chart C
-
-```{r}
-
-```
-
