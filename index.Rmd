@@ -4,25 +4,23 @@ author: "Jardel Barrow"
 date: "YOU"
 output: 
   flexdashboard::flex_dashboard:
-    
+    storyboard: true
     orientation: columns
     vertical_layout: fill
+    theme: yeti
 ---
 
 ```{r setup, include=FALSE}
+library(gridExtra)
 library(flexdashboard)
 library(tidyverse)
 library(spotifyr)
 library(plotly)
-
+library(compmus)
 ```
+### Show me the money and Higschool rapper - Introduction
 
-Column {data-width=500}
------------------------------------------------------------------------
-
-### Chart A
-
-```{r}
+``` {r}
 SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1")
 
 SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF")
@@ -52,16 +50,80 @@ SMTM <- rbind(SMTM7, SMTM8)
 SMTM <- rbind(SMTM, SMTM9)
 SMTM <- rbind(SMTM, SMTM10)
 
-SMTM_plot_tempo_popularity <- ggplot(SMTM, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name)) 
-ggplotly(SMTM_plot_tempo_popularity)
+TOTAL <- rbind(SMTM, HSR)
+
+TOTAL_plot_popularity <- ggplot(TOTAL, aes(y=track.popularity, x=track.duration_ms/1000, label=track.name))+ geom_point(aes(color=playlist_name)) + ggtitle("Popularity of songs")+ xlab("Track duration in seconds")
+
+ggplotly(TOTAL_plot_popularity)
+
+
 ```
 
-Column {data-width=500}
------------------------------------------------------------------------
+***
 
-### Chart B
+For many Korean artists, the path to fame is not simple. While the road for rap artists used to be harder, the introduction of rap competitions where rappers can co-produce with famous producers was an important milestone. After succesful seasons of the original competition, Show me The money, there came a sister show for highschool students: Highschool rapper.
+
+***
+
+Due to the nature of the competition, fan-votes play a major role in how long an artist gets to display their skills. Ultimately, the fan-pleasing might have started a new trend: Popification of the music to score high on the weekly and daily charts. Unfortunately, the bad charting of the songs of the last HSR season made it so that, at least for this year, the series will not be continued.  
+
+***
+
+In this portfolio I will take a look whether there are major trends in the characteristics of songs throughout the seasons of both Show me the Money and Highschool rapper. 
+
+### Tempo and Valence
+
+#### Highschool rapper
 
 ```{r}
-HSR_plot_tempo_popularity <- ggplot(HSR, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name)) 
-ggplotly(HSR_plot_tempo_popularity)
+HSR_plot_tempo_valence <- ggplot(HSR, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name))
+ggplotly(HSR_plot_tempo_valence)
 ```
+
+#### Show Me the moeny
+
+``` {r}
+SMTM_plot_tempo_valence <- ggplot(SMTM, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name))
+
+ggplotly(SMTM_plot_tempo_valence)
+
+```
+
+***
+
+When looking at the valence and the tempo of all HSR songs, two things surprise me: First off the valence values of the last two seasons are higher than those of the first two seasons.
+
+Secondly, the tempo of songs has generally shifted upwards signalling that contestants were supplied with higher tempo songs.
+
+In the SMTM plot this trend is not as apparent as as the points showcase a greater spread in terms of valence.
+In the SMTM plot there is no real trend to be had. An explanation for this could be that the producers of each season always included unique producers and contestants that heavily insist on specific styles of music.  
+
+### Chronogram of My favourite song
+
+``` {r}
+SKDM <-
+  get_tidy_audio_analysis("2eLe81VDUQ5f0xFfc9cMWz") %>%
+  select(segments) %>%
+  unnest(segments) %>%
+  select(start, duration, pitches)
+
+SKDM %>%
+  mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
+  compmus_gather_chroma() %>% 
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = pitch_class,
+      fill = value
+    )
+  ) + ggtitle("My favourite song of the previous seasons: Merry-go round")+
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  theme_minimal() +
+  scale_fill_viridis_c()
+
+```
+
+### Concluding thoughts
+From what I have been able to witness so far, the popification of Higschool rapper is very apparent in the changing trend of valence throughout the seasons. There does not seem to be any distinctive trend of features of Show me The money songs. 
