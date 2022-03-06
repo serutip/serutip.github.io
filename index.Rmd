@@ -1,45 +1,42 @@
 ---
 title: "Flexdashboard on Korean Rap"
 author: "Jardel Barrow"
-date: "29-2-2022"
+date: "7-4-2022"
 output: 
   flexdashboard::flex_dashboard:
     storyboard: true
     orientation: columns
     vertical_layout: fill
-    theme: yeti
+    theme: sandstone
 ---
 
 ```{r setup, include=FALSE}
 library(gridExtra)
+library(cowplot)
 library(flexdashboard)
 library(tidyverse)
 library(spotifyr)
 library(plotly)
 library(compmus)
-```
-### Show me the money and Higschool rapper - Introduction
+SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1") %>% mutate(season="SMTM season 10")
 
-``` {r}
-SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1")
+SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF") %>% mutate(season="SMTM season 9")
 
-SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF")
+SMTM8 <- get_playlist_audio_features("", "7mELs4UaYz7T16JjgjWTYM") %>% mutate(season="SMTM season 8")
 
-SMTM8 <- get_playlist_audio_features("", "7mELs4UaYz7T16JjgjWTYM")
-
-SMTM7 <- get_playlist_audio_features("", "3LGXYlT6z9XFGWfRp2v4K7")
+SMTM7 <- get_playlist_audio_features("", "3LGXYlT6z9XFGWfRp2v4K7") %>% mutate(season="SMTM season 7")
 
 SMTM7 <- SMTM7[1:29,]
 
 SMTM10 <- SMTM10[1:31,]
 
-HSR1 <- get_playlist_audio_features("", "7JVFL7AYfMBlR41lV8ADjy")
+HSR1 <- get_playlist_audio_features("", "7JVFL7AYfMBlR41lV8ADjy") %>% mutate(season="HSR SEASON 1")
 
-HSR2 <- get_playlist_audio_features("", "0DBlm2LNBAVRMZdDzo0C1g")
+HSR2 <- get_playlist_audio_features("", "0DBlm2LNBAVRMZdDzo0C1g") %>% mutate(season="HSR SEASON 2")
 
-HSR3 <- get_playlist_audio_features("", "1lP8NlSXXRoaWkMRGtRlxx")
+HSR3 <- get_playlist_audio_features("", "1lP8NlSXXRoaWkMRGtRlxx") %>% mutate(season="HSR SEASON 3")
 
-HSR4 <- get_playlist_audio_features("", "4cfqKlMZdA1uQ7iJT5ITyj")
+HSR4 <- get_playlist_audio_features("", "4cfqKlMZdA1uQ7iJT5ITyj") %>% mutate(season="HSR SEASON 4")
 
 
 HSR <- rbind(HSR1, HSR2)  
@@ -52,62 +49,67 @@ SMTM <- rbind(SMTM, SMTM10)
 
 TOTAL <- rbind(SMTM, HSR)
 
-TOTAL_plot_popularity <- ggplot(TOTAL, aes(y=track.popularity, x=track.duration_ms/1000, label=track.name))+ geom_point(aes(color=playlist_name)) + ggtitle("Popularity of songs")+ xlab("Track duration in seconds")
+TOTAL <- within(TOTAL,  { producer = "Others"
+producer[str_detect(track.name, "Prod. Bangroz")] = "Bangroz" 
+producer[str_detect(track.name, "Prod. GroovyRoom")] = "GroovyRoom" 
+producer[str_detect(track.name, "Prod. BOYCOLD")] = "BOYCOLD" 
+producer[str_detect(track.name, "Prod. Slom")] = "Slom" 
+producer[str_detect(track.name, "Prod. CODE KUNST")] = "Code Kunst"
 
-ggplotly(TOTAL_plot_popularity)
+producer[str_detect(track.name, "Prod. GRAY")] = "Gray"
 
+producer[str_detect(track.name, "Prod. by Bangroz")] = "Bangroz" 
+producer[str_detect(track.name, "Prod. by GroovyRoom")] = "GroovyRoom" 
+producer[str_detect(track.name, "Prod. by BOYCOLD")] = "BOYCOLD" 
+producer[str_detect(track.name, "Prod. by Slom")] = "Slom" 
+producer[str_detect(track.name, "Prod. by CODE KUNST")] = "Code Kunst"
+
+producer[str_detect(track.name, "Prod. by GRAY")] = "Gray"
+
+producer[str_detect(track.name, "Prod. Way Ched")] = "Way Ched"
+
+producer[str_detect(track.name, "Prod. by Way Ched")] = "Way Ched"
+
+producer[str_detect(track.name, "Prod. by Tiger JK")] = "Tiger JK"
+
+producer[str_detect(track.name, "Prod. Tiger JK")] = "Tiger JK"
+
+producer[str_detect(track.name, "Prod. by TOIL")] = "Toil"
+
+producer[str_detect(track.name, "Prod. TOIL")] = "Toil"
+
+producer[str_detect(track.name, "Prod. by Primary")] = "Primary"
+
+producer[str_detect(track.name, "Prod. Primary")] = "Primary"
+
+producer[str_detect(track.name, "Prod. by MINO")] = "Mino"
+
+producer[str_detect(track.name, "Prod. MINO")] = "Mino"
+
+producer[str_detect(track.name, "Prod. by WOOGIE")] = "Woogie"
+
+producer[str_detect(track.name, "Prod. WOOGIE")] = "Woogie"
+
+
+
+
+
+})  
+
+Producers <- TOTAL %>% filter(producer != "NA")
 
 ```
 
-***
-
-For many Korean artists, the path to fame is not simple. While the road for rap artists used to be harder, the introduction of rap competitions where rappers can co-produce with famous producers was an important milestone. After succesful seasons of the original competition, Show me The money, there came a sister show for highschool students: Highschool rapper.
-
-***
-
-Due to the nature of the competition, fan-votes play a major role in how long an artist gets to display their skills. Ultimately, the fan-pleasing might have started a new trend: Popification of the music to score high on the weekly and daily charts. Unfortunately, the bad charting of the songs of the last HSR season made it so that, at least for this year, the series will not be continued.  
-
-***
-
-In this portfolio I will take a look whether there are major trends in the characteristics of songs throughout the seasons of both Show me the Money and Highschool rapper. 
-
-### Tempo and Valence
-
-#### Highschool rapper
-
-```{r}
-HSR_plot_tempo_valence <- ggplot(HSR, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name))
-ggplotly(HSR_plot_tempo_valence)
-```
-
-#### Show Me the moeny
+### Chronogram of the song with the highest voting percentage in all of HSR: Boong-Boong
 
 ``` {r}
-SMTM_plot_tempo_valence <- ggplot(SMTM, aes(y=tempo, x=valence, label=track.name))+ geom_point(aes(color=playlist_name))
-
-ggplotly(SMTM_plot_tempo_valence)
-
-```
-
-***
-
-When looking at the valence and the tempo of all HSR songs, two things surprise me: First off the valence values of the last two seasons are higher than those of the first two seasons.
-
-Secondly, the tempo of songs has generally shifted upwards signalling that contestants were supplied with higher tempo songs.
-
-In the SMTM plot this trend is not as apparent as as the points showcase a greater spread in terms of valence.
-In the SMTM plot there is no real trend to be had. An explanation for this could be that the producers of each season always included unique producers and contestants that heavily insist on specific styles of music.  
-
-### Chronogram of My favourite song
-
-``` {r}
-SKDM <-
-  get_tidy_audio_analysis("2eLe81VDUQ5f0xFfc9cMWz") %>%
+BMBM <-
+  get_tidy_audio_analysis("3uJN5Acv1WMsITAEvHuJox") %>%
   select(segments) %>%
   unnest(segments) %>%
   select(start, duration, pitches)
 
-SKDM %>%
+BMBM %>%
   mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
   compmus_gather_chroma() %>% 
   ggplot(
@@ -117,7 +119,7 @@ SKDM %>%
       y = pitch_class,
       fill = value
     )
-  ) + ggtitle("My favourite song of the previous seasons: Merry-go round")+
+  ) + ggtitle("Chroma: Boong-boong (Kim Ha-on)")+
   geom_tile() +
   labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
   theme_minimal() +
@@ -125,5 +127,142 @@ SKDM %>%
 
 ```
 
+***
+Moving forward from the producer characteristics (See "Producer characterstics for now"), there is one outlier in the valence metric that turns out to be very special: The finals song of the second season by Kim Ha-on won the largest share of any finals performance (26.8%) by a large margin (Next closest winning performance achieved 23.7%)
+
+As can be seen in the chronogram the song is all over the place other than the standard occurences of the C, G and G#/Ab tones. The melody in especially the chorus is very apparent compared to how one would hear it: The melody of the flute in this song screams out free and listening to this song once the chorus hits makes it clear that the frequent occurences of the spikes in other tones can be largely tied down to the melody of the flute going wild. 
+
+### Timbre features
+``` {r}
+bzt <-
+  get_tidy_audio_analysis("3uJN5Acv1WMsITAEvHuJox") %>% # Change URI.
+  compmus_align(bars, segments) %>%                     # Change `bars`
+  select(bars) %>%                                      #   in all three
+  unnest(bars) %>%                                      #   of these lines.
+  mutate(
+    pitches =
+      map(segments,
+        compmus_summarise, pitches,
+        method = "rms", norm = "euclidean"              # Change summary & norm.
+      )
+  ) %>%
+  mutate(
+    timbre =
+      map(segments,
+        compmus_summarise, timbre,
+        method = "rms", norm = "euclidean"              # Change summary & norm.
+      )
+  )
+
+
+bzt2 <-
+  get_tidy_audio_analysis("71lQtAihaaI5YnWJnZzxPq") %>% # Change URI.
+  compmus_align(bars, segments) %>%                     # Change `bars`
+  select(bars) %>%                                      #   in all three
+  unnest(bars) %>%                                      #   of these lines.
+  mutate(
+    pitches =
+      map(segments,
+        compmus_summarise, pitches,
+        method = "rms", norm = "manhattan"              # Change summary & norm.
+      )
+  ) %>%
+  mutate(
+    timbre =
+      map(segments,
+        compmus_summarise, timbre,
+        method = "rms", norm = "manhattan"              # Change summary & norm.
+      )
+  )
+
+
+bztplot <- bzt %>%
+  compmus_gather_timbre() %>%
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = basis,
+      fill = value
+    )
+  ) +
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") + ggtitle("Boong-boong")+
+  scale_fill_viridis_c() +              
+  theme_classic()
+
+
+
+bztplot2 <- bzt2 %>%
+  compmus_gather_timbre() %>%
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = basis,
+      fill = value
+    )
+  ) +
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") + ggtitle("Ooh wah")+
+  scale_fill_viridis_c() +              
+  theme_classic()
+
+plot_grid(bztplot, bztplot2,hjust="outward", heights=c(30,15) )
+```
+
+*** 
+When comparing the song "Boong-boong" to the last winner's song (Ooh wah), the frquencies of the former seem to be slightly more spread out in comparison to the densely populated Ooh wah. Overall both songs score very similar in valence and tempo and without looking at the data I would easily put these songs together as the songs that can easily be perceived as having a similar vibe among all discography used in this portfolio. Might there be a winning formula then? (work in progress: Linear regression for final performances per season) 
+
+### Introduction
+For many Korean artists, the path to fame is not simple. While the road for rap artists used to be harder, the introduction of rap competitions where rappers can co-produce with famous producers was an important milestone. After succesful seasons of the original competition, Show me The money, there came a sister show for highschool students: Highschool rapper.
+
+Due to the nature of the competition, fan-votes play a major role in how long an artist gets to display their skills. Ultimately, the fan-pleasing might have started a new trend: Popification of the music to score high on the weekly and daily charts. Unfortunately, the bad charting of the songs of the last HSR season made it so that, at least for this year, the series will not be continued.
+
+In this portfolio I will take a look whether there are major trends in the characteristics of songs throughout the seasons of both Show me the Money and Highschool rapper. 
+
+### Producer characteristics
+
+``` {r}
+
+
+TOTAL_plot_valence <- ggplot(Producers, aes(y=valence, x=tempo, label=track.name))+ geom_point(aes(color=producer)) +  xlab("Tempo") + geom_text(aes( label=ifelse(valence>0.85,as.character(track.name),'')), hjust="inward", vjust="inward", size=1.5)+ 
+ylab("Track valence") + theme_dark() 
+
+TOTAL_plot_energy <- ggplot(Producers, aes(y=energy, x=tempo, label=track.name))+ geom_point(aes(color=producer)) + geom_text(aes(label=ifelse(energy>0.9,as.character(track.name),'')), hjust="inward", vjust="inward", size=1.5) +  xlab("Tempo") + 
+ylab("Energy") + theme_dark() 
+
+
+plot_grid(TOTAL_plot_valence, TOTAL_plot_energy, labels=c("Valence", "Energy"), hjust="outward", heights=c(2,4),ncol=1, nrow=2)
+
+```
+
+
+
+***
+While initially the plan was to compare start with a comparison of different seasons, the rotating door that is producer choices are such that, excluding CODE KUNST, most producers do not appear in more than two seasons. Of all the songs in which the producer name has been mentioned, the plot shows very differing results.
+
+First off: The valence and energy portrayed in competition songs never dipped below 0.5 and 0.28 respectively. Moreover, the broad range in tempo, valence and energy signify that there is no one-fits-all solution when choosing a beat for most producers. 
+
+Most notably three of the highest scoring songs on energy were all produced by the same producer. What seems to be fairly odd to me is that the song Wot wot scored as high as it did: From my point of view the itself has a very indifferent feeling to it. 
+
+### BOXPLOT_Seasons
+ ``` {r}
+ group_by_album <- HSR %>% group_by(season)
+
+group_by_album2 <- SMTM %>% group_by(season)
+
+
+group_album_plot1 <- ggplot(group_by_album, aes(x=season, y=tempo, color=season)) + geom_boxplot() + theme(legend.title= element_blank(), axis.text.x=element_blank())
+ 
+group_album_plot2 <- ggplot(group_by_album2, aes(x=season, y=tempo, color=season)) + geom_boxplot() + theme(legend.title= element_blank(), axis.text.x=element_blank()) 
+
+plot_grid(group_album_plot1, group_album_plot2, labels=c("Highschool Rapper", "Show me The money"), heights=c(4,2), nrow=1, ncol=2)
+
+ 
+ ```
+ 
 ### Concluding thoughts
 From what I have been able to witness so far, the popification of Higschool rapper is very apparent in the changing trend of valence throughout the seasons. There does not seem to be any distinctive trend of features of Show me The money songs. 
+
+### 
