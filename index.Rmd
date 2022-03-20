@@ -18,6 +18,7 @@ library(tidyverse)
 library(spotifyr)
 library(plotly)
 library(compmus)
+library(factoextra)
 SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1") %>% mutate(season="SMTM season 10")
 
 SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF") %>% mutate(season="SMTM season 9")
@@ -98,7 +99,32 @@ producer[str_detect(track.name, "Prod. WOOGIE")] = "Woogie"
 
 Producers <- TOTAL %>% filter(producer != "NA")
 
+Producer_Matrix <- Producers$tempo
+Kmeans_producers <- kmeans(Producer_Matrix, centers= 10)
+
+Producers_with_pred <- mutate(Producers, cluster=Kmeans_producers$cluster)
+
+Producers_kmeans_plot <- ggplot(Producers_with_pred, aes(x = valence, y =tempo, color = factor(cluster), label=producer)) +     geom_point() + geom_text(hjust=.5, vjust=2, size=1) + theme(legend.position="none")
+
+
+Season_Matrix <- Producers$tempo
+Kmeans_seasons <- kmeans(Season_Matrix, centers= 15)
+
+Seasons_with_pred <- mutate(Producers, cluster=Kmeans_seasons$cluster)
+
+Seasons_kmeans_plot <- ggplot(Producers_with_pred, aes(x = valence,y =tempo, color = factor(cluster), label=season)) +     geom_point() + geom_text(hjust=.5, vjust=2, size=1) + theme(legend.position="none")
+
 ```
+### Season and Producer predictions
+```{r}
+plot_grid(Producers_kmeans_plot, Seasons_kmeans_plot, labels=c("Producers", "Seasons"), hjust="outward", heights=c(4,8),ncol=2, nrow=1)
+
+
+```
+
+***
+As the usage of beats made by producers heavily depends on whether they are part of a team in a season. Similarly finding out what season songs are expected to be from (especially with newer trends emerging) also seemed interesting. When trying to predict both using the kmeans algorithm (with 15 and 8 centers respectively) the results turned out quite interesting. Depending on the producer the results were better than others, which I found not very surprising. Especially the producer Code Kunst has been a mainstay in SMTM and the different classifications could very well be more about the different flavours he brought to different seasons. Another argument that could be made is that producers tend to search for beats that fit particularly well with a given artist thus the diversity in artists might be even more important.    
+
 ### Chordogram of the latest winners.
 ``` {r}
 circshift <- function(v, n) {
