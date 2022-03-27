@@ -115,6 +115,16 @@ Seasons_with_pred <- mutate(Producers, cluster=Kmeans_seasons$cluster)
 Seasons_kmeans_plot <- ggplot(Producers_with_pred, aes(x = valence,y =tempo, color = factor(cluster), label=season)) +     geom_point() + geom_text(hjust=.5, vjust=2, size=1) + theme(legend.position="none")
 
 ```
+### Introduction
+For many Korean artists, the path to fame is not simple. While the road for rap artists used to be harder, the introduction of rap competitions where rappers can co-produce with famous producers was an important milestone.
+
+In my portfolio I decided to take a look at the two most famous examples: Show me the money and Highschool rapper. After passing preliminary elimination rounds contestants are teamed up under producer teams. As the producers vary by season, the interesting topic that we look to identify is whether the producers that appear in different seasons showcase any resemblances and whether producers that appear in multiple seasons change things up. 
+
+The data exists of all Show me the Money and Highschool rapper discography with a total of 213 songs (121 and 92 respectively) with the four latest seasons included for each show.
+
+While the producer was not always annotated in the name, the producers Code Kunst and Way ched exclusively to multiple seasons without any mentions in the other show. 
+
+
 ### Season and Producer predictions
 ```{r}
 plot_grid(Producers_kmeans_plot, Seasons_kmeans_plot, labels=c("Producers", "Seasons"), hjust="outward", heights=c(4,8),ncol=2, nrow=1)
@@ -388,12 +398,7 @@ cowplot:: plot_grid(bztplot, bztplot2,hjust="outward", heights=c(30,15) )
 *** 
 When comparing the song "Boong-boong" to the last winner's song (Ooh wah), the frquencies of the former seem to be slightly more spread out in comparison to the densely populated Ooh wah. Overall both songs score very similar in valence and tempo and without looking at the data I would easily put these songs together as the songs that can easily be perceived as having a similar vibe among all discography used in this portfolio. Might there be a winning formula then? (work in progress: Linear regression for final performances per season) 
 
-### Introduction
-For many Korean artists, the path to fame is not simple. While the road for rap artists used to be harder, the introduction of rap competitions where rappers can co-produce with famous producers was an important milestone. After succesful seasons of the original competition, Show me The money, there came a sister show for highschool students: Highschool rapper.
 
-Due to the nature of the competition, fan-votes play a major role in how long an artist gets to display their skills. Ultimately, the fan-pleasing might have started a new trend: Popification of the music to score high on the weekly and daily charts. Unfortunately, the bad charting of the songs of the last HSR season made it so that, at least for this year, the series will not be continued.
-
-In this portfolio I will take a look whether there are major trends in the characteristics of songs throughout the seasons of both Show me the Money and Highschool rapper. 
 
 ### Producer characteristics
 
