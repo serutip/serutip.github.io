@@ -4,13 +4,22 @@ author: "Jardel Barrow"
 date: "7-4-2022"
 output: 
   flexdashboard::flex_dashboard:
-    storyboard: true
-    orientation: columns
+    storyboard: True
+    orientation: rows
     vertical_layout: fill
-    theme: sandstone
+    self_contained: False
+    theme:
+      bg: "#101010"
+      fg: "#101010"
+      primary: "#D14FCF"
+      navbar-bg: "#D14FCF"
+       
+      base_font: "Times New Roman"
+      
 ---
 
 ```{r setup, include=FALSE}
+library(bslib)
 library(gridExtra)
 library(cowplot)
 library(flexdashboard)
@@ -19,25 +28,29 @@ library(spotifyr)
 library(plotly)
 library(compmus)
 library(factoextra)
-SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1") %>% mutate(season="SMTM season 10")
+library(tidymodels)
+library(ggdendro)
+library(heatmaply)
 
-SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF") %>% mutate(season="SMTM season 9")
+SMTM10 <- get_playlist_audio_features("", "2O89s4riuZyL4JcXFz18v1") %>% mutate(season="SMTM season 10", show="SMTM")
 
-SMTM8 <- get_playlist_audio_features("", "7mELs4UaYz7T16JjgjWTYM") %>% mutate(season="SMTM season 8")
+SMTM9 <- get_playlist_audio_features("", "6qa0m7nvnOSU6Hwx8WkjCF") %>% mutate(season="SMTM season 9", show="SMTM")
 
-SMTM7 <- get_playlist_audio_features("", "3LGXYlT6z9XFGWfRp2v4K7") %>% mutate(season="SMTM season 7")
+SMTM8 <- get_playlist_audio_features("", "7mELs4UaYz7T16JjgjWTYM") %>% mutate(season="SMTM season 8", show="SMTM")
+
+SMTM7 <- get_playlist_audio_features("", "3LGXYlT6z9XFGWfRp2v4K7") %>% mutate(season="SMTM season 7", show="SMTM")
 
 SMTM7 <- SMTM7[1:29,]
 
 SMTM10 <- SMTM10[1:31,]
 
-HSR1 <- get_playlist_audio_features("", "7JVFL7AYfMBlR41lV8ADjy") %>% mutate(season="HSR SEASON 1")
+HSR1 <- get_playlist_audio_features("", "7JVFL7AYfMBlR41lV8ADjy") %>% mutate(season="HSR SEASON 1", show="HSR")
 
-HSR2 <- get_playlist_audio_features("", "0DBlm2LNBAVRMZdDzo0C1g") %>% mutate(season="HSR SEASON 2")
+HSR2 <- get_playlist_audio_features("", "0DBlm2LNBAVRMZdDzo0C1g") %>% mutate(season="HSR SEASON 2", show="HSR")
 
-HSR3 <- get_playlist_audio_features("", "1lP8NlSXXRoaWkMRGtRlxx") %>% mutate(season="HSR SEASON 3")
+HSR3 <- get_playlist_audio_features("", "1lP8NlSXXRoaWkMRGtRlxx") %>% mutate(season="HSR SEASON 3", show="HSR")
 
-HSR4 <- get_playlist_audio_features("", "4cfqKlMZdA1uQ7iJT5ITyj") %>% mutate(season="HSR SEASON 4")
+HSR4 <- get_playlist_audio_features("", "4cfqKlMZdA1uQ7iJT5ITyj") %>% mutate(season="HSR SEASON 4", show="HSR")
 
 
 HSR <- rbind(HSR1, HSR2)  
@@ -108,192 +121,117 @@ Producers_kmeans_plot <- ggplot(Producers_with_pred, aes(x = valence, y =tempo, 
 
 
 Season_Matrix <- Producers$tempo
-Kmeans_seasons <- kmeans(Season_Matrix, centers= 15)
+Kmeans_seasons <- kmeans(Season_Matrix, centers= 8)
 
 Seasons_with_pred <- mutate(Producers, cluster=Kmeans_seasons$cluster)
 
-Seasons_kmeans_plot <- ggplot(Producers_with_pred, aes(x = valence,y =tempo, color = factor(cluster), label=season)) +     geom_point() + geom_text(hjust=.5, vjust=2, size=1) + theme(legend.position="none")
+Seasons_kmeans_plot <- ggplot(Seasons_with_pred, aes(x = valence,y =tempo, color = factor(cluster), label=season)) +     geom_point() + geom_text(hjust=.5, vjust=2, size=1) 
 
 ```
-### Introduction
+
+### Introduction 
+
 For many Korean artists, the path to fame is not simple. While the road for rap artists used to be harder, the introduction of rap competitions where rappers can co-produce with famous producers was an important milestone.
 
-In my portfolio I decided to take a look at the two most famous examples: Show me the money and Highschool rapper. After passing preliminary elimination rounds contestants are teamed up under producer teams. As the producers vary by season, the interesting topic that we look to identify is whether the producers that appear in different seasons showcase any resemblances and whether producers that appear in multiple seasons change things up. 
+The two competitions that I have chosen to look at are:
 
-The data exists of all Show me the Money and Highschool rapper discography with a total of 213 songs (121 and 92 respectively) with the four latest seasons included for each show.
+1) Show me The money 
 
-While the producer was not always annotated in the name, the producers Code Kunst and Way ched exclusively to multiple seasons without any mentions in the other show. 
+2) Highschool rapper
 
+Show me the money is in many ways the front-runner of succes that can occur when a big production company such as Cj entertainment decides to take a risk and offer a stage for young and old unknown and mostly underground rap-talent to showcase their skills and flexibility on national television. Contestants ranging from just 8 years old to over 60 years old have tried out for the show. And its not just about age. The recognition that one can get from doing well on a show pre-dominantly filled with male underground rappers also caught the eyes of female rappers, pop idols and even active singers. 
+
+After the success of show me the money the production company introduced two new offsprings: Unpretty Female rapstar (Strictly female rap-talent) and Highschool Rapper (Restricted to students attending Highschool). Highschool rapper has served as a stepping stone for talented youngsters to make a name for themselves with winners of the show gaining recognition even among those that apply for Show me the money. 
+
+In both shows the format works such that after passing preliminary elimination rounds contestants are teamed up under producer teams. As the producers vary by season, the interesting topic that we look to identify is whether there are significant differences between the different seasons of respective shows and the shows themselves. As the producers Code Kunst and Way ched appeared in both shows albeit it being during different seasons I also wanted to take a closer look at the songs they produced and whether there are big differences to be found. 
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0ZKf8Zumy3pZweoVR8Y1l0?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+While Show me the money has had a longer lineage, only the last four of the ten seasons were included in the data used such that the ratio between Show me the Money and Highschool Rapper songs to balance things out.
+
+The data used exists of all Show me the Money (Season 7, 8, 9 and 10) and Highschool rapper (Season 1, 2, 3 and 4) discography with a total of 213 songs (121 and 92 respectively) with the four latest seasons included for each show.
+
+
+
+### Seasonal Tempo differences
+
+``` {r}
+ group_by_album <- HSR %>% group_by(season)
+
+group_by_album2 <- SMTM %>% group_by(season)
+
+
+group_album_plot1 <- ggplot(group_by_album, aes(x=season, y=tempo, color = season)) + geom_boxplot() + theme(legend.title= element_blank()) + theme_dark()+ ggtitle("Highschool Rapper") +  scale_x_discrete(limits=c("HSR SEASON 1", "HSR SEASON 2", "HSR SEASON 3", "HSR SEASON 4"), labels=c("HSR SEASON 1" = "1", "HSR SEASON 2" = "2", "HSR SEASON 3" = "3", "HSR SEASON 4" = "4"))
+
+group_album_plot2 <- ggplot(group_by_album2, aes(x=season, y=tempo, color =season)) + geom_boxplot() + theme(legend.title= element_blank()) + theme_dark()+ ggtitle("Show me The money") + scale_x_discrete(limits=c("SMTM season 7", "SMTM season 8", "SMTM season 9", "SMTM season 10"), labels=c("SMTM season 7" = "7", "SMTM season 8" = "8", "SMTM season 9" = "9", "SMTM season 10" = "10"))
+
+plot_grid(group_album_plot1, group_album_plot2, heights=c(3,3), nrow=1, ncol=2)
+
+ 
+```
+
+***
+Starting off with unquestionably the most important metric of all: Tempo.
+
+As can be seen the Highschool rapper has a clear trend throughout the first three seasons: While the lowest and highest tempo in these seasons are quite similar, the proportion of songs that sit on the higher end of the spectrum grew higher in the second season. Compared to the first two seasons, the bars become more diverse: Higher highs, Equal lows and again higher ended spectrums with the third season clearly a head above the rest.
+
+Compared to the HSR graphs, the Show me the money do not show anything particular: Very similar boundaries and a very similar distribution with the 8th season having on average a lower tempo.
+
+Overall the HSR graphs show that there has been a stagnant tempo increase after a short infancy period which perfectl coincides with the types of producer teams apparent: The first season featured producers of the label VMC which is particularly known for its Boom-bap beat usage. On the other hand later seasons of the show featured producers such as GroovyRoom and Gray with which higher speed rappers are able to shine more when coupled with more energetic beats.
+
+For Show me the money the very reason why we cannot see a significant difference might very well also be infancy: The show has been running for 10 years and to keep the already massive following going there may be actors at play that want the producers to stick within a certain  boundary to maintain a steady viewership rate because after all the show needs its viewers more than good music for it to be succesful. 
+
+### Producer characteristics
+
+``` {r}
+
+
+TOTAL_plot_valence <- ggplot(TOTAL, aes(y=valence, x=tempo, label=season))+ geom_point(aes(color=season)) + xlab("Tempo") + ylab("Track valence") + ggtitle("Valence") + theme_dark()+ theme(legend.position="none")+ facet_wrap(~ show)
+
+TOTAL_plot_energy <- ggplot(TOTAL, aes(y=energy, x=tempo, label=season))+ geom_point(aes(color=season)) + xlab("Tempo") + ggtitle("Energy") + 
+ylab("Energy") + theme_dark() + theme(legend.position="none") +  facet_wrap(~ show) 
+
+
+plot_grid(TOTAL_plot_valence, TOTAL_plot_energy, labels=c("Valence", "Energy"), hjust="outward", heights=c(3,3), ncol=1, nrow=2)
+
+```
+
+
+
+***
+When looking at both the valence and the energy you might notice something weird on the y-axis: The energy and the valence don't share the same scale on the y-axis.
+
+Even though the energy never crosses below 0.5, the valence in nearly every season is widespread. Interesting is that while the majority of high valence songs (>0.8) are high tempo for HSR, there does not seem to be such an occurence for SMTM songs as both low- and high tempo songs appear. 
+
+The song that I rightfully expected to be the lowest scoring songs somehow ended up not being that low: The rapper Vinxen that appeared in season 2 of Highschool rapper told some of the most depressing stories in his lyrics with generally higher tempo-songs such as "Barcode" and "Cause".
+
+Compared to HSR, SMTM has never seen a significantly negative or positive artist that made it onto albums.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Buq5ciDCgi4xmh36BiXHa?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### Season and Producer predictions
 ```{r}
-plot_grid(Producers_kmeans_plot, Seasons_kmeans_plot, labels=c("Producers", "Seasons"), hjust="outward", heights=c(4,8),ncol=2, nrow=1)
+Seasons_kmeans_plot 
 
 
 ```
 
 ***
-As the usage of beats made by producers heavily depends on whether they are part of a team in a season. Similarly finding out what season songs are expected to be from (especially with newer trends emerging) also seemed interesting. When trying to predict both using the kmeans algorithm (with 15 and 8 centers respectively) the results turned out quite interesting. Depending on the producer the results were better than others, which I found not very surprising. Especially the producer Code Kunst has been a mainstay in SMTM and the different classifications could very well be more about the different flavours he brought to different seasons. Another argument that could be made is that producers tend to search for beats that fit particularly well with a given artist thus the diversity in artists might be even more important.    
+As the usage of beats made by producers heavily depends on whether they are part of a team in a season. Similarly finding out what season songs are expected to be from (especially with newer trends emerging) also seemed interesting. When trying to predict both using the kmeans algorithm (with 15 and 8 centers respectively) the results turned out quite interesting. Depending on the producer the results were better than others, which I found not very surprising. Especially the producer Code Kunst has been a mainstay in SMTM and the different classifications could very well be more about the different flavours he brought to different seasons. Another argument that could be made is that producers tend to search for beats that fit particularly well with a given artist thus the diversity in artists might be even more important.   
 
-### Chordogram of the latest winners.
-``` {r}
-circshift <- function(v, n) {
-  if (n == 0) v else c(tail(v, n), head(v, -n))
-}
 
-#      C     C#    D     Eb    E     F     F#    G     Ab    A     Bb    B
-major_chord <-
-  c(   1,    0,    0,    0,    1,    0,    0,    1,    0,    0,    0,    0)
-minor_chord <-
-  c(   1,    0,    0,    1,    0,    0,    0,    1,    0,    0,    0,    0)
-seventh_chord <-
-  c(   1,    0,    0,    0,    1,    0,    0,    1,    0,    0,    1,    0)
 
-major_key <-
-  c(6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88)
-minor_key <-
-  c(6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17)
 
-chord_templates <-
-  tribble(
-    ~name, ~template,
-    "Gb:7", circshift(seventh_chord, 6),
-    "Gb:maj", circshift(major_chord, 6),
-    "Bb:min", circshift(minor_chord, 10),
-    "Db:maj", circshift(major_chord, 1),
-    "F:min", circshift(minor_chord, 5),
-    "Ab:7", circshift(seventh_chord, 8),
-    "Ab:maj", circshift(major_chord, 8),
-    "C:min", circshift(minor_chord, 0),
-    "Eb:7", circshift(seventh_chord, 3),
-    "Eb:maj", circshift(major_chord, 3),
-    "G:min", circshift(minor_chord, 7),
-    "Bb:7", circshift(seventh_chord, 10),
-    "Bb:maj", circshift(major_chord, 10),
-    "D:min", circshift(minor_chord, 2),
-    "F:7", circshift(seventh_chord, 5),
-    "F:maj", circshift(major_chord, 5),
-    "A:min", circshift(minor_chord, 9),
-    "C:7", circshift(seventh_chord, 0),
-    "C:maj", circshift(major_chord, 0),
-    "E:min", circshift(minor_chord, 4),
-    "G:7", circshift(seventh_chord, 7),
-    "G:maj", circshift(major_chord, 7),
-    "B:min", circshift(minor_chord, 11),
-    "D:7", circshift(seventh_chord, 2),
-    "D:maj", circshift(major_chord, 2),
-    "F#:min", circshift(minor_chord, 6),
-    "A:7", circshift(seventh_chord, 9),
-    "A:maj", circshift(major_chord, 9),
-    "C#:min", circshift(minor_chord, 1),
-    "E:7", circshift(seventh_chord, 4),
-    "E:maj", circshift(major_chord, 4),
-    "G#:min", circshift(minor_chord, 8),
-    "B:7", circshift(seventh_chord, 11),
-    "B:maj", circshift(major_chord, 11),
-    "D#:min", circshift(minor_chord, 3)
-  )
-
-key_templates <-
-  tribble(
-    ~name, ~template,
-    "Gb:maj", circshift(major_key, 6),
-    "Bb:min", circshift(minor_key, 10),
-    "Db:maj", circshift(major_key, 1),
-    "F:min", circshift(minor_key, 5),
-    "Ab:maj", circshift(major_key, 8),
-    "C:min", circshift(minor_key, 0),
-    "Eb:maj", circshift(major_key, 3),
-    "G:min", circshift(minor_key, 7),
-    "Bb:maj", circshift(major_key, 10),
-    "D:min", circshift(minor_key, 2),
-    "F:maj", circshift(major_key, 5),
-    "A:min", circshift(minor_key, 9),
-    "C:maj", circshift(major_key, 0),
-    "E:min", circshift(minor_key, 4),
-    "G:maj", circshift(major_key, 7),
-    "B:min", circshift(minor_key, 11),
-    "D:maj", circshift(major_key, 2),
-    "F#:min", circshift(minor_key, 6),
-    "A:maj", circshift(major_key, 9),
-    "C#:min", circshift(minor_key, 1),
-    "E:maj", circshift(major_key, 4),
-    "G#:min", circshift(minor_key, 8),
-    "B:maj", circshift(major_key, 11),
-    "D#:min", circshift(minor_key, 3)
-  )
-
-Ooh_wah <-
-  get_tidy_audio_analysis("71lQtAihaaI5YnWJnZzxPq") %>%
-  compmus_align(sections, segments) %>%
-  select(sections) %>%
-  unnest(sections) %>%
-  mutate(
-    pitches =
-      map(segments,
-        compmus_summarise, pitches,
-        method = "mean", norm = "manhattan"
-      )
-  )
-
-Ooh_wah_plot <- Ooh_wah %>% 
-  compmus_match_pitch_template(
-    key_templates,         # Change to chord_templates if descired
-    method = "euclidean",  # Try different distance metrics
-    norm = "manhattan"     # Try different norms
-  ) %>%
-  ggplot(
-    aes(x = start + duration / 2, width = duration, y = name, fill = d)
-  ) +
-  geom_tile() +
-  scale_fill_viridis_c(guide = "none") +
-  theme_minimal() +
-  labs(x = "Time (s)", y = "")
-
-Boong_boong <-
-  get_tidy_audio_analysis("3uJN5Acv1WMsITAEvHuJox") %>%
-  compmus_align(sections, segments) %>%
-  select(sections) %>%
-  unnest(sections) %>%
-  mutate(
-    pitches =
-      map(segments,
-        compmus_summarise, pitches,
-        method = "mean", norm = "manhattan"
-      )
-  )
-
-Boong_boong_plot <- Boong_boong %>% 
-  compmus_match_pitch_template(
-    key_templates,         # Change to chord_templates if descired
-    method = "euclidean",  # Try different distance metrics
-    norm = "manhattan"     # Try different norms
-  ) %>%
-  ggplot(
-    aes(x = start + duration / 2, width = duration, y = name, fill = d)
-  ) +
-  geom_tile() +
-  scale_fill_viridis_c(guide = "none") +
-  theme_minimal() +
-  labs(x = "Time (s)", y = "")
-
-plot_grid(Boong_boong_plot, Ooh_wah_plot, labels=c("Boong-boong", "Ooh_wah"), hjust="outward", heights=c(2,4),ncol=1, nrow=2)
-
-```
-
-***
-What is interesting is that both plots showcase similar chord usages. Might there be a winning formula for rap competitions? (Pending Linear regression winners )
-
-### Chronogram of the song with the highest voting percentage in all of HSR: Boong-Boong
+### Code kunst chromograms
 
 ``` {r}
-BMBM <-
-  get_tidy_audio_analysis("3uJN5Acv1WMsITAEvHuJox") %>%
+Good_day <-
+  get_tidy_audio_analysis("6CxxgFhfvh5uz6h4l0ltzP") %>%
   select(segments) %>%
   unnest(segments) %>%
   select(start, duration, pitches)
 
-BMBM %>%
+Good_day_plot <- Good_day %>%
   mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
   compmus_gather_chroma() %>% 
   ggplot(
@@ -303,145 +241,150 @@ BMBM %>%
       y = pitch_class,
       fill = value
     )
-  ) + ggtitle("Chroma: Boong-boong (Kim Ha-on)")+
+  ) + ggtitle("Chroma: Good day (SMTM)")+
   geom_tile() +
   labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
-  theme_minimal() +
+  theme_dark() +
   scale_fill_viridis_c()
 
-```
+Wake_up <-
+  get_tidy_audio_analysis("3ijq6sRH7PgRabMb83VvQO") %>%
+  select(segments) %>%
+  unnest(segments) %>%
+  select(start, duration, pitches)
 
-***
-Moving forward from the producer characteristics (See "Producer characterstics for now"), there is one outlier in the valence metric that turns out to be very special: The finals song of the second season by Kim Ha-on won the largest share of any finals performance (26.8%) by a large margin (Next closest winning performance achieved 23.7%)
-
-As can be seen in the chronogram the song is all over the place other than the standard occurences of the C, G and G#/Ab tones. The melody in especially the chorus is very apparent compared to how one would hear it: The melody of the flute in this song screams out free and listening to this song once the chorus hits makes it clear that the frequent occurences of the spikes in other tones can be largely tied down to the melody of the flute going wild. 
-
-### Timbre features
-``` {r}
-bzt <-
-  get_tidy_audio_analysis("3uJN5Acv1WMsITAEvHuJox") %>% # Change URI.
-  compmus_align(bars, segments) %>%                     # Change `bars`
-  select(bars) %>%                                      #   in all three
-  unnest(bars) %>%                                      #   of these lines.
-  mutate(
-    pitches =
-      map(segments,
-        compmus_summarise, pitches,
-        method = "rms", norm = "euclidean"              # Change summary & norm.
-      )
-  ) %>%
-  mutate(
-    timbre =
-      map(segments,
-        compmus_summarise, timbre,
-        method = "rms", norm = "euclidean"              # Change summary & norm.
-      )
-  )
-
-
-bzt2 <-
-  get_tidy_audio_analysis("71lQtAihaaI5YnWJnZzxPq") %>% # Change URI.
-  compmus_align(bars, segments) %>%                     # Change `bars`
-  select(bars) %>%                                      #   in all three
-  unnest(bars) %>%                                      #   of these lines.
-  mutate(
-    pitches =
-      map(segments,
-        compmus_summarise, pitches,
-        method = "rms", norm = "manhattan"              # Change summary & norm.
-      )
-  ) %>%
-  mutate(
-    timbre =
-      map(segments,
-        compmus_summarise, timbre,
-        method = "rms", norm = "manhattan"              # Change summary & norm.
-      )
-  )
-
-
-bztplot <- bzt %>%
-  compmus_gather_timbre() %>%
+Wake_up_plot <- Wake_up %>%
+  mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
+  compmus_gather_chroma() %>% 
   ggplot(
     aes(
       x = start + duration / 2,
       width = duration,
-      y = basis,
+      y = pitch_class,
       fill = value
     )
-  ) +
+  ) + ggtitle("Chroma: Wake up (SMTM 10)")+
   geom_tile() +
-  labs(x = "Time (s)", y = NULL, fill = "Magnitude") + ggtitle("Boong-boong")+
-  scale_fill_viridis_c() +              
-  theme_classic()
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  theme_dark() +
+  scale_fill_viridis_c()
 
+Red_light <-
+  get_tidy_audio_analysis("0dLsjLIoEpiBWVvYO0jfB3") %>%
+  select(segments) %>%
+  unnest(segments) %>%
+  select(start, duration, pitches)
 
-
-bztplot2 <- bzt2 %>%
-  compmus_gather_timbre() %>%
+Red_light_plot <- Red_light %>%
+  mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
+  compmus_gather_chroma() %>% 
   ggplot(
     aes(
       x = start + duration / 2,
       width = duration,
-      y = basis,
+      y = pitch_class,
       fill = value
     )
-  ) +
+  ) + ggtitle("Chroma: Red light (Higschool Rapper 4)")+
   geom_tile() +
-  labs(x = "Time (s)", y = NULL, fill = "Magnitude") + ggtitle("Ooh wah")+
-  scale_fill_viridis_c() +              
-  theme_classic()
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  theme_dark() +
+  scale_fill_viridis_c()
 
-cowplot:: plot_grid(bztplot, bztplot2,hjust="outward", heights=c(30,15) )
+plot_grid(Good_day_plot,
+Wake_up_plot, hjust="outward", ncol=1, nrow=2, rel_heights = c(1/2, 1/2))
 ```
-
-*** 
-When comparing the song "Boong-boong" to the last winner's song (Ooh wah), the frquencies of the former seem to be slightly more spread out in comparison to the densely populated Ooh wah. Overall both songs score very similar in valence and tempo and without looking at the data I would easily put these songs together as the songs that can easily be perceived as having a similar vibe among all discography used in this portfolio. Might there be a winning formula then? (work in progress: Linear regression for final performances per season) 
-
-
-
-### Producer characteristics
-
-``` {r}
-
-
-TOTAL_plot_valence <- ggplot(Producers, aes(y=valence, x=tempo, label=track.name))+ geom_point(aes(color=producer)) +  xlab("Tempo") + geom_text(aes( label=ifelse(valence>0.85,as.character(track.name),'')), hjust="inward", vjust="inward", size=1.5)+ 
-ylab("Track valence") + theme_dark() 
-
-TOTAL_plot_energy <- ggplot(Producers, aes(y=energy, x=tempo, label=track.name))+ geom_point(aes(color=producer)) + geom_text(aes(label=ifelse(energy>0.9,as.character(track.name),'')), hjust="inward", vjust="inward", size=1.5) +  xlab("Tempo") + 
-ylab("Energy") + theme_dark() 
-
-
-plot_grid(TOTAL_plot_valence, TOTAL_plot_energy, labels=c("Valence", "Energy"), hjust="outward", heights=c(2,4),ncol=1, nrow=2)
-
-```
-
-
 
 ***
-While initially the plan was to compare start with a comparison of different seasons, the rotating door that is producer choices are such that, excluding CODE KUNST, most producers do not appear in more than two seasons. Of all the songs in which the producer name has been mentioned, the plot shows very differing results.
+The first producer that we will be taking a look at is Code Kunst. Most notorious for being the best producer to never win a season up till season 9, some of his most played SMTM songs include two songs that got released in the same stage 3 years apart: Good Day in season 7 and Wake up in season 10.
 
-First off: The valence and energy portrayed in competition songs never dipped below 0.5 and 0.28 respectively. Moreover, the broad range in tempo, valence and energy signify that there is no one-fits-all solution when choosing a beat for most producers. 
+As is visible on the plots, Code kunst does seem to alternate in chord usage and the progressions do not reflect too much similarity. There does seem to be a tendency of centering around one key (C#/Db) for Good day, whereas this is less apparent in Wake up.
 
-Most notably three of the highest scoring songs on energy were all produced by the same producer. What seems to be fairly odd to me is that the song Wot wot scored as high as it did: From my point of view the itself has a very indifferent feeling to it. 
+One possible explanation for this difference could be that, rather than having a repeated 4-chord progression, Code Kunst chose to repeatedly play a subset of the same notes with slight alterations in between. The Eb , F and G pitch classes appear the most have the highest intensity yet this is not very surprising because it is hearable that there exist a 3-tone progression.
 
-### BOXPLOT_Seasons
- ``` {r}
- group_by_album <- HSR %>% group_by(season)
+### GroovyRoom chromagrams
 
-group_by_album2 <- SMTM %>% group_by(season)
+``` {r}
+Boong_boong2 <-
+  get_tidy_audio_analysis("3uJN5Acv1WMsITAEvHuJox") %>%
+  select(segments) %>%
+  unnest(segments) %>%
+  select(start, duration, pitches)
 
+Boong_boong2_plot <- Boong_boong2 %>%
+  mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
+  compmus_gather_chroma() %>% 
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = pitch_class,
+      fill = value
+    )
+  ) + ggtitle("Chroma: Boong-Boong (HSR 2)")+
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  theme_dark() +
+  scale_fill_viridis_c()
 
-group_album_plot1 <- ggplot(group_by_album, aes(x=season, y=tempo, color=season)) + geom_boxplot() + theme(legend.title= element_blank(), axis.text.x=element_blank())
- 
-group_album_plot2 <- ggplot(group_by_album2, aes(x=season, y=tempo, color=season)) + geom_boxplot() + theme(legend.title= element_blank(), axis.text.x=element_blank()) 
+Barcode <-
+  get_tidy_audio_analysis("0el9gNyGpY6xGwOkPwKsPR") %>%
+  select(segments) %>%
+  unnest(segments) %>%
+  select(start, duration, pitches)
 
-plot_grid(group_album_plot1, group_album_plot2, labels=c("Highschool Rapper", "Show me The money"), heights=c(4,2), nrow=1, ncol=2)
+Barcode_plot <- Barcode %>%
+  mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
+  compmus_gather_chroma() %>% 
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = pitch_class,
+      fill = value
+    )
+  ) + ggtitle("Chroma: Barcode (HSR 2)")+
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  theme_dark() +
+  scale_fill_viridis_c()
 
- 
- ```
+Achoo <-
+  get_tidy_audio_analysis("3b80IqPWhMgFA4RXFQLpFz") %>%
+  select(segments) %>%
+  unnest(segments) %>%
+  select(start, duration, pitches)
+
+Achoo_plot <- Achoo %>%
+  mutate(pitches = map(pitches, compmus_normalise, "euclidean")) %>%
+  compmus_gather_chroma() %>% 
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = pitch_class,
+      fill = value
+    )
+  ) + ggtitle("Chroma: Achoo (SMTM 10)")+
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  theme_dark() +
+  scale_fill_viridis_c()
+
+plot_grid(Boong_boong2_plot,
+Achoo_plot, hjust="outward", ncol=1, nrow=2, rel_heights = c(1/2, 1/2))
+```
+
+***
+The second producer that I decided to take a look at is the producer duo GroovyRoom. In their songs Boong-boong (from HSR2) and Achoo (from SMTM9) the graph suggests that the latter is more monotone. This is perceivable when listening to the song as the pitch class used throughout the whole song is the same with a handful of higher upper tones depicting the melody in the middle of every beat. 
+
+Compared to Achoo, Boong-boong quite literally sounds like a festival. While the verses of the song contains multiple chords, the flute part in the chorus spreads across so many different pitches. This is very apparent as around 60 seconds and again 120 seconds the intensity of pitches that were not used in the first 60 seconds spike up instantly. 
  
 ### Concluding thoughts
-From what I have been able to witness so far, the popification of Higschool rapper is very apparent in the changing trend of valence throughout the seasons. There does not seem to be any distinctive trend of features of Show me The money songs. 
+From what I have been able to witness there does not seem to be significant pointers towards possible trends throughout all the metrics we have looked at.
 
-### 
+Furthermore, the tempo for show me the money seems to have settled in a certain range which also seems to what might be happening for highschool rapper.
+
+Unfortunately highschool rapper did not get a 5th season this year due to poor broadcast ratings, however we can always remain hopeful for it to return someday in the future.
+
+For future works one might be interested to look at unpretty rapstar seasons (The female variant) or other season picks from Show me the Money.
