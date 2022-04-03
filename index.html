@@ -782,6 +782,7 @@ html, body {
 <img class="mobile-figure" data-mobile-figure-id=fig3 src="index_files/figure-html/unnamed-chunk-3-1.mb.png" />
 <img class="mobile-figure" data-mobile-figure-id=fig4 src="index_files/figure-html/unnamed-chunk-4-1.mb.png" />
 <img class="mobile-figure" data-mobile-figure-id=fig5 src="index_files/figure-html/unnamed-chunk-5-1.mb.png" />
+<img class="mobile-figure" data-mobile-figure-id=fig6 src="index_files/figure-html/unnamed-chunk-6-1.mb.png" />
 <script type="text/javascript">
 
 
@@ -2626,7 +2627,7 @@ included for each show.</p>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="576" data-figure-id=fig1 /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="576" data-figure-id=fig1 style="display: block; margin: auto;" /></p>
 <hr />
 <p>Starting off with unquestionably the most important metric of all:
 Tempo.</p>
@@ -2674,6 +2675,9 @@ somehow ended up not being that low: The rapper Vinxen that appeared in
 season 2 of Highschool rapper told some of the most depressing stories
 in his lyrics with generally higher tempo-songs such as “Barcode” and
 “Cause”.</p>
+<p>Last but not least the loudness graph similarly shows some areas
+where seasons seem to achieve similar loudness in close vicinity but the
+wide array of songs still allows for outliers.</p>
 <p>Compared to HSR, SMTM has never seen a significantly negative or
 positive artist that made it onto albums.</p>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Buq5ciDCgi4xmh36BiXHa?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
@@ -2686,14 +2690,13 @@ positive artist that made it onto albums.</p>
 </div>
 <p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="576" data-figure-id=fig3 /></p>
 <hr />
-<p>As the usage of beats made by producers heavily depends on whether
-they are part of a team in a season. Similarly finding out what season
-songs are expected to be from (especially with newer trends emerging)
-also seemed interesting. When trying to predict both using the kmeans
-algorithm (with 15 and 8 centers respectively) the results turned out
-quite interesting. Depending on the producer the results were better
-than others, which I found not very surprising. Especially the producer
-Code Kunst has been a mainstay in SMTM and the different classifications
+<p>Finding out what season songs are expected to be from (especially
+with newer trends emerging) seemed interesting as well so I tried this
+using the k-means algorithm. When trying to predict using the k-means
+algorithm (with 8 centers for every season) the results turned out quite
+interesting. Depending on the producer the results were better than
+others, which I found not very surprising. Especially the producer Code
+Kunst has been a mainstay in SMTM and the different classifications
 could very well be more about the different flavours he brought to
 different seasons. Another argument that could be made is that producers
 tend to search for beats that fit particularly well with a given artist
@@ -2741,6 +2744,25 @@ flute part in the chorus spreads across so many different pitches. This
 is very apparent as around 60 seconds and again 120 seconds the
 intensity of pitches that were not used in the first 60 seconds spike up
 instantly.</p>
+</div>
+<div id="timbre-merry-go-round" class="section level3">
+<h3>Timbre: Merry-go-round</h3>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" width="576" data-figure-id=fig6 style="display: block; margin: auto;" /></p>
+<hr />
+<p>Last but not least I present to you a cepstrogram of one of my
+favourite songs of the most recent season: Merry-go-round</p>
+<p>What really makes this song different from all other songs in the
+data set is that the theme of the song is very playful and childish.
+Despite not scoring highly on the show itself the song went on to score
+very well on Korean music charts suggesting that the popularity of the
+song spread out further than just the general audience watching Show me
+The money.</p>
+<p>In the cepstrogram it is very apparent that the circus-like feel that
+the song has is visible through the many distinct tone qualities present
+throughout the song.</p>
 </div>
 <div id="concluding-thoughts" class="section level3">
 <h3>Concluding thoughts</h3>

@@ -155,17 +155,17 @@ The data used exists of all Show me the Money (Season 7, 8, 9 and 10) and Highsc
 
 ### Seasonal Tempo differences
 
-``` {r}
+``` {r fig.align="center", echo = FALSE,fig.width = 5}
  group_by_album <- HSR %>% group_by(season)
 
 group_by_album2 <- SMTM %>% group_by(season)
 
 
-group_album_plot1 <- ggplot(group_by_album, aes(x=season, y=tempo, color = season)) + geom_boxplot() + theme(legend.title= element_blank()) + theme_dark()+ ggtitle("Highschool Rapper") +  scale_x_discrete(limits=c("HSR SEASON 1", "HSR SEASON 2", "HSR SEASON 3", "HSR SEASON 4"), labels=c("HSR SEASON 1" = "1", "HSR SEASON 2" = "2", "HSR SEASON 3" = "3", "HSR SEASON 4" = "4"))
+group_album_plot1 <- ggplot(group_by_album, aes(x=season, y=tempo, color = season, width=20, height=20)) + geom_boxplot() + theme(legend.title= element_blank()) + theme_dark()+ ggtitle("Highschool Rapper") +  scale_x_discrete(limits=c("HSR SEASON 1", "HSR SEASON 2", "HSR SEASON 3", "HSR SEASON 4"), labels=c("HSR SEASON 1" = "1", "HSR SEASON 2" = "2", "HSR SEASON 3" = "3", "HSR SEASON 4" = "4"))
 
-group_album_plot2 <- ggplot(group_by_album2, aes(x=season, y=tempo, color =season)) + geom_boxplot() + theme(legend.title= element_blank()) + theme_dark()+ ggtitle("Show me The money") + scale_x_discrete(limits=c("SMTM season 7", "SMTM season 8", "SMTM season 9", "SMTM season 10"), labels=c("SMTM season 7" = "7", "SMTM season 8" = "8", "SMTM season 9" = "9", "SMTM season 10" = "10"))
+group_album_plot2 <- ggplot(group_by_album2, aes(x=season, y=tempo, color =season, width=20, height=20)) + geom_boxplot() + theme(legend.title= element_blank()) + theme_dark()+ ggtitle("Show me The money") + scale_x_discrete(limits=c("SMTM season 7", "SMTM season 8", "SMTM season 9", "SMTM season 10"), labels=c("SMTM season 7" = "7", "SMTM season 8" = "8", "SMTM season 9" = "9", "SMTM season 10" = "10"))
 
-plot_grid(group_album_plot1, group_album_plot2, heights=c(3,3), nrow=1, ncol=2)
+plot_grid(group_album_plot1, group_album_plot2, nrow=1, ncol=2)
 
  
 ```
@@ -191,8 +191,10 @@ TOTAL_plot_valence <- ggplot(TOTAL, aes(y=valence, x=tempo, label=season))+ geom
 TOTAL_plot_energy <- ggplot(TOTAL, aes(y=energy, x=tempo, label=season))+ geom_point(aes(color=season)) + xlab("Tempo") + ggtitle("Energy") + 
 ylab("Energy") + theme_dark() + theme(legend.position="none") +  facet_wrap(~ show) 
 
+TOTAL_plot_loudness <- ggplot(TOTAL, aes(y=loudness, x=tempo, label=season))+ geom_point(aes(color=season)) + xlab("Tempo") + ylab("Track loudness") + ggtitle("Loudness") + theme_dark()+ theme(legend.position="none")+ facet_wrap(~ show)
 
-plot_grid(TOTAL_plot_valence, TOTAL_plot_energy, labels=c("Valence", "Energy"), hjust="outward", heights=c(3,3), ncol=1, nrow=2)
+
+plot_grid(TOTAL_plot_valence, TOTAL_plot_energy, TOTAL_plot_loudness, labels=c("Valence", "Energy", "Loudness"), hjust="outward", heights=c(3,3), ncol=1, nrow=3)
 
 ```
 
@@ -205,19 +207,21 @@ Even though the energy never crosses below 0.5, the valence in nearly every seas
 
 The song that I rightfully expected to be the lowest scoring songs somehow ended up not being that low: The rapper Vinxen that appeared in season 2 of Highschool rapper told some of the most depressing stories in his lyrics with generally higher tempo-songs such as "Barcode" and "Cause".
 
+Last but not least the loudness graph similarly shows some areas where seasons seem to achieve similar loudness in close vicinity but the wide array of songs still allows for outliers.
+
 Compared to HSR, SMTM has never seen a significantly negative or positive artist that made it onto albums.
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Buq5ciDCgi4xmh36BiXHa?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### Season and Producer predictions
-```{r}
+```{r }
 Seasons_kmeans_plot 
 
 
 ```
 
 ***
-As the usage of beats made by producers heavily depends on whether they are part of a team in a season. Similarly finding out what season songs are expected to be from (especially with newer trends emerging) also seemed interesting. When trying to predict both using the kmeans algorithm (with 15 and 8 centers respectively) the results turned out quite interesting. Depending on the producer the results were better than others, which I found not very surprising. Especially the producer Code Kunst has been a mainstay in SMTM and the different classifications could very well be more about the different flavours he brought to different seasons. Another argument that could be made is that producers tend to search for beats that fit particularly well with a given artist thus the diversity in artists might be even more important.   
+Finding out what season songs are expected to be from (especially with newer trends emerging) seemed interesting as well so I tried this using the k-means algorithm. When trying to predict using the k-means algorithm (with 8 centers for every season) the results turned out quite interesting. Depending on the producer the results were better than others, which I found not very surprising. Especially the producer Code Kunst has been a mainstay in SMTM and the different classifications could very well be more about the different flavours he brought to different seasons. Another argument that could be made is that producers tend to search for beats that fit particularly well with a given artist thus the diversity in artists might be even more important.   
 
 
 
@@ -379,7 +383,53 @@ Achoo_plot, hjust="outward", ncol=1, nrow=2, rel_heights = c(1/2, 1/2))
 The second producer that I decided to take a look at is the producer duo GroovyRoom. In their songs Boong-boong (from HSR2) and Achoo (from SMTM9) the graph suggests that the latter is more monotone. This is perceivable when listening to the song as the pitch class used throughout the whole song is the same with a handful of higher upper tones depicting the melody in the middle of every beat. 
 
 Compared to Achoo, Boong-boong quite literally sounds like a festival. While the verses of the song contains multiple chords, the flute part in the chorus spreads across so many different pitches. This is very apparent as around 60 seconds and again 120 seconds the intensity of pitches that were not used in the first 60 seconds spike up instantly. 
- 
+
+### Timbre: Merry-go-round
+
+```{r fig.align="center", echo = FALSE,fig.width = 6}
+bzt <-
+  get_tidy_audio_analysis("2eLe81VDUQ5f0xFfc9cMWz") %>% # Change URI.
+  compmus_align(bars, segments) %>%                     # Change `bars`
+  select(bars) %>%                                      #   in all three
+  unnest(bars) %>%                                      #   of these lines.
+  mutate(
+    pitches =
+      map(segments,
+        compmus_summarise, pitches,
+        method = "rms", norm = "euclidean"              # Change summary & norm.
+      )
+  ) %>%
+  mutate(
+    timbre =
+      map(segments,
+        compmus_summarise, timbre,
+        method = "rms", norm = "euclidean"              # Change summary & norm.
+      )
+  )
+
+ bzt %>%
+  compmus_gather_timbre() %>%
+  ggplot(
+    aes(
+      x = start + duration / 2,
+      width = duration,
+      y = basis,
+      fill = value
+    )
+  ) +
+  geom_tile() +
+  labs(x = "Time (s)", y = NULL, fill = "Magnitude") +
+  scale_fill_viridis_c() +  
+  theme_dark()+ggtitle("Timbre features of Merry-go-round by Sokodomo")
+```
+
+***
+Last but not least I present to you a cepstrogram of one of my favourite songs of the most recent season: Merry-go-round
+
+What really makes this song different from all other songs in the data set is that the theme of the song is very playful and childish. Despite not scoring highly on the show itself the song went on to score very well on Korean music charts suggesting that the popularity of the song spread out further than just the general audience watching Show me The money.
+
+In the cepstrogram it is very apparent that the circus-like feel that the song has is visible through the many distinct tone qualities present throughout the song. 
+
 ### Concluding thoughts
 From what I have been able to witness there does not seem to be significant pointers towards possible trends throughout all the metrics we have looked at.
 
