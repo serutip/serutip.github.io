@@ -2600,7 +2600,7 @@ window.FlexDashboardComponents.push({
             'AwayAttackElo',
             'AwayDefenseElo'
         ];
-
+        let radarChart;
         let csvData = []; // To store the fetched CSV data
 
         // Function to fetch and populate the dropdowns with teams
@@ -2666,7 +2666,13 @@ window.FlexDashboardComponents.push({
                     const dataset2 = labels.map(label => parseFloat(data2[label] || 0));
 
                     const ctx = document.getElementById('radarChart').getContext('2d');
-                    new Chart(ctx, {
+
+                    // Destroy the existing chart if it exists
+                    if (radarChart) {
+                        radarChart.destroy();
+                    }
+
+                    radarChart = new Chart(ctx, {
                         type: 'radar',
                         data: {
                             labels: labels,
