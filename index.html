@@ -21,7 +21,7 @@
 <script type="text/javascript">
 window.FlexDashboardComponents = [];
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 <script src="index_files/header-attrs-2.11/header-attrs.js"></script>
 <script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -2577,50 +2577,138 @@ window.FlexDashboardComponents.push({
 <div id="dashboard-container">
 <div id="Soccer Stats" class="section level3">
 <h3>Soccer Stats</h3>
-<select id="homeTeamDropdown">
-<option value="">Select a Team</option>
-</select>
 <p>Placeholder for Soccer stats</p>
- <script>
-        // Load and parse the CSV
-        function fetchCSV(callback) {
-            const csvUrl = 'https://github.com/serutip/serutip.github.io/blob/main/TotalEloC.csv'; // Update this with your CSV URL
+        <select id="teamDropdown1">
+            <option value="" disabled selected>Select a team</option>
+            <!-- Dropdown 1 options will be populated here -->
+        </select>
+        <select id="teamDropdown2">
+            <option value="" disabled selected>Select a team</option>
+            <!-- Dropdown 2 options will be populated here -->
+        </select>
+        <button id="selectButton">Show Selected Teams</button>
+        <p id="selectedTeams">Selected teams will appear here.</p>
+        <canvas id="radarChart" width="600" height="400"></canvas>
+    <script>
+
+        const radarColumns = [
+            'TotalElo',
+            'HomeTotalElo',
+            'AwayTotalElo',
+            'HomeAttackElo',
+            'HomeDefenseElo',
+            'AwayAttackElo',
+            'AwayDefenseElo'
+        ];
+
+        let csvData = []; // To store the fetched CSV data
+
+        // Function to fetch and populate the dropdowns with teams
+        function fetchAndPopulateDropdowns() {
+            const csvUrl = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/TotalEloC.csv'; // Replace with your raw CSV URL
+
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
-                    callback(results.data);
+                    csvData = results.data; // Store the data
+                    populateDropdowns(csvData);
+                },
+                error: function(error) {
+                    console.error('Error parsing CSV:', error);
                 }
             });
         }
 
-        // Populate dropdown with HomeTeam column
-        function populateDropdown() {
-            fetchCSV(function(data) {
-                const dropdown = document.getElementById('HomeTeamDropdown');
-                const homeTeams = new Set(); // Use Set to ensure unique values
-                
-                // Extract unique HomeTeam values
-                data.forEach(row => {
-                    if (row['team']) {
-                        homeTeams.add(row['team']);
-                    }
-                });
+        // Function to populate the dropdowns with the "Team" column
+        function populateDropdowns(data) {
+            const dropdown1 = document.getElementById('teamDropdown1');
+            const dropdown2 = document.getElementById('teamDropdown2');
+            const teams = new Set(); // Use a Set to avoid duplicate entries
 
-                // Add HomeTeam values as options in the dropdown
-                homeTeams.forEach(team => {
-                    const option = document.createElement('option');
-                    option.value = team;
-                    option.textContent = team;
-                    dropdown.appendChild(option);
-                });
+            data.forEach(row => {
+                if (row['team']) { // Replace 'Team' with the correct column name
+                    teams.add(row['team']);
+                }
+            });
+
+            // Populate dropdowns with unique team names
+            teams.forEach(team => {
+                const option1 = document.createElement('option');
+                option1.value = team;
+                option1.textContent = team;
+                dropdown1.appendChild(option1);
+
+                const option2 = document.createElement('option');
+                option2.value = team;
+                option2.textContent = team;
+                dropdown2.appendChild(option2);
             });
         }
 
-        // Call function to populate dropdown when page loads
-        window.onload = populateDropdown;
+        // Function to get row data for a selected team
+        function getRowData(teamName) {
+            return csvData.find(row => row['team'] === teamName); // Replace 'Team' with the correct column name
+        }
+
+        // Function to create and display the radar chart
+        function displayRadarChart() {
+            const team1 = document.getElementById('teamDropdown1').value;
+            const team2 = document.getElementById('teamDropdown2').value;
+
+            if (team1 && team2) {
+                const data1 = getRowData(team1);
+                const data2 = getRowData(team2);
+
+                if (data1 && data2) {
+                    const labels = radarColumns; 
+                    const dataset1 = labels.map(label => parseFloat(data1[label] || 0));
+                    const dataset2 = labels.map(label => parseFloat(data2[label] || 0));
+
+                    const ctx = document.getElementById('radarChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'radar',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: team1,
+                                    data: dataset1,
+                                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                    borderColor: 'rgba(255, 99, 132, 1)',
+                                    borderWidth: 1
+                                },
+                                {
+                                    label: team2,
+                                    data: dataset2,
+                                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                    borderColor: 'rgba(54, 162, 235, 1)',
+                                    borderWidth: 1
+                                }
+                            ]
+                        },
+                        options: {
+                            scales: {
+                                r: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                } else {
+                    console.error('Data not found for one or both teams.');
+                }
+            } else {
+                console.error('Please select both teams.');
+            }
+        }
+
+        // Set up event listener for the button
+        document.getElementById('selectButton').addEventListener('click', displayRadarChart);
+
+        // Fetch and populate the dropdowns when the page loads
+        window.onload = fetchAndPopulateDropdowns;
     </script>
-</div>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
 <p>For many Korean artists, the path to fame is not simple. While the
