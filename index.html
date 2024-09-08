@@ -2696,8 +2696,11 @@ window.FlexDashboardComponents.push({
                         options: {
                             scales: {
                                 r: {
-                                    beginAtZero: true
-                                }
+				    min: 0,
+                                    max: 10,
+                                    ticks: {
+                                        stepSize: 1 // Optional: control the steps between ticks
+                                    }
                             }
                         }
                     });
