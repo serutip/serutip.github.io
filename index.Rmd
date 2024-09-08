@@ -128,6 +128,8 @@ Seasons_with_pred <- mutate(Producers, cluster=Kmeans_seasons$cluster)
 Seasons_kmeans_plot <- ggplot(Seasons_with_pred, aes(x = valence,y =tempo, color = factor(cluster), label=season)) +     geom_point() + geom_text(hjust=.5, vjust=2, size=1) 
 
 ```
+### Soccer stats
+This will be used for Soccer Stats
 
 ### Introduction 
 
