@@ -22,6 +22,7 @@
 window.FlexDashboardComponents = [];
 </script>
 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 <script src="index_files/header-attrs-2.11/header-attrs.js"></script>
 <script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -2576,8 +2577,49 @@ window.FlexDashboardComponents.push({
 <div id="dashboard-container">
 <div id="Soccer Stats" class="section level3">
 <h3>Soccer Stats</h3>
+<select id="homeTeamDropdown">
+<option value="">Select a Team</option>
+</select>
 <p>Placeholder for Soccer stats</p>
- 
+ <script>
+        // Load and parse the CSV
+        function fetchCSV(callback) {
+            const csvUrl = 'https://github.com/serutip/serutip.github.io/blob/main/TotalEloC.csv'; // Update this with your CSV URL
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    callback(results.data);
+                }
+            });
+        }
+
+        // Populate dropdown with HomeTeam column
+        function populateDropdown() {
+            fetchCSV(function(data) {
+                const dropdown = document.getElementById('HomeTeamDropdown');
+                const homeTeams = new Set(); // Use Set to ensure unique values
+                
+                // Extract unique HomeTeam values
+                data.forEach(row => {
+                    if (row['team']) {
+                        homeTeams.add(row['team']);
+                    }
+                });
+
+                // Add HomeTeam values as options in the dropdown
+                homeTeams.forEach(team => {
+                    const option = document.createElement('option');
+                    option.value = team;
+                    option.textContent = team;
+                    dropdown.appendChild(option);
+                });
+            });
+        }
+
+        // Call function to populate dropdown when page loads
+        window.onload = populateDropdown;
+    </script>
 </div>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
