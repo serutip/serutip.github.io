@@ -762,7 +762,7 @@ html, body {
   
 </span>
 <span class="navbar-brand">
-  Flexdashboard on Korean Rap
+  Ruse 24/25
   <span class="navbar-author">
     Jardel Barrow &mdash; 7-4-2022
     </span>
@@ -2590,7 +2590,7 @@ window.FlexDashboardComponents.push({
         <p id="selectedTeams">Selected teams will appear here.</p>
         <canvas id="radarChart" width="600" height="400"></canvas>
     <script>
-
+	
         const radarColumns = [
             'TotalElo',
             'HomeTotalElo',
@@ -2605,13 +2605,15 @@ window.FlexDashboardComponents.push({
 
         // Function to fetch and populate the dropdowns with teams
         function fetchAndPopulateDropdowns() {
+            console.log("123");
             const csvUrl = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/TotalEloC.csv'; // Replace with your raw CSV URL
-	    c
+	    
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
                     csvData = results.data; // Store the data
+		    
                     populateDropdowns(csvData);
                 },
                 error: function(error) {
@@ -2625,7 +2627,7 @@ window.FlexDashboardComponents.push({
             const dropdown1 = document.getElementById('teamDropdown1');
             const dropdown2 = document.getElementById('teamDropdown2');
             const teams = new Set(); // Use a Set to avoid duplicate entries
-
+	    
             data.forEach(row => {
                 if (row['team']) { // Replace 'Team' with the correct column name
                     teams.add(row['team']);
@@ -2716,12 +2718,12 @@ window.FlexDashboardComponents.push({
         document.getElementById('selectButton').addEventListener('click', displayRadarChart);
 
         // Fetch and populate the dropdowns when the page loads
-        window.onload = fetchAndPopulateDropdowns;
+		
     </script>
 
 <div id="Next week's predictions" class="section level3">
 <h3>Soccer Predictions next period</h3>
-<table id="teamTable" width="100%" style="border-collapse: collapse; font-size: 8px;">
+<table id="teamTable" width="100%" style="overflow-y: auto; border-collapse: collapse; font-size: 8px;">
   <tr font-size="3px" style="border: 2px solid black;">
     <th style="border: 2px solid black;">Date</th>
     <th style="border: 2px solid black;">HomeTeam</th>
@@ -2743,12 +2745,18 @@ function fetchAndPopulateTable() {
                 header: true,
                 complete: function(results) {
                     response = results.data; // Store the data;
-		    loadTable(response)
+		    loadTable(response);
+		    fetchAndPopulateDropdowns();
+
                 },
                 error: function(error) {
                     console.error('Error parsing CSV:', error);
-                }
-            });
+                }        
+
+
+
+
+});
 
 
 function loadTable(response){	    
@@ -2800,7 +2808,6 @@ function loadTable(response){
     
         };
 window.onload = fetchAndPopulateTable;
-
 </script>
 
 
