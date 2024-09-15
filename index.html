@@ -9,9 +9,9 @@
 
 
 
-<title>Flexdashboard on Korean Rap</title>
+<title>Ruse 24/25</title>
 
-<meta property="og:title" content="Flexdashboard on Korean Rap" />
+<meta property="og:title" content="Ruse 24/25" />
 
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
@@ -2718,6 +2718,93 @@ window.FlexDashboardComponents.push({
         // Fetch and populate the dropdowns when the page loads
         window.onload = fetchAndPopulateDropdowns;
     </script>
+
+<div id="Next week's predictions" class="section level3">
+<h3>Soccer Predictions next period</h3>
+<table id="teamTable" width="100%" style="border-collapse: collapse; font-size: 15px;">
+  <tr font-size="3px" style="border: 2px solid black;">
+    <th style="border: 2px solid black;">Date</th>
+    <th style="border: 2px solid black;">HomeTeam</th>
+    <th style="border: 2px solid black;">AwayTeam</th>
+    <th style="border: 2px solid black;">Prediction 1</th>
+    <th style="border: 2px solid black;">Prediction 2</th>
+    <th style="border: 2px solid black;">Decision</th>
+  </tr>
+
+</table>
+</div>
+<script>
+
+function fetchAndPopulateTable() {
+            const csvUrl = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew.csv'; // Replace with your raw CSV URL
+
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    response = results.data; // Store the data;
+		    loadTable(response)
+                },
+                error: function(error) {
+                    console.error('Error parsing CSV:', error);
+                }
+            });
+
+
+function loadTable(response){	    
+
+
+      const tableBody = document.querySelector('#teamTable tbody');
+      cols = response;
+      response.forEach(row => {
+    	  const newRow = document.createElement('tr');
+	  
+        
+            const td = document.createElement('td');
+            const dateCell = document.createElement('td');
+      	    dateCell.textContent = row.Date || 'N/A';
+	    dateCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+            newRow.appendChild(dateCell);
+
+            const homeTeamCell = document.createElement('td');
+            homeTeamCell.textContent = row["Home Team"] || 'N/A';
+            homeTeamCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+            newRow.appendChild(homeTeamCell);
+	
+      const awayTeamCell = document.createElement('td');
+      awayTeamCell.textContent = row["Away Team"] || 'N/A';
+      awayTeamCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(awayTeamCell);
+
+      const prediction1Cell = document.createElement('td');
+      prediction1Cell.textContent = row['Prediction 1'] || 'N/A';
+      prediction1Cell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(prediction1Cell);
+
+      const prediction2Cell = document.createElement('td');
+      prediction2Cell.textContent = row['Prediction 2'] || 'N/A';
+      prediction2Cell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(prediction2Cell);
+
+      const decisionCell = document.createElement('td');
+      decisionCell.textContent = row.Decision || 'N/A';
+      decisionCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(decisionCell);
+            newRow.appendChild(td);
+          ;	
+
+          // Append the new row to the table
+          tableBody.appendChild(newRow, style="border: 2px solid black;");
+        
+      })};
+    
+        };
+window.onload = fetchAndPopulateTable;
+
+</script>
+
+
+
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
 <p>For many Korean artists, the path to fame is not simple. While the
@@ -2765,163 +2852,7 @@ and Highschool rapper (Season 1, 2, 3 and 4) discography with a total of
 213 songs (121 and 92 respectively) with the four latest seasons
 included for each show.</p>
 </div>
-<div id="seasonal-tempo-differences" class="section level3">
-<h3>Seasonal Tempo differences</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
-</div>
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="576" data-figure-id=fig1 style="display: block; margin: auto;" /></p>
-<hr />
-<p>Starting off with unquestionably the most important metric of all:
-Tempo.</p>
-<p>As can be seen the Highschool rapper has a clear trend throughout the
-first three seasons: While the lowest and highest tempo in these seasons
-are quite similar, the proportion of songs that sit on the higher end of
-the spectrum grew higher in the second season. Compared to the first two
-seasons, the bars become more diverse: Higher highs, Equal lows and
-again higher ended spectrums with the third season clearly a head above
-the rest.</p>
-<p>Compared to the HSR graphs, the Show me the money do not show
-anything particular: Very similar boundaries and a very similar
-distribution with the 8th season having on average a lower tempo.</p>
-<p>Overall the HSR graphs show that there has been a stagnant tempo
-increase after a short infancy period which perfectl coincides with the
-types of producer teams apparent: The first season featured producers of
-the label VMC which is particularly known for its Boom-bap beat usage.
-On the other hand later seasons of the show featured producers such as
-GroovyRoom and Gray with which higher speed rappers are able to shine
-more when coupled with more energetic beats.</p>
-<p>For Show me the money the very reason why we cannot see a significant
-difference might very well also be infancy: The show has been running
-for 10 years and to keep the already massive following going there may
-be actors at play that want the producers to stick within a certain
-boundary to maintain a steady viewership rate because after all the show
-needs its viewers more than good music for it to be succesful.</p>
-</div>
-<div id="producer-characteristics" class="section level3">
-<h3>Producer characteristics</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
-
-</div>
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" width="576" data-figure-id=fig2 /></p>
-<hr />
-<p>When looking at both the valence and the energy you might notice
-something weird on the y-axis: The energy and the valence don’t share
-the same scale on the y-axis.</p>
-<p>Even though the energy never crosses below 0.5, the valence in nearly
-every season is widespread. Interesting is that while the majority of
-high valence songs (&gt;0.8) are high tempo for HSR, there does not seem
-to be such an occurence for SMTM songs as both low- and high tempo songs
-appear.</p>
-<p>The song that I rightfully expected to be the lowest scoring songs
-somehow ended up not being that low: The rapper Vinxen that appeared in
-season 2 of Highschool rapper told some of the most depressing stories
-in his lyrics with generally higher tempo-songs such as “Barcode” and
-“Cause”.</p>
-<p>Last but not least the loudness graph similarly shows some areas
-where seasons seem to achieve similar loudness in close vicinity but the
-wide array of songs still allows for outliers.</p>
-<p>Compared to HSR, SMTM has never seen a significantly negative or
-positive artist that made it onto albums.</p>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Buq5ciDCgi4xmh36BiXHa?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-</iframe>
-</div>
-<div id="season-and-producer-predictions" class="section level3">
-<h3>Season and Producer predictions</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
-
-</div>
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="576" data-figure-id=fig3 /></p>
-<hr />
-<p>Finding out what season songs are expected to be from (especially
-with newer trends emerging) seemed interesting as well so I tried this
-using the k-means algorithm. When trying to predict using the k-means
-algorithm (with 8 centers for every season) the results turned out quite
-interesting. Depending on the producer the results were better than
-others, which I found not very surprising. Especially the producer Code
-Kunst has been a mainstay in SMTM and the different classifications
-could very well be more about the different flavours he brought to
-different seasons. Another argument that could be made is that producers
-tend to search for beats that fit particularly well with a given artist
-thus the diversity in artists might be even more important.</p>
-</div>
-<div id="code-kunst-chromograms" class="section level3">
-<h3>Code kunst chromograms</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
-
-</div>
-<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" width="576" data-figure-id=fig4 /></p>
-<hr />
-<p>The first producer that we will be taking a look at is Code Kunst.
-Most notorious for being the best producer to never win a season up till
-season 9, some of his most played SMTM songs include two songs that got
-released in the same stage 3 years apart: Good Day in season 7 and Wake
-up in season 10.</p>
-<p>As is visible on the plots, Code kunst does seem to alternate in
-chord usage and the progressions do not reflect too much similarity.
-There does seem to be a tendency of centering around one key (C#/Db) for
-Good day, whereas this is less apparent in Wake up.</p>
-<p>One possible explanation for this difference could be that, rather
-than having a repeated 4-chord progression, Code Kunst chose to
-repeatedly play a subset of the same notes with slight alterations in
-between. The Eb , F and G pitch classes appear the most have the highest
-intensity yet this is not very surprising because it is hearable that
-there exist a 3-tone progression.</p>
-</div>
-<div id="groovyroom-chromagrams" class="section level3">
-<h3>GroovyRoom chromagrams</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
-
-</div>
-<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" width="576" data-figure-id=fig5 /></p>
-<hr />
-<p>The second producer that I decided to take a look at is the producer
-duo GroovyRoom. In their songs Boong-boong (from HSR2) and Achoo (from
-SMTM9) the graph suggests that the latter is more monotone. This is
-perceivable when listening to the song as the pitch class used
-throughout the whole song is the same with a handful of higher upper
-tones depicting the melody in the middle of every beat.</p>
-<p>Compared to Achoo, Boong-boong quite literally sounds like a
-festival. While the verses of the song contains multiple chords, the
-flute part in the chorus spreads across so many different pitches. This
-is very apparent as around 60 seconds and again 120 seconds the
-intensity of pitches that were not used in the first 60 seconds spike up
-instantly.</p>
-</div>
-<div id="timbre-merry-go-round" class="section level3">
-<h3>Timbre: Merry-go-round</h3>
-<div class="knitr-options" data-fig-width="576" data-fig-height="460">
-
-</div>
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" width="576" data-figure-id=fig6 style="display: block; margin: auto;" /></p>
-<hr />
-<p>Last but not least I present to you a cepstrogram of one of my
-favourite songs of the most recent season: Merry-go-round</p>
-<p>What really makes this song different from all other songs in the
-data set is that the theme of the song is very playful and childish.
-Despite not scoring highly on the show itself the song went on to score
-very well on Korean music charts suggesting that the popularity of the
-song spread out further than just the general audience watching Show me
-The money.</p>
-<p>In the cepstrogram it is very apparent that the circus-like feel that
-the song has is visible through the many distinct tone qualities present
-throughout the song.</p>
-</div>
-<div id="concluding-thoughts" class="section level3">
-<h3>Concluding thoughts</h3>
-<p>From what I have been able to witness there does not seem to be
-significant pointers towards possible trends throughout all the metrics
-we have looked at.</p>
-<p>Furthermore, the tempo for show me the money seems to have settled in
-a certain range which also seems to what might be happening for
-highschool rapper.</p>
-<p>Unfortunately highschool rapper did not get a 5th season this year
-due to poor broadcast ratings, however we can always remain hopeful for
-it to return someday in the future.</p>
-<p>For future works one might be interested to look at unpretty rapstar
-seasons (The female variant) or other season picks from Show me the
-Money.</p>
-</div>
 
 </div>
 
