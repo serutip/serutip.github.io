@@ -2738,9 +2738,23 @@ window.FlexDashboardComponents.push({
 <script>
 
 function fetchAndPopulateTable() {
-            const csvUrl = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew.csv'; // Replace with your raw CSV URL
+            const csvUrl1 = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew1.csv'; // Replace with your raw CSV URL
+	    const csvUrl2 = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew2.csv'; // Replace with your raw CSV URL
 
-            Papa.parse(csvUrl, {
+
+            Papa.parse(csvUrl1, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    response = results.data; // Store the data;
+		    loadTable(response);
+		    fetchAndPopulateDropdowns();
+
+                },
+                error: function(error) {
+                    console.error('Error parsing CSV:', error);
+                }}) ;
+            Papa.parse(csvUrl2, {
                 download: true,
                 header: true,
                 complete: function(results) {
