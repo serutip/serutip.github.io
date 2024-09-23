@@ -1,151 +1,63 @@
 ,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision
-0,2025-05-18,Nijmegen,Heracles,"0,20","0,02","Action: Goals Under 3.5
+0,2025-06-01,Bari,Cosenza,"0,40","0,99","Action: Double Chance X2 
 "
-1,2025-05-18,Utrecht,Willem II,"-1,00","-1,00","Action: Goals Under 3.5
+1,2025-06-01,Brescia,Cremonese,"1,02","0,04","Action: Draw no bet 1X 
 "
-2,2025-05-18,Waalwijk,Sparta Rotterdam,"1,87","0,98","Action: Draw no bet 1X 
+2,2025-06-01,Carrarese,Reggiana,"1,00","0,01","Action: Draw no bet 1X 
 "
-3,2025-05-18,Aston Villa,Wolves,"0,24","0,56","Action: Goals Under 3.5
+3,2025-06-01,Cesena,Mantova,"0,94","0,74","Action: Goals Under 3.5
 "
-4,2025-05-18,Crystal Palace,Man United,"2,00","0,05","Action: Draw no bet 1X 
+4,2025-06-01,Cittadella,Frosinone,"0,70","0,50","Action: Goals Under 3.5
 "
-5,2025-05-18,Fulham,Newcastle,"-1,00","-1,00","Action: Draw no bet 1X 
+5,2025-06-01,Modena,Sampdoria,"0,03","0,91","Action: Double Chance X2 
 "
-6,2025-05-18,Leicester,Everton,"0,91","0,94","Action: Goals Under 3.5
+6,2025-06-01,Salernitana,Catanzaro,"0,26","0,56","Action: Goals Under 3.5
 "
-7,2025-05-18,Liverpool,Bournemouth,"0,91","0,45","Action: Goals Under 3.5
+7,2025-06-01,Sudtirol,Palermo,"0,78","0,86","Action: Goals Under 3.5
 "
-8,2025-05-18,Southampton,Ipswich,"1,48","0,05","Action: Draw no bet 1X 
+8,2025-06-01,Cercle Brugge,St Truiden,"1,83","0,89","Action: Draw no bet 1X 
 "
-9,2025-05-18,Tottenham,Brentford,"1,23","0,03","Action: Draw no bet 1X 
+9,2025-06-01,Gent,Oud-Heverlee Leuven,"0,51","0,93","Action: Goals Under 3.5
 "
-10,2025-05-18,West Ham,Chelsea,"2,00","1,00","Action: Draw no bet 1X 
+10,2025-06-01,St. Gilloise,Kortrijk,"0,38","0,07","Action: Goals Under 3.5
 "
-11,2025-05-18,Bristol City,Oxford,"-1,00","-1,00","Action: Draw no bet 1X 
+11,2025-06-01,Standard,Westerlo,"0,65","0,04","Action: Draw no bet 1X 
 "
-12,2025-05-18,Burnley,Portsmouth,"0,60","0,94","Action: BTTS/O1.5
+12,2025-06-01,Hearts,Ross County,"0,99","0,02","Action: Draw no bet 1X 
 "
-13,2025-05-18,Cardiff,Leeds,"1,98","0,05","Action: Draw no bet 1X 
+13,2025-06-01,St Johnstone,Celtic,"1,96","0,61","Action: Draw no bet 1X 
 "
-14,2025-05-18,Coventry,Swansea,"0,13","0,10","Action: Goals Under 3.5
+14,2025-06-01,Cove Rangers,Arbroath,"0,51","0,97","Action: Goals Under 3.5
 "
-15,2025-05-18,Luton,Sheffield Weds,"1,51","0,63","Action: Draw no bet 1X 
+15,2025-06-01,Inverness C,Stenhousemuir,"0,07","0,15","Action: Goals Under 3.5
 "
-16,2025-05-18,Norwich,Watford,"1,19","0,97","Action: Goals Under 3.5
+16,2025-06-01,Kelty Hearts,Annan Athletic,"1,27","0,28","Action: Draw no bet 1X 
 "
-17,2025-05-18,QPR,Millwall,"1,00","0,95","Action: Goals Under 3.5
+17,2025-06-01,AVS,Farense,"0,01","0,19","Action: Goals Under 3.5
 "
-18,2025-05-18,Sheffield United,Derby,"-1,00","-1,00","Action: Goals Under 3.5
+18,2025-06-01,Benfica,Gil Vicente,"0,31","0,15","Action: Goals Under 3.5
 "
-19,2025-05-18,Sunderland,Middlesbrough,"-1,00","-1,00","Action: Goals Under 3.5
+19,2025-06-01,Estrela,Moreirense,"1,99","0,50","Action: Draw no bet 1X 
 "
-20,2025-05-18,West Brom,Plymouth,"-1,00","-1,00","Action: Goals Under 3.5
+20,2025-06-01,Famalicao,Nacional,"0,30","0,43","Action: Goals Under 3.5
 "
-21,2025-05-18,Bochum,Holstein Kiel,"1,51","0,44","Action: Draw no bet 1X 
+21,2025-06-01,Santa Clara,Boavista,"0,17","0,08","Action: Goals Under 3.5
 "
-22,2025-05-18,Ein Frankfurt,M'gladbach,"-1,00","-1,00","Action: Draw no bet 1X 
+22,2025-06-01,Sp Braga,Rio Ave,"0,01","0,10","Action: Goals Under 3.5
 "
-23,2025-05-18,Heidenheim,Freiburg,"0,05","0,01","Action: Goals Under 3.5
+23,2025-06-01,Albacete,La Coruna,"0,40","0,20","Action: Goals Under 3.5
 "
-24,2025-05-18,Union Berlin,Hoffenheim,"-1,00","-1,00","Action: Goals Under 3.5
+24,2025-06-01,Cadiz,Eldense,"1,22","0,14","Action: Draw no bet 1X 
 "
-25,2025-05-18,Werder Bremen,Bayern Munich,"-1,00","-1,00","Action: Goals Under 3.5
+25,2025-06-01,Castellon,Tenerife,"0,99","0,43","Action: Draw no bet 1X 
 "
-26,2025-05-18,Braunschweig,Greuther Furth,"2,00","1,00","Action: Draw no bet 1X 
+26,2025-06-01,Cordoba,Ferrol,"0,60","0,04","Action: Draw no bet 1X 
 "
-27,2025-05-18,Fortuna Dusseldorf,FC Koln,"-1,00","-1,00","Action: Draw no bet 1X 
+27,2025-06-01,Levante,Almeria,"0,42","0,98","Action: Double Chance X2 
 "
-28,2025-05-18,Kaiserslautern,Hamburg,"1,15","0,96","Action: Goals Under 3.5
+28,2025-06-01,Malaga,Elche,"0,06","0,20","Action: Goals Under 3.5
 "
-29,2025-05-18,Nurnberg,Hertha,"1,97","0,54","Action: Draw no bet 1X 
+29,2025-06-01,Mirandes,Huesca,"0,54","0,00","Action: Draw no bet 1X 
 "
-30,2025-05-18,Almere City,Twente,"1,26","1,00","Action: Goals Under 3.5
-"
-31,2025-05-18,Feyenoord,NAC Breda,"0,90","0,87","Action: Goals Under 3.5
-"
-32,2025-05-18,For Sittard,PSV Eindhoven,"-1,00","-1,00","Action: Goals Under 3.5
-"
-33,2025-05-18,Heerenveen,Groningen,"1,03","0,97","Action: Goals Under 3.5
-"
-34,2025-05-18,Brighton,Nott'm Forest,"1,16","0,40","Action: Draw no bet 1X 
-"
-35,2025-05-18,Man City,Arsenal,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-36,2025-05-18,Preston,Blackburn,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-37,2025-05-18,Leverkusen,Wolfsburg,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-38,2025-05-18,Stuttgart,Dortmund,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-39,2025-05-18,Elversberg,Ulm,"0,11","0,05","Action: Goals Under 3.5
-"
-40,2025-05-18,Regensburg,Preußen Münster,"0,01","0,45","Action: Goals Under 3.5
-"
-41,2025-05-18,Heracles,Heerenveen,"0,90","0,57","Action: Goals Under 3.5
-"
-42,2025-05-18,Plymouth,Luton,"1,02","0,31","Action: Draw no bet 1X 
-"
-43,2025-05-18,Dortmund,Bochum,"0,00","0,05","Action: Goals Under 3.5
-"
-44,2025-05-18,Greuther Furth,Fortuna Dusseldorf,"-1,00","-1,00","Action: Goals Under 3.5
-"
-45,2025-05-18,Ulm,Braunschweig,"1,51","0,97","Action: Draw no bet 1X 
-"
-46,2025-05-18,Nijmegen,Feyenoord,"1,51","0,98","Action: Draw no bet 1X 
-"
-47,2025-05-18,Sparta Rotterdam,For Sittard,"1,23","0,40","Action: Draw no bet 1X 
-"
-48,2025-05-18,Willem II,PSV Eindhoven,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-49,2025-05-18,Arsenal,Leicester,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-50,2025-05-18,Brentford,West Ham,"0,89","1,00","Action: Goals Under 3.5
-"
-51,2025-05-18,Chelsea,Brighton,"1,44","0,26","Action: Draw no bet 1X 
-"
-52,2025-05-18,Everton,Crystal Palace,"1,51","1,00","Action: Draw no bet 1X 
-"
-53,2025-05-18,Newcastle,Man City,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-54,2025-05-18,Nott'm Forest,Fulham,"0,87","0,66","Action: Goals Under 3.5
-"
-55,2025-05-18,Wolves,Liverpool,"1,99","0,63","Action: Draw no bet 1X 
-"
-56,2025-05-18,Blackburn,QPR,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-57,2025-05-18,Derby,Norwich,"0,62","0,00","Action: Draw no bet 1X 
-"
-58,2025-05-18,Hull,Cardiff,"0,99","0,60","Action: Goals Under 3.5
-"
-59,2025-05-18,Leeds,Coventry,"0,43","0,25","Action: Goals Under 3.5
-"
-60,2025-05-18,Middlesbrough,Stoke,"0,86","0,07","Action: Draw no bet 1X 
-"
-61,2025-05-18,Millwall,Preston,"0,29","0,54","Action: Goals Under 3.5
-"
-62,2025-05-18,Oxford,Burnley,"-1,00","-1,00","Action: Goals Under 3.5
-"
-63,2025-05-18,Portsmouth,Sheffield United,"1,90","0,55","Action: Draw no bet 1X 
-"
-64,2025-05-18,Sheffield Weds,West Brom,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-65,2025-05-18,Watford,Sunderland,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-66,2025-05-18,Bayern Munich,Leverkusen,"-1,00","-1,00","Action: Draw no bet 1X 
-"
-67,2025-05-18,M'gladbach,Union Berlin,"1,52","0,97","Action: Draw no bet 1X 
-"
-68,2025-05-18,Mainz,Heidenheim,"1,25","1,00","Action: Goals Under 3.5
-"
-69,2025-05-18,RB Leipzig,Augsburg,"-1,00","-1,00","Action: Goals Under 3.5
-"
-70,2025-05-18,Wolfsburg,Stuttgart,"2,00","0,98","Action: Draw no bet 1X 
-"
-71,2025-05-18,Darmstadt,Magdeburg,"2,00","0,07","Action: Draw no bet 1X 
-"
-72,2025-05-18,Hamburg,Paderborn,"0,98","1,00","Action: Goals Under 3.5
-"
-73,2025-05-18,Preußen Münster,Schalke 04,"1,00","0,40","Action: Draw no bet 1X 
-"
-74,2025-05-18,Regensburg,Kaiserslautern,"2,00","0,03","Action: Draw no bet 1X 
+30,2025-06-01,Oviedo,Eibar,"1,96","0,99","Action: Draw no bet 1X 
 "
