@@ -1,95 +1,35 @@
 ,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision
-0,2024-09-29,Groningen,Go Ahead Eagles,"0,27","0,78","Action: Double Chance X2 
+0,2024-09-30,Bournemouth,Southampton,"1,00","0,42","Action: Goals Under 3.5
 "
-1,2024-09-29,Twente,NAC Breda,"0,02","0,65","Action: Double Chance X2 
+1,2024-10-01,Burnley,Plymouth,"1,05","0,29","Action: Goals Under 3.5
 "
-2,2024-09-29,Zwolle,Almere City,"0,10","0,05","Action: Goals Under 3.5
+2,2024-10-01,Cardiff,Millwall,"1,35","0,09","Action: Draw no bet 1X 
 "
-3,2024-09-29,Ipswich,Aston Villa,"2,00","0,51","Action: Draw no bet 1X 
+3,2024-10-01,Carlisle,Notts County,"0,99","0,16","Action: Goals Under 3.5
 "
-4,2024-09-29,Man United,Tottenham,"0,26","0,45","Action: Goals Under 3.5
+4,2024-10-01,Cheltenham,Accrington,"0,00","0,51","Action: Goals Under 3.5
 "
-5,2024-09-29,Swansea,Bristol City,"0,14","0,12","Action: Goals Under 3.5
+5,2024-10-01,Doncaster,Barrow,"0,53","0,03","Action: Goals Under 3.5
 "
-6,2024-09-29,Hoffenheim,Werder Bremen,"1,99","1,00","Action: Draw no bet 1X 
+6,2024-10-01,Harrogate,Milton Keynes Dons,"0,18","0,05","Action: Goals Under 3.5
 "
-7,2024-09-29,Holstein Kiel,Ein Frankfurt,"2,00","0,70","Action: Draw no bet 1X 
+7,2024-10-01,Port Vale,Colchester,"0,02","0,49","Action: Goals Under 3.5
 "
-8,2024-09-29,Hannover,Nurnberg,"0,13","0,68","Action: O1.5
+8,2024-10-01,Tranmere,Swindon,"0,81","0,04","Action: Goals Under 3.5
 "
-9,2024-09-29,Hertha,Elversberg,"1,37","0,10","Action: Draw no bet 1X 
+9,2024-10-01,Bristol Rvs,Charlton,"1,99","0,21","Action: Draw no bet 1X 
 "
-10,2024-09-29,Betis,Espanol,"0,45","0,23","Action: Goals Under 3.5
+10,2024-10-01,Northampton,Bolton,"0,94","0,14","Action: Goals Under 3.5
 "
-11,2024-09-29,Celta,Girona,"0,62","0,98","Action: Goals Under 3.5
+11,2024-10-01,Reading,Burton,"0,64","0,39","Action: Goals Under 3.5
 "
-12,2024-09-29,Getafe,Alaves,"1,25","0,49","Action: Draw no bet 1X 
+12,2024-10-01,Shrewsbury,Stockport,"1,98","0,89","Action: Draw no bet 1X 
 "
-13,2024-09-29,Sociedad,Valencia,"0,89","0,66","Action: Goals Under 3.5
+13,2024-10-01,Wigan,Peterboro,"1,27","0,20","Action: Draw no bet 1X 
 "
-14,2024-09-29,Valladolid,Mallorca,"0,66","0,00","Action: Draw no bet 1X 
+14,2024-10-02,Bristol City,Sheffield Weds,"0,00","0,91","Action: Double Chance X2 
 "
-15,2024-09-29,Vallecano,Leganes,"0,82","1,00","Action: Goals Under 3.5
+15,2024-10-02,Preston,Watford,"1,27","0,04","Action: Draw no bet 1X 
 "
-16,2024-09-29,Villarreal,Las Palmas,"0,03","0,97","Action: Double Chance X2 
-"
-17,2024-09-29,Angers,Reims,"1,48","0,82","Action: Draw no bet 1X 
-"
-18,2024-09-29,Auxerre,Brest,"0,01","0,29","Action: Goals Under 3.5
-"
-19,2024-09-29,Le Havre,Lille,"1,99","0,55","Action: Draw no bet 1X 
-"
-20,2024-09-29,Lens,Nice,"0,01","0,13","Action: Goals Under 3.5
-"
-21,2024-09-29,Nantes,St Etienne,"0,01","0,04","Action: Goals Under 3.5
-"
-22,2024-09-29,Toulouse,Lyon,"0,21","0,04","Action: Goals Under 3.5
-"
-23,2024-09-30,Bournemouth,Southampton,"0,92","0,20","Action: Draw no bet 1X 
-"
-24,2024-10-01,Burnley,Plymouth,"0,03","0,07","Action: Goals Under 3.5
-"
-25,2024-10-01,Cardiff,Millwall,"1,31","0,10","Action: Draw no bet 1X 
-"
-26,2024-10-01,Coventry,Blackburn,"2,00","1,00","Action: Draw no bet 1X 
-"
-27,2024-10-01,Luton,Oxford,"0,92","1,00","Action: Goals Under 3.5
-"
-28,2024-10-01,Norwich,Leeds,"0,83","0,55","Action: Goals Under 3.5
-"
-29,2024-10-01,West Brom,Middlesbrough,"0,17","0,06","Action: Goals Under 3.5
-"
-30,2024-10-01,Bromley,Chesterfield,"0,63","0,05","Action: O1.5
-"
-31,2024-10-01,Carlisle,Notts County,"1,51","0,30","Action: Draw no bet 1X 
-"
-32,2024-10-01,Cheltenham,Accrington,"0,01","0,63","Action: Double Chance X2 
-"
-33,2024-10-01,Doncaster,Barrow,"0,49","0,36","Action: Goals Under 3.5
-"
-34,2024-10-01,Harrogate,Milton Keynes Dons,"0,03","0,00","Action: Goals Under 3.5
-"
-35,2024-10-01,Morecambe,Bradford,"1,91","0,50","Action: Draw no bet 1X 
-"
-36,2024-10-01,Newport County,Salford,"0,74","0,97","Action: Goals Under 3.5
-"
-37,2024-10-01,Port Vale,Colchester,"0,02","0,89","Action: Double Chance X2 
-"
-38,2024-10-01,Tranmere,Swindon,"0,69","0,10","Action: Draw no bet 1X 
-"
-39,2024-10-01,Barnsley,Wycombe,"1,04","1,00","Action: O1.5
-"
-40,2024-10-01,Blackpool,Lincoln,"1,17","0,72","Action: Goals Under 3.5
-"
-41,2024-10-01,Cambridge,Rotherham,"1,08","0,13","Action: Draw no bet 1X 
-"
-42,2024-10-01,Leyton Orient,Exeter,"1,92","1,00","Action: Draw no bet 1X 
-"
-43,2024-10-01,Northampton,Bolton,"0,80","0,84","Action: Goals Under 3.5
-"
-44,2024-10-01,Reading,Burton,"0,56","0,25","Action: Goals Under 3.5
-"
-45,2024-10-01,Shrewsbury,Stockport,"2,00","0,79","Action: Draw no bet 1X 
-"
-46,2024-10-01,Wigan,Peterboro,"1,91","0,43","Action: Draw no bet 1X 
+16,2024-10-02,Sheffield United,Swansea,"0,02","0,01","Action: Goals Under 3.5
 "
