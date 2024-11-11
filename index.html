@@ -2721,9 +2721,9 @@ window.FlexDashboardComponents.push({
 		
     </script>
 
-<div id="Next week's predictions" class="section level3">
-<h3>Soccer Predictions next period</h3>
-<table id="teamTable" width="100%" style="overflow-y: auto; border-collapse: collapse; font-size: 8px;">
+<div id="Next week's predictions Ruse AI Leagues One" class="section level3">
+<h3>Next week's predictions Ruse AI Leagues One</h3>
+<table id="teamTable1" width="100%" style="overflow-y: auto; border-collapse: collapse; font-size: 8px;">
   <tr font-size="3px" style="border: 2px solid black;">
     <th style="border: 2px solid black;">Date</th>
     <th style="border: 2px solid black;">HomeTeam</th>
@@ -2737,46 +2737,24 @@ window.FlexDashboardComponents.push({
 </div>
 <script>
 
-function fetchAndPopulateTable() {
-            const csvUrl1 = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew1.csv'; // Replace with your raw CSV URL
-	    const csvUrl2 = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew2.csv'; // Replace with your raw CSV URL
-
+function fetchAndPopulateTable1() {
+        const csvUrl1 = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew1.csv'; // Replace with your raw CSV URL
 
             Papa.parse(csvUrl1, {
                 download: true,
                 header: true,
                 complete: function(results) {
                     response = results.data; // Store the data;
-		    loadTable(response);
+		    loadTable1(response);
 		    fetchAndPopulateDropdowns();
 
                 },
                 error: function(error) {
                     console.error('Error parsing CSV:', error);
-                }}) ;
-            Papa.parse(csvUrl2, {
-                download: true,
-                header: true,
-                complete: function(results) {
-                    response = results.data; // Store the data;
-		    loadTable(response);
-		    fetchAndPopulateDropdowns();
+                }})      
 
-                },
-                error: function(error) {
-                    console.error('Error parsing CSV:', error);
-                }        
-
-
-
-
-});
-
-
-function loadTable(response){	    
-
-
-      const tableBody = document.querySelector('#teamTable tbody');
+function loadTable1(response){	    
+      const tableBody1 = document.querySelector('#teamTable1 tbody');
       cols = response;
       response.forEach(row => {
     	  const newRow = document.createElement('tr');
@@ -2816,14 +2794,99 @@ function loadTable(response){
           ;	
 
           // Append the new row to the table
-          tableBody.appendChild(newRow, style="border: 2px solid black;");
+          tableBody1.appendChild(newRow, style="border: 2px solid black;");
         
       })};
     
         };
+</script>
+<div id="Next week's predictions Ruse AI Leagues Two" class="section level3">
+<h3>Next week's predictions Ruse AI Leagues Two</h3>
+<table id="teamTable2" width="100%" style="overflow-y: auto; border-collapse: collapse; font-size: 8px;">
+  <tr font-size="3px" style="border: 2px solid black;">
+    <th style="border: 2px solid black;">Date</th>
+    <th style="border: 2px solid black;">HomeTeam</th>
+    <th style="border: 2px solid black;">AwayTeam</th>
+    <th style="border: 2px solid black;">Prediction 1</th>
+    <th style="border: 2px solid black;">Prediction 2</th>
+    <th style="border: 2px solid black;">Decision</th>
+  </tr>
+
+</table>
+</div>
+<script>
+
+function fetchAndPopulateTable2() {
+            const csvUrl2 = 'https://raw.githubusercontent.com/serutip/serutip.github.io/main/MatchPredictionsNew2.csv'; // Replace with your raw CSV URL
+
+            Papa.parse(csvUrl2, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    response = results.data; // Store the data;
+		    loadTable2(response);
+		    fetchAndPopulateDropdowns();
+
+                },
+                error: function(error) {
+                    console.error('Error parsing CSV:', error);
+                }        })};
+
+
+
+function loadTable2(response){	    
+
+
+      const tableBody2 = document.querySelector('#teamTable2 tbody');
+      cols = response;
+      response.forEach(row => {
+    	  const newRow = document.createElement('tr');
+	  
+        
+            const td = document.createElement('td');
+            const dateCell = document.createElement('td');
+      	    dateCell.textContent = row.Date || 'N/A';
+	    dateCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+            newRow.appendChild(dateCell);
+
+            const homeTeamCell = document.createElement('td');
+            homeTeamCell.textContent = row["Home Team"] || 'N/A';
+            homeTeamCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+            newRow.appendChild(homeTeamCell);
+	
+      const awayTeamCell = document.createElement('td');
+      awayTeamCell.textContent = row["Away Team"] || 'N/A';
+      awayTeamCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(awayTeamCell);
+
+      const prediction1Cell = document.createElement('td');
+      prediction1Cell.textContent = row['Prediction 1'] || 'N/A';
+      prediction1Cell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(prediction1Cell);
+
+      const prediction2Cell = document.createElement('td');
+      prediction2Cell.textContent = row['Prediction 2'] || 'N/A';
+      prediction2Cell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(prediction2Cell);
+
+      const decisionCell = document.createElement('td');
+      decisionCell.textContent = row.Decision || 'N/A';
+      decisionCell.setAttribute('style', 'padding: 8px; border: 2px solid black;');
+      newRow.appendChild(decisionCell);
+            newRow.appendChild(td);
+          ;	
+
+          // Append the new row to the table
+          tableBody2.appendChild(newRow, style="border: 2px solid black;");
+        
+      })};
+    
+function fetchAndPopulateTable(){
+	fetchAndPopulateTable1();
+	fetchAndPopulateTable2();
+}
 window.onload = fetchAndPopulateTable;
 </script>
-
 
 
 <div id="introduction" class="section level3">
