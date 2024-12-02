@@ -1,3 +1,72 @@
-,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision
-0,2024-12-03,Reading,Cambridge,"2,12","0,52","Action: Draw no bet 1X 
+,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision,Stats
+0,2024-12-03,AFC Wimbledon,Newport County,"1,29","0,64",No decision Made,N\A
+1,2024-12-03,Bradford,Barrow,"1,14","0,63",No decision Made,N\A
+2,2024-12-03,Cheltenham,Port Vale,"-1,00","-1,00",No decision Made,N\A
+3,2024-12-03,Colchester,Swindon,"1,52","1,83",No decision Made,N\A
+4,2024-12-03,Grimsby,Accrington,"1,62","1,89",No decision Made,N\A
+5,2024-12-03,Milton Keynes Dons,Chesterfield,"0,58","1,75",No decision Made,N\A
+6,2024-12-03,Salford,Harrogate,"0,76","0,84",No decision Made,N\A
+7,2024-12-03,Tranmere,Morecambe,"0,75","0,87",No decision Made,N\A
+8,2024-12-03,Walsall,Notts County,"-1,00","-1,00",No decision Made,N\A
+9,2024-12-03,Bolton,Mansfield,"1,55","0,48",No decision Made,N\A
+10,2024-12-03,Charlton,Crawley Town,"1,44","0,61",No decision Made,N\A
+11,2024-12-03,Exeter,Wycombe,"-1,00","-1,00",No decision Made,N\A
+12,2024-12-03,Huddersfield,Wigan,"0,93","0,51",No decision Made,N\A
+13,2024-12-03,Leyton Orient,Bristol Rvs,"0,94","0,76",No decision Made,N\A
+14,2024-12-03,Reading,Cambridge,"2,16","0,43","Action: Draw no bet 1X 
+","Home: Reading, Away: Cambridge
+Pts (All M): 27 VS 13
+Pts (Last 4): 12 VS 4
+BTTS (All M): 27.0 VS 13.0
+Position: 6 VS 22
+
+Shots (All M):  13.4 VS 10.4
+Shots (Last 4):  12.0 VS 10.8
+Shots (AHR):  13.2 VS 10.8
+
+Shots Tar (All M):  4.9 VS 3.1
+Shots Tar (Last 4):  4.8 VS 3.8
+Shots Tar (AHR):  4.8 VS 3.2
+
+HT Gs (All M)):  0.9 VS 0.2
+HT Gs (Last 4):  1.2 VS 0.2
+HT Gs (AHR):  0.7 VS 0.2
+FT Gs (All M)):  2.0 VS 0.6
+FT Gs (Last 4):  2.5 VS 0.8
+FT Gs (AHR):  1.8 VS 0.5
+
+Scored at least 1 Goal (All M):  0.86 VS 0.5
+Scored at least 1 Goal (Last 4)):  1.0 VS 0.5
+Scored at least 1 Goal (AHR):  0.83 VS 0.5
+"
+15,2024-12-03,Rotherham,Lincoln,"1,18","0,84",No decision Made,N\A
+16,2024-12-03,Stevenage,Northampton,"1,82","1,11",No decision Made,N\A
+17,2024-12-03,Wrexham,Barnsley,"-1,00","-1,00",No decision Made,N\A
+18,2024-12-04,Aberdeen,Celtic,"-1,00","-1,00",No decision Made,N\A
+19,2024-12-04,Dundee,Motherwell,"1,79","1,76",No decision Made,N\A
+20,2024-12-04,Rangers,Kilmarnock,"3,17","0,07","Action: Draw no bet 1X 
+","Home: Rangers, Away: Kilmarnock
+Pts (All M): 26 VS 13
+Pts (Last 4): 10 VS 3
+BTTS (All M): 26.0 VS 13.0
+Position: 3 VS 9
+
+Shots (All M):  20.0 VS 12.2
+Shots (Last 4):  21.5 VS 12.8
+Shots (AHR):  20.0 VS 5.5
+
+Shots Tar (All M):  6.7 VS 2.9
+Shots Tar (Last 4):  6.2 VS 2.8
+Shots Tar (AHR):  7.3 VS 2.0
+
+HT Gs (All M)):  1.1 VS 0.5
+HT Gs (Last 4):  0.8 VS 0.8
+HT Gs (AHR):  1.2 VS 0.0
+FT Gs (All M)):  2.1 VS 1.2
+FT Gs (Last 4):  1.5 VS 1.2
+FT Gs (AHR):  2.3 VS 0.0
+
+Scored at least 1 Goal (All M):  1.0 VS 0.62
+Scored at least 1 Goal (Last 4)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  1.0 VS 0.0
 "
