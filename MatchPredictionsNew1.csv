@@ -25,7 +25,82 @@ Scored at least 1 Goal (All M):  0.67 VS 0.83
 Scored at least 1 Goal (Last 4)):  0.75 VS 0.75
 Scored at least 1 Goal (AHR):  0.67 VS 0.83
 "
-1,2024-12-04,Everton,Wolves,"1,57","2,17","Action: O1.5
+1,2024-12-03,Leicester,West Ham,"0,99","1,25",No decision Made,"Home: Leicester, Away: West Ham
+Pts (All M): 10 VS 15
+Pts (Last 4): 4 VS 4
+BTTS (All M): 10.0 VS 15.0
+Position: 16 VS 14
+
+Shots (All M):  8.2 VS 13.0
+Shots (Last 4):  8.2 VS 12.2
+Shots (AHR):  7.4 VS 13.0
+
+Shots Tar (All M):  2.0 VS 3.5
+Shots Tar (Last 4):  1.5 VS 3.8
+Shots Tar (AHR):  2.0 VS 3.5
+
+HT Gs (All M)):  0.3 VS 0.3
+HT Gs (Last 4):  0.5 VS 0.5
+HT Gs (AHR):  0.4 VS 0.3
+FT Gs (All M)):  1.0 VS 1.2
+FT Gs (Last 4):  1.0 VS 1.0
+FT Gs (AHR):  1.0 VS 1.2
+
+Scored at least 1 Goal (All M):  1.0 VS 0.83
+Scored at least 1 Goal (Last 4)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  1.0 VS 0.83
+"
+2,2024-12-04,Arsenal,Man United,"2,22","1,08",No decision Made,"Home: Arsenal, Away: Man United
+Pts (All M): 25 VS 19
+Pts (Last 4): 10 VS 3
+BTTS (All M): 25.0 VS 19.0
+Position: 3 VS 9
+
+Shots (All M):  20.3 VS 14.2
+Shots (Last 4):  23.2 VS 13.5
+Shots (AHR):  13.0 VS 11.0
+
+Shots Tar (All M):  7.5 VS 5.5
+Shots Tar (Last 4):  8.0 VS 4.8
+Shots Tar (AHR):  5.7 VS 4.0
+
+HT Gs (All M)):  1.2 VS 0.5
+HT Gs (Last 4):  1.2 VS 0.2
+HT Gs (AHR):  1.3 VS 0.0
+FT Gs (All M)):  2.5 VS 1.0
+FT Gs (Last 4):  3.0 VS 0.5
+FT Gs (AHR):  2.0 VS 1.0
+
+Scored at least 1 Goal (All M):  1.0 VS 0.67
+Scored at least 1 Goal (Last 4)):  1.0 VS 0.5
+Scored at least 1 Goal (AHR):  1.0 VS 1.0
+"
+3,2024-12-04,Aston Villa,Brentford,"0,56","0,89",No decision Made,"Home: Aston Villa, Away: Brentford
+Pts (All M): 19 VS 20
+Pts (Last 4): 6 VS 1
+BTTS (All M): 19.0 VS 20.0
+Position: 12 VS 8
+
+Shots (All M):  13.8 VS 7.3
+Shots (Last 4):  13.8 VS 7.0
+Shots (AHR):  13.3 VS 7.0
+
+Shots Tar (All M):  4.8 VS 3.2
+Shots Tar (Last 4):  4.5 VS 3.0
+Shots Tar (AHR):  4.0 VS 3.4
+
+HT Gs (All M)):  0.3 VS 0.7
+HT Gs (Last 4):  0.2 VS 0.8
+HT Gs (AHR):  0.0 VS 0.8
+FT Gs (All M)):  1.5 VS 0.7
+FT Gs (Last 4):  1.5 VS 0.8
+FT Gs (AHR):  0.3 VS 0.8
+
+Scored at least 1 Goal (All M):  0.67 VS 0.67
+Scored at least 1 Goal (Last 4)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.33 VS 0.8
+"
+4,2024-12-04,Everton,Wolves,"1,57","2,17","Action: O1.5
 ","Home: Everton, Away: Wolves
 Pts (All M): 11 VS 9
 Pts (Last 4): 6 VS 4
@@ -51,7 +126,7 @@ Scored at least 1 Goal (All M):  0.5 VS 0.83
 Scored at least 1 Goal (Last 4)):  0.5 VS 1.0
 Scored at least 1 Goal (AHR):  0.5 VS 0.83
 "
-2,2024-12-04,Man City,Nott'm Forest,"1,87","1,39","Action: O1.5
+5,2024-12-04,Man City,Nott'm Forest,"1,87","1,39","Action: O1.5
 ","Home: Man City, Away: Nott'm Forest
 Pts (All M): 23 VS 22
 Pts (Last 4): 7 VS 5
@@ -77,7 +152,7 @@ Scored at least 1 Goal (All M):  0.83 VS 0.83
 Scored at least 1 Goal (Last 4)):  0.75 VS 0.75
 Scored at least 1 Goal (AHR):  1.0 VS 0.75
 "
-3,2024-12-04,Newcastle,Liverpool,"0,59","2,54","Action: Double Chance X2 
+6,2024-12-04,Newcastle,Liverpool,"0,59","2,54","Action: Double Chance X2 
 ","Home: Newcastle, Away: Liverpool
 Pts (All M): 19 VS 34
 Pts (Last 4): 4 VS 10
@@ -103,7 +178,7 @@ Scored at least 1 Goal (All M):  0.67 VS 1.0
 Scored at least 1 Goal (Last 4)):  0.5 VS 1.0
 Scored at least 1 Goal (AHR):  0.67 VS 1.0
 "
-4,2024-12-04,Southampton,Chelsea,"1,89","4,19","Action: O1.5
+7,2024-12-04,Southampton,Chelsea,"1,89","4,19","Action: O1.5
 ","Home: Southampton, Away: Chelsea
 Pts (All M): 5 VS 25
 Pts (Last 4): 4 VS 7
