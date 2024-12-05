@@ -1,10 +1,11 @@
 ,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision,Stats
-0,2024-12-07,Aston Villa,Southampton,"2,32","0,88","Action: Draw no bet 1X 
-","Home: Aston Villa, Away: Southampton
+0,2024-12-07,Aston Villa,Southampton,"2,16","1,02",No decision Made,"Home: Aston Villa, Away: Southampton
 Pts (All M): 22 VS 5
+Pts Against Higher: 12 VS 1
 Pts (Last 5): 9 VS 1
 Position: 6 VS 20
 
+BTTS (All M): 0 VS 0
 Shots (All M):  14.7 VS 11.1
 Shots (Last 5):  15.0 VS 8.2
 Shots (AHR):  14.7 VS 7.7
@@ -24,12 +25,14 @@ Scored at least 1 Goal (All M):  0.71 VS 0.57
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.6
 Scored at least 1 Goal (AHR):  0.71 VS 0.67
 "
-1,2024-12-07,Brentford,Newcastle,"2,95","2,08","Action: O1.5
+1,2024-12-07,Brentford,Newcastle,"2,94","2,12","Action: O1.5
 ","Home: Brentford, Away: Newcastle
 Pts (All M): 20 VS 20
+Pts Against Higher: 3 VS 4
 Pts (Last 5): 13 VS 5
 Position: 9 VS 10
 
+BTTS (All M): 1 VS 0
 Shots (All M):  14.4 VS 12.3
 Shots (Last 5):  14.4 VS 11.6
 Shots (AHR):  12.0 VS 14.2
@@ -49,12 +52,14 @@ Scored at least 1 Goal (All M):  1.0 VS 0.86
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-2,2024-12-07,Crystal Palace,Man City,"0,39","2,24","Action: Double Chance X2 
+2,2024-12-07,Crystal Palace,Man City,"0,38","2,21","Action: Double Chance X2 
 ","Home: Crystal Palace, Away: Man City
 Pts (All M): 12 VS 26
+Pts Against Higher: 0 VS 10
 Pts (Last 5): 5 VS 4
 Position: 17 VS 4
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.6 VS 16.1
 Shots (Last 5):  12.2 VS 15.8
 Shots (AHR):  9.0 VS 16.1
@@ -74,12 +79,14 @@ Scored at least 1 Goal (All M):  0.43 VS 0.86
 Scored at least 1 Goal (Last 5)):  0.4 VS 0.8
 Scored at least 1 Goal (AHR):  0.0 VS 0.86
 "
-3,2024-12-07,Everton,Liverpool,"0,02","2,90","Action: Double Chance X2 
+3,2024-12-07,Everton,Liverpool,"0,01","2,86","Action: Double Chance X2 
 ","Home: Everton, Away: Liverpool
 Pts (All M): 14 VS 35
+Pts Against Higher: 0 VS 8
 Pts (Last 5): 9 VS 11
 Position: 15 VS 1
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.3 VS 15.3
 Shots (Last 5):  13.2 VS 15.6
 Shots (AHR):  9.0 VS 13.0
@@ -99,11 +106,13 @@ Scored at least 1 Goal (All M):  0.57 VS 1.0
 Scored at least 1 Goal (Last 5)):  0.6 VS 1.0
 Scored at least 1 Goal (AHR):  0.0 VS 1.0
 "
-4,2024-12-07,Man United,Nott'm Forest,"0,85","0,85",No decision Made,"Home: Man United, Away: Nott'm Forest
+4,2024-12-07,Man United,Nott'm Forest,"0,82","0,85",No decision Made,"Home: Man United, Away: Nott'm Forest
 Pts (All M): 19 VS 22
+Pts Against Higher: 4 VS 5
 Pts (Last 5): 10 VS 5
 Position: 11 VS 7
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.0 VS 12.4
 Shots (Last 5):  13.8 VS 11.8
 Shots (AHR):  13.2 VS 8.8
@@ -123,12 +132,14 @@ Scored at least 1 Goal (All M):  0.71 VS 0.71
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.6
 Scored at least 1 Goal (AHR):  0.5 VS 0.6
 "
-5,2024-12-07,Bayern Munich,Heidenheim,"3,76","1,66","Action: Draw no bet 1X or Over 1.5 Goals
+5,2024-12-07,Bayern Munich,Heidenheim,"3,62","1,68","Action: Draw no bet 1X or Over 1.5 Goals
 ","Home: Bayern Munich, Away: Heidenheim
 Pts (All M): 30 VS 10
+Pts Against Higher: 13 VS 0
 Pts (Last 5): 13 VS 3
 Position: 1 VS 16
 
+BTTS (All M): 0 VS 0
 Shots (All M):  20.0 VS 12.2
 Shots (Last 5):  20.0 VS 13.4
 Shots (AHR):  20.0 VS 6.0
@@ -148,12 +159,14 @@ Scored at least 1 Goal (All M):  1.0 VS 0.83
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-6,2024-12-07,Bochum,Werder Bremen,"0,92","2,96","Action: O1.5
+6,2024-12-07,Bochum,Werder Bremen,"0,89","2,98","Action: O1.5
 ","Home: Bochum, Away: Werder Bremen
 Pts (All M): 2 VS 16
+Pts Against Higher: 1 VS 10
 Pts (Last 5): 2 VS 9
-Position: 18 VS 12
+Position: 18 VS 11
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.6 VS 13.2
 Shots (Last 5):  13.6 VS 13.4
 Shots (AHR):  13.5 VS 13.2
@@ -173,12 +186,14 @@ Scored at least 1 Goal (All M):  0.6 VS 0.83
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.8
 Scored at least 1 Goal (AHR):  0.5 VS 0.83
 "
-7,2024-12-07,Ein Frankfurt,Augsburg,"2,72","0,24","Action: Draw no bet 1X 
+7,2024-12-07,Ein Frankfurt,Augsburg,"2,75","0,22","Action: Draw no bet 1X 
 ","Home: Ein Frankfurt, Away: Augsburg
 Pts (All M): 26 VS 15
+Pts Against Higher: 7 VS 0
 Pts (Last 5): 13 VS 1
 Position: 2 VS 13
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.8 VS 7.2
 Shots (Last 5):  13.8 VS 7.2
 Shots (AHR):  11.3 VS 4.5
@@ -198,12 +213,14 @@ Scored at least 1 Goal (All M):  1.0 VS 0.4
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
 Scored at least 1 Goal (AHR):  1.0 VS 0.0
 "
-8,2024-12-07,Holstein Kiel,RB Leipzig,"0,75","3,05","Action: O1.5
+8,2024-12-07,Holstein Kiel,RB Leipzig,"0,69","3,14","Action: O1.5
 ","Home: Holstein Kiel, Away: RB Leipzig
 Pts (All M): 5 VS 21
+Pts Against Higher: 0 VS 10
 Pts (Last 5): 3 VS 7
 Position: 17 VS 4
 
+BTTS (All M): 0 VS 0
 Shots (All M):  9.5 VS 10.7
 Shots (Last 5):  9.0 VS 10.8
 Shots (AHR):  7.3 VS 10.7
@@ -223,12 +240,14 @@ Scored at least 1 Goal (All M):  0.5 VS 0.83
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.8
 Scored at least 1 Goal (AHR):  0.67 VS 0.83
 "
-9,2024-12-07,M'gladbach,Dortmund,"2,25","1,37","Action: O1.5
+9,2024-12-07,M'gladbach,Dortmund,"2,12","1,34","Action: O1.5
 ","Home: M'gladbach, Away: Dortmund
 Pts (All M): 17 VS 20
+Pts Against Higher: 0 VS 1
 Pts (Last 5): 12 VS 1
-Position: 9 VS 5
+Position: 9 VS 6
 
+BTTS (All M): 0 VS 0
 Shots (All M):  14.7 VS 7.4
 Shots (Last 5):  14.8 VS 7.4
 Shots (AHR):  14.0 VS 7.4
@@ -248,12 +267,14 @@ Scored at least 1 Goal (All M):  1.0 VS 0.8
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 0.8
 "
-10,2024-12-07,Genk,Kortrijk,"2,99","0,06","Action: Draw no bet 1X 
+10,2024-12-07,Genk,Kortrijk,"2,94","0,06","Action: Draw no bet 1X 
 ","Home: Genk, Away: Kortrijk
 Pts (All M): 35 VS 17
+Pts Against Higher: 22 VS 0
 Pts (Last 5): 15 VS 1
 Position: 1 VS 14
 
+BTTS (All M): 0 VS 0
 Shots (All M):  17.6 VS 7.4
 Shots (Last 5):  18.2 VS 6.8
 Shots (AHR):  17.6 VS 6.5
@@ -273,19 +294,21 @@ Scored at least 1 Goal (All M):  0.88 VS 0.38
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.2
 Scored at least 1 Goal (AHR):  0.88 VS 0.0
 "
-11,2024-12-07,Gent,St Truiden,"2,48","0,41","Action: Draw no bet 1X 
+11,2024-12-07,Gent,St Truiden,"2,58","0,55","Action: Draw no bet 1X 
 ","Home: Gent, Away: St Truiden
 Pts (All M): 23 VS 18
+Pts Against Higher: 13 VS 0
 Pts (Last 5): 10 VS 4
-Position: 6 VS 13
+Position: 7 VS 11
 
+BTTS (All M): 0 VS 0
 Shots (All M):  14.9 VS 11.6
 Shots (Last 5):  14.8 VS 13.6
-Shots (AHR):  14.9 VS 9.8
+Shots (AHR):  14.9 VS 11.2
 
 Shots Tar (All M):  6.1 VS 4.1
 Shots Tar (Last 5):  6.4 VS 4.6
-Shots Tar (AHR):  6.1 VS 3.2
+Shots Tar (AHR):  6.1 VS 3.6
 
 HT Gs (All M)):  1.4 VS 0.4
 HT Gs (Last 5):  1.4 VS 0.4
@@ -296,14 +319,16 @@ FT Gs (AHR):  2.3 VS 0.8
 
 Scored at least 1 Goal (All M):  0.86 VS 0.75
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
-Scored at least 1 Goal (AHR):  0.86 VS 0.5
+Scored at least 1 Goal (AHR):  0.86 VS 0.6
 "
-12,2024-12-07,Mechelen,Club Brugge,"1,71","2,67","Action: O1.5
+12,2024-12-07,Mechelen,Club Brugge,"1,73","2,66","Action: O1.5
 ","Home: Mechelen, Away: Club Brugge
 Pts (All M): 24 VS 31
+Pts Against Higher: 0 VS 0
 Pts (Last 5): 13 VS 11
 Position: 5 VS 2
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.8 VS 16.2
 Shots (Last 5):  13.0 VS 16.8
 Shots (AHR):  22.0 VS 17.0
@@ -323,11 +348,13 @@ Scored at least 1 Goal (All M):  1.0 VS 0.88
 Scored at least 1 Goal (Last 5)):  1.0 VS 1.0
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-13,2024-12-07,Standard,Oud-Heverlee Leuven,"1,22","0,87",No decision Made,"Home: Standard, Away: Oud-Heverlee Leuven
+13,2024-12-07,Standard,Oud-Heverlee Leuven,"1,18","0,75",No decision Made,"Home: Standard, Away: Oud-Heverlee Leuven
 Pts (All M): 22 VS 18
+Pts Against Higher: 11 VS 6
 Pts (Last 5): 10 VS 4
-Position: 8 VS 12
+Position: 9 VS 10
 
+BTTS (All M): 0 VS 0
 Shots (All M):  12.1 VS 12.4
 Shots (Last 5):  11.6 VS 13.4
 Shots (AHR):  12.7 VS 12.9
@@ -347,12 +374,14 @@ Scored at least 1 Goal (All M):  0.75 VS 0.62
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.6
 Scored at least 1 Goal (AHR):  0.67 VS 0.71
 "
-14,2024-12-08,AZ Alkmaar,Ajax,"0,96","2,58","Action: Double Chance X2 
+14,2024-12-08,AZ Alkmaar,Ajax,"1,05","2,47","Action: Double Chance X2 
 ","Home: AZ Alkmaar, Away: Ajax
 Pts (All M): 23 VS 33
+Pts Against Higher: 0 VS 4
 Pts (Last 5): 4 VS 13
 Position: 6 VS 2
 
+BTTS (All M): 0 VS 0
 Shots (All M):  18.9 VS 13.1
 Shots (Last 5):  18.0 VS 13.6
 Shots (AHR):  13.5 VS 11.7
@@ -372,12 +401,14 @@ Scored at least 1 Goal (All M):  1.0 VS 1.0
 Scored at least 1 Goal (Last 5)):  1.0 VS 1.0
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-15,2024-12-08,Almere City,Utrecht,"0,96","3,15","Action: O1.5
+15,2024-12-08,Almere City,Utrecht,"0,91","3,16","Action: O1.5
 ","Home: Almere City, Away: Utrecht
 Pts (All M): 6 VS 32
+Pts Against Higher: 0 VS 17
 Pts (Last 5): 4 VS 13
-Position: 17 VS 3
+Position: 18 VS 3
 
+BTTS (All M): 0 VS 0
 Shots (All M):  11.6 VS 11.1
 Shots (Last 5):  14.2 VS 11.8
 Shots (AHR):  9.0 VS 11.1
@@ -397,11 +428,13 @@ Scored at least 1 Goal (All M):  0.57 VS 1.0
 Scored at least 1 Goal (Last 5)):  0.6 VS 1.0
 Scored at least 1 Goal (AHR):  0.67 VS 1.0
 "
-16,2024-12-08,Groningen,Zwolle,"1,62","0,59",No decision Made,"Home: Groningen, Away: Zwolle
+16,2024-12-08,Groningen,Zwolle,"1,58","0,50",No decision Made,"Home: Groningen, Away: Zwolle
 Pts (All M): 15 VS 15
+Pts Against Higher: 8 VS 3
 Pts (Last 5): 7 VS 3
 Position: 12 VS 14
 
+BTTS (All M): 0 VS 0
 Shots (All M):  10.6 VS 7.0
 Shots (Last 5):  11.0 VS 6.6
 Shots (AHR):  11.0 VS 7.0
@@ -421,11 +454,13 @@ Scored at least 1 Goal (All M):  0.57 VS 0.43
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
 Scored at least 1 Goal (AHR):  0.5 VS 0.43
 "
-17,2024-12-08,Willem II,Heerenveen,"0,90","0,21",No decision Made,"Home: Willem II, Away: Heerenveen
+17,2024-12-08,Willem II,Heerenveen,"1,12","0,17",No decision Made,"Home: Willem II, Away: Heerenveen
 Pts (All M): 16 VS 15
+Pts Against Higher: 5 VS 0
 Pts (Last 5): 5 VS 0
-Position: 10 VS 13
+Position: 11 VS 13
 
+BTTS (All M): 0 VS 0
 Shots (All M):  9.6 VS 10.4
 Shots (Last 5):  9.6 VS 10.2
 Shots (AHR):  8.6 VS 10.4
@@ -445,11 +480,13 @@ Scored at least 1 Goal (All M):  0.57 VS 0.29
 Scored at least 1 Goal (Last 5)):  0.4 VS 0.2
 Scored at least 1 Goal (AHR):  0.4 VS 0.29
 "
-18,2024-12-08,Ath Bilbao,Villarreal,"1,15","1,35",No decision Made,"Home: Ath Bilbao, Away: Villarreal
+18,2024-12-08,Ath Bilbao,Villarreal,"1,26","1,36",No decision Made,"Home: Ath Bilbao, Away: Villarreal
 Pts (All M): 29 VS 26
+Pts Against Higher: 3 VS 4
 Pts (Last 5): 11 VS 10
 Position: 4 VS 5
 
+BTTS (All M): 0 VS 0
 Shots (All M):  11.0 VS 14.1
 Shots (Last 5):  12.2 VS 16.8
 Shots (AHR):  8.5 VS 16.0
@@ -469,11 +506,13 @@ Scored at least 1 Goal (All M):  0.89 VS 0.86
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  0.5 VS 0.67
 "
-19,2024-12-08,Ath Madrid,Sevilla,"2,19","1,02",No decision Made,"Home: Ath Madrid, Away: Sevilla
+19,2024-12-08,Ath Madrid,Sevilla,"2,03","1,02",No decision Made,"Home: Ath Madrid, Away: Sevilla
 Pts (All M): 32 VS 19
+Pts Against Higher: 4 VS 1
 Pts (Last 5): 13 VS 4
 Position: 3 VS 11
 
+BTTS (All M): 0 VS 0
 Shots (All M):  15.9 VS 11.3
 Shots (Last 5):  15.2 VS 9.4
 Shots (AHR):  11.5 VS 10.0
@@ -493,11 +532,13 @@ Scored at least 1 Goal (All M):  0.86 VS 0.71
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-20,2024-12-08,Leganes,Sociedad,"0,04","0,54",No decision Made,"Home: Leganes, Away: Sociedad
+20,2024-12-08,Leganes,Sociedad,"0,07","0,65",No decision Made,"Home: Leganes, Away: Sociedad
 Pts (All M): 15 VS 21
+Pts Against Higher: 3 VS 10
 Pts (Last 5): 7 VS 7
-Position: 14 VS 9
+Position: 15 VS 9
 
+BTTS (All M): 0 VS 0
 Shots (All M):  7.9 VS 9.3
 Shots (Last 5):  8.2 VS 11.2
 Shots (AHR):  7.5 VS 8.5
@@ -517,12 +558,14 @@ Scored at least 1 Goal (All M):  0.43 VS 0.43
 Scored at least 1 Goal (Last 5)):  0.4 VS 0.4
 Scored at least 1 Goal (AHR):  0.25 VS 0.5
 "
-21,2024-12-08,Osasuna,Alaves,"1,91","1,25","Action: O1.5
+21,2024-12-08,Osasuna,Alaves,"2,05","1,26","Action: O1.5
 ","Home: Osasuna, Away: Alaves
 Pts (All M): 23 VS 14
+Pts Against Higher: 14 VS 3
 Pts (Last 5): 10 VS 0
 Position: 7 VS 16
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.5 VS 11.2
 Shots (Last 5):  13.4 VS 9.8
 Shots (AHR):  12.6 VS 9.2
@@ -542,11 +585,13 @@ Scored at least 1 Goal (All M):  1.0 VS 0.62
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
 Scored at least 1 Goal (AHR):  1.0 VS 0.75
 "
-22,2024-12-08,Lens,Montpellier,"1,81","0,72",No decision Made,"Home: Lens, Away: Montpellier
+22,2024-12-08,Lens,Montpellier,"1,74","0,76",No decision Made,"Home: Lens, Away: Montpellier
 Pts (All M): 20 VS 8
+Pts Against Higher: 8 VS 0
 Pts (Last 5): 5 VS 0
 Position: 7 VS 18
 
+BTTS (All M): 0 VS 0
 Shots (All M):  16.3 VS 10.5
 Shots (Last 5):  15.2 VS 11.4
 Shots (AHR):  16.3 VS 8.3
@@ -566,11 +611,13 @@ Scored at least 1 Goal (All M):  0.5 VS 0.33
 Scored at least 1 Goal (Last 5)):  0.4 VS 0.4
 Scored at least 1 Goal (AHR):  0.5 VS 0.67
 "
-23,2024-12-08,Nantes,Rennes,"1,51","0,98",No decision Made,"Home: Nantes, Away: Rennes
+23,2024-12-08,Nantes,Rennes,"1,52","0,95",No decision Made,"Home: Nantes, Away: Rennes
 Pts (All M): 11 VS 14
+Pts Against Higher: 5 VS 1
 Pts (Last 5): 2 VS 1
 Position: 17 VS 12
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.0 VS 9.3
 Shots (Last 5):  14.0 VS 8.6
 Shots (AHR):  13.0 VS 9.3
@@ -590,12 +637,14 @@ Scored at least 1 Goal (All M):  0.83 VS 0.67
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.6
 Scored at least 1 Goal (AHR):  0.83 VS 0.67
 "
-24,2024-12-08,St Etienne,Marseille,"1,31","2,40","Action: O1.5
+24,2024-12-08,St Etienne,Marseille,"1,24","2,30","Action: Double Chance X2 
 ","Home: St Etienne, Away: Marseille
 Pts (All M): 13 VS 26
+Pts Against Higher: 3 VS 15
 Pts (Last 5): 12 VS 12
 Position: 15 VS 3
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.3 VS 10.1
 Shots (Last 5):  12.4 VS 10.6
 Shots (AHR):  10.0 VS 8.3
@@ -615,11 +664,13 @@ Scored at least 1 Goal (All M):  0.67 VS 0.86
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 0.83
 "
-25,2024-12-08,Strasbourg,Reims,"1,40","1,78",No decision Made,"Home: Strasbourg, Away: Reims
+25,2024-12-08,Strasbourg,Reims,"1,33","1,76",No decision Made,"Home: Strasbourg, Away: Reims
 Pts (All M): 13 VS 18
+Pts Against Higher: 4 VS 10
 Pts (Last 5): 8 VS 9
 Position: 14 VS 9
 
+BTTS (All M): 0 VS 0
 Shots (All M):  9.2 VS 15.0
 Shots (Last 5):  9.2 VS 15.6
 Shots (AHR):  9.0 VS 15.0
@@ -639,12 +690,14 @@ Scored at least 1 Goal (All M):  1.0 VS 0.83
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 0.83
 "
-26,2024-12-08,Fiorentina,Cagliari,"3,85","1,05","Action: Draw no bet 1X or Over 1.5 Goals
+26,2024-12-08,Fiorentina,Cagliari,"3,89","1,08","Action: Draw no bet 1X or Over 1.5 Goals
 ","Home: Fiorentina, Away: Cagliari
 Pts (All M): 28 VS 14
+Pts Against Higher: 9 VS 1
 Pts (Last 5): 13 VS 5
-Position: 5 VS 13
+Position: 4 VS 13
 
+BTTS (All M): 0 VS 0
 Shots (All M):  14.2 VS 11.2
 Shots (Last 5):  14.6 VS 9.2
 Shots (AHR):  15.7 VS 7.5
@@ -664,11 +717,13 @@ Scored at least 1 Goal (All M):  0.83 VS 0.67
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-27,2024-12-08,Napoli,Lazio,"0,28","1,42",No decision Made,"Home: Napoli, Away: Lazio
+27,2024-12-08,Napoli,Lazio,"0,28","1,39",No decision Made,"Home: Napoli, Away: Lazio
 Pts (All M): 32 VS 28
+Pts Against Higher: 0 VS 0
 Pts (Last 5): 12 VS 9
-Position: 1 VS 4
+Position: 1 VS 3
 
+BTTS (All M): 0 VS 0
 Shots (All M):  16.6 VS 14.7
 Shots (Last 5):  14.2 VS 13.2
 Shots (AHR):  13.0 VS 20.0
@@ -688,11 +743,13 @@ Scored at least 1 Goal (All M):  0.86 VS 0.86
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
 Scored at least 1 Goal (AHR):  0.0 VS 1.0
 "
-28,2024-12-08,Venezia,Como,"0,95","0,40",No decision Made,"Home: Venezia, Away: Como
+28,2024-12-08,Venezia,Como,"1,15","0,58",No decision Made,"Home: Venezia, Away: Como
 Pts (All M): 8 VS 11
+Pts Against Higher: 6 VS 5
 Pts (Last 5): 6 VS 4
 Position: 20 VS 18
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.8 VS 13.8
 Shots (Last 5):  14.0 VS 15.0
 Shots (AHR):  13.8 VS 13.8
@@ -712,12 +769,14 @@ Scored at least 1 Goal (All M):  0.5 VS 0.5
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
 Scored at least 1 Goal (AHR):  0.5 VS 0.5
 "
-29,2024-12-08,Verona,Empoli,"1,58","1,40","Action: O1.5
+29,2024-12-08,Verona,Empoli,"1,51","1,50","Action: O1.5
 ","Home: Verona, Away: Empoli
 Pts (All M): 12 VS 16
+Pts Against Higher: 3 VS 9
 Pts (Last 5): 6 VS 5
 Position: 17 VS 10
 
+BTTS (All M): 0 VS 0
 Shots (All M):  9.7 VS 8.0
 Shots (Last 5):  10.6 VS 8.4
 Shots (AHR):  8.0 VS 8.0
@@ -737,11 +796,13 @@ Scored at least 1 Goal (All M):  0.57 VS 0.86
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.8
 Scored at least 1 Goal (AHR):  0.5 VS 0.86
 "
-30,2024-12-08,Boavista,Farense,"0,13","0,41",No decision Made,"Home: Boavista, Away: Farense
+30,2024-12-08,Boavista,Farense,"0,09","0,44",No decision Made,"Home: Boavista, Away: Farense
 Pts (All M): 10 VS 8
+Pts Against Higher: 1 VS 2
 Pts (Last 5): 1 VS 2
-Position: 14 VS 18
+Position: 13 VS 18
 
+BTTS (All M): 0 VS 0
 Shots (All M):  13.4 VS 10.2
 Shots (Last 5):  13.4 VS 9.4
 Shots (AHR):  13.4 VS 10.2
@@ -761,11 +822,13 @@ Scored at least 1 Goal (All M):  0.0 VS 0.33
 Scored at least 1 Goal (Last 5)):  0.0 VS 0.4
 Scored at least 1 Goal (AHR):  0.0 VS 0.33
 "
-31,2024-12-08,Casa Pia,AVS,"1,28","0,72",No decision Made,"Home: Casa Pia, Away: AVS
+31,2024-12-08,Casa Pia,AVS,"1,27","0,72",No decision Made,"Home: Casa Pia, Away: AVS
 Pts (All M): 13 VS 10
+Pts Against Higher: 8 VS 1
 Pts (Last 5): 8 VS 2
-Position: 11 VS 13
+Position: 11 VS 14
 
+BTTS (All M): 0 VS 0
 Shots (All M):  12.8 VS 9.8
 Shots (Last 5):  12.4 VS 9.8
 Shots (AHR):  12.8 VS 8.2
