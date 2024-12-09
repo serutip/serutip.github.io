@@ -1,32 +1,5 @@
 ,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision,Stats
-1,2024-12-14,Mainz,Bayern Munich,"0,06","3,19","Action: Double Chance X2 
-","Home: Mainz, Away: Bayern Munich
-Pts (All M): 19 VS 33
-Pts Against Higher: 0 VS 8
-Pts (Last 5): 7 VS 11
-Position: 9 VS 1
-
-BTTS (All M): 0.57 VS 0.57
-Shots (All M):  14.7 VS 18.3
-Shots (Last 5):  15.4 VS 18.2
-Shots (AHR):  16.0 VS 18.8
-
-Shots Tar (All M):  5.0 VS 8.7
-Shots Tar (Last 5):  5.4 VS 8.0
-Shots Tar (AHR):  2.0 VS 8.2
-
-HT Gs (All M)):  0.7 VS 1.7
-HT Gs (Last 5):  0.8 VS 1.4
-HT Gs (AHR):  0.0 VS 1.2
-FT Gs (All M)):  1.1 VS 3.4
-FT Gs (Last 5):  1.2 VS 3.0
-FT Gs (AHR):  0.0 VS 3.0
-
-Scored at least 1 Goal (All M):  0.71 VS 1.0
-Scored at least 1 Goal (Last 5)):  0.6 VS 1.0
-Scored at least 1 Goal (AHR):  0.0 VS 1.0
-"
-0,2024-12-14,Liverpool,Fulham,"2,58","1,49","Action: O1.5
+0,2024-12-14,Liverpool,Fulham,"2,24","1,83","Action: BTTS 
 ","Home: Liverpool, Away: Fulham
 Pts (All M): 35 VS 23
 Pts Against Higher: 18 VS 0
@@ -53,7 +26,34 @@ Scored at least 1 Goal (All M):  0.86 VS 0.86
 Scored at least 1 Goal (Last 5)):  1.0 VS 1.0
 Scored at least 1 Goal (AHR):  0.86 VS 1.0
 "
-3,2024-12-15,Alaves,Ath Bilbao,"0,13","2,34","Action: Double Chance X2 
+1,2024-12-14,Mainz,Bayern Munich,"0,18","3,03","Action: Double Chance X2 
+","Home: Mainz, Away: Bayern Munich
+Pts (All M): 19 VS 33
+Pts Against Higher: 0 VS 8
+Pts (Last 5): 7 VS 11
+Position: 9 VS 1
+
+BTTS (All M): 0.57 VS 0.57
+Shots (All M):  14.7 VS 18.3
+Shots (Last 5):  15.4 VS 18.2
+Shots (AHR):  16.0 VS 18.8
+
+Shots Tar (All M):  5.0 VS 8.7
+Shots Tar (Last 5):  5.4 VS 8.0
+Shots Tar (AHR):  2.0 VS 8.2
+
+HT Gs (All M)):  0.7 VS 1.7
+HT Gs (Last 5):  0.8 VS 1.4
+HT Gs (AHR):  0.0 VS 1.2
+FT Gs (All M)):  1.1 VS 3.4
+FT Gs (Last 5):  1.2 VS 3.0
+FT Gs (AHR):  0.0 VS 3.0
+
+Scored at least 1 Goal (All M):  0.71 VS 1.0
+Scored at least 1 Goal (Last 5)):  0.6 VS 1.0
+Scored at least 1 Goal (AHR):  0.0 VS 1.0
+"
+3,2024-12-15,Alaves,Ath Bilbao,"0,04","2,16","Action: Double Chance X2 
 ","Home: Alaves, Away: Ath Bilbao
 Pts (All M): 15 VS 32
 Pts Against Higher: 0 VS 10
@@ -80,7 +80,7 @@ Scored at least 1 Goal (All M):  0.71 VS 0.86
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
 Scored at least 1 Goal (AHR):  0.0 VS 0.83
 "
-10,2024-12-15,AVS,Benfica,"0,12","2,53","Action: Double Chance X2 
+8,2024-12-15,AVS,Benfica,"0,14","2,87","Action: Double Chance X2 
 ","Home: AVS, Away: Benfica
 Pts (All M): 11 VS 31
 Pts Against Higher: 0 VS 10
@@ -107,7 +107,7 @@ Scored at least 1 Goal (All M):  0.57 VS 0.8
 Scored at least 1 Goal (Last 5)):  0.4 VS 0.8
 Scored at least 1 Goal (AHR):  0.0 VS 0.8
 "
-11,2024-12-15,Arouca,Santa Clara,"0,15","1,96","Action: Double Chance X2 
+9,2024-12-15,Arouca,Santa Clara,"0,10","1,66","Action: Double Chance X2 
 ","Home: Arouca, Away: Santa Clara
 Pts (All M): 8 VS 27
 Pts Against Higher: 0 VS 9
@@ -134,12 +134,12 @@ Scored at least 1 Goal (All M):  0.5 VS 0.67
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
 Scored at least 1 Goal (AHR):  0.25 VS 0.67
 "
-2,2024-12-15,Twente,Groningen,"2,59","0,51","Action: Draw no bet 1X 
+2,2024-12-15,Twente,Groningen,"2,65","0,60","Action: Draw no bet 1X 
 ","Home: Twente, Away: Groningen
 Pts (All M): 28 VS 16
 Pts Against Higher: 14 VS 0
 Pts (Last 5): 13 VS 0
-Position: 5 VS 14
+Position: 5 VS 12
 
 BTTS (All M): 0.57 VS 0.57
 Shots (All M):  20.6 VS 7.9
@@ -161,34 +161,7 @@ Scored at least 1 Goal (All M):  1.0 VS 0.57
 Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
 Scored at least 1 Goal (AHR):  1.0 VS 0.5
 "
-4,2024-12-15,Ath Madrid,Getafe,"2,30","0,57","Action: Draw no bet 1X 
-","Home: Ath Madrid, Away: Getafe
-Pts (All M): 35 VS 13
-Pts Against Higher: 17 VS 2
-Pts (Last 5): 13 VS 1
-Position: 3 VS 18
-
-BTTS (All M): 0.5 VS 0.43
-Shots (All M):  15.6 VS 12.1
-Shots (Last 5):  15.2 VS 12.2
-Shots (AHR):  15.9 VS 11.2
-
-Shots Tar (All M):  6.4 VS 3.0
-Shots Tar (Last 5):  6.6 VS 3.0
-Shots Tar (AHR):  6.6 VS 2.5
-
-HT Gs (All M)):  0.5 VS 0.0
-HT Gs (Last 5):  0.4 VS 0.0
-HT Gs (AHR):  0.4 VS 0.0
-FT Gs (All M)):  2.2 VS 0.4
-FT Gs (Last 5):  2.4 VS 0.4
-FT Gs (AHR):  2.1 VS 0.5
-
-Scored at least 1 Goal (All M):  0.88 VS 0.43
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
-Scored at least 1 Goal (AHR):  0.86 VS 0.5
-"
-5,2024-12-15,Barcelona,Leganes,"2,85","0,95","Action: Draw no bet 1X 
+4,2024-12-15,Barcelona,Leganes,"3,09","1,04","Action: Draw no bet 1X 
 ","Home: Barcelona, Away: Leganes
 Pts (All M): 38 VS 15
 Pts Against Higher: 12 VS 0
@@ -215,34 +188,7 @@ Scored at least 1 Goal (All M):  1.0 VS 0.75
 Scored at least 1 Goal (Last 5)):  1.0 VS 1.0
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-6,2024-12-15,Villarreal,Betis,"2,41","1,02","Action: Draw no bet 1X 
-","Home: Villarreal, Away: Betis
-Pts (All M): 26 VS 21
-Pts Against Higher: 5 VS 1
-Pts (Last 5): 8 VS 4
-Position: 5 VS 11
-
-BTTS (All M): 0.86 VS 0.5
-Shots (All M):  13.7 VS 10.2
-Shots (Last 5):  13.2 VS 8.6
-Shots (AHR):  14.0 VS 9.5
-
-Shots Tar (All M):  4.9 VS 3.6
-Shots Tar (Last 5):  4.4 VS 3.8
-Shots Tar (AHR):  5.0 VS 3.0
-
-HT Gs (All M)):  1.1 VS 0.4
-HT Gs (Last 5):  1.0 VS 0.4
-HT Gs (AHR):  1.2 VS 0.0
-FT Gs (All M)):  2.3 VS 0.8
-FT Gs (Last 5):  2.0 VS 1.0
-FT Gs (AHR):  2.2 VS 0.5
-
-Scored at least 1 Goal (All M):  1.0 VS 0.5
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.6
-Scored at least 1 Goal (AHR):  1.0 VS 0.5
-"
-7,2024-12-15,Brest,Nantes,"1,87","0,47","Action: Draw no bet 1X 
+5,2024-12-15,Brest,Nantes,"2,01","0,62","Action: Draw no bet 1X 
 ","Home: Brest, Away: Nantes
 Pts (All M): 16 VS 14
 Pts Against Higher: 13 VS 3
@@ -269,39 +215,12 @@ Scored at least 1 Goal (All M):  0.86 VS 0.71
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
 Scored at least 1 Goal (AHR):  0.86 VS 0.67
 "
-8,2024-12-15,Rennes,Angers,"1,87","0,50","Action: Draw no bet 1X 
-","Home: Rennes, Away: Angers
-Pts (All M): 14 VS 13
-Pts Against Higher: 10 VS 9
-Pts (Last 5): 7 VS 8
-Position: 14 VS 16
-
-BTTS (All M): 0.29 VS 0.43
-Shots (All M):  14.7 VS 9.3
-Shots (Last 5):  14.0 VS 9.6
-Shots (AHR):  15.3 VS 9.3
-
-Shots Tar (All M):  5.3 VS 3.1
-Shots Tar (Last 5):  4.6 VS 3.6
-Shots Tar (AHR):  5.2 VS 3.1
-
-HT Gs (All M)):  1.1 VS 0.3
-HT Gs (Last 5):  0.8 VS 0.4
-HT Gs (AHR):  1.0 VS 0.3
-FT Gs (All M)):  2.0 VS 0.7
-FT Gs (Last 5):  1.6 VS 0.8
-FT Gs (AHR):  1.8 VS 0.7
-
-Scored at least 1 Goal (All M):  0.86 VS 0.71
-Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
-Scored at least 1 Goal (AHR):  0.83 VS 0.71
-"
-9,2024-12-15,Milan,Genoa,"1,82","0,22","Action: Draw no bet 1X 
+6,2024-12-15,Milan,Genoa,"1,74","0,12","Action: Draw no bet 1X 
 ","Home: Milan, Away: Genoa
 Pts (All M): 22 VS 15
 Pts Against Higher: 8 VS 0
 Pts (Last 5): 10 VS 6
-Position: 8 VS 14
+Position: 7 VS 14
 
 BTTS (All M): 0.14 VS 0.17
 Shots (All M):  13.7 VS 10.5
@@ -322,4 +241,58 @@ FT Gs (AHR):  1.2 VS 0.5
 Scored at least 1 Goal (All M):  0.71 VS 0.67
 Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
 Scored at least 1 Goal (AHR):  0.6 VS 0.5
+"
+7,2024-12-15,Parma,Verona,"2,50","1,73","Action: O1.5
+","Home: Parma, Away: Verona
+Pts (All M): 15 VS 12
+Pts Against Higher: 8 VS 3
+Pts (Last 5): 4 VS 0
+Position: 13 VS 18
+
+BTTS (All M): 0.88 VS 0.57
+Shots (All M):  12.4 VS 7.6
+Shots (Last 5):  13.8 VS 7.2
+Shots (AHR):  12.4 VS 7.6
+
+Shots Tar (All M):  3.5 VS 2.1
+Shots Tar (Last 5):  3.0 VS 2.0
+Shots Tar (AHR):  3.5 VS 2.1
+
+HT Gs (All M)):  0.6 VS 0.4
+HT Gs (Last 5):  0.2 VS 0.4
+HT Gs (AHR):  0.6 VS 0.4
+FT Gs (All M)):  1.5 VS 1.0
+FT Gs (Last 5):  1.4 VS 0.8
+FT Gs (AHR):  1.5 VS 1.0
+
+Scored at least 1 Goal (All M):  0.88 VS 0.71
+Scored at least 1 Goal (Last 5)):  0.8 VS 0.6
+Scored at least 1 Goal (AHR):  0.88 VS 0.71
+"
+10,2024-12-15,Estoril,Casa Pia,"0,86","0,80","Action: U3.5
+","Home: Estoril, Away: Casa Pia
+Pts (All M): 14 VS 14
+Pts Against Higher: 4 VS 2
+Pts (Last 5): 10 VS 5
+Position: 10 VS 11
+
+BTTS (All M): 0.43 VS 0.33
+Shots (All M):  9.3 VS 8.8
+Shots (Last 5):  9.8 VS 9.6
+Shots (AHR):  8.2 VS 7.6
+
+Shots Tar (All M):  2.9 VS 3.2
+Shots Tar (Last 5):  3.2 VS 3.6
+Shots Tar (AHR):  2.5 VS 2.6
+
+HT Gs (All M)):  0.9 VS 0.3
+HT Gs (Last 5):  1.0 VS 0.4
+HT Gs (AHR):  0.8 VS 0.4
+FT Gs (All M)):  1.1 VS 0.7
+FT Gs (Last 5):  1.4 VS 0.8
+FT Gs (AHR):  0.8 VS 0.6
+
+Scored at least 1 Goal (All M):  0.57 VS 0.5
+Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
+Scored at least 1 Goal (AHR):  0.5 VS 0.4
 "
