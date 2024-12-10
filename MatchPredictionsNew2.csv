@@ -1,433 +1,1508 @@
 ,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision,Stats
-0,2024-12-10,Leeds,Middlesbrough,"2,37","0,81","Action: Draw no bet 1X 
-","Home: Leeds, Away: Middlesbrough
+6,2024-12-10,Sunderland,Bristol City,"1,69","0,28","Action: Draw no bet 1X 
+","Home: Sunderland, Away: Bristol City
+Pts (All M): 36 VS 25
+Pts Against Higher: 11 VS 3
+Pts (Last 5): 8 VS 6
+Position: 4 VS 11
+
+BTTS (All M): 0.33 VS 0.4
+Shots (All M):  14.0 VS 12.7
+Shots (Last 5):  16.2 VS 9.8
+Shots (AHR):  14.0 VS 10.3
+
+Shots Tar (All M):  4.6 VS 4.1
+Shots Tar (Last 5):  5.8 VS 3.0
+Shots Tar (AHR):  3.4 VS 3.3
+
+HT Gs (All M)):  1.2 VS 0.4
+HT Gs (Last 5):  1.0 VS 0.5
+HT Gs (AHR):  1.2 VS 0.7
+FT Gs (All M)):  1.8 VS 1.1
+FT Gs (Last 5):  1.5 VS 1.2
+FT Gs (AHR):  1.6 VS 0.7
+
+Scored at least 1 Goal (All M):  0.89 VS 0.6
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.5
+Scored at least 1 Goal (AHR):  0.8 VS 0.33
+"
+0,2024-12-10,Burnley,Derby,"0,96","0,48","Action: U3.5
+","Home: Burnley, Away: Derby
+Pts (All M): 37 VS 20
+Pts Against Higher: 10 VS 0
+Pts (Last 5): 8 VS 4
+Position: 3 VS 16
+
+BTTS (All M): 0.33 VS 0.7
+Shots (All M):  12.6 VS 7.8
+Shots (Last 5):  12.8 VS 5.0
+Shots (AHR):  12.5 VS 7.8
+
+Shots Tar (All M):  3.7 VS 2.3
+Shots Tar (Last 5):  4.5 VS 1.5
+Shots Tar (AHR):  3.7 VS 2.6
+
+HT Gs (All M)):  0.6 VS 0.3
+HT Gs (Last 5):  0.2 VS 0.5
+HT Gs (AHR):  0.3 VS 0.2
+FT Gs (All M)):  1.4 VS 0.9
+FT Gs (Last 5):  1.0 VS 1.0
+FT Gs (AHR):  0.8 VS 0.6
+
+Scored at least 1 Goal (All M):  0.78 VS 0.7
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.67 VS 0.4
+"
+1,2024-12-10,Leeds,Middlesbrough,"1,83","0,97",No decision Made,"Home: Leeds, Away: Middlesbrough
 Pts (All M): 38 VS 31
 Pts Against Higher: 6 VS 1
-Pts (Last 5): 15 VS 8
-Position: 2 VS 5
+Pts (Last 5): 12 VS 8
+Position: 2 VS 6
 
 BTTS (All M): 0.2 VS 0.56
 Shots (All M):  18.7 VS 13.2
-Shots (Last 5):  21.2 VS 12.6
+Shots (Last 5):  20.5 VS 13.0
 Shots (AHR):  18.0 VS 10.7
 
 Shots Tar (All M):  6.8 VS 5.8
-Shots Tar (Last 5):  7.4 VS 7.6
+Shots Tar (Last 5):  7.5 VS 8.2
 Shots Tar (AHR):  5.0 VS 3.7
 
 HT Gs (All M)):  1.2 VS 1.0
-HT Gs (Last 5):  2.0 VS 1.8
+HT Gs (Last 5):  2.0 VS 2.2
 HT Gs (AHR):  0.7 VS 0.3
 FT Gs (All M)):  2.2 VS 2.0
-FT Gs (Last 5):  2.4 VS 3.0
+FT Gs (Last 5):  2.5 VS 3.5
 FT Gs (AHR):  1.3 VS 0.7
 
 Scored at least 1 Goal (All M):  0.9 VS 0.78
 Scored at least 1 Goal (Last 5)):  1.0 VS 1.0
 Scored at least 1 Goal (AHR):  0.67 VS 0.67
 "
-1,2024-12-11,Hull,Watford,"0,38","1,78","Action: Double Chance X2 
+2,2024-12-10,Luton,Stoke,"1,21","0,71",No decision Made,"Home: Luton, Away: Stoke
+Pts (All M): 19 VS 21
+Pts Against Higher: 8 VS 8
+Pts (Last 5): 8 VS 4
+Position: 17 VS 15
+
+BTTS (All M): 0.7 VS 0.22
+Shots (All M):  11.6 VS 10.0
+Shots (Last 5):  9.0 VS 10.5
+Shots (AHR):  13.0 VS 10.0
+
+Shots Tar (All M):  3.6 VS 3.8
+Shots Tar (Last 5):  3.0 VS 4.5
+Shots Tar (AHR):  3.7 VS 3.8
+
+HT Gs (All M)):  0.6 VS 0.2
+HT Gs (Last 5):  0.5 VS 0.5
+HT Gs (AHR):  0.3 VS 0.2
+FT Gs (All M)):  1.4 VS 0.6
+FT Gs (Last 5):  1.0 VS 1.0
+FT Gs (AHR):  1.5 VS 0.6
+
+Scored at least 1 Goal (All M):  1.0 VS 0.44
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  1.0 VS 0.44
+"
+3,2024-12-10,Plymouth,Swansea,"2,14","1,29",No decision Made,"Home: Plymouth, Away: Swansea
+Pts (All M): 17 VS 24
+Pts Against Higher: 7 VS 11
+Pts (Last 5): 8 VS 7
+Position: 21 VS 13
+
+BTTS (All M): 0.75 VS 0.4
+Shots (All M):  14.0 VS 10.0
+Shots (Last 5):  12.2 VS 12.0
+Shots (AHR):  13.3 VS 10.0
+
+Shots Tar (All M):  5.8 VS 3.1
+Shots Tar (Last 5):  5.0 VS 5.2
+Shots Tar (AHR):  5.3 VS 3.1
+
+HT Gs (All M)):  0.4 VS 0.5
+HT Gs (Last 5):  0.5 VS 0.8
+HT Gs (AHR):  0.7 VS 0.5
+FT Gs (All M)):  1.9 VS 0.7
+FT Gs (Last 5):  2.0 VS 1.2
+FT Gs (AHR):  2.3 VS 0.7
+
+Scored at least 1 Goal (All M):  0.88 VS 0.4
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  1.0 VS 0.4
+"
+4,2024-12-10,Portsmouth,Norwich,"1,13","1,44",No decision Made,"Home: Portsmouth, Away: Norwich
+Pts (All M): 16 VS 25
+Pts Against Higher: 4 VS 9
+Pts (Last 5): 7 VS 1
+Position: 23 VS 12
+
+BTTS (All M): 0.5 VS 0.5
+Shots (All M):  13.1 VS 10.0
+Shots (Last 5):  15.2 VS 9.2
+Shots (AHR):  10.2 VS 10.0
+
+Shots Tar (All M):  4.2 VS 3.3
+Shots Tar (Last 5):  6.0 VS 3.8
+Shots Tar (AHR):  2.8 VS 3.3
+
+HT Gs (All M)):  0.5 VS 0.5
+HT Gs (Last 5):  1.0 VS 0.5
+HT Gs (AHR):  0.4 VS 0.5
+FT Gs (All M)):  1.1 VS 1.0
+FT Gs (Last 5):  2.0 VS 0.8
+FT Gs (AHR):  1.0 VS 1.0
+
+Scored at least 1 Goal (All M):  0.62 VS 0.6
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
+Scored at least 1 Goal (AHR):  0.6 VS 0.6
+"
+5,2024-12-10,Sheffield Weds,Blackburn,"1,18","1,36",No decision Made,"Home: Sheffield Weds, Away: Blackburn
+Pts (All M): 26 VS 31
+Pts Against Higher: 3 VS 5
+Pts (Last 5): 5 VS 9
+Position: 9 VS 5
+
+BTTS (All M): 0.5 VS 0.44
+Shots (All M):  14.0 VS 8.2
+Shots (Last 5):  13.8 VS 8.5
+Shots (AHR):  11.8 VS 9.0
+
+Shots Tar (All M):  4.1 VS 3.1
+Shots Tar (Last 5):  4.5 VS 3.0
+Shots Tar (AHR):  4.0 VS 2.5
+
+HT Gs (All M)):  0.7 VS 0.4
+HT Gs (Last 5):  1.0 VS 0.5
+HT Gs (AHR):  0.8 VS 0.5
+FT Gs (All M)):  1.4 VS 1.0
+FT Gs (Last 5):  1.5 VS 1.2
+FT Gs (AHR):  1.2 VS 1.0
+
+Scored at least 1 Goal (All M):  0.7 VS 0.67
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.5 VS 0.75
+"
+8,2024-12-11,Hull,Watford,"0,56","2,07","Action: Double Chance X2 
 ","Home: Hull, Away: Watford
 Pts (All M): 15 VS 30
 Pts Against Higher: 1 VS 7
-Pts (Last 5): 2 VS 4
+Pts (Last 5): 1 VS 4
 Position: 24 VS 7
 
 BTTS (All M): 0.5 VS 0.56
 Shots (All M):  11.8 VS 10.1
-Shots (Last 5):  11.4 VS 10.6
+Shots (Last 5):  11.5 VS 11.0
 Shots (AHR):  11.2 VS 10.1
 
 Shots Tar (All M):  3.7 VS 3.6
-Shots Tar (Last 5):  3.4 VS 3.4
+Shots Tar (Last 5):  3.8 VS 4.0
 Shots Tar (AHR):  2.6 VS 3.6
 
 HT Gs (All M)):  0.5 VS 0.6
-HT Gs (Last 5):  0.6 VS 0.6
+HT Gs (Last 5):  0.5 VS 0.8
 HT Gs (AHR):  0.4 VS 0.6
 FT Gs (All M)):  0.8 VS 1.4
-FT Gs (Last 5):  0.6 VS 1.8
+FT Gs (Last 5):  0.5 VS 2.2
 FT Gs (AHR):  0.4 VS 1.4
 
 Scored at least 1 Goal (All M):  0.5 VS 0.56
-Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
 Scored at least 1 Goal (AHR):  0.4 VS 0.56
 "
-2,2024-12-11,West Brom,Coventry,"0,76","0,70","Action: U3.5
-","Home: West Brom, Away: Coventry
+7,2024-12-11,Cardiff,Preston,"1,11","1,13","Action: U3.5
+","Home: Cardiff, Away: Preston
+Pts (All M): 17 VS 19
+Pts Against Higher: 6 VS 5
+Pts (Last 5): 6 VS 3
+Position: 22 VS 18
+
+BTTS (All M): 0.22 VS 0.67
+Shots (All M):  15.7 VS 9.4
+Shots (Last 5):  19.8 VS 11.0
+Shots (AHR):  13.1 VS 9.4
+
+Shots Tar (All M):  6.1 VS 3.7
+Shots Tar (Last 5):  7.5 VS 4.8
+Shots Tar (AHR):  4.9 VS 3.7
+
+HT Gs (All M)):  0.6 VS 0.6
+HT Gs (Last 5):  0.5 VS 0.8
+HT Gs (AHR):  0.1 VS 0.6
+FT Gs (All M)):  1.2 VS 0.9
+FT Gs (Last 5):  1.2 VS 1.2
+FT Gs (AHR):  0.6 VS 0.9
+
+Scored at least 1 Goal (All M):  0.56 VS 0.67
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.43 VS 0.67
+"
+9,2024-12-11,Millwall,Sheffield United,"1,14","1,25",No decision Made,"Home: Millwall, Away: Sheffield United
+Pts (All M): 25 VS 41
+Pts Against Higher: 7 VS 9
+Pts (Last 5): 7 VS 8
+Position: 10 VS 1
+
+BTTS (All M): 0.4 VS 0.4
+Shots (All M):  12.6 VS 10.8
+Shots (Last 5):  9.5 VS 12.5
+Shots (AHR):  11.2 VS 10.9
+
+Shots Tar (All M):  4.0 VS 4.0
+Shots Tar (Last 5):  2.8 VS 5.0
+Shots Tar (AHR):  3.8 VS 4.1
+
+HT Gs (All M)):  0.4 VS 0.8
+HT Gs (Last 5):  0.2 VS 1.2
+HT Gs (AHR):  0.2 VS 0.9
+FT Gs (All M)):  1.3 VS 1.3
+FT Gs (Last 5):  0.8 VS 2.0
+FT Gs (AHR):  1.2 VS 1.3
+
+Scored at least 1 Goal (All M):  0.8 VS 0.7
+Scored at least 1 Goal (Last 5)):  0.75 VS 1.0
+Scored at least 1 Goal (AHR):  1.0 VS 0.71
+"
+10,2024-12-11,QPR,Oxford,"1,33","1,41",No decision Made,"Home: QPR, Away: Oxford
+Pts (All M): 18 VS 18
+Pts Against Higher: 8 VS 2
+Pts (Last 5): 5 VS 1
+Position: 19 VS 20
+
+BTTS (All M): 0.8 VS 0.62
+Shots (All M):  15.6 VS 10.4
+Shots (Last 5):  14.0 VS 9.2
+Shots (AHR):  15.0 VS 10.4
+
+Shots Tar (All M):  5.6 VS 3.2
+Shots Tar (Last 5):  4.5 VS 2.8
+Shots Tar (AHR):  5.4 VS 3.2
+
+HT Gs (All M)):  0.7 VS 0.5
+HT Gs (Last 5):  0.5 VS 0.0
+HT Gs (AHR):  0.7 VS 0.5
+FT Gs (All M)):  1.1 VS 0.9
+FT Gs (Last 5):  1.2 VS 0.2
+FT Gs (AHR):  1.1 VS 0.9
+
+Scored at least 1 Goal (All M):  0.9 VS 0.62
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.25
+Scored at least 1 Goal (AHR):  0.89 VS 0.62
+"
+11,2024-12-11,West Brom,Coventry,"0,78","0,96",No decision Made,"Home: West Brom, Away: Coventry
 Pts (All M): 29 VS 21
 Pts Against Higher: 8 VS 9
-Pts (Last 5): 5 VS 8
-Position: 8 VS 15
+Pts (Last 5): 4 VS 7
+Position: 8 VS 14
 
 BTTS (All M): 0.22 VS 0.4
 Shots (All M):  14.4 VS 9.5
-Shots (Last 5):  15.2 VS 8.6
+Shots (Last 5):  15.8 VS 8.8
 Shots (AHR):  13.4 VS 9.6
 
 Shots Tar (All M):  3.2 VS 2.4
-Shots Tar (Last 5):  3.6 VS 2.8
+Shots Tar (Last 5):  3.8 VS 2.8
 Shots Tar (AHR):  3.0 VS 2.7
 
 HT Gs (All M)):  0.4 VS 0.3
-HT Gs (Last 5):  0.6 VS 0.4
+HT Gs (Last 5):  0.8 VS 0.2
 HT Gs (AHR):  0.6 VS 0.3
 FT Gs (All M)):  0.7 VS 0.9
-FT Gs (Last 5):  0.8 VS 1.4
+FT Gs (Last 5):  1.0 VS 1.5
 FT Gs (AHR):  0.7 VS 1.1
 
 Scored at least 1 Goal (All M):  0.44 VS 0.6
-Scored at least 1 Goal (Last 5)):  0.4 VS 0.8
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
 Scored at least 1 Goal (AHR):  0.43 VS 0.71
 "
-15,2024-12-14,Cesena,Cosenza,"2,19","1,67","Action: BTTS 
+48,2024-12-14,Cesena,Cosenza,"2,46","1,84","Action: BTTS 
 ","Home: Cesena, Away: Cosenza
 Pts (All M): 22 VS 20
 Pts Against Higher: 13 VS 9
-Pts (Last 5): 10 VS 9
-Position: 7 VS 10
+Pts (Last 5): 7 VS 8
+Position: 7 VS 9
 
 BTTS (All M): 0.62 VS 0.71
 Shots (All M):  14.4 VS 13.7
-Shots (Last 5):  15.4 VS 12.0
+Shots (Last 5):  15.2 VS 12.2
 Shots (AHR):  16.0 VS 14.3
 
 Shots Tar (All M):  6.1 VS 4.6
-Shots Tar (Last 5):  6.4 VS 3.8
+Shots Tar (Last 5):  5.8 VS 3.8
 Shots Tar (AHR):  7.2 VS 5.0
 
 HT Gs (All M)):  1.4 VS 0.6
-HT Gs (Last 5):  1.2 VS 0.6
+HT Gs (Last 5):  0.8 VS 0.8
 HT Gs (AHR):  1.4 VS 0.7
 FT Gs (All M)):  2.1 VS 1.4
-FT Gs (Last 5):  2.2 VS 1.4
+FT Gs (Last 5):  1.8 VS 1.5
 FT Gs (AHR):  2.2 VS 1.7
 
 Scored at least 1 Goal (All M):  1.0 VS 0.86
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.8
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
 Scored at least 1 Goal (AHR):  1.0 VS 1.0
 "
-6,2024-12-14,Schalke 04,Fortuna Dusseldorf,"0,57","2,03","Action: Double Chance X2 
+23,2024-12-14,Schalke 04,Fortuna Dusseldorf,"0,59","1,97","Action: Double Chance X2 
 ","Home: Schalke 04, Away: Fortuna Dusseldorf
 Pts (All M): 16 VS 25
 Pts Against Higher: 0 VS 13
-Pts (Last 5): 4 VS 10
-Position: 14 VS 5
+Pts (Last 5): 4 VS 7
+Position: 14 VS 6
 
 BTTS (All M): 0.71 VS 0.43
 Shots (All M):  16.1 VS 12.4
-Shots (Last 5):  16.8 VS 12.8
+Shots (Last 5):  16.5 VS 13.2
 Shots (AHR):  15.5 VS 12.0
 
 Shots Tar (All M):  5.9 VS 4.4
-Shots Tar (Last 5):  5.2 VS 4.4
+Shots Tar (Last 5):  4.8 VS 3.8
 Shots Tar (AHR):  6.5 VS 4.5
 
 HT Gs (All M)):  1.3 VS 0.4
-HT Gs (Last 5):  1.4 VS 0.6
+HT Gs (Last 5):  1.0 VS 0.5
 HT Gs (AHR):  0.0 VS 0.3
 FT Gs (All M)):  2.3 VS 1.9
-FT Gs (Last 5):  2.0 VS 1.8
+FT Gs (Last 5):  1.8 VS 1.8
 FT Gs (AHR):  0.5 VS 1.7
 
 Scored at least 1 Goal (All M):  0.86 VS 0.86
-Scored at least 1 Goal (Last 5)):  0.8 VS 0.8
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
 Scored at least 1 Goal (AHR):  0.5 VS 0.83
 "
-7,2024-12-14,Ulm,Hamburg,"0,72","2,23","Action: Double Chance X2 
-","Home: Ulm, Away: Hamburg
-Pts (All M): 12 VS 24
-Pts Against Higher: 0 VS 10
-Pts (Last 5): 5 VS 7
-Position: 16 VS 7
-
-BTTS (All M): 0.71 VS 0.71
-Shots (All M):  14.1 VS 14.9
-Shots (Last 5):  13.2 VS 17.4
-Shots (AHR):  14.7 VS 14.9
-
-Shots Tar (All M):  4.6 VS 5.6
-Shots Tar (Last 5):  4.2 VS 6.4
-Shots Tar (AHR):  4.3 VS 5.6
-
-HT Gs (All M)):  0.6 VS 0.7
-HT Gs (Last 5):  0.6 VS 0.6
-HT Gs (AHR):  0.3 VS 0.7
-FT Gs (All M)):  1.0 VS 1.9
-FT Gs (Last 5):  1.0 VS 2.2
-FT Gs (AHR):  0.7 VS 1.9
-
-Scored at least 1 Goal (All M):  0.71 VS 0.86
-Scored at least 1 Goal (Last 5)):  0.6 VS 1.0
-Scored at least 1 Goal (AHR):  0.67 VS 0.86
-"
-8,2024-12-14,Carlisle,Chesterfield,"0,72","2,44","Action: Double Chance X2 
+28,2024-12-14,Carlisle,Chesterfield,"0,69","2,56","Action: Double Chance X2 
 ","Home: Carlisle, Away: Chesterfield
 Pts (All M): 14 VS 28
 Pts Against Higher: 2 VS 13
-Pts (Last 5): 3 VS 7
-Position: 23 VS 8
+Pts (Last 5): 3 VS 6
+Position: 24 VS 8
 
 BTTS (All M): 0.56 VS 0.33
 Shots (All M):  12.7 VS 10.6
-Shots (Last 5):  13.2 VS 9.8
+Shots (Last 5):  11.2 VS 9.2
 Shots (AHR):  11.2 VS 10.6
 
 Shots Tar (All M):  4.0 VS 4.1
-Shots Tar (Last 5):  4.4 VS 3.8
+Shots Tar (Last 5):  3.8 VS 4.0
 Shots Tar (AHR):  4.0 VS 4.1
 
 HT Gs (All M)):  0.8 VS 1.0
-HT Gs (Last 5):  0.4 VS 0.8
+HT Gs (Last 5):  0.5 VS 0.5
 HT Gs (AHR):  0.8 VS 1.0
 FT Gs (All M)):  0.9 VS 2.1
-FT Gs (Last 5):  0.4 VS 2.2
+FT Gs (Last 5):  0.5 VS 2.2
 FT Gs (AHR):  0.8 VS 2.1
 
 Scored at least 1 Goal (All M):  0.67 VS 0.67
-Scored at least 1 Goal (Last 5)):  0.4 VS 0.8
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
 Scored at least 1 Goal (AHR):  0.5 VS 0.67
 "
-3,2024-12-14,Blackburn,Luton,"2,50","0,42","Action: Draw no bet 1X 
+51,2024-12-14,Sampdoria,Spezia,"0,38","1,59","Action: Double Chance X2 
+","Home: Sampdoria, Away: Spezia
+Pts (All M): 17 VS 33
+Pts Against Higher: 1 VS 11
+Pts (Last 5): 4 VS 7
+Position: 15 VS 2
+
+BTTS (All M): 0.29 VS 0.38
+Shots (All M):  14.0 VS 11.2
+Shots (Last 5):  17.0 VS 12.8
+Shots (AHR):  12.5 VS 11.2
+
+Shots Tar (All M):  4.6 VS 3.8
+Shots Tar (Last 5):  6.0 VS 4.2
+Shots Tar (AHR):  4.0 VS 3.8
+
+HT Gs (All M)):  0.4 VS 0.5
+HT Gs (Last 5):  0.5 VS 0.5
+HT Gs (AHR):  0.5 VS 0.5
+FT Gs (All M)):  0.9 VS 1.1
+FT Gs (Last 5):  1.2 VS 1.5
+FT Gs (AHR):  0.5 VS 1.1
+
+Scored at least 1 Goal (All M):  0.57 VS 0.62
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.5 VS 0.62
+"
+12,2024-12-14,Blackburn,Luton,"1,96","0,26","Action: Draw no bet 1X 
 ","Home: Blackburn, Away: Luton
 Pts (All M): 31 VS 19
 Pts Against Higher: 19 VS 0
-Pts (Last 5): 7 VS 0
-Position: 6 VS 18
+Pts (Last 5): 4 VS 0
+Position: 5 VS 17
 
 BTTS (All M): 0.22 VS 0.44
 Shots (All M):  13.1 VS 10.3
-Shots (Last 5):  12.2 VS 8.2
+Shots (Last 5):  13.2 VS 8.2
 Shots (AHR):  13.1 VS 6.7
 
 Shots Tar (All M):  4.6 VS 3.7
-Shots Tar (Last 5):  3.0 VS 3.4
+Shots Tar (Last 5):  3.0 VS 3.8
 Shots Tar (AHR):  4.6 VS 3.0
 
 HT Gs (All M)):  0.6 VS 0.4
-HT Gs (Last 5):  0.4 VS 0.6
+HT Gs (Last 5):  0.2 VS 0.8
 HT Gs (AHR):  0.6 VS 0.0
 FT Gs (All M)):  1.4 VS 0.8
-FT Gs (Last 5):  0.4 VS 1.0
+FT Gs (Last 5):  0.2 VS 1.2
 FT Gs (AHR):  1.4 VS 0.3
 
 Scored at least 1 Goal (All M):  0.67 VS 0.56
-Scored at least 1 Goal (Last 5)):  0.4 VS 0.6
+Scored at least 1 Goal (Last 5)):  0.25 VS 0.75
 Scored at least 1 Goal (AHR):  0.67 VS 0.33
 "
-5,2024-12-14,Sheffield United,Plymouth,"1,91","0,14","Action: Draw no bet 1X 
+18,2024-12-14,Sheffield United,Plymouth,"1,91","0,60","Action: Draw no bet 1X 
 ","Home: Sheffield United, Away: Plymouth
 Pts (All M): 41 VS 17
 Pts Against Higher: 25 VS 0
-Pts (Last 5): 15 VS 1
+Pts (Last 5): 12 VS 1
 Position: 1 VS 21
 
 BTTS (All M): 0.11 VS 0.3
 Shots (All M):  15.0 VS 7.2
-Shots (Last 5):  14.0 VS 6.2
+Shots (Last 5):  13.8 VS 5.5
 Shots (AHR):  15.0 VS 3.5
 
 Shots Tar (All M):  4.9 VS 1.8
-Shots Tar (Last 5):  5.2 VS 2.0
+Shots Tar (Last 5):  4.8 VS 2.0
 Shots Tar (AHR):  4.9 VS 0.0
 
 HT Gs (All M)):  0.9 VS 0.3
-HT Gs (Last 5):  0.8 VS 0.4
+HT Gs (Last 5):  0.8 VS 0.5
 HT Gs (AHR):  0.9 VS 0.0
 FT Gs (All M)):  1.6 VS 0.3
-FT Gs (Last 5):  1.8 VS 0.4
+FT Gs (Last 5):  1.8 VS 0.5
 FT Gs (AHR):  1.6 VS 0.0
 
 Scored at least 1 Goal (All M):  1.0 VS 0.3
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
 Scored at least 1 Goal (AHR):  1.0 VS 0.0
 "
-10,2024-12-14,Walsall,Barrow,"2,61","1,01","Action: Draw no bet 1X 
+35,2024-12-14,Walsall,Barrow,"2,32","1,07","Action: Draw no bet 1X 
 ","Home: Walsall, Away: Barrow
 Pts (All M): 37 VS 23
 Pts Against Higher: 14 VS 3
 Pts (Last 5): 8 VS 2
-Position: 1 VS 14
+Position: 1 VS 15
 
 BTTS (All M): 0.78 VS 0.33
 Shots (All M):  15.2 VS 9.6
-Shots (Last 5):  15.8 VS 8.2
+Shots (Last 5):  15.5 VS 9.0
 Shots (AHR):  17.0 VS 10.5
 
 Shots Tar (All M):  4.9 VS 2.9
-Shots Tar (Last 5):  4.6 VS 2.2
+Shots Tar (Last 5):  5.0 VS 2.5
 Shots Tar (AHR):  5.0 VS 3.5
 
 HT Gs (All M)):  0.8 VS 0.3
-HT Gs (Last 5):  0.8 VS 0.2
+HT Gs (Last 5):  0.5 VS 0.2
 HT Gs (AHR):  0.7 VS 1.0
 FT Gs (All M)):  2.2 VS 0.6
-FT Gs (Last 5):  2.2 VS 0.4
+FT Gs (Last 5):  2.2 VS 0.5
 FT Gs (AHR):  2.3 VS 1.0
 
 Scored at least 1 Goal (All M):  1.0 VS 0.44
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
 Scored at least 1 Goal (AHR):  1.0 VS 0.5
 "
-11,2024-12-14,Birmingham,Bristol Rvs,"1,94","0,67","Action: Draw no bet 1X 
+36,2024-12-14,Birmingham,Bristol Rvs,"2,10","0,47","Action: Draw no bet 1X 
 ","Home: Birmingham, Away: Bristol Rvs
 Pts (All M): 39 VS 21
 Pts Against Higher: 19 VS 0
-Pts (Last 5): 13 VS 6
+Pts (Last 5): 10 VS 3
 Position: 3 VS 15
 
 BTTS (All M): 0.62 VS 0.44
 Shots (All M):  15.1 VS 9.9
-Shots (Last 5):  16.8 VS 9.6
+Shots (Last 5):  18.0 VS 8.2
 Shots (AHR):  13.7 VS 9.3
 
 Shots Tar (All M):  5.1 VS 2.4
-Shots Tar (Last 5):  4.4 VS 2.4
+Shots Tar (Last 5):  4.5 VS 1.5
 Shots Tar (AHR):  5.4 VS 2.7
 
 HT Gs (All M)):  0.8 VS 0.1
 HT Gs (Last 5):  0.8 VS 0.0
 HT Gs (AHR):  0.9 VS 0.0
 FT Gs (All M)):  1.9 VS 0.9
-FT Gs (Last 5):  1.8 VS 1.0
+FT Gs (Last 5):  1.5 VS 0.5
 FT Gs (AHR):  2.0 VS 0.3
 
 Scored at least 1 Goal (All M):  1.0 VS 0.56
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.6
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
 Scored at least 1 Goal (AHR):  1.0 VS 0.33
 "
-12,2024-12-14,Huddersfield,Lincoln,"2,26","0,20","Action: Draw no bet 1X 
+40,2024-12-14,Huddersfield,Lincoln,"1,99","0,48","Action: Draw no bet 1X 
 ","Home: Huddersfield, Away: Lincoln
 Pts (All M): 35 VS 27
 Pts Against Higher: 3 VS 0
-Pts (Last 5): 15 VS 2
+Pts (Last 5): 12 VS 2
 Position: 4 VS 8
 
 BTTS (All M): 0.44 VS 0.5
 Shots (All M):  13.4 VS 9.9
-Shots (Last 5):  14.0 VS 12.4
+Shots (Last 5):  13.2 VS 13.5
 Shots (AHR):  17.0 VS 14.0
 
 Shots Tar (All M):  5.3 VS 2.9
-Shots Tar (Last 5):  6.6 VS 2.8
+Shots Tar (Last 5):  6.2 VS 3.0
 Shots Tar (AHR):  8.0 VS 1.0
 
 HT Gs (All M)):  0.7 VS 0.4
-HT Gs (Last 5):  0.8 VS 0.0
+HT Gs (Last 5):  1.0 VS 0.0
 HT Gs (AHR):  0.0 VS 0.0
 FT Gs (All M)):  1.6 VS 1.0
-FT Gs (Last 5):  2.0 VS 0.4
+FT Gs (Last 5):  2.0 VS 0.5
 FT Gs (AHR):  2.0 VS 0.0
 
 Scored at least 1 Goal (All M):  0.89 VS 0.7
-Scored at least 1 Goal (Last 5)):  1.0 VS 0.4
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
 Scored at least 1 Goal (AHR):  1.0 VS 0.0
 "
-14,2024-12-14,Wrexham,Cambridge,"2,27","0,55","Action: Draw no bet 1X 
+47,2024-12-14,Wrexham,Cambridge,"2,28","0,45","Action: Draw no bet 1X 
 ","Home: Wrexham, Away: Cambridge
 Pts (All M): 40 VS 16
 Pts Against Higher: 25 VS 0
-Pts (Last 5): 13 VS 4
+Pts (Last 5): 12 VS 4
 Position: 2 VS 22
 
 BTTS (All M): 0.3 VS 0.33
 Shots (All M):  12.5 VS 10.4
-Shots (Last 5):  10.8 VS 10.8
+Shots (Last 5):  12.2 VS 10.5
 Shots (AHR):  12.2 VS 8.7
 
 Shots Tar (All M):  4.7 VS 3.1
-Shots Tar (Last 5):  3.4 VS 3.6
+Shots Tar (Last 5):  4.0 VS 3.5
 Shots Tar (AHR):  4.6 VS 2.3
 
 HT Gs (All M)):  1.2 VS 0.2
-HT Gs (Last 5):  0.6 VS 0.2
+HT Gs (Last 5):  0.8 VS 0.2
 HT Gs (AHR):  1.1 VS 0.3
 FT Gs (All M)):  2.1 VS 0.6
-FT Gs (Last 5):  1.2 VS 0.6
+FT Gs (Last 5):  1.5 VS 0.8
 FT Gs (AHR):  2.0 VS 0.3
 
 Scored at least 1 Goal (All M):  0.9 VS 0.44
-Scored at least 1 Goal (Last 5)):  0.8 VS 0.4
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
 Scored at least 1 Goal (AHR):  0.89 VS 0.33
 "
-13,2024-12-14,Shrewsbury,Wycombe,"2,10","2,46","Action: O1.5
+21,2024-12-14,Darmstadt,Kaiserslautern,"2,86","1,61","Action: O1.5
+","Home: Darmstadt, Away: Kaiserslautern
+Pts (All M): 21 VS 26
+Pts Against Higher: 3 VS 4
+Pts (Last 5): 8 VS 7
+Position: 10 VS 3
+
+BTTS (All M): 0.75 VS 0.38
+Shots (All M):  14.5 VS 12.5
+Shots (Last 5):  13.5 VS 14.0
+Shots (AHR):  11.0 VS 13.5
+
+Shots Tar (All M):  4.9 VS 4.6
+Shots Tar (Last 5):  4.0 VS 5.0
+Shots Tar (AHR):  6.0 VS 3.8
+
+HT Gs (All M)):  0.9 VS 0.2
+HT Gs (Last 5):  1.0 VS 0.5
+HT Gs (AHR):  1.0 VS 0.2
+FT Gs (All M)):  1.5 VS 1.4
+FT Gs (Last 5):  2.2 VS 1.8
+FT Gs (AHR):  2.5 VS 1.2
+
+Scored at least 1 Goal (All M):  0.75 VS 0.62
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.5
+Scored at least 1 Goal (AHR):  0.5 VS 0.5
+"
+42,2024-12-14,Peterboro,Crawley Town,"3,12","1,07","Action: O1.5
+","Home: Peterboro, Away: Crawley Town
+Pts (All M): 21 VS 19
+Pts Against Higher: 11 VS 4
+Pts (Last 5): 6 VS 5
+Position: 16 VS 20
+
+BTTS (All M): 0.7 VS 0.33
+Shots (All M):  10.8 VS 12.6
+Shots (Last 5):  12.0 VS 11.0
+Shots (AHR):  11.1 VS 13.0
+
+Shots Tar (All M):  4.6 VS 4.2
+Shots Tar (Last 5):  5.5 VS 3.5
+Shots Tar (AHR):  4.5 VS 4.7
+
+HT Gs (All M)):  1.1 VS 0.2
+HT Gs (Last 5):  1.8 VS 0.2
+HT Gs (AHR):  0.9 VS 0.3
+FT Gs (All M)):  2.1 VS 0.6
+FT Gs (Last 5):  3.0 VS 0.5
+FT Gs (AHR):  1.9 VS 0.6
+
+Scored at least 1 Goal (All M):  0.7 VS 0.44
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.25
+Scored at least 1 Goal (AHR):  0.75 VS 0.43
+"
+45,2024-12-14,Shrewsbury,Wycombe,"1,61","2,63","Action: O1.5
 ","Home: Shrewsbury, Away: Wycombe
 Pts (All M): 11 VS 40
 Pts Against Higher: 3 VS 21
-Pts (Last 5): 3 VS 13
-Position: 24 VS 1
+Pts (Last 5): 3 VS 10
+Position: 23 VS 1
 
 BTTS (All M): 0.44 VS 0.8
 Shots (All M):  9.2 VS 13.1
-Shots (Last 5):  9.0 VS 12.6
+Shots (Last 5):  9.5 VS 12.2
 Shots (AHR):  7.0 VS 13.1
 
 Shots Tar (All M):  2.7 VS 5.3
-Shots Tar (Last 5):  2.4 VS 6.4
+Shots Tar (Last 5):  3.0 VS 6.8
 Shots Tar (AHR):  2.0 VS 5.3
 
 HT Gs (All M)):  0.7 VS 1.0
-HT Gs (Last 5):  0.6 VS 1.6
+HT Gs (Last 5):  0.8 VS 1.8
 HT Gs (AHR):  1.0 VS 1.0
 FT Gs (All M)):  1.0 VS 2.4
-FT Gs (Last 5):  0.8 VS 2.8
+FT Gs (Last 5):  1.0 VS 2.8
 FT Gs (AHR):  1.5 VS 2.4
 
 Scored at least 1 Goal (All M):  0.56 VS 1.0
-Scored at least 1 Goal (Last 5)):  0.4 VS 1.0
+Scored at least 1 Goal (Last 5)):  0.5 VS 1.0
 Scored at least 1 Goal (AHR):  0.5 VS 1.0
 "
-4,2024-12-14,Middlesbrough,Millwall,"0,40","0,09","Action: U3.5
+15,2024-12-14,Middlesbrough,Millwall,"0,64","0,21","Action: U3.5
 ","Home: Middlesbrough, Away: Millwall
 Pts (All M): 31 VS 25
 Pts Against Higher: 6 VS 1
-Pts (Last 5): 9 VS 6
-Position: 5 VS 11
+Pts (Last 5): 6 VS 6
+Position: 6 VS 10
 
 BTTS (All M): 0.4 VS 0.5
 Shots (All M):  17.8 VS 10.6
-Shots (Last 5):  13.8 VS 8.2
+Shots (Last 5):  12.8 VS 7.5
 Shots (AHR):  16.5 VS 6.0
 
 Shots Tar (All M):  5.2 VS 3.6
-Shots Tar (Last 5):  4.8 VS 3.0
+Shots Tar (Last 5):  4.5 VS 2.5
 Shots Tar (AHR):  3.5 VS 4.0
 
 HT Gs (All M)):  0.8 VS 0.4
-HT Gs (Last 5):  0.8 VS 0.4
+HT Gs (Last 5):  1.0 VS 0.5
 HT Gs (AHR):  0.2 VS 0.0
 FT Gs (All M)):  1.5 VS 0.9
-FT Gs (Last 5):  1.8 VS 0.6
+FT Gs (Last 5):  2.0 VS 0.8
 FT Gs (AHR):  0.5 VS 0.0
 
 Scored at least 1 Goal (All M):  0.7 VS 0.62
-Scored at least 1 Goal (Last 5)):  0.6 VS 0.6
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
 Scored at least 1 Goal (AHR):  0.5 VS 0.0
 "
-9,2024-12-14,Tranmere,Harrogate,"0,61","0,68","Action: U3.5
+22,2024-12-14,Magdeburg,Paderborn,"0,12","1,45","Action: U3.5
+","Home: Magdeburg, Away: Paderborn
+Pts (All M): 24 VS 27
+Pts Against Higher: 1 VS 11
+Pts (Last 5): 2 VS 7
+Position: 8 VS 1
+
+BTTS (All M): 0.57 VS 0.88
+Shots (All M):  16.4 VS 12.9
+Shots (Last 5):  16.8 VS 11.8
+Shots (AHR):  20.5 VS 11.7
+
+Shots Tar (All M):  5.6 VS 4.9
+Shots Tar (Last 5):  5.2 VS 3.8
+Shots Tar (AHR):  5.5 VS 4.3
+
+HT Gs (All M)):  0.7 VS 0.4
+HT Gs (Last 5):  0.5 VS 0.2
+HT Gs (AHR):  0.0 VS 0.3
+FT Gs (All M)):  1.0 VS 1.8
+FT Gs (Last 5):  0.8 VS 1.5
+FT Gs (AHR):  0.0 VS 1.7
+
+Scored at least 1 Goal (All M):  0.57 VS 0.88
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
+Scored at least 1 Goal (AHR):  0.0 VS 0.83
+"
+31,2024-12-14,Grimsby,Crewe,"1,19","1,30","Action: U3.5
+","Home: Grimsby, Away: Crewe
+Pts (All M): 31 VS 31
+Pts Against Higher: 0 VS 3
+Pts (Last 5): 3 VS 6
+Position: 4 VS 5
+
+BTTS (All M): 0.67 VS 0.67
+Shots (All M):  10.7 VS 9.7
+Shots (Last 5):  11.5 VS 10.5
+Shots (AHR):  11.0 VS 12.0
+
+Shots Tar (All M):  4.1 VS 2.8
+Shots Tar (Last 5):  4.8 VS 3.0
+Shots Tar (AHR):  4.3 VS 3.0
+
+HT Gs (All M)):  0.9 VS 0.0
+HT Gs (Last 5):  1.2 VS 0.0
+HT Gs (AHR):  0.3 VS 0.0
+FT Gs (All M)):  1.6 VS 1.0
+FT Gs (Last 5):  1.8 VS 1.0
+FT Gs (AHR):  0.7 VS 1.0
+
+Scored at least 1 Goal (All M):  0.78 VS 0.89
+Scored at least 1 Goal (Last 5)):  0.75 VS 1.0
+Scored at least 1 Goal (AHR):  0.67 VS 1.0
+"
+32,2024-12-14,Milton Keynes Dons,Gillingham,"1,53","0,84","Action: U3.5
+","Home: Milton Keynes Dons, Away: Gillingham
+Pts (All M): 30 VS 26
+Pts Against Higher: 7 VS 3
+Pts (Last 5): 12 VS 1
+Position: 6 VS 10
+
+BTTS (All M): 0.6 VS 0.38
+Shots (All M):  11.0 VS 10.6
+Shots (Last 5):  10.8 VS 13.2
+Shots (AHR):  10.8 VS 11.0
+
+Shots Tar (All M):  5.3 VS 2.5
+Shots Tar (Last 5):  6.8 VS 2.2
+Shots Tar (AHR):  5.0 VS 2.3
+
+HT Gs (All M)):  1.1 VS 0.4
+HT Gs (Last 5):  1.2 VS 0.5
+HT Gs (AHR):  1.0 VS 0.3
+FT Gs (All M)):  1.8 VS 0.6
+FT Gs (Last 5):  2.8 VS 0.8
+FT Gs (AHR):  1.2 VS 0.3
+
+Scored at least 1 Goal (All M):  0.9 VS 0.62
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.8 VS 0.33
+"
+34,2024-12-14,Tranmere,Harrogate,"0,64","0,80","Action: U3.5
 ","Home: Tranmere, Away: Harrogate
 Pts (All M): 18 VS 21
 Pts Against Higher: 8 VS 9
-Pts (Last 5): 4 VS 5
-Position: 20 VS 18
+Pts (Last 5): 4 VS 4
+Position: 21 VS 18
 
 BTTS (All M): 0.33 VS 0.33
 Shots (All M):  13.9 VS 7.7
-Shots (Last 5):  16.2 VS 6.2
+Shots (Last 5):  17.0 VS 6.0
 Shots (AHR):  13.1 VS 7.7
 
 Shots Tar (All M):  3.3 VS 3.0
-Shots Tar (Last 5):  3.6 VS 2.0
+Shots Tar (Last 5):  4.0 VS 2.2
 Shots Tar (AHR):  3.6 VS 3.0
 
 HT Gs (All M)):  0.3 VS 0.3
 HT Gs (Last 5):  0.2 VS 0.2
 HT Gs (AHR):  0.3 VS 0.3
 FT Gs (All M)):  0.7 VS 0.8
-FT Gs (Last 5):  0.8 VS 0.6
+FT Gs (Last 5):  1.0 VS 0.8
 FT Gs (AHR):  0.4 VS 0.8
 
 Scored at least 1 Goal (All M):  0.44 VS 0.44
-Scored at least 1 Goal (Last 5)):  0.4 VS 0.4
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.5
 Scored at least 1 Goal (AHR):  0.29 VS 0.44
+"
+39,2024-12-14,Exeter,Barnsley,"0,94","1,07","Action: U3.5
+","Home: Exeter, Away: Barnsley
+Pts (All M): 24 VS 27
+Pts Against Higher: 2 VS 6
+Pts (Last 5): 5 VS 7
+Position: 10 VS 9
+
+BTTS (All M): 0.33 VS 0.44
+Shots (All M):  11.2 VS 9.9
+Shots (Last 5):  7.2 VS 11.0
+Shots (AHR):  8.5 VS 9.0
+
+Shots Tar (All M):  2.9 VS 3.8
+Shots Tar (Last 5):  1.2 VS 3.5
+Shots Tar (AHR):  2.2 VS 2.6
+
+HT Gs (All M)):  0.6 VS 0.9
+HT Gs (Last 5):  0.5 VS 0.8
+HT Gs (AHR):  0.5 VS 0.4
+FT Gs (All M)):  1.0 VS 1.3
+FT Gs (Last 5):  0.8 VS 1.2
+FT Gs (AHR):  0.8 VS 0.8
+
+Scored at least 1 Goal (All M):  0.78 VS 0.67
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
+Scored at least 1 Goal (AHR):  0.5 VS 0.4
+"
+53,2024-12-14,Hibernian,Ross County,"1,56","0,50","Action: U3.5
+","Home: Hibernian, Away: Ross County
+Pts (All M): 12 VS 15
+Pts Against Higher: 7 VS 3
+Pts (Last 5): 3 VS 1
+Position: 12 VS 8
+
+BTTS (All M): 0.75 VS 0.14
+Shots (All M):  13.9 VS 7.9
+Shots (Last 5):  15.0 VS 6.2
+Shots (AHR):  13.9 VS 7.9
+
+Shots Tar (All M):  3.6 VS 1.7
+Shots Tar (Last 5):  4.0 VS 1.2
+Shots Tar (AHR):  3.6 VS 1.7
+
+HT Gs (All M)):  0.5 VS 0.1
+HT Gs (Last 5):  0.5 VS 0.0
+HT Gs (AHR):  0.5 VS 0.1
+FT Gs (All M)):  1.4 VS 0.1
+FT Gs (Last 5):  1.5 VS 0.0
+FT Gs (AHR):  1.4 VS 0.1
+
+Scored at least 1 Goal (All M):  0.88 VS 0.14
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.0
+Scored at least 1 Goal (AHR):  0.88 VS 0.14
+"
+55,2024-12-14,St Johnstone,St Mirren,"0,80","1,41","Action: U3.5
+","Home: St Johnstone, Away: St Mirren
+Pts (All M): 14 VS 18
+Pts Against Higher: 0 VS 4
+Pts (Last 5): 6 VS 3
+Position: 9 VS 7
+
+BTTS (All M): 0.43 VS 0.71
+Shots (All M):  11.6 VS 11.0
+Shots (Last 5):  11.2 VS 9.5
+Shots (AHR):  10.0 VS 11.0
+
+Shots Tar (All M):  4.4 VS 4.1
+Shots Tar (Last 5):  4.2 VS 2.2
+Shots Tar (AHR):  3.8 VS 4.1
+
+HT Gs (All M)):  0.3 VS 1.0
+HT Gs (Last 5):  0.5 VS 0.8
+HT Gs (AHR):  0.0 VS 1.0
+FT Gs (All M)):  1.0 VS 1.0
+FT Gs (Last 5):  1.2 VS 0.8
+FT Gs (AHR):  0.5 VS 1.0
+
+Scored at least 1 Goal (All M):  0.71 VS 0.71
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.5
+Scored at least 1 Goal (AHR):  0.5 VS 0.71
+"
+13,2024-12-14,Bristol City,QPR,"1,14","0,31",No decision Made,"Home: Bristol City, Away: QPR
+Pts (All M): 25 VS 18
+Pts Against Higher: 13 VS 4
+Pts (Last 5): 4 VS 5
+Position: 11 VS 19
+
+BTTS (All M): 0.56 VS 0.33
+Shots (All M):  12.9 VS 9.8
+Shots (Last 5):  12.0 VS 8.2
+Shots (AHR):  12.9 VS 9.3
+
+Shots Tar (All M):  4.3 VS 2.3
+Shots Tar (Last 5):  4.0 VS 1.5
+Shots Tar (AHR):  4.3 VS 1.5
+
+HT Gs (All M)):  0.3 VS 0.1
+HT Gs (Last 5):  0.0 VS 0.2
+HT Gs (AHR):  0.3 VS 0.0
+FT Gs (All M)):  1.4 VS 0.8
+FT Gs (Last 5):  1.2 VS 0.5
+FT Gs (AHR):  1.4 VS 0.5
+
+Scored at least 1 Goal (All M):  0.67 VS 0.44
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.25
+Scored at least 1 Goal (AHR):  0.67 VS 0.33
+"
+14,2024-12-14,Coventry,Hull,"1,95","1,36",No decision Made,"Home: Coventry, Away: Hull
+Pts (All M): 21 VS 15
+Pts Against Higher: 11 VS 8
+Pts (Last 5): 5 VS 1
+Position: 14 VS 24
+
+BTTS (All M): 0.78 VS 0.56
+Shots (All M):  17.7 VS 12.7
+Shots (Last 5):  17.0 VS 11.8
+Shots (AHR):  17.7 VS 12.7
+
+Shots Tar (All M):  6.3 VS 3.3
+Shots Tar (Last 5):  6.2 VS 3.0
+Shots Tar (AHR):  6.3 VS 3.3
+
+HT Gs (All M)):  0.8 VS 0.2
+HT Gs (Last 5):  0.5 VS 0.0
+HT Gs (AHR):  0.8 VS 0.2
+FT Gs (All M)):  1.8 VS 1.0
+FT Gs (Last 5):  2.0 VS 0.5
+FT Gs (AHR):  1.8 VS 1.0
+
+Scored at least 1 Goal (All M):  0.89 VS 0.56
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
+Scored at least 1 Goal (AHR):  0.89 VS 0.56
+"
+16,2024-12-14,Oxford,Sheffield Weds,"1,49","1,39",No decision Made,"Home: Oxford, Away: Sheffield Weds
+Pts (All M): 18 VS 26
+Pts Against Higher: 6 VS 13
+Pts (Last 5): 4 VS 9
+Position: 20 VS 9
+
+BTTS (All M): 0.6 VS 0.44
+Shots (All M):  9.4 VS 10.1
+Shots (Last 5):  8.0 VS 11.2
+Shots (AHR):  9.2 VS 10.1
+
+Shots Tar (All M):  3.8 VS 2.8
+Shots Tar (Last 5):  3.5 VS 2.2
+Shots Tar (AHR):  3.6 VS 2.8
+
+HT Gs (All M)):  0.4 VS 0.2
+HT Gs (Last 5):  0.2 VS 0.2
+HT Gs (AHR):  0.4 VS 0.2
+FT Gs (All M)):  1.3 VS 1.0
+FT Gs (Last 5):  1.2 VS 1.5
+FT Gs (AHR):  1.2 VS 1.0
+
+Scored at least 1 Goal (All M):  0.9 VS 0.56
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.8 VS 0.56
+"
+17,2024-12-14,Preston,Leeds,"0,57","0,93",No decision Made,"Home: Preston, Away: Leeds
+Pts (All M): 19 VS 38
+Pts Against Higher: 5 VS 13
+Pts (Last 5): 3 VS 4
+Position: 18 VS 2
+
+BTTS (All M): 0.4 VS 0.33
+Shots (All M):  11.8 VS 13.6
+Shots (Last 5):  13.0 VS 14.2
+Shots (AHR):  12.0 VS 13.6
+
+Shots Tar (All M):  3.3 VS 4.2
+Shots Tar (Last 5):  3.2 VS 4.5
+Shots Tar (AHR):  3.8 VS 4.2
+
+HT Gs (All M)):  0.4 VS 0.4
+HT Gs (Last 5):  0.2 VS 0.2
+HT Gs (AHR):  0.0 VS 0.4
+FT Gs (All M)):  1.0 VS 1.2
+FT Gs (Last 5):  0.8 VS 1.0
+FT Gs (AHR):  0.8 VS 1.2
+
+Scored at least 1 Goal (All M):  0.7 VS 0.56
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.25
+Scored at least 1 Goal (AHR):  0.25 VS 0.56
+"
+19,2024-12-14,Stoke,Cardiff,"1,79","0,69",No decision Made,"Home: Stoke, Away: Cardiff
+Pts (All M): 21 VS 17
+Pts Against Higher: 13 VS 5
+Pts (Last 5): 5 VS 3
+Position: 15 VS 22
+
+BTTS (All M): 0.7 VS 0.56
+Shots (All M):  12.3 VS 10.2
+Shots (Last 5):  11.8 VS 8.5
+Shots (AHR):  12.3 VS 9.5
+
+Shots Tar (All M):  3.8 VS 3.1
+Shots Tar (Last 5):  3.2 VS 2.8
+Shots Tar (AHR):  3.8 VS 2.9
+
+HT Gs (All M)):  0.9 VS 0.3
+HT Gs (Last 5):  0.2 VS 0.5
+HT Gs (AHR):  0.9 VS 0.2
+FT Gs (All M)):  1.5 VS 0.7
+FT Gs (Last 5):  0.8 VS 0.8
+FT Gs (AHR):  1.5 VS 0.6
+
+Scored at least 1 Goal (All M):  0.8 VS 0.56
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.5
+Scored at least 1 Goal (AHR):  0.8 VS 0.5
+"
+20,2024-12-14,Swansea,Sunderland,"2,20","0,73",No decision Made,"Home: Swansea, Away: Sunderland
+Pts (All M): 24 VS 36
+Pts Against Higher: 3 VS 1
+Pts (Last 5): 4 VS 3
+Position: 13 VS 4
+
+BTTS (All M): 0.44 VS 0.5
+Shots (All M):  13.0 VS 11.8
+Shots (Last 5):  15.2 VS 10.8
+Shots (AHR):  11.0 VS 14.0
+
+Shots Tar (All M):  4.4 VS 3.8
+Shots Tar (Last 5):  4.8 VS 2.8
+Shots Tar (AHR):  4.0 VS 4.3
+
+HT Gs (All M)):  0.9 VS 0.4
+HT Gs (Last 5):  1.0 VS 0.2
+HT Gs (AHR):  1.5 VS 0.3
+FT Gs (All M)):  1.3 VS 1.2
+FT Gs (Last 5):  1.5 VS 0.2
+FT Gs (AHR):  2.0 VS 0.7
+
+Scored at least 1 Goal (All M):  0.78 VS 0.7
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.25
+Scored at least 1 Goal (AHR):  1.0 VS 0.67
+"
+24,2024-12-14,Ulm,Hamburg,"0,85","1,98",No decision Made,"Home: Ulm, Away: Hamburg
+Pts (All M): 12 VS 24
+Pts Against Higher: 0 VS 10
+Pts (Last 5): 5 VS 6
+Position: 16 VS 7
+
+BTTS (All M): 0.71 VS 0.71
+Shots (All M):  14.1 VS 14.9
+Shots (Last 5):  13.5 VS 17.5
+Shots (AHR):  14.7 VS 14.9
+
+Shots Tar (All M):  4.6 VS 5.6
+Shots Tar (Last 5):  4.5 VS 6.0
+Shots Tar (AHR):  4.3 VS 5.6
+
+HT Gs (All M)):  0.6 VS 0.7
+HT Gs (Last 5):  0.8 VS 0.8
+HT Gs (AHR):  0.3 VS 0.7
+FT Gs (All M)):  1.0 VS 1.9
+FT Gs (Last 5):  1.0 VS 2.2
+FT Gs (AHR):  0.7 VS 1.9
+
+Scored at least 1 Goal (All M):  0.71 VS 0.86
+Scored at least 1 Goal (Last 5)):  0.5 VS 1.0
+Scored at least 1 Goal (AHR):  0.67 VS 0.86
+"
+25,2024-12-14,AFC Wimbledon,Doncaster,"0,84","2,48",No decision Made,"Home: AFC Wimbledon, Away: Doncaster
+Pts (All M): 30 VS 33
+Pts Against Higher: 3 VS 7
+Pts (Last 5): 2 VS 10
+Position: 7 VS 3
+
+BTTS (All M): 0.33 VS 0.67
+Shots (All M):  14.9 VS 14.6
+Shots (Last 5):  14.0 VS 14.8
+Shots (AHR):  12.7 VS 10.0
+
+Shots Tar (All M):  5.7 VS 5.4
+Shots Tar (Last 5):  4.8 VS 5.2
+Shots Tar (AHR):  5.7 VS 5.0
+
+HT Gs (All M)):  1.1 VS 0.9
+HT Gs (Last 5):  0.5 VS 0.8
+HT Gs (AHR):  0.3 VS 1.3
+FT Gs (All M)):  2.1 VS 1.8
+FT Gs (Last 5):  1.0 VS 2.0
+FT Gs (AHR):  1.0 VS 2.3
+
+Scored at least 1 Goal (All M):  0.78 VS 0.78
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.75
+Scored at least 1 Goal (AHR):  0.33 VS 1.0
+"
+26,2024-12-14,Bradford,Swindon,"1,58","1,07",No decision Made,"Home: Bradford, Away: Swindon
+Pts (All M): 25 VS 16
+Pts Against Higher: 15 VS 6
+Pts (Last 5): 7 VS 1
+Position: 11 VS 22
+
+BTTS (All M): 0.75 VS 0.8
+Shots (All M):  13.6 VS 10.3
+Shots (Last 5):  12.0 VS 9.5
+Shots (AHR):  13.6 VS 9.5
+
+Shots Tar (All M):  5.0 VS 2.6
+Shots Tar (Last 5):  4.8 VS 2.5
+Shots Tar (AHR):  5.0 VS 2.6
+
+HT Gs (All M)):  0.8 VS 0.4
+HT Gs (Last 5):  0.8 VS 0.5
+HT Gs (AHR):  0.8 VS 0.4
+FT Gs (All M)):  1.5 VS 1.1
+FT Gs (Last 5):  1.8 VS 1.0
+FT Gs (AHR):  1.5 VS 1.0
+
+Scored at least 1 Goal (All M):  0.75 VS 0.8
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.75 VS 0.75
+"
+27,2024-12-14,Bromley,Port Vale,"1,20","1,64",No decision Made,"Home: Bromley, Away: Port Vale
+Pts (All M): 23 VS 35
+Pts Against Higher: 4 VS 16
+Pts (Last 5): 5 VS 7
+Position: 13 VS 2
+
+BTTS (All M): 0.89 VS 0.3
+Shots (All M):  12.3 VS 12.3
+Shots (Last 5):  13.8 VS 13.0
+Shots (AHR):  9.7 VS 12.0
+
+Shots Tar (All M):  4.3 VS 3.9
+Shots Tar (Last 5):  4.5 VS 2.5
+Shots Tar (AHR):  3.3 VS 3.9
+
+HT Gs (All M)):  0.7 VS 0.4
+HT Gs (Last 5):  0.0 VS 0.0
+HT Gs (AHR):  1.0 VS 0.5
+FT Gs (All M)):  1.4 VS 1.3
+FT Gs (Last 5):  1.2 VS 0.8
+FT Gs (AHR):  1.3 VS 1.2
+
+Scored at least 1 Goal (All M):  1.0 VS 0.8
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  1.0 VS 0.75
+"
+29,2024-12-14,Cheltenham,Morecambe,"1,26","0,75",No decision Made,"Home: Cheltenham, Away: Morecambe
+Pts (All M): 23 VS 14
+Pts Against Higher: 15 VS 7
+Pts (Last 5): 6 VS 7
+Position: 14 VS 23
+
+BTTS (All M): 0.6 VS 0.5
+Shots (All M):  11.1 VS 8.1
+Shots (Last 5):  11.8 VS 8.2
+Shots (AHR):  11.1 VS 7.9
+
+Shots Tar (All M):  4.0 VS 2.8
+Shots Tar (Last 5):  4.8 VS 3.5
+Shots Tar (AHR):  4.0 VS 2.4
+
+HT Gs (All M)):  0.3 VS 0.4
+HT Gs (Last 5):  0.2 VS 1.0
+HT Gs (AHR):  0.3 VS 0.1
+FT Gs (All M)):  1.2 VS 1.1
+FT Gs (Last 5):  1.0 VS 1.8
+FT Gs (AHR):  1.2 VS 0.7
+
+Scored at least 1 Goal (All M):  0.8 VS 0.6
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.8 VS 0.43
+"
+30,2024-12-14,Colchester,Newport County,"1,27","1,43",No decision Made,"Home: Colchester, Away: Newport County
+Pts (All M): 21 VS 22
+Pts Against Higher: 5 VS 5
+Pts (Last 5): 4 VS 5
+Position: 19 VS 17
+
+BTTS (All M): 0.44 VS 0.4
+Shots (All M):  14.9 VS 7.8
+Shots (Last 5):  14.8 VS 8.0
+Shots (AHR):  15.8 VS 8.5
+
+Shots Tar (All M):  5.7 VS 2.1
+Shots Tar (Last 5):  4.8 VS 2.8
+Shots Tar (AHR):  5.0 VS 2.5
+
+HT Gs (All M)):  0.8 VS 0.6
+HT Gs (Last 5):  1.2 VS 0.8
+HT Gs (AHR):  0.2 VS 0.6
+FT Gs (All M)):  1.4 VS 0.9
+FT Gs (Last 5):  1.8 VS 1.2
+FT Gs (AHR):  1.0 VS 1.0
+
+Scored at least 1 Goal (All M):  0.78 VS 0.6
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.83 VS 0.62
+"
+33,2024-12-14,Salford,Notts County,"1,09","1,02",No decision Made,"Home: Salford, Away: Notts County
+Pts (All M): 24 VS 28
+Pts Against Higher: 6 VS 6
+Pts (Last 5): 6 VS 2
+Position: 12 VS 9
+
+BTTS (All M): 0.33 VS 0.7
+Shots (All M):  14.4 VS 12.4
+Shots (Last 5):  18.2 VS 12.8
+Shots (AHR):  14.8 VS 13.3
+
+Shots Tar (All M):  4.2 VS 4.3
+Shots Tar (Last 5):  5.2 VS 4.5
+Shots Tar (AHR):  4.8 VS 5.3
+
+HT Gs (All M)):  0.4 VS 0.6
+HT Gs (Last 5):  0.8 VS 0.2
+HT Gs (AHR):  0.4 VS 0.5
+FT Gs (All M)):  1.0 VS 1.5
+FT Gs (Last 5):  1.2 VS 1.0
+FT Gs (AHR):  0.6 VS 1.7
+
+Scored at least 1 Goal (All M):  0.67 VS 0.8
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.6 VS 0.83
+"
+37,2024-12-14,Bolton,Wigan,"1,33","0,35",No decision Made,"Home: Bolton, Away: Wigan
+Pts (All M): 30 VS 20
+Pts Against Higher: 13 VS 5
+Pts (Last 5): 12 VS 4
+Position: 7 VS 18
+
+BTTS (All M): 0.56 VS 0.22
+Shots (All M):  16.1 VS 9.0
+Shots (Last 5):  17.8 VS 8.0
+Shots (AHR):  15.4 VS 6.7
+
+Shots Tar (All M):  5.3 VS 2.9
+Shots Tar (Last 5):  6.0 VS 2.5
+Shots Tar (AHR):  5.6 VS 1.8
+
+HT Gs (All M)):  0.4 VS 0.6
+HT Gs (Last 5):  0.0 VS 0.8
+HT Gs (AHR):  0.6 VS 0.2
+FT Gs (All M)):  1.7 VS 0.9
+FT Gs (Last 5):  2.0 VS 0.8
+FT Gs (AHR):  1.6 VS 0.3
+
+Scored at least 1 Goal (All M):  0.67 VS 0.44
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
+Scored at least 1 Goal (AHR):  0.57 VS 0.33
+"
+38,2024-12-14,Charlton,Mansfield,"1,68","1,25",No decision Made,"Home: Charlton, Away: Mansfield
+Pts (All M): 23 VS 24
+Pts Against Higher: 8 VS 6
+Pts (Last 5): 5 VS 3
+Position: 13 VS 11
+
+BTTS (All M): 0.62 VS 0.5
+Shots (All M):  11.1 VS 8.9
+Shots (Last 5):  12.5 VS 8.5
+Shots (AHR):  11.8 VS 8.7
+
+Shots Tar (All M):  4.1 VS 2.9
+Shots Tar (Last 5):  4.5 VS 2.2
+Shots Tar (AHR):  5.0 VS 2.7
+
+HT Gs (All M)):  0.2 VS 0.6
+HT Gs (Last 5):  0.2 VS 0.5
+HT Gs (AHR):  0.4 VS 0.7
+FT Gs (All M)):  1.2 VS 1.2
+FT Gs (Last 5):  1.2 VS 0.8
+FT Gs (AHR):  1.4 VS 1.0
+
+Scored at least 1 Goal (All M):  1.0 VS 0.75
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.5
+Scored at least 1 Goal (AHR):  1.0 VS 0.67
+"
+41,2024-12-14,Leyton Orient,Burton,"1,19","0,91",No decision Made,"Home: Leyton Orient, Away: Burton
+Pts (All M): 21 VS 11
+Pts Against Higher: 11 VS 6
+Pts (Last 5): 9 VS 3
+Position: 17 VS 24
+
+BTTS (All M): 0.33 VS 0.5
+Shots (All M):  12.8 VS 11.6
+Shots (Last 5):  14.2 VS 9.8
+Shots (AHR):  12.8 VS 11.1
+
+Shots Tar (All M):  4.9 VS 4.0
+Shots Tar (Last 5):  6.2 VS 4.0
+Shots Tar (AHR):  4.9 VS 3.9
+
+HT Gs (All M)):  0.8 VS 0.2
+HT Gs (Last 5):  1.0 VS 0.0
+HT Gs (AHR):  0.8 VS 0.3
+FT Gs (All M)):  1.2 VS 1.0
+FT Gs (Last 5):  1.8 VS 0.8
+FT Gs (AHR):  1.2 VS 1.1
+
+Scored at least 1 Goal (All M):  0.67 VS 0.62
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.67 VS 0.71
+"
+43,2024-12-14,Reading,Blackpool,"1,73","1,31",No decision Made,"Home: Reading, Away: Blackpool
+Pts (All M): 31 VS 23
+Pts Against Higher: 9 VS 3
+Pts (Last 5): 12 VS 6
+Position: 6 VS 12
+
+BTTS (All M): 0.38 VS 0.6
+Shots (All M):  13.5 VS 11.0
+Shots (Last 5):  14.0 VS 9.8
+Shots (AHR):  11.0 VS 8.5
+
+Shots Tar (All M):  5.4 VS 3.8
+Shots Tar (Last 5):  6.5 VS 3.2
+Shots Tar (AHR):  3.8 VS 2.5
+
+HT Gs (All M)):  0.8 VS 1.0
+HT Gs (Last 5):  1.0 VS 0.5
+HT Gs (AHR):  0.2 VS 1.5
+FT Gs (All M)):  2.1 VS 1.5
+FT Gs (Last 5):  2.8 VS 1.2
+FT Gs (AHR):  1.2 VS 1.5
+
+Scored at least 1 Goal (All M):  0.88 VS 0.8
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.75
+Scored at least 1 Goal (AHR):  0.75 VS 1.0
+"
+44,2024-12-14,Rotherham,Northampton,"1,31","1,46",No decision Made,"Home: Rotherham, Away: Northampton
+Pts (All M): 20 VS 18
+Pts Against Higher: 13 VS 7
+Pts (Last 5): 9 VS 2
+Position: 19 VS 21
+
+BTTS (All M): 0.5 VS 0.7
+Shots (All M):  14.1 VS 8.4
+Shots (Last 5):  13.8 VS 7.2
+Shots (AHR):  13.9 VS 8.4
+
+Shots Tar (All M):  4.8 VS 3.4
+Shots Tar (Last 5):  5.5 VS 3.2
+Shots Tar (AHR):  4.7 VS 3.4
+
+HT Gs (All M)):  0.2 VS 0.4
+HT Gs (Last 5):  0.2 VS 0.0
+HT Gs (AHR):  0.1 VS 0.4
+FT Gs (All M)):  1.2 VS 1.0
+FT Gs (Last 5):  1.5 VS 0.5
+FT Gs (AHR):  1.1 VS 1.0
+
+Scored at least 1 Goal (All M):  0.62 VS 0.7
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.5
+Scored at least 1 Goal (AHR):  0.57 VS 0.7
+"
+46,2024-12-14,Stevenage,Stockport,"1,17","1,46",No decision Made,"Home: Stevenage, Away: Stockport
+Pts (All M): 22 VS 33
+Pts Against Higher: 7 VS 7
+Pts (Last 5): 5 VS 4
+Position: 14 VS 5
+
+BTTS (All M): 0.2 VS 0.56
+Shots (All M):  10.5 VS 11.6
+Shots (Last 5):  10.8 VS 10.5
+Shots (AHR):  10.2 VS 11.0
+
+Shots Tar (All M):  3.3 VS 5.3
+Shots Tar (Last 5):  3.5 VS 4.8
+Shots Tar (AHR):  3.0 VS 4.3
+
+HT Gs (All M)):  0.2 VS 0.8
+HT Gs (Last 5):  0.2 VS 1.0
+HT Gs (AHR):  0.4 VS 0.6
+FT Gs (All M)):  1.0 VS 1.4
+FT Gs (Last 5):  1.0 VS 1.2
+FT Gs (AHR):  1.2 VS 1.1
+
+Scored at least 1 Goal (All M):  0.7 VS 0.89
+Scored at least 1 Goal (Last 5)):  0.75 VS 0.75
+Scored at least 1 Goal (AHR):  0.8 VS 0.86
+"
+49,2024-12-14,Frosinone,Sassuolo,"0,70","1,55",No decision Made,"Home: Frosinone, Away: Sassuolo
+Pts (All M): 16 VS 37
+Pts Against Higher: 5 VS 18
+Pts (Last 5): 5 VS 10
+Position: 18 VS 1
+
+BTTS (All M): 0.5 VS 0.5
+Shots (All M):  14.5 VS 12.9
+Shots (Last 5):  12.2 VS 14.0
+Shots (AHR):  14.5 VS 12.9
+
+Shots Tar (All M):  4.8 VS 5.2
+Shots Tar (Last 5):  3.5 VS 5.2
+Shots Tar (AHR):  4.8 VS 5.2
+
+HT Gs (All M)):  0.5 VS 0.6
+HT Gs (Last 5):  0.8 VS 0.8
+HT Gs (AHR):  0.5 VS 0.6
+FT Gs (All M)):  0.9 VS 1.9
+FT Gs (Last 5):  1.0 VS 2.5
+FT Gs (AHR):  0.8 VS 1.9
+
+Scored at least 1 Goal (All M):  0.5 VS 1.0
+Scored at least 1 Goal (Last 5)):  0.5 VS 1.0
+Scored at least 1 Goal (AHR):  0.25 VS 1.0
+"
+50,2024-12-14,Reggiana,Modena,"1,15","0,85",No decision Made,"Home: Reggiana, Away: Modena
+Pts (All M): 18 VS 17
+Pts Against Higher: 9 VS 5
+Pts (Last 5): 4 VS 2
+Position: 14 VS 17
+
+BTTS (All M): 0.38 VS 0.62
+Shots (All M):  12.6 VS 8.9
+Shots (Last 5):  11.5 VS 9.5
+Shots (AHR):  11.3 VS 9.3
+
+Shots Tar (All M):  4.4 VS 3.1
+Shots Tar (Last 5):  4.0 VS 3.2
+Shots Tar (AHR):  4.1 VS 3.3
+
+HT Gs (All M)):  0.6 VS 0.5
+HT Gs (Last 5):  0.8 VS 0.2
+HT Gs (AHR):  0.6 VS 0.4
+FT Gs (All M)):  1.1 VS 0.9
+FT Gs (Last 5):  1.0 VS 0.2
+FT Gs (AHR):  1.1 VS 0.9
+
+Scored at least 1 Goal (All M):  0.62 VS 0.62
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.25
+Scored at least 1 Goal (AHR):  0.57 VS 0.57
+"
+52,2024-12-14,Sudtirol,Mantova,"1,40","1,61",No decision Made,"Home: Sudtirol, Away: Mantova
+Pts (All M): 13 VS 18
+Pts Against Higher: 7 VS 3
+Pts (Last 5): 1 VS 2
+Position: 20 VS 13
+
+BTTS (All M): 0.75 VS 0.5
+Shots (All M):  12.6 VS 12.0
+Shots (Last 5):  10.0 VS 11.2
+Shots (AHR):  12.6 VS 12.0
+
+Shots Tar (All M):  4.2 VS 3.8
+Shots Tar (Last 5):  3.0 VS 4.5
+Shots Tar (AHR):  4.2 VS 3.8
+
+HT Gs (All M)):  0.5 VS 0.1
+HT Gs (Last 5):  0.2 VS 0.2
+HT Gs (AHR):  0.5 VS 0.1
+FT Gs (All M)):  1.1 VS 0.9
+FT Gs (Last 5):  0.5 VS 0.8
+FT Gs (AHR):  1.1 VS 0.9
+
+Scored at least 1 Goal (All M):  0.75 VS 0.5
+Scored at least 1 Goal (Last 5)):  0.5 VS 0.5
+Scored at least 1 Goal (AHR):  0.75 VS 0.5
+"
+54,2024-12-14,Motherwell,Dundee United,"1,03","1,43",No decision Made,"Home: Motherwell, Away: Dundee United
+Pts (All M): 22 VS 24
+Pts Against Higher: 7 VS 6
+Pts (Last 5): 3 VS 5
+Position: 5 VS 4
+
+BTTS (All M): 0.43 VS 0.57
+Shots (All M):  10.7 VS 10.9
+Shots (Last 5):  10.2 VS 8.2
+Shots (AHR):  10.8 VS 11.2
+
+Shots Tar (All M):  4.0 VS 2.7
+Shots Tar (Last 5):  3.0 VS 1.5
+Shots Tar (AHR):  3.8 VS 2.8
+
+HT Gs (All M)):  0.7 VS 0.3
+HT Gs (Last 5):  0.5 VS 0.2
+HT Gs (AHR):  0.8 VS 0.4
+FT Gs (All M)):  1.0 VS 1.1
+FT Gs (Last 5):  0.5 VS 0.8
+FT Gs (AHR):  0.8 VS 1.2
+
+Scored at least 1 Goal (All M):  0.43 VS 0.86
+Scored at least 1 Goal (Last 5)):  0.25 VS 0.75
+Scored at least 1 Goal (AHR):  0.4 VS 0.8
+"
+56,2024-12-16,Fleetwood Town,Accrington,"1,11","1,25",No decision Made,"Home: Fleetwood Town, Away: Accrington
+Pts (All M): 22 VS 18
+Pts Against Higher: 10 VS 7
+Pts (Last 5): 5 VS 4
+Position: 16 VS 20
+
+BTTS (All M): 0.33 VS 0.78
+Shots (All M):  13.9 VS 10.6
+Shots (Last 5):  11.0 VS 9.8
+Shots (AHR):  12.5 VS 10.6
+
+Shots Tar (All M):  4.0 VS 4.6
+Shots Tar (Last 5):  2.5 VS 4.8
+Shots Tar (AHR):  3.0 VS 4.6
+
+HT Gs (All M)):  0.8 VS 0.3
+HT Gs (Last 5):  1.0 VS 0.2
+HT Gs (AHR):  0.6 VS 0.3
+FT Gs (All M)):  0.9 VS 1.4
+FT Gs (Last 5):  1.2 VS 2.0
+FT Gs (AHR):  0.8 VS 1.4
+
+Scored at least 1 Goal (All M):  0.56 VS 0.89
+Scored at least 1 Goal (Last 5)):  0.75 VS 1.0
+Scored at least 1 Goal (AHR):  0.5 VS 0.89
 "
