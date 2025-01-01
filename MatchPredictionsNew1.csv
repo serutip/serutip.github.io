@@ -1,5 +1,5 @@
 ,Date,Home Team,Away Team,Prediction 1,Prediction 2,Decision,Stats
-1,2025-01-04,Tottenham,Newcastle,"2,23","2,54","Action: BTTS , O1.5 
+2,2025-01-04,Tottenham,Newcastle,"2,23","2,54","Action: BTTS , O1.5 
 ","Home: Tottenham, Away: Newcastle
 Pts (All M): 24 VS 32
 Pts Against Higher: 4 VS 8
@@ -27,7 +27,7 @@ Average conceded per match (All M): 1.9 VS 1.3
 Scored at least 1 Goal (Last 5)):  1.0 VS 1.0
 Scored at least 1 Goal (AHR):  0.8 VS 1.0
 "
-0,2025-01-04,Crystal Palace,Chelsea,"0,71","2,40","Action: Double Chance X2 
+1,2025-01-04,Crystal Palace,Chelsea,"0,71","2,40","Action: Double Chance X2 
 ","Home: Crystal Palace, Away: Chelsea
 Pts (All M): 20 VS 35
 Pts Against Higher: 2 VS 14
@@ -54,4 +54,32 @@ Scored at least 1 Goal (All M):  0.6 VS 0.8
 Average conceded per match (All M): 1.6 VS 1.2
 Scored at least 1 Goal (Last 5)):  0.8 VS 0.6
 Scored at least 1 Goal (AHR):  0.6 VS 0.86
+"
+0,2025-01-04,Aston Villa,Leicester,"2,46","1,18","Action: Draw no bet 1X 
+","Home: Aston Villa, Away: Leicester
+Pts (All M): 29 VS 14
+Pts Against Higher: 16 VS 0
+Pts (Last 5): 11 VS 1
+Position: 9 VS 19
+
+BTTS (All M): 0.7 VS 0.78
+Shots (All M):  15.2 VS 9.2
+Shots (Last 5):  17.2 VS 8.2
+Shots (AHR):  14.9 VS 5.8
+
+Shots Tar (All M):  5.4 VS 3.4
+Shots Tar (Last 5):  6.0 VS 3.2
+Shots Tar (AHR):  5.4 VS 2.2
+
+HT Gs (All M)):  0.8 VS 0.4
+HT Gs (Last 5):  1.4 VS 0.4
+HT Gs (AHR):  0.8 VS 0.5
+FT Gs (All M)):  1.7 VS 1.2
+FT Gs (Last 5):  2.0 VS 0.6
+FT Gs (AHR):  1.8 VS 1.0
+
+Scored at least 1 Goal (All M):  0.8 VS 0.78
+Average conceded per match (All M): 1.2 VS 2.78
+Scored at least 1 Goal (Last 5)):  1.0 VS 0.6
+Scored at least 1 Goal (AHR):  0.78 VS 0.75
 "
