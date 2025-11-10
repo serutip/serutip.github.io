@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Card Search</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .search-box {
+            padding: 2rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
+            border: 2px solid #ddd;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        #searchInput:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+        }
+
+        .results {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .item {
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.2s;
+        }
+
+        .item:hover {
+            background: #f8f9ff;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 0.1em 0.2em;
+            border-radius: 3px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .year-section {
+            margin: 0.8rem 0;
+        }
+
+        .year-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .card-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .card {
+            background: #e8f4fd;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-family: monospace;
+        }
+
+        .card-value {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .code-only .name {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .code-only .year-section {
+            margin: 0.5rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+            background: #f9f9f9;
+        }
+
+        .setup {
+            text-align: center;
+            padding: 2rem;
+            color: #555;
+        }
+
+        .setup button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pokémon Card Search</h1>
+            <p>Type name → see all values | Add year → see card codes only</p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="e.g. 'mew' or 'mew 2024'" autocomplete="off" />
+        </div>
+
+        <div class="results" id="results"></div>
+        <div class="footer" id="footer">
+            <div id="status">Loading data...</div>
+        </div>
+    </div>
+
+<script>
+    let data = {};
+    const searchInput = document.getElementById('searchInput');
+    const resultsDiv = document.getElementById('results');
+    const statusDiv = document.getElementById('status');
+
+    const STORAGE_KEY = 'psa10-data';
+    const META_KEY = 'psa10-meta';
+
+    let fileInput = null; // Will be created later
+
+    function createFileInput() {
+        fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.accept = '.json';
+        fileInput.style.display = 'none';
+        document.body.appendChild(fileInput);
+
+        fileInput.onchange = (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+                let text = ev.target.result;
+                text = text.replace(/^\uFEFF/, '').replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
+                try {
+                    data = JSON.parse(text);
+
+                    localStorage.setItem(STORAGE_KEY, text);
+                    localStorage.setItem(META_KEY, JSON.stringify({
+                        name: file.name,
+                        lastModified: file.lastModified
+                    }));
+
+                    statusDiv.innerHTML = `
+                        Loaded: <strong>${file.name}</strong><br>
+                        Last edited: <strong>${new Date(file.lastModified).toLocaleString()}</strong>
+                        <button onclick="resetData()" style="margin-left:10px; font-size:0.8rem; color:#666; background:none; border:none; text-decoration:underline; cursor:pointer;">
+                            Change file
+                        </button>
+                    `;
+                    resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
+                    search();
+                } catch (err) {
+                    resultsDiv.innerHTML = `<div class="no-results">Invalid JSON: ${err.message}</div>`;
+                }
+            };
+            reader.readAsText(file);
+        };
+    }
+
+    function loadFromStorage() {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        const meta = localStorage.getItem(META_KEY);
+        if (saved && meta) {
+            try {
+                data = JSON.parse(saved);
+                const { name, lastModified } = JSON.parse(meta);
+                statusDiv.innerHTML = `
+                    Loaded: <strong>${name}</strong><br>
+                    Last edited: <strong>${new Date(lastModified).toLocaleString()}</strong>
+                    <button onclick="resetData()" style="margin-left:10px; font-size:0.8rem; color:#666; background:none; border:none; text-decoration:underline; cursor:pointer;">
+                        Change file
+                    </button>
+                `;
+                search();
+                return true;
+            } catch (e) {
+                console.error("Corrupted data", e);
+            }
+        }
+        return false;
+    }
+
+    function showFilePicker() {
+        createFileInput(); // Create input
+
+        resultsDiv.innerHTML = `
+            <div class="setup">
+                <h3>First-Time Setup</h3>
+                <p>Please select your <code>PSA10.json</code> file.</p>
+                <button id="filePickerBtn">Choose PSA10.json</button>
+            </div>
+        `;
+
+        // Direct click → allowed
+        document.getElementById('filePickerBtn').addEventListener('click', () => {
+            fileInput.click();
+        });
+    }
+
+    window.resetData = () => {
+        localStorage.removeItem(STORAGE_KEY);
+        localStorage.removeItem(META_KEY);
+        data = {};
+        showFilePicker();
+    };
+
+    // === SEARCH LOGIC ===
+    function highlight(text, query) {
+        if (!query) return text;
+        const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        return text.replace(regex, '<span class="highlight">$1</span>');
+    }
+
+    function formatCard(cardCode, value) {
+        return `<span class="card">${cardCode}: <span class="card-value">$${value}</span></span>`;
+    }
+
+    function renderPokemonFull(name, path) {
+        let html = `<div class="name">${highlight(name.toUpperCase(), '')}</div>`;
+        Object.keys(path).forEach(year => {
+            const cards = path[year];
+            let cardHtml = '';
+            Object.keys(cards).forEach(cardCode => {
+                cardHtml += formatCard(cardCode, cards[cardCode]);
+            });
+            if (cardHtml) {
+                html += `
+                    <div class="year-section">
+                        <div class="year-title">${year}</div>
+                        <div class="card-list">${cardHtml}</div>
+                    </div>
+                `;
+            }
+        });
+        return html;
+    }
+
+    function renderYearCards(name, year, cards) {
+        let html = `<div class="name code-only">${highlight(name.toUpperCase(), '')} - ${year}</div>`;
+        let cardHtml = '';
+        Object.keys(cards).forEach(cardCode => {
+            cardHtml += formatCard(cardCode, cards[cardCode]);
+        });
+        html += `<div class="card-list">${cardHtml}</div>`;
+        return html;
+    }
+
+    function search() {
+        const query = searchInput.value.trim().toLowerCase();
+        resultsDiv.innerHTML = '';
+
+        if (!query) {
+            resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
+            return;
+        }
+
+        if (Object.keys(data).length === 0) {
+            resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>';
+            return;
+        }
+
+        const parts = query.split(/\s+/);
+        const nameQuery = parts[0];
+        const yearQuery = parts.length > 1 ? parts.slice(1).join(' ') : '';
+
+        const matches = Object.keys(data)
+            .filter(name => name.toLowerCase().includes(nameQuery))
+            .slice(0, 20);
+
+        if (matches.length === 0) {
+            resultsDiv.innerHTML = '<div class="no-results">No Pokémon found</div>';
+            return;
+        }
+
+        matches.forEach(name => {
+            const path = data[name];
+            const div = document.createElement('div');
+            div.className = 'item';
+
+            if (yearQuery && path[yearQuery]) {
+                div.innerHTML = renderYearCards(name, yearQuery, path[yearQuery]);
+                div.classList.add('code-only');
+            } else {
+                div.innerHTML = renderPokemonFull(name, path);
+            }
+            resultsDiv.appendChild(div);
+        });
+    }
+
+    searchInput.addEventListener('input', search);
+
+    // === START ===
+    if (!loadFromStorage()) {
+        showFilePicker();
+    }
+</script>
+</body>
+
+</html>
