@@ -156,13 +156,23 @@
             cursor: pointer;
             margin-top: 1rem;
         }
+
+        .card {
+    transition: all 0.2s;
+    display: inline-block;
+}
+.card:hover {
+    background: #d0e8ff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
     </style>
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <h1>Pokémon Card Search (PSA 10 English)</h1>
+            <h1>Pokémon Card Search</h1>
             <p>Type name → see all values | Add year → see card codes only</p>
         </div>
 
@@ -183,7 +193,7 @@
     const statusDiv = document.getElementById('status');
 
     const JSON_FILE = 'PSA10_clean.json';  // ← Always this file
-    
+
     // === ALWAYS LOAD FRESH FROM SERVER (NO CACHE) ===
     async function loadFresh() {
         try {
@@ -267,34 +277,46 @@
         return text.replace(regex, '<span class="highlight">$1</span>');
     }
 
-    function formatCard(cardCode, value) {
-        return `<span class="card">${cardCode}: <span class="card-value">$${value}</span></span>`;
-    }
+function formatCard(cardCode, value, pokemonName, year) {
+    const searchTerms = `${pokemonName} ${year} ${cardCode} PSA 10`;
+    const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(searchTerms)}&LH_Sold=1&LH_Complete=1`;
 
-    function renderPokemonFull(name, path) {
-        let html = `<div class="name">${highlight(name.toUpperCase(), '')}</div>`;
-        Object.keys(path).forEach(year => {
-            const cards = path[year];
-            let cardHtml = '';
-            Object.keys(cards).forEach(cardCode => {
-                cardHtml += formatCard(cardCode, cards[cardCode]);
-            });
-            if (cardHtml) {
-                html += `<div class="year-section"><div class="year-title">${year}</div><div class="card-list">${cardHtml}</div></div>`;
-            }
-        });
-        return html;
-    }
-
-    function renderYearCards(name, year, cards) {
-        let html = `<div class="name code-only">${highlight(name.toUpperCase(), '')} - ${year}</div>`;
+    return `
+        <a href="${ebayUrl}" target="_blank" class="card" style="text-decoration:none; color:inherit;">
+            ${cardCode}: <span class="card-value">$${value}</span>
+            <span style="margin-left:4px; font-size:0.7rem; opacity:0.6;">eBay</span>
+        </a>
+    `;
+}
+function renderPokemonFull(name, path) {
+    let html = `<div class="name">${highlight(name.toUpperCase(), '')}</div>`;
+    Object.keys(path).forEach(year => {
+        const cards = path[year];
         let cardHtml = '';
         Object.keys(cards).forEach(cardCode => {
-            cardHtml += formatCard(cardCode, cards[cardCode]);
+            cardHtml += formatCard(cardCode, cards[cardCode], name, year);
         });
-        html += `<div class="card-list">${cardHtml}</div>`;
-        return html;
-    }
+        if (cardHtml) {
+            html += `
+                <div class="year-section">
+                    <div class="year-title">${year}</div>
+                    <div class="card-list">${cardHtml}</div>
+                </div>
+            `;
+        }
+    });
+    return html;
+}
+
+ function renderYearCards(name, year, cards) {
+    let html = `<div class="name code-only">${highlight(name.toUpperCase(), '')} - ${year}</div>`;
+    let cardHtml = '';
+    Object.keys(cards).forEach(cardCode => {
+        cardHtml += formatCard(cardCode, cards[cardCode], name, year);
+    });
+    html += `<div class="card-list">${cardHtml}</div>`;
+    return html;
+}
 
     function search() {
         const query = searchInput.value.trim().toLowerCase();
