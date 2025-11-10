@@ -182,100 +182,85 @@
     const resultsDiv = document.getElementById('results');
     const statusDiv = document.getElementById('status');
 
-    const STORAGE_KEY = 'psa10-data';
-    const META_KEY = 'psa10-meta';
+    const JSON_FILE = 'PSA10_clean.json';  // ← Always this file
+    
+    // === ALWAYS LOAD FRESH FROM SERVER (NO CACHE) ===
+    async function loadFresh() {
+        try {
+            // Cache-busting + no-cache headers
+            const resp = await fetch(JSON_FILE + '?t=' + Date.now(), {
+                cache: 'no-store',
+                headers: { 'Cache-Control': 'no-cache' }
+            });
 
-    let fileInput = null; // Will be created later
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
 
-    function createFileInput() {
-        fileInput = document.createElement('input');
-        fileInput.type = 'file';
-        fileInput.accept = '.json';
-        fileInput.style.display = 'none';
-        document.body.appendChild(fileInput);
+            const text = (await resp.text())
+                .replace(/^\uFEFF/, '')  // Strip BOM
+                .trim();
 
-        fileInput.onchange = (e) => {
+            data = JSON.parse(text);
+
+            const lastMod = resp.headers.get('Last-Modified');
+            const date = lastMod ? new Date(lastMod) : new Date();
+
+            statusDiv.innerHTML = `
+                Live: <strong>${JSON_FILE}</strong><br>
+                Updated: <strong>${date.toLocaleString()}</strong>
+            `;
+
+            search();
+            return true;
+        } catch (e) {
+            console.warn("Live load failed (normal for file://):", e.message);
+            return false;
+        }
+    }
+
+    // === FALLBACK: One-time file picker (only if live fails AND no prior load) ===
+    function showFilePicker() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+        input.style.display = 'none';
+        document.body.appendChild(input);
+
+        resultsDiv.innerHTML = `
+            <div class="setup" style="text-align:center; padding:2rem; color:#d00;">
+                <h3>Cannot reach ${JSON_FILE}</h3>
+                <p>Please select it manually <strong>(only once)</strong>.</p>
+                <button id="pickBtn" style="padding:10px 20px; font-size:1rem; background:#667eea; color:white; border:none; border-radius:8px; cursor:pointer;">
+                    Choose PSA10_clean.json
+                </button>
+            </div>
+        `;
+
+        document.getElementById('pickBtn').onclick = () => input.click();
+
+        input.onchange = (e) => {
             const file = e.target.files[0];
             if (!file) return;
 
             const reader = new FileReader();
             reader.onload = (ev) => {
-                let text = ev.target.result;
-                text = text.replace(/^\uFEFF/, '').replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
+                const text = ev.target.result.replace(/^\uFEFF/, '').trim();
                 try {
                     data = JSON.parse(text);
-
-                    localStorage.setItem(STORAGE_KEY, text);
-                    localStorage.setItem(META_KEY, JSON.stringify({
-                        name: file.name,
-                        lastModified: file.lastModified
-                    }));
-
                     statusDiv.innerHTML = `
                         Loaded: <strong>${file.name}</strong><br>
                         Last edited: <strong>${new Date(file.lastModified).toLocaleString()}</strong>
-                        <button onclick="resetData()" style="margin-left:10px; font-size:0.8rem; color:#666; background:none; border:none; text-decoration:underline; cursor:pointer;">
-                            Change file
-                        </button>
                     `;
-                    resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
+                    resultsDiv.innerHTML = '<div class="no-results">Start typing...</div>';
                     search();
                 } catch (err) {
-                    resultsDiv.innerHTML = `<div class="no-results">Invalid JSON: ${err.message}</div>`;
+                    resultsDiv.innerHTML = `<div class="no-results" style="color:red;">Invalid JSON: ${err.message}</div>`;
                 }
             };
             reader.readAsText(file);
         };
     }
 
-    function loadFromStorage() {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        const meta = localStorage.getItem(META_KEY);
-        if (saved && meta) {
-            try {
-                data = JSON.parse(saved);
-                const { name, lastModified } = JSON.parse(meta);
-                statusDiv.innerHTML = `
-                    Loaded: <strong>${name}</strong><br>
-                    Last edited: <strong>${new Date(lastModified).toLocaleString()}</strong>
-                    <button onclick="resetData()" style="margin-left:10px; font-size:0.8rem; color:#666; background:none; border:none; text-decoration:underline; cursor:pointer;">
-                        Change file
-                    </button>
-                `;
-                search();
-                return true;
-            } catch (e) {
-                console.error("Corrupted data", e);
-            }
-        }
-        return false;
-    }
-
-    function showFilePicker() {
-        createFileInput(); // Create input
-
-        resultsDiv.innerHTML = `
-            <div class="setup">
-                <h3>First-Time Setup</h3>
-                <p>Please select your <code>PSA10.json</code> file.</p>
-                <button id="filePickerBtn">Choose PSA10.json</button>
-            </div>
-        `;
-
-        // Direct click → allowed
-        document.getElementById('filePickerBtn').addEventListener('click', () => {
-            fileInput.click();
-        });
-    }
-
-    window.resetData = () => {
-        localStorage.removeItem(STORAGE_KEY);
-        localStorage.removeItem(META_KEY);
-        data = {};
-        showFilePicker();
-    };
-
-    // === SEARCH LOGIC ===
+    // === SEARCH LOGIC (unchanged) ===
     function highlight(text, query) {
         if (!query) return text;
         const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
@@ -295,12 +280,7 @@
                 cardHtml += formatCard(cardCode, cards[cardCode]);
             });
             if (cardHtml) {
-                html += `
-                    <div class="year-section">
-                        <div class="year-title">${year}</div>
-                        <div class="card-list">${cardHtml}</div>
-                    </div>
-                `;
+                html += `<div class="year-section"><div class="year-title">${year}</div><div class="card-list">${cardHtml}</div></div>`;
             }
         });
         return html;
@@ -319,12 +299,10 @@
     function search() {
         const query = searchInput.value.trim().toLowerCase();
         resultsDiv.innerHTML = '';
-
         if (!query) {
             resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
             return;
         }
-
         if (Object.keys(data).length === 0) {
             resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>';
             return;
@@ -338,7 +316,7 @@
             .filter(name => name.toLowerCase().includes(nameQuery))
             .slice(0, 20);
 
-        if (matches.length === 0) {
+        if (!matches.length) {
             resultsDiv.innerHTML = '<div class="no-results">No Pokémon found</div>';
             return;
         }
@@ -347,7 +325,6 @@
             const path = data[name];
             const div = document.createElement('div');
             div.className = 'item';
-
             if (yearQuery && path[yearQuery]) {
                 div.innerHTML = renderYearCards(name, yearQuery, path[yearQuery]);
                 div.classList.add('code-only');
@@ -360,10 +337,13 @@
 
     searchInput.addEventListener('input', search);
 
-    // === START ===
-    if (!loadFromStorage()) {
-        showFilePicker();
-    }
+    // === AUTO-START: Live load → fallback to picker ===
+    (async () => {
+        statusDiv.textContent = 'Loading PSA10_clean.json...';
+        if (!(await loadFresh())) {
+            showFilePicker();
+        }
+    })();
 </script>
 </body>
 
