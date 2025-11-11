@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokémon Card Search</title>
+    <title>PSA 9 · PSA 10 · CGC 10 Pokémon Search</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,10 +37,15 @@
         .search-box {
             padding: 2rem;
             border-bottom: 1px solid #eee;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         #searchInput {
-            width: 100%;
+            flex: 1;
+            min-width: 280px;
             padding: 1rem 1.5rem;
             font-size: 1.1rem;
             border: 2px solid #ddd;
@@ -54,319 +59,270 @@
             box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
         }
 
-        .results {
-            max-height: 600px;
-            overflow-y: auto;
-        }
-
-        .item {
-            padding: 1.5rem 2rem;
-            border-bottom: 1px solid #f0f0f0;
-            transition: background 0.2s;
-        }
-
-        .item:hover {
-            background: #f8f9ff;
-        }
-
-        .item:last-child {
-            border-bottom: none;
-        }
-
-        .no-results {
-            text-align: center;
-            padding: 3rem;
-            color: #888;
-            font-style: italic;
-        }
-
-        .highlight {
-            background: #fff3cd;
-            padding: 0.1em 0.2em;
-            border-radius: 3px;
-        }
-
-        .name {
-            font-weight: bold;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .year-section {
-            margin: 0.8rem 0;
-        }
-
-        .year-title {
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 0.4rem;
-            font-size: 1rem;
-        }
-
-        .card-list {
+        .grade-toggle {
             display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
+            background: #f1f3f5;
+            border-radius: 50px;
+            padding: 4px;
+            gap: 4px;
         }
 
-        .card {
-            background: #e8f4fd;
-            padding: 0.3rem 0.6rem;
-            border-radius: 6px;
-            font-size: 0.85rem;
-            font-family: monospace;
-        }
-
-        .card-value {
-            color: #007bff;
+        .grade-btn {
+            padding: 0.7rem 1.2rem;
+            font-size: 0.95rem;
             font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 80px;
         }
 
-        .code-only .name {
-            font-size: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .code-only .year-section {
-            margin: 0.5rem 0;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 1rem;
-            color: #666;
-            font-size: 0.9rem;
-            border-top: 1px solid #eee;
-            background: #f9f9f9;
-        }
-
-        .setup {
-            text-align: center;
-            padding: 2rem;
-            color: #555;
-        }
-
-        .setup button {
-            padding: 12px 24px;
-            font-size: 1rem;
+        .grade-btn.active {
             background: #667eea;
             color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 1rem;
         }
 
+        .grade-btn.psa10.active { background: #28a745; }
+        .grade-btn.psa9.active  { background: #dc3545; }
+        .grade-btn.cgc10.active { background: #1a73e8; }
+
+        .results { max-height: 600px; overflow-y: auto; }
+        .item { padding: 1.5rem 2rem; border-bottom: 1px solid #f0f0f0; transition: background 0.2s; }
+        .item:hover { background: #f8f9ff; }
+        .no-results { text-align: center; padding: 3rem; color: #888; font-style: italic; }
+        .highlight { background: #fff3cd; padding: 0.1em 0.2em; border-radius: 3px; }
+        .name { font-weight: bold; font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .year-section { margin: 0.8rem 0; }
+        .year-title { font-weight: 600; color: #333; margin-bottom: 0.4rem; font-size: 1rem; }
+        .card-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
         .card {
-    transition: all 0.2s;
-    display: inline-block;
-}
-.card:hover {
-    background: #d0e8ff !important;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+            background: #e8f4fd; padding: 0.3rem 0.6rem; border-radius: 6px;
+            font-size: 0.85rem; font-family: monospace; transition: all 0.2s;
+            text-decoration: none; color: inherit; display: inline-block;
+        }
+        .card:hover {
+            background: #d0e8ff; transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card-value { color: #007bff; font-weight: bold; }
+        .card-value::after {
+            content: " (PSA 10)"; font-size: 0.65rem; color: #28a745; font-weight: bold; margin-left: 4px;
+        }
+        body.psa9 .card-value::after { content: " (PSA 9)"; color: #dc3545; }
+        body.cgc10 .card-value::after { content: " (CGC 10)"; color: #1a73e8; }
+
+        .footer {
+            text-align: center; padding: 1rem; color: #666; font-size: 0.9rem;
+            border-top: 1px solid #eee; background: #f9f9f9;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <h1>Pokémon Card Search</h1>
-            <p>Type name → see all values | Add year → see card codes only</p>
+            <h1>PSA 9 · PSA 10 · CGC 10 Search</h1>
+            <p>Click card → eBay sold listings</p>
         </div>
 
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="e.g. 'mew' or 'mew 2024'" autocomplete="off" />
+            <input type="text" id="searchInput" placeholder="e.g. 'umbreon' or 'mew 2024'" autocomplete="off" />
+            <div class="grade-toggle">
+                <button class="grade-btn psa10 active" data-grade="10">PSA 10</button>
+                <button class="grade-btn psa9" data-grade="9">PSA 9</button>
+                <button class="grade-btn cgc10" data-grade="cgc">CGC 10</button>
+            </div>
         </div>
 
         <div class="results" id="results"></div>
-        <div class="footer" id="footer">
-            <div id="status">Loading data...</div>
-        </div>
+        <div class="footer" id="status">Loading PSA 10, PSA 9, CGC 10...</div>
     </div>
 
-<script>
-    let data = {};
-    const searchInput = document.getElementById('searchInput');
-    const resultsDiv = document.getElementById('results');
-    const statusDiv = document.getElementById('status');
+    <script>
+        let data = { psa10: {}, psa9: {}, cgc10: {} };
+        let currentData = {};
+        let currentGrade = '10';
 
-    const JSON_FILE = 'PSA10_clean.json';  // ← Always this file
+        const searchInput = document.getElementById('searchInput');
+        const resultsDiv = document.getElementById('results');
+        const statusDiv = document.getElementById('status');
 
-    // === ALWAYS LOAD FRESH FROM SERVER (NO CACHE) ===
-    async function loadFresh() {
-        try {
-            // Cache-busting + no-cache headers
-            const resp = await fetch(JSON_FILE + '?t=' + Date.now(), {
-                cache: 'no-store',
-                headers: { 'Cache-Control': 'no-cache' }
-            });
-
-            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-
-            const text = (await resp.text())
-                .replace(/^\uFEFF/, '')  // Strip BOM
-                .trim();
-
-            data = JSON.parse(text);
-
-            const lastMod = resp.headers.get('Last-Modified');
-            const date = lastMod ? new Date(lastMod) : new Date();
-
-            statusDiv.innerHTML = `
-                Live: <strong>${JSON_FILE}</strong><br>
-                Updated: <strong>${date.toLocaleString()}</strong>
-            `;
-
-            search();
-            return true;
-        } catch (e) {
-            console.warn("Live load failed (normal for file://):", e.message);
-            return false;
-        }
-    }
-
-    // === FALLBACK: One-time file picker (only if live fails AND no prior load) ===
-    function showFilePicker() {
-        const input = document.createElement('input');
-        input.type = 'file';
-        input.accept = '.json';
-        input.style.display = 'none';
-        document.body.appendChild(input);
-
-        resultsDiv.innerHTML = `
-            <div class="setup" style="text-align:center; padding:2rem; color:#d00;">
-                <h3>Cannot reach ${JSON_FILE}</h3>
-                <p>Please select it manually <strong>(only once)</strong>.</p>
-                <button id="pickBtn" style="padding:10px 20px; font-size:1rem; background:#667eea; color:white; border:none; border-radius:8px; cursor:pointer;">
-                    Choose PSA10_clean.json
-                </button>
-            </div>
-        `;
-
-        document.getElementById('pickBtn').onclick = () => input.click();
-
-        input.onchange = (e) => {
-            const file = e.target.files[0];
-            if (!file) return;
-
-            const reader = new FileReader();
-            reader.onload = (ev) => {
-                const text = ev.target.result.replace(/^\uFEFF/, '').trim();
-                try {
-                    data = JSON.parse(text);
-                    statusDiv.innerHTML = `
-                        Loaded: <strong>${file.name}</strong><br>
-                        Last edited: <strong>${new Date(file.lastModified).toLocaleString()}</strong>
-                    `;
-                    resultsDiv.innerHTML = '<div class="no-results">Start typing...</div>';
-                    search();
-                } catch (err) {
-                    resultsDiv.innerHTML = `<div class="no-results" style="color:red;">Invalid JSON: ${err.message}</div>`;
-                }
-            };
-            reader.readAsText(file);
+        const FILES = {
+            '10': 'PSA10_clean.json',
+            '9': 'PSA9.json',
+            'cgc': 'CGC10.json'
         };
-    }
 
-    // === SEARCH LOGIC (unchanged) ===
-    function highlight(text, query) {
-        if (!query) return text;
-        const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-        return text.replace(regex, '<span class="highlight">$1</span>');
-    }
+        async function loadAll() {
+            statusDiv.textContent = 'Loading PSA 10, PSA 9, CGC 10...';
+            try {
+                const responses = await Promise.all(
+                    Object.entries(FILES).map(([key, file]) =>
+                        fetch(file + '?t=' + Date.now(), { cache: 'no-store' })
+                            .then(r => r.ok ? r.text() : Promise.reject(`Failed: ${file}`))
+                            .then(t => ({ key, text: t.replace(/^\uFEFF/, '').trim() }))
+                    )
+                );
 
-function formatCard(cardCode, value, pokemonName, year) {
-    const searchTerms = `${pokemonName} ${year} ${cardCode} PSA 10`;
-    const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(searchTerms)}&LH_Sold=1&LH_Complete=1`;
+                responses.forEach(({ key, text }) => {
+                    data[key === '10' ? 'psa10' : key === '9' ? 'psa9' : 'cgc10'] = JSON.parse(text);
+                });
 
-    return `
-        <a href="${ebayUrl}" target="_blank" class="card" style="text-decoration:none; color:inherit;">
-            ${cardCode}: <span class="card-value">$${value}</span>
-            <span style="margin-left:4px; font-size:0.7rem; opacity:0.6;">eBay</span>
-        </a>
-    `;
-}
-function renderPokemonFull(name, path) {
-    let html = `<div class="name">${highlight(name.toUpperCase(), '')}</div>`;
-    Object.keys(path).forEach(year => {
-        const cards = path[year];
-        let cardHtml = '';
-        Object.keys(cards).forEach(cardCode => {
-            cardHtml += formatCard(cardCode, cards[cardCode], name, year);
-        });
-        if (cardHtml) {
-            html += `
-                <div class="year-section">
-                    <div class="year-title">${year}</div>
-                    <div class="card-list">${cardHtml}</div>
+                switchGrade('10');
+                statusDiv.innerHTML = `All 3 grades loaded • ${new Date().toLocaleTimeString()}`;
+            } catch (e) {
+                console.warn("Auto-load failed:", e);
+                showFilePicker();
+            }
+        }
+
+        function showFilePicker() {
+            resultsDiv.innerHTML = `
+                <div style="text-align:center; padding:3rem;">
+                    <h3>Auto-load failed</h3>
+                    <p>Select all 3 JSON files (only once):</p>
+                    <button onclick="pickFiles()" style="padding:12px 24px; background:#667eea; color:white; border:none; border-radius:8px; cursor:pointer; font-size:1rem;">
+                        Choose PSA9.json, PSA10_clean.json, CGC10.json
+                    </button>
                 </div>
             `;
         }
-    });
-    return html;
-}
 
- function renderYearCards(name, year, cards) {
-    let html = `<div class="name code-only">${highlight(name.toUpperCase(), '')} - ${year}</div>`;
-    let cardHtml = '';
-    Object.keys(cards).forEach(cardCode => {
-        cardHtml += formatCard(cardCode, cards[cardCode], name, year);
-    });
-    html += `<div class="card-list">${cardHtml}</div>`;
-    return html;
-}
+        window.pickFiles = () => {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+            input.multiple = true;
+            input.onchange = (e) => {
+                Array.from(e.target.files).forEach(file => {
+                    const reader = new FileReader();
+                    reader.onload = (ev) => {
+                        const text = ev.target.result.replace(/^\uFEFF/, '').trim();
+                        try {
+                            const json = JSON.parse(text);
+                            if (file.name.includes('PSA9')) data.psa9 = json;
+                            else if (file.name.includes('PSA10') || file.name.includes('clean')) data.psa10 = json;
+                            else if (file.name.includes('CGC10')) data.cgc10 = json;
 
-    function search() {
-        const query = searchInput.value.trim().toLowerCase();
-        resultsDiv.innerHTML = '';
-        if (!query) {
-            resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
-            return;
+                            if (data.psa9 && data.psa10 && data.cgc10) {
+                                switchGrade('10');
+                                statusDiv.textContent = 'All 3 loaded from files';
+                            }
+                        } catch (err) { alert(`Invalid: ${file.name}`); }
+                    };
+                    reader.readAsText(file);
+                });
+            };
+            input.click();
+        };
+
+        function switchGrade(grade) {
+            currentGrade = grade;
+            currentData = grade === '10' ? data.psa10 : grade === '9' ? data.psa9 : data.cgc10;
+
+            document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.grade-btn[data-grade="${grade === 'cgc' ? 'cgc' : grade}"]`).classList.add('active');
+
+            document.body.className = grade === '9' ? 'psa9' : grade === 'cgc' ? 'cgc10' : '';
+
+            statusDiv.innerHTML = `Showing <strong>${grade === 'cgc' ? 'CGC 10' : 'PSA ' + grade}</strong>`;
+            search();
         }
-        if (Object.keys(data).length === 0) {
-            resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>';
-            return;
-        }
 
-        const parts = query.split(/\s+/);
-        const nameQuery = parts[0];
-        const yearQuery = parts.length > 1 ? parts.slice(1).join(' ') : '';
-
-        const matches = Object.keys(data)
-            .filter(name => name.toLowerCase().includes(nameQuery))
-            .slice(0, 20);
-
-        if (!matches.length) {
-            resultsDiv.innerHTML = '<div class="no-results">No Pokémon found</div>';
-            return;
-        }
-
-        matches.forEach(name => {
-            const path = data[name];
-            const div = document.createElement('div');
-            div.className = 'item';
-            if (yearQuery && path[yearQuery]) {
-                div.innerHTML = renderYearCards(name, yearQuery, path[yearQuery]);
-                div.classList.add('code-only');
-            } else {
-                div.innerHTML = renderPokemonFull(name, path);
-            }
-            resultsDiv.appendChild(div);
+        document.querySelectorAll('.grade-btn').forEach(btn => {
+            btn.onclick = () => switchGrade(btn.dataset.grade);
         });
-    }
 
-    searchInput.addEventListener('input', search);
+        function formatCard(cardCode, value, pokemonName, year) {
+            const cleanCode = cardCode.replace(/^#/, '').trim();
+            const gradeText = currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10';
+            const searchTerms = `${pokemonName} ${year} ${cleanCode} ${gradeText}`;
+            const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(searchTerms)}&LH_Sold=1&LH_Complete=1`;
 
-    // === AUTO-START: Live load → fallback to picker ===
-    (async () => {
-        statusDiv.textContent = 'Loading PSA10_clean.json...';
-        if (!(await loadFresh())) {
-            showFilePicker();
+            return `
+                <a href="${ebayUrl}" target="_blank" class="card">
+                    ${cardCode}: <span class="card-value">$${value}</span>
+                    <span style="margin-left:4px; font-size:0.7rem; opacity:0.7; color:#0064d5;">eBay</span>
+                </a>
+            `;
         }
-    })();
-</script>
+
+        function renderPokemonFull(name, path) {
+            let html = `<div class="name">${highlight(name.toUpperCase(), '')}</div>`;
+            Object.keys(path).forEach(year => {
+                const cards = path[year];
+                let cardHtml = '';
+                Object.keys(cards).forEach(code => {
+                    cardHtml += formatCard(code, cards[code], name, year);
+                });
+                if (cardHtml) {
+                    html += `<div class="year-section"><div class="year-title">${year}</div><div class="card-list">${cardHtml}</div></div>`;
+                }
+            });
+            return html;
+        }
+
+        function renderYearCards(name, year, cards) {
+            let html = `<div class="name code-only">${highlight(name.toUpperCase(), '')} - ${year}</div>`;
+            let cardHtml = '';
+            Object.keys(cards).forEach(code => {
+                cardHtml += formatCard(code, cards[code], name, year);
+            });
+            html += `<div class="card-list">${cardHtml}</div>`;
+            return html;
+        }
+
+        function search() {
+            const query = searchInput.value.trim().toLowerCase();
+            resultsDiv.innerHTML = '';
+            if (!query) {
+                resultsDiv.innerHTML = '<div class="no-results">Start typing...</div>';
+                return;
+            }
+            if (!currentData || Object.keys(currentData).length === 0) {
+                resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>';
+                return;
+            }
+
+            const parts = query.split(/\s+/);
+            const nameQ = parts[0];
+            const yearQ = parts.length > 1 ? parts.slice(1).join(' ') : '';
+
+            const matches = Object.keys(currentData)
+                .filter(n => n.toLowerCase().includes(nameQ))
+                .slice(0, 20);
+
+            if (!matches.length) {
+                resultsDiv.innerHTML = '<div class="no-results">No cards found</div>';
+                return;
+            }
+
+            matches.forEach(name => {
+                const path = currentData[name];
+                const div = document.createElement('div');
+                div.className = 'item';
+                if (yearQ && path[yearQ]) {
+                    div.innerHTML = renderYearCards(name, yearQ, path[yearQ]);
+                    div.classList.add('code-only');
+                } else {
+                    div.innerHTML = renderPokemonFull(name, path);
+                }
+                resultsDiv.appendChild(div);
+            });
+        }
+
+        function highlight(text, query) {
+            if (!query) return text;
+            const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+
+        searchInput.addEventListener('input', search);
+
+        // START
+        loadAll();
+    </script>
 </body>
 
 </html>
