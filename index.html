@@ -52,7 +52,7 @@
         </div>
 
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Type Pokémon name: Mew, Pikachu, Charizard..." autocomplete="off" />
+            <input type="text" id="searchInput" placeholder="Type name (e.g. Mew) or name + year (e.g. Mew 2024)" autocomplete="off" />
 
             <div class="toggle-group">
                 <button class="toggle-btn lang-en active" data-lang="en">EN</button>
@@ -73,17 +73,17 @@
     <script>
         const data = { en: { psa10: {}, psa9: {}, cgc10: {} }, jp: { psa10: {}, psa9: {}, cgc10: {} } };
         let currentLang = 'en', currentGrade = '10', currentData = {};
+        let nameQuery = '';
 
         const statusDiv = document.getElementById('status');
         const resultsDiv = document.getElementById('results');
         const searchInput = document.getElementById('searchInput');
 
         const FILES = {
-            en: { '10': 'PSA10.json', '9': 'PSA9.json', 'cgc': 'CGC10.json' },
+            en: { '10': 'PSA10_clean.json', '9': 'PSA9.json', 'cgc': 'CGC10.json' },
             jp: { '10': 'PSA10_JP.json', '9': 'PSA9_JP.json', 'cgc': 'CGC10_JP.json' }
         };
 
-        // Auto-load
         async function tryAutoLoad() {
             let loaded = 0;
             for (const lang of ['en', 'jp']) {
@@ -105,9 +105,9 @@
         function showManualLoad() {
             resultsDiv.innerHTML = `
                 <div class="setup">
-                    <h3>Click to load your JSON files</h3>
-                    <p>(Only needed once)</p>
-                    <button onclick="pickFiles()">Load 6 JSON Files</button>
+                    <h3>Click to load your 6 JSON files</h3>
+                    <p>(Only once per browser)</p>
+                    <button onclick="pickFiles()">Load Files Manually</button>
                 </div>`;
             statusDiv.textContent = 'Manual load required';
         }
@@ -131,7 +131,7 @@
                                 else if (n.includes('psa9')) data.en.psa9 = json;
                                 else if (n.includes('cgc10')) data.en.cgc10 = json;
                             }
-                        } catch (err) { console.error('Error loading:', f.name); }
+                        } catch (err) { console.error(err); }
                     };
                     r.readAsText(f);
                 });
@@ -148,48 +148,91 @@
             search();
         }
 
+        function getGradeText() {
+            return currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10';
+        }
+
+        function formatCard(code, value, name, year) {
+            const clean = code.replace(/^#/, '').trim();
+            const lang = currentLang === 'jp' ? 'Japanese' : '';
+            const terms = [name, year, clean, getGradeText(), lang].filter(Boolean).join(' ');
+            const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
+            return `<a href="${url}" target="_blank" class="card">${code}: <span class="card-value">$${value}</span><span style="margin-left:4px;font-size:0.7rem;opacity:0.7;color:#0064d5;">eBay</span></a>`;
+        }
+
+        function renderPokemon(name, path) {
+            let html = `<div class="name">${highlight(name)}</div>`;
+            Object.keys(path).forEach(year => {
+                const cards = path[year];
+                let cardHtml = '';
+                Object.keys(cards).forEach(code => {
+                    cardHtml += formatCard(code, cards[code], name, year);
+                });
+                if (cardHtml) {
+                    html += `<div class="year-section"><div class="year-title">${year}</div><div class="card-list">${cardHtml}</div></div>`;
+                }
+            });
+            return html;
+        }
+
+        function renderYearOnly(name, year, cards) {
+            let html = `<div class="name">${highlight(name)} - ${year}</div><div class="card-list">`;
+            Object.keys(cards).forEach(code => {
+                html += formatCard(code, cards[code], name, year);
+            });
+            return html + '</div>';
+        }
+
         function search() {
             const query = searchInput.value.trim();
             resultsDiv.innerHTML = '';
 
             if (!query) {
                 resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
+                nameQuery = '';
                 return;
             }
 
             if (Object.keys(currentData).length === 0) {
-                resultsDiv.innerHTML = '<div class="no-results">Data not loaded yet</div>';
+                resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>';
                 return;
             }
 
-            // Search by Pokémon name only (case-insensitive)
+            const parts = query.toLowerCase().split(/\s+/).filter(p => p);
+            nameQuery = parts[0];
+            const yearQuery = parts.length > 1 ? parts.slice(1).join(' ') : '';
+
             const matches = Object.keys(currentData)
-                .filter(name => name.toLowerCase().includes(query.toLowerCase()))
+                .filter(name => name.toLowerCase().includes(nameQuery))
                 .slice(0, 20);
 
-            if (matches.length === 0) {
+            if (!matches.length) {
                 resultsDiv.innerHTML = '<div class="no-results">No Pokémon found</div>';
                 return;
             }
 
             matches.forEach(name => {
+                const path = currentData[name];
                 const div = document.createElement('div');
                 div.className = 'item';
-                div.innerHTML = `<div class="name">${name}</div><div class="card-list">
-                    ${Object.entries(currentData[name]).flatMap(([year, cards]) => 
-                        Object.entries(cards).map(([code, price]) => 
-                            `<a href="https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(name + ' ' + year + ' ' + code.replace('#','') + ' ' + (currentLang==='jp'?'Japanese ':'') + (currentGrade==='10'?'PSA 10':currentGrade==='9'?'PSA 9':'CGC 10'))}&LH_Sold=1&LH_Complete=1" target="_blank" class="card">
-                                ${code}: <span class="card-value">$${price}</span>
-                                <span style="margin-left:4px;font-size:0.7rem;opacity:0.7;color:#0064d5;">eBay</span>
-                            </a>`
-                        )
-                    ).join('')}
-                </div>`;
+
+                if (yearQuery && path[yearQuery]) {
+                    div.innerHTML = renderYearOnly(name, yearQuery, path[yearQuery]);
+                } else {
+                    div.innerHTML = renderPokemon(name, path);
+                }
                 resultsDiv.appendChild(div);
             });
         }
 
-        // Toggle buttons
+        function highlight(text) {
+            if (!nameQuery) return text;
+            const regex = new RegExp(`(${nameQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+
+        searchInput.addEventListener('input', search);
+
         document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => {
             document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active'));
             b.classList.add('active');
@@ -204,12 +247,9 @@
             updateData();
         });
 
-        searchInput.addEventListener('input', search);
-
-        // Start
         (async () => {
-            const loaded = await tryAutoLoad();
-            if (loaded && data.en.psa10 && data.jp.psa10) {
+            const success = await tryAutoLoad();
+            if (success && Object.keys(data.en.psa10).length && Object.keys(data.jp.psa10).length) {
                 updateData();
                 statusDiv.textContent = 'Ready — type any Pokémon name';
             } else {
