@@ -1,91 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PSA 9 · PSA 10 · CGC 10 Pokémon Search</title>
+    <title>PSA 9 · PSA 10 · CGC 10 | EN + JP</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f0f2f5;
-            margin: 0;
-            padding: 2rem;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; margin: 0; padding: 2rem; }
+        .container { max-width: 900px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; text-align: center; }
+        .header h1 { margin: 0; font-size: 2rem; }
+        .search-box { padding: 2rem; border-bottom: 1px solid #eee; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+        #searchInput { flex: 1; min-width: 280px; padding: 1rem 1.5rem; font-size: 1.1rem; border: 2px solid #ddd; border-radius: 50px; outline: none; transition: all 0.3s; }
+        #searchInput:focus { border-color: #667eea; box-shadow: 0 0 0 4px rgba(102,126,234,0.1); }
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
+        .toggle-group { display: flex; background: #f1f3f5; border-radius: 50px; padding: 4px; gap: 4px; }
+        .toggle-btn { padding: 0.7rem 1.2rem; font-size: 0.95rem; font-weight: bold; border: none; border-radius: 50px; cursor: pointer; transition: all 0.3s; min-width: 80px; }
+        .toggle-btn.active { color: white; }
 
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
-
-        .search-box {
-            padding: 2rem;
-            border-bottom: 1px solid #eee;
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        #searchInput {
-            flex: 1;
-            min-width: 280px;
-            padding: 1rem 1.5rem;
-            font-size: 1.1rem;
-            border: 2px solid #ddd;
-            border-radius: 50px;
-            outline: none;
-            transition: all 0.3s;
-        }
-
-        #searchInput:focus {
-            border-color: #667eea;
-            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
-        }
-
-        .grade-toggle {
-            display: flex;
-            background: #f1f3f5;
-            border-radius: 50px;
-            padding: 4px;
-            gap: 4px;
-        }
-
-        .grade-btn {
-            padding: 0.7rem 1.2rem;
-            font-size: 0.95rem;
-            font-weight: bold;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s;
-            min-width: 80px;
-        }
-
-        .grade-btn.active {
-            background: #667eea;
-            color: white;
-        }
-
-        .grade-btn.psa10.active { background: #28a745; }
-        .grade-btn.psa9.active  { background: #dc3545; }
-        .grade-btn.cgc10.active { background: #1a73e8; }
+        .grade-psa10.active { background: #28a745; }
+        .grade-psa9.active  { background: #dc3545; }
+        .grade-cgc10.active { background: #1a73e8; }
+        .lang-en.active  { background: #007bff; }
+        .lang-jp.active  { background: #d32f2f; }
 
         .results { max-height: 600px; overflow-y: auto; }
         .item { padding: 1.5rem 2rem; border-bottom: 1px solid #f0f0f0; transition: background 0.2s; }
@@ -101,90 +37,101 @@
             font-size: 0.85rem; font-family: monospace; transition: all 0.2s;
             text-decoration: none; color: inherit; display: inline-block;
         }
-        .card:hover {
-            background: #d0e8ff; transform: translateY(-1px);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
+        .card:hover { background: #d0e8ff; transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .card-value { color: #007bff; font-weight: bold; }
-        .card-value::after {
-            content: " (PSA 10)"; font-size: 0.65rem; color: #28a745; font-weight: bold; margin-left: 4px;
-        }
+        .card-value::after { content: " (PSA 10)"; font-size: 0.65rem; color: #28a745; font-weight: bold; margin-left: 4px; }
         body.psa9 .card-value::after { content: " (PSA 9)"; color: #dc3545; }
         body.cgc10 .card-value::after { content: " (CGC 10)"; color: #1a73e8; }
+        body.jp .card-value::after { content: " (JP)"; font-size: 0.6rem; color: #d32f2f; margin-left: 2px; }
 
-        .footer {
-            text-align: center; padding: 1rem; color: #666; font-size: 0.9rem;
-            border-top: 1px solid #eee; background: #f9f9f9;
-        }
+        .footer { text-align: center; padding: 1rem; color: #666; font-size: 0.9rem; border-top: 1px solid #eee; background: #f9f9f9; }
+        .setup { text-align: center; padding: 3rem; }
+        .setup button { padding: 14px 28px; background: #667eea; color: white; border: none; border-radius: 12px; font-size: 1.1rem; cursor: pointer; }
     </style>
 </head>
-
 <body>
     <div class="container">
         <div class="header">
-            <h1>PSA 9 · PSA 10 · CGC 10 Search</h1>
+            <h1>PSA 9 · PSA 10 · CGC 10 | EN + JP</h1>
             <p>Click card → eBay sold listings</p>
         </div>
 
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="e.g. 'umbreon' or 'mew 2024'" autocomplete="off" />
-            <div class="grade-toggle">
-                <button class="grade-btn psa10 active" data-grade="10">PSA 10</button>
-                <button class="grade-btn psa9" data-grade="9">PSA 9</button>
-                <button class="grade-btn cgc10" data-grade="cgc">CGC 10</button>
+            <input type="text" id="searchInput" placeholder="e.g. 'mew' or 'umbreon 2024'" autocomplete="off" />
+
+            <div class="toggle-group">
+                <button class="toggle-btn lang-en active" data-lang="en">EN</button>
+                <button class="toggle-btn lang-jp" data-lang="jp">JP</button>
+            </div>
+
+            <div class="toggle-group">
+                <button class="toggle-btn grade-psa10 active" data-grade="10">PSA 10</button>
+                <button class="toggle-btn grade-psa9" data-grade="9">PSA 9</button>
+                <button class="toggle-btn grade-cgc10" data-grade="cgc">CGC 10</button>
             </div>
         </div>
 
         <div class="results" id="results"></div>
-        <div class="footer" id="status">Loading PSA 10, PSA 9, CGC 10...</div>
+        <div class="footer" id="status">Loading datasets...</div>
     </div>
 
     <script>
-        let data = { psa10: {}, psa9: {}, cgc10: {} };
-        let currentData = {};
-        let currentGrade = '10';
-
-        const searchInput = document.getElementById('searchInput');
-        const resultsDiv = document.getElementById('results');
-        const statusDiv = document.getElementById('status');
-
-        const FILES = {
-            '10': 'PSA10_clean.json',
-            '9': 'PSA9.json',
-            'cgc': 'CGC10.json'
+        const data = {
+            en: { psa10: {}, psa9: {}, cgc10: {} },
+            jp: { psa10: {}, psa9: {}, cgc10: {} }
         };
 
-        async function loadAll() {
-            statusDiv.textContent = 'Loading PSA 10, PSA 9, CGC 10...';
-            try {
-                const responses = await Promise.all(
-                    Object.entries(FILES).map(([key, file]) =>
-                        fetch(file + '?t=' + Date.now(), { cache: 'no-store' })
-                            .then(r => r.ok ? r.text() : Promise.reject(`Failed: ${file}`))
-                            .then(t => ({ key, text: t.replace(/^\uFEFF/, '').trim() }))
-                    )
-                );
+        let currentLang = 'en';
+        let currentGrade = '10';
+        let currentData = {};
 
-                responses.forEach(({ key, text }) => {
-                    data[key === '10' ? 'psa10' : key === '9' ? 'psa9' : 'cgc10'] = JSON.parse(text);
-                });
+        const statusDiv = document.getElementById('status');
+        const resultsDiv = document.getElementById('results');
 
-                switchGrade('10');
-                statusDiv.innerHTML = `All 3 grades loaded • ${new Date().toLocaleTimeString()}`;
-            } catch (e) {
-                console.warn("Auto-load failed:", e);
-                showFilePicker();
+        const FILES = {
+            en: { '10': 'PSA10_clean.json', '9': 'PSA9.json', 'cgc': 'CGC10.json' },
+            jp: { '10': 'PSA10_JP.json', '9': 'PSA9_JP.json', 'cgc': 'CGC10_JP.json' }
+        };
+
+        // Try auto-load via fetch (works on server/GitHub Pages)
+        async function tryAutoLoad() {
+            let loaded = 0;
+            const total = 6;
+
+            for (const lang of ['en', 'jp']) {
+                for (const [grade, file] of Object.entries(FILES[lang])) {
+                    try {
+                        const resp = await fetch(file + '?t=' + Date.now(), { cache: 'no-store' });
+                        if (!resp.ok) throw new Error();
+                        const text = (await resp.text()).replace(/^\uFEFF/, '').trim();
+                        const key = grade === '10' ? 'psa10' : grade === '9' ? 'psa9' : 'cgc10';
+                        data[lang][key] = JSON.parse(text);
+                        loaded++;
+                    } catch (e) {
+                        // Silently fail — we'll use picker
+                    }
+                }
             }
+
+            if (loaded === total) {
+                updateCurrentData();
+                statusDiv.innerHTML = `All 6 datasets loaded • ${new Date().toLocaleTimeString()}`;
+                return true;
+            }
+            return false;
         }
 
+        // Manual file picker (works locally with file://)
         function showFilePicker() {
             resultsDiv.innerHTML = `
-                <div style="text-align:center; padding:3rem;">
-                    <h3>Auto-load failed</h3>
-                    <p>Select all 3 JSON files (only once):</p>
-                    <button onclick="pickFiles()" style="padding:12px 24px; background:#667eea; color:white; border:none; border-radius:8px; cursor:pointer; font-size:1rem;">
-                        Choose PSA9.json, PSA10_clean.json, CGC10.json
-                    </button>
+                <div class="setup">
+                    <h3>Welcome! Please select your JSON files</h3>
+                    <p>You only need to do this <strong>once per browser</strong>.</p>
+                    <button onclick="pickFiles()">Choose 6 JSON files</button>
+                    <p style="font-size:0.9rem; margin-top:1rem; color:#666;">
+                        PSA10_clean.json • PSA9.json • CGC10.json<br>
+                        PSA10_JP.json • PSA9_JP.json • CGC10_JP.json
+                    </p>
                 </div>
             `;
         }
@@ -195,21 +142,32 @@
             input.accept = '.json';
             input.multiple = true;
             input.onchange = (e) => {
-                Array.from(e.target.files).forEach(file => {
+                const files = Array.from(e.target.files);
+                let loaded = 0;
+
+                files.forEach(file => {
                     const reader = new FileReader();
                     reader.onload = (ev) => {
-                        const text = ev.target.result.replace(/^\uFEFF/, '').trim();
                         try {
-                            const json = JSON.parse(text);
-                            if (file.name.includes('PSA9')) data.psa9 = json;
-                            else if (file.name.includes('PSA10') || file.name.includes('clean')) data.psa10 = json;
-                            else if (file.name.includes('CGC10')) data.cgc10 = json;
+                            const json = JSON.parse(ev.target.result.replace(/^\uFEFF/, '').trim());
+                            const name = file.name.toLowerCase();
 
-                            if (data.psa9 && data.psa10 && data.cgc10) {
-                                switchGrade('10');
-                                statusDiv.textContent = 'All 3 loaded from files';
+                            if (name.includes('psa10') && name.includes('jp')) data.jp.psa10 = json;
+                            else if (name.includes('psa9') && name.includes('jp')) data.jp.psa9 = json;
+                            else if (name.includes('cgc10') && name.includes('jp')) data.jp.cgc10 = json;
+                            else if (name.includes('psa10') || name.includes('clean')) data.en.psa10 = json;
+                            else if (name.includes('psa9')) data.en.psa9 = json;
+                            else if (name.includes('cgc10')) data.en.cgc10 = json;
+
+                            loaded++;
+                            if (loaded >= 3) { // At least one full set
+                                updateCurrentData();
+                                resultsDiv.innerHTML = '<div class="no-results">Start typing a Pokémon name...</div>';
+                                statusDiv.textContent = 'Files loaded from your computer';
                             }
-                        } catch (err) { alert(`Invalid: ${file.name}`); }
+                        } catch (err) {
+                            console.error('Invalid JSON:', file.name);
+                        }
                     };
                     reader.readAsText(file);
                 });
@@ -217,27 +175,24 @@
             input.click();
         };
 
-        function switchGrade(grade) {
-            currentGrade = grade;
-            currentData = grade === '10' ? data.psa10 : grade === '9' ? data.psa9 : data.cgc10;
-
-            document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('active'));
-            document.querySelector(`.grade-btn[data-grade="${grade === 'cgc' ? 'cgc' : grade}"]`).classList.add('active');
-
-            document.body.className = grade === '9' ? 'psa9' : grade === 'cgc' ? 'cgc10' : '';
-
-            statusDiv.innerHTML = `Showing <strong>${grade === 'cgc' ? 'CGC 10' : 'PSA ' + grade}</strong>`;
+        function updateCurrentData() {
+            const gradeKey = currentGrade === '10' ? 'psa10' : currentGrade === '9' ? 'psa9' : 'cgc10';
+            currentData = data[currentLang][gradeKey] || {};
+            document.body.className = currentLang === 'jp' ? 'jp' : '';
+            if (currentGrade === '9') document.body.classList.add('psa9');
+            else if (currentGrade === 'cgc') document.body.classList.add('cgc10');
             search();
         }
 
-        document.querySelectorAll('.grade-btn').forEach(btn => {
-            btn.onclick = () => switchGrade(btn.dataset.grade);
-        });
+        function getGradeText() {
+            return currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10';
+        }
 
         function formatCard(cardCode, value, pokemonName, year) {
             const cleanCode = cardCode.replace(/^#/, '').trim();
-            const gradeText = currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10';
-            const searchTerms = `${pokemonName} ${year} ${cleanCode} ${gradeText}`;
+            const gradeText = getGradeText();
+            const langText = currentLang === 'jp' ? 'Japanese' : '';
+            const searchTerms = [pokemonName, year, cleanCode, gradeText, langText].filter(Boolean).join(' ');
             const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(searchTerms)}&LH_Sold=1&LH_Complete=1`;
 
             return `
@@ -248,6 +203,7 @@
             `;
         }
 
+        // [Keep your existing render/search/highlight functions unchanged]
         function renderPokemonFull(name, path) {
             let html = `<div class="name">${highlight(name.toUpperCase(), '')}</div>`;
             Object.keys(path).forEach(year => {
@@ -276,14 +232,8 @@
         function search() {
             const query = searchInput.value.trim().toLowerCase();
             resultsDiv.innerHTML = '';
-            if (!query) {
-                resultsDiv.innerHTML = '<div class="no-results">Start typing...</div>';
-                return;
-            }
-            if (!currentData || Object.keys(currentData).length === 0) {
-                resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>';
-                return;
-            }
+            if (!query) { resultsDiv.innerHTML = '<div class="no-results">Start typing...</div>'; return; }
+            if (Object.keys(currentData).length === 0) { resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>'; return; }
 
             const parts = query.split(/\s+/);
             const nameQ = parts[0];
@@ -320,9 +270,31 @@
 
         searchInput.addEventListener('input', search);
 
+        // TOGGLE HANDLERS
+        document.querySelectorAll('.lang-en, .lang-jp').forEach(btn => {
+            btn.onclick = () => {
+                document.querySelectorAll('.lang-en, .lang-jp').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentLang = btn.dataset.lang;
+                updateCurrentData();
+            };
+        });
+
+        document.querySelectorAll('.grade-psa10, .grade-psa9, .grade-cgc10').forEach(btn => {
+            btn.onclick = () => {
+                document.querySelectorAll('.grade-psa10, .grade-psa9, .grade-cgc10').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentGrade = btn.dataset.grade;
+                updateCurrentData();
+            };
+        });
+
         // START
-        loadAll();
+        (async () => {
+            if (!(await tryAutoLoad())) {
+                showFilePicker();
+            }
+        })();
     </script>
 </body>
-
 </html>
