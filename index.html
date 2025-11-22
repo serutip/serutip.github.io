@@ -156,7 +156,7 @@
             const clean = code.replace(/^#/, '').trim();
             const lang = currentLang === 'jp' ? 'Japanese' : '';
             const terms = [name, year, clean, getGradeText(), lang].filter(Boolean).join(' ');
-            const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
+            const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1`;
             return `<a href="${url}" target="_blank" class="card">${code}: <span class="card-value">$${value}</span><span style="margin-left:4px;font-size:0.7rem;opacity:0.7;color:#0064d5;">eBay</span></a>`;
         }
 
