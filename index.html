@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PSA 9 · PSA 10 · CGC 10 | EN + JP</title>
+    <title>PSA 9 · PSA 10 · CGC 10 | EN + JP + Homework</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f2f5; margin: 0; padding: 2rem; }
         .container { max-width: 900px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; }
@@ -31,7 +31,7 @@
         .card {
             background: #e8f4fd; padding: 0.3rem 0.6rem; border-radius: 6px;
             font-size: 0.85rem; font-family: monospace; text-decoration: none; color: inherit;
-            display: inline-block; transition: all 0.2s;
+            display: inline-block; transition: all 0.2s; position: relative;
         }
         .card:hover { background: #d0e8ff; transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .card-value { color: #007bff; font-weight: bold; }
@@ -39,17 +39,22 @@
         body.psa9  .card-value::after { content: " (PSA 9)";  color: #dc3545; }
         body.cgc10 .card-value::after { content: " (CGC 10)"; color: #1a73e8; }
         body.jp    .card-value::after { content: " (JP)"; color: #d32f2f; font-size: 0.6rem; }
+        .homework-badge {
+            background: #ff9800; color: white; font-size: 0.55rem; padding: 2px 6px; border-radius: 4px;
+            margin-left: 6px; font-weight: bold; vertical-align: middle;
+        }
         .footer { text-align: center; padding: 1rem; background: #f9f9f9; border-top: 1px solid #eee; color: #666; font-size: 0.9rem; }
         .last-updated { background: #e3f2fd; color: #1565c0; padding: 0.8rem; border-radius: 8px; font-weight: 600; margin-top: 1rem; font-size: 1rem; }
         .setup { text-align: center; padding: 4rem 2rem; }
         .setup button { padding: 16px 32px; background: #667eea; color: white; border: none; border-radius: 12px; font-size: 1.2rem; cursor: pointer; }
+    }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>PSA 9 · PSA 10 · CGC 10 | EN + JP</h1>
-            <p>Click any card → eBay sold listings</p>
+            <h1>PSA 9 · PSA 10 · CGC 10 | EN + JP + Homework</h1>
+            <p>Click any card → eBay sold listings | <span style="color:#ffeb3b;">Homework</span> = not from Collector Crypt · $1 = hidden (not updated yet)</p>
         </div>
 
         <div class="search-box">
@@ -77,6 +82,7 @@
 
     <script>
         const data = { en: { psa10: {}, psa9: {}, cgc10: {} }, jp: { psa10: {}, psa9: {}, cgc10: {} } };
+        let homeworkData = {}; // Raw homework.json (may contain $1 placeholders)
         let currentLang = 'en', currentGrade = '10', currentData = {};
         let nameQuery = '';
         let latestTimestamp = 0;
@@ -92,7 +98,7 @@
             jp: { '10': 'PSA10_JP.json', '9': 'PSA9_JP.json', 'cgc': 'CGC10_JP.json' }
         };
 
-        // === AUTO LOAD (online) ===
+        // === AUTO LOAD ===
         async function tryAutoLoad() {
             filesLoaded = 0;
             latestTimestamp = 0;
@@ -100,37 +106,44 @@
             for (const lang of ['en', 'jp']) {
                 for (const [g, file] of Object.entries(FILES[lang])) {
                     try {
-                        const fullUrl = file + '?t=' + Date.now();
-                        const r = await fetch(fullUrl, { cache: 'no-store' });
+                        const r = await fetch(file + '?t=' + Date.now(), { cache: 'no-store' });
                         if (r.ok) {
                             const text = (await r.text()).replace(/^\uFEFF/, '').trim();
                             const key = g === '10' ? 'psa10' : g === '9' ? 'psa9' : 'cgc10';
                             data[lang][key] = JSON.parse(text);
                             filesLoaded++;
 
-                            // Try to get server timestamp
                             const lastMod = r.headers.get('last-modified');
-                            if (lastMod) {
-                                const date = new Date(lastMod).getTime();
-                                if (date > latestTimestamp) latestTimestamp = date;
-                            }
+                            if (lastMod) latestTimestamp = Math.max(latestTimestamp, new Date(lastMod).getTime());
                         }
                     } catch (e) {}
                 }
             }
+
+            // Load homework.json
+            try {
+                const r = await fetch('homework.json?t=' + Date.now());
+                if (r.ok) {
+                    const text = (await r.text()).replace(/^\uFEFF/, '').trim();
+                    homeworkData = JSON.parse(text);
+                    filesLoaded++;
+
+                    const lastMod = r.headers.get('last-modified');
+                    if (lastMod) latestTimestamp = Math.max(latestTimestamp, new Date(lastMod).getTime());
+                }
+            } catch (e) {}
+
             return filesLoaded >= 6;
         }
 
-        // === MANUAL LOAD (local) – now rock-solid ===
+        // === MANUAL LOAD (local) ===
         window.pickFiles = () => {
             const input = document.createElement('input');
-            input.type = 'file';
-            input.accept = '.json';
-            input.multiple = true;
+            input.type = 'file'; input.accept = '.json'; input.multiple = true;
             input.onchange = e => {
                 const files = Array.from(e.target.files);
                 filesLoaded = 0;
-                latestTimestamp = Date.now(); // fallback = now
+                latestTimestamp = Date.now();
 
                 files.forEach(f => {
                     const reader = new FileReader();
@@ -139,7 +152,9 @@
                             const json = JSON.parse(ev.target.result.replace(/^\uFEFF/, '').trim());
                             const n = f.name.toLowerCase();
 
-                            if (n.includes('jp')) {
+                            if (n.includes('homework')) {
+                                homeworkData = json;
+                            } else if (n.includes('jp')) {
                                 if (n.includes('psa10')) data.jp.psa10 = json;
                                 else if (n.includes('psa9')) data.jp.psa9 = json;
                                 else if (n.includes('cgc10')) data.jp.cgc10 = json;
@@ -149,21 +164,14 @@
                                 else if (n.includes('cgc10')) data.en.cgc10 = json;
                             }
                             filesLoaded++;
+                            if (f.lastModified > latestTimestamp) latestTimestamp = f.lastModified;
 
-                            // Update timestamp from file's last modified (if available)
-                            if (f.lastModified && f.lastModified > latestTimestamp) {
-                                latestTimestamp = f.lastModified;
-                            }
-
-                            // When all 6 are loaded → activate
                             if (filesLoaded >= 6) {
                                 updateData();
                                 showLastUpdated();
-                                statusDiv.textContent = 'All files loaded locally';
+                                statusDiv.textContent = 'All files loaded';
                             }
-                        } catch (err) {
-                            console.error('Bad file:', f.name, err);
-                        }
+                        } catch (err) { console.error(err); }
                     };
                     reader.readAsText(f);
                 });
@@ -172,63 +180,88 @@
         };
 
         function showManualLoad() {
-            resultsDiv.innerHTML = `
-                <div class="setup">
-                    <h3>Auto-load failed – opening locally?</h3>
-                    <p>Click below to select your 6 JSON files (only once)</p>
-                    <button onclick="pickFiles()">Load Files Manually</button>
-                </div>`;
-            statusDiv.textContent = 'Local file loading required';
+            resultsDiv.innerHTML = `<div class="setup"><h3>Opening locally?</h3><p>Select your JSON files (including homework.json if you have it)</p><button onclick="pickFiles()">Load Files</button></div>`;
+            statusDiv.textContent = 'Local loading';
         }
 
         function showLastUpdated() {
             const date = new Date(latestTimestamp);
-            const formatted = date.toLocaleString('en-US', {
-                year: 'numeric', month: 'short', day: 'numeric',
-                hour: '2-digit', minute: '2-digit'
-            });
+            const formatted = date.toLocaleString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
             lastUpdatedDiv.textContent = `Last updated: ${formatted}`;
             lastUpdatedDiv.style.display = 'block';
         }
 
-        function updateData() {
+        // === MERGE DATA (filter out $1 from homework) ===
+        function buildCurrentData() {
             const key = currentGrade === '10' ? 'psa10' : currentGrade === '9' ? 'psa9' : 'cgc10';
-            currentData = data[currentLang][key] || {};
+            const baseData = data[currentLang][key] || {};
+
+            // Deep clone + merge homework (but skip any card with value === 1)
+            const merged = JSON.parse(JSON.stringify(baseData)); // deep copy
+
+            if (currentLang === 'en' && currentGrade === '10' && Object.keys(homeworkData).length) {
+                for (const [name, years] of Object.entries(homeworkData)) {
+                    if (!merged[name]) merged[name] = {};
+                    for (const [year, cards] of Object.entries(years)) {
+                        if (!merged[name][year]) merged[name][year] = {};
+                        for (const [code, price] of Object.entries(cards)) {
+                            if (price !== 1) { // ← HIDE $1 placeholders
+                                merged[name][year][code] = price;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return merged;
+        }
+
+        function updateData() {
+            currentData = buildCurrentData();
+
             document.body.className = currentLang === 'jp' ? 'jp' : '';
             if (currentGrade === '9') document.body.classList.add('psa9');
             if (currentGrade === 'cgc') document.body.classList.add('cgc10');
             search();
         }
 
-        // === Rest of your functions (formatCard, render, search, highlight…) unchanged ===
-        function getGradeText() { return currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10'; }
-        function formatCard(code, value, name, year) {
+        function formatCard(code, value, name, year, isHomework = false) {
             const clean = code.replace(/^#/, '').trim();
             const lang = currentLang === 'jp' ? 'Japanese' : '';
             const terms = [name, year, clean, getGradeText(), lang].filter(Boolean).join(' ');
             const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
-            return `<a href="${url}" target="_blank" class="card">${code}: <span class="card-value">$${value}</span><span style="margin-left:4px;font-size:0.7rem;opacity:0.7;color:#0064d5;">eBay</span></a>`;
+            const badge = isHomework ? '<span class="homework-badge">Homework</span>' : '';
+            return `<a href="${url}" target="_blank" class="card">${code}: <span class="card-value">$${value}</span>${badge}<span style="margin-left:4px;font-size:0.7rem;opacity:0.7;color:#0064d5;">eBay</span></a>`;
         }
+
         function renderPokemon(name, path) {
             let html = `<div class="name">${highlight(name)}</div>`;
-            Object.keys(path).forEach(year => {
+            Object.keys(path).sort().reverse().forEach(year => { // newest years first
                 const cards = path[year];
                 let cardHtml = '';
-                Object.keys(cards).forEach(code => cardHtml += formatCard(code, cards[code], name, year));
+                Object.keys(cards).forEach(code => {
+                    const isHomework = homeworkData[name]?.[year]?.[code] !== undefined;
+                    cardHtml += formatCard(code, cards[code], name, year, isHomework);
+                });
                 if (cardHtml) html += `<div class="year-section"><div class="year-title">${year}</div><div class="card-list">${cardHtml}</div></div>`;
             });
             return html;
         }
+
         function renderYearOnly(name, year, cards) {
             let html = `<div class="name">${highlight(name)} - ${year}</div><div class="card-list">`;
-            Object.keys(cards).forEach(code => html += formatCard(code, cards[code], name, year));
+            Object.keys(cards).forEach(code => {
+                const isHomework = homeworkData[name]?.[year]?.[code] !== undefined;
+                html += formatCard(code, cards[code], name, year, isHomework);
+            });
             return html + '</div>';
         }
+
         function search() {
             const query = searchInput.value.trim();
             resultsDiv.innerHTML = '';
             if (!query) { resultsDiv.innerHTML = '<div class="no-results">Start typing...</div>'; nameQuery = ''; return; }
-            if (Object.keys(currentData).length === 0) { resultsDiv.innerHTML = '<div class="no-results">Loading data...</div>'; return; }
+            if (Object.keys(currentData).length === 0) { resultsDiv.innerHTML = '<div class="no-results">Loading...</div>'; return; }
 
             const parts = query.toLowerCase().split(/\s+/).filter(p => p);
             nameQuery = parts[0];
@@ -252,14 +285,19 @@
                 resultsDiv.appendChild(div);
             });
         }
+
         function highlight(text) {
             if (!nameQuery) return text;
             const regex = new RegExp(`(${nameQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
             return text.replace(regex, '<span class="highlight">$1</span>');
         }
 
-        searchInput.addEventListener('input', search);
+        function getGradeText() {
+            return currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10';
+        }
 
+        // Event listeners
+        searchInput.addEventListener('input', search);
         document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => {
             document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active'));
             b.classList.add('active');
@@ -273,15 +311,15 @@
             updateData();
         });
 
-        // === STARTUP ===
+        // Startup
         (async () => {
-            const onlineSuccess = await tryAutoLoad();
-            if (onlineSuccess && filesLoaded >= 6) {
+            const success = await tryAutoLoad();
+            if (success) {
                 updateData();
                 showLastUpdated();
-                statusDiv.textContent = 'All data loaded from server';
+                statusDiv.textContent = 'Ready – $1 homework cards hidden';
             } else {
-                showManualLoad(); // This now works perfectly locally
+                showManualLoad();
             }
         })();
     </script>
