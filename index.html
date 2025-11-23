@@ -205,7 +205,7 @@
                     for (const [year, cards] of Object.entries(years)) {
                         if (!merged[name][year]) merged[name][year] = {};
                         for (const [code, price] of Object.entries(cards)) {
-                            if (price !== 1) { // ← HIDE $1 placeholders
+                            if (price !== 0 && price !== 1) { // ← HIDE $1 and $0 placeholders
                                 merged[name][year][code] = price;
                             }
                         }
