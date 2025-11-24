@@ -347,7 +347,7 @@ document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{ document.qu
         return;
     }
     const online = await tryAutoLoad();
-    if (online) { updateData(); status.textContent = 'Serutip online — type "seru"'; }
+    if (online) { updateData(); status.textContent = 'Online'; }
     else {
         results.innerHTML = `<div class="setup"><h2 style="color:var(--accent)">Offline</h2><p>Load manually</p><button onclick="loadLocalFiles()">Load Files</button></div>`;
         status.textContent = 'Offline — load files';
