@@ -208,7 +208,10 @@
 </head>
 <body>
 <div class="container">
-    <header><h1>Sniper Sniper</h1><h2>V1.1.0</h2><h3>Seru</h3></header>
+    <header><h1>Sniper Sniper</h1><h2>V1.1.0</h2><h3>Seru</h3>
+<h3 id="lastUpdatedHeader" style="margin-top:0.5rem; color:#00d4ff; font-weight:500; letter-spacing:1px;">
+        Loading last updated...
+    </h3></header>
     <div class="controls">
         <input type="text" id="searchInput" placeholder="Search Pokémon or year..." autocomplete="off">
         <div class="btn-group">
@@ -403,6 +406,18 @@ document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{ document.qu
         status.textContent = 'Offline';
     }
 })();
+</script>
+<script>
+// Load LastUpdated.txt and display it
+fetch('LastUpdated.txt?' + Date.now())
+  .then(r => r.ok ? r.text() : 'Unknown')
+  .then(text => {
+    const header = document.getElementById('lastUpdatedHeader');
+    if (header) {
+      header.textContent = text.trim() || 'Last updated: Unknown';
+    }
+  })
+ ;
 </script>
 </body>
 </html>
