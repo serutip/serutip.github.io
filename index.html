@@ -322,7 +322,7 @@ function loadLocalFiles() {
                         else if (n.includes('psa9')) data.jp.psa9 = json;
                         else data.jp.cgc10 = json;
                     } else {
-                        if (n.includes('psa10') || n.includes('clean')) data.en.psa10 = json;
+                        if (n.includes('psa10')) data.en.psa10 = json;
                         else if (n.includes('psa9')) data.en.psa9 = json;
                         else data.en.cgc10 = json;
                     }
@@ -338,13 +338,13 @@ function loadLocalFiles() {
 async function tryAutoLoad() {
     if (location.protocol === 'file:') return false;
     let loaded = 0;
-    const files = ['PSA10_clean.json','PSA9.json','CGC10.json','PSA10_JP.json','PSA9_JP.json','CGC10_JP.json'];
+    const files = ['PSA10.json','PSA9.json','CGC10.json','PSA10_JP.json','PSA9_JP.json','CGC10_JP.json'];
     for (const f of files) {
         try {
             const r = await fetch(f + '?t=' + Date.now(), {cache:'no-store'});
             if (r.ok) {
                 const key = f.includes('JP') ? 'jp' : 'en';
-                const grade = f.includes('PSA10')||f.includes('clean')?'psa10':f.includes('PSA9')?'psa9':'cgc10';
+                const grade = f.includes('PSA10') ?'psa10':f.includes('PSA9')?'psa9':'cgc10';
                 data[key][grade] = JSON.parse((await r.text()).replace(/^\uFEFF/,'').trim());
                 loaded++;
             }
