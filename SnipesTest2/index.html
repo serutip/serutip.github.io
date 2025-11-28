@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seru's Sniper Sniper</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+    :root {
+        --bg: #000;
+        --panel: #0d0d0d;
+        --card-bg: #121212;
+        --accent: #00d4ff;
+        --text: #ffffff;
+        --text-dim: #a0b0c0;
+        --border: #1f1f1f;
+        --green: #00ff9d;
+        --orange: #ff5500;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', system-ui, sans-serif;
+        min-height: 100vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+    .container {
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        background: var(--panel);
+        border-radius: 28px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 2rem);
+        box-shadow: 0 20px 80px rgba(0,212,255,0.15);
+    }
+    header {
+        background: linear-gradient(135deg, #00d4ff15, transparent);
+        padding: 2rem 2rem 1.5rem;
+        text-align: center;
+        border-bottom: 1px solid var(--accent);
+    }
+    h1 {
+        font-size: clamp(3rem, 9vw, 6.5rem);
+        font-weight: 900;
+        letter-spacing: 8px;
+        background: linear-gradient(90deg, #00d4ff, #0099ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.2rem;
+    }
+    header h2 {
+        font-size: 1.1rem;
+        color: var(--accent);
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    header h3 {
+        color: var(--text-dim);
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+    #lastUpdatedHeader {
+        color: var(--accent);
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .controls {
+        padding: 1.8rem 2.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        align-items: center;
+        background: #080808;
+        border-bottom: 1px solid var(--border);
+    }
+    #searchInput {
+        flex: 1;
+        min-width: 320px;
+        padding: 1rem 1.8rem;
+        font-size: 1.3rem;
+        background: var(--card-bg);
+        border: 2px solid #222;
+        border-radius: 16px;
+        color: var(--text);
+        transition: all 0.3s;
+    }
+    #searchInput:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 6px rgba(0,212,255,0.2);
+        outline: none;
+    }
+
+    .btn-group {
+        display: flex;
+        background: var(--card-bg);
+        border-radius: 16px;
+        padding: 6px;
+        border: 1px solid #222;
+        gap: 4px;
+    }
+    .btn {
+        padding: 0.85rem 1.6rem;
+        background: transparent;
+        border: none;
+        color: var(--text-dim);
+        font-weight: 600;
+        font-size: 0.95rem;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: all 0.25s;
+    }
+    .btn.active {
+        background: var(--accent);
+        color: #000;
+        font-weight: 700;
+        box-shadow: 0 0 20px rgba(0,212,255,0.6);
+    }
+
+.results {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2.5rem;
+    background: var(--panel);
+}
+
+/* Year section: title on left, cards on right */
+.year-section {
+    display: grid;
+    grid-template-columns: 160px 1fr;  /* Year label | Cards grid */
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 3rem;
+}
+
+.year-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: 1px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    padding: 1rem 0;
+    justify-self: center;
+}
+
+/* Grid of cards for this year */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.8rem;
+    padding: 0.5rem 0;
+}
+
+.card {
+    width: 100%;
+    height: 156px;
+    padding: 1.6rem 1.2rem;
+    background: var(--card-bg);
+    border-radius: 20px;
+    border: 1px solid #222;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0,212,255,0.1), transparent);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-12px) scale(1.03);
+    border-color: var(--accent);
+    box-shadow: 0 25px 50px rgba(0,212,255,0.3);
+}
+
+.card:hover::before { opacity: 1; }
+
+.card-code {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--accent);
+    letter-spacing: 1.2px;
+}
+
+.price-row {
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.label {
+    color: var(--text-dim);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.insured { color: #00ff9d; font-weight: 800; }
+.alt { color: #ff5500; font-weight: 900; }
+
+    .badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: var(--orange);
+        color: black;
+        font-size: 0.7rem;
+        padding: 4px 9px;
+        border-radius: 8px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+    }
+
+    .footer {
+        padding: 1.5rem;
+        background: #000;
+        text-align: center;
+        color: var(--text-dim);
+        font-size: 0.95rem;
+        border-top: 1px solid var(--border);
+    }
+    .setup {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3rem;
+        color: var(--text-dim);
+    }
+    .setup button {
+        margin-top: 2rem;
+        padding: 1.2rem 3.5rem;
+        background: var(--accent);
+        color: black;
+        border: none;
+        border-radius: 16px;
+        font-size: 1.4rem;
+        font-weight: 900;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .setup button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(0,212,255,0.5);
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <header><h1>Sniper Sniper</h1><h2>V1.1.0</h2><h3>Seru</h3>
+<h3 id="lastUpdatedHeader" style="margin-top:0.5rem; color:#00d4ff; font-weight:500; letter-spacing:1px;">
+        Loading last updated...
+    </h3></header>
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search Pokémon or year..." autocomplete="off">
+        <div class="btn-group">
+            <button class="btn lang-en active" data-lang="en">EN</button>
+            <button class="btn lang-jp" data-lang="jp">JP</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn grade-psa10 active" data-grade="10">PSA 10</button>
+            <button class="btn grade-psa9" data-grade="9">PSA 9</button>
+            <button class="btn grade-cgc10" data-grade="cgc">CGC 10</button>
+        </div>
+    </div>
+    <div class="results" id="results"></div>
+    <div class="footer"><div id="status">Initializing…</div></div>
+</div>
+
+<script>
+const data = { en:{psa10:{},psa9:{},cgc10:{}}, jp:{psa10:{},psa9:{},cgc10:{}} };
+
+let currentLang = 'en', currentGrade = '10';
+let currentData = {};
+
+const status = document.getElementById('status');
+const results = document.getElementById('results');
+const searchInput = document.getElementById('searchInput');
+const hwGroup = document.getElementById('homeworkGroup');
+const hwOnBtn = document.getElementById('hwOn');
+const hwOffBtn = document.getElementById('hwOff');
+
+function loadLocalFiles() {
+    const input = document.createElement('input');
+    input.type = 'file'; input.multiple = true; input.accept = '.json';
+    input.onchange = e => {
+        const files = Array.from(e.target.files);
+        let loaded = 0;
+        files.forEach(f => {
+            const reader = new FileReader();
+            reader.onload = () => {
+                try {
+                    const json = JSON.parse(reader.result.replace(/^\uFEFF/, '').trim());
+                    const n = f.name.toLowerCase();
+                    if (n.includes('homework')) homeworkData = json;
+                    else if (n.includes('jp')) {
+                        if (n.includes('psa10')) data.jp.psa10 = json;
+                        else if (n.includes('psa9')) data.jp.psa9 = json;
+                        else data.jp.cgc10 = json;
+                    } else {
+                        if (n.includes('psa10') || n.includes('clean')) data.en.psa10 = json;
+                        else if (n.includes('psa9')) data.en.psa9 = json;
+                        else data.en.cgc10 = json;
+                    }
+                    if (++loaded >= 6) { updateData(); status.textContent = 'Ready'; }
+                } catch (err) { console.error(err); }
+            };
+            reader.readAsText(f);
+        });
+    };
+    input.click();
+}
+
+async function tryAutoLoad() {
+    if (location.protocol === 'file:') return false;
+    let loaded = 0;
+    const files = ['PSA10_clean.json','PSA9.json','CGC10.json','PSA10_JP.json','PSA9_JP.json','CGC10_JP.json'];
+    for (const f of files) {
+        try {
+            const r = await fetch(f + '?t=' + Date.now(), {cache:'no-store'});
+            if (r.ok) {
+                const key = f.includes('JP') ? 'jp' : 'en';
+                const grade = f.includes('PSA10')||f.includes('clean')?'psa10':f.includes('PSA9')?'psa9':'cgc10';
+                data[key][grade] = JSON.parse((await r.text()).replace(/^\uFEFF/,'').trim());
+                loaded++;
+            }
+        } catch(e) {}
+    }
+    return loaded >= 6;
+}
+
+function formatCardContent(code, valueObj, name, year) {
+    const clean = code.replace(/^#/,'').trim();
+    const terms = [name, year, clean,
+        currentGrade==='10'?'PSA 10':currentGrade==='9'?'PSA 9':'CGC 10',
+        currentLang==='jp'?'Japanese':''].filter(Boolean).join(' ');
+    const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
+
+    let insured = 0;
+    let alt = 0;
+
+    if (valueObj && typeof valueObj === 'object') {
+        insured = valueObj.insured_value ?? 0;
+        alt = valueObj.alt_value ?? 0;
+    } else if (typeof valueObj === 'number') {
+        insured = valueObj;
+    }
+
+    const insuredStr = `$${insured.toLocaleString()}`;
+    const altStr = alt > 0 ? `<div class="price-row"><span class="label">ALT:</span> <span class="alt">$${alt.toLocaleString()}</span></div>` : '';
+
+    return `
+        <a href="${url}" target="_blank" class="card">
+            <div class="card-code">${code}</div>
+            <div class="price-row"><span class="label">INSURED:</span> <span class="insured">${insuredStr}</span></div>
+            ${altStr}
+        </a>
+    `;
+}
+
+function buildCurrentData() {
+    const key = currentGrade==='10'?'psa10':currentGrade==='9'?'psa9':'cgc10';
+    return JSON.parse(JSON.stringify(data[currentLang][key] || {}));
+}
+function updateData() { currentData = buildCurrentData(); search(); }
+
+
+function search() {
+    const query = searchInput.value.trim();
+    results.innerHTML = '';
+    if (!query) return;
+
+    const parts = query.toLowerCase().split(/\s+/);
+    const nameQuery = parts[0];
+    const yearQuery = parts.length > 1 ? parts.slice(1).join(' ') : null;
+
+    const matches = Object.keys(currentData)
+        .filter(name => name.toLowerCase().includes(nameQuery))
+        .slice(0, 30);
+
+    if (!matches.length) {
+        results.innerHTML = '<div class="item">No results</div>';
+        return;
+    }
+
+    matches.forEach(name => {
+        const pokemonData = currentData[name];
+        const item = document.createElement('div');
+        item.className = 'item';
+        item.innerHTML = `<div class="name">${name.toUpperCase()}</div>`;
+
+        const years = yearQuery 
+            ? { [yearQuery]: pokemonData[yearQuery] }.filter(Boolean)
+            : Object.entries(pokemonData).sort(([a], [b]) => a.localeCompare(b));
+
+        years.forEach(([year, cards]) => {
+            if (!cards) return;
+            const yearDiv = document.createElement('div');
+            yearDiv.className = 'year-section';
+            yearDiv.innerHTML = `
+                <div class="year-title">${year}</div>
+                <div class="cards"></div>
+            `;
+            const cardsContainer = yearDiv.querySelector('.cards');
+
+            Object.entries(cards).forEach(([code, valueObj]) => {
+                cardsContainer.innerHTML += formatCardContent(code, valueObj, name, year);
+            });
+
+            item.appendChild(yearDiv);
+        });
+
+        results.appendChild(item);
+    });
+}
+
+searchInput.addEventListener('input', search);
+
+document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{ document.querySelectorAll('[data-lang]').forEach(x=>x.classList.remove('active')); b.classList.add('active'); currentLang=b.dataset.lang; updateData(); });
+document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{ document.querySelectorAll('[data-grade]').forEach(x=>x.classList.remove('active')); b.classList.add('active'); currentGrade=b.dataset.grade; updateData(); });
+
+(async () => {
+    if (location.protocol === 'file:') {
+        results.innerHTML = `<div class="setup"><h2 style="color:var(--accent)">Local mode</h2><p>Click to load files</p><button onclick="loadLocalFiles()">Load Files</button></div>`;
+        status.textContent = 'Local';
+        return;
+    }
+    const online = await tryAutoLoad();
+    if (online) { updateData(); status.textContent = 'Serutip ready'; }
+    else {
+        results.innerHTML = `<div class="setup"><h2 style="color:var(--accent)">Offline</h2><p>Load manually</p><button onclick="loadLocalFiles()">Load Files</button></div>`;
+        status.textContent = 'Offline';
+    }
+})();
+</script>
+<script>
+// Load LastUpdated.txt and display it
+fetch('LastUpdated.txt?' + Date.now())
+  .then(r => r.ok ? r.text() : 'Unknown')
+  .then(text => {
+    const header = document.getElementById('lastUpdatedHeader');
+    if (header) {
+      header.textContent = text.trim() || 'Last updated: Unknown';
+    }
+  })
+ ;
+</script>
+</body>
+</html>
