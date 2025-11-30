@@ -459,7 +459,7 @@ document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{ document.qu
 </script>
 <script>
 // Load LastUpdated.txt and display it
-fetch('LastUpdated.txt?' + Date.now())
+fetch('./Dicts/LastUpdated.txt?' + Date.now())
   .then(r => r.ok ? r.text() : 'Unknown')
   .then(text => {
     const header = document.getElementById('lastUpdatedHeader');
