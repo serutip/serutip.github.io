@@ -354,7 +354,7 @@ async function tryAutoLoad() {
 }
 
 function formatCardContent(code, valueObj, name, year) {
-    const clean = code.replace(/^#/,'').trim();
+    const clean = code.replace(/^#/,'').replace('NA','').trim(); 
     const terms = [name, year, clean,
         currentGrade==='10'?'PSA 10':currentGrade==='9'?'PSA 9':'CGC 10',
         currentLang==='jp'?'Japanese':''].filter(Boolean).join(' ');
