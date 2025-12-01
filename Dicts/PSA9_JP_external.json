@@ -549,7 +549,7 @@
         },
         "2016": {
             "#52": {
-                "alt_value": 0
+                "alt_value": 77.95
             }
         },
         "2011": {
@@ -952,7 +952,7 @@
         },
         "2007": {
             "false": {
-                "alt_value": 0
+                "alt_value": 60.15
             },
             "false": {
                 "alt_value": 60.15
@@ -1560,6 +1560,11 @@
             "#112": {
                 "alt_value": 16.29
             }
+        },
+        "2004": {
+            "#9": {
+                "alt_value": 114.67
+            }
         }
     },
     "ESPEON": {
@@ -1807,7 +1812,7 @@
         },
         "2013": {
             "false": {
-                "alt_value": 0
+                "alt_value": 93.65
             },
             "#15": {
                 "alt_value": 23.88
@@ -2244,7 +2249,7 @@
         },
         "2008": {
             "false": {
-                "alt_value": 0
+                "alt_value": 100.44
             },
             "false": {
                 "alt_value": 100.44
@@ -2804,7 +2809,7 @@
                 "alt_value": 1778.84
             },
             "#4": {
-                "alt_value": 0
+                "alt_value": 36.22
             }
         },
         "2003": {
@@ -3012,7 +3017,7 @@
                 "alt_value": 162.49
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 232.06
             },
             "false": {
                 "alt_value": 232.06
@@ -3257,7 +3262,7 @@
     "CRESSELIA": {
         "2007": {
             "false": {
-                "alt_value": 0
+                "alt_value": 41.8
             },
             "false": {
                 "alt_value": 41.8
@@ -3933,7 +3938,7 @@
     "KABUTOPS": {
         "2006": {
             "#21": {
-                "alt_value": 0
+                "alt_value": 66.39
             }
         },
         "1997": {
@@ -4015,7 +4020,7 @@
     "MANECTRIC": {
         "2014": {
             "#96": {
-                "alt_value": 0
+                "alt_value": 44.34
             }
         }
     },
