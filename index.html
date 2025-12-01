@@ -496,84 +496,101 @@
         document.querySelectorAll('[data-grade]').forEach(b => b.onclick = () => { document.querySelectorAll('[data-grade]').forEach(x => x.classList.remove('active')); b.classList.add('active'); currentGrade = b.dataset.grade; updateData(); });
         document.getElementById('externalToggle').onclick = () => { includeExternal = !includeExternal; this.classList.toggle('active'); this.textContent = includeExternal ? '+ EXTERNAL' : 'EXTERNAL OFF'; updateData(); };
 
-        document.getElementById('lookupBtn').onclick = async () => {
-            const cert = certInput.value.trim();
-            if (!/^\d{6,}$/.test(cert)) {
-                altInfo.innerHTML = '<strong>Invalid cert</strong>';
-                altInfo.classList.add('error');
-                return;
-            }
-            altInfo.textContent = "Fetching cert...";
-            altInfo.classList.remove('error');
+document.getElementById('lookupBtn').onclick = async () => {
+    const cert = certInput.value.trim();
+    if (!/^\d{6,}$/.test(cert)) {
+        altInfo.innerHTML = '<strong>Invalid cert number</strong>';
+        altInfo.classList.add('error');
+        return;
+    }
 
-            try {
-                // Step 1: Get Asset ID
-                const r1 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        operationName: "Cert",
-                        variables: { certNumber: cert },
-                        query: "query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id } } }"
-                    })
-                });
-                const j1 = await r1.json();
-                const assetId = j1?.data?.cert?.asset?.id;
-                if (!assetId) throw new Error("Cert not found on Alt");
+    altInfo.textContent = "Looking up cert...";
+    altInfo.classList.remove('error');
 
-                altInfo.innerHTML = `Asset ID: <strong>${assetId}</strong><br>Fetching card & value...`;
+    try {
+        // First call — get asset ID + real grade + grading company
+        const r1 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                operationName: "Cert",
+                variables: { certNumber: cert },
+                query: `
+                    query Cert($certNumber: String!) {
+                        cert(certNumber: $certNumber) {
+                            asset { id }
+                            gradeNumber
+                            gradingCompany
+                        }
+                    }
+                `
+            })
+        });
 
-                // Step 2: Get card name + value in one call
-                const r2 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        operationName: "AssetDetails",
-                        variables: {
-                            id: assetId,
-                            tsFilter: {
-                                gradeNumber: currentGrade === '10' ? "10.0" : currentGrade === '9' ? "9.0" : "10.0",
-                                gradingCompany: currentGrade === 'cgc' ? "CGC" : "PSA"
-                            }
-                        },
-                        query: `query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
-                    asset(id: $id) {
-                        name
-                        altValueInfo(tsFilter: $tsFilter) {
-                            currentAltValue
-                            confidenceData {
-                                currentErrorLowerBound
-                                currentErrorUpperBound
+        const j1 = await r1.json();
+        const certData = j1?.data?.cert;
+        if (!certData?.asset?.id) throw new Error("Cert not found on Alt");
+
+        const assetId = certData.asset.id;
+        const realGrade = certData.gradeNumber;           // e.g. "10.0", "9.0"
+        const realCompany = certData.gradingCompany;      // "PSA" or "CGC"
+
+        altInfo.innerHTML = `Asset ID: <strong>${assetId}</strong><br>Fetching card name & value...`;
+
+        // Second call — use the REAL grade & company from the cert
+        const r2 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                operationName: "AssetDetails",
+                variables: {
+                    id: assetId,
+                    tsFilter: {
+                        gradeNumber: realGrade || "10.0",
+                        gradingCompany: realCompany || "PSA"
+                    }
+                },
+                query: `
+                    query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
+                        asset(id: $id) {
+                            name
+                            altValueInfo(tsFilter: $tsFilter) {
+                                currentAltValue
+                                confidenceData {
+                                    currentErrorLowerBound
+                                    currentErrorUpperBound
+                                }
                             }
                         }
                     }
-                }`
-                    })
-                });
-                const j2 = await r2.json();
-                const asset = j2?.data?.asset;
-                if (!asset) throw new Error("Asset not found");
+                `
+            })
+        });
 
-                const cardName = asset.name || "Unknown Card";
-                const info = asset.altValueInfo;
-                if (!info?.currentAltValue) throw new Error("No Alt value");
+        const j2 = await r2.json();
+        const asset = j2?.data?.asset;
+        if (!asset) throw new Error("Asset data not found");
 
-                const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-                const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
-                const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
+        const cardName = asset.name || "Unknown Card";
+        const info = asset.altValueInfo;
+        if (!info?.currentAltValue) throw new Error("No Alt value available");
 
-                altInfo.innerHTML = `
+        const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+        const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
+        const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
+
+        altInfo.innerHTML = `
             Asset ID: <strong>${assetId}</strong><br>
-            <strong style="font-size:1.15em;color:#6b4e31;">${cardName}</strong><br><br>
+            <strong style="font-size:1.15em;color:#6b4e31;">${cardName} ${realCompany} ${realGrade}</strong><br><br>
             <strong>Alt Value: $${val}</strong><br>
             <strong>70% Range: $${low} – $${high}</strong>
         `;
 
-            } catch (e) {
-                altInfo.innerHTML = `<strong>Error:</strong> ${e.message}`;
-                altInfo.classList.add('error');
-            }
-        };
+    } catch (e) {
+        altInfo.innerHTML = `<strong>Error:</strong> ${e.message}`;
+        altInfo.classList.add('error');
+    }
+};
         // FINAL STARTUP — 100% WORKING
         (async () => {
             if (location.protocol === 'file:') {
