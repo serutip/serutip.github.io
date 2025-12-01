@@ -25,7 +25,7 @@
         },
         "2007": {
             "#NNO": {
-                "alt_value": 0
+                "alt_value": 34.56
             }
         }
     },
@@ -43,10 +43,10 @@
                 "alt_value": 25.42
             },
             "#166": {
-                "alt_value": 0
+                "alt_value": 16.3
             },
             "#8": {
-                "alt_value": 0
+                "alt_value": 19.78
             }
         },
         "2018": {
@@ -56,44 +56,44 @@
         },
         "2025": {
             "#6": {
-                "alt_value": 0
+                "alt_value": 17.3
             },
             "#005": {
-                "alt_value": 0
+                "alt_value": 18.71
             }
         },
         "2024": {
             "#166": {
-                "alt_value": 0
+                "alt_value": 90.9
             }
         },
         "2019": {
             "#SV46": {
-                "alt_value": 0
+                "alt_value": 53.4
             }
         }
     },
     "CALYREX": {
         "2021": {
             "#203": {
-                "alt_value": 0
+                "alt_value": 35.78
             },
             "#205": {
                 "alt_value": 119.93176546963777
             },
             "#172": {
-                "alt_value": 0
+                "alt_value": 24.01
             },
             "#164": {
-                "alt_value": 0
+                "alt_value": 22.66
             }
         },
         "2022": {
             "#TG15": {
-                "alt_value": 0
+                "alt_value": 16.36
             },
             "#TG14": {
-                "alt_value": 0
+                "alt_value": 14.68
             }
         }
     },
@@ -109,28 +109,28 @@
                 "alt_value": 230.0
             },
             "#20": {
-                "alt_value": 0
+                "alt_value": 20.31
             },
             "#133": {
-                "alt_value": 0
+                "alt_value": 52.48
             },
             "#056": {
-                "alt_value": 0
+                "alt_value": 27.63
             },
             "#2": {
-                "alt_value": 0
+                "alt_value": 18.26
             },
             "#8": {
-                "alt_value": 0
+                "alt_value": 22.86
             },
             "#6": {
-                "alt_value": 0
+                "alt_value": 16.97
             },
             "#1": {
-                "alt_value": 0
+                "alt_value": 22.06
             },
             "#201": {
-                "alt_value": 0
+                "alt_value": 148.78
             }
         },
         "2022": {
@@ -138,13 +138,13 @@
                 "alt_value": 31.18
             },
             "#174": {
-                "alt_value": 0
+                "alt_value": 65.44
             },
             "#SWSH075": {
                 "alt_value": 159.35
             },
             "#18": {
-                "alt_value": 0
+                "alt_value": 24.66
             },
             "#SWSH262": {
                 "alt_value": 68.98
@@ -156,13 +156,13 @@
                 "alt_value": 55.52
             },
             "#10": {
-                "alt_value": 0
+                "alt_value": 19.6
             },
             "#11": {
-                "alt_value": 0
+                "alt_value": 28.73
             },
             "#017": {
-                "alt_value": 0
+                "alt_value": 24.65
             }
         },
         "2016": {
@@ -176,10 +176,10 @@
                 "alt_value": 81.17
             },
             "#13": {
-                "alt_value": 0
+                "alt_value": 64.95
             },
             "#12": {
-                "alt_value": 0
+                "alt_value": 36.68
             }
         },
         "2024": {
@@ -190,13 +190,13 @@
                 "alt_value": 222.48
             },
             "#161": {
-                "alt_value": 0
+                "alt_value": 16.37
             },
             "#54": {
-                "alt_value": 0
+                "alt_value": 18.84
             },
             "#4": {
-                "alt_value": 0
+                "alt_value": 32.6
             }
         },
         "2019": {
@@ -204,7 +204,7 @@
                 "alt_value": 71.55
             },
             "#9": {
-                "alt_value": 0
+                "alt_value": 20.87
             }
         },
         "2013": {
@@ -217,10 +217,10 @@
                 "alt_value": 140.74
             },
             "#19": {
-                "alt_value": 0
+                "alt_value": 21.37
             },
             "#25": {
-                "alt_value": 0
+                "alt_value": 18.53
             },
             "#SWSH066": {
                 "alt_value": 359.77
@@ -234,26 +234,26 @@
                 "alt_value": 54.96
             },
             "#SWSH133": {
-                "alt_value": 0
+                "alt_value": 22.37
             },
             "#1": {
-                "alt_value": 0
+                "alt_value": 82.16
             }
         },
         "2017": {
             "#20": {
-                "alt_value": 0
+                "alt_value": 30.97
             }
         },
         "2014": {
             "#11": {
-                "alt_value": 0
+                "alt_value": 43.08
             },
             "#XY17": {
                 "alt_value": 139.39
             },
             "#XY29": {
-                "alt_value": 0
+                "alt_value": 55.36
             }
         },
         "1999": {
@@ -263,7 +263,7 @@
         },
         "2018": {
             "#3": {
-                "alt_value": 0
+                "alt_value": 25.42
             },
             "#209": {
                 "alt_value": 545.64
@@ -283,10 +283,10 @@
     "JOLTEON": {
         "2021": {
             "#177": {
-                "alt_value": 0
+                "alt_value": 23.73
             },
             "#51": {
-                "alt_value": 0
+                "alt_value": 19.63
             }
         },
         "2025": {
@@ -294,15 +294,15 @@
                 "alt_value": 143.87
             },
             "#169": {
-                "alt_value": 0
+                "alt_value": 8.76
             },
             "#30": {
-                "alt_value": 0
+                "alt_value": 12.22
             }
         },
         "2022": {
             "#TG04": {
-                "alt_value": 0
+                "alt_value": 25.11
             }
         }
     },
@@ -318,10 +318,10 @@
                 "alt_value": 70.51
             },
             "#111": {
-                "alt_value": 0
+                "alt_value": 31.79
             },
             "#83": {
-                "alt_value": 0
+                "alt_value": 153.2
             }
         },
         "2024": {
@@ -350,7 +350,7 @@
                 "alt_value": 119.76
             },
             "#160": {
-                "alt_value": 0
+                "alt_value": 95.08
             }
         },
         "2017": {
@@ -360,18 +360,18 @@
         },
         "2020": {
             "#138": {
-                "alt_value": 0
+                "alt_value": 13.78
             },
             "#SWSH029": {
-                "alt_value": 0
+                "alt_value": 38.4
             }
         },
         "2023": {
             "#101": {
-                "alt_value": 0
+                "alt_value": 22.8
             },
             "#100": {
-                "alt_value": 0
+                "alt_value": 48.62
             }
         },
         "2012": {
@@ -386,25 +386,25 @@
                 "alt_value": 88.56370405717328
             },
             "#TG15": {
-                "alt_value": 0
+                "alt_value": 30.31
             }
         },
         "2018": {
             "#153": {
-                "alt_value": 0
+                "alt_value": 60.67
             }
         },
         "2021": {
             "#200": {
-                "alt_value": 0
+                "alt_value": 26.66
             },
             "#161": {
-                "alt_value": 0
+                "alt_value": 24.94
             }
         },
         "2025": {
             "#192": {
-                "alt_value": 0
+                "alt_value": 20.05
             }
         }
     },
@@ -416,7 +416,7 @@
         },
         "2023": {
             "#201": {
-                "alt_value": 0
+                "alt_value": 12.52
             }
         }
     },
@@ -426,7 +426,7 @@
                 "alt_value": 93.02798878062855
             },
             "#081": {
-                "alt_value": 0
+                "alt_value": 14.97
             }
         },
         "2022": {
@@ -437,10 +437,10 @@
                 "alt_value": 52.09
             },
             "#SWSH229": {
-                "alt_value": 0
+                "alt_value": 21.87
             },
             "#86": {
-                "alt_value": 0
+                "alt_value": 33.26
             },
             "#30": {
                 "alt_value": 20.3
@@ -466,10 +466,10 @@
         },
         "2016": {
             "#52": {
-                "alt_value": 0
+                "alt_value": 19.94
             },
             "#51": {
-                "alt_value": 0
+                "alt_value": 21.4
             }
         },
         "2020": {
@@ -477,7 +477,7 @@
                 "alt_value": 0
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 147.23
             }
         },
         "1999": {
@@ -487,10 +487,10 @@
         },
         "2019": {
             "#SM196": {
-                "alt_value": 0
+                "alt_value": 37.09
             },
             "#31": {
-                "alt_value": 0
+                "alt_value": 27.67
             }
         },
         "2007": {
@@ -500,14 +500,14 @@
         },
         "2021": {
             "#54": {
-                "alt_value": 0
+                "alt_value": 23.93
             }
         }
     },
     "MEW": {
         "2022": {
             "#TG30": {
-                "alt_value": 0
+                "alt_value": 31.85
             }
         },
         "2017": {
@@ -520,7 +520,7 @@
                 "alt_value": 139.39
             },
             "#8": {
-                "alt_value": 0
+                "alt_value": 29.59
             },
             "false": {
                 "alt_value": 139.39
@@ -531,10 +531,10 @@
                 "alt_value": 45.79
             },
             "#250": {
-                "alt_value": 0
+                "alt_value": 31.6
             },
             "#114": {
-                "alt_value": 0
+                "alt_value": 26.16
             }
         },
         "2007": {
@@ -547,7 +547,7 @@
         },
         "2023": {
             "#1": {
-                "alt_value": 0
+                "alt_value": 27.06
             }
         },
         "2004": {
@@ -567,7 +567,7 @@
         },
         "2016": {
             "#53": {
-                "alt_value": 0
+                "alt_value": 29.62
             }
         }
     },
@@ -612,23 +612,23 @@
         },
         "2024": {
             "#057": {
-                "alt_value": 0
+                "alt_value": 20.65
             },
             "#104": {
-                "alt_value": 0
+                "alt_value": 21.76
             }
         }
     },
     "PIKACHU": {
         "2021": {
             "#SWSH140": {
-                "alt_value": 0
+                "alt_value": 19.76
             },
             "#SWSH141": {
-                "alt_value": 0
+                "alt_value": 22.78
             },
             "#7": {
-                "alt_value": 0
+                "alt_value": 20.62
             },
             "#6": {
                 "alt_value": 68.94588123668323
@@ -637,25 +637,25 @@
                 "alt_value": 69.63
             },
             "#49": {
-                "alt_value": 0
+                "alt_value": 17.64
             },
             "#25": {
-                "alt_value": 0
+                "alt_value": 33.27
             },
             "#9": {
                 "alt_value": 22.19
             },
             "#061": {
-                "alt_value": 0
+                "alt_value": 19.99
             },
             "#SWSH142": {
-                "alt_value": 0
+                "alt_value": 21.69
             },
             "#SWSH139": {
-                "alt_value": 0
+                "alt_value": 15.01
             },
             "#SWSH062": {
-                "alt_value": 0
+                "alt_value": 25.93
             },
             "#8": {
                 "alt_value": 20.84
@@ -672,18 +672,18 @@
                 "alt_value": 62.72
             },
             "#157": {
-                "alt_value": 0
+                "alt_value": 25.97
             },
             "#TG05": {
-                "alt_value": 0
+                "alt_value": 33.93
             },
             "#52": {
-                "alt_value": 0
+                "alt_value": 19.2
             }
         },
         "2024": {
             "#190": {
-                "alt_value": 0
+                "alt_value": 17.14
             },
             "#247": {
                 "alt_value": 66.85
@@ -692,22 +692,22 @@
                 "alt_value": 28.65
             },
             "#57": {
-                "alt_value": 0
+                "alt_value": 21.76
             },
             "#018": {
-                "alt_value": 0
+                "alt_value": 13.83
             },
             "#51": {
-                "alt_value": 0
+                "alt_value": 20.84
             },
             "#154": {
-                "alt_value": 0
+                "alt_value": 24.34
             },
             "#136": {
-                "alt_value": 0
+                "alt_value": 40.76
             },
             "#131": {
-                "alt_value": 0
+                "alt_value": 31.23
             }
         },
         "1999": {
@@ -715,10 +715,10 @@
                 "alt_value": 56.07
             },
             "#4": {
-                "alt_value": 0
+                "alt_value": 55.76
             },
             "#58": {
-                "alt_value": 0
+                "alt_value": 36.1
             }
         },
         "2023": {
@@ -726,69 +726,69 @@
                 "alt_value": 37.04
             },
             "#027": {
-                "alt_value": 0
+                "alt_value": 23.4
             },
             "#GG30": {
-                "alt_value": 0
+                "alt_value": 29.72
             },
             "#050": {
-                "alt_value": 0
+                "alt_value": 136.16
             },
             "#202": {
-                "alt_value": 0
+                "alt_value": 37.37
             }
         },
         "2020": {
             "#039": {
-                "alt_value": 0
+                "alt_value": 24.3
             },
             "#188": {
-                "alt_value": 0
+                "alt_value": 168.91
             },
             "#SWSH020": {
-                "alt_value": 0
+                "alt_value": 74.55
             },
             "#170": {
-                "alt_value": 0
+                "alt_value": 44.84
             },
             "#43": {
-                "alt_value": 0
+                "alt_value": 18.34
             }
         },
         "2025": {
             "#05": {
-                "alt_value": 0
+                "alt_value": 14.94
             },
             "#171": {
                 "alt_value": 344.02
             },
             "#214": {
-                "alt_value": 0
+                "alt_value": 24.33
             },
             "#225": {
-                "alt_value": 0
+                "alt_value": 20.16
             }
         },
         "2019": {
             "#SM162": {
-                "alt_value": 0
+                "alt_value": 147.03
             },
             "#325SMP": {
-                "alt_value": 0
+                "alt_value": 213.73
             },
             "#241": {
-                "alt_value": 0
+                "alt_value": 125.64
             }
         },
         "2000": {
             "#27": {
-                "alt_value": 0
+                "alt_value": 41.22
             },
             "#25": {
                 "alt_value": 320.99
             },
             "#1": {
-                "alt_value": 0
+                "alt_value": 35.09
             }
         },
         "2016": {
@@ -796,16 +796,16 @@
                 "alt_value": 639.09
             },
             "#110": {
-                "alt_value": 0
+                "alt_value": 21.04
             },
             "false": {
                 "alt_value": 0
             },
             "#35": {
-                "alt_value": 0
+                "alt_value": 15.09
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 55.17
             }
         },
         "1998": {
@@ -821,12 +821,12 @@
                 "alt_value": 125.68
             },
             "#61": {
-                "alt_value": 0
+                "alt_value": 110.46
             }
         },
         "2014": {
             "#099XYP": {
-                "alt_value": 0
+                "alt_value": 467.07
             }
         },
         "2002": {
@@ -836,12 +836,12 @@
         },
         "2015": {
             "#8": {
-                "alt_value": 0
+                "alt_value": 93.61
             }
         },
         "2001": {
             "#25": {
-                "alt_value": 0
+                "alt_value": 120.64
             }
         }
     },
@@ -853,7 +853,7 @@
         },
         "1999": {
             "#64": {
-                "alt_value": 0
+                "alt_value": 34.1
             }
         }
     },
@@ -865,19 +865,19 @@
         },
         "2000": {
             "#45": {
-                "alt_value": 0
+                "alt_value": 26.44
             }
         },
         "1999": {
             "#37": {
-                "alt_value": 0
+                "alt_value": 60.1
             }
         }
     },
     "REGIDRAGO": {
         "2022": {
             "#184": {
-                "alt_value": 0
+                "alt_value": 22.1
             }
         }
     },
@@ -935,27 +935,27 @@
         },
         "2024": {
             "#158": {
-                "alt_value": 0
+                "alt_value": 17.07
             },
             "#31": {
-                "alt_value": 0
+                "alt_value": 20.07
             }
         },
         "2021": {
             "#SV111": {
-                "alt_value": 0
+                "alt_value": 18.08
             }
         },
         "2020": {
             "#49": {
-                "alt_value": 0
+                "alt_value": 15.05
             }
         }
     },
     "MINCCINO": {
         "2024": {
             "#182": {
-                "alt_value": 0
+                "alt_value": 14.41
             }
         }
     },
@@ -967,7 +967,7 @@
         },
         "2019": {
             "#SV55": {
-                "alt_value": 0
+                "alt_value": 45.82
             }
         },
         "2021": {
@@ -975,13 +975,13 @@
                 "alt_value": 87.33
             },
             "#208": {
-                "alt_value": 0
+                "alt_value": 31.16
             },
             "#174": {
-                "alt_value": 0
+                "alt_value": 27.22
             },
             "#41": {
-                "alt_value": 0
+                "alt_value": 19.04
             }
         },
         "2025": {
@@ -989,18 +989,18 @@
                 "alt_value": 177.78
             },
             "#26": {
-                "alt_value": 0
+                "alt_value": 12.95
             },
             "#026": {
-                "alt_value": 0
+                "alt_value": 14.96
             },
             "#171": {
-                "alt_value": 0
+                "alt_value": 15.5
             }
         },
         "2024": {
             "#168": {
-                "alt_value": 0
+                "alt_value": 84.32
             }
         }
     },
@@ -1019,10 +1019,10 @@
                 "alt_value": 50.29
             },
             "#12": {
-                "alt_value": 0
+                "alt_value": 63.87
             },
             "#94": {
-                "alt_value": 0
+                "alt_value": 18.64
             }
         },
         "2017": {
@@ -1035,13 +1035,13 @@
         },
         "2025": {
             "#59": {
-                "alt_value": 0
+                "alt_value": 17.5
             },
             "#60": {
-                "alt_value": 0
+                "alt_value": 14.45
             },
             "#143": {
-                "alt_value": 0
+                "alt_value": 62.91
             }
         },
         "2022": {
@@ -1052,7 +1052,7 @@
                 "alt_value": 68.27
             },
             "#SWSH203": {
-                "alt_value": 0
+                "alt_value": 20.4
             }
         },
         "2001": {
@@ -1067,20 +1067,20 @@
         },
         "2024": {
             "#173": {
-                "alt_value": 0
+                "alt_value": 467.67
             },
             "#217": {
-                "alt_value": 0
+                "alt_value": 155.56
             }
         },
         "2023": {
             "#130": {
-                "alt_value": 0
+                "alt_value": 25.36
             }
         },
         "2019": {
             "#SV69": {
-                "alt_value": 0
+                "alt_value": 159.94
             }
         }
     },
@@ -1090,44 +1090,44 @@
                 "alt_value": 48.28
             },
             "#188": {
-                "alt_value": 0
+                "alt_value": 15.08
             },
             "#65": {
-                "alt_value": 0
+                "alt_value": 11.3
             }
         },
         "2022": {
             "#59": {
-                "alt_value": 0
+                "alt_value": 13.07
             }
         }
     },
     "PLUSLE": {
         "2023": {
             "#193": {
-                "alt_value": 0
+                "alt_value": 23.39
             }
         }
     },
     "BLASTOISE": {
         "2023": {
             "#14": {
-                "alt_value": 0
+                "alt_value": 24.22
             },
             "#200": {
                 "alt_value": 76.58
             },
             "#9": {
-                "alt_value": 0
+                "alt_value": 18.17
             },
             "#7": {
-                "alt_value": 0
+                "alt_value": 20.63
             },
             "#184": {
-                "alt_value": 0
+                "alt_value": 24.43
             },
             "#1": {
-                "alt_value": 0
+                "alt_value": 21.62
             }
         },
         "2000": {
@@ -1135,37 +1135,37 @@
                 "alt_value": 94.15
             },
             "#9": {
-                "alt_value": 0
+                "alt_value": 53.51
             }
         },
         "2022": {
             "#18": {
-                "alt_value": 0
+                "alt_value": 18.9
             }
         },
         "2021": {
             "#2": {
-                "alt_value": 0
+                "alt_value": 37.84
             }
         },
         "2024": {
             "#15": {
-                "alt_value": 0
+                "alt_value": 31.29
             }
         },
         "2002": {
             "#37": {
-                "alt_value": 0
+                "alt_value": 68.34
             }
         },
         "2016": {
             "#22": {
-                "alt_value": 0
+                "alt_value": 31.82
             }
         },
         "2020": {
             "#2": {
-                "alt_value": 0
+                "alt_value": 19.93
             }
         }
     },
@@ -1187,7 +1187,7 @@
                 "alt_value": 82.59298844770952
             },
             "#17": {
-                "alt_value": 0
+                "alt_value": 13.06
             }
         },
         "2025": {
@@ -1197,7 +1197,7 @@
         },
         "2019": {
             "#SV51": {
-                "alt_value": 0
+                "alt_value": 41.78
             }
         }
     },
@@ -1207,10 +1207,10 @@
                 "alt_value": 136.69
             },
             "#167": {
-                "alt_value": 0
+                "alt_value": 13.22
             },
             "#14": {
-                "alt_value": 0
+                "alt_value": 12.36
             }
         },
         "2016": {
@@ -1220,7 +1220,7 @@
         },
         "2022": {
             "#TG01": {
-                "alt_value": 0
+                "alt_value": 22.43
             }
         },
         "2002": {
@@ -1230,20 +1230,20 @@
         },
         "2019": {
             "#SWSH180": {
-                "alt_value": 0
+                "alt_value": 52.0
             }
         },
         "2021": {
             "#18": {
-                "alt_value": 0
+                "alt_value": 20.54
             },
             "#169": {
-                "alt_value": 0
+                "alt_value": 26.46
             }
         },
         "1999": {
             "#19": {
-                "alt_value": 0
+                "alt_value": 41.12
             }
         }
     },
@@ -1253,7 +1253,7 @@
                 "alt_value": 109.27
             },
             "#217": {
-                "alt_value": 0
+                "alt_value": 19.67
             }
         },
         "2016": {
@@ -1270,7 +1270,7 @@
                 "alt_value": 200.43
             },
             "#20": {
-                "alt_value": 0
+                "alt_value": 322.26
             }
         },
         "2025": {
@@ -1288,10 +1288,10 @@
         },
         "2020": {
             "#76": {
-                "alt_value": 0
+                "alt_value": 24.69
             },
             "#70": {
-                "alt_value": 0
+                "alt_value": 15.33
             }
         },
         "2022": {
@@ -1308,13 +1308,13 @@
     "HO-OH": {
         "2025": {
             "#209": {
-                "alt_value": 0
+                "alt_value": 14.66
             },
             "#230": {
                 "alt_value": 175.56
             },
             "#239": {
-                "alt_value": 0
+                "alt_value": 25.41
             }
         },
         "2016": {
@@ -1324,27 +1324,27 @@
         },
         "2000": {
             "#250": {
-                "alt_value": 0
+                "alt_value": 35.52
             }
         },
         "2022": {
             "#187": {
-                "alt_value": 0
+                "alt_value": 20.2
             }
         },
         "2017": {
             "#21": {
-                "alt_value": 0
+                "alt_value": 17.86
             },
             "#SM70": {
-                "alt_value": 0
+                "alt_value": 39.06
             }
         }
     },
     "MAGNETON": {
         "2024": {
             "#159": {
-                "alt_value": 0
+                "alt_value": 16.13
             }
         },
         "2003": {
@@ -1354,17 +1354,17 @@
         },
         "1999": {
             "#26": {
-                "alt_value": 0
+                "alt_value": 42.68
             }
         }
     },
     "ZERAORA": {
         "2023": {
             "#GG43": {
-                "alt_value": 0
+                "alt_value": 19.51
             },
             "#GG42": {
-                "alt_value": 0
+                "alt_value": 18.94
             }
         },
         "2024": {
@@ -1374,17 +1374,17 @@
         },
         "2021": {
             "#166": {
-                "alt_value": 0
+                "alt_value": 56.32
             }
         },
         "2018": {
             "#221": {
-                "alt_value": 0
+                "alt_value": 43.05
             }
         },
         "2022": {
             "#TG16": {
-                "alt_value": 0
+                "alt_value": 16.53
             }
         }
     },
@@ -1411,35 +1411,35 @@
                 "alt_value": 70.43
             },
             "#192": {
-                "alt_value": 0
+                "alt_value": 19.73
             }
         },
         "2021": {
             "#15": {
-                "alt_value": 0
+                "alt_value": 15.79
             },
             "#76": {
-                "alt_value": 0
+                "alt_value": 38.37
             }
         },
         "2022": {
             "#182": {
-                "alt_value": 0
+                "alt_value": 20.08
             },
             "#TG19": {
-                "alt_value": 0
+                "alt_value": 18.05
             }
         },
         "2025": {
             "#070": {
-                "alt_value": 0
+                "alt_value": 26.89
             }
         }
     },
     "RAPIDASH": {
         "2025": {
             "#189": {
-                "alt_value": 0
+                "alt_value": 17.21
             }
         }
     },
@@ -1475,25 +1475,25 @@
                 "alt_value": 26.14
             },
             "#3": {
-                "alt_value": 0
+                "alt_value": 11.33
             }
         },
         "2021": {
             "#15": {
-                "alt_value": 0
+                "alt_value": 30.3
             },
             "#SWSH102": {
-                "alt_value": 0
+                "alt_value": 28.04
             }
         },
         "2022": {
             "#4": {
-                "alt_value": 0
+                "alt_value": 18.02
             }
         },
         "2016": {
             "#1": {
-                "alt_value": 0
+                "alt_value": 18.97
             }
         },
         "2002": {
@@ -1515,17 +1515,17 @@
         },
         "2023": {
             "#SWSH282": {
-                "alt_value": 0
+                "alt_value": 13.66
             }
         },
         "2022": {
             "#TG16": {
-                "alt_value": 0
+                "alt_value": 15.92
             }
         },
         "2000": {
             "#144": {
-                "alt_value": 0
+                "alt_value": 203.17
             }
         }
     },
@@ -1537,12 +1537,12 @@
         },
         "1999": {
             "#68": {
-                "alt_value": 0
+                "alt_value": 22.07
             }
         },
         "2001": {
             "#37": {
-                "alt_value": 0
+                "alt_value": 45.26
             }
         }
     },
@@ -1557,41 +1557,41 @@
                 "alt_value": 26.25
             },
             "#185": {
-                "alt_value": 0
+                "alt_value": 34.14
             },
             "#139": {
-                "alt_value": 0
+                "alt_value": 17.35
             },
             "#211": {
-                "alt_value": 0
+                "alt_value": 21.38
             },
             "#202": {
-                "alt_value": 0
+                "alt_value": 32.28
             }
         },
         "2000": {
             "#249": {
-                "alt_value": 0
+                "alt_value": 87.02
             }
         },
         "2020": {
             "#SWSH069": {
-                "alt_value": 0
+                "alt_value": 229.99
             }
         },
         "2025": {
             "#82": {
-                "alt_value": 0
+                "alt_value": 13.54
             }
         },
         "2021": {
             "#22": {
-                "alt_value": 0
+                "alt_value": 15.38
             }
         },
         "2016": {
             "#SM82": {
-                "alt_value": 0
+                "alt_value": 139.51
             }
         },
         "2018": {
@@ -1603,14 +1603,14 @@
     "KELDEO": {
         "2016": {
             "#14": {
-                "alt_value": 0
+                "alt_value": 31.27
             }
         }
     },
     "QUAQUAVAL": {
         "2023": {
             "#260": {
-                "alt_value": 0
+                "alt_value": 16.07
             }
         }
     },
@@ -1632,20 +1632,20 @@
                 "alt_value": 0
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 23.63
             }
         }
     },
     "TERAPAGOS": {
         "2024": {
             "#164": {
-                "alt_value": 0
+                "alt_value": 18.0
             },
             "#173": {
-                "alt_value": 0
+                "alt_value": 18.14
             },
             "#165": {
-                "alt_value": 0
+                "alt_value": 12.32
             }
         }
     },
@@ -1655,7 +1655,7 @@
                 "alt_value": 41.98
             },
             "#69": {
-                "alt_value": 0
+                "alt_value": 18.85
             }
         },
         "2019": {
@@ -1663,12 +1663,12 @@
                 "alt_value": 51.7
             },
             "#245": {
-                "alt_value": 0
+                "alt_value": 49.12
             }
         },
         "2025": {
             "#087": {
-                "alt_value": 0
+                "alt_value": 98.71
             }
         }
     },
@@ -1683,17 +1683,17 @@
                 "alt_value": 95.89
             },
             "#61": {
-                "alt_value": 0
+                "alt_value": 32.93
             },
             "#196": {
-                "alt_value": 0
+                "alt_value": 30.37
             }
         }
     },
     "HOUNDOOM": {
         "2021": {
             "#179": {
-                "alt_value": 0
+                "alt_value": 27.18
             }
         },
         "2004": {
@@ -1711,7 +1711,7 @@
                 "alt_value": 116.38
             },
             "#22": {
-                "alt_value": 0
+                "alt_value": 56.26
             }
         },
         "2003": {
@@ -1721,7 +1721,7 @@
         },
         "2010": {
             "#5": {
-                "alt_value": 0
+                "alt_value": 26.49
             }
         }
     },
@@ -1740,7 +1740,7 @@
         },
         "2000": {
             "#42": {
-                "alt_value": 0
+                "alt_value": 30.55
             }
         }
     },
@@ -1750,23 +1750,23 @@
                 "alt_value": 103.6
             },
             "#237": {
-                "alt_value": 0
+                "alt_value": 40.06
             },
             "#214": {
-                "alt_value": 0
+                "alt_value": 26.83
             }
         },
         "2024": {
             "#225": {
-                "alt_value": 0
+                "alt_value": 14.23
             },
             "#248": {
-                "alt_value": 0
+                "alt_value": 16.26
             }
         },
         "2017": {
             "#118": {
-                "alt_value": 0
+                "alt_value": 24.85
             }
         }
     },
@@ -1776,7 +1776,7 @@
                 "alt_value": 139.3
             },
             "#208": {
-                "alt_value": 0
+                "alt_value": 16.38
             }
         },
         "2000": {
@@ -1794,18 +1794,18 @@
         },
         "2023": {
             "#SWSH284": {
-                "alt_value": 0
+                "alt_value": 18.19
             }
         },
         "2022": {
             "#183": {
-                "alt_value": 0
+                "alt_value": 21.9
             },
             "#185": {
-                "alt_value": 0
+                "alt_value": 22.87
             },
             "#TG20": {
-                "alt_value": 0
+                "alt_value": 22.96
             }
         }
     },
@@ -1815,13 +1815,13 @@
                 "alt_value": 104.23
             },
             "#173": {
-                "alt_value": 0
+                "alt_value": 21.88
             },
             "#075": {
-                "alt_value": 0
+                "alt_value": 18.3
             },
             "#75": {
-                "alt_value": 0
+                "alt_value": 17.59
             }
         },
         "2005": {
@@ -1836,36 +1836,36 @@
         },
         "2024": {
             "#092": {
-                "alt_value": 0
+                "alt_value": 25.39
             }
         },
         "2021": {
             "#SWSH087": {
-                "alt_value": 0
+                "alt_value": 16.2
             },
             "#81": {
-                "alt_value": 0
+                "alt_value": 46.67
             },
             "#85": {
-                "alt_value": 0
+                "alt_value": 89.39
             },
             "#93": {
-                "alt_value": 0
+                "alt_value": 132.73
             }
         },
         "1999": {
             "#51": {
-                "alt_value": 0
+                "alt_value": 36.45
             }
         },
         "2019": {
             "#SV41": {
-                "alt_value": 0
+                "alt_value": 29.74
             }
         },
         "2022": {
             "#TG11": {
-                "alt_value": 0
+                "alt_value": 20.01
             }
         }
     },
@@ -1884,18 +1884,18 @@
         },
         "2022": {
             "#212": {
-                "alt_value": 0
+                "alt_value": 22.9
             },
             "#185": {
-                "alt_value": 0
+                "alt_value": 29.92
             },
             "#111": {
-                "alt_value": 0
+                "alt_value": 249.01
             }
         },
         "2015": {
             "#57": {
-                "alt_value": 0
+                "alt_value": 64.41
             }
         },
         "2024": {
@@ -1910,10 +1910,10 @@
                 "alt_value": 95.98
             },
             "#30": {
-                "alt_value": 0
+                "alt_value": 19.92
             },
             "#172": {
-                "alt_value": 0
+                "alt_value": 20.77
             }
         },
         "2025": {
@@ -1921,15 +1921,15 @@
                 "alt_value": 173.76
             },
             "#23": {
-                "alt_value": 0
+                "alt_value": 13.69
             },
             "#168": {
-                "alt_value": 0
+                "alt_value": 10.77
             }
         },
         "2022": {
             "#TG02": {
-                "alt_value": 0
+                "alt_value": 17.75
             }
         },
         "2005": {
@@ -1959,12 +1959,12 @@
         },
         "2017": {
             "#101": {
-                "alt_value": 0
+                "alt_value": 35.55
             }
         },
         "2021": {
             "#8": {
-                "alt_value": 0
+                "alt_value": 21.76
             },
             "#207": {
                 "alt_value": 36.05
@@ -1972,7 +1972,7 @@
         },
         "2023": {
             "#225": {
-                "alt_value": 0
+                "alt_value": 23.55
             }
         }
     },
@@ -1982,17 +1982,17 @@
                 "alt_value": 115.62
             },
             "#216": {
-                "alt_value": 0
+                "alt_value": 17.21
             }
         },
         "2023": {
             "#174": {
-                "alt_value": 0
+                "alt_value": 16.21
             }
         },
         "2016": {
             "#45": {
-                "alt_value": 0
+                "alt_value": 16.84
             }
         }
     },
@@ -2002,7 +2002,7 @@
                 "alt_value": 133.43
             },
             "#173": {
-                "alt_value": 0
+                "alt_value": 16.63
             }
         },
         "1999": {
@@ -2022,12 +2022,12 @@
                 "alt_value": 79.62
             },
             "#204": {
-                "alt_value": 0
+                "alt_value": 16.84
             }
         },
         "2023": {
             "#190": {
-                "alt_value": 0
+                "alt_value": 13.37
             }
         },
         "1999": {
@@ -2054,18 +2054,18 @@
                 "alt_value": 43.91
             },
             "#SM213": {
-                "alt_value": 0
+                "alt_value": 14.85
             },
             "#241": {
                 "alt_value": 100.71
             },
             "#220": {
-                "alt_value": 0
+                "alt_value": 66.55
             }
         },
         "2017": {
             "#29": {
-                "alt_value": 0
+                "alt_value": 20.48
             }
         },
         "2002": {
@@ -2075,12 +2075,12 @@
         },
         "2024": {
             "#132": {
-                "alt_value": 0
+                "alt_value": 26.02
             }
         },
         "2016": {
             "#SM90": {
-                "alt_value": 0
+                "alt_value": 26.18
             }
         }
     },
@@ -2116,17 +2116,17 @@
         },
         "2024": {
             "#001": {
-                "alt_value": 0
+                "alt_value": 11.46
             }
         },
         "1999": {
             "#44": {
-                "alt_value": 0
+                "alt_value": 34.7
             }
         },
         "2023": {
             "#046": {
-                "alt_value": 0
+                "alt_value": 15.38
             }
         }
     },
@@ -2136,10 +2136,10 @@
                 "alt_value": 122.32
             },
             "#SWSH134": {
-                "alt_value": 0
+                "alt_value": 16.58
             },
             "#75": {
-                "alt_value": 0
+                "alt_value": 19.64
             }
         },
         "2022": {
@@ -2159,15 +2159,15 @@
         },
         "2025": {
             "#41": {
-                "alt_value": 0
+                "alt_value": 15.11
             },
             "#40": {
-                "alt_value": 0
+                "alt_value": 16.52
             }
         },
         "2017": {
             "#92": {
-                "alt_value": 0
+                "alt_value": 30.43
             }
         }
     },
@@ -2180,17 +2180,17 @@
                 "alt_value": 56.09
             },
             "#047": {
-                "alt_value": 0
+                "alt_value": 12.8
             }
         },
         "2024": {
             "#109": {
-                "alt_value": 0
+                "alt_value": 21.8
             }
         },
         "2019": {
             "#SV6": {
-                "alt_value": 0
+                "alt_value": 23.98
             }
         },
         "1999": {
@@ -2200,12 +2200,12 @@
         },
         "2000": {
             "#50": {
-                "alt_value": 0
+                "alt_value": 25.82
             }
         },
         "2002": {
             "#98": {
-                "alt_value": 0
+                "alt_value": 46.2
             }
         }
     },
@@ -2217,7 +2217,7 @@
         },
         "2000": {
             "#15": {
-                "alt_value": 0
+                "alt_value": 20.24
             }
         }
     },
@@ -2235,7 +2235,7 @@
                 "alt_value": 205.03
             },
             "#29": {
-                "alt_value": 0
+                "alt_value": 29.18
             }
         }
     },
@@ -2255,18 +2255,18 @@
                 "alt_value": 208.71
             },
             "#21": {
-                "alt_value": 0
+                "alt_value": 61.4
             }
         },
         "2022": {
             "#184": {
-                "alt_value": 0
+                "alt_value": 22.96
             },
             "#123": {
-                "alt_value": 0
+                "alt_value": 16.86
             },
             "#122": {
-                "alt_value": 0
+                "alt_value": 19.4
             }
         }
     },
@@ -2276,7 +2276,7 @@
                 "alt_value": 92.54
             },
             "#217": {
-                "alt_value": 0
+                "alt_value": 12.82
             }
         }
     },
@@ -2291,25 +2291,25 @@
                 "alt_value": 73.26
             },
             "#197": {
-                "alt_value": 0
+                "alt_value": 30.88
             },
             "#68": {
-                "alt_value": 0
+                "alt_value": 225.83
             }
         },
         "2023": {
             "#051": {
-                "alt_value": 0
+                "alt_value": 25.98
             }
         },
         "2022": {
             "#TG10": {
-                "alt_value": 0
+                "alt_value": 24.57
             }
         },
         "2024": {
             "#202": {
-                "alt_value": 0
+                "alt_value": 26.39
             }
         }
     },
@@ -2327,13 +2327,13 @@
                 "alt_value": 35.25
             },
             "#49": {
-                "alt_value": 0
+                "alt_value": 22.56
             },
             "#131": {
-                "alt_value": 0
+                "alt_value": 28.4
             },
             "#50": {
-                "alt_value": 0
+                "alt_value": 15.83
             }
         },
         "2004": {
@@ -2343,7 +2343,7 @@
         },
         "2021": {
             "#191": {
-                "alt_value": 0
+                "alt_value": 41.12
             }
         },
         "2000": {
@@ -2353,12 +2353,12 @@
         },
         "2019": {
             "#119": {
-                "alt_value": 0
+                "alt_value": 17.12
             }
         },
         "2016": {
             "#72": {
-                "alt_value": 0
+                "alt_value": 20.95
             }
         }
     },
@@ -2370,12 +2370,12 @@
         },
         "2021": {
             "#SWSH132": {
-                "alt_value": 0
+                "alt_value": 16.4
             }
         },
         "2020": {
             "#93": {
-                "alt_value": 0
+                "alt_value": 18.22
             }
         }
     },
@@ -2385,7 +2385,7 @@
                 "alt_value": 36.7
             },
             "#034": {
-                "alt_value": 0
+                "alt_value": 93.41
             }
         },
         "2002": {
@@ -2395,7 +2395,7 @@
         },
         "2022": {
             "#193": {
-                "alt_value": 0
+                "alt_value": 18.45
             }
         }
     },
@@ -2431,25 +2431,25 @@
         },
         "2021": {
             "#21": {
-                "alt_value": 0
+                "alt_value": 18.36
             }
         }
     },
     "MIRAIDON": {
         "2023": {
             "#013": {
-                "alt_value": 0
+                "alt_value": 16.31
             },
             "#244": {
-                "alt_value": 0
+                "alt_value": 23.95
             },
             "#253": {
-                "alt_value": 0
+                "alt_value": 13.5
             }
         },
         "2024": {
             "#243": {
-                "alt_value": 0
+                "alt_value": 17.04
             }
         }
     },
@@ -2471,12 +2471,12 @@
         },
         "2016": {
             "#16": {
-                "alt_value": 0
+                "alt_value": 17.13
             }
         },
         "2023": {
             "#186": {
-                "alt_value": 0
+                "alt_value": 16.6
             }
         }
     },
@@ -2488,12 +2488,12 @@
         },
         "2003": {
             "#1": {
-                "alt_value": 0
+                "alt_value": 42.24
             }
         },
         "2000": {
             "#142": {
-                "alt_value": 0
+                "alt_value": 254.15
             }
         }
     },
@@ -2505,7 +2505,7 @@
         },
         "2024": {
             "#223": {
-                "alt_value": 0
+                "alt_value": 12.71
             }
         }
     },
@@ -2538,7 +2538,7 @@
         },
         "2025": {
             "#213": {
-                "alt_value": 0
+                "alt_value": 14.35
             }
         }
     },
@@ -2555,7 +2555,7 @@
         },
         "2018": {
             "#146": {
-                "alt_value": 0
+                "alt_value": 67.45
             }
         }
     },
@@ -2568,7 +2568,7 @@
                 "alt_value": 89.79
             },
             "#48": {
-                "alt_value": 0
+                "alt_value": 13.53
             }
         },
         "2006": {
@@ -2583,7 +2583,7 @@
         },
         "1999": {
             "#63": {
-                "alt_value": 0
+                "alt_value": 51.98
             }
         }
     },
@@ -2595,7 +2595,7 @@
         },
         "2023": {
             "#GG16": {
-                "alt_value": 0
+                "alt_value": 18.06
             }
         }
     },
@@ -2607,7 +2607,7 @@
         },
         "2024": {
             "#209": {
-                "alt_value": 0
+                "alt_value": 14.12
             }
         }
     },
@@ -2631,7 +2631,7 @@
                 "alt_value": 163.86
             },
             "#176": {
-                "alt_value": 0
+                "alt_value": 296.15
             }
         },
         "2025": {
@@ -2641,22 +2641,22 @@
         },
         "2022": {
             "#SWSH213": {
-                "alt_value": 0
+                "alt_value": 15.4
             }
         },
         "2019": {
             "#SV64": {
-                "alt_value": 0
+                "alt_value": 51.33
             }
         },
         "2018": {
             "#135": {
-                "alt_value": 0
+                "alt_value": 99.11
             }
         },
         "2007": {
             "#NNO": {
-                "alt_value": 0
+                "alt_value": 35.5
             }
         }
     },
@@ -2666,7 +2666,7 @@
                 "alt_value": 58.55
             },
             "#30": {
-                "alt_value": 0
+                "alt_value": 23.29
             },
             "#5": {
                 "alt_value": 124.67
@@ -2674,7 +2674,7 @@
         },
         "1999": {
             "#31": {
-                "alt_value": 0
+                "alt_value": 28.04
             }
         }
     },
@@ -2684,12 +2684,12 @@
                 "alt_value": 74.23
             },
             "#242": {
-                "alt_value": 0
+                "alt_value": 22.1
             }
         },
         "2022": {
             "#TG20": {
-                "alt_value": 0
+                "alt_value": 15.92
             }
         }
     },
@@ -2706,7 +2706,7 @@
                 "alt_value": 141.33
             },
             "#33": {
-                "alt_value": 0
+                "alt_value": 30.39
             }
         }
     },
@@ -2716,7 +2716,7 @@
                 "alt_value": 83.15
             },
             "#203": {
-                "alt_value": 0
+                "alt_value": 33.31
             }
         },
         "2021": {
@@ -2724,7 +2724,7 @@
                 "alt_value": 216.83
             },
             "#154": {
-                "alt_value": 0
+                "alt_value": 25.13
             }
         },
         "2015": {
@@ -2734,12 +2734,12 @@
         },
         "2025": {
             "#096": {
-                "alt_value": 0
+                "alt_value": 91.22
             }
         },
         "2023": {
             "#211": {
-                "alt_value": 0
+                "alt_value": 18.57
             }
         }
     },
@@ -2756,7 +2756,7 @@
         },
         "2023": {
             "#200": {
-                "alt_value": 0
+                "alt_value": 12.79
             }
         }
     },
@@ -2768,10 +2768,10 @@
         },
         "2021": {
             "#51": {
-                "alt_value": 0
+                "alt_value": 15.99
             },
             "#SV119": {
-                "alt_value": 0
+                "alt_value": 24.29
             }
         }
     },
@@ -2781,36 +2781,36 @@
                 "alt_value": 142.92
             },
             "#65": {
-                "alt_value": 0
+                "alt_value": 19.03
             },
             "#179": {
-                "alt_value": 0
+                "alt_value": 24.69
             },
             "#64": {
-                "alt_value": 0
+                "alt_value": 14.53
             }
         },
         "2025": {
             "#34": {
-                "alt_value": 0
+                "alt_value": 13.73
             }
         },
         "2019": {
             "#SV60": {
-                "alt_value": 0
+                "alt_value": 85.23
             }
         },
         "2024": {
             "#169": {
-                "alt_value": 0
+                "alt_value": 65.13
             },
             "#146": {
-                "alt_value": 0
+                "alt_value": 40.41
             }
         },
         "2000": {
             "#196A": {
-                "alt_value": 0
+                "alt_value": 32.06
             }
         },
         "2005": {
@@ -2834,7 +2834,7 @@
         },
         "2019": {
             "#43": {
-                "alt_value": 0
+                "alt_value": 30.48
             }
         }
     },
@@ -2867,7 +2867,7 @@
         },
         "1999": {
             "#62": {
-                "alt_value": 0
+                "alt_value": 15.26
             }
         }
     },
@@ -2879,7 +2879,7 @@
         },
         "1999": {
             "#55": {
-                "alt_value": 0
+                "alt_value": 17.86
             }
         }
     },
@@ -2893,40 +2893,40 @@
     "FEEBAS": {
         "2024": {
             "#198": {
-                "alt_value": 0
+                "alt_value": 12.42
             }
         }
     },
     "ROCKRUFF": {
         "2022": {
             "#TG07": {
-                "alt_value": 0
+                "alt_value": 13.14
             }
         }
     },
     "LAIRON": {
         "2024": {
             "#184": {
-                "alt_value": 0
+                "alt_value": 11.99
             }
         }
     },
     "SKELEDIRGE": {
         "2023": {
             "#258": {
-                "alt_value": 0
+                "alt_value": 22.03
             }
         }
     },
     "SUICUNE": {
         "2023": {
             "#GG38": {
-                "alt_value": 0
+                "alt_value": 42.41
             }
         },
         "2021": {
             "#SV022": {
-                "alt_value": 0
+                "alt_value": 20.19
             }
         }
     },
@@ -2938,24 +2938,24 @@
         },
         "2025": {
             "#219": {
-                "alt_value": 0
+                "alt_value": 13.93
             }
         }
     },
     "ENTEI": {
         "2024": {
             "#112": {
-                "alt_value": 0
+                "alt_value": 18.54
             }
         },
         "2007": {
             "#NNO": {
-                "alt_value": 0
+                "alt_value": 34.81
             }
         },
         "2017": {
             "#71": {
-                "alt_value": 0
+                "alt_value": 25.19
             },
             "#74": {
                 "alt_value": 35.87
@@ -2963,28 +2963,28 @@
         },
         "2015": {
             "#15": {
-                "alt_value": 0
+                "alt_value": 50.32
             }
         }
     },
     "LUNALA": {
         "2019": {
             "#SM103A": {
-                "alt_value": 0
+                "alt_value": 24.24
             }
         }
     },
     "HERACROSS": {
         "2023": {
             "#194": {
-                "alt_value": 0
+                "alt_value": 21.38
             }
         }
     },
     "APPLIN": {
         "2024": {
             "#185": {
-                "alt_value": 0
+                "alt_value": 14.92
             }
         }
     },
@@ -2994,84 +2994,84 @@
                 "alt_value": 70.44
             },
             "#SV24": {
-                "alt_value": 0
+                "alt_value": 12.31
             },
             "#191": {
-                "alt_value": 0
+                "alt_value": 25.61
             },
             "#SV68": {
-                "alt_value": 0
+                "alt_value": 17.16
             },
             "#1": {
-                "alt_value": 0
+                "alt_value": 22.48
             }
         }
     },
     "ZACIAN": {
         "2025": {
             "#176": {
-                "alt_value": 0
+                "alt_value": 14.29
             }
         },
         "2023": {
             "#GG48": {
-                "alt_value": 0
+                "alt_value": 22.47
             }
         },
         "2022": {
             "#TG21": {
-                "alt_value": 0
+                "alt_value": 15.43
             }
         },
         "2020": {
             "#211": {
-                "alt_value": 0
+                "alt_value": 35.8
             }
         }
     },
     "OGERPON": {
         "2024": {
             "#215": {
-                "alt_value": 0
+                "alt_value": 13.83
             },
             "#213": {
-                "alt_value": 0
+                "alt_value": 14.59
             },
             "#123": {
-                "alt_value": 0
+                "alt_value": 13.59
             }
         },
         "2025": {
             "#145": {
-                "alt_value": 0
+                "alt_value": 16.34
             },
             "#160": {
-                "alt_value": 0
+                "alt_value": 16.65
             },
             "#148": {
-                "alt_value": 0
+                "alt_value": 19.26
             }
         }
     },
     "CHARMELEON": {
         "2023": {
             "#169": {
-                "alt_value": 0
+                "alt_value": 47.64
             }
         },
         "2024": {
             "#110": {
-                "alt_value": 0
+                "alt_value": 28.65
             }
         },
         "2019": {
             "#SV7": {
-                "alt_value": 0
+                "alt_value": 22.0
             }
         },
         "1999": {
             "#24": {
-                "alt_value": 0
+                "alt_value": 33.95
             }
         },
         "2016": {
@@ -3083,40 +3083,40 @@
     "URSHIFU": {
         "2021": {
             "#168": {
-                "alt_value": 0
+                "alt_value": 39.01
             },
             "#153": {
-                "alt_value": 0
+                "alt_value": 21.89
             },
             "#151": {
-                "alt_value": 0
+                "alt_value": 21.89
             }
         },
         "2022": {
             "#TG21": {
-                "alt_value": 0
+                "alt_value": 19.78
             },
             "#TG20": {
-                "alt_value": 0
+                "alt_value": 14.24
             }
         }
     },
     "ARBOK": {
         "2024": {
             "#176": {
-                "alt_value": 0
+                "alt_value": 24.7
             }
         },
         "2023": {
             "#185": {
-                "alt_value": 0
+                "alt_value": 14.06
             }
         }
     },
     "WISHIWASHI": {
         "2019": {
             "#240": {
-                "alt_value": 0
+                "alt_value": 17.27
             }
         }
     },
@@ -3133,85 +3133,85 @@
         },
         "2024": {
             "#218": {
-                "alt_value": 0
+                "alt_value": 16.11
             }
         }
     },
     "FEZANDIPITI": {
         "2024": {
             "#73": {
-                "alt_value": 0
+                "alt_value": 19.61
             }
         }
     },
     "NECROZMA": {
         "2018": {
             "#127": {
-                "alt_value": 0
+                "alt_value": 35.63
             },
             "#163": {
-                "alt_value": 0
+                "alt_value": 24.94
             }
         }
     },
     "MEOWSCARADA": {
         "2023": {
             "#256": {
-                "alt_value": 0
+                "alt_value": 21.56
             },
             "#271": {
-                "alt_value": 0
+                "alt_value": 13.95
             }
         }
     },
     "LICKITUNG": {
         "2024": {
             "#180": {
-                "alt_value": 0
+                "alt_value": 26.25
             }
         },
         "2001": {
             "#16": {
-                "alt_value": 0
+                "alt_value": 37.32
             }
         }
     },
     "MANTYKE": {
         "2023": {
             "#189": {
-                "alt_value": 0
+                "alt_value": 16.98
             }
         }
     },
     "SINISTCHA": {
         "2024": {
             "#210": {
-                "alt_value": 0
+                "alt_value": 21.55
             }
         }
     },
     "SALAMENCE": {
         "2020": {
             "#185": {
-                "alt_value": 0
+                "alt_value": 19.09
             },
             "#194": {
-                "alt_value": 0
+                "alt_value": 24.4
             }
         },
         "2018": {
             "#73": {
-                "alt_value": 0
+                "alt_value": 42.38
             }
         },
         "2025": {
             "#177": {
-                "alt_value": 0
+                "alt_value": 14.84
             }
         },
         "2003": {
             "#19": {
-                "alt_value": 0
+                "alt_value": 74.69
             }
         }
     },
@@ -3225,7 +3225,7 @@
     "DEERLING": {
         "2024": {
             "#165": {
-                "alt_value": 0
+                "alt_value": 24.88
             }
         }
     },
@@ -3239,42 +3239,42 @@
     "URSALUNA": {
         "2024": {
             "#216": {
-                "alt_value": 0
+                "alt_value": 32.68
             },
             "#222": {
-                "alt_value": 0
+                "alt_value": 16.36
             }
         }
     },
     "GULPIN": {
         "2024": {
             "#154": {
-                "alt_value": 0
+                "alt_value": 18.2
             }
         }
     },
     "JIRACHI": {
         "2017": {
             "#42": {
-                "alt_value": 0
+                "alt_value": 32.36
             }
         },
         "2022": {
             "#120": {
-                "alt_value": 0
+                "alt_value": 13.03
             }
         }
     },
     "KORAIDON": {
         "2023": {
             "#247": {
-                "alt_value": 0
+                "alt_value": 23.27
             },
             "#014": {
-                "alt_value": 0
+                "alt_value": 74.11
             },
             "#254": {
-                "alt_value": 0
+                "alt_value": 12.73
             }
         }
     },
@@ -3286,7 +3286,7 @@
         },
         "2023": {
             "#224": {
-                "alt_value": 0
+                "alt_value": 16.51
             }
         },
         "2003": {
@@ -3298,28 +3298,28 @@
     "SNEASLER": {
         "2022": {
             "#175": {
-                "alt_value": 0
+                "alt_value": 25.67
             }
         }
     },
     "LEDIAN": {
         "2024": {
             "#144": {
-                "alt_value": 0
+                "alt_value": 12.66
             }
         }
     },
     "CHATOT": {
         "2024": {
             "#181": {
-                "alt_value": 0
+                "alt_value": 17.56
             }
         }
     },
     "BUTTERFREE": {
         "2020": {
             "#2": {
-                "alt_value": 0
+                "alt_value": 16.23
             }
         },
         "1999": {
@@ -3331,68 +3331,68 @@
     "SPRIGATITO": {
         "2023": {
             "#196": {
-                "alt_value": 0
+                "alt_value": 23.02
             },
             "#75": {
-                "alt_value": 0
+                "alt_value": 18.67
             }
         },
         "2025": {
             "#109": {
-                "alt_value": 0
+                "alt_value": 31.66
             }
         }
     },
     "GRENINJA": {
         "2022": {
             "#46": {
-                "alt_value": 0
+                "alt_value": 17.02
             }
         },
         "2019": {
             "#SV56": {
-                "alt_value": 0
+                "alt_value": 63.12
             }
         },
         "2024": {
             "#198": {
-                "alt_value": 0
+                "alt_value": 17.28
             }
         }
     },
     "SHIFTRY": {
         "2024": {
             "#163": {
-                "alt_value": 0
+                "alt_value": 12.15
             }
         }
     },
     "MARILL": {
         "2023": {
             "#204": {
-                "alt_value": 0
+                "alt_value": 25.2
             }
         }
     },
     "DEDENNE": {
         "2023": {
             "#89": {
-                "alt_value": 0
+                "alt_value": 13.32
             }
         },
         "2020": {
             "#195A": {
-                "alt_value": 0
+                "alt_value": 30.41
             }
         }
     },
     "DURANT": {
         "2024": {
             "#236": {
-                "alt_value": 0
+                "alt_value": 21.01
             },
             "#215": {
-                "alt_value": 0
+                "alt_value": 13.79
             }
         },
         "2007": {
@@ -3404,42 +3404,42 @@
     "MACHOP": {
         "1999": {
             "#52": {
-                "alt_value": 0
+                "alt_value": 20.11
             }
         }
     },
     "SPHEAL": {
         "2024": {
             "#199": {
-                "alt_value": 0
+                "alt_value": 18.32
             }
         }
     },
     "GENESECT": {
         "2017": {
             "#9": {
-                "alt_value": 0
+                "alt_value": 16.5
             }
         }
     },
     "TING-LU": {
         "2023": {
             "#263": {
-                "alt_value": 0
+                "alt_value": 16.48
             }
         }
     },
     "RABOOT": {
         "2024": {
             "#147": {
-                "alt_value": 0
+                "alt_value": 16.02
             }
         }
     },
     "DRAMPA": {
         "2019": {
             "#SV80": {
-                "alt_value": 0
+                "alt_value": 15.27
             }
         },
         "2024": {
@@ -3451,82 +3451,82 @@
     "LUMINEON": {
         "2023": {
             "#GG39": {
-                "alt_value": 0
+                "alt_value": 16.77
             }
         }
     },
     "FUECOCO": {
         "2025": {
             "#03": {
-                "alt_value": 0
+                "alt_value": 27.37
             }
         }
     },
     "CORVIKNIGHT": {
         "2022": {
             "#TG18": {
-                "alt_value": 0
+                "alt_value": 16.83
             },
             "#TG19": {
-                "alt_value": 0
+                "alt_value": 15.62
             }
         }
     },
     "ZORUA": {
         "2025": {
             "#189": {
-                "alt_value": 0
+                "alt_value": 14.24
             }
         },
         "2024": {
             "#75": {
-                "alt_value": 0
+                "alt_value": 14.55
             }
         }
     },
     "ARCHALUDON": {
         "2024": {
             "#241": {
-                "alt_value": 0
+                "alt_value": 14.76
             },
             "#155": {
-                "alt_value": 0
+                "alt_value": 11.21
             }
         }
     },
     "INTELEON": {
         "2021": {
             "#266": {
-                "alt_value": 0
+                "alt_value": 27.72
             },
             "#227": {
-                "alt_value": 0
+                "alt_value": 18.92
             }
         }
     },
     "HYDRAPPLE": {
         "2025": {
             "#188": {
-                "alt_value": 0
+                "alt_value": 10.47
             }
         },
         "2024": {
             "#167": {
-                "alt_value": 0
+                "alt_value": 20.76
             }
         }
     },
     "SANDACONDA": {
         "2021": {
             "#252": {
-                "alt_value": 0
+                "alt_value": 14.73
             }
         }
     },
     "PIDGEOT": {
         "2016": {
             "#105": {
-                "alt_value": 0
+                "alt_value": 26.03
             }
         },
         "2023": {
@@ -3536,7 +3536,7 @@
         },
         "2001": {
             "#2": {
-                "alt_value": 0
+                "alt_value": 37.37
             }
         }
     },
@@ -3548,40 +3548,40 @@
         },
         "2023": {
             "#GG53": {
-                "alt_value": 0
+                "alt_value": 19.53
             }
         }
     },
     "SKUNTANK": {
         "2022": {
             "#181": {
-                "alt_value": 0
+                "alt_value": 16.03
             }
         }
     },
     "WOBBUFFET": {
         "2025": {
             "#203": {
-                "alt_value": 0
+                "alt_value": 13.59
             }
         }
     },
     "WATTREL": {
         "2024": {
             "#178": {
-                "alt_value": 0
+                "alt_value": 13.11
             }
         }
     },
     "OMANYTE": {
         "2023": {
             "#180": {
-                "alt_value": 0
+                "alt_value": 15.35
             }
         },
         "1999": {
             "#52": {
-                "alt_value": 0
+                "alt_value": 21.89
             }
         }
     },
@@ -3595,107 +3595,107 @@
     "MEDICHAM": {
         "2021": {
             "#186": {
-                "alt_value": 0
+                "alt_value": 20.52
             }
         }
     },
     "LARVITAR": {
         "2023": {
             "#203": {
-                "alt_value": 0
+                "alt_value": 9.26
             }
         }
     },
     "PECHARUNT": {
         "2024": {
             "#129": {
-                "alt_value": 0
+                "alt_value": 19.37
             }
         },
         "2025": {
             "#163": {
-                "alt_value": 0
+                "alt_value": 21.92
             }
         }
     },
     "BAXCALIBUR": {
         "2023": {
             "#210": {
-                "alt_value": 0
+                "alt_value": 25.12
             }
         }
     },
     "REUNICLUS": {
         "2024": {
             "#171": {
-                "alt_value": 0
+                "alt_value": 14.17
             }
         }
     },
     "FLYGON": {
         "2024": {
             "#222": {
-                "alt_value": 0
+                "alt_value": 13.89
             }
         },
         "2019": {
             "#256": {
-                "alt_value": 0
+                "alt_value": 37.06
             }
         }
     },
     "SHELLDER": {
         "1999": {
             "#54": {
-                "alt_value": 0
+                "alt_value": 18.02
             }
         }
     },
     "DURALUDON": {
         "2021": {
             "#220": {
-                "alt_value": 0
+                "alt_value": 20.54
             },
             "#198": {
-                "alt_value": 0
+                "alt_value": 20.3
             }
         }
     },
     "SPIRITOMB": {
         "2022": {
             "#117": {
-                "alt_value": 0
+                "alt_value": 14.06
             }
         }
     },
     "ABRA": {
         "1999": {
             "#43": {
-                "alt_value": 0
+                "alt_value": 21.78
             }
         },
         "2000": {
             "#93": {
-                "alt_value": 0
+                "alt_value": 29.01
             }
         }
     },
     "TORNADUS": {
         "2021": {
             "#185": {
-                "alt_value": 0
+                "alt_value": 31.14
             }
         },
         "2025": {
             "#210": {
-                "alt_value": 0
+                "alt_value": 12.45
             }
         }
     },
     "DARKRAI": {
         "2019": {
             "#SV70": {
-                "alt_value": 0
+                "alt_value": 42.18
             }
         },
         "2025": {
@@ -3703,52 +3703,52 @@
                 "alt_value": 0
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 15.08
             }
         }
     },
     "MESPRIT": {
         "2024": {
             "#204": {
-                "alt_value": 0
+                "alt_value": 16.74
             }
         }
     },
     "CHIMECHO": {
         "2024": {
             "#179": {
-                "alt_value": 0
+                "alt_value": 13.25
             }
         }
     },
     "HONCHKROW": {
         "2022": {
             "#162": {
-                "alt_value": 0
+                "alt_value": 17.78
             }
         }
     },
     "GROWLITHE": {
         "2024": {
             "#181": {
-                "alt_value": 0
+                "alt_value": 19.18
             }
         }
     },
     "GUZZLORD": {
         "2019": {
             "#158": {
-                "alt_value": 0
+                "alt_value": 21.54
             },
             "#223": {
-                "alt_value": 0
+                "alt_value": 30.81
             }
         }
     },
     "ENAMORUS": {
         "2024": {
             "#180": {
-                "alt_value": 0
+                "alt_value": 13.55
             }
         }
     },
@@ -3760,115 +3760,115 @@
         },
         "2019": {
             "#SV66": {
-                "alt_value": 0
+                "alt_value": 18.28
             }
         }
     },
     "PARASECT": {
         "1999": {
             "#41": {
-                "alt_value": 0
+                "alt_value": 29.67
             }
         }
     },
     "DONPHAN": {
         "2021": {
             "#107": {
-                "alt_value": 0
+                "alt_value": 12.59
             }
         }
     },
     "QUAXLY": {
         "2023": {
             "#206": {
-                "alt_value": 0
+                "alt_value": 14.44
             }
         },
         "2025": {
             "#509": {
-                "alt_value": 0
+                "alt_value": 25.78
             }
         }
     },
     "MAGMORTAR": {
         "2023": {
             "#GG03": {
-                "alt_value": 0
+                "alt_value": 21.43
             }
         }
     },
     "CRAMORANT": {
         "2024": {
             "#176": {
-                "alt_value": 0
+                "alt_value": 13.9
             }
         }
     },
     "YANMA": {
         "2025": {
             "#183": {
-                "alt_value": 0
+                "alt_value": 14.67
             }
         }
     },
     "JELLICENT": {
         "2025": {
             "#168": {
-                "alt_value": 0
+                "alt_value": 26.1
             }
         }
     },
     "DARTRIX": {
         "2019": {
             "#SV3": {
-                "alt_value": 0
+                "alt_value": 11.28
             }
         }
     },
     "GREEDENT": {
         "2021": {
             "#257": {
-                "alt_value": 0
+                "alt_value": 17.39
             }
         }
     },
     "BRONZOR": {
         "2024": {
             "#170": {
-                "alt_value": 0
+                "alt_value": 12.11
             }
         }
     },
     "MURKROW": {
         "2025": {
             "#200": {
-                "alt_value": 0
+                "alt_value": 17.88
             }
         }
     },
     "GRIMER": {
         "2000": {
             "#57": {
-                "alt_value": 0
+                "alt_value": 23.41
             }
         },
         "1999": {
             "#48": {
-                "alt_value": 0
+                "alt_value": 20.4
             }
         }
     },
     "PHIONE": {
         "2024": {
             "#175": {
-                "alt_value": 0
+                "alt_value": 13.85
             }
         }
     },
     "BELLSPROUT": {
         "1999": {
             "#49": {
-                "alt_value": 0
+                "alt_value": 13.57
             }
         },
         "1998": {
@@ -3876,14 +3876,14 @@
                 "alt_value": 0
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 20.43
             }
         }
     },
     "WARTORTLE": {
         "1999": {
             "#42": {
-                "alt_value": 0
+                "alt_value": 31.28
             }
         },
         "2000": {
@@ -3895,7 +3895,7 @@
     "SAWSBUCK": {
         "2024": {
             "#166": {
-                "alt_value": 0
+                "alt_value": 23.76
             }
         }
     },
@@ -3912,7 +3912,7 @@
                 "alt_value": 22.06
             },
             "#176": {
-                "alt_value": 0
+                "alt_value": 15.69
             }
         }
     },
@@ -3926,60 +3926,60 @@
     "ROTOM": {
         "2022": {
             "#177": {
-                "alt_value": 0
+                "alt_value": 31.17
             }
         },
         "2025": {
             "#197": {
-                "alt_value": 0
+                "alt_value": 11.3
             }
         }
     },
     "GOLDEEN": {
         "1999": {
             "#53": {
-                "alt_value": 0
+                "alt_value": 18.0
             }
         }
     },
     "WOOPER": {
         "2023": {
             "#221": {
-                "alt_value": 0
+                "alt_value": 14.78
             }
         }
     },
     "VOLCANION": {
         "2017": {
             "#XY185": {
-                "alt_value": 0
+                "alt_value": 38.72
             },
             "#27": {
-                "alt_value": 0
+                "alt_value": 17.59
             }
         }
     },
     "SAMUROTT": {
         "2023": {
             "#GG52": {
-                "alt_value": 0
+                "alt_value": 13.41
             },
             "#GG51": {
-                "alt_value": 0
+                "alt_value": 17.98
             }
         }
     },
     "CINCCINO": {
         "2024": {
             "#183": {
-                "alt_value": 0
+                "alt_value": 15.4
             }
         }
     },
     "YANMEGA": {
         "2025": {
             "#228": {
-                "alt_value": 0
+                "alt_value": 24.47
             }
         }
     },
@@ -3993,50 +3993,50 @@
     "DUNSPARCE": {
         "2023": {
             "#GG23": {
-                "alt_value": 0
+                "alt_value": 11.78
             }
         }
     },
     "MABOSSTIFF": {
         "2025": {
             "#235": {
-                "alt_value": 0
+                "alt_value": 28.61
             }
         }
     },
     "MUNKIDORI": {
         "2024": {
             "#72": {
-                "alt_value": 0
+                "alt_value": 17.45
             }
         }
     },
     "SHUCKLE": {
         "2000": {
             "#72": {
-                "alt_value": 0
+                "alt_value": 21.93
             }
         }
     },
     "WEEZING": {
         "2025": {
             "#199": {
-                "alt_value": 0
+                "alt_value": 15.6
             }
         }
     },
     "CELEBI": {
         "2021": {
             "#199": {
-                "alt_value": 0
+                "alt_value": 21.54
             },
             "#8": {
-                "alt_value": 0
+                "alt_value": 18.82
             }
         },
         "2020": {
             "#9": {
-                "alt_value": 0
+                "alt_value": 17.44
             }
         },
         "2002": {
@@ -4048,79 +4048,79 @@
     "TANGELA": {
         "2023": {
             "#178": {
-                "alt_value": 0
+                "alt_value": 17.12
             }
         }
     },
     "DECIDUEYE": {
         "2019": {
             "#SV47": {
-                "alt_value": 0
+                "alt_value": 20.29
             }
         }
     },
     "ZOROARK": {
         "2017": {
             "#77A": {
-                "alt_value": 0
+                "alt_value": 23.18
             }
         },
         "2025": {
             "#175": {
-                "alt_value": 0
+                "alt_value": 14.01
             }
         },
         "2022": {
             "#SWSH297": {
-                "alt_value": 0
+                "alt_value": 15.3
             }
         }
     },
     "JYNX": {
         "2023": {
             "#191": {
-                "alt_value": 0
+                "alt_value": 13.39
             }
         }
     },
     "ETERNATUS": {
         "2020": {
             "#192": {
-                "alt_value": 0
+                "alt_value": 18.75
             }
         },
         "2022": {
             "#TG22": {
-                "alt_value": 0
+                "alt_value": 18.09
             }
         },
         "2021": {
             "#SV122": {
-                "alt_value": 0
+                "alt_value": 17.06
             }
         }
     },
     "XURKITREE": {
         "2019": {
             "#SV58": {
-                "alt_value": 0
+                "alt_value": 19.14
             }
         }
     },
     "CASTFORM": {
         "2024": {
             "#195": {
-                "alt_value": 0
+                "alt_value": 11.67
             }
         }
     },
     "MEOWTH": {
         "2000": {
             "#74": {
-                "alt_value": 0
+                "alt_value": 29.06
             },
             "#62": {
-                "alt_value": 0
+                "alt_value": 22.8
             },
             "#18": {
                 "alt_value": 45.73
@@ -4128,7 +4128,7 @@
         },
         "1999": {
             "#56": {
-                "alt_value": 0
+                "alt_value": 25.95
             }
         },
         "2025": {
@@ -4138,14 +4138,14 @@
         },
         "2003": {
             "#13": {
-                "alt_value": 0
+                "alt_value": 37.87
             }
         }
     },
     "FLAPPLE": {
         "2024": {
             "#210": {
-                "alt_value": 0
+                "alt_value": 13.08
             }
         }
     },
@@ -4162,112 +4162,112 @@
         },
         "2019": {
             "#78": {
-                "alt_value": 0
+                "alt_value": 22.42
             },
             "#223": {
-                "alt_value": 0
+                "alt_value": 38.67
             }
         }
     },
     "ZUBAT": {
         "2000": {
             "#83": {
-                "alt_value": 0
+                "alt_value": 26.06
             },
             "#70": {
-                "alt_value": 0
+                "alt_value": 14.85
             }
         },
         "1999": {
             "#57": {
-                "alt_value": 0
+                "alt_value": 19.7
             }
         }
     },
     "KILOWATTREL": {
         "2025": {
             "#163": {
-                "alt_value": 0
+                "alt_value": 14.56
             }
         }
     },
     "FROAKIE": {
         "2019": {
             "#SV11": {
-                "alt_value": 0
+                "alt_value": 14.24
             }
         }
     },
     "LOUDRED": {
         "2023": {
             "#212": {
-                "alt_value": 0
+                "alt_value": 20.52
             }
         }
     },
     "JIGGLYPUFF": {
         "1999": {
             "#54": {
-                "alt_value": 0
+                "alt_value": 30.85
             },
             "#7": {
-                "alt_value": 0
+                "alt_value": 27.1
             }
         },
         "2019": {
             "#225": {
-                "alt_value": 0
+                "alt_value": 50.98
             }
         },
         "2000": {
             "#39": {
-                "alt_value": 0
+                "alt_value": 26.96
             }
         }
     },
     "TURTWIG": {
         "2023": {
             "#GG31": {
-                "alt_value": 0
+                "alt_value": 16.8
             }
         }
     },
     "ALTARIA": {
         "2019": {
             "#SV77": {
-                "alt_value": 0
+                "alt_value": 24.33
             },
             "#SV37": {
-                "alt_value": 0
+                "alt_value": 16.08
             }
         },
         "2022": {
             "#TG11": {
-                "alt_value": 0
+                "alt_value": 15.99
             }
         },
         "2016": {
             "#29": {
-                "alt_value": 0
+                "alt_value": 35.27
             }
         }
     },
     "SWABLU": {
         "2016": {
             "#28": {
-                "alt_value": 0
+                "alt_value": 15.04
             }
         },
         "2023": {
             "#213": {
-                "alt_value": 0
+                "alt_value": 17.15
             }
         }
     },
     "BRAVIARY": {
         "2024": {
             "#214": {
-                "alt_value": 0
+                "alt_value": 12.51
             }
         }
     },
@@ -4281,45 +4281,45 @@
     "NOCTOWL": {
         "2024": {
             "#141": {
-                "alt_value": 0
+                "alt_value": 19.37
             }
         }
     },
     "RILLABOOM": {
         "2020": {
             "#193": {
-                "alt_value": 0
+                "alt_value": 16.36
             },
             "#197": {
-                "alt_value": 0
+                "alt_value": 15.1
             }
         }
     },
     "BLITZLE": {
         "2023": {
             "#195": {
-                "alt_value": 0
+                "alt_value": 13.67
             }
         }
     },
     "TIMBURR": {
         "2024": {
             "#183": {
-                "alt_value": 0
+                "alt_value": 13.34
             }
         }
     },
     "PACHIRISU": {
         "2023": {
             "#208": {
-                "alt_value": 0
+                "alt_value": 16.7
             }
         }
     },
     "PIDGEY": {
         "2023": {
             "#207": {
-                "alt_value": 0
+                "alt_value": 17.2
             }
         },
         "1999": {
@@ -4331,47 +4331,47 @@
     "RHYHORN": {
         "1999": {
             "#61": {
-                "alt_value": 0
+                "alt_value": 22.8
             }
         }
     },
     "MANAPHY": {
         "2007": {
             "#NNO": {
-                "alt_value": 0
+                "alt_value": 21.8
             }
         }
     },
     "SHARPEDO": {
         "2017": {
             "#XY200": {
-                "alt_value": 0
+                "alt_value": 67.87
             }
         }
     },
     "SILVALLY": {
         "2019": {
             "#262": {
-                "alt_value": 0
+                "alt_value": 29.24
             }
         },
         "2017": {
             "#119": {
-                "alt_value": 0
+                "alt_value": 21.9
             }
         }
     },
     "MEDITITE": {
         "2024": {
             "#153": {
-                "alt_value": 0
+                "alt_value": 12.88
             }
         }
     },
     "GARCHOMP": {
         "2021": {
             "#145": {
-                "alt_value": 0
+                "alt_value": 19.75
             }
         },
         "2025": {
@@ -4382,67 +4382,67 @@
                 "alt_value": 35.58
             },
             "#204": {
-                "alt_value": 0
+                "alt_value": 12.32
             }
         },
         "2023": {
             "#260": {
-                "alt_value": 0
+                "alt_value": 20.78
             },
             "#219": {
-                "alt_value": 0
+                "alt_value": 18.05
             }
         }
     },
     "GOTHORITA": {
         "2023": {
             "#213": {
-                "alt_value": 0
+                "alt_value": 12.45
             }
         }
     },
     "TOEDSCRUEL": {
         "2023": {
             "#185": {
-                "alt_value": 0
+                "alt_value": 12.55
             }
         }
     },
     "CHIKORITA": {
         "2016": {
             "#1": {
-                "alt_value": 0
+                "alt_value": 30.12
             }
         }
     },
     "ZAMAZENTA": {
         "2023": {
             "#GG54": {
-                "alt_value": 0
+                "alt_value": 16.65
             }
         },
         "2020": {
             "#102": {
-                "alt_value": 0
+                "alt_value": 9.92
             }
         },
         "2025": {
             "#201": {
-                "alt_value": 0
+                "alt_value": 14.6
             }
         }
     },
     "KINGAMBIT": {
         "2024": {
             "#130": {
-                "alt_value": 0
+                "alt_value": 14.49
             }
         }
     },
     "MIENSHAO": {
         "2023": {
             "#200": {
-                "alt_value": 0
+                "alt_value": 13.76
             }
         }
     },
@@ -4452,26 +4452,26 @@
                 "alt_value": 0
             },
             "false": {
-                "alt_value": 0
+                "alt_value": 37.37
             }
         },
         "2000": {
             "#64": {
-                "alt_value": 0
+                "alt_value": 215.24
             }
         }
     },
     "VIVILLON": {
         "2024": {
             "#193": {
-                "alt_value": 0
+                "alt_value": 12.34
             }
         }
     },
     "RATTATA": {
         "2000": {
             "#66": {
-                "alt_value": 0
+                "alt_value": 20.9
             }
         }
     },
@@ -4483,78 +4483,78 @@
         },
         "1999": {
             "#23": {
-                "alt_value": 0
+                "alt_value": 48.71
             }
         }
     },
     "DROWZEE": {
         "1999": {
             "#49": {
-                "alt_value": 0
+                "alt_value": 25.67
             }
         },
         "2000": {
             "#54": {
-                "alt_value": 0
+                "alt_value": 24.62
             }
         }
     },
     "GOLEM": {
         "2023": {
             "#189": {
-                "alt_value": 0
+                "alt_value": 14.24
             }
         }
     },
     "YVELTAL": {
         "2023": {
             "#205": {
-                "alt_value": 0
+                "alt_value": 19.64
             }
         },
         "2021": {
             "#46": {
-                "alt_value": 0
+                "alt_value": 12.41
             }
         }
     },
     "WUGTRIO": {
         "2024": {
             "#224": {
-                "alt_value": 0
+                "alt_value": 13.85
             }
         }
     },
     "PHANPY": {
         "2024": {
             "#205": {
-                "alt_value": 0
+                "alt_value": 15.05
             }
         }
     },
     "WEAVILE": {
         "2019": {
             "#238": {
-                "alt_value": 0
+                "alt_value": 20.47
             }
         }
     },
     "HITMONCHAN": {
         "2002": {
             "#69": {
-                "alt_value": 0
+                "alt_value": 26.61
             }
         }
     },
     "TURTONATOR": {
         "2024": {
             "#146": {
-                "alt_value": 0
+                "alt_value": 11.89
             }
         },
         "2019": {
             "#SV52": {
-                "alt_value": 0
+                "alt_value": 16.55
             }
         }
     },
@@ -4568,7 +4568,7 @@
     "RIOLU": {
         "2019": {
             "#SV21": {
-                "alt_value": 0
+                "alt_value": 15.45
             }
         }
     },
@@ -4580,73 +4580,73 @@
         },
         "2023": {
             "#172": {
-                "alt_value": 0
+                "alt_value": 19.59
             }
         }
     },
     "BELDUM": {
         "2019": {
             "#SV30": {
-                "alt_value": 0
+                "alt_value": 12.45
             }
         }
     },
     "PORYGON": {
         "2023": {
             "#214": {
-                "alt_value": 0
+                "alt_value": 16.91
             }
         }
     },
     "HOUNDOUR": {
         "2023": {
             "#204": {
-                "alt_value": 0
+                "alt_value": 16.77
             }
         },
         "2004": {
             "#60": {
-                "alt_value": 0
+                "alt_value": 80.79
             }
         }
     },
     "DUSKNOIR": {
         "2024": {
             "#70": {
-                "alt_value": 0
+                "alt_value": 21.96
             }
         }
     },
     "GOLISOPOD": {
         "2019": {
             "#SV48": {
-                "alt_value": 0
+                "alt_value": 17.1
             }
         }
     },
     "HORSEA": {
         "1999": {
             "#49": {
-                "alt_value": 0
+                "alt_value": 17.69
             }
         },
         "2000": {
             "#87": {
-                "alt_value": 0
+                "alt_value": 17.77
             }
         }
     },
     "EXEGGCUTE": {
         "2024": {
             "#192": {
-                "alt_value": 0
+                "alt_value": 15.81
             }
         }
     },
     "KABUTOPS": {
         "2006": {
             "#9": {
-                "alt_value": 0
+                "alt_value": 70.73
             }
         },
         "2002": {
@@ -4663,26 +4663,26 @@
     "BEWEAR": {
         "2024": {
             "#79": {
-                "alt_value": 0
+                "alt_value": 16.72
             }
         }
     },
     "DIGLETT": {
         "1999": {
             "#47": {
-                "alt_value": 0
+                "alt_value": 28.5
             }
         },
         "2000": {
             "#52": {
-                "alt_value": 0
+                "alt_value": 19.18
             }
         }
     },
     "ARMAROUGE": {
         "2023": {
             "#203": {
-                "alt_value": 0
+                "alt_value": 16.36
             }
         }
     },
@@ -4696,7 +4696,7 @@
     "GEODUDE": {
         "1999": {
             "#47": {
-                "alt_value": 0
+                "alt_value": 21.07
             }
         }
     },
@@ -4710,68 +4710,68 @@
     "WOOLOO": {
         "2025": {
             "#170": {
-                "alt_value": 0
+                "alt_value": 12.9
             }
         }
     },
     "MAGBY": {
         "2023": {
             "#186": {
-                "alt_value": 0
+                "alt_value": 18.4
             }
         }
     },
     "ROWLET": {
         "2019": {
             "#SV2": {
-                "alt_value": 0
+                "alt_value": 17.59
             }
         }
     },
     "BRUXISH": {
         "2024": {
             "#200": {
-                "alt_value": 0
+                "alt_value": 13.19
             }
         }
     },
     "KECLEON": {
         "2024": {
             "#213": {
-                "alt_value": 0
+                "alt_value": 14.55
             }
         }
     },
     "APPLETUN": {
         "2024": {
             "#211": {
-                "alt_value": 0
+                "alt_value": 14.34
             }
         }
     },
     "WIGGLYTUFF": {
         "2000": {
             "#40": {
-                "alt_value": 0
+                "alt_value": 17.69
             }
         }
     },
     "KOFFING": {
         "2000": {
             "#58": {
-                "alt_value": 0
+                "alt_value": 17.73
             }
         },
         "2019": {
             "#243": {
-                "alt_value": 0
+                "alt_value": 26.77
             }
         }
     },
     "LILLIGANT": {
         "2022": {
             "#163": {
-                "alt_value": 0
+                "alt_value": 21.22
             }
         }
     },
@@ -4785,75 +4785,75 @@
     "RIBOMBEE": {
         "2025": {
             "#164": {
-                "alt_value": 0
+                "alt_value": 12.57
             }
         }
     },
     "NIHILEGO": {
         "2019": {
             "#SV62": {
-                "alt_value": 0
+                "alt_value": 17.59
             }
         }
     },
     "OKIDOGI": {
         "2024": {
             "#90": {
-                "alt_value": 0
+                "alt_value": 17.48
             }
         }
     },
     "SCYTHER": {
         "2019": {
             "#SV1": {
-                "alt_value": 0
+                "alt_value": 21.28
             }
         }
     },
     "JOLTIK": {
         "2024": {
             "#150": {
-                "alt_value": 0
+                "alt_value": 13.21
             }
         }
     },
     "MAREEP": {
         "2023": {
             "#GG34": {
-                "alt_value": 0
+                "alt_value": 14.17
             }
         }
     },
     "MACHAMP": {
         "2015": {
             "#90": {
-                "alt_value": 0
+                "alt_value": 38.84
             }
         },
         "2022": {
             "#73": {
-                "alt_value": 0
+                "alt_value": 17.07
             }
         }
     },
     "PINSIR": {
         "2024": {
             "#168": {
-                "alt_value": 0
+                "alt_value": 18.02
             }
         }
     },
     "MAMOSWINE": {
         "2025": {
             "#174": {
-                "alt_value": 0
+                "alt_value": 10.01
             }
         }
     },
     "BLISSEY": {
         "2022": {
             "#TG22": {
-                "alt_value": 0
+                "alt_value": 18.96
             }
         }
     },
@@ -4865,48 +4865,48 @@
         },
         "2003": {
             "#6": {
-                "alt_value": 0
+                "alt_value": 37.23
             }
         }
     },
     "SHAYMIN": {
         "2009": {
             "#5": {
-                "alt_value": 0
+                "alt_value": 28.57
             },
             "#11": {
-                "alt_value": 0
+                "alt_value": 31.44
             }
         },
         "2025": {
             "#185": {
-                "alt_value": 0
+                "alt_value": 15.01
             }
         },
         "2013": {
             "#21": {
-                "alt_value": 0
+                "alt_value": 134.83
             }
         }
     },
     "SUDOWOODO": {
         "2023": {
             "#219": {
-                "alt_value": 0
+                "alt_value": 20.67
             }
         }
     },
     "NOIBAT": {
         "2025": {
             "#169": {
-                "alt_value": 0
+                "alt_value": 15.14
             }
         }
     },
     "MAGNEMITE": {
         "2000": {
             "#60": {
-                "alt_value": 0
+                "alt_value": 19.4
             }
         },
         "1999": {
@@ -4918,19 +4918,19 @@
     "ELECTRODE": {
         "2004": {
             "#107": {
-                "alt_value": 0
+                "alt_value": 145.37
             }
         },
         "2019": {
             "#SV57": {
-                "alt_value": 0
+                "alt_value": 20.37
             }
         }
     },
     "ANNIHILAPE": {
         "2023": {
             "#242": {
-                "alt_value": 0
+                "alt_value": 13.48
             }
         }
     },
@@ -4951,7 +4951,7 @@
     "SOLGALEO": {
         "2019": {
             "#SM104A": {
-                "alt_value": 0
+                "alt_value": 25.55
             }
         }
     },
@@ -4965,129 +4965,129 @@
     "CLEFFA": {
         "2021": {
             "#20": {
-                "alt_value": 0
+                "alt_value": 14.94
             }
         }
     },
     "LECHONK": {
         "2023": {
             "#209": {
-                "alt_value": 0
+                "alt_value": 16.24
             }
         }
     },
     "CONKELDURR": {
         "2022": {
             "#74": {
-                "alt_value": 0
+                "alt_value": 12.18
             }
         }
     },
     "PAWMI": {
         "2024": {
             "#226": {
-                "alt_value": 0
+                "alt_value": 12.43
             }
         }
     },
     "ORBEETLE": {
         "2022": {
             "#TG13": {
-                "alt_value": 0
+                "alt_value": 16.65
             }
         }
     },
     "GALVANTULA": {
         "2024": {
             "#168": {
-                "alt_value": 0
+                "alt_value": 16.75
             }
         }
     },
     "REVAVROOM": {
         "2023": {
             "#224": {
-                "alt_value": 0
+                "alt_value": 12.96
             }
         }
     },
     "BANETTE": {
         "2019": {
             "#SV61": {
-                "alt_value": 0
+                "alt_value": 19.45
             }
         }
     },
     "EKANS": {
         "2000": {
             "#56": {
-                "alt_value": 0
+                "alt_value": 16.51
             }
         }
     },
     "TOXTRICITY": {
         "2020": {
             "#196": {
-                "alt_value": 0
+                "alt_value": 19.02
             }
         }
     },
     "CRABOMINABLE": {
         "2024": {
             "#149": {
-                "alt_value": 0
+                "alt_value": 11.8
             }
         }
     },
     "RELICANTH": {
         "2024": {
             "#173": {
-                "alt_value": 0
+                "alt_value": 15.27
             }
         }
     },
     "GALLADE": {
         "2022": {
             "#TG19": {
-                "alt_value": 0
+                "alt_value": 18.2
             }
         }
     },
     "ORANGURU": {
         "2020": {
             "#199": {
-                "alt_value": 0
+                "alt_value": 13.78
             }
         }
     },
     "EXCADRILL": {
         "2019": {
             "#246": {
-                "alt_value": 0
+                "alt_value": 14.66
             }
         },
         "2025": {
             "#168": {
-                "alt_value": 0
+                "alt_value": 23.63
             }
         },
         "2024": {
             "#174": {
-                "alt_value": 0
+                "alt_value": 13.38
             }
         }
     },
     "SPIDOPS": {
         "2025": {
             "#187": {
-                "alt_value": 0
+                "alt_value": 16.34
             }
         }
     },
     "SLAKOTH": {
         "2024": {
             "#212": {
-                "alt_value": 0
+                "alt_value": 17.0
             }
         }
     },
@@ -5101,61 +5101,61 @@
     "KARTANA": {
         "2019": {
             "#SV73": {
-                "alt_value": 0
+                "alt_value": 16.93
             }
         }
     },
     "DONDOZO": {
         "2023": {
             "#207": {
-                "alt_value": 0
+                "alt_value": 15.31
             }
         }
     },
     "BOUFFALANT": {
         "2025": {
             "#170": {
-                "alt_value": 0
+                "alt_value": 20.89
             }
         }
     },
     "SEEL": {
         "2000": {
             "#91": {
-                "alt_value": 0
+                "alt_value": 20.74
             }
         }
     },
     "DIPPLIN": {
         "2024": {
             "#170": {
-                "alt_value": 0
+                "alt_value": 14.49
             }
         }
     },
     "MAWILE": {
         "2022": {
             "#TG17": {
-                "alt_value": 0
+                "alt_value": 19.19
             }
         }
     },
     "VENONAT": {
         "1999": {
             "#63": {
-                "alt_value": 0
+                "alt_value": 15.57
             }
         }
     },
     "RATICATE": {
         "2001": {
             "#6": {
-                "alt_value": 0
+                "alt_value": 30.75
             }
         },
         "2000": {
             "#51": {
-                "alt_value": 0
+                "alt_value": 23.37
             }
         },
         "2025": {
@@ -5167,7 +5167,7 @@
     "ELECTIVIRE": {
         "2023": {
             "#GG08": {
-                "alt_value": 0
+                "alt_value": 15.41
             }
         }
     },
@@ -5181,56 +5181,56 @@
     "GHOLDENGO": {
         "2023": {
             "#231": {
-                "alt_value": 0
+                "alt_value": 15.26
             }
         }
     },
     "DRAPION": {
         "2023": {
             "#GG49": {
-                "alt_value": 0
+                "alt_value": 13.92
             }
         }
     },
     "SCOVILLAIN": {
         "2023": {
             "#202": {
-                "alt_value": 0
+                "alt_value": 13.86
             }
         }
     },
     "PARAS": {
         "2023": {
             "#GG32": {
-                "alt_value": 0
+                "alt_value": 12.27
             }
         }
     },
     "TINKATON": {
         "2023": {
             "#262": {
-                "alt_value": 0
+                "alt_value": 24.74
             }
         }
     },
     "GROTLE": {
         "2024": {
             "#164": {
-                "alt_value": 0
+                "alt_value": 16.28
             }
         }
     },
     "TAUROS": {
         "1999": {
             "#47": {
-                "alt_value": 0
+                "alt_value": 24.04
             }
         }
     },
     "MAGNEZONE": {
         "2010": {
             "#96": {
-                "alt_value": 0
+                "alt_value": 74.69
             }
         }
     },
@@ -5244,14 +5244,14 @@
     "TROPIUS": {
         "2023": {
             "#195": {
-                "alt_value": 0
+                "alt_value": 13.01
             }
         }
     },
     "CUTIEFLY": {
         "2024": {
             "#172": {
-                "alt_value": 0
+                "alt_value": 10.0
             }
         }
     },
@@ -5265,35 +5265,42 @@
     "FLAAFFY": {
         "2022": {
             "#TG03": {
-                "alt_value": 0
+                "alt_value": 13.21
             }
         }
     },
     "PERRIN": {
         "2024": {
             "#209": {
-                "alt_value": 0
+                "alt_value": 13.76
             }
         }
     },
     "PRIMEAPE": {
         "1999": {
             "#43": {
-                "alt_value": 0
+                "alt_value": 31.2
             }
         }
     },
     "PROBOPASS": {
         "2024": {
             "#182": {
-                "alt_value": 0
+                "alt_value": 13.57
             }
         }
     },
     "DRAGONAIR": {
         "2000": {
             "#148": {
-                "alt_value": 0
+                "alt_value": 774.71
+            }
+        }
+    },
+    "MR_MIME": {
+        "2023": {
+            "#179": {
+                "alt_value": 21.39
             }
         }
     }
