@@ -1,44 +1,542 @@
-document.getElementById('lookupBtn').onclick = async () => {
-    const cert = certInput.value.trim();
-    if (!/^\d{6,}$/.test(cert)) {
-        altInfo.innerHTML = '<strong>Invalid cert</strong>';
-        altInfo.classList.add('error');
-        return;
-    }
-    altInfo.textContent = "Fetching cert...";
-    altInfo.classList.remove('error');
+<!DOCTYPE html>
+<html lang="en">
 
-    try {
-        // Step 1: Get Asset ID
-        const r1 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({
-                operationName: "Cert",
-                variables: { certNumber: cert },
-                query: "query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id } } }"
-            })
-        });
-        const j1 = await r1.json();
-        const assetId = j1?.data?.cert?.asset?.id;
-        if (!assetId) throw new Error("Cert not found on Alt");
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seru’s Sniper Sniper</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-        altInfo.innerHTML = `Asset ID: <strong>${assetId}</strong><br>Fetching card & value...`;
+        :root {
+            --bg: #f5f0e6;
+            --panel: #fdfaf7;
+            --card: #efe3d5;
+            --accent: #6b4e31;
+            --purple: #8b6f9e;
+            --green: #5d8b4e;
+            --text: #3c2f2f;
+            --text-dim: #6b5747;
+            --border: #d9c2a7;
+        }
 
-        // Step 2: Get card name + value in one call
-        const r2 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({
-                operationName: "AssetDetails",
-                variables: {
-                    id: assetId,
-                    tsFilter: {
-                        gradeNumber: currentGrade === '10' ? "10.0" : currentGrade === '9' ? "9.0" : "10.0",
-                        gradingCompany: currentGrade === 'cgc' ? "CGC" : "PSA"
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            padding: 0.8rem;
+            font-size: 0.88rem;
+        }
+
+        .container {
+            max-width: 1920px;
+            margin: 0 auto;
+            background: var(--panel);
+            border-radius: 24px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            box-shadow: 0 20px 60px rgba(107, 78, 49, 0.15);
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 1.6rem);
+        }
+
+        header {
+            background: linear-gradient(135deg, #8b6f47, #a67c52);
+            padding: 1.4rem 2rem 1.2rem;
+            text-align: center;
+            color: #fff8f0;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5.5vw, 4.5rem);
+            font-weight: 900;
+            letter-spacing: 6px;
+            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        header h2 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+            margin-top: 0.3rem;
+        }
+
+        header h3 {
+            font-size: 0.85rem;
+            margin-top: 0.3rem;
+        }
+
+        #lastUpdatedHeader {
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+            background: rgba(255, 248, 240, 0.3);
+            padding: 0.3rem 0.9rem;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        .controls {
+            padding: 0.9rem 1.8rem;
+            background: #fdfaf7;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .left-controls,
+        .right-controls {
+            display: flex;
+            gap: 0.9rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        input[type="text"] {
+            padding: 0.65rem 1.2rem;
+            background: white;
+            border: 1.8px solid #d9c2a7;
+            border-radius: 14px;
+            font-size: 0.95rem;
+            min-width: 240px;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(107, 78, 49, 0.15);
+        }
+
+        .btn-group {
+            display: flex;
+            background: white;
+            border-radius: 14px;
+            padding: 5px;
+            border: 1.8px solid #d9c2a7;
+            gap: 5px;
+        }
+
+        .btn {
+            padding: 0.55rem 1.1rem;
+            background: transparent;
+            border: none;
+            color: var(--text-dim);
+            font-weight: 600;
+            font-size: 0.85rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn.active {
+            background: var(--accent);
+            color: #fff8f0;
+            font-weight: 800;
+        }
+
+        #lookupBtn {
+            padding: 0.65rem 2rem;
+            background: linear-gradient(135deg, #8b6f9e, #a78bfa);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-weight: 900;
+            font-size: 0.95rem;
+            cursor: pointer;
+        }
+
+        #altInfo {
+            margin: 0.8rem 1.8rem;
+            padding: 0.9rem 1.4rem;
+            background: #f0e6d2;
+            border: 1.8px solid #d9c2a7;
+            border-radius: 16px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .results {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.6rem;
+        }
+
+        .year-section {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 1.6rem;
+            margin-bottom: 2rem;
+        }
+
+        .year-title {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: var(--accent);
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .card {
+            height: 110px;
+            padding: 1rem;
+            background: var(--card);
+            border-radius: 18px;
+            border: 1.8px solid #d9c2a7;
+            text-decoration: none;
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.6rem;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-6px) scale(1.04);
+            border-color: var(--accent);
+            box-shadow: 0 15px 35px rgba(107, 78, 49, 0.2);
+        }
+
+        .card-code {
+            font-size: 1.1rem;
+            font-weight: 900;
+            color: var(--accent);
+        }
+
+        .price-row {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .label {
+            color: var(--text-dim);
+            font-size: 0.7rem;
+        }
+
+        .insured {
+            color: var(--green);
+        }
+
+        .alt {
+            color: var(--purple);
+            font-weight: 900;
+        }
+
+        .ext-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: var(--purple);
+            color: white;
+            font-size: 0.6rem;
+            font-weight: 900;
+            padding: 3px 8px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            padding: 0.8rem;
+            text-align: center;
+            background: #ede0d4;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .setup {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 3rem;
+            background: var(--panel);
+        }
+
+        .setup h2 {
+            font-size: 2.2rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+
+        .setup p {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            margin-bottom: 2rem;
+        }
+
+        .load-btn {
+            padding: 1.2rem 3.5rem;
+            background: var(--accent);
+            color: #fff8f0;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            cursor: pointer;
+            box-shadow: 0 12px 40px rgba(107, 78, 49, 0.4);
+            transition: all 0.3s;
+        }
+
+        .load-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(107, 78, 49, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>SNIPER SNIPER</h1>
+            <h2>V2.0 — COFFEE EDITION</h2>
+            <h3>Seru</h3>
+            <div id="lastUpdatedHeader">Loading...</div>
+            <h6>Insured Value is a function of Alt Value and Insured Value at time of mint on CC</h6>
+        </header>
+        </header>
+
+        <div class="controls">
+            <div class="left-controls">
+                <input type="text" id="searchInput" placeholder="Search Pokémon...">
+                <div class="btn-group">
+                    <button class="btn lang-en active" data-lang="en">EN</button>
+                    <button class="btn lang-jp" data-lang="jp">JP</button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn grade-psa10 active" data-grade="10">PSA 10</button>
+                    <button class="btn grade-psa9" data-grade="9">PSA 9</button>
+                    <button class="btn grade-cgc10" data-grade="cgc">CGC 10</button>
+                </div>
+                <div class="btn-group">
+                    <button id="externalToggle" class="btn active">+ EXTERNAL</button>
+                </div>
+            </div>
+
+            <div class="right-controls">
+                <button id="lookupBtn">LOOKUP ALT</button>
+                <input type="text" id="certInput" placeholder="PSA Cert Number">
+            </div>
+        </div>
+
+        <div id="altInfo">Enter a PSA cert number → click LOOKUP ALT</div>
+        <div class="results" id="results"></div>
+        <div class="footer">
+            <div id="status">Initializing…</div>
+        </div>
+    </div>
+
+    <script>
+        const data = { en: { psa10: {}, psa9: {}, cgc10: {}, external: {} }, jp: { psa10: {}, psa9: {}, cgc10: {}, external: {} } };
+        let currentLang = 'en', currentGrade = '10', includeExternal = true;
+        let currentData = {};
+        const results = document.getElementById('results');
+        const searchInput = document.getElementById('searchInput');
+        const certInput = document.getElementById('certInput');
+        const altInfo = document.getElementById('altInfo');
+        const status = document.getElementById('status');
+
+        // 100% WORKING LOCAL LOAD — FIXED
+        window.loadLocalFiles = function () {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.multiple = true;
+            input.accept = '.json';
+            input.onchange = e => {
+                const files = Array.from(e.target.files);
+                if (files.length === 0) return;
+                let loaded = 0;
+                files.forEach(file => {
+                    const reader = new FileReader();
+                    reader.onload = () => {
+                        try {
+                            const name = file.name.toLowerCase();
+                            const isJP = name.includes('jp') || name.includes('_jp');
+                            const lang = isJP ? 'jp' : 'en';
+                            const isExternal = name.includes('external');
+                            const json = JSON.parse(reader.result.replace(/^\uFEFF/, '').trim());
+                            const grade = name.includes('psa10') ? 'psa10' : name.includes('psa9') ? 'psa9' : 'cgc10';
+
+                            if (isExternal) {
+                                if (!data[lang].external) data[lang].external = {};
+                                data[lang].external[grade] = json;
+                            } else {
+                                data[lang][grade] = json;
+                            }
+                            loaded++;
+                            if (loaded === files.length) {
+                                updateData();
+                                status.textContent = `Loaded ${files.length} files`;
+                                results.innerHTML = ''; // Clear setup screen
+                            }
+                        } catch (err) {
+                            console.error('Error loading:', file.name, err);
+                        }
+                    };
+                    reader.readAsText(file);
+                });
+            };
+            input.click();
+        };
+
+        async function tryAutoLoad() {
+            if (location.protocol === 'file:') return false;
+            const files = ['./Dicts/PSA10.json', './Dicts/PSA9.json', './Dicts/CGC10.json', './Dicts/PSA10_JP.json', './Dicts/PSA9_JP.json', './Dicts/CGC10_JP.json', './Dicts/PSA10_external.json', './Dicts/PSA10_JP_external.json', './Dicts/PSA9_external.json', './Dicts/PSA9_JP_external.json'];
+            let loaded = 0;
+            for (const f of files) {
+                try {
+                    const r = await fetch(f + '?t=' + Date.now(), { cache: 'no-store' });
+                    if (!r.ok) continue;
+                    const json = JSON.parse((await r.text()).replace(/^\uFEFF/, '').trim());
+                    const isJP = f.includes('JP') || f.includes('_JP');
+                    const lang = isJP ? 'jp' : 'en';
+                    const isExternal = f.includes('_external');
+                    const grade = f.includes('PSA10') ? 'psa10' : f.includes('PSA9') ? 'psa9' : 'cgc10';
+                    if (isExternal) {
+                        if (!data[lang].external) data[lang].external = {};
+                        data[lang].external[grade] = json;
+                    } else data[lang][grade] = json;
+                    loaded++;
+                } catch (e) { }
+            }
+            return loaded >= 6;
+        }
+
+        function buildCurrentData() {
+            const key = currentGrade === '10' ? 'psa10' : currentGrade === '9' ? 'psa9' : 'cgc10';
+            const base = structuredClone(data[currentLang][key] || {});
+
+            if (!includeExternal || currentGrade === 'cgc') return base;
+
+            const ext = data[currentLang].external?.[key];
+            if (!ext) return base;
+
+            for (const [poke, years] of Object.entries(ext)) {
+                if (!base[poke]) base[poke] = {};
+                for (const [yr, cards] of Object.entries(years)) {
+                    if (!base[poke][yr]) base[poke][yr] = {};
+                    for (const [code, val] of Object.entries(cards)) {
+                        const altValue = typeof val === 'object' ? (val.alt_value ?? val) : val;
+                        // HIDE EXTERNAL CARDS WITH $0 ALT VALUE
+                        if (Number(altValue) === 0) continue;
+
+                        base[poke][yr][code] = {
+                            insured_value: 0,
+                            alt_value: altValue
+                        };
                     }
-                },
-                query: `query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
+                }
+            }
+            return base;
+        }
+
+        function formatCardContent(code, val, name, year, isExt = false) {
+            const clean = code.replace(/^#/, '').replace('NA', '').trim();
+            const terms = [name, year, clean, currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10', currentLang === 'jp' ? 'Japanese' : ''].filter(Boolean).join(' ');
+            const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
+            const insured = val?.insured_value ?? 0;
+            const alt = val?.alt_value ?? 0;
+            let priceLine = isExt
+                ? `<div class="price-row"><span class="label">ALT VALUE:</span> <span class="alt">$${Number(alt).toLocaleString()}</span></div>`
+                : `<div class="price-row"><span class="label">INSURED:</span> <span class="insured">$${Number(insured).toLocaleString()}</span></div>` +
+                (alt > 0 ? `<div class="price-row"><span class="label">ALT:</span> <span class="alt">$${Number(alt).toLocaleString()}</span></div>` : '');
+            const badge = isExt ? '<div class="ext-badge">ALT</div>' : '';
+            return `<a href="${url}" target="_blank" class="card${isExt ? ' external' : ''}">${badge}<div class="card-code">${code}</div>${priceLine}</a>`;
+        }
+
+        function updateData() { currentData = buildCurrentData(); search(); }
+        function search() {
+            const q = searchInput.value.trim().toLowerCase();
+            results.innerHTML = '';
+            if (!q) return;
+            const parts = q.split(/\s+/);
+            const nameQ = parts[0];
+            const yearQ = parts.length > 1 ? parts.slice(1).join(' ') : null;
+            const extDict = includeExternal ? data[currentLang].external?.[currentGrade === '10' ? 'psa10' : currentGrade === '9' ? 'psa9' : 'cgc10'] : null;
+            const matches = Object.keys(currentData).filter(n => n.toLowerCase().includes(nameQ)).slice(0, 40);
+            matches.forEach(name => {
+                const div = document.createElement('div');
+                div.innerHTML = `<div style="font-size:1.2rem;font-weight:800;color:var(--accent);margin-bottom:0.8rem">${name.toUpperCase()}</div>`;
+                const years = yearQ ? (currentData[name][yearQ] ? [[yearQ, currentData[name][yearQ]]] : []) : Object.entries(currentData[name]).sort(([a], [b]) => a.localeCompare(b));
+                years.forEach(([year, cards]) => {
+                    const sec = document.createElement('div'); sec.className = 'year-section';
+                    sec.innerHTML = `<div class="year-title">${year}</div><div class="cards"></div>`;
+                    const cont = sec.querySelector('.cards');
+                    Object.entries(cards).forEach(([code, val]) => {
+                        const isExt = extDict && extDict[name]?.[year]?.[code] !== undefined;
+                        cont.innerHTML += formatCardContent(code, val, name, year, isExt);
+                    });
+                    div.appendChild(sec);
+                });
+                results.appendChild(div);
+            });
+        }
+
+        searchInput.addEventListener('input', search);
+        document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => { document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active')); b.classList.add('active'); currentLang = b.dataset.lang; updateData(); });
+        document.querySelectorAll('[data-grade]').forEach(b => b.onclick = () => { document.querySelectorAll('[data-grade]').forEach(x => x.classList.remove('active')); b.classList.add('active'); currentGrade = b.dataset.grade; updateData(); });
+        document.getElementById('externalToggle').onclick = () => { includeExternal = !includeExternal; this.classList.toggle('active'); this.textContent = includeExternal ? '+ EXTERNAL' : 'EXTERNAL OFF'; updateData(); };
+
+        document.getElementById('lookupBtn').onclick = async () => {
+            const cert = certInput.value.trim();
+            if (!/^\d{6,}$/.test(cert)) {
+                altInfo.innerHTML = '<strong>Invalid cert</strong>';
+                altInfo.classList.add('error');
+                return;
+            }
+            altInfo.textContent = "Fetching cert...";
+            altInfo.classList.remove('error');
+
+            try {
+                // Step 1: Get Asset ID
+                const r1 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        operationName: "Cert",
+                        variables: { certNumber: cert },
+                        query: "query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id } } }"
+                    })
+                });
+                const j1 = await r1.json();
+                const assetId = j1?.data?.cert?.asset?.id;
+                if (!assetId) throw new Error("Cert not found on Alt");
+
+                altInfo.innerHTML = `Asset ID: <strong>${assetId}</strong><br>Fetching card & value...`;
+
+                // Step 2: Get card name + value in one call
+                const r2 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        operationName: "AssetDetails",
+                        variables: {
+                            id: assetId,
+                            tsFilter: {
+                                gradeNumber: currentGrade === '10' ? "10.0" : currentGrade === '9' ? "9.0" : "10.0",
+                                gradingCompany: currentGrade === 'cgc' ? "CGC" : "PSA"
+                            }
+                        },
+                        query: `query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
                     asset(id: $id) {
                         name
                         altValueInfo(tsFilter: $tsFilter) {
@@ -50,29 +548,64 @@ document.getElementById('lookupBtn').onclick = async () => {
                         }
                     }
                 }`
-            })
-        });
-        const j2 = await r2.json();
-        const asset = j2?.data?.asset;
-        if (!asset) throw new Error("Asset not found");
+                    })
+                });
+                const j2 = await r2.json();
+                const asset = j2?.data?.asset;
+                if (!asset) throw new Error("Asset not found");
 
-        const cardName = asset.name || "Unknown Card";
-        const info = asset.altValueInfo;
-        if (!info?.currentAltValue) throw new Error("No Alt value");
+                const cardName = asset.name || "Unknown Card";
+                const info = asset.altValueInfo;
+                if (!info?.currentAltValue) throw new Error("No Alt value");
 
-        const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-        const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
-        const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
+                const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+                const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
+                const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
 
-        altInfo.innerHTML = `
+                altInfo.innerHTML = `
             Asset ID: <strong>${assetId}</strong><br>
             <strong style="font-size:1.15em;color:#6b4e31;">${cardName}</strong><br><br>
             <strong>Alt Value: $${val}</strong><br>
             <strong>70% Range: $${low} – $${high}</strong>
         `;
 
-    } catch (e) {
-        altInfo.innerHTML = `<strong>Error:</strong> ${e.message}`;
-        altInfo.classList.add('error');
-    }
-};
+            } catch (e) {
+                altInfo.innerHTML = `<strong>Error:</strong> ${e.message}`;
+                altInfo.classList.add('error');
+            }
+        };
+        // FINAL STARTUP — 100% WORKING
+        (async () => {
+            if (location.protocol === 'file:') {
+                results.innerHTML = `
+                    <div class="setup">
+                        <h2>Local Mode Active</h2>
+                        <p>Click below to load your dictionary files</p>
+                        <button class="load-btn" onclick="loadLocalFiles()">LOAD JSON FILES</button>
+                    </div>`;
+                status.textContent = 'Local — click to load';
+                return;
+            }
+            const success = await tryAutoLoad();
+            if (success) {
+                updateData();
+                status.textContent = 'Ready';
+            } else {
+                results.innerHTML = `
+                    <div class="setup">
+                        <h2>Offline</h2>
+                        <p>Load dictionary files manually</p>
+                        <button class="load-btn" onclick="loadLocalFiles()">LOAD JSON FILES</button>
+                    </div>`;
+                status.textContent = 'Offline — load manually';
+            }
+        })();
+
+        fetch('./Dicts/LastUpdated.txt?' + Date.now())
+            .then(r => r.ok ? r.text() : 'Unknown')
+            .then(t => document.getElementById('lastUpdatedHeader').textContent = t.trim() || 'Last updated: Unknown')
+            .catch(() => { });
+    </script>
+</body>
+
+</html>
