@@ -99,6 +99,9 @@
             },
             "#013SMP": {
                 "alt_value": 6445.26
+            },
+            "false": {
+                "alt_value": 290.83
             }
         },
         "2023": {
@@ -583,11 +586,11 @@
             "false": {
                 "alt_value": 287.46
             },
-            "false": {
-                "alt_value": 287.46
-            },
             "#NONUM": {
                 "alt_value": 480.25
+            },
+            "false": {
+                "alt_value": 287.46
             }
         },
         "2022": {
@@ -1037,6 +1040,9 @@
         "1999": {
             "false": {
                 "alt_value": 12569.93
+            },
+            "false": {
+                "alt_value": 12569.93
             }
         }
     },
@@ -1078,6 +1084,9 @@
             }
         },
         "2000": {
+            "false": {
+                "alt_value": 5425.47
+            },
             "false": {
                 "alt_value": 5425.47
             }
@@ -1573,11 +1582,17 @@
         "1999": {
             "false": {
                 "alt_value": 481.64
+            },
+            "false": {
+                "alt_value": 481.64
             }
         }
     },
     "SLOWKING": {
         "1999": {
+            "false": {
+                "alt_value": 1054.32
+            },
             "false": {
                 "alt_value": 1054.32
             }
@@ -1706,6 +1721,9 @@
     },
     "TOGEPI": {
         "1999": {
+            "false": {
+                "alt_value": 0
+            },
             "false": {
                 "alt_value": 0
             }
