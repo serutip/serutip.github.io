@@ -49,7 +49,7 @@
                 "insured_value": 200.0,
                 "alt_value": 89.7
             },
-            "#057SVP": {
+            "#057": {
                 "insured_value": 89.0,
                 "alt_value": 80.59
             },
@@ -69,7 +69,7 @@
                 "insured_value": 23.93,
                 "alt_value": 36.86
             },
-            "#": {
+            "#PROMO": {
                 "alt_value": 16.45
             }
         },
@@ -120,7 +120,7 @@
                 "insured_value": 177.64,
                 "alt_value": 144.81
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 16.94,
                 "alt_value": 29.98
             }
@@ -186,7 +186,7 @@
                 "insured_value": 119.0,
                 "alt_value": 112.77
             },
-            "#153SVP": {
+            "#153": {
                 "insured_value": 840.0,
                 "alt_value": 783.99
             },
@@ -202,7 +202,7 @@
                 "insured_value": 68.16,
                 "alt_value": 42.57
             },
-            "#101SVP": {
+            "#101": {
                 "insured_value": 30.0,
                 "alt_value": 24.78
             }
@@ -250,7 +250,7 @@
                 "insured_value": 29.37,
                 "alt_value": 20.6
             },
-            "#": {
+            "#PROMO": {
                 "alt_value": 52.49
             }
         },
@@ -315,7 +315,7 @@
                 "insured_value": 116.13,
                 "alt_value": 159.74
             },
-            "#016SP": {
+            "#016": {
                 "insured_value": 59.92,
                 "alt_value": 128.47
             },
@@ -1033,7 +1033,7 @@
                 "insured_value": 85.0,
                 "alt_value": 82.12
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 183.0,
                 "alt_value": 351.20106570950963
             },
@@ -1073,7 +1073,7 @@
                 "insured_value": 37.4,
                 "alt_value": 36.74
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 1039.45,
                 "alt_value": 892.58
             }
@@ -1537,7 +1537,7 @@
             }
         },
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 32.23,
                 "alt_value": 63.29
             }
@@ -1973,7 +1973,7 @@
             }
         },
         "2005": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 490.15,
                 "alt_value": 352.98
             },
@@ -2049,7 +2049,7 @@
                 "insured_value": 133.2,
                 "alt_value": 108.16
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 41.61,
                 "alt_value": 36.15
             }
@@ -2869,7 +2869,7 @@
             }
         },
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 63.33,
                 "alt_value": 67.97
             }
@@ -2937,7 +2937,7 @@
             }
         },
         "2020": {
-            "#": {
+            "#PROMO": {
                 "alt_value": 142.97
             }
         }
@@ -3062,7 +3062,7 @@
                 "insured_value": 27.5,
                 "alt_value": 36.01
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 55.44,
                 "alt_value": 61.6
             }
@@ -3262,7 +3262,7 @@
                 "insured_value": 32.35,
                 "alt_value": 60.26
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 76.83,
                 "alt_value": 32.66
             }
@@ -3364,7 +3364,7 @@
     },
     "DITTO": {
         "2025": {
-            "#173SVP": {
+            "#173": {
                 "insured_value": 110.0,
                 "alt_value": 85.11
             }
@@ -3428,7 +3428,7 @@
             }
         },
         "2016": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 56.0,
                 "alt_value": 58.10273432900925
             }
@@ -3624,7 +3624,7 @@
                 "insured_value": 30.0,
                 "alt_value": 24.71
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 29.96,
                 "alt_value": 29.46
             },
@@ -3731,7 +3731,7 @@
                 "insured_value": 29.96,
                 "alt_value": 29.37
             },
-            "#": {
+            "#PROMO": {
                 "insured_value": 140.0,
                 "alt_value": 135.44
             },
@@ -3741,7 +3741,7 @@
             }
         },
         "2020": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 100.0,
                 "alt_value": 147.22822990794623
             }
@@ -3907,7 +3907,7 @@
             }
         },
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 53.11,
                 "alt_value": 96.4
             }
@@ -4081,7 +4081,7 @@
             }
         },
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 30.6,
                 "alt_value": 39.01
             }
@@ -4113,7 +4113,7 @@
             }
         },
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 33.92,
                 "alt_value": 46.77
             }
@@ -5298,7 +5298,7 @@
             }
         },
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 39.56,
                 "alt_value": 33.36
             }
@@ -6675,7 +6675,7 @@
     },
     "MARSHTOMP": {
         "2023": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 14.0,
                 "alt_value": 14.40906162022923
             }
@@ -6915,7 +6915,7 @@
             }
         },
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 44.7,
                 "alt_value": 40.54
             },
@@ -7177,7 +7177,7 @@
     },
     "FROAKIE": {
         "2016": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 28.0,
                 "alt_value": 33.91854161268591
             }
@@ -7560,7 +7560,7 @@
             }
         },
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 25.34,
                 "alt_value": 30.07
             }
@@ -7728,7 +7728,7 @@
             }
         },
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 26.07,
                 "alt_value": 27.1
             }
@@ -8018,7 +8018,7 @@
             }
         },
         "1999": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 153.28,
                 "alt_value": 115.43
             }
@@ -8616,7 +8616,7 @@
             }
         },
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 26.63,
                 "alt_value": 35.43
             }
@@ -8698,7 +8698,7 @@
             }
         },
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 54.56,
                 "alt_value": 48.42
             }
@@ -8829,7 +8829,7 @@
     },
     "FARFETCH'D": {
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 25.97,
                 "alt_value": 39.41
             }
@@ -8865,7 +8865,7 @@
             }
         },
         "2013": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 25.2,
                 "alt_value": 27.98
             }
@@ -9195,7 +9195,7 @@
     },
     "GRIMER": {
         "1998": {
-            "#": {
+            "#PROMO": {
                 "insured_value": 38.95,
                 "alt_value": 24.39
             }
