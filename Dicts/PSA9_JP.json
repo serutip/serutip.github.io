@@ -1,1 +1,4718 @@
-{"ARBOK": {"2023": {"#24": {"insured_value": 6.0, "alt_value": 9.638331778893695}}, "1997": {"#24": {"insured_value": 30.0, "alt_value": 38.386756545207426}}, "1996": {"#24": {"insured_value": 29.0, "alt_value": 41.16991594777844}}}, "WIGGLYTUFF": {"1997": {"#40": {"insured_value": 48.0, "alt_value": 37.595228098186126}}}, "ZAPDOS": {"1998": {"#145": {"insured_value": 360.0, "alt_value": 350.2897098569182}}, "1997": {"#145": {"insured_value": 60.0, "alt_value": 58.674040667854385}}, "2001": {"#145": {"insured_value": 50.67, "alt_value": 99.53962014011366}}, "1999": {"#145": {"insured_value": 65.0, "alt_value": 52.352296261155395}}, "2023": {"#204": {"insured_value": 49.0, "alt_value": 61.503976919011535}}}, "GENGAR": {"1999": {"#94": {"insured_value": 138.0, "alt_value": 689.004072709517}}, "2014": {"#90": {"insured_value": 1350.0, "alt_value": 1039.498723978597}, "#79": {"insured_value": 420.0, "alt_value": 229.4776632783773}, "#33": {"insured_value": 46.0, "alt_value": 82.83070920555606}}, "2021": {"#2": {"insured_value": 38.0, "alt_value": 38.86105979450699}, "#20": {"insured_value": 690.0, "alt_value": 713.8002086050512}}, "1997": {"#94": {"insured_value": 180.0, "alt_value": 226.22172962535507}}, "2010": {"#015": {"insured_value": 500.0, "alt_value": 711.2498323957512}}, "2022": {"#74": {"insured_value": 60.0, "alt_value": 36.081304218521055}}, "2001": {"#117": {"insured_value": 239.0, "alt_value": 597.7558905162659}, "#94": {"insured_value": 139.0, "alt_value": 284.8413640348583}}, "2018": {"#38": {"insured_value": 114.0, "alt_value": 98.97811889648436}, "#102": {"insured_value": 180.0, "alt_value": 161.07828629693344}}, "2006": {"#102": {"insured_value": 56.0, "alt_value": 259.7254645636167}}, "2015": {"#10": {"insured_value": 31.0, "alt_value": 101.59165942895983}}, "2019": {"#33": {"insured_value": 34.0, "alt_value": 32.011606607596754}}, "2009": {"#43": {"insured_value": 158.0, "alt_value": 381.83046674279944}}}, "PIKACHU": {"1996": {"#25": {"insured_value": 83.0, "alt_value": 986.4634104748037}}, "2017": {"#200SMP": {"insured_value": 80.0, "alt_value": 65.42303195080201}, "#179SMP": {"insured_value": 100.0, "alt_value": 84.6730555999796}, "#037SMP": {"insured_value": 720.0, "alt_value": 705.1867727769845}}, "2025": {"#020MP": {"insured_value": 75.0, "alt_value": 22.26935126564719}}, "2020": {"#144SP": {"insured_value": 101.0, "alt_value": 94.59657676091915}, "#124SP": {"insured_value": 31.0, "alt_value": 40.45610334719676}}, "1998": {"#25": {"insured_value": 43.0, "alt_value": 59.26546726121536}, "#119": {"insured_value": 60.0, "alt_value": 33.404614638065986}}, "2018": {"#208SMP": {"insured_value": 140.0, "alt_value": 378.41737227113623}, "#31": {"insured_value": 37.0, "alt_value": 30.440099849904197}, "#270SMP": {"insured_value": 328.0, "alt_value": 298.03803880529966}, "#199SMP": {"insured_value": 600.0, "alt_value": 411.44888074412785}, "#280SMP": {"insured_value": 457.0, "alt_value": 484.5802030929497}, "#283SMP": {"insured_value": 215.0, "alt_value": 242.8054326234842}}, "2019": {"#407SMP": {"insured_value": 68.0, "alt_value": 190.63661380120433}, "#036SP": {"insured_value": 44.0, "alt_value": 100.13155810735431}, "#392SMP": {"insured_value": 78.0, "alt_value": 95.223336601514}, "#54": {"insured_value": 135.0, "alt_value": 92.03478258359901}, "#339": {"insured_value": 33.0, "alt_value": 27.51797532003732}, "#002SP": {"insured_value": 48.0, "alt_value": 180.16461459073153}}, "2024": {"#132": {"insured_value": 220.0, "alt_value": 190.80443219994993}, "#122": {"insured_value": 30.0, "alt_value": 23.721917964540285}, "#236": {"insured_value": 30.0, "alt_value": 34.68173511888983}}, "2006": {"#100DPP": {"insured_value": 374.0, "alt_value": 455.2467560388984}, "#095DPP": {"insured_value": 37.0, "alt_value": 58.39485467421928}}, "2023": {"#25": {"insured_value": 132.0, "alt_value": 155.02422651104328}, "#173": {"insured_value": 22.0, "alt_value": 34.435157775878906}, "#98": {"insured_value": 230.0, "alt_value": 160.40742353959516}, "#1": {"insured_value": 150.0, "alt_value": 188.80605112803056}}, "2016": {"#": {"insured_value": 71.0, "alt_value": 119.24028780014338}, "#295XYP": {"insured_value": 1700.0, "alt_value": 1788.467638503319}, "#005SMP": {"insured_value": 354.0, "alt_value": 402.13661679692416}, "#293": {"insured_value": 1280.0, "alt_value": 1906.9339403472845}, "#296XYP": {"insured_value": 4584.0, "alt_value": 4483.29610956397}, "#013SMP": {"insured_value": 3830.0, "alt_value": 3270.1715595934143}, "#204XYP": {"insured_value": 2850.0, "alt_value": 5675.073875823973}, "#231XYP": {"insured_value": 2450.0, "alt_value": 3956.4568833848007}, "#10": {"insured_value": 810.0, "alt_value": 696.6045687002801}, "#292": {"insured_value": 46.0, "alt_value": 111.07496984071044}}, "2022": {"#260": {"insured_value": 205.0, "alt_value": 147.75701294200053}, "#73": {"insured_value": 36.0, "alt_value": 32.69717316306739}, "#205": {"insured_value": 71.0, "alt_value": 90.02976311289567}, "#265SP": {"insured_value": 32.0, "alt_value": 23.518023874342024}, "#323SP": {"insured_value": 200.0, "alt_value": 193.7477389148426}, "#001SVP": {"insured_value": 33.0, "alt_value": 31.416058683826222}}, "2021": {"#208SP": {"insured_value": 55.0, "alt_value": 84.17285572398792}, "#222": {"insured_value": 53.0, "alt_value": 49.44702124567022}, "#227SP": {"insured_value": 1230.0, "alt_value": 1033.2132761227983}, "#24": {"insured_value": 27.0, "alt_value": 19.288890609341788}}, "2014": {"#098XYP": {"insured_value": 266.0, "alt_value": 584.1964316953356}}, "2015": {"#203XYP": {"insured_value": 272.0, "alt_value": 501.7053410037993}, "#175XYP": {"insured_value": 426.0, "alt_value": 716.8728253768169}, "#": {"insured_value": 142.0, "alt_value": 166.98392031708462}}, "2009": {"#7": {"insured_value": 40.0, "alt_value": 35.60290318898455}, "#019LP": {"insured_value": 230.0, "alt_value": 286.4406970928287}, "#32": {"insured_value": 30.0, "alt_value": 58.312859277447615}}, "1997": {"#": {"insured_value": 199.0, "alt_value": 360.6669011884761}}, "1999": {"#40": {"insured_value": 44.0, "alt_value": 42.12222511089678}}, "2005": {"#1": {"insured_value": 3100.0, "alt_value": 2845.6858264608077}}, "2002": {"#21P": {"insured_value": 113.0, "alt_value": 130.68840707695963}, "#10": {"insured_value": 560.0, "alt_value": 695.7638920163877}}, "2003": {"#24": {"insured_value": 93.0, "alt_value": 218.81957511836734}}, "2004": {"#113PCGP": {"insured_value": 840.0, "alt_value": 560.3057989817337}}}, "TYRANITAR": {"2000": {"#248": {"insured_value": 87.0, "alt_value": 64.20598525945059}}, "2001": {"#248": {"insured_value": 65.0, "alt_value": 75.84372978334102}, "#90": {"insured_value": 280.0, "alt_value": 232.36849477187664}}, "2007": {"#298": {"insured_value": 49.0, "alt_value": 60.02093326823348}}}, "SCIZOR": {"2010": {"#48": {"insured_value": 41.0, "alt_value": 82.9513654644944}}, "2023": {"#116": {"insured_value": 20.0, "alt_value": 17.64954839416498}}}, "LATIAS": {"2018": {"#105": {"insured_value": 1500.0, "alt_value": 1456.3689846421414}, "#60": {"insured_value": 39.0, "alt_value": 38.442548206495125}}, "2022": {"#S-P": {"insured_value": 66.0, "alt_value": 62.31784551560813}}, "2003": {"#6": {"insured_value": 37.0, "alt_value": 64.12084960323652}}, "2006": {"#10": {"insured_value": 65.0, "alt_value": 89.92240403189341}, "#14": {"insured_value": 192.0, "alt_value": 207.57207815459589}}, "2007": {"#": {"insured_value": 34.0, "alt_value": 59.68588585905833}}}, "BEEDRILL": {"1999": {"#15": {"insured_value": 40.0, "alt_value": 45.484117802426724}}, "2000": {"#15": {"insured_value": 48.0, "alt_value": 47.171318282451765}}}, "BLASTOISE": {"1996": {"#9": {"insured_value": 220.0, "alt_value": 280.08433851213505}}, "1997": {"#9": {"insured_value": 135.0, "alt_value": 135.10632601651278}}, "1999": {"#9": {"insured_value": 237.0, "alt_value": 355.1726185191761}}, "2023": {"#3": {"insured_value": 34.0, "alt_value": 35.77591478520071}, "#202": {"insured_value": 65.0, "alt_value": 66.39577303070278}}, "2001": {"#108": {"insured_value": 280.0, "alt_value": 332.75172851456784}, "#44": {"insured_value": 250.0, "alt_value": 441.9746587935413}, "#20": {"insured_value": 50.0, "alt_value": 66.4937203696442}}, "2004": {"#20": {"insured_value": 160.0, "alt_value": 260.0867865721001}}}, "ARTICUNO": {"2004": {"#36": {"insured_value": 249.0, "alt_value": 215.08448768366483}, "#10": {"insured_value": 118.0, "alt_value": 136.68297579194203}}, "2019": {"#226": {"insured_value": 100.0, "alt_value": 85.48558717733488}, "#35": {"insured_value": 33.0, "alt_value": 37.02212371413846}}, "1997": {"#144": {"insured_value": 70.0, "alt_value": 66.21557603590011}}, "2025": {"#102": {"insured_value": 24.0, "alt_value": 19.405793276700106}}}, "RAICHU": {"1997": {"#26": {"insured_value": 60.0, "alt_value": 72.8853596964159}}, "2001": {"#53": {"insured_value": 35.0, "alt_value": 48.20804795259692}, "#27": {"insured_value": 47.0, "alt_value": 55.00805423458085}}, "2000": {"#26": {"insured_value": 140.0, "alt_value": 145.578732025778}}, "1999": {"#26": {"insured_value": 59.0, "alt_value": 48.09224189856862}}}, "GLACEON": {"2012": {"#185": {"insured_value": 80.0, "alt_value": 77.49333804937646}}, "2022": {"#069SVP": {"insured_value": 48.0, "alt_value": 52.860196365094154}}, "2024": {"#40": {"insured_value": 17.0, "alt_value": 15.041570568763358}, "#206": {"insured_value": 50.0, "alt_value": 52.09180311723188}}}, "EEVEE": {"2019": {"#187": {"insured_value": 30.0, "alt_value": 53.49694593863065}}, "2018": {"#297SMP": {"insured_value": 72.0, "alt_value": 104.55381442618074}, "#287SMP": {"insured_value": 935.0, "alt_value": 885.2022629144609}, "#66": {"insured_value": 32.0, "alt_value": 32.0604854214582}, "#17": {"insured_value": 23.0, "alt_value": 23.61824405066372}}, "2000": {"#133": {"insured_value": 33.0, "alt_value": 34.46322363202847}}, "2017": {"#144SMP": {"insured_value": 799.0, "alt_value": 671.488602379983}, "#140SMP": {"insured_value": 825.0, "alt_value": 670.0369018802047}, "#138SMP": {"insured_value": 809.0, "alt_value": 715.5396690057609}, "#137SMP": {"insured_value": 900.0, "alt_value": 664.6802441661328}, "#143SMP": {"insured_value": 710.0, "alt_value": 613.1310895654659}}, "2024": {"#78": {"insured_value": 30.0, "alt_value": 26.82975275881878}, "#223": {"insured_value": 30.0, "alt_value": 33.854997808283024}, "#125": {"insured_value": 15.0, "alt_value": 17.655285813992574}, "#224": {"insured_value": 33.0, "alt_value": 22.816734136001717}}, "2023": {"#062SVP": {"insured_value": 39.0, "alt_value": 70.79194502397017}}, "2003": {"#54": {"insured_value": 22.0, "alt_value": 21.742101239835893}}, "1997": {"#133": {"insured_value": 30.0, "alt_value": 26.466213433486526}}, "2005": {"#111": {"insured_value": 36.0, "alt_value": 46.830582523062}}}, "SABLEYE": {"2019": {"#102": {"insured_value": 138.0, "alt_value": 138.32403949753584}}}, "MAGIKARP": {"1996": {"#129": {"insured_value": 43.0, "alt_value": 320.3603907207047}}, "2018": {"#99": {"insured_value": 170.0, "alt_value": 277.31181733027404}, "#19": {"insured_value": 40.0, "alt_value": 35.40818397564971}}, "2001": {"#35": {"insured_value": 265.0, "alt_value": 299.68076115225114}}, "2015": {"#150XYP": {"insured_value": 3585.0, "alt_value": 3455.030861838826}}, "2023": {"#80": {"insured_value": 150.0, "alt_value": 92.46530706232244}}}, "AGGRON": {"2003": {"#46": {"insured_value": 48.0, "alt_value": 77.02323925661688}}}, "BULBASAUR": {"1998": {"#": {"insured_value": 100.0, "alt_value": 100.65463431199191}}, "1999": {"#35": {"insured_value": 33.0, "alt_value": 39.81276130003258}, "#": {"insured_value": 46.0, "alt_value": 62.01486163668727}}, "2023": {"#050": {"insured_value": 41.0, "alt_value": 38.45101176931139}}}, "LUGIA": {"2000": {"#249": {"insured_value": 50.0, "alt_value": 339.09698486328125}}, "2012": {"#59": {"insured_value": 51.0, "alt_value": 48.47359360787212}}, "2007": {"#NoNum": {"insured_value": 50.0, "alt_value": 76.29173434895898}, "#": {"insured_value": 140.0, "alt_value": 93.87813490881597}}, "2009": {"#29": {"insured_value": 184.0, "alt_value": 164.18268219358842}}, "2013": {"#86": {"insured_value": 33.0, "alt_value": 54.92121620093035}}, "2005": {"#38": {"insured_value": 55.0, "alt_value": 116.16705343423206}}, "2018": {"#108": {"insured_value": 100.0, "alt_value": 109.7077788771992}}}, "KANGASKHAN": {"2001": {"#115": {"insured_value": 33.0, "alt_value": 29.446573877003296}}, "1997": {"#115": {"insured_value": 50.0, "alt_value": 43.24642566026529}}, "2014": {"#90": {"insured_value": 80.0, "alt_value": 62.2033416135666}, "#84": {"insured_value": 55.0, "alt_value": 56.68509206677545}}}, "DRAGONAIR": {"1997": {"#148": {"insured_value": 18.0, "alt_value": 25.24041378849025}}}, "MAGMAR": {"1996": {"#126": {"insured_value": 54.0, "alt_value": 113.8300402835541}}}, "CHARIZARD": {"2001": {"#103": {"insured_value": 402.0, "alt_value": 599.118300047585}, "#42": {"insured_value": 720.0, "alt_value": 1063.3025526469103}, "#97": {"insured_value": 450.0, "alt_value": 444.0223184346461}}, "1999": {"#6": {"insured_value": 235.0, "alt_value": 255.81146240234378}, "#": {"insured_value": 350.0, "alt_value": 614.8310700463285}}, "2004": {"#54": {"insured_value": 180.0, "alt_value": 173.5788186809924}}, "1997": {"#6": {"insured_value": 210.0, "alt_value": 2111.189209376395}}, "2019": {"#7": {"insured_value": 44.0, "alt_value": 34.39903149374277}, "#108": {"insured_value": 85.0, "alt_value": 60.15662277691368}, "#366SMP": {"insured_value": 65.0, "alt_value": 62.62071267695716}}, "2022": {"#15": {"insured_value": 20.0, "alt_value": 19.882671567582545}, "#212": {"insured_value": 34.0, "alt_value": 54.83621770685369}}, "2023": {"#201": {"insured_value": 160.0, "alt_value": 221.91320245916188}, "#134": {"insured_value": 103.0, "alt_value": 115.58686923865422}, "#139": {"insured_value": 30.0, "alt_value": 52.97293267944495}, "#349": {"insured_value": 119.0, "alt_value": 170.66928846588237}, "#3": {"insured_value": 144.0, "alt_value": 121.0243607978526}, "#185": {"insured_value": 30.0, "alt_value": 35.09274938167487}, "#331": {"insured_value": 35.0, "alt_value": 25.9586568488865}}, "1996": {"#6": {"insured_value": 850.0, "alt_value": 1359.4420276988635}, "#": {"insured_value": 773.0, "alt_value": 920.3390951413841}}, "2007": {"#8": {"insured_value": 199.0, "alt_value": 222.1158881580822}}, "2014": {"#81": {"insured_value": 380.0, "alt_value": 371.38329827188556}, "#11": {"insured_value": 20.0, "alt_value": 34.020956318894655}}, "2000": {"#6": {"insured_value": 78.0, "alt_value": 184.11088423295453}}, "2016": {"#11": {"insured_value": 109.0, "alt_value": 169.1737301698304}, "#12": {"insured_value": 52.0, "alt_value": 49.89108743190405}}, "2017": {"#58": {"insured_value": 740.0, "alt_value": 973.7789847134709}}, "2006": {"#32": {"insured_value": 350.0, "alt_value": 552.1224858149665}}, "2020": {"#2": {"insured_value": 55.0, "alt_value": 39.92643835103726}, "#307": {"insured_value": 90.0, "alt_value": 94.01007997750013}}, "2021": {"#1": {"insured_value": 347.0, "alt_value": 247.6320171766206}}, "1998": {"#6": {"insured_value": 530.0, "alt_value": 778.2987837357954}, "#23": {"insured_value": 356.0, "alt_value": 340.56879752087394}}, "2009": {"#001": {"insured_value": 50.0, "alt_value": 86.52923182320175}, "#17": {"insured_value": 51.0, "alt_value": 80.12753112645846}}}, "SYLVEON": {"2024": {"#212": {"insured_value": 81.0, "alt_value": 89.70397949218749}}, "2021": {"#93": {"insured_value": 600.0, "alt_value": 416.2753561433826}, "#92": {"insured_value": 55.0, "alt_value": 37.77641873311534}, "#232": {"insured_value": 34.0, "alt_value": 37.93506887235685}}, "2023": {"#070SVP": {"insured_value": 55.0, "alt_value": 48.84537435582206}}, "2018": {"#238": {"insured_value": 127.0, "alt_value": 114.98524782026396}}, "2015": {"#141XYP": {"insured_value": 30.0, "alt_value": 42.18369863131957}}}, "GALLADE": {"2019": {"#57": {"insured_value": 12.0, "alt_value": 22.61840843031859}}}, "PICHU": {"2001": {"#114": {"insured_value": 73.0, "alt_value": 140.74987404326183}, "#": {"insured_value": 47.0, "alt_value": 68.83839063958469}}, "1999": {"#172": {"insured_value": 60.0, "alt_value": 65.31015830007804}}, "2000": {"#172": {"insured_value": 50.0, "alt_value": 51.4178892003925}}}, "DRAGONITE": {"2021": {"#74": {"insured_value": 280.0, "alt_value": 264.4725738434502}}, "2008": {"#NoNum": {"insured_value": 100.0, "alt_value": 110.99391482098807}}, "2001": {"#38": {"insured_value": 72.0, "alt_value": 160.48782968220132}, "#49": {"insured_value": 90.0, "alt_value": 107.05297261851442}, "#149": {"insured_value": 139.0, "alt_value": 122.99377881234888}, "#126": {"insured_value": 130.0, "alt_value": 418.82758121936746}}, "2014": {"#100": {"insured_value": 153.0, "alt_value": 242.18773941217074}}, "1997": {"#149": {"insured_value": 135.0, "alt_value": 164.2721805246251}}, "1998": {"#149": {"insured_value": 334.0, "alt_value": 314.76052024147725}}, "2005": {"#39": {"insured_value": 90.0, "alt_value": 155.50767526375458}}}, "RESHIRAM": {"2019": {"#36": {"insured_value": 50.0, "alt_value": 37.942388838414736}, "#96": {"insured_value": 54.0, "alt_value": 47.397202116132455}}, "2011": {"#51": {"insured_value": 30.0, "alt_value": 27.696968680539364}}, "2025": {"#174": {"insured_value": 280.0, "alt_value": 205.50772454414889}, "#109": {"insured_value": 20.0, "alt_value": 17.00801216011985}}, "2018": {"#60": {"insured_value": 33.0, "alt_value": 37.716466824004485}}, "2015": {"#002": {"insured_value": 85.0, "alt_value": 80.70657715525928}}}, "HOUNDOOM": {"2004": {"#21": {"insured_value": 39.0, "alt_value": 71.8770041510988}}, "2002": {"#71": {"insured_value": 415.0, "alt_value": 470.5761159699748}, "#70": {"insured_value": 308.0, "alt_value": 276.730181642861}}, "2001": {"#229": {"insured_value": 41.0, "alt_value": 65.30661740346969}}, "2000": {"#229": {"insured_value": 50.0, "alt_value": 54.46843950605163}}}, "CHARMANDER": {"1997": {"#357": {"insured_value": 46.0, "alt_value": 76.69458158929771}}, "1996": {"#4": {"insured_value": 30.0, "alt_value": 346.9370629536444}}, "2023": {"#168": {"insured_value": 33.0, "alt_value": 26.111996390602805}, "#051": {"insured_value": 36.0, "alt_value": 40.67396357085152}}, "2004": {"#9": {"insured_value": 35.0, "alt_value": 38.30180653754247}}, "2007": {"#6": {"insured_value": 51.0, "alt_value": 46.67555222090216}}, "2008": {"#90": {"insured_value": 64.0, "alt_value": 57.859762905973255}}, "2002": {"#4": {"insured_value": 750.0, "alt_value": 568.2419854393958}}}, "GARCHOMP": {"2007": {"#": {"insured_value": 58.0, "alt_value": 64.25094603400403}}, "2019": {"#60": {"insured_value": 102.0, "alt_value": 85.38175888166651}, "#32": {"insured_value": 32.0, "alt_value": 33.137291597961614}}, "2025": {"#091": {"insured_value": 38.0, "alt_value": 24.912247673246792}}}, "MARILL": {"1999": {"#": {"insured_value": 34.0, "alt_value": 46.562270364472816}}}, "RAYQUAZA": {"2009": {"#78": {"insured_value": 100.0, "alt_value": 103.53795097006608}}, "2008": {"#": {"insured_value": 50.0, "alt_value": 65.74280708755889}}, "2016": {"#230XYP": {"insured_value": 2800.0, "alt_value": 4007.9942167662934}, "#232XYP": {"insured_value": 350.0, "alt_value": 352.1928953781682}}, "2005": {"#009": {"insured_value": 94.0, "alt_value": 287.9021760475014}, "#41": {"insured_value": 67.0, "alt_value": 86.41920493483451}}, "2015": {"#015": {"insured_value": 86.0, "alt_value": 94.06911202553935}, "#006": {"insured_value": 78.0, "alt_value": 127.60077261684751}}, "2012": {"#144BWP": {"insured_value": 72.0, "alt_value": 110.235413212266}}, "2021": {"#252": {"insured_value": 60.0, "alt_value": 62.77815785800657}, "#76": {"insured_value": 265.0, "alt_value": 346.0950251746135}}, "2004": {"#3": {"insured_value": 52.0, "alt_value": 80.08229387891642}}, "2017": {"#136": {"insured_value": 26.0, "alt_value": 48.79758436619218}}}, "VENUSAUR": {"1999": {"#3": {"insured_value": 70.0, "alt_value": 260.49466215358365}}, "1996": {"#3": {"insured_value": 170.0, "alt_value": 245.12024334840498}}, "2001": {"#65": {"insured_value": 39.0, "alt_value": 46.454557961630385}}, "2023": {"#200": {"insured_value": 56.0, "alt_value": 63.84782708165867}}}, "MACHAMP": {"1996": {"#68": {"insured_value": 73.0, "alt_value": 95.98136986201952}, "#": {"insured_value": 1342.0, "alt_value": 2069.454263335833}}, "1999": {"#68": {"insured_value": 599.0, "alt_value": 799.6584122872653}}, "2022": {"#073": {"insured_value": 90.0, "alt_value": 73.40615898730749}}}, "WATTREL": {"2025": {"#232SVP": {"insured_value": 17.0, "alt_value": 23.27450318769975}}}, "UXIE": {"2021": {"#2008": {"insured_value": 1530.0, "alt_value": 1280.7309231062125}}}, "MEWTWO": {"2023": {"#150": {"insured_value": 34.0, "alt_value": 34.94201553950817}, "#183": {"insured_value": 31.0, "alt_value": 29.964013533158735}}, "1996": {"#202": {"insured_value": 44.0, "alt_value": 41.6358010309272}, "#150": {"insured_value": 191.0, "alt_value": 159.52281180959477}}, "2017": {"#40": {"insured_value": 30.0, "alt_value": 25.624573896224497}, "#82": {"insured_value": 750.0, "alt_value": 706.1177531075363}}, "2025": {"#114": {"insured_value": 38.0, "alt_value": 30.860122261317816}}, "1998": {"#": {"insured_value": 107.0, "alt_value": 92.26585621537448}}, "2005": {"#2": {"insured_value": 2225.0, "alt_value": 1906.660171279833}, "#107": {"insured_value": 123.0, "alt_value": 127.7649320119517}}, "2003": {"#26": {"insured_value": 68.0, "alt_value": 178.24039719570945}}, "2001": {"#150": {"insured_value": 93.0, "alt_value": 496.45704549650617}}, "1999": {"#": {"insured_value": 55.0, "alt_value": 78.51259490070092}}}, "ALAKAZAM": {"2006": {"#33": {"insured_value": 2285.0, "alt_value": 2060.0541465312704}}, "1996": {"#65": {"insured_value": 85.0, "alt_value": 112.02211529720665}}, "1999": {"#": {"insured_value": 1080.0, "alt_value": 1602.7551704899251}}, "1998": {"#65": {"insured_value": 72.0, "alt_value": 59.12700040764089}}, "2016": {"#88": {"insured_value": 304.0, "alt_value": 269.1961099009486}, "#81": {"insured_value": 250.0, "alt_value": 160.06403410033897}}, "1997": {"#65": {"insured_value": 65.0, "alt_value": 55.61855519883264}}}, "BELLOSSOM": {"1999": {"#182": {"insured_value": 30.0, "alt_value": 27.199577357075434}}}, "SNORLAX": {"1999": {"#143": {"insured_value": 70.0, "alt_value": 165.9436987460743}}, "1998": {"#143": {"insured_value": 140.0, "alt_value": 277.5258563702987}}, "2023": {"#181": {"insured_value": 17.0, "alt_value": 23.659315763313057}}, "1997": {"#143": {"insured_value": 61.0, "alt_value": 150.39979634410884}}, "1996": {"#143": {"insured_value": 77.0, "alt_value": 192.84021068299543}}}, "PRINPLUP": {"2007": {"#54": {"insured_value": 37.0, "alt_value": 33.21761801966308}}}, "VAPOREON": {"2023": {"#063SVP": {"insured_value": 36.0, "alt_value": 47.469056619765496}}, "1997": {"#134": {"insured_value": 35.0, "alt_value": 86.09507247064124}}, "2007": {"#15": {"insured_value": 1350.0, "alt_value": 1360.5658427041124}}, "2024": {"#205": {"insured_value": 45.0, "alt_value": 46.0498081554066}}, "2003": {"#22": {"insured_value": 87.0, "alt_value": 74.24324217302745}}}, "TYPHLOSION": {"2000": {"#157": {"insured_value": 30.0, "alt_value": 68.35300686928412}}, "2009": {"#17": {"insured_value": 42.0, "alt_value": 54.94987056606709}}, "2001": {"#157": {"insured_value": 53.0, "alt_value": 59.11000843949308}}, "2005": {"#3": {"insured_value": 47.0, "alt_value": 53.02288671587212}}}, "SLOWKING": {"1999": {"#": {"insured_value": 100.0, "alt_value": 91.70065963713226}}, "2000": {"#199": {"insured_value": 50.0, "alt_value": 49.71483989733013}}, "1996": {"#0": {"insured_value": 150.0, "alt_value": 233.4142673343599}}, "2009": {"#39": {"insured_value": 43.0, "alt_value": 43.36853546603312}}}, "LEAFEON": {"2024": {"#200": {"insured_value": 65.0, "alt_value": 45.07006905295632}}, "2021": {"#71": {"insured_value": 80.0, "alt_value": 78.99256944989254}}, "2023": {"#068SVP": {"insured_value": 53.0, "alt_value": 58.11375314750465}}, "2007": {"#158": {"insured_value": 33.0, "alt_value": 40.76492596085376}}}, "SEADRA": {"1998": {"#117": {"insured_value": 55.0, "alt_value": 41.15938202386815}}}, "UMBREON": {"2021": {"#244": {"insured_value": 31.0, "alt_value": 42.557410212678434}, "#85": {"insured_value": 175.0, "alt_value": 191.96499188975724}}, "2000": {"#197": {"insured_value": 95.0, "alt_value": 285.42470175265674}}, "2011": {"#115BWP": {"insured_value": 61.0, "alt_value": 60.88164920264413}, "#42": {"insured_value": 35.0, "alt_value": 51.288259042863864}}, "2024": {"#92": {"insured_value": 43.0, "alt_value": 40.01840722126717}, "#217": {"insured_value": 280.0, "alt_value": 292.28357488458806}}, "2023": {"#067SVP": {"insured_value": 122.0, "alt_value": 108.04962768273332}}, "2002": {"#68": {"insured_value": 900.0, "alt_value": 821.9895078800738}}, "2005": {"#91": {"insured_value": 560.0, "alt_value": 676.5659498326295}}, "2001": {"#91": {"insured_value": 2050.0, "alt_value": 2084.6646935148015}}, "2010": {"#37": {"insured_value": 70.0, "alt_value": 139.81674680972563}}}, "ZOROARK": {"2025": {"#131": {"insured_value": 611.0, "alt_value": 499.22090683453337}, "#127": {"insured_value": 40.0, "alt_value": 49.609284861512}}}, "LATIOS": {"2015": {"#82": {"insured_value": 80.0, "alt_value": 110.47054419716078}}, "2024": {"#70": {"insured_value": 30.0, "alt_value": 20.70855752207481}}, "2006": {"#14": {"insured_value": 80.0, "alt_value": 67.03793769395165}}}, "TOGEPI": {"2002": {"#035P": {"insured_value": 51.0, "alt_value": 80.65464931141706}}, "1999": {"#": {"insured_value": 60.0, "alt_value": 61.5130889297003}}}, "SCYTHER": {"1997": {"#123": {"insured_value": 54.0, "alt_value": 54.08737358581279}}, "1998": {"#123": {"insured_value": 70.0, "alt_value": 270.48898035728376}}, "2023": {"#6": {"insured_value": 13.0, "alt_value": 23.473898948394787}}, "2004": {"#61": {"insured_value": 293.0, "alt_value": 169.8909605398685}}}, "MEW": {"2023": {"#205": {"insured_value": 75.0, "alt_value": 134.61984375110023}, "#347": {"insured_value": 360.0, "alt_value": 286.78665592198786}}, "1999": {"#151": {"insured_value": 104.0, "alt_value": 223.4802597685994}}, "2004": {"#148PCGP": {"insured_value": 325.0, "alt_value": 420.74319466367547}}, "1997": {"#151": {"insured_value": 63.0, "alt_value": 164.10382672138442}}, "2019": {"#52": {"insured_value": 35.0, "alt_value": 37.723585110335385}, "#29": {"insured_value": 45.0, "alt_value": 41.04307657356195}}, "2001": {"#151": {"insured_value": 1120.0, "alt_value": 1553.7456720525572}, "#119": {"insured_value": 257.0, "alt_value": 516.5871961008678}}, "1996": {"#": {"insured_value": 186.0, "alt_value": 426.63901504694417}, "#151": {"insured_value": 110.0, "alt_value": 218.74071696340695}}, "2021": {"#30": {"insured_value": 56.0, "alt_value": 97.06060331802007}, "#280": {"insured_value": 30.0, "alt_value": 30.109378516966952}}, "2016": {"#51": {"insured_value": 32.0, "alt_value": 63.91829717425051}}, "2006": {"#15": {"insured_value": 1350.0, "alt_value": 2738.9635314711045}}, "2022": {"#183": {"insured_value": 30.0, "alt_value": 38.06940146907863}}, "2002": {"#33P": {"insured_value": 255.0, "alt_value": 337.2374088596836}}, "2005": {"#003": {"insured_value": 171.0, "alt_value": 257.0192223640419}}}, "DIALGA": {"2017": {"#75": {"insured_value": 30.0, "alt_value": 42.173503717168316}}, "2022": {"#260": {"insured_value": 56.0, "alt_value": 49.89641416827737}, "#75": {"insured_value": 55.0, "alt_value": 70.65537149113983}}, "2008": {"#66": {"insured_value": 35.0, "alt_value": 60.09429553309327}}, "2010": {"#074": {"insured_value": 232.0, "alt_value": 339.9985429687473}}}, "IVYSAUR": {"2001": {"#1": {"insured_value": 44.0, "alt_value": 36.11269594740819}}, "2025": {"#065": {"insured_value": 30.0, "alt_value": 22.72291019901361}}}, "HAUNTER": {"1996": {"#93": {"insured_value": 127.0, "alt_value": 148.34419680846216}}, "2023": {"#93": {"insured_value": 31.0, "alt_value": 27.346587823432525}}}, "GRIMER": {"1997": {"#88": {"insured_value": 35.0, "alt_value": 83.41913916619076}}}, "POLIWRATH": {"1996": {"#62": {"insured_value": 967.0, "alt_value": 1652.0069127393606}}, "2000": {"#62": {"insured_value": 55.0, "alt_value": 43.04424220606854}}, "2001": {"#109": {"insured_value": 66.0, "alt_value": 76.80581278962958}}}, "PIPLUP": {"2019": {"#52": {"insured_value": 36.0, "alt_value": 49.79360214470221}}}, "GOLEM": {"2023": {"#76": {"insured_value": 3.0, "alt_value": 8.803427578656766}}, "1999": {"#NNO": {"insured_value": 528.0, "alt_value": 835.58934861773}}, "2003": {"#48": {"insured_value": 45.0, "alt_value": 41.37478480525183}}, "2001": {"#122": {"insured_value": 39.0, "alt_value": 59.13822098824699}}, "2002": {"#89": {"insured_value": 630.0, "alt_value": 1022.8899971449423}}}, "LAPRAS": {"1997": {"#131": {"insured_value": 65.0, "alt_value": 57.917976842752836}}, "2025": {"#072": {"insured_value": 30.0, "alt_value": 20.953298971700157}}}, "CRESSELIA": {"2012": {"#60": {"insured_value": 112.0, "alt_value": 87.47401323197926}}, "2010": {"#36": {"insured_value": 100.0, "alt_value": 119.06302857342989}}}, "WARTORTLE": {"1997": {"#8": {"insured_value": 20.0, "alt_value": 26.674225320292173}}, "2023": {"#171": {"insured_value": 22.0, "alt_value": 21.592998504638672}}, "2002": {"#12T": {"insured_value": 82.0, "alt_value": 78.64753145134421}}}, "ESPEON": {"2019": {"#189SP": {"insured_value": 255.0, "alt_value": 242.93464651407376}}, "2011": {"#33": {"insured_value": 30.0, "alt_value": 27.579127165998536}}, "2023": {"#066SVP": {"insured_value": 49.0, "alt_value": 50.19754583185369}}, "2024": {"#211": {"insured_value": 50.0, "alt_value": 55.47208265824751}, "#62": {"insured_value": 25.0, "alt_value": 17.045688874782677}}, "2000": {"#196": {"insured_value": 50.0, "alt_value": 141.6929917097043}}, "2001": {"#196": {"insured_value": 143.0, "alt_value": 139.37966110202308}}, "2005": {"#49": {"insured_value": 216.0, "alt_value": 137.1818441152082}}}, "GROUDON": {"2015": {"#15": {"insured_value": 500.0, "alt_value": 502.7016172256812}, "#144": {"insured_value": 30.0, "alt_value": 42.212064955971414}}, "2014": {"#40": {"insured_value": 85.0, "alt_value": 78.47697281275799}}, "2005": {"#7": {"insured_value": 45.0, "alt_value": 39.13804886525729}, "#20": {"insured_value": 75.0, "alt_value": 133.14895951559657}}, "2006": {"#8": {"insured_value": 73.0, "alt_value": 138.48941138246374}}, "2016": {"#73": {"insured_value": 30.0, "alt_value": 44.3150167872852}}}, "PSYDUCK": {"2025": {"#071": {"insured_value": 35.0, "alt_value": 35.08311184969815}}, "2018": {"#286SMP": {"insured_value": 600.0, "alt_value": 960.5163574218748}}, "1999": {"#54": {"insured_value": 25.0, "alt_value": 34.95471484585429}}, "2002": {"#20": {"insured_value": 125.0, "alt_value": 161.71968172997737}}, "2019": {"#11": {"insured_value": 70.0, "alt_value": 47.678786717756005}}, "1997": {"#54": {"insured_value": 16.0, "alt_value": 28.58332186442855}}}, "SALAMENCE": {"2025": {"#129": {"insured_value": 30.0, "alt_value": 24.193232791705988}}, "2009": {"#71": {"insured_value": 31.0, "alt_value": 21.902202858754574}}}, "BRAIXEN": {"2019": {"#8": {"insured_value": 29.0, "alt_value": 31.75799749352691}}}, "FLAREON": {"1997": {"#136": {"insured_value": 32.0, "alt_value": 78.35984563541132}}, "2021": {"#73": {"insured_value": 52.0, "alt_value": 84.64020783163173}}, "2024": {"#202": {"insured_value": 60.0, "alt_value": 39.61057142777876}}, "2001": {"#89": {"insured_value": 41.0, "alt_value": 74.38808010460788}}, "2010": {"#9": {"insured_value": 35.0, "alt_value": 32.76881686323256}}, "2005": {"#4": {"insured_value": 115.0, "alt_value": 108.21934555613993}}, "2003": {"#15": {"insured_value": 38.0, "alt_value": 52.4898652078075}}, "2002": {"#1T": {"insured_value": 91.0, "alt_value": 85.68773066594724}}, "2023": {"#065SVP": {"insured_value": 45.0, "alt_value": 55.38856313909592}}, "2016": {"#7": {"insured_value": 500.0, "alt_value": 451.89541585265135}}}, "KINGDRA": {"2002": {"#89": {"insured_value": 575.0, "alt_value": 718.4971607798569}}, "2000": {"#230": {"insured_value": 55.0, "alt_value": 41.22900646663786}}}, "MILOTIC": {"2020": {"#145/S-P": {"insured_value": 50.0, "alt_value": 53.32064379179707}}, "2024": {"#131": {"insured_value": 51.0, "alt_value": 52.84854270249495}}}, "SLAKING": {"2008": {"#74": {"insured_value": 13.0, "alt_value": 22.368271759499347}}}, "STEELIX": {"2001": {"#32": {"insured_value": 112.0, "alt_value": 210.12641794856148}, "#208": {"insured_value": 775.0, "alt_value": 1164.0299544356908}}, "2000": {"#208": {"insured_value": 35.0, "alt_value": 42.13947458134432}}}, "GASTLY": {"1996": {"#92": {"insured_value": 68.0, "alt_value": 128.9230855678577}}, "1998": {"#92": {"insured_value": 31.0, "alt_value": 38.316375844769674}}}, "JUMPLUFF": {"2000": {"#189": {"insured_value": 30.0, "alt_value": 26.113202909497623}}}, "GOLDUCK": {"1998": {"#55": {"insured_value": 45.0, "alt_value": 53.02653064115549}}}, "CLAYDOL": {"2007": {"#37": {"insured_value": 25.0, "alt_value": 35.68181622207102}}}, "MEOWTH": {"1998": {"#052": {"insured_value": 142.0, "alt_value": 263.3958072413878}}, "1999": {"#52": {"insured_value": 250.0, "alt_value": 173.88251417997444}}, "2024": {"#192SVP": {"insured_value": 50.0, "alt_value": 75.51490783691406}}, "2006": {"#38": {"insured_value": 15.0, "alt_value": 26.464033780516548}}, "2003": {"#28": {"insured_value": 20.0, "alt_value": 48.5579836164489}}, "1996": {"#0": {"insured_value": 193.0, "alt_value": 406.29939918448315}}, "2001": {"#29": {"insured_value": 20.0, "alt_value": 24.386976626567147}}, "2004": {"#59": {"insured_value": 18.0, "alt_value": 37.18682275310635}}}, "GARDEVOIR": {"2006": {"#5": {"insured_value": 71.0, "alt_value": 55.22512682222681}}, "2007": {"#": {"insured_value": 75.0, "alt_value": 61.191715039191756}}, "2023": {"#348": {"insured_value": 64.0, "alt_value": 86.57697808686981}}, "2019": {"#61": {"insured_value": 433.0, "alt_value": 403.7116931538056}}, "2025": {"#092": {"insured_value": 245.0, "alt_value": 212.63036594140482}}}, "OMASTAR": {"1998": {"#139": {"insured_value": 530.0, "alt_value": 612.7473294581406}}}, "MUDKIP": {"2005": {"#48": {"insured_value": 46.0, "alt_value": 73.70251515133545}, "#83": {"insured_value": 32.0, "alt_value": 41.2627460044671}}}, "CHIMCHAR": {"2007": {"#2": {"insured_value": 39.0, "alt_value": 35.96869738798565}}}, "JYNX": {"1999": {"#124": {"insured_value": 30.0, "alt_value": 30.545058975657827}}, "2001": {"#74": {"insured_value": 37.0, "alt_value": 31.12979739973173}}, "1996": {"#124": {"insured_value": 46.0, "alt_value": 43.468694803481256}}}, "SKARMORY": {"2000": {"#227": {"insured_value": 35.0, "alt_value": 30.294057300665738}}, "2001": {"#128": {"insured_value": 46.0, "alt_value": 63.76360478250178}}}, "REGICE": {"2005": {"#98": {"insured_value": 30.0, "alt_value": 35.805755227271646}, "#33": {"insured_value": 700.0, "alt_value": 1469.5385458598098}}}, "FLYGON": {"2006": {"#125": {"insured_value": 41.0, "alt_value": 43.6909402270207}}, "2003": {"#32": {"insured_value": 25.0, "alt_value": 37.331656589398996}, "#6": {"insured_value": 45.0, "alt_value": 47.00761896472196}}}, "HERACROSS": {"2000": {"#214": {"insured_value": 32.0, "alt_value": 34.78730818945641}}}, "PERSIAN": {"1999": {"#53": {"insured_value": 58.0, "alt_value": 45.88414340301247}}, "2024": {"#75": {"insured_value": 30.0, "alt_value": 18.01149073966222}}}, "VULPIX": {"2001": {"#8": {"insured_value": 30.0, "alt_value": 30.173531564584252}}}, "CELEBI": {"2004": {"#12": {"insured_value": 75.0, "alt_value": 113.88219053434679}}, "2007": {"#301": {"insured_value": 30.0, "alt_value": 50.85344612280364}}, "2018": {"#97": {"insured_value": 65.0, "alt_value": 66.32766859441435}}, "2005": {"#1": {"insured_value": 47.0, "alt_value": 88.33520765139782}, "#52": {"insured_value": 237.0, "alt_value": 238.32835126981638}}, "2021": {"#175SP": {"insured_value": 43.0, "alt_value": 52.45944841530022}}, "2001": {"#251": {"insured_value": 85.0, "alt_value": 86.45870386133689}}}, "SQUIRTLE": {"2023": {"#170": {"insured_value": 30.0, "alt_value": 27.98504742709073}}, "1996": {"#7": {"insured_value": 46.0, "alt_value": 296.65712620945936}}, "2002": {"#7": {"insured_value": 1317.0, "alt_value": 1230.1605286700335}}, "2004": {"#55": {"insured_value": 120.0, "alt_value": 103.20243776091463}}}, "DIGLETT": {"1996": {"#50": {"insured_value": 46.0, "alt_value": 45.76406903237097}}}, "PALKIA": {"2008": {"#105": {"insured_value": 60.0, "alt_value": 71.08547896165005}, "#33": {"insured_value": 40.0, "alt_value": 46.49850755580487}}, "2013": {"#81": {"insured_value": 120.0, "alt_value": 162.812559932982}}, "2022": {"#259": {"insured_value": 78.0, "alt_value": 53.076996481285256}}, "2007": {"#": {"insured_value": 32.0, "alt_value": 62.65007094970539}}}, "MEGANIUM": {"2000": {"#154": {"insured_value": 40.0, "alt_value": 46.683394031443854}}, "2001": {"#102": {"insured_value": 58.0, "alt_value": 80.70859690979545}}, "2009": {"#9": {"insured_value": 35.0, "alt_value": 44.500726691205}}}, "HO-OH": {"2012": {"#51": {"insured_value": 225.0, "alt_value": 247.55118536366737}}, "2000": {"#250": {"insured_value": 90.0, "alt_value": 170.4063143966236}}, "2017": {"#083": {"insured_value": 49.0, "alt_value": 52.25814112070771}}, "2010": {"#48": {"insured_value": 35.0, "alt_value": 75.66796702116925}}, "2007": {"#300": {"insured_value": 34.0, "alt_value": 37.5396805136153}}}, "COMBUSKEN": {"2003": {"#9": {"insured_value": 11.0, "alt_value": 34.65967802554685}}}, "RIOLU": {"2022": {"#201": {"insured_value": 24.0, "alt_value": 15.67018881359474}}}, "GIRATINA": {"2022": {"#125": {"insured_value": 30.0, "alt_value": 35.59866402207661}}, "2008": {"#51": {"insured_value": 50.0, "alt_value": 104.84713467568571}}}, "NIDOKING": {"1999": {"#34": {"insured_value": 44.0, "alt_value": 308.63288394981134}}, "2025": {"#126": {"insured_value": 55.0, "alt_value": 54.61890105875981}}, "1996": {"#34": {"insured_value": 73.0, "alt_value": 67.28861673077553}}}, "RATICATE": {"1996": {"#20": {"insured_value": 35.0, "alt_value": 29.50846481425935}}}, "TATSUGIRI": {"2024": {"#112": {"insured_value": 20.0, "alt_value": 17.755932684369714}}}, "HITMONLEE": {"1997": {"#106": {"insured_value": 60.0, "alt_value": 46.10455994361143}}}, "MUNCHLAX": {"2005": {"#8": {"insured_value": 52.0, "alt_value": 141.17439844742225}}, "2006": {"#125DPP": {"insured_value": 95.0, "alt_value": 105.58751018187286}}}, "SLOWPOKE": {"2002": {"#31": {"insured_value": 32.0, "alt_value": 34.81833362042685}, "#14": {"insured_value": 138.0, "alt_value": 202.6202914650356}}}, "CYNDAQUIL": {"2002": {"#6": {"insured_value": 22.0, "alt_value": 49.71852040771818}}}, "GYARADOS": {"1999": {"#130": {"insured_value": 85.0, "alt_value": 79.28973048907041}}, "2015": {"#151XYP": {"insured_value": 2300.0, "alt_value": 3438.896324415779}}, "1997": {"#130": {"insured_value": 64.0, "alt_value": 118.8025301509239}}, "2002": {"#28": {"insured_value": 680.0, "alt_value": 682.1017073237235}}, "2009": {"#23": {"insured_value": 38.0, "alt_value": 54.9497659860987}}, "1998": {"#130": {"insured_value": 90.0, "alt_value": 88.17914794728587}}, "2001": {"#98": {"insured_value": 110.0, "alt_value": 191.95869125743704}}}, "VILEPLUME": {"2019": {"#62": {"insured_value": 36.0, "alt_value": 41.13662081288884}}, "1997": {"#45": {"insured_value": 45.0, "alt_value": 38.874729461252564}}, "1998": {"#45": {"insured_value": 40.0, "alt_value": 39.0934220074748}}}, "BUTTERFREE": {"2001": {"#8": {"insured_value": 40.0, "alt_value": 34.30723855353943}}}, "DEOXYS": {"2005": {"#32": {"insured_value": 47.0, "alt_value": 48.40090397115026}}, "2019": {"#1": {"insured_value": 30.0, "alt_value": 20.935762419840216}}, "2004": {"#": {"insured_value": 2300.0, "alt_value": 2929.576745988632}}, "2006": {"#47": {"insured_value": 40.0, "alt_value": 65.76331067879866}}, "2012": {"#53": {"insured_value": 35.0, "alt_value": 211.57955927633196}}}, "AZELF": {"2008": {"#": {"insured_value": 28.0, "alt_value": 59.268177878208064}}}, "GRENINJA": {"2024": {"#90": {"insured_value": 166.0, "alt_value": 184.54799769396072}}, "2014": {"#21": {"insured_value": 30.0, "alt_value": 33.80013892153269}}}, "ENTEI": {"2001": {"#95": {"insured_value": 73.25, "alt_value": 226.94199004873434}}, "2000": {"#244": {"insured_value": 50.0, "alt_value": 89.45280873288259}}, "2002": {"#27": {"insured_value": 96.0, "alt_value": 137.8271554550537}}, "2022": {"#213": {"insured_value": 30.0, "alt_value": 28.077873202183746}}, "2005": {"#1": {"insured_value": 40.0, "alt_value": 62.62727929852825}}}, "FERALIGATR": {"2005": {"#3": {"insured_value": 88.0, "alt_value": 70.89082465251435}}, "1999": {"#160": {"insured_value": 35.0, "alt_value": 43.974532984285176}}}, "CHARMELEON": {"2001": {"#7": {"insured_value": 37.0, "alt_value": 39.75594975273528}, "#22": {"insured_value": 52.0, "alt_value": 124.44541149219843}}, "2023": {"#5": {"insured_value": 23.0, "alt_value": 16.895187731616037}}}, "VICTINI": {"2011": {"#9": {"insured_value": 27.0, "alt_value": 25.246249584979516}}}, "SUNKERN": {"2000": {"#191": {"insured_value": 120.0, "alt_value": 115.01531162180245}}}, "ELECTRODE": {"1996": {"#101": {"insured_value": 330.0, "alt_value": 220.92718940955467}}}, "ARCANINE": {"2001": {"#59": {"insured_value": 100.0, "alt_value": 148.2047275245767}}, "1996": {"#59": {"insured_value": 138.0, "alt_value": 194.65739581025224}}, "1997": {"#370": {"insured_value": 48.0, "alt_value": 63.56453188635738}}, "1999": {"#59": {"insured_value": 75.0, "alt_value": 75.78869432585168}}}, "MOLTRES": {"1998": {"#146": {"insured_value": 60.0, "alt_value": 66.17666028500656}}, "1996": {"#146": {"insured_value": 70.0, "alt_value": 58.71717228674337}}, "2025": {"#124": {"insured_value": 114.0, "alt_value": 80.48075133082065}}, "2022": {"#190": {"insured_value": 17.0, "alt_value": 25.454956558235803}}, "1999": {"#146": {"insured_value": 75.0, "alt_value": 78.00240198758306}}}, "CRAMORANT": {"2021": {"#226SP": {"insured_value": 165.0, "alt_value": 231.33347385506423}}}, "MAGMORTAR": {"2012": {"#8": {"insured_value": 61.0, "alt_value": 117.7416256021871}}}, "DROWZEE": {"2023": {"#86": {"insured_value": 35.0, "alt_value": 21.005052258151718}}, "1996": {"#96": {"insured_value": 49.0, "alt_value": 80.12363002234984}}}, "KADABRA": {"1996": {"#64": {"insured_value": 33.0, "alt_value": 48.06409259262834}}, "2001": {"#64": {"insured_value": 30.0, "alt_value": 45.779371745292536}}}, "DARKRAI": {"2007": {"#007/PPP": {"insured_value": 78.0, "alt_value": 162.4941071300006}}, "2019": {"#10": {"insured_value": 50.0, "alt_value": 41.154661845145405}, "#182": {"insured_value": 350.0, "alt_value": 359.038798615937}}}, "ZAMAZENTA": {"2022": {"#232": {"insured_value": 30.0, "alt_value": 19.408295615324604}}}, "REGISTEEL": {"2003": {"#3": {"insured_value": 95.0, "alt_value": 107.39956775331606}}, "2005": {"#76": {"insured_value": 745.0, "alt_value": 842.1537202109938}}}, "SWABLU": {"2022": {"#202": {"insured_value": 14.0, "alt_value": 13.171447039004612}}}, "CHIKORITA": {"2002": {"#3": {"insured_value": 78.0, "alt_value": 181.01442994810841}}}, "CUBONE": {"1997": {"#104": {"insured_value": 30.0, "alt_value": 35.11764374365398}}, "2001": {"#104": {"insured_value": 36.0, "alt_value": 49.477190105751006}}}, "MELOETTA": {"2013": {"#025": {"insured_value": 77.0, "alt_value": 70.8662522239058}}}, "AMPHAROS": {"2000": {"#181": {"insured_value": 33.0, "alt_value": 38.289355629564454}}, "2003": {"#25": {"insured_value": 50.0, "alt_value": 75.6859653483034}}, "2001": {"#181": {"insured_value": 58.0, "alt_value": 53.9907423672412}, "#115": {"insured_value": 47.0, "alt_value": 89.04221377520255}}, "2006": {"#51": {"insured_value": 30.0, "alt_value": 37.400936727503336}}}, "MIMIKYU": {"2018": {"#289SMP": {"insured_value": 4850.0, "alt_value": 4291.278926118731}}}, "ARCEUS": {"2009": {"#58": {"insured_value": 24.0, "alt_value": 58.179885390916674}}, "2015": {"#024": {"insured_value": 30.0, "alt_value": 75.88046070809334}}}, "NINETALES": {"2006": {"#30": {"insured_value": 114.0, "alt_value": 132.0180607513986}}, "1996": {"#38": {"insured_value": 64.0, "alt_value": 85.13690104193829}}, "2023": {"#110": {"insured_value": 17.0, "alt_value": 19.75260353464268}}, "2004": {"#18": {"insured_value": 145.0, "alt_value": 113.96000152325689}}, "2001": {"#104": {"insured_value": 50.0, "alt_value": 56.617338130616474}}, "2016": {"#15": {"insured_value": 21.0, "alt_value": 22.47761271958165}}}, "STARMIE": {"2000": {"#121": {"insured_value": 30.0, "alt_value": 39.121252463461694}}}, "EMPOLEON": {"2006": {"#": {"insured_value": 68.0, "alt_value": 75.56069904052445}}, "2008": {"#78": {"insured_value": 32.0, "alt_value": 55.02095483230921}}}, "KYOGRE": {"2015": {"#6": {"insured_value": 600.0, "alt_value": 603.3424573493335}, "#93": {"insured_value": 255.0, "alt_value": 246.869559596536}}, "2005": {"#28": {"insured_value": 906.0, "alt_value": 1778.838049871979}}}, "RAIKOU": {"2022": {"#218": {"insured_value": 40.0, "alt_value": 30.61291877330002}}, "2000": {"#243": {"insured_value": 92.0, "alt_value": 86.94455609880534}}, "2010": {"#68": {"insured_value": 118.0, "alt_value": 109.41198872186528}, "#61": {"insured_value": 95.0, "alt_value": 58.87174209504542}}, "2001": {"#94": {"insured_value": 200.0, "alt_value": 172.92576628840567}}, "2005": {"#35": {"insured_value": 465.0, "alt_value": 399.4858686514156}}}, "AERODACTYL": {"1997": {"#142": {"insured_value": 61.0, "alt_value": 59.348938139832946}}, "2000": {"#142": {"insured_value": 70.0, "alt_value": 67.6733879757703}}, "2022": {"#106": {"insured_value": 71.0, "alt_value": 89.59267835835948}}}, "SHAYMIN": {"2008": {"#11": {"insured_value": 34.0, "alt_value": 35.504269204949644}}, "2011": {"#53": {"insured_value": 70.0, "alt_value": 74.56381931039299}}}, "WEEZING": {"1997": {"#110": {"insured_value": 30.0, "alt_value": 36.82645730679676}}}, "DODRIO": {"1997": {"#85": {"insured_value": 14.0, "alt_value": 15.096238905023306}}}, "CROBAT": {"2000": {"#169": {"insured_value": 32.0, "alt_value": 30.512001022236454}}, "2025": {"#127": {"insured_value": 59.0, "alt_value": 39.97991368104674}}}, "HOOTHOOT": {"2000": {"#": {"insured_value": 38.0, "alt_value": 37.268180743787724}}}, "TIMBURR": {"2024": {"#109": {"insured_value": 6.0, "alt_value": 12.066512741166624}}}, "DODUO": {"1996": {"#84": {"insured_value": 12.0, "alt_value": 15.719360022494348}}}, "SLOWBRO": {"1996": {"#80": {"insured_value": 40.0, "alt_value": 37.629867989290354}}, "1997": {"#80": {"insured_value": 40.0, "alt_value": 54.950468916368855}}, "2001": {"#28": {"insured_value": 30.0, "alt_value": 70.55943536405557}}}, "LUCARIO": {"2007": {"#": {"insured_value": 54.0, "alt_value": 110.06579395999415}}, "2005": {"#12": {"insured_value": 85.0, "alt_value": 65.3401213849022}}}, "DUGTRIO": {"1997": {"#51": {"insured_value": 32.0, "alt_value": 44.21922171040419}}}, "DUSKNOIR": {"2019": {"#179": {"insured_value": 85.0, "alt_value": 46.859185111448156}}}, "HITMONCHAN": {"1996": {"#": {"insured_value": 1350.0, "alt_value": 1716.4772952165076}}, "2004": {"#60": {"insured_value": 113.0, "alt_value": 167.42367196161004}}, "1998": {"#107": {"insured_value": 50.0, "alt_value": 49.94028617103105}}}, "PACHIRISU": {"2007": {"#11": {"insured_value": 30.0, "alt_value": 27.113956790669643}}}, "SUICUNE": {"2018": {"#106": {"insured_value": 45.0, "alt_value": 35.909728441882564}}, "2000": {"#245": {"insured_value": 110.0, "alt_value": 79.81488062304176}}, "2022": {"#215": {"insured_value": 22.0, "alt_value": 33.25735682504496}}, "2002": {"#31": {"insured_value": 192.0, "alt_value": 198.06862796621934}}, "2001": {"#245": {"insured_value": 30.0, "alt_value": 49.09045458686226}}}, "UNOWN": {"2000": {"#201": {"insured_value": 27.0, "alt_value": 32.008956205155336}}}, "JOLTEON": {"2023": {"#064SVP": {"insured_value": 54.0, "alt_value": 61.29663432090822}}, "2024": {"#209": {"insured_value": 35.0, "alt_value": 40.64481215043501}, "#51": {"insured_value": 20.0, "alt_value": 17.00232113983302}}, "1997": {"#135": {"insured_value": 90.0, "alt_value": 85.83600422257105}}, "2012": {"#186": {"insured_value": 94.0, "alt_value": 76.09746823524729}}}, "WOBBUFFET": {"2000": {"#202": {"insured_value": 42.0, "alt_value": 40.50521779206396}}}, "INFERNAPE": {"2008": {"#4": {"insured_value": 63.0, "alt_value": 86.85152663726633}}, "2006": {"#NoNum": {"insured_value": 80.0, "alt_value": 65.0265206303874}}}, "GROWLITHE": {"1996": {"#58": {"insured_value": 90.0, "alt_value": 84.95232871428728}}, "2001": {"#6": {"insured_value": 30.0, "alt_value": 28.270995199765622}}}, "LINOONE": {"2020": {"#278": {"insured_value": 8.0, "alt_value": 10.181348672117084}}}, "JIRACHI": {"2016": {"#15": {"insured_value": 30.0, "alt_value": 54.361367805970126}}, "2006": {"#41": {"insured_value": 65.0, "alt_value": 118.11120154879546}}, "2022": {"#45": {"insured_value": 16.0, "alt_value": 12.86449999000615}}, "2007": {"#NNO": {"insured_value": 17.0, "alt_value": 29.62587935518367}}}, "SANDSHREW": {"1996": {"#27": {"insured_value": 30.0, "alt_value": 75.42701466239022}}, "2002": {"#16": {"insured_value": 30.0, "alt_value": 29.827777433692752}}}, "ELECTIVIRE": {"2007": {"#": {"insured_value": 58.0, "alt_value": 55.519942050641696}}}, "TURTWIG": {"2007": {"#001": {"insured_value": 30.0, "alt_value": 41.41049115363771}}}, "LUNALA": {"2019": {"#63": {"insured_value": 230.0, "alt_value": 189.2142003787467}, "#70": {"insured_value": 85.0, "alt_value": 80.40158466979422}}}, "PIDGEOTTO": {"2023": {"#119": {"insured_value": 15.0, "alt_value": 11.729341765409911}}, "1996": {"#17": {"insured_value": 230.0, "alt_value": 312.98534979419577}}, "1998": {"#9": {"insured_value": 31.0, "alt_value": 32.34771729833658}}}, "ZEKROM": {"2021": {"#21": {"insured_value": 40.0, "alt_value": 44.79123597641977}}, "2012": {"#159": {"insured_value": 270.0, "alt_value": 193.15739109266698}}, "2025": {"#174": {"insured_value": 300.0, "alt_value": 217.13825003016171}}, "2010": {"#55": {"insured_value": 172.0, "alt_value": 224.90902562592424}}}, "CHANSEY": {"1999": {"#113": {"insured_value": 65.0, "alt_value": 45.96672585597452}}, "1996": {"#113": {"insured_value": 60.0, "alt_value": 88.19008508522883}}}, "MR_MIME": {"1998": {"#122": {"insured_value": 75.0, "alt_value": 35.90668436736927}}, "1997": {"#122": {"insured_value": 40.0, "alt_value": 49.83586938723084}}}, "YANMA": {"2000": {"#193": {"insured_value": 23.0, "alt_value": 31.021812180672153}}}, "STARAPTOR": {"2009": {"#81": {"insured_value": 31.0, "alt_value": 38.99536255850309}}}, "DITTO": {"2005": {"#108PCGP": {"insured_value": 54.0, "alt_value": 59.08189673168748}}, "2014": {"#077XYP": {"insured_value": 51.0, "alt_value": 165.13112052870255}}, "2020": {"#140": {"insured_value": 7.0, "alt_value": 14.464406895586901}}}, "KABUTOPS": {"2000": {"#141": {"insured_value": 47.0, "alt_value": 48.94948814052431}}}, "GOLBAT": {"1997": {"#42": {"insured_value": 30.0, "alt_value": 33.64070913369494}}}, "FARFETCH'D": {"1996": {"#83": {"insured_value": 84.0, "alt_value": 96.77444751741011}}}, "NIDOQUEEN": {"1997": {"#31": {"insured_value": 55.0, "alt_value": 51.61006034690733}}}, "RIBOMBEE": {"2025": {"#105": {"insured_value": 16.0, "alt_value": 13.457301137578629}}}, "SHINX": {"2009": {"#37": {"insured_value": 60.0, "alt_value": 49.23014870208449}}}, "KYUREM": {"2015": {"#021": {"insured_value": 105.0, "alt_value": 65.06882256570984}, "#20": {"insured_value": 70.0, "alt_value": 76.97743932793573}}}, "SOBBLE": {"2020": {"#146": {"insured_value": 17.0, "alt_value": 25.85568679414729}}}, "HYPNO": {"1997": {"#97": {"insured_value": 35.0, "alt_value": 48.39694984265126}}, "2004": {"#43": {"insured_value": 73.0, "alt_value": 75.38141832270789}}, "2002": {"#42": {"insured_value": 80.0, "alt_value": 104.94593123492433}}}, "NOCTOWL": {"2001": {"#164": {"insured_value": 1050.0, "alt_value": 1116.5677515301763}}}, "TOGETIC": {"2000": {"#176": {"insured_value": 44.0, "alt_value": 39.61298546429499}}}, "PHANPY": {"2002": {"#17": {"insured_value": 31.0, "alt_value": 30.808935796862745}}}, "HIPPOWDON": {"2008": {"#56": {"insured_value": 39.0, "alt_value": 32.49490669454619}}}, "MAGNETON": {"1998": {"#82": {"insured_value": 50.0, "alt_value": 47.577147930738676}}, "1996": {"#82": {"insured_value": 67.0, "alt_value": 50.68328690273963}}, "1997": {"#82": {"insured_value": 45.0, "alt_value": 35.08119692131541}}}, "ABSOL": {"2012": {"#33": {"insured_value": 35.0, "alt_value": 36.24261975498551}}, "2013": {"#XYP": {"insured_value": 34.0, "alt_value": 38.55847310294559}}}, "MISDREAVUS": {"2000": {"#200": {"insured_value": 35.0, "alt_value": 37.59296951376826}}}, "CLEFABLE": {"1995": {"#36": {"insured_value": 31.0, "alt_value": 43.12098836120097}}, "1997": {"#36": {"insured_value": 44.0, "alt_value": 38.2931985852418}}}, "KAKUNA": {"1996": {"#14": {"insured_value": 48.0, "alt_value": 74.38100800560817}}}, "ROWLET": {"2018": {"#290SMP": {"insured_value": 460.0, "alt_value": 464.1719015207503}}}, "OCTILLERY": {"2002": {"#40": {"insured_value": 45.0, "alt_value": 52.26320346217028}}}, "PINSIR": {"1997": {"#127": {"insured_value": 45.0, "alt_value": 38.3285746907657}}}, "MARSHTOMP": {"2003": {"#10": {"insured_value": 40.0, "alt_value": 52.281412723294466}}}, "ELECTABUZZ": {"1998": {"#125": {"insured_value": 40.0, "alt_value": 89.99787316159436}}}, "RHYDON": {"1998": {"#": {"insured_value": 40.0, "alt_value": 35.068978434164045}}, "2001": {"#35": {"insured_value": 30.0, "alt_value": 29.738403342542682}}}, "PORYGON": {"2000": {"#": {"insured_value": 2150.0, "alt_value": 2080.336402658165}}}, "MILTANK": {"2001": {"#19": {"insured_value": 35.0, "alt_value": 29.768974166854846}}}, "PORYGON2": {"2000": {"#233": {"insured_value": 42.0, "alt_value": 34.08357563889546}}}, "CLEFAIRY": {"1996": {"#35": {"insured_value": 80.0, "alt_value": 68.96083172230526}}}, "CLOYSTER": {"2001": {"#110": {"insured_value": 60.0, "alt_value": 52.687456214555745}}}, "EXEGGUTOR": {"2024": {"#183": {"insured_value": 30.0, "alt_value": 25.377534001114302}}}, "AZUMARILL": {"2000": {"#184": {"insured_value": 35.0, "alt_value": 36.53988157710248}}}, "ARIADOS": {"2002": {"#9": {"insured_value": 30.0, "alt_value": 31.843311573626195}}}, "DONPHAN": {"2005": {"#109": {"insured_value": 32.0, "alt_value": 26.53577163430515}}}, "SILVALLY": {"2017": {"#122": {"insured_value": 10.0, "alt_value": 13.529642755478834}}}, "HOUNDOUR": {"2023": {"#115": {"insured_value": 22.0, "alt_value": 13.488834910018381}}}, "CATERPIE": {"1996": {"#10": {"insured_value": 48.0, "alt_value": 59.570160450582016}}}, "BLAZIKEN": {"2003": {"#11": {"insured_value": 53.0, "alt_value": 67.58527816314479}}}, "PIDGEOT": {"1997": {"#18": {"insured_value": 55.0, "alt_value": 52.46445053572528}}, "2006": {"#23": {"insured_value": 35.0, "alt_value": 38.66949300389317}}}, "NIDORINO": {"1996": {"#33": {"insured_value": 20.0, "alt_value": 103.95059194022002}}}, "ZORUA": {"2010": {"#": {"insured_value": 4800.0, "alt_value": 4174.151093646097}}}, "GRAVELER": {"1996": {"#75": {"insured_value": 35.0, "alt_value": 35.86006684898297}}}, "URSARING": {"2009": {"#61": {"insured_value": 32.0, "alt_value": 41.08834588719378}}}, "SUDOWOODO": {"2002": {"#58": {"insured_value": 60.0, "alt_value": 79.01784430240623}}}, "TORCHIC": {"2013": {"#5": {"insured_value": 35.0, "alt_value": 27.90752398777324}}}, "RAPIDASH": {"1997": {"#374": {"insured_value": 30.0, "alt_value": 24.86975610733405}}}, "SHARPEDO": {"2004": {"#72": {"insured_value": 30.0, "alt_value": 57.76414441780418}}}, "NIDORINA": {"1997": {"#30": {"insured_value": 9.0, "alt_value": 13.472122835936617}}}, "PERRIN": {"2024": {"#92": {"insured_value": 60.0, "alt_value": 58.86729380987153}}}, "ONIX": {"1998": {"#": {"insured_value": 80.0, "alt_value": 69.60771880828875}}}, "CLEFFA": {"2019": {"#185": {"insured_value": 66.0, "alt_value": 63.00458406139066}}}, "YVELTAL": {"2013": {"#63": {"insured_value": 60.0, "alt_value": 82.65814607960763}}}, "WAILORD": {"2014": {"#71": {"insured_value": 89.0, "alt_value": 96.17744929409385}}}, "GENESECT": {"2025": {"#172": {"insured_value": 45.0, "alt_value": 18.263372430390394}}}, "LARVITAR": {"2002": {"#18": {"insured_value": 210.0, "alt_value": 184.12738239874622}}}}
+{
+    "ARBOK": {
+        "2023": {
+            "#24": {
+                "insured_value": 6.26,
+                "alt_value": 9.93
+            }
+        },
+        "1997": {
+            "#24": {
+                "insured_value": 30.0,
+                "alt_value": 38.81
+            }
+        },
+        "1996": {
+            "#24": {
+                "insured_value": 29.73,
+                "alt_value": 39.87
+            }
+        }
+    },
+    "WIGGLYTUFF": {
+        "1997": {
+            "#40": {
+                "insured_value": 47.41,
+                "alt_value": 39.24
+            }
+        }
+    },
+    "ZAPDOS": {
+        "1998": {
+            "#145": {
+                "insured_value": 360.0,
+                "alt_value": 351.43
+            }
+        },
+        "1997": {
+            "#145": {
+                "insured_value": 60.0,
+                "alt_value": 59.23
+            }
+        },
+        "2001": {
+            "#145": {
+                "insured_value": 53.56,
+                "alt_value": 93.86
+            }
+        },
+        "1999": {
+            "#145": {
+                "insured_value": 65.0,
+                "alt_value": 59.61
+            }
+        },
+        "2023": {
+            "#204": {
+                "insured_value": 49.0,
+                "alt_value": 63.74
+            }
+        },
+        "1996": {
+            "#145": {
+                "alt_value": 136.68
+            }
+        }
+    },
+    "GENGAR": {
+        "1999": {
+            "#94": {
+                "insured_value": 138.0,
+                "alt_value": 804.44
+            }
+        },
+        "2014": {
+            "#90": {
+                "insured_value": 1350.0,
+                "alt_value": 1016.9
+            },
+            "#79": {
+                "insured_value": 420.0,
+                "alt_value": 232.53
+            },
+            "#33": {
+                "insured_value": 48.67,
+                "alt_value": 85.89
+            }
+        },
+        "2021": {
+            "#2": {
+                "insured_value": 37.67,
+                "alt_value": 33.06
+            },
+            "#20": {
+                "insured_value": 690.0,
+                "alt_value": 823.67
+            }
+        },
+        "1997": {
+            "#94": {
+                "insured_value": 180.0,
+                "alt_value": 228.88
+            }
+        },
+        "2010": {
+            "#015": {
+                "insured_value": 500.0,
+                "alt_value": 743.33
+            }
+        },
+        "2022": {
+            "#74": {
+                "insured_value": 58.33,
+                "alt_value": 35.09
+            }
+        },
+        "2001": {
+            "#117": {
+                "insured_value": 239.0,
+                "alt_value": 613.36
+            },
+            "#94": {
+                "insured_value": 139.0,
+                "alt_value": 280.44
+            }
+        },
+        "2018": {
+            "#38": {
+                "insured_value": 114.0,
+                "alt_value": 98.42
+            },
+            "#102": {
+                "insured_value": 180.0,
+                "alt_value": 154.69
+            }
+        },
+        "2006": {
+            "#102": {
+                "insured_value": 70.86,
+                "alt_value": 277.83
+            }
+        },
+        "2015": {
+            "#10": {
+                "insured_value": 35.53,
+                "alt_value": 98.67
+            }
+        },
+        "2019": {
+            "#33": {
+                "insured_value": 33.9,
+                "alt_value": 32.44
+            }
+        },
+        "2009": {
+            "#43": {
+                "insured_value": 158.0,
+                "alt_value": 381.83046674279944
+            }
+        }
+    },
+    "PIKACHU": {
+        "1996": {
+            "#25": {
+                "insured_value": 149.28,
+                "alt_value": 301.24
+            }
+        },
+        "2017": {
+            "#200SMP": {
+                "insured_value": 79.01,
+                "alt_value": 65.29
+            },
+            "#179SMP": {
+                "insured_value": 98.67,
+                "alt_value": 80.08
+            },
+            "#037SMP": {
+                "insured_value": 720.0,
+                "alt_value": 705.1867727769845
+            }
+        },
+        "2025": {
+            "#020MP": {
+                "insured_value": 71.48,
+                "alt_value": 22.45
+            },
+            "#260": {
+                "alt_value": 119.48
+            }
+        },
+        "2020": {
+            "#144SP": {
+                "insured_value": 101.0,
+                "alt_value": 94.57
+            },
+            "#124SP": {
+                "insured_value": 31.0,
+                "alt_value": 39.44
+            }
+        },
+        "1998": {
+            "#25": {
+                "insured_value": 44.08,
+                "alt_value": 59.14
+            },
+            "#119": {
+                "insured_value": 58.29,
+                "alt_value": 34.47
+            }
+        },
+        "2018": {
+            "#208SMP": {
+                "insured_value": 140.0,
+                "alt_value": 365.15
+            },
+            "#31": {
+                "insured_value": 37.0,
+                "alt_value": 32.25
+            },
+            "#270SMP": {
+                "insured_value": 328.0,
+                "alt_value": 267.73
+            },
+            "#199SMP": {
+                "insured_value": 600.0,
+                "alt_value": 411.44888074412785
+            },
+            "#280SMP": {
+                "insured_value": 457.0,
+                "alt_value": 481.97
+            },
+            "#283SMP": {
+                "insured_value": 215.0,
+                "alt_value": 250.25
+            }
+        },
+        "2019": {
+            "#407SMP": {
+                "insured_value": 68.0,
+                "alt_value": 189.87
+            },
+            "#036SP": {
+                "insured_value": 44.0,
+                "alt_value": 91.28
+            },
+            "#392SMP": {
+                "insured_value": 78.0,
+                "alt_value": 95.19
+            },
+            "#54": {
+                "insured_value": 135.0,
+                "alt_value": 93.23
+            },
+            "#339": {
+                "insured_value": 32.72,
+                "alt_value": 28.75
+            },
+            "#002SP": {
+                "insured_value": 48.0,
+                "alt_value": 173.6
+            }
+        },
+        "2024": {
+            "#132": {
+                "insured_value": 220.0,
+                "alt_value": 186.05
+            },
+            "#122": {
+                "insured_value": 29.4,
+                "alt_value": 20.99
+            },
+            "#236": {
+                "insured_value": 30.24,
+                "alt_value": 33.55
+            }
+        },
+        "2006": {
+            "#100DPP": {
+                "insured_value": 379.9,
+                "alt_value": 462.01
+            },
+            "#095DPP": {
+                "insured_value": 38.42,
+                "alt_value": 58.13
+            }
+        },
+        "2023": {
+            "#25": {
+                "insured_value": 132.6,
+                "alt_value": 141.01
+            },
+            "#173": {
+                "insured_value": 22.0,
+                "alt_value": 32.47
+            },
+            "#98": {
+                "insured_value": 230.0,
+                "alt_value": 161.22
+            },
+            "#1": {
+                "insured_value": 150.0,
+                "alt_value": 191.94
+            }
+        },
+        "2016": {
+            "#": {
+                "insured_value": 74.2,
+                "alt_value": 118.81
+            },
+            "#295XYP": {
+                "insured_value": 1700.0,
+                "alt_value": 1840.25
+            },
+            "#005SMP": {
+                "insured_value": 354.0,
+                "alt_value": 371.3
+            },
+            "#293": {
+                "insured_value": 1280.0,
+                "alt_value": 1947.4
+            },
+            "#296XYP": {
+                "insured_value": 4584.0,
+                "alt_value": 4376.81
+            },
+            "#013SMP": {
+                "insured_value": 3830.0,
+                "alt_value": 3256.22
+            },
+            "#204XYP": {
+                "insured_value": 3045.07,
+                "alt_value": 5761.48
+            },
+            "#231XYP": {
+                "insured_value": 2450.0,
+                "alt_value": 3956.4568833848007
+            },
+            "#10": {
+                "insured_value": 810.0,
+                "alt_value": 677.15
+            },
+            "#292": {
+                "insured_value": 49.87,
+                "alt_value": 103.75
+            }
+        },
+        "2022": {
+            "#260": {
+                "insured_value": 205.0,
+                "alt_value": 147.75701294200053
+            },
+            "#73": {
+                "insured_value": 35.92,
+                "alt_value": 34.75
+            },
+            "#205": {
+                "insured_value": 71.0,
+                "alt_value": 87.22
+            },
+            "#265SP": {
+                "insured_value": 31.37,
+                "alt_value": 22.66
+            },
+            "#323SP": {
+                "insured_value": 200.0,
+                "alt_value": 191.18
+            },
+            "#001SVP": {
+                "insured_value": 33.03,
+                "alt_value": 33.49
+            }
+        },
+        "2021": {
+            "#208SP": {
+                "insured_value": 55.0,
+                "alt_value": 85.66
+            },
+            "#222": {
+                "insured_value": 53.0,
+                "alt_value": 48.43
+            },
+            "#227SP": {
+                "insured_value": 1230.0,
+                "alt_value": 995.93
+            },
+            "#24": {
+                "insured_value": 26.48,
+                "alt_value": 19.27
+            }
+        },
+        "2014": {
+            "#098XYP": {
+                "insured_value": 266.0,
+                "alt_value": 654.93
+            }
+        },
+        "2015": {
+            "#203XYP": {
+                "insured_value": 272.0,
+                "alt_value": 510.6
+            },
+            "#175XYP": {
+                "insured_value": 426.0,
+                "alt_value": 715.07
+            },
+            "#": {
+                "insured_value": 142.0,
+                "alt_value": 166.98392031708462
+            }
+        },
+        "2009": {
+            "#7": {
+                "insured_value": 40.0,
+                "alt_value": 35.60290318898455
+            },
+            "#019LP": {
+                "insured_value": 230.0,
+                "alt_value": 275.42
+            },
+            "#32": {
+                "insured_value": 31.57,
+                "alt_value": 53.48
+            }
+        },
+        "1997": {
+            "#": {
+                "insured_value": 205.5,
+                "alt_value": 152.54
+            }
+        },
+        "1999": {
+            "#40": {
+                "insured_value": 44.0,
+                "alt_value": 42.12222511089678
+            }
+        },
+        "2005": {
+            "#1": {
+                "insured_value": 3100.0,
+                "alt_value": 2845.6858264608077
+            }
+        },
+        "2002": {
+            "#21P": {
+                "insured_value": 114.53,
+                "alt_value": 135.82
+            },
+            "#10": {
+                "insured_value": 560.0,
+                "alt_value": 630.46
+            }
+        },
+        "2003": {
+            "#24": {
+                "insured_value": 101.06,
+                "alt_value": 213.34
+            }
+        },
+        "2004": {
+            "#113PCGP": {
+                "insured_value": 820.13,
+                "alt_value": 543.47
+            }
+        }
+    },
+    "TYRANITAR": {
+        "2000": {
+            "#248": {
+                "insured_value": 87.0,
+                "alt_value": 64.36
+            }
+        },
+        "2001": {
+            "#248": {
+                "insured_value": 65.0,
+                "alt_value": 75.78
+            },
+            "#90": {
+                "insured_value": 280.0,
+                "alt_value": 237.33
+            }
+        },
+        "2007": {
+            "#298": {
+                "insured_value": 49.95,
+                "alt_value": 63.22
+            }
+        }
+    },
+    "SCIZOR": {
+        "2010": {
+            "#48": {
+                "insured_value": 41.0,
+                "alt_value": 84.23
+            }
+        },
+        "2023": {
+            "#116": {
+                "insured_value": 19.8,
+                "alt_value": 16.95
+            }
+        }
+    },
+    "LATIAS": {
+        "2018": {
+            "#105": {
+                "insured_value": 1500.0,
+                "alt_value": 1456.15
+            },
+            "#60": {
+                "insured_value": 39.0,
+                "alt_value": 41.51
+            }
+        },
+        "2022": {
+            "#S-P": {
+                "insured_value": 65.8,
+                "alt_value": 62.95
+            }
+        },
+        "2003": {
+            "#6": {
+                "insured_value": 38.61,
+                "alt_value": 61.03
+            }
+        },
+        "2006": {
+            "#10": {
+                "insured_value": 66.44,
+                "alt_value": 86.54
+            },
+            "#14": {
+                "insured_value": 192.81,
+                "alt_value": 204.15
+            }
+        },
+        "2007": {
+            "#": {
+                "insured_value": 34.0,
+                "alt_value": 61.56
+            }
+        }
+    },
+    "BEEDRILL": {
+        "1999": {
+            "#15": {
+                "insured_value": 40.0,
+                "alt_value": 44.42
+            }
+        },
+        "2000": {
+            "#15": {
+                "insured_value": 48.0,
+                "alt_value": 47.74
+            }
+        }
+    },
+    "BLASTOISE": {
+        "1996": {
+            "#9": {
+                "insured_value": 220.0,
+                "alt_value": 263.21
+            }
+        },
+        "1997": {
+            "#9": {
+                "insured_value": 135.0,
+                "alt_value": 130.78
+            }
+        },
+        "1999": {
+            "#9": {
+                "insured_value": 237.0,
+                "alt_value": 357.06
+            }
+        },
+        "2023": {
+            "#3": {
+                "insured_value": 33.9,
+                "alt_value": 32.5
+            },
+            "#202": {
+                "insured_value": 65.0,
+                "alt_value": 69.02
+            }
+        },
+        "2001": {
+            "#108": {
+                "insured_value": 280.0,
+                "alt_value": 306.72
+            },
+            "#44": {
+                "insured_value": 261.51,
+                "alt_value": 421.81
+            },
+            "#20": {
+                "insured_value": 50.92,
+                "alt_value": 63.74
+            }
+        },
+        "2004": {
+            "#20": {
+                "insured_value": 160.0,
+                "alt_value": 260.0867865721001
+            }
+        }
+    },
+    "ARTICUNO": {
+        "2004": {
+            "#36": {
+                "insured_value": 244.38,
+                "alt_value": 180.03
+            },
+            "#10": {
+                "insured_value": 118.0,
+                "alt_value": 135.69
+            }
+        },
+        "2019": {
+            "#226": {
+                "insured_value": 100.0,
+                "alt_value": 87.38
+            },
+            "#35": {
+                "insured_value": 33.07,
+                "alt_value": 34.09
+            }
+        },
+        "1997": {
+            "#144": {
+                "insured_value": 70.0,
+                "alt_value": 68.02
+            }
+        },
+        "2025": {
+            "#102": {
+                "insured_value": 23.63,
+                "alt_value": 18.49
+            }
+        }
+    },
+    "RAICHU": {
+        "1997": {
+            "#26": {
+                "insured_value": 60.0,
+                "alt_value": 63.99
+            }
+        },
+        "2001": {
+            "#53": {
+                "insured_value": 35.0,
+                "alt_value": 50.4
+            },
+            "#27": {
+                "insured_value": 47.0,
+                "alt_value": 55.3
+            }
+        },
+        "2000": {
+            "#26": {
+                "insured_value": 140.0,
+                "alt_value": 139.53
+            }
+        },
+        "1999": {
+            "#26": {
+                "insured_value": 59.0,
+                "alt_value": 47.67
+            }
+        }
+    },
+    "GLACEON": {
+        "2012": {
+            "#185": {
+                "insured_value": 79.68,
+                "alt_value": 75.17
+            }
+        },
+        "2022": {
+            "#069SVP": {
+                "insured_value": 48.0,
+                "alt_value": 53.06
+            }
+        },
+        "2024": {
+            "#40": {
+                "insured_value": 16.86,
+                "alt_value": 14.97
+            },
+            "#206": {
+                "insured_value": 50.0,
+                "alt_value": 55.35
+            }
+        }
+    },
+    "EEVEE": {
+        "2019": {
+            "#187": {
+                "insured_value": 31.02,
+                "alt_value": 45.24
+            },
+            "#189SP": {
+                "alt_value": 237.77
+            }
+        },
+        "2018": {
+            "#297SMP": {
+                "insured_value": 72.0,
+                "alt_value": 104.61
+            },
+            "#287SMP": {
+                "insured_value": 935.0,
+                "alt_value": 891.07
+            },
+            "#66": {
+                "insured_value": 32.0,
+                "alt_value": 32.32
+            },
+            "#17": {
+                "insured_value": 23.04,
+                "alt_value": 23.64
+            }
+        },
+        "2000": {
+            "#133": {
+                "insured_value": 33.19,
+                "alt_value": 35.9
+            }
+        },
+        "2017": {
+            "#144SMP": {
+                "insured_value": 799.0,
+                "alt_value": 654.93
+            },
+            "#140SMP": {
+                "insured_value": 825.0,
+                "alt_value": 685.0
+            },
+            "#138SMP": {
+                "insured_value": 809.0,
+                "alt_value": 727.85
+            },
+            "#137SMP": {
+                "insured_value": 900.0,
+                "alt_value": 672.54
+            },
+            "#143SMP": {
+                "insured_value": 710.0,
+                "alt_value": 633.17
+            }
+        },
+        "2024": {
+            "#78": {
+                "insured_value": 29.8,
+                "alt_value": 26.95
+            },
+            "#223": {
+                "insured_value": 30.0,
+                "alt_value": 34.48
+            },
+            "#125": {
+                "insured_value": 15.16,
+                "alt_value": 17.43
+            },
+            "#224": {
+                "insured_value": 32.31,
+                "alt_value": 22.7
+            }
+        },
+        "2023": {
+            "#062SVP": {
+                "insured_value": 39.0,
+                "alt_value": 71.34
+            }
+        },
+        "2003": {
+            "#54": {
+                "insured_value": 22.12,
+                "alt_value": 23.74
+            }
+        },
+        "1997": {
+            "#133": {
+                "insured_value": 29.84,
+                "alt_value": 27.65
+            }
+        },
+        "2005": {
+            "#111": {
+                "insured_value": 36.52,
+                "alt_value": 43.76
+            }
+        },
+        "2021": {
+            "#73": {
+                "alt_value": 81.48
+            },
+            "#86": {
+                "alt_value": 15.1
+            },
+            "#93": {
+                "alt_value": 386.66
+            },
+            "#85": {
+                "alt_value": 187.46
+            },
+            "#84": {
+                "alt_value": 33.83
+            },
+            "#92": {
+                "alt_value": 38.71
+            },
+            "#71": {
+                "alt_value": 79.93
+            }
+        },
+        "2015": {
+            "#141XYP": {
+                "alt_value": 39.2
+            }
+        }
+    },
+    "SABLEYE": {
+        "2019": {
+            "#102": {
+                "insured_value": 138.0,
+                "alt_value": 144.4
+            }
+        }
+    },
+    "MAGIKARP": {
+        "1996": {
+            "#129": {
+                "insured_value": 59.7,
+                "alt_value": 294.31
+            }
+        },
+        "2018": {
+            "#99": {
+                "insured_value": 170.0,
+                "alt_value": 244.26
+            },
+            "#19": {
+                "insured_value": 40.0,
+                "alt_value": 34.18
+            }
+        },
+        "2001": {
+            "#35": {
+                "insured_value": 279.08,
+                "alt_value": 475.17
+            }
+        },
+        "2015": {
+            "#150XYP": {
+                "insured_value": 3585.0,
+                "alt_value": 3041.08
+            }
+        },
+        "2023": {
+            "#80": {
+                "insured_value": 150.0,
+                "alt_value": 101.72
+            }
+        }
+    },
+    "AGGRON": {
+        "2003": {
+            "#46": {
+                "insured_value": 49.54,
+                "alt_value": 71.02
+            }
+        }
+    },
+    "BULBASAUR": {
+        "1998": {
+            "#": {
+                "insured_value": 100.82,
+                "alt_value": 112.24
+            }
+        },
+        "1999": {
+            "#35": {
+                "insured_value": 33.53,
+                "alt_value": 40.87
+            },
+            "#": {
+                "insured_value": 47.16,
+                "alt_value": 63.29
+            },
+            "#40": {
+                "alt_value": 41.6
+            },
+            "#3": {
+                "alt_value": 181.15
+            }
+        },
+        "2023": {
+            "#050": {
+                "insured_value": 41.0,
+                "alt_value": 38.45101176931139
+            }
+        }
+    },
+    "LUGIA": {
+        "2000": {
+            "#249": {
+                "insured_value": 50.81,
+                "alt_value": 332.88
+            }
+        },
+        "2012": {
+            "#59": {
+                "insured_value": 50.68,
+                "alt_value": 46.17
+            }
+        },
+        "2007": {
+            "#NoNum": {
+                "insured_value": 51.71,
+                "alt_value": 75.45
+            },
+            "#": {
+                "insured_value": 140.0,
+                "alt_value": 91.36
+            }
+        },
+        "2009": {
+            "#29": {
+                "insured_value": 182.61,
+                "alt_value": 163.3
+            }
+        },
+        "2013": {
+            "#86": {
+                "insured_value": 34.49,
+                "alt_value": 55.22
+            }
+        },
+        "2005": {
+            "#38": {
+                "insured_value": 59.36,
+                "alt_value": 120.04
+            }
+        },
+        "2018": {
+            "#108": {
+                "insured_value": 100.37,
+                "alt_value": 105.56
+            }
+        }
+    },
+    "KANGASKHAN": {
+        "2001": {
+            "#115": {
+                "insured_value": 32.76,
+                "alt_value": 29.37
+            }
+        },
+        "1997": {
+            "#115": {
+                "insured_value": 50.0,
+                "alt_value": 42.34
+            }
+        },
+        "2014": {
+            "#90": {
+                "insured_value": 78.74,
+                "alt_value": 61.12
+            },
+            "#84": {
+                "insured_value": 55.39,
+                "alt_value": 60.85
+            }
+        }
+    },
+    "DRAGONAIR": {
+        "1997": {
+            "#148": {
+                "insured_value": 18.63,
+                "alt_value": 27.39
+            }
+        }
+    },
+    "MAGMAR": {
+        "1996": {
+            "#126": {
+                "insured_value": 57.91,
+                "alt_value": 112.31
+            }
+        }
+    },
+    "CHARIZARD": {
+        "2001": {
+            "#103": {
+                "insured_value": 402.0,
+                "alt_value": 551.07
+            },
+            "#42": {
+                "insured_value": 720.0,
+                "alt_value": 1025.58
+            },
+            "#97": {
+                "insured_value": 450.0,
+                "alt_value": 450.18
+            }
+        },
+        "1999": {
+            "#6": {
+                "insured_value": 235.0,
+                "alt_value": 282.99
+            },
+            "#": {
+                "insured_value": 350.0,
+                "alt_value": 513.43
+            }
+        },
+        "2004": {
+            "#54": {
+                "insured_value": 179.3,
+                "alt_value": 169.51
+            }
+        },
+        "1997": {
+            "#6": {
+                "insured_value": 347.6,
+                "alt_value": 341.29
+            }
+        },
+        "2019": {
+            "#7": {
+                "insured_value": 44.0,
+                "alt_value": 33.82
+            },
+            "#108": {
+                "insured_value": 85.0,
+                "alt_value": 55.54
+            },
+            "#366SMP": {
+                "insured_value": 65.0,
+                "alt_value": 62.62071267695716
+            }
+        },
+        "2022": {
+            "#15": {
+                "insured_value": 20.15,
+                "alt_value": 22.24
+            },
+            "#212": {
+                "insured_value": 34.0,
+                "alt_value": 58.72
+            }
+        },
+        "2023": {
+            "#201": {
+                "insured_value": 160.0,
+                "alt_value": 211.15
+            },
+            "#134": {
+                "insured_value": 103.0,
+                "alt_value": 113.54
+            },
+            "#139": {
+                "insured_value": 31.38,
+                "alt_value": 50.53
+            },
+            "#349": {
+                "insured_value": 119.0,
+                "alt_value": 164.82
+            },
+            "#3": {
+                "insured_value": 144.0,
+                "alt_value": 118.57
+            },
+            "#185": {
+                "insured_value": 30.12,
+                "alt_value": 31.79
+            },
+            "#331": {
+                "insured_value": 34.36,
+                "alt_value": 25.38
+            }
+        },
+        "1996": {
+            "#6": {
+                "insured_value": 850.0,
+                "alt_value": 1298.14
+            },
+            "#": {
+                "insured_value": 773.0,
+                "alt_value": 906.27
+            }
+        },
+        "2007": {
+            "#8": {
+                "insured_value": 199.0,
+                "alt_value": 228.25
+            }
+        },
+        "2014": {
+            "#81": {
+                "insured_value": 380.0,
+                "alt_value": 355.21
+            },
+            "#11": {
+                "insured_value": 20.84,
+                "alt_value": 32.56
+            }
+        },
+        "2000": {
+            "#6": {
+                "insured_value": 78.0,
+                "alt_value": 177.75
+            }
+        },
+        "2016": {
+            "#11": {
+                "insured_value": 109.0,
+                "alt_value": 159.0
+            },
+            "#12": {
+                "insured_value": 51.6,
+                "alt_value": 46.01
+            },
+            "#": {
+                "alt_value": 132.3
+            }
+        },
+        "2017": {
+            "#58": {
+                "insured_value": 750.66,
+                "alt_value": 899.16
+            }
+        },
+        "2006": {
+            "#32": {
+                "insured_value": 364.95,
+                "alt_value": 573.17
+            }
+        },
+        "2020": {
+            "#2": {
+                "insured_value": 55.0,
+                "alt_value": 37.88
+            },
+            "#307": {
+                "insured_value": 90.0,
+                "alt_value": 93.78
+            }
+        },
+        "2021": {
+            "#1": {
+                "insured_value": 347.0,
+                "alt_value": 249.44
+            }
+        },
+        "1998": {
+            "#6": {
+                "insured_value": 530.0,
+                "alt_value": 596.67
+            },
+            "#23": {
+                "insured_value": 353.18,
+                "alt_value": 313.87
+            }
+        },
+        "2009": {
+            "#001": {
+                "insured_value": 52.13,
+                "alt_value": 81.73
+            },
+            "#17": {
+                "insured_value": 51.0,
+                "alt_value": 80.12753112645846
+            }
+        },
+        "2015": {
+            "#": {
+                "alt_value": 162.21
+            }
+        }
+    },
+    "SYLVEON": {
+        "2024": {
+            "#212": {
+                "insured_value": 81.0,
+                "alt_value": 94.08
+            }
+        },
+        "2021": {
+            "#93": {
+                "insured_value": 600.0,
+                "alt_value": 416.2753561433826
+            },
+            "#92": {
+                "insured_value": 55.0,
+                "alt_value": 37.77641873311534
+            },
+            "#232": {
+                "insured_value": 34.3,
+                "alt_value": 38.53
+            }
+        },
+        "2023": {
+            "#070SVP": {
+                "insured_value": 55.0,
+                "alt_value": 45.26
+            }
+        },
+        "2018": {
+            "#238": {
+                "insured_value": 126.74,
+                "alt_value": 123.12
+            }
+        },
+        "2015": {
+            "#141XYP": {
+                "insured_value": 30.0,
+                "alt_value": 42.18369863131957
+            }
+        }
+    },
+    "GALLADE": {
+        "2019": {
+            "#57": {
+                "insured_value": 12.73,
+                "alt_value": 22.91
+            }
+        }
+    },
+    "PICHU": {
+        "2001": {
+            "#114": {
+                "insured_value": 73.0,
+                "alt_value": 141.23
+            },
+            "#": {
+                "insured_value": 48.57,
+                "alt_value": 70.49
+            }
+        },
+        "1999": {
+            "#172": {
+                "insured_value": 60.0,
+                "alt_value": 65.29
+            }
+        },
+        "2000": {
+            "#172": {
+                "insured_value": 50.0,
+                "alt_value": 48.81
+            }
+        }
+    },
+    "DRAGONITE": {
+        "2021": {
+            "#74": {
+                "insured_value": 278.39,
+                "alt_value": 255.93
+            }
+        },
+        "2008": {
+            "#NoNum": {
+                "insured_value": 101.22,
+                "alt_value": 118.15
+            }
+        },
+        "2001": {
+            "#38": {
+                "insured_value": 77.92,
+                "alt_value": 160.4
+            },
+            "#49": {
+                "insured_value": 91.11,
+                "alt_value": 106.54
+            },
+            "#149": {
+                "insured_value": 139.0,
+                "alt_value": 120.57
+            },
+            "#126": {
+                "insured_value": 130.0,
+                "alt_value": 423.75
+            }
+        },
+        "2014": {
+            "#100": {
+                "insured_value": 153.0,
+                "alt_value": 240.52
+            }
+        },
+        "1997": {
+            "#149": {
+                "insured_value": 135.0,
+                "alt_value": 177.25
+            }
+        },
+        "1998": {
+            "#149": {
+                "insured_value": 334.0,
+                "alt_value": 327.84
+            }
+        },
+        "2005": {
+            "#39": {
+                "insured_value": 98.26,
+                "alt_value": 142.94
+            }
+        }
+    },
+    "RESHIRAM": {
+        "2019": {
+            "#36": {
+                "insured_value": 50.0,
+                "alt_value": 38.17
+            },
+            "#96": {
+                "insured_value": 53.74,
+                "alt_value": 50.06
+            }
+        },
+        "2011": {
+            "#51": {
+                "insured_value": 29.62,
+                "alt_value": 24.3
+            }
+        },
+        "2025": {
+            "#174": {
+                "insured_value": 280.0,
+                "alt_value": 200.58
+            },
+            "#109": {
+                "insured_value": 19.74,
+                "alt_value": 16.14
+            }
+        },
+        "2018": {
+            "#60": {
+                "insured_value": 33.44,
+                "alt_value": 39.61
+            }
+        },
+        "2015": {
+            "#002": {
+                "insured_value": 85.0,
+                "alt_value": 78.93
+            }
+        }
+    },
+    "HOUNDOOM": {
+        "2004": {
+            "#21": {
+                "insured_value": 41.19,
+                "alt_value": 71.66
+            }
+        },
+        "2002": {
+            "#71": {
+                "insured_value": 415.0,
+                "alt_value": 458.82
+            },
+            "#70": {
+                "insured_value": 308.0,
+                "alt_value": 266.11
+            }
+        },
+        "2001": {
+            "#229": {
+                "insured_value": 41.0,
+                "alt_value": 63.32
+            }
+        },
+        "2000": {
+            "#229": {
+                "insured_value": 50.0,
+                "alt_value": 56.7
+            }
+        }
+    },
+    "CHARMANDER": {
+        "1997": {
+            "#357": {
+                "insured_value": 47.88,
+                "alt_value": 74.05
+            }
+        },
+        "1996": {
+            "#4": {
+                "insured_value": 53.55,
+                "alt_value": 370.8
+            }
+        },
+        "2023": {
+            "#168": {
+                "insured_value": 32.82,
+                "alt_value": 30.26
+            },
+            "#051": {
+                "insured_value": 36.0,
+                "alt_value": 40.67396357085152
+            }
+        },
+        "2004": {
+            "#9": {
+                "insured_value": 35.0,
+                "alt_value": 38.30180653754247
+            }
+        },
+        "2007": {
+            "#6": {
+                "insured_value": 50.95,
+                "alt_value": 50.19
+            }
+        },
+        "2008": {
+            "#90": {
+                "insured_value": 63.58,
+                "alt_value": 57.68
+            }
+        },
+        "2002": {
+            "#4": {
+                "insured_value": 750.0,
+                "alt_value": 589.63
+            }
+        }
+    },
+    "GARCHOMP": {
+        "2007": {
+            "#": {
+                "insured_value": 58.55,
+                "alt_value": 66.18
+            }
+        },
+        "2019": {
+            "#60": {
+                "insured_value": 100.95,
+                "alt_value": 86.3
+            },
+            "#32": {
+                "insured_value": 31.73,
+                "alt_value": 28.02
+            }
+        },
+        "2025": {
+            "#091": {
+                "insured_value": 36.97,
+                "alt_value": 22.58
+            }
+        }
+    },
+    "MARILL": {
+        "1999": {
+            "#": {
+                "insured_value": 34.91,
+                "alt_value": 47.51
+            }
+        }
+    },
+    "RAYQUAZA": {
+        "2009": {
+            "#78": {
+                "insured_value": 99.97,
+                "alt_value": 99.6
+            }
+        },
+        "2008": {
+            "#": {
+                "insured_value": 50.7,
+                "alt_value": 60.44
+            }
+        },
+        "2016": {
+            "#230XYP": {
+                "insured_value": 2800.0,
+                "alt_value": 3788.36
+            },
+            "#232XYP": {
+                "insured_value": 350.0,
+                "alt_value": 353.91
+            },
+            "#231XYP": {
+                "alt_value": 3921.25
+            }
+        },
+        "2005": {
+            "#009": {
+                "insured_value": 107.06,
+                "alt_value": 288.9
+            },
+            "#41": {
+                "insured_value": 68.16,
+                "alt_value": 84.31
+            },
+            "#3": {
+                "alt_value": 272.4
+            }
+        },
+        "2015": {
+            "#015": {
+                "insured_value": 86.91,
+                "alt_value": 99.56
+            },
+            "#006": {
+                "insured_value": 81.13,
+                "alt_value": 124.69
+            }
+        },
+        "2012": {
+            "#144BWP": {
+                "insured_value": 72.0,
+                "alt_value": 107.4
+            }
+        },
+        "2021": {
+            "#252": {
+                "insured_value": 60.0,
+                "alt_value": 63.93
+            },
+            "#76": {
+                "insured_value": 265.0,
+                "alt_value": 350.06
+            }
+        },
+        "2004": {
+            "#3": {
+                "insured_value": 53.68,
+                "alt_value": 77.02
+            }
+        },
+        "2017": {
+            "#136": {
+                "insured_value": 27.69,
+                "alt_value": 51.22
+            }
+        }
+    },
+    "VENUSAUR": {
+        "1999": {
+            "#3": {
+                "insured_value": 70.0,
+                "alt_value": 90.07
+            }
+        },
+        "1996": {
+            "#3": {
+                "insured_value": 170.0,
+                "alt_value": 209.53
+            }
+        },
+        "2001": {
+            "#65": {
+                "insured_value": 40.2,
+                "alt_value": 56.84
+            }
+        },
+        "2023": {
+            "#200": {
+                "insured_value": 56.0,
+                "alt_value": 63.87
+            },
+            "#050": {
+                "alt_value": 38.59
+            },
+            "#6": {
+                "alt_value": 23.15
+            },
+            "#051": {
+                "alt_value": 38.96
+            }
+        },
+        "2004": {
+            "#9": {
+                "alt_value": 45.46
+            },
+            "#20": {
+                "alt_value": 260.79
+            }
+        }
+    },
+    "MACHAMP": {
+        "1996": {
+            "#68": {
+                "insured_value": 74.76,
+                "alt_value": 99.34
+            },
+            "#": {
+                "insured_value": 1390.46,
+                "alt_value": 2065.21
+            }
+        },
+        "1999": {
+            "#68": {
+                "insured_value": 599.0,
+                "alt_value": 805.81
+            }
+        },
+        "2022": {
+            "#073": {
+                "insured_value": 88.98,
+                "alt_value": 74.82
+            }
+        }
+    },
+    "WATTREL": {
+        "2025": {
+            "#232SVP": {
+                "insured_value": 16.97,
+                "alt_value": 16.5
+            }
+        }
+    },
+    "UXIE": {
+        "2021": {
+            "#2008": {
+                "insured_value": 1523.86,
+                "alt_value": 1438.36
+            }
+        }
+    },
+    "MEWTWO": {
+        "2023": {
+            "#150": {
+                "insured_value": 34.15,
+                "alt_value": 36.21
+            },
+            "#183": {
+                "insured_value": 30.92,
+                "alt_value": 29.81
+            }
+        },
+        "1996": {
+            "#202": {
+                "insured_value": 43.74,
+                "alt_value": 40.19
+            },
+            "#150": {
+                "insured_value": 191.0,
+                "alt_value": 150.48
+            }
+        },
+        "2017": {
+            "#40": {
+                "insured_value": 29.88,
+                "alt_value": 28.24
+            },
+            "#82": {
+                "insured_value": 750.0,
+                "alt_value": 699.64
+            }
+        },
+        "2025": {
+            "#114": {
+                "insured_value": 37.35,
+                "alt_value": 28.32
+            }
+        },
+        "1998": {
+            "#": {
+                "insured_value": 107.0,
+                "alt_value": 87.58
+            }
+        },
+        "2005": {
+            "#2": {
+                "insured_value": 2225.0,
+                "alt_value": 1906.660171279833
+            },
+            "#107": {
+                "insured_value": 123.75,
+                "alt_value": 134.18
+            }
+        },
+        "2003": {
+            "#26": {
+                "insured_value": 68.0,
+                "alt_value": 181.66
+            }
+        },
+        "2001": {
+            "#150": {
+                "insured_value": 94.23,
+                "alt_value": 476.47
+            }
+        },
+        "1999": {
+            "#": {
+                "insured_value": 56.68,
+                "alt_value": 80.01
+            }
+        },
+        "2009": {
+            "#12": {
+                "alt_value": 31.84
+            }
+        },
+        "2019": {
+            "#366SMP": {
+                "alt_value": 58.16
+            }
+        }
+    },
+    "ALAKAZAM": {
+        "2006": {
+            "#33": {
+                "insured_value": 2285.0,
+                "alt_value": 1836.66
+            }
+        },
+        "1996": {
+            "#65": {
+                "insured_value": 85.0,
+                "alt_value": 113.12
+            }
+        },
+        "1999": {
+            "#": {
+                "insured_value": 1080.0,
+                "alt_value": 1695.46
+            }
+        },
+        "1998": {
+            "#65": {
+                "insured_value": 72.0,
+                "alt_value": 62.15
+            }
+        },
+        "2016": {
+            "#88": {
+                "insured_value": 304.0,
+                "alt_value": 276.02
+            },
+            "#81": {
+                "insured_value": 250.0,
+                "alt_value": 166.99
+            }
+        },
+        "1997": {
+            "#65": {
+                "insured_value": 64.46,
+                "alt_value": 56.89
+            }
+        }
+    },
+    "BELLOSSOM": {
+        "1999": {
+            "#182": {
+                "insured_value": 29.83,
+                "alt_value": 27.53
+            }
+        }
+    },
+    "SNORLAX": {
+        "1999": {
+            "#143": {
+                "insured_value": 69.72,
+                "alt_value": 65.82
+            }
+        },
+        "1998": {
+            "#143": {
+                "insured_value": 140.0,
+                "alt_value": 271.87
+            }
+        },
+        "2023": {
+            "#181": {
+                "insured_value": 17.49,
+                "alt_value": 24.28
+            }
+        },
+        "1997": {
+            "#143": {
+                "insured_value": 61.0,
+                "alt_value": 142.01
+            }
+        },
+        "1996": {
+            "#143": {
+                "insured_value": 85.68,
+                "alt_value": 206.59
+            }
+        }
+    },
+    "PRINPLUP": {
+        "2007": {
+            "#54": {
+                "insured_value": 36.9,
+                "alt_value": 35.44
+            }
+        }
+    },
+    "VAPOREON": {
+        "2023": {
+            "#063SVP": {
+                "insured_value": 36.74,
+                "alt_value": 47.05
+            }
+        },
+        "1997": {
+            "#134": {
+                "insured_value": 34.33,
+                "alt_value": 84.12
+            }
+        },
+        "2007": {
+            "#15": {
+                "insured_value": 1350.0,
+                "alt_value": 1504.29
+            }
+        },
+        "2024": {
+            "#205": {
+                "insured_value": 45.0,
+                "alt_value": 45.8
+            }
+        },
+        "2003": {
+            "#22": {
+                "insured_value": 86.34,
+                "alt_value": 77.19
+            }
+        }
+    },
+    "TYPHLOSION": {
+        "2000": {
+            "#157": {
+                "insured_value": 30.0,
+                "alt_value": 45.23
+            }
+        },
+        "2009": {
+            "#17": {
+                "insured_value": 43.05,
+                "alt_value": 57.69
+            }
+        },
+        "2001": {
+            "#157": {
+                "insured_value": 53.0,
+                "alt_value": 59.43
+            }
+        },
+        "2005": {
+            "#3": {
+                "insured_value": 47.36,
+                "alt_value": 52.4
+            }
+        }
+    },
+    "SLOWKING": {
+        "1999": {
+            "#": {
+                "insured_value": 100.0,
+                "alt_value": 93.98
+            }
+        },
+        "2000": {
+            "#199": {
+                "insured_value": 50.0,
+                "alt_value": 49.77
+            }
+        },
+        "1996": {
+            "#0": {
+                "insured_value": 150.0,
+                "alt_value": 242.85
+            }
+        },
+        "2009": {
+            "#39": {
+                "insured_value": 43.01,
+                "alt_value": 43.21
+            }
+        }
+    },
+    "LEAFEON": {
+        "2024": {
+            "#200": {
+                "insured_value": 65.0,
+                "alt_value": 45.6
+            }
+        },
+        "2021": {
+            "#71": {
+                "insured_value": 80.0,
+                "alt_value": 78.99256944989254
+            }
+        },
+        "2023": {
+            "#068SVP": {
+                "insured_value": 53.0,
+                "alt_value": 59.27
+            }
+        },
+        "2007": {
+            "#158": {
+                "insured_value": 33.57,
+                "alt_value": 41.5
+            }
+        }
+    },
+    "SEADRA": {
+        "1998": {
+            "#117": {
+                "insured_value": 55.0,
+                "alt_value": 44.49
+            }
+        }
+    },
+    "UMBREON": {
+        "2021": {
+            "#244": {
+                "insured_value": 31.67,
+                "alt_value": 41.02
+            },
+            "#85": {
+                "insured_value": 175.0,
+                "alt_value": 191.96499188975724
+            }
+        },
+        "2000": {
+            "#197": {
+                "insured_value": 95.0,
+                "alt_value": 312.97
+            }
+        },
+        "2011": {
+            "#115BWP": {
+                "insured_value": 61.0,
+                "alt_value": 62.58
+            },
+            "#42": {
+                "insured_value": 35.97,
+                "alt_value": 49.41
+            }
+        },
+        "2024": {
+            "#92": {
+                "insured_value": 43.0,
+                "alt_value": 38.26
+            },
+            "#217": {
+                "insured_value": 280.0,
+                "alt_value": 248.99
+            }
+        },
+        "2023": {
+            "#067SVP": {
+                "insured_value": 122.0,
+                "alt_value": 111.98
+            }
+        },
+        "2002": {
+            "#68": {
+                "insured_value": 900.0,
+                "alt_value": 860.3
+            }
+        },
+        "2005": {
+            "#91": {
+                "insured_value": 565.1,
+                "alt_value": 636.15
+            }
+        },
+        "2001": {
+            "#91": {
+                "insured_value": 2050.0,
+                "alt_value": 2042.53
+            }
+        },
+        "2010": {
+            "#37": {
+                "insured_value": 70.0,
+                "alt_value": 146.27
+            }
+        }
+    },
+    "ZOROARK": {
+        "2025": {
+            "#131": {
+                "insured_value": 604.1,
+                "alt_value": 508.06
+            },
+            "#127": {
+                "insured_value": 40.0,
+                "alt_value": 49.46
+            }
+        }
+    },
+    "LATIOS": {
+        "2015": {
+            "#82": {
+                "insured_value": 81.63,
+                "alt_value": 104.39
+            }
+        },
+        "2024": {
+            "#70": {
+                "insured_value": 29.3,
+                "alt_value": 19.51
+            }
+        },
+        "2006": {
+            "#14": {
+                "insured_value": 79.17,
+                "alt_value": 67.57
+            }
+        },
+        "2005": {
+            "#62": {
+                "alt_value": 99.19
+            }
+        }
+    },
+    "TOGEPI": {
+        "2002": {
+            "#035P": {
+                "insured_value": 52.88,
+                "alt_value": 79.11
+            }
+        },
+        "1999": {
+            "#": {
+                "insured_value": 60.0,
+                "alt_value": 60.66
+            }
+        }
+    },
+    "SCYTHER": {
+        "1997": {
+            "#123": {
+                "insured_value": 54.0,
+                "alt_value": 55.27
+            }
+        },
+        "1998": {
+            "#123": {
+                "insured_value": 70.0,
+                "alt_value": 266.88
+            }
+        },
+        "2023": {
+            "#6": {
+                "insured_value": 13.0,
+                "alt_value": 23.473898948394787
+            }
+        },
+        "2004": {
+            "#61": {
+                "insured_value": 293.0,
+                "alt_value": 170.58
+            }
+        }
+    },
+    "MEW": {
+        "2023": {
+            "#205": {
+                "insured_value": 75.0,
+                "alt_value": 123.26
+            },
+            "#347": {
+                "insured_value": 360.0,
+                "alt_value": 316.05
+            }
+        },
+        "1999": {
+            "#151": {
+                "insured_value": 104.0,
+                "alt_value": 229.63
+            }
+        },
+        "2004": {
+            "#148PCGP": {
+                "insured_value": 331.05,
+                "alt_value": 415.25
+            }
+        },
+        "1997": {
+            "#151": {
+                "insured_value": 63.0,
+                "alt_value": 153.55
+            }
+        },
+        "2019": {
+            "#52": {
+                "insured_value": 35.0,
+                "alt_value": 39.4
+            },
+            "#29": {
+                "insured_value": 45.0,
+                "alt_value": 40.88
+            }
+        },
+        "2001": {
+            "#151": {
+                "insured_value": 1120.0,
+                "alt_value": 1548.82
+            },
+            "#119": {
+                "insured_value": 257.0,
+                "alt_value": 529.32
+            }
+        },
+        "1996": {
+            "#": {
+                "insured_value": 186.0,
+                "alt_value": 377.35
+            },
+            "#151": {
+                "insured_value": 110.0,
+                "alt_value": 209.05
+            }
+        },
+        "2021": {
+            "#30": {
+                "insured_value": 56.0,
+                "alt_value": 101.41
+            },
+            "#280": {
+                "insured_value": 29.67,
+                "alt_value": 25.08
+            }
+        },
+        "2016": {
+            "#51": {
+                "insured_value": 32.0,
+                "alt_value": 63.87
+            }
+        },
+        "2006": {
+            "#15": {
+                "insured_value": 1440.04,
+                "alt_value": 2693.93
+            }
+        },
+        "2022": {
+            "#183": {
+                "insured_value": 30.0,
+                "alt_value": 42.09
+            }
+        },
+        "2002": {
+            "#33P": {
+                "insured_value": 255.0,
+                "alt_value": 350.36
+            }
+        },
+        "2005": {
+            "#003": {
+                "insured_value": 177.48,
+                "alt_value": 267.69
+            },
+            "#2": {
+                "alt_value": 1938.54
+            },
+            "#1": {
+                "alt_value": 2831.11
+            }
+        }
+    },
+    "DIALGA": {
+        "2017": {
+            "#75": {
+                "insured_value": 30.79,
+                "alt_value": 41.8
+            }
+        },
+        "2022": {
+            "#260": {
+                "insured_value": 56.0,
+                "alt_value": 51.04
+            },
+            "#75": {
+                "insured_value": 55.69,
+                "alt_value": 65.3
+            }
+        },
+        "2008": {
+            "#66": {
+                "insured_value": 36.39,
+                "alt_value": 55.75
+            }
+        },
+        "2010": {
+            "#074": {
+                "insured_value": 232.0,
+                "alt_value": 358.47
+            }
+        }
+    },
+    "IVYSAUR": {
+        "2001": {
+            "#1": {
+                "insured_value": 43.61,
+                "alt_value": 38.18
+            }
+        },
+        "2025": {
+            "#065": {
+                "insured_value": 29.38,
+                "alt_value": 20.73
+            }
+        }
+    },
+    "HAUNTER": {
+        "1996": {
+            "#93": {
+                "insured_value": 128.94,
+                "alt_value": 156.01
+            }
+        },
+        "2023": {
+            "#93": {
+                "insured_value": 30.87,
+                "alt_value": 28.99
+            }
+        }
+    },
+    "GRIMER": {
+        "1997": {
+            "#88": {
+                "insured_value": 33.81,
+                "alt_value": 17.17
+            }
+        }
+    },
+    "POLIWRATH": {
+        "1996": {
+            "#62": {
+                "insured_value": 1000.68,
+                "alt_value": 1469.64
+            }
+        },
+        "2000": {
+            "#62": {
+                "insured_value": 54.23,
+                "alt_value": 43.49
+            }
+        },
+        "2001": {
+            "#109": {
+                "insured_value": 66.0,
+                "alt_value": 76.51
+            }
+        }
+    },
+    "PIPLUP": {
+        "2019": {
+            "#52": {
+                "insured_value": 36.0,
+                "alt_value": 75.55
+            }
+        }
+    },
+    "GOLEM": {
+        "2023": {
+            "#76": {
+                "insured_value": 3.37,
+                "alt_value": 8.56
+            }
+        },
+        "1999": {
+            "#NNO": {
+                "insured_value": 528.0,
+                "alt_value": 868.88
+            }
+        },
+        "2003": {
+            "#48": {
+                "insured_value": 45.41,
+                "alt_value": 39.67
+            }
+        },
+        "2001": {
+            "#122": {
+                "insured_value": 39.0,
+                "alt_value": 63.53
+            }
+        },
+        "2002": {
+            "#89": {
+                "insured_value": 630.0,
+                "alt_value": 1006.46
+            }
+        }
+    },
+    "LAPRAS": {
+        "1997": {
+            "#131": {
+                "insured_value": 65.0,
+                "alt_value": 59.14
+            }
+        },
+        "2025": {
+            "#072": {
+                "insured_value": 30.0,
+                "alt_value": 24.49
+            }
+        }
+    },
+    "CRESSELIA": {
+        "2012": {
+            "#60": {
+                "insured_value": 110.56,
+                "alt_value": 90.57
+            }
+        },
+        "2010": {
+            "#36": {
+                "insured_value": 101.68,
+                "alt_value": 125.08
+            }
+        }
+    },
+    "WARTORTLE": {
+        "1997": {
+            "#8": {
+                "insured_value": 20.46,
+                "alt_value": 26.83
+            }
+        },
+        "2023": {
+            "#171": {
+                "insured_value": 21.97,
+                "alt_value": 21.55
+            }
+        },
+        "2002": {
+            "#12T": {
+                "insured_value": 81.56,
+                "alt_value": 75.49
+            }
+        }
+    },
+    "ESPEON": {
+        "2019": {
+            "#189SP": {
+                "insured_value": 255.0,
+                "alt_value": 242.93464651407376
+            }
+        },
+        "2011": {
+            "#33": {
+                "insured_value": 29.71,
+                "alt_value": 25.64
+            }
+        },
+        "2023": {
+            "#066SVP": {
+                "insured_value": 49.0,
+                "alt_value": 51.16
+            }
+        },
+        "2024": {
+            "#211": {
+                "insured_value": 50.0,
+                "alt_value": 56.7
+            },
+            "#62": {
+                "insured_value": 24.56,
+                "alt_value": 18.5
+            }
+        },
+        "2000": {
+            "#196": {
+                "insured_value": 49.79,
+                "alt_value": 46.84
+            }
+        },
+        "2001": {
+            "#196": {
+                "insured_value": 143.0,
+                "alt_value": 142.6
+            }
+        },
+        "2005": {
+            "#49": {
+                "insured_value": 216.0,
+                "alt_value": 147.49
+            }
+        }
+    },
+    "GROUDON": {
+        "2015": {
+            "#15": {
+                "insured_value": 500.0,
+                "alt_value": 508.89
+            },
+            "#144": {
+                "insured_value": 30.76,
+                "alt_value": 41.37
+            }
+        },
+        "2014": {
+            "#40": {
+                "insured_value": 84.35,
+                "alt_value": 75.24
+            }
+        },
+        "2005": {
+            "#7": {
+                "insured_value": 44.65,
+                "alt_value": 39.71
+            },
+            "#20": {
+                "insured_value": 75.0,
+                "alt_value": 130.42
+            }
+        },
+        "2006": {
+            "#8": {
+                "insured_value": 77.4,
+                "alt_value": 138.61
+            }
+        },
+        "2016": {
+            "#73": {
+                "insured_value": 31.5,
+                "alt_value": 52.37
+            }
+        }
+    },
+    "PSYDUCK": {
+        "2025": {
+            "#071": {
+                "insured_value": 35.0,
+                "alt_value": 35.67
+            }
+        },
+        "2018": {
+            "#286SMP": {
+                "insured_value": 600.0,
+                "alt_value": 935.03
+            }
+        },
+        "1999": {
+            "#54": {
+                "insured_value": 25.62,
+                "alt_value": 34.18
+            }
+        },
+        "2002": {
+            "#20": {
+                "insured_value": 127.06,
+                "alt_value": 155.75
+            }
+        },
+        "2019": {
+            "#11": {
+                "insured_value": 70.0,
+                "alt_value": 48.07
+            }
+        },
+        "1997": {
+            "#54": {
+                "insured_value": 16.92,
+                "alt_value": 29.75
+            }
+        }
+    },
+    "SALAMENCE": {
+        "2025": {
+            "#129": {
+                "insured_value": 29.65,
+                "alt_value": 24.71
+            }
+        },
+        "2009": {
+            "#71": {
+                "insured_value": 31.0,
+                "alt_value": 21.902202858754574
+            }
+        }
+    },
+    "BRAIXEN": {
+        "2019": {
+            "#8": {
+                "insured_value": 29.0,
+                "alt_value": 31.13
+            }
+        }
+    },
+    "FLAREON": {
+        "1997": {
+            "#136": {
+                "insured_value": 31.63,
+                "alt_value": 80.44
+            }
+        },
+        "2021": {
+            "#73": {
+                "insured_value": 52.0,
+                "alt_value": 84.64020783163173
+            }
+        },
+        "2024": {
+            "#202": {
+                "insured_value": 60.0,
+                "alt_value": 38.5
+            }
+        },
+        "2001": {
+            "#89": {
+                "insured_value": 43.42,
+                "alt_value": 77.1
+            }
+        },
+        "2010": {
+            "#9": {
+                "insured_value": 34.9,
+                "alt_value": 33.53
+            }
+        },
+        "2005": {
+            "#4": {
+                "insured_value": 115.0,
+                "alt_value": 106.53
+            }
+        },
+        "2003": {
+            "#15": {
+                "insured_value": 39.55,
+                "alt_value": 61.11
+            }
+        },
+        "2002": {
+            "#1T": {
+                "insured_value": 91.0,
+                "alt_value": 84.06
+            }
+        },
+        "2023": {
+            "#065SVP": {
+                "insured_value": 45.0,
+                "alt_value": 54.49
+            }
+        },
+        "2016": {
+            "#7": {
+                "insured_value": 500.0,
+                "alt_value": 456.0
+            }
+        }
+    },
+    "KINGDRA": {
+        "2002": {
+            "#89": {
+                "insured_value": 575.0,
+                "alt_value": 716.03
+            }
+        },
+        "2000": {
+            "#230": {
+                "insured_value": 55.0,
+                "alt_value": 40.44
+            }
+        }
+    },
+    "MILOTIC": {
+        "2020": {
+            "#145/S-P": {
+                "insured_value": 50.0,
+                "alt_value": 54.24
+            }
+        },
+        "2024": {
+            "#131": {
+                "insured_value": 51.0,
+                "alt_value": 54.87
+            }
+        }
+    },
+    "SLAKING": {
+        "2008": {
+            "#74": {
+                "insured_value": 13.67,
+                "alt_value": 23.0
+            }
+        }
+    },
+    "STEELIX": {
+        "2001": {
+            "#32": {
+                "insured_value": 112.0,
+                "alt_value": 139.03
+            },
+            "#208": {
+                "insured_value": 775.0,
+                "alt_value": 1200.89
+            }
+        },
+        "2000": {
+            "#208": {
+                "insured_value": 35.0,
+                "alt_value": 42.77
+            }
+        }
+    },
+    "GASTLY": {
+        "1996": {
+            "#92": {
+                "insured_value": 72.23,
+                "alt_value": 131.08
+            }
+        },
+        "1998": {
+            "#92": {
+                "insured_value": 31.34,
+                "alt_value": 36.12
+            }
+        }
+    },
+    "JUMPLUFF": {
+        "2000": {
+            "#189": {
+                "insured_value": 29.29,
+                "alt_value": 25.29
+            }
+        }
+    },
+    "GOLDUCK": {
+        "1998": {
+            "#55": {
+                "insured_value": 45.0,
+                "alt_value": 53.0
+            }
+        }
+    },
+    "CLAYDOL": {
+        "2007": {
+            "#37": {
+                "insured_value": 26.04,
+                "alt_value": 40.46
+            }
+        }
+    },
+    "MEOWTH": {
+        "1998": {
+            "#052": {
+                "insured_value": 150.34,
+                "alt_value": 266.53
+            }
+        },
+        "1999": {
+            "#52": {
+                "insured_value": 245.0,
+                "alt_value": 175.37
+            }
+        },
+        "2024": {
+            "#192SVP": {
+                "insured_value": 50.0,
+                "alt_value": 73.14
+            }
+        },
+        "2006": {
+            "#38": {
+                "insured_value": 15.66,
+                "alt_value": 24.85
+            }
+        },
+        "2003": {
+            "#28": {
+                "insured_value": 22.03,
+                "alt_value": 50.24
+            }
+        },
+        "1996": {
+            "#0": {
+                "insured_value": 204.68,
+                "alt_value": 367.27
+            }
+        },
+        "2001": {
+            "#29": {
+                "insured_value": 20.46,
+                "alt_value": 26.83
+            }
+        },
+        "2004": {
+            "#59": {
+                "insured_value": 19.41,
+                "alt_value": 39.01
+            }
+        }
+    },
+    "GARDEVOIR": {
+        "2006": {
+            "#5": {
+                "insured_value": 69.63,
+                "alt_value": 50.61
+            }
+        },
+        "2007": {
+            "#": {
+                "insured_value": 74.03,
+                "alt_value": 60.59
+            }
+        },
+        "2023": {
+            "#348": {
+                "insured_value": 64.0,
+                "alt_value": 85.72
+            }
+        },
+        "2019": {
+            "#61": {
+                "insured_value": 433.0,
+                "alt_value": 392.17
+            }
+        },
+        "2025": {
+            "#092": {
+                "insured_value": 245.0,
+                "alt_value": 228.46
+            }
+        }
+    },
+    "OMASTAR": {
+        "1998": {
+            "#139": {
+                "insured_value": 530.0,
+                "alt_value": 617.81
+            }
+        }
+    },
+    "MUDKIP": {
+        "2005": {
+            "#48": {
+                "insured_value": 47.47,
+                "alt_value": 67.87
+            },
+            "#83": {
+                "insured_value": 32.48,
+                "alt_value": 39.17
+            }
+        }
+    },
+    "CHIMCHAR": {
+        "2007": {
+            "#2": {
+                "insured_value": 38.79,
+                "alt_value": 35.85
+            }
+        }
+    },
+    "JYNX": {
+        "1999": {
+            "#124": {
+                "insured_value": 30.09,
+                "alt_value": 30.57
+            }
+        },
+        "2001": {
+            "#74": {
+                "insured_value": 36.79,
+                "alt_value": 33.82
+            }
+        },
+        "1996": {
+            "#124": {
+                "insured_value": 45.79,
+                "alt_value": 42.91
+            }
+        }
+    },
+    "SKARMORY": {
+        "2000": {
+            "#227": {
+                "insured_value": 34.73,
+                "alt_value": 30.95
+            }
+        },
+        "2001": {
+            "#128": {
+                "insured_value": 46.0,
+                "alt_value": 65.07
+            }
+        }
+    },
+    "REGICE": {
+        "2005": {
+            "#98": {
+                "insured_value": 30.0,
+                "alt_value": 35.805755227271646
+            },
+            "#33": {
+                "insured_value": 700.0,
+                "alt_value": 1477.09
+            }
+        }
+    },
+    "FLYGON": {
+        "2006": {
+            "#125": {
+                "insured_value": 41.28,
+                "alt_value": 45.15
+            }
+        },
+        "2003": {
+            "#32": {
+                "insured_value": 26.19,
+                "alt_value": 42.8
+            },
+            "#6": {
+                "insured_value": 45.36,
+                "alt_value": 50.43
+            }
+        }
+    },
+    "HERACROSS": {
+        "2000": {
+            "#214": {
+                "insured_value": 32.0,
+                "alt_value": 35.59
+            }
+        }
+    },
+    "PERSIAN": {
+        "1999": {
+            "#53": {
+                "insured_value": 58.0,
+                "alt_value": 50.81
+            }
+        },
+        "2024": {
+            "#75": {
+                "insured_value": 29.21,
+                "alt_value": 18.16
+            }
+        }
+    },
+    "VULPIX": {
+        "2001": {
+            "#8": {
+                "insured_value": 29.89,
+                "alt_value": 28.37
+            }
+        },
+        "2017": {
+            "#037SMP": {
+                "alt_value": 705.47
+            }
+        }
+    },
+    "CELEBI": {
+        "2004": {
+            "#12": {
+                "insured_value": 75.0,
+                "alt_value": 106.07
+            }
+        },
+        "2007": {
+            "#301": {
+                "insured_value": 31.69,
+                "alt_value": 55.16
+            }
+        },
+        "2018": {
+            "#97": {
+                "insured_value": 65.38,
+                "alt_value": 70.72
+            }
+        },
+        "2005": {
+            "#1": {
+                "insured_value": 47.0,
+                "alt_value": 92.06
+            },
+            "#52": {
+                "insured_value": 236.86,
+                "alt_value": 234.96
+            }
+        },
+        "2021": {
+            "#175SP": {
+                "insured_value": 43.93,
+                "alt_value": 56.91
+            }
+        },
+        "2001": {
+            "#251": {
+                "insured_value": 85.0,
+                "alt_value": 88.81
+            }
+        }
+    },
+    "SQUIRTLE": {
+        "2023": {
+            "#170": {
+                "insured_value": 30.0,
+                "alt_value": 39.37
+            }
+        },
+        "1996": {
+            "#7": {
+                "insured_value": 46.0,
+                "alt_value": 256.59
+            }
+        },
+        "2002": {
+            "#7": {
+                "insured_value": 1317.0,
+                "alt_value": 1327.62
+            }
+        },
+        "2004": {
+            "#55": {
+                "insured_value": 119.32,
+                "alt_value": 109.92
+            }
+        },
+        "1999": {
+            "#9": {
+                "alt_value": 212.66
+            }
+        }
+    },
+    "DIGLETT": {
+        "1996": {
+            "#50": {
+                "insured_value": 45.73,
+                "alt_value": 42.0
+            }
+        }
+    },
+    "PALKIA": {
+        "2008": {
+            "#105": {
+                "insured_value": 60.52,
+                "alt_value": 67.72
+            },
+            "#33": {
+                "insured_value": 40.68,
+                "alt_value": 50.19
+            }
+        },
+        "2013": {
+            "#81": {
+                "insured_value": 122.34,
+                "alt_value": 154.96
+            }
+        },
+        "2022": {
+            "#259": {
+                "insured_value": 78.0,
+                "alt_value": 52.84
+            }
+        },
+        "2007": {
+            "#": {
+                "insured_value": 34.1,
+                "alt_value": 63.3
+            }
+        }
+    },
+    "MEGANIUM": {
+        "2000": {
+            "#154": {
+                "insured_value": 40.0,
+                "alt_value": 46.77
+            }
+        },
+        "2001": {
+            "#102": {
+                "insured_value": 58.0,
+                "alt_value": 78.97
+            }
+        },
+        "2009": {
+            "#9": {
+                "insured_value": 35.77,
+                "alt_value": 46.45
+            }
+        }
+    },
+    "HO-OH": {
+        "2012": {
+            "#51": {
+                "insured_value": 225.48,
+                "alt_value": 232.14
+            }
+        },
+        "2000": {
+            "#250": {
+                "insured_value": 90.0,
+                "alt_value": 179.06
+            }
+        },
+        "2017": {
+            "#083": {
+                "insured_value": 49.0,
+                "alt_value": 51.66
+            }
+        },
+        "2010": {
+            "#48": {
+                "insured_value": 37.63,
+                "alt_value": 74.32
+            }
+        },
+        "2007": {
+            "#300": {
+                "insured_value": 34.24,
+                "alt_value": 37.63
+            }
+        }
+    },
+    "COMBUSKEN": {
+        "2003": {
+            "#9": {
+                "insured_value": 12.71,
+                "alt_value": 36.54
+            }
+        }
+    },
+    "RIOLU": {
+        "2022": {
+            "#201": {
+                "insured_value": 23.39,
+                "alt_value": 14.88
+            }
+        }
+    },
+    "GIRATINA": {
+        "2022": {
+            "#125": {
+                "insured_value": 30.6,
+                "alt_value": 38.94
+            }
+        },
+        "2008": {
+            "#51": {
+                "insured_value": 50.0,
+                "alt_value": 104.98
+            }
+        }
+    },
+    "NIDOKING": {
+        "1999": {
+            "#34": {
+                "insured_value": 61.99,
+                "alt_value": 312.47
+            }
+        },
+        "2025": {
+            "#126": {
+                "insured_value": 55.0,
+                "alt_value": 55.42
+            }
+        },
+        "1996": {
+            "#34": {
+                "insured_value": 73.0,
+                "alt_value": 61.73
+            }
+        }
+    },
+    "RATICATE": {
+        "1996": {
+            "#20": {
+                "insured_value": 34.76,
+                "alt_value": 31.35
+            }
+        }
+    },
+    "TATSUGIRI": {
+        "2024": {
+            "#112": {
+                "insured_value": 19.82,
+                "alt_value": 17.36
+            }
+        }
+    },
+    "HITMONLEE": {
+        "1997": {
+            "#106": {
+                "insured_value": 60.0,
+                "alt_value": 45.85
+            }
+        }
+    },
+    "MUNCHLAX": {
+        "2005": {
+            "#8": {
+                "insured_value": 52.0,
+                "alt_value": 148.47
+            }
+        },
+        "2006": {
+            "#125DPP": {
+                "insured_value": 96.05,
+                "alt_value": 110.63
+            }
+        }
+    },
+    "SLOWPOKE": {
+        "2002": {
+            "#31": {
+                "insured_value": 32.26,
+                "alt_value": 35.82
+            },
+            "#14": {
+                "insured_value": 138.0,
+                "alt_value": 219.58
+            }
+        }
+    },
+    "CYNDAQUIL": {
+        "2002": {
+            "#6": {
+                "insured_value": 24.0,
+                "alt_value": 51.81
+            }
+        }
+    },
+    "GYARADOS": {
+        "1999": {
+            "#130": {
+                "insured_value": 85.0,
+                "alt_value": 74.06
+            }
+        },
+        "2015": {
+            "#151XYP": {
+                "insured_value": 2300.0,
+                "alt_value": 3652.13
+            }
+        },
+        "1997": {
+            "#130": {
+                "insured_value": 67.82,
+                "alt_value": 120.96
+            }
+        },
+        "2002": {
+            "#28": {
+                "insured_value": 680.0,
+                "alt_value": 674.27
+            }
+        },
+        "2009": {
+            "#23": {
+                "insured_value": 39.38,
+                "alt_value": 58.55
+            }
+        },
+        "1998": {
+            "#130": {
+                "insured_value": 90.0,
+                "alt_value": 93.81
+            }
+        },
+        "2001": {
+            "#98": {
+                "insured_value": 110.0,
+                "alt_value": 199.97
+            }
+        },
+        "2004": {
+            "#35": {
+                "alt_value": 142.45
+            }
+        }
+    },
+    "VILEPLUME": {
+        "2019": {
+            "#62": {
+                "insured_value": 36.0,
+                "alt_value": 43.06
+            }
+        },
+        "1997": {
+            "#45": {
+                "insured_value": 44.02,
+                "alt_value": 30.31
+            }
+        },
+        "1998": {
+            "#45": {
+                "insured_value": 40.0,
+                "alt_value": 39.29
+            }
+        }
+    },
+    "BUTTERFREE": {
+        "2001": {
+            "#8": {
+                "insured_value": 39.51,
+                "alt_value": 32.67
+            }
+        }
+    },
+    "DEOXYS": {
+        "2005": {
+            "#32": {
+                "insured_value": 47.19,
+                "alt_value": 49.91
+            }
+        },
+        "2019": {
+            "#1": {
+                "insured_value": 29.48,
+                "alt_value": 22.28
+            }
+        },
+        "2004": {
+            "#": {
+                "insured_value": 2300.0,
+                "alt_value": 2828.12
+            }
+        },
+        "2006": {
+            "#47": {
+                "insured_value": 41.74,
+                "alt_value": 66.01
+            }
+        },
+        "2012": {
+            "#53": {
+                "insured_value": 35.0,
+                "alt_value": 215.32
+            }
+        }
+    },
+    "AZELF": {
+        "2008": {
+            "#": {
+                "insured_value": 30.49,
+                "alt_value": 65.21
+            }
+        }
+    },
+    "GRENINJA": {
+        "2024": {
+            "#90": {
+                "insured_value": 166.0,
+                "alt_value": 184.25
+            }
+        },
+        "2014": {
+            "#21": {
+                "insured_value": 30.49,
+                "alt_value": 37.32
+            }
+        }
+    },
+    "ENTEI": {
+        "2001": {
+            "#95": {
+                "insured_value": 73.25,
+                "alt_value": 216.17
+            }
+        },
+        "2000": {
+            "#244": {
+                "insured_value": 50.0,
+                "alt_value": 85.5
+            }
+        },
+        "2002": {
+            "#27": {
+                "insured_value": 96.0,
+                "alt_value": 129.3
+            }
+        },
+        "2022": {
+            "#213": {
+                "insured_value": 30.0,
+                "alt_value": 33.01
+            }
+        },
+        "2005": {
+            "#1": {
+                "insured_value": 41.43,
+                "alt_value": 61.4
+            }
+        }
+    },
+    "FERALIGATR": {
+        "2005": {
+            "#3": {
+                "insured_value": 87.42,
+                "alt_value": 79.4
+            }
+        },
+        "1999": {
+            "#160": {
+                "insured_value": 35.0,
+                "alt_value": 41.09
+            }
+        }
+    },
+    "CHARMELEON": {
+        "2001": {
+            "#7": {
+                "insured_value": 37.39,
+                "alt_value": 42.75
+            },
+            "#22": {
+                "insured_value": 57.8,
+                "alt_value": 138.64
+            }
+        },
+        "2023": {
+            "#5": {
+                "insured_value": 22.53,
+                "alt_value": 15.95
+            }
+        }
+    },
+    "VICTINI": {
+        "2011": {
+            "#9": {
+                "insured_value": 26.89,
+                "alt_value": 25.37
+            }
+        }
+    },
+    "SUNKERN": {
+        "2000": {
+            "#191": {
+                "insured_value": 120.76,
+                "alt_value": 131.32
+            }
+        }
+    },
+    "ELECTRODE": {
+        "1996": {
+            "#101": {
+                "insured_value": 321.3,
+                "alt_value": 200.22
+            }
+        }
+    },
+    "ARCANINE": {
+        "2001": {
+            "#59": {
+                "insured_value": 100.0,
+                "alt_value": 158.44
+            }
+        },
+        "1996": {
+            "#59": {
+                "insured_value": 142.9,
+                "alt_value": 211.19
+            }
+        },
+        "1997": {
+            "#370": {
+                "insured_value": 48.84,
+                "alt_value": 60.55
+            }
+        },
+        "1999": {
+            "#59": {
+                "insured_value": 74.76,
+                "alt_value": 71.45
+            }
+        }
+    },
+    "MOLTRES": {
+        "1998": {
+            "#146": {
+                "insured_value": 60.0,
+                "alt_value": 64.32
+            }
+        },
+        "1996": {
+            "#146": {
+                "insured_value": 70.0,
+                "alt_value": 58.5
+            }
+        },
+        "2025": {
+            "#124": {
+                "insured_value": 114.0,
+                "alt_value": 83.48
+            }
+        },
+        "2022": {
+            "#190": {
+                "insured_value": 17.56,
+                "alt_value": 25.37
+            }
+        },
+        "1999": {
+            "#146": {
+                "insured_value": 75.0,
+                "alt_value": 75.11
+            }
+        }
+    },
+    "CRAMORANT": {
+        "2021": {
+            "#226SP": {
+                "insured_value": 170.04,
+                "alt_value": 240.29
+            }
+        }
+    },
+    "MAGMORTAR": {
+        "2012": {
+            "#8": {
+                "insured_value": 64.9,
+                "alt_value": 113.79
+            }
+        }
+    },
+    "DROWZEE": {
+        "2023": {
+            "#86": {
+                "insured_value": 34.42,
+                "alt_value": 26.31
+            }
+        },
+        "1996": {
+            "#96": {
+                "insured_value": 51.28,
+                "alt_value": 83.02
+            }
+        }
+    },
+    "KADABRA": {
+        "1996": {
+            "#64": {
+                "insured_value": 34.17,
+                "alt_value": 50.44
+            }
+        },
+        "2001": {
+            "#64": {
+                "insured_value": 31.05,
+                "alt_value": 45.65
+            }
+        }
+    },
+    "DARKRAI": {
+        "2007": {
+            "#007/PPP": {
+                "insured_value": 83.54,
+                "alt_value": 160.74
+            }
+        },
+        "2019": {
+            "#10": {
+                "insured_value": 50.0,
+                "alt_value": 35.54
+            },
+            "#182": {
+                "insured_value": 350.0,
+                "alt_value": 354.29
+            }
+        }
+    },
+    "ZAMAZENTA": {
+        "2022": {
+            "#232": {
+                "insured_value": 29.42,
+                "alt_value": 21.31
+            }
+        }
+    },
+    "REGISTEEL": {
+        "2003": {
+            "#3": {
+                "insured_value": 96.09,
+                "alt_value": 111.23
+            }
+        },
+        "2005": {
+            "#76": {
+                "insured_value": 749.92,
+                "alt_value": 818.37
+            }
+        }
+    },
+    "SWABLU": {
+        "2022": {
+            "#202": {
+                "insured_value": 13.92,
+                "alt_value": 12.78
+            }
+        }
+    },
+    "CHIKORITA": {
+        "2002": {
+            "#3": {
+                "insured_value": 78.0,
+                "alt_value": 181.96
+            }
+        }
+    },
+    "CUBONE": {
+        "1997": {
+            "#104": {
+                "insured_value": 30.45,
+                "alt_value": 36.72
+            }
+        },
+        "2001": {
+            "#104": {
+                "insured_value": 36.85,
+                "alt_value": 48.74
+            }
+        }
+    },
+    "MELOETTA": {
+        "2013": {
+            "#025": {
+                "insured_value": 76.59,
+                "alt_value": 70.85
+            }
+        }
+    },
+    "AMPHAROS": {
+        "2000": {
+            "#181": {
+                "insured_value": 33.0,
+                "alt_value": 36.87
+            }
+        },
+        "2003": {
+            "#25": {
+                "insured_value": 51.75,
+                "alt_value": 76.1
+            }
+        },
+        "2001": {
+            "#181": {
+                "insured_value": 58.0,
+                "alt_value": 55.21
+            },
+            "#115": {
+                "insured_value": 47.0,
+                "alt_value": 85.74
+            }
+        },
+        "2006": {
+            "#51": {
+                "insured_value": 30.2,
+                "alt_value": 33.02
+            }
+        }
+    },
+    "MIMIKYU": {
+        "2018": {
+            "#289SMP": {
+                "insured_value": 4850.0,
+                "alt_value": 4467.08
+            },
+            "#199SMP": {
+                "alt_value": 390.6
+            }
+        }
+    },
+    "ARCEUS": {
+        "2009": {
+            "#58": {
+                "insured_value": 26.08,
+                "alt_value": 55.04
+            },
+            "#71": {
+                "alt_value": 22.06
+            },
+            "#37": {
+                "alt_value": 48.17
+            },
+            "#43": {
+                "alt_value": 423.35
+            },
+            "#17": {
+                "alt_value": 76.96
+            }
+        },
+        "2015": {
+            "#024": {
+                "insured_value": 32.67,
+                "alt_value": 69.83
+            }
+        }
+    },
+    "NINETALES": {
+        "2006": {
+            "#30": {
+                "insured_value": 115.12,
+                "alt_value": 130.65
+            }
+        },
+        "1996": {
+            "#38": {
+                "insured_value": 64.0,
+                "alt_value": 80.94
+            }
+        },
+        "2023": {
+            "#110": {
+                "insured_value": 17.06,
+                "alt_value": 17.95
+            }
+        },
+        "2004": {
+            "#18": {
+                "insured_value": 142.94,
+                "alt_value": 114.18
+            }
+        },
+        "2001": {
+            "#104": {
+                "insured_value": 50.42,
+                "alt_value": 56.28
+            }
+        },
+        "2016": {
+            "#15": {
+                "insured_value": 21.03,
+                "alt_value": 21.51
+            }
+        }
+    },
+    "STARMIE": {
+        "2000": {
+            "#121": {
+                "insured_value": 30.0,
+                "alt_value": 37.88
+            }
+        }
+    },
+    "EMPOLEON": {
+        "2006": {
+            "#": {
+                "insured_value": 68.77,
+                "alt_value": 79.49
+            }
+        },
+        "2008": {
+            "#78": {
+                "insured_value": 33.51,
+                "alt_value": 54.56
+            }
+        }
+    },
+    "KYOGRE": {
+        "2015": {
+            "#6": {
+                "insured_value": 600.0,
+                "alt_value": 597.6
+            },
+            "#93": {
+                "insured_value": 255.0,
+                "alt_value": 241.27
+            }
+        },
+        "2005": {
+            "#28": {
+                "insured_value": 956.85,
+                "alt_value": 1664.95
+            }
+        }
+    },
+    "RAIKOU": {
+        "2022": {
+            "#218": {
+                "insured_value": 39.14,
+                "alt_value": 27.2
+            }
+        },
+        "2000": {
+            "#243": {
+                "insured_value": 92.0,
+                "alt_value": 84.24
+            }
+        },
+        "2010": {
+            "#68": {
+                "insured_value": 118.29,
+                "alt_value": 122.3
+            },
+            "#61": {
+                "insured_value": 92.85,
+                "alt_value": 62.92
+            }
+        },
+        "2001": {
+            "#94": {
+                "insured_value": 200.0,
+                "alt_value": 205.51
+            }
+        },
+        "2005": {
+            "#35": {
+                "insured_value": 465.0,
+                "alt_value": 374.71
+            }
+        }
+    },
+    "AERODACTYL": {
+        "1997": {
+            "#142": {
+                "insured_value": 61.0,
+                "alt_value": 57.44
+            }
+        },
+        "2000": {
+            "#142": {
+                "insured_value": 70.0,
+                "alt_value": 67.96
+            }
+        },
+        "2022": {
+            "#106": {
+                "insured_value": 71.0,
+                "alt_value": 97.12
+            }
+        },
+        "2003": {
+            "#55": {
+                "alt_value": 66.85
+            }
+        }
+    },
+    "SHAYMIN": {
+        "2008": {
+            "#11": {
+                "insured_value": 34.15,
+                "alt_value": 36.31
+            }
+        },
+        "2011": {
+            "#53": {
+                "insured_value": 70.53,
+                "alt_value": 77.95
+            }
+        },
+        "2009": {
+            "#7": {
+                "alt_value": 36.88
+            }
+        }
+    },
+    "WEEZING": {
+        "1997": {
+            "#110": {
+                "insured_value": 30.0,
+                "alt_value": 36.39
+            }
+        }
+    },
+    "DODRIO": {
+        "1997": {
+            "#85": {
+                "insured_value": 14.06,
+                "alt_value": 14.91
+            }
+        }
+    },
+    "CROBAT": {
+        "2000": {
+            "#169": {
+                "insured_value": 32.03,
+                "alt_value": 32.44
+            }
+        },
+        "2025": {
+            "#127": {
+                "insured_value": 57.38,
+                "alt_value": 34.83
+            }
+        }
+    },
+    "HOOTHOOT": {
+        "2000": {
+            "#": {
+                "insured_value": 37.95,
+                "alt_value": 37.32
+            }
+        }
+    },
+    "TIMBURR": {
+        "2024": {
+            "#109": {
+                "insured_value": 6.32,
+                "alt_value": 10.82
+            }
+        }
+    },
+    "DODUO": {
+        "1996": {
+            "#84": {
+                "insured_value": 12.26,
+                "alt_value": 15.92
+            }
+        }
+    },
+    "SLOWBRO": {
+        "1996": {
+            "#80": {
+                "insured_value": 39.72,
+                "alt_value": 35.79
+            }
+        },
+        "1997": {
+            "#80": {
+                "insured_value": 40.0,
+                "alt_value": 48.76
+            }
+        },
+        "2001": {
+            "#28": {
+                "insured_value": 32.66,
+                "alt_value": 69.63
+            }
+        }
+    },
+    "LUCARIO": {
+        "2007": {
+            "#": {
+                "insured_value": 57.06,
+                "alt_value": 99.66
+            }
+        },
+        "2005": {
+            "#12": {
+                "insured_value": 83.64,
+                "alt_value": 64.64
+            },
+            "#98": {
+                "alt_value": 36.72
+            }
+        },
+        "2011": {
+            "#106": {
+                "alt_value": 62.57
+            }
+        }
+    },
+    "DUGTRIO": {
+        "1997": {
+            "#51": {
+                "insured_value": 32.79,
+                "alt_value": 43.79
+            }
+        }
+    },
+    "DUSKNOIR": {
+        "2019": {
+            "#179": {
+                "insured_value": 82.35,
+                "alt_value": 45.45
+            }
+        }
+    },
+    "HITMONCHAN": {
+        "1996": {
+            "#": {
+                "insured_value": 1375.42,
+                "alt_value": 1729.37
+            }
+        },
+        "2004": {
+            "#60": {
+                "insured_value": 116.49,
+                "alt_value": 165.13
+            }
+        },
+        "1998": {
+            "#107": {
+                "insured_value": 50.0,
+                "alt_value": 51.0
+            }
+        }
+    },
+    "PACHIRISU": {
+        "2007": {
+            "#11": {
+                "insured_value": 29.92,
+                "alt_value": 28.86
+            }
+        }
+    },
+    "SUICUNE": {
+        "2018": {
+            "#106": {
+                "insured_value": 44.33,
+                "alt_value": 35.05
+            }
+        },
+        "2000": {
+            "#245": {
+                "insured_value": 110.0,
+                "alt_value": 79.76
+            }
+        },
+        "2022": {
+            "#215": {
+                "insured_value": 22.0,
+                "alt_value": 40.69
+            }
+        },
+        "2002": {
+            "#31": {
+                "insured_value": 192.0,
+                "alt_value": 198.34
+            }
+        },
+        "2001": {
+            "#245": {
+                "insured_value": 30.95,
+                "alt_value": 44.18
+            }
+        }
+    },
+    "UNOWN": {
+        "2000": {
+            "#201": {
+                "insured_value": 27.64,
+                "alt_value": 36.58
+            }
+        }
+    },
+    "JOLTEON": {
+        "2023": {
+            "#064SVP": {
+                "insured_value": 54.0,
+                "alt_value": 60.7
+            }
+        },
+        "2024": {
+            "#209": {
+                "insured_value": 35.0,
+                "alt_value": 40.42
+            },
+            "#51": {
+                "insured_value": 19.78,
+                "alt_value": 16.71
+            }
+        },
+        "1997": {
+            "#135": {
+                "insured_value": 90.0,
+                "alt_value": 86.85
+            }
+        },
+        "2012": {
+            "#186": {
+                "insured_value": 94.0,
+                "alt_value": 77.82
+            }
+        }
+    },
+    "WOBBUFFET": {
+        "2000": {
+            "#202": {
+                "insured_value": 42.0,
+                "alt_value": 42.39
+            }
+        }
+    },
+    "INFERNAPE": {
+        "2008": {
+            "#4": {
+                "insured_value": 64.79,
+                "alt_value": 89.68
+            }
+        },
+        "2006": {
+            "#NoNum": {
+                "insured_value": 78.8,
+                "alt_value": 62.14
+            }
+        }
+    },
+    "GROWLITHE": {
+        "1996": {
+            "#58": {
+                "insured_value": 89.31,
+                "alt_value": 79.63
+            }
+        },
+        "2001": {
+            "#6": {
+                "insured_value": 29.96,
+                "alt_value": 29.44
+            }
+        }
+    },
+    "LINOONE": {
+        "2020": {
+            "#278": {
+                "insured_value": 8.17,
+                "alt_value": 10.49
+            }
+        }
+    },
+    "JIRACHI": {
+        "2016": {
+            "#15": {
+                "insured_value": 30.0,
+                "alt_value": 58.59
+            }
+        },
+        "2006": {
+            "#41": {
+                "insured_value": 68.79,
+                "alt_value": 121.62
+            }
+        },
+        "2022": {
+            "#45": {
+                "insured_value": 15.76,
+                "alt_value": 12.36
+            }
+        },
+        "2007": {
+            "#NNO": {
+                "insured_value": 17.84,
+                "alt_value": 29.51
+            }
+        }
+    },
+    "SANDSHREW": {
+        "1996": {
+            "#27": {
+                "insured_value": 33.21,
+                "alt_value": 69.75
+            }
+        },
+        "2002": {
+            "#16": {
+                "insured_value": 30.04,
+                "alt_value": 30.6
+            }
+        }
+    },
+    "ELECTIVIRE": {
+        "2007": {
+            "#": {
+                "insured_value": 57.68,
+                "alt_value": 53.29
+            }
+        }
+    },
+    "TURTWIG": {
+        "2007": {
+            "#001": {
+                "insured_value": 30.7,
+                "alt_value": 40.44
+            }
+        }
+    },
+    "LUNALA": {
+        "2019": {
+            "#63": {
+                "insured_value": 230.0,
+                "alt_value": 180.97
+            },
+            "#70": {
+                "insured_value": 84.4,
+                "alt_value": 76.08
+            }
+        }
+    },
+    "PIDGEOTTO": {
+        "2023": {
+            "#119": {
+                "insured_value": 14.75,
+                "alt_value": 11.3
+            }
+        },
+        "1996": {
+            "#17": {
+                "insured_value": 235.84,
+                "alt_value": 317.19
+            }
+        },
+        "1998": {
+            "#9": {
+                "insured_value": 31.25,
+                "alt_value": 34.77
+            }
+        }
+    },
+    "ZEKROM": {
+        "2021": {
+            "#21": {
+                "insured_value": 40.1,
+                "alt_value": 41.43
+            }
+        },
+        "2012": {
+            "#159": {
+                "insured_value": 270.0,
+                "alt_value": 205.38
+            }
+        },
+        "2025": {
+            "#174": {
+                "insured_value": 300.0,
+                "alt_value": 194.74
+            }
+        },
+        "2010": {
+            "#55": {
+                "insured_value": 175.89,
+                "alt_value": 230.0
+            }
+        }
+    },
+    "CHANSEY": {
+        "1999": {
+            "#113": {
+                "insured_value": 64.19,
+                "alt_value": 52.9
+            }
+        },
+        "1996": {
+            "#113": {
+                "insured_value": 60.0,
+                "alt_value": 81.06
+            }
+        }
+    },
+    "MR_MIME": {
+        "1998": {
+            "#122": {
+                "insured_value": 75.0,
+                "alt_value": 35.90668436736927
+            }
+        },
+        "1997": {
+            "#122": {
+                "insured_value": 40.0,
+                "alt_value": 49.83586938723084
+            }
+        }
+    },
+    "YANMA": {
+        "2000": {
+            "#193": {
+                "insured_value": 23.0,
+                "alt_value": 29.34
+            }
+        }
+    },
+    "STARAPTOR": {
+        "2009": {
+            "#81": {
+                "insured_value": 31.72,
+                "alt_value": 41.72
+            }
+        }
+    },
+    "DITTO": {
+        "2005": {
+            "#108PCGP": {
+                "insured_value": 54.39,
+                "alt_value": 59.81
+            }
+        },
+        "2014": {
+            "#077XYP": {
+                "insured_value": 58.96,
+                "alt_value": 169.76
+            }
+        },
+        "2020": {
+            "#140": {
+                "insured_value": 7.52,
+                "alt_value": 14.76
+            }
+        }
+    },
+    "KABUTOPS": {
+        "2000": {
+            "#141": {
+                "insured_value": 47.0,
+                "alt_value": 52.8
+            }
+        }
+    },
+    "GOLBAT": {
+        "1997": {
+            "#42": {
+                "insured_value": 30.0,
+                "alt_value": 34.86
+            }
+        }
+    },
+    "FARFETCH'D": {
+        "1996": {
+            "#83": {
+                "insured_value": 84.87,
+                "alt_value": 96.98
+            }
+        }
+    },
+    "NIDOQUEEN": {
+        "1997": {
+            "#31": {
+                "insured_value": 55.0,
+                "alt_value": 49.56
+            }
+        }
+    },
+    "RIBOMBEE": {
+        "2025": {
+            "#105": {
+                "insured_value": 15.79,
+                "alt_value": 12.94
+            }
+        }
+    },
+    "SHINX": {
+        "2009": {
+            "#37": {
+                "insured_value": 60.0,
+                "alt_value": 49.23014870208449
+            }
+        }
+    },
+    "KYUREM": {
+        "2015": {
+            "#021": {
+                "insured_value": 102.31,
+                "alt_value": 64.87
+            },
+            "#20": {
+                "insured_value": 70.26,
+                "alt_value": 73.85
+            }
+        }
+    },
+    "SOBBLE": {
+        "2020": {
+            "#146": {
+                "insured_value": 17.55,
+                "alt_value": 25.28
+            }
+        }
+    },
+    "HYPNO": {
+        "1997": {
+            "#97": {
+                "insured_value": 35.0,
+                "alt_value": 47.42
+            }
+        },
+        "2004": {
+            "#43": {
+                "insured_value": 73.1,
+                "alt_value": 74.49
+            }
+        },
+        "2002": {
+            "#42": {
+                "insured_value": 81.87,
+                "alt_value": 107.89
+            }
+        }
+    },
+    "NOCTOWL": {
+        "2001": {
+            "#164": {
+                "insured_value": 1050.0,
+                "alt_value": 1088.57
+            }
+        }
+    },
+    "TOGETIC": {
+        "2000": {
+            "#176": {
+                "insured_value": 44.0,
+                "alt_value": 38.05
+            }
+        }
+    },
+    "PHANPY": {
+        "2002": {
+            "#17": {
+                "insured_value": 31.0,
+                "alt_value": 31.01
+            }
+        }
+    },
+    "HIPPOWDON": {
+        "2008": {
+            "#56": {
+                "insured_value": 38.56,
+                "alt_value": 32.37
+            }
+        }
+    },
+    "MAGNETON": {
+        "1998": {
+            "#82": {
+                "insured_value": 50.0,
+                "alt_value": 46.5
+            }
+        },
+        "1996": {
+            "#82": {
+                "insured_value": 67.0,
+                "alt_value": 52.89
+            }
+        },
+        "1997": {
+            "#82": {
+                "insured_value": 45.0,
+                "alt_value": 36.88
+            }
+        }
+    },
+    "ABSOL": {
+        "2012": {
+            "#33": {
+                "insured_value": 34.96,
+                "alt_value": 34.43
+            }
+        },
+        "2013": {
+            "#XYP": {
+                "insured_value": 34.52,
+                "alt_value": 41.7
+            }
+        }
+    },
+    "MISDREAVUS": {
+        "2000": {
+            "#200": {
+                "insured_value": 35.0,
+                "alt_value": 34.43
+            }
+        }
+    },
+    "CLEFABLE": {
+        "1995": {
+            "#36": {
+                "insured_value": 31.65,
+                "alt_value": 40.63
+            }
+        },
+        "1997": {
+            "#36": {
+                "insured_value": 43.58,
+                "alt_value": 37.67
+            }
+        }
+    },
+    "KAKUNA": {
+        "1996": {
+            "#14": {
+                "insured_value": 49.47,
+                "alt_value": 70.01
+            }
+        }
+    },
+    "ROWLET": {
+        "2018": {
+            "#290SMP": {
+                "insured_value": 460.0,
+                "alt_value": 451.45
+            }
+        }
+    },
+    "OCTILLERY": {
+        "2002": {
+            "#40": {
+                "insured_value": 46.25,
+                "alt_value": 63.64
+            }
+        }
+    },
+    "PINSIR": {
+        "1997": {
+            "#127": {
+                "insured_value": 45.0,
+                "alt_value": 36.96
+            }
+        }
+    },
+    "MARSHTOMP": {
+        "2003": {
+            "#10": {
+                "insured_value": 41.13,
+                "alt_value": 56.88
+            }
+        }
+    },
+    "ELECTABUZZ": {
+        "1998": {
+            "#125": {
+                "insured_value": 43.48,
+                "alt_value": 38.53
+            }
+        }
+    },
+    "RHYDON": {
+        "1998": {
+            "#": {
+                "insured_value": 39.59,
+                "alt_value": 33.94
+            }
+        },
+        "2001": {
+            "#35": {
+                "insured_value": 29.95,
+                "alt_value": 29.26
+            }
+        }
+    },
+    "PORYGON": {
+        "2000": {
+            "#": {
+                "insured_value": 2150.0,
+                "alt_value": 2086.63
+            }
+        }
+    },
+    "MILTANK": {
+        "2001": {
+            "#19": {
+                "insured_value": 34.81,
+                "alt_value": 32.23
+            }
+        }
+    },
+    "PORYGON2": {
+        "2000": {
+            "#233": {
+                "insured_value": 42.0,
+                "alt_value": 33.4
+            }
+        }
+    },
+    "CLEFAIRY": {
+        "1996": {
+            "#35": {
+                "insured_value": 80.0,
+                "alt_value": 65.23
+            }
+        }
+    },
+    "CLOYSTER": {
+        "2001": {
+            "#110": {
+                "insured_value": 60.0,
+                "alt_value": 53.23
+            }
+        }
+    },
+    "EXEGGUTOR": {
+        "2024": {
+            "#183": {
+                "insured_value": 30.2,
+                "alt_value": 32.93
+            }
+        }
+    },
+    "AZUMARILL": {
+        "2000": {
+            "#184": {
+                "insured_value": 34.79,
+                "alt_value": 31.93
+            }
+        },
+        "2002": {
+            "#26": {
+                "alt_value": 62.06
+            }
+        }
+    },
+    "ARIADOS": {
+        "2002": {
+            "#9": {
+                "insured_value": 30.25,
+                "alt_value": 33.79
+            }
+        }
+    },
+    "DONPHAN": {
+        "2005": {
+            "#109": {
+                "insured_value": 31.69,
+                "alt_value": 27.41
+            }
+        }
+    },
+    "SILVALLY": {
+        "2017": {
+            "#122": {
+                "insured_value": 10.21,
+                "alt_value": 13.15
+            }
+        }
+    },
+    "HOUNDOUR": {
+        "2023": {
+            "#115": {
+                "insured_value": 21.42,
+                "alt_value": 13.3
+            }
+        }
+    },
+    "CATERPIE": {
+        "1996": {
+            "#10": {
+                "insured_value": 48.81,
+                "alt_value": 60.11
+            }
+        }
+    },
+    "BLAZIKEN": {
+        "2003": {
+            "#11": {
+                "insured_value": 54.14,
+                "alt_value": 70.0
+            }
+        }
+    },
+    "PIDGEOT": {
+        "1997": {
+            "#18": {
+                "insured_value": 55.0,
+                "alt_value": 52.03
+            }
+        },
+        "2006": {
+            "#23": {
+                "insured_value": 34.98,
+                "alt_value": 34.69
+            }
+        }
+    },
+    "NIDORINO": {
+        "1996": {
+            "#33": {
+                "insured_value": 25.31,
+                "alt_value": 25.38
+            }
+        }
+    },
+    "ZORUA": {
+        "2010": {
+            "#": {
+                "insured_value": 4789.89,
+                "alt_value": 4649.1
+            }
+        }
+    },
+    "GRAVELER": {
+        "1996": {
+            "#75": {
+                "insured_value": 34.76,
+                "alt_value": 31.35
+            }
+        }
+    },
+    "URSARING": {
+        "2009": {
+            "#61": {
+                "insured_value": 32.71,
+                "alt_value": 42.67
+            }
+        }
+    },
+    "SUDOWOODO": {
+        "2002": {
+            "#58": {
+                "insured_value": 60.0,
+                "alt_value": 79.85
+            }
+        }
+    },
+    "TORCHIC": {
+        "2013": {
+            "#5": {
+                "insured_value": 34.55,
+                "alt_value": 28.24
+            }
+        }
+    },
+    "RAPIDASH": {
+        "1997": {
+            "#374": {
+                "insured_value": 29.69,
+                "alt_value": 25.34
+            }
+        }
+    },
+    "SHARPEDO": {
+        "2004": {
+            "#72": {
+                "insured_value": 32.23,
+                "alt_value": 63.22
+            }
+        }
+    },
+    "NIDORINA": {
+        "1997": {
+            "#30": {
+                "insured_value": 9.32,
+                "alt_value": 13.75
+            }
+        }
+    },
+    "PERRIN": {
+        "2024": {
+            "#92": {
+                "insured_value": 59.98,
+                "alt_value": 59.76
+            }
+        }
+    },
+    "ONIX": {
+        "1998": {
+            "#": {
+                "insured_value": 79.45,
+                "alt_value": 71.8
+            }
+        }
+    },
+    "CLEFFA": {
+        "2019": {
+            "#185": {
+                "insured_value": 66.0,
+                "alt_value": 63.23
+            }
+        }
+    },
+    "YVELTAL": {
+        "2013": {
+            "#63": {
+                "insured_value": 61.53,
+                "alt_value": 82.78
+            }
+        }
+    },
+    "WAILORD": {
+        "2014": {
+            "#71": {
+                "insured_value": 88.81,
+                "alt_value": 86.13
+            }
+        }
+    },
+    "GENESECT": {
+        "2025": {
+            "#172": {
+                "insured_value": 43.37,
+                "alt_value": 20.7
+            }
+        }
+    },
+    "LARVITAR": {
+        "2002": {
+            "#18": {
+                "insured_value": 210.0,
+                "alt_value": 182.79
+            }
+        }
+    },
+    "VILEPLUME-HOLO": {
+        "2006": {
+            "#28": {
+                "alt_value": 37.1
+            }
+        }
+    },
+    "TOGETIC-HOLO": {
+        "2004": {
+            "#57": {
+                "alt_value": 55.78
+            }
+        }
+    },
+    "HOUNDOOM-HOLO": {
+        "2002": {
+            "#70": {
+                "alt_value": 213.12
+            }
+        }
+    },
+    "KABUTOPS-HOLO": {
+        "2006": {
+            "#21": {
+                "alt_value": 45.85
+            }
+        }
+    },
+    "MEGANIUM-REVERSE": {
+        "2009": {
+            "#9": {
+                "alt_value": 42.98
+            }
+        }
+    },
+    "REGIROCK?GOLD STAR HOLO R": {
+        "2005": {
+            "#59": {
+                "alt_value": 1027.68
+            }
+        }
+    },
+    "MR. MIME": {
+        "1997": {
+            "#122": {
+                "alt_value": 50.88
+            }
+        },
+        "1998": {
+            "#122": {
+                "alt_value": 35.26
+            }
+        }
+    }
+}
