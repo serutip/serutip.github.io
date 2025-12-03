@@ -1470,7 +1470,7 @@
                 },
                 "STANDARD": {
                     "insured_value": 160.0,
-                    "alt_value": 167.39673219753712,
+                    "alt_value": 167.4,
                     "asset_id": "4ed0a3db-12fe-4374-bfa3-6c4ac0b90ac9"
                 }
             },
@@ -3423,7 +3423,7 @@
             "#249": {
                 "Holo": {
                     "insured_value": 745.0,
-                    "alt_value": 666.56,
+                    "alt_value": 660.33,
                     "asset_id": "90c5f2e8-d883-4f68-98a6-290b8c292167"
                 }
             }
@@ -4227,7 +4227,7 @@
             "#29": {
                 "1st Edition": {
                     "insured_value": 300.0,
-                    "alt_value": 411.09983284188894,
+                    "alt_value": 411.1,
                     "asset_id": "93ea6380-d56a-4329-b372-c3dbbbf5fa50"
                 }
             },
@@ -13400,7 +13400,7 @@
             "#186": {
                 "Art Rare": {
                     "insured_value": 38.0,
-                    "alt_value": 30.95,
+                    "alt_value": 30.15,
                     "asset_id": "fee85442-467b-4d5a-9899-4252394d000f"
                 }
             }
