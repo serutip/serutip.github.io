@@ -681,6 +681,14 @@
                     "asset_id": "b63809ee-dc22-4193-844e-840086eb8438"
                 }
             }
+        },
+        "2019": {
+            "#247": {
+                "STANDARD": {
+                    "alt_value": 157.08,
+                    "asset_id": "147bcc2a-8d25-4d48-88f7-b3e77a07827e"
+                }
+            }
         }
     },
     "CHARIZARD": {
@@ -2860,6 +2868,12 @@
                     "alt_value": 765.94,
                     "asset_id": "4e364e5c-e12c-4fbb-9926-359288d8b386"
                 }
+            },
+            "#109": {
+                "STANDARD": {
+                    "alt_value": 244.8,
+                    "asset_id": "4f6288e9-0774-447d-83a9-48f11d9a2dd3"
+                }
             }
         },
         "2024": {
@@ -4879,6 +4893,12 @@
                 "Holo": {
                     "alt_value": 161.88,
                     "asset_id": "dc66cf65-dc8b-4bde-aa13-24da6b5e439e"
+                }
+            },
+            "#229": {
+                "STANDARD": {
+                    "alt_value": 155.35,
+                    "asset_id": "5762e82b-c71b-4d17-9471-8154e581e598"
                 }
             }
         },
@@ -10113,6 +10133,10 @@
                 "Reverse Holo": {
                     "alt_value": 389.98,
                     "asset_id": "4fc0f4d7-3575-44a2-8b46-28ce244641d2"
+                },
+                "STANDARD": {
+                    "alt_value": 150.29,
+                    "asset_id": "d46a872d-9f52-489d-a2df-24ff0d876197"
                 }
             }
         },
@@ -12933,6 +12957,14 @@
                     "asset_id": "70406352-7e57-40e7-afef-16b72cb1126e"
                 }
             }
+        },
+        "2013": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 128.38,
+                    "asset_id": "426e810f-6720-41d1-9838-b51a8bdeade1"
+                }
+            }
         }
     },
     "THUNDURUS": {
@@ -13775,7 +13807,7 @@
             },
             "#96": {
                 "STANDARD": {
-                    "alt_value": 2618.73,
+                    "alt_value": 2667.45,
                     "asset_id": "b5900127-7016-4f50-8404-a395412f21d1"
                 }
             }
@@ -14679,6 +14711,14 @@
                 "STANDARD": {
                     "alt_value": 305.84,
                     "asset_id": "cee69132-0600-486a-943b-aa4150b7b4bf"
+                }
+            }
+        },
+        "2002": {
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 105.92,
+                    "asset_id": "cce6dcee-920f-4cec-9622-37ef8b15c6b1"
                 }
             }
         }
@@ -16150,6 +16190,12 @@
                     "alt_value": 1437.32,
                     "asset_id": "98b7c586-a86e-4486-b515-3c48b50ff7a5"
                 }
+            },
+            "#68": {
+                "1st Edition": {
+                    "alt_value": 100.62,
+                    "asset_id": "a372c37a-991d-4892-a8d2-88a705cd3165"
+                }
             }
         },
         "2024": {
@@ -17035,6 +17081,14 @@
                 "Holo": {
                     "alt_value": 1403.07,
                     "asset_id": "b563b0bd-fd01-4378-8f64-927ee3d0706e"
+                }
+            }
+        },
+        "2025": {
+            "#161": {
+                "STANDARD": {
+                    "alt_value": 130.74,
+                    "asset_id": "664c19d0-5ff7-4aa4-846f-9c788700461b"
                 }
             }
         }
@@ -18159,6 +18213,14 @@
                     "asset_id": "aeb5d247-00b7-4ba7-8fd4-dc5413ed155b"
                 }
             }
+        },
+        "2000": {
+            "#36": {
+                "1st Edition": {
+                    "alt_value": 126.23,
+                    "asset_id": "216de4d8-deb9-476a-8132-ee4a2b70769c"
+                }
+            }
         }
     },
     "FLAPPLE": {
@@ -18615,6 +18677,12 @@
                 "1st Edition": {
                     "alt_value": 84.36,
                     "asset_id": "39e39706-8b99-4ccb-a436-e70373150c0a"
+                }
+            },
+            "#49": {
+                "1st Edition": {
+                    "alt_value": 85.13,
+                    "asset_id": "9006dc43-6f33-4eda-ad1a-90f3d993e6b9"
                 }
             }
         }
@@ -19251,6 +19319,14 @@
                     "asset_id": "313f2027-b82e-47c1-a61f-70e0cd5e4a7d"
                 }
             }
+        },
+        "1999": {
+            "#34": {
+                "STANDARD": {
+                    "alt_value": 67.44,
+                    "asset_id": "906f4ba5-c4b4-4bb3-b1e8-349870718423"
+                }
+            }
         }
     },
     "JUMPLUFF": {
@@ -19351,7 +19427,7 @@
         "2025": {
             "#208": {
                 "STANDARD": {
-                    "alt_value": 223.56,
+                    "alt_value": 113.19,
                     "asset_id": "0fbafc23-183a-408f-9eae-af981ad2152e"
                 }
             },
@@ -19969,6 +20045,12 @@
                 "STANDARD": {
                     "alt_value": 31.31,
                     "asset_id": "fb845a46-6b40-4389-8172-659c0f39fe04"
+                }
+            },
+            "#212": {
+                "STANDARD": {
+                    "alt_value": 45.69,
+                    "asset_id": "a5a3a69c-c508-4ca0-90d9-d5e90b89758b"
                 }
             }
         }
@@ -21575,6 +21657,12 @@
                 "STANDARD": {
                     "alt_value": 29.95,
                     "asset_id": "8ac18f59-bde3-4165-8b50-1cc6fe4bfc8d"
+                }
+            },
+            "#220": {
+                "Art Rare": {
+                    "alt_value": 122.05,
+                    "asset_id": "80fb87ea-9100-4f40-8f29-44fae7868b07"
                 }
             }
         }
