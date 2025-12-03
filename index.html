@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,11 +19,7 @@
             --border: #d9c2a7;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             background: var(--bg);
@@ -55,255 +50,78 @@
             color: #fff8f0;
         }
 
-        h1 {
-            font-size: clamp(2.2rem, 5.5vw, 4.5rem);
-            font-weight: 900;
-            letter-spacing: 6px;
-            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
-        }
+        h1 { font-size: clamp(2.2rem, 5.5vw, 4.5rem); font-weight: 900; letter-spacing: 6px; text-shadow: 0 3px 8px rgba(0,0,0,0.3); }
+        header h2 { font-size: 0.95rem; font-weight: 700; letter-spacing: 4px; margin-top: 0.3rem; }
+        header h3 { font-size: 0.85rem; margin-top: 0.3rem; }
+        #lastUpdatedHeader { font-size: 0.8rem; font-weight: 600; margin-top: 0.5rem; background: rgba(255,248,240,0.3); padding: 0.3rem 0.9rem; border-radius: 12px; display: inline-block; }
 
-        header h2 {
-            font-size: 0.95rem;
-            font-weight: 700;
-            letter-spacing: 4px;
-            margin-top: 0.3rem;
-        }
+        .controls { padding: 0.9rem 1.8rem; background: #fdfaf7; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .left-controls, .right-controls { display: flex; gap: 0.9rem; align-items: center; flex-wrap: wrap; }
+        input[type="text"] { padding: 0.65rem 1.2rem; background: white; border: 1.8px solid #d9c2a7; border-radius: 14px; font-size: 0.95rem; min-width: 240px; }
+        input[type="text"]:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px rgba(107,78,49,0.15); }
 
-        header h3 {
-            font-size: 0.85rem;
-            margin-top: 0.3rem;
-        }
+        .btn-group { display: flex; background: white; border-radius: 14px; padding: 5px; border: 1.8px solid #d9c2a7; gap: 5px; }
+        .btn { padding: 0.55rem 1.1rem; background: transparent; border: none; color: var(--text-dim); font-weight: 600; font-size: 0.85ccb; border-radius: 10px; cursor: pointer; }
+        .btn.active { background: var(--accent); color: #fff8f0; font-weight: 800; }
+        #lookupBtn { padding: 0.65rem 2rem; background: linear-gradient(135deg, #8b6f9e, #a78bfa);  color: white; border: none; border-radius: 14px; font-weight: 900; font-size: 0.95rem; cursor: pointer; }
 
-        #lastUpdatedHeader {
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-top: 0.5rem;
-            background: rgba(255, 248, 240, 0.3);
-            padding: 0.3rem 0.9rem;
-            border-radius: 12px;
-            display: inline-block;
-        }
+        #altInfo { margin: 0.8rem 1.8rem; padding: 0.9rem 1.4rem; background: #f0e6d2; border: 1.8px solid #d9c2a7; border-radius: 16px; font-size: 0.95rem; line-height: 1.5; }
 
-        .controls {
-            padding: 0.9rem 1.8rem;
-            background: #fdfaf7;
-            border-bottom: 1px solid var(--border);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
+        .results { flex: 1; overflow-y: auto; padding: 1.6rem; transition: margin-right 0.3s ease; }
+        .results.shifted { margin-right: 320px; }
 
-        .left-controls,
-        .right-controls {
-            display: flex;
-            gap: 0.9rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        input[type="text"] {
-            padding: 0.65rem 1.2rem;
-            background: white;
-            border: 1.8px solid #d9c2a7;
-            border-radius: 14px;
-            font-size: 0.95rem;
-            min-width: 240px;
-        }
-
-        input[type="text"]:focus {
-            outline: none;
-            border-color: var(--accent);
-            box-shadow: 0 0 0 4px rgba(107, 78, 49, 0.15);
-        }
-
-        .btn-group {
-            display: flex;
-            background: white;
-            border-radius: 14px;
-            padding: 5px;
-            border: 1.8px solid #d9c2a7;
-            gap: 5px;
-        }
-
-        .btn {
-            padding: 0.55rem 1.1rem;
-            background: transparent;
-            border: none;
-            color: var(--text-dim);
-            font-weight: 600;
-            font-size: 0.85rem;
-            border-radius: 10px;
-            cursor: pointer;
-        }
-
-        .btn.active {
-            background: var(--accent);
-            color: #fff8f0;
-            font-weight: 800;
-        }
-
-        #lookupBtn {
-            padding: 0.65rem 2rem;
-            background: linear-gradient(135deg, #8b6f9e, #a78bfa);
-            color: white;
-            border: none;
-            border-radius: 14px;
-            font-weight: 900;
-            font-size: 0.95rem;
-            cursor: pointer;
-        }
-
-        #altInfo {
-            margin: 0.8rem 1.8rem;
-            padding: 0.9rem 1.4rem;
-            background: #f0e6d2;
-            border: 1.8px solid #d9c2a7;
-            border-radius: 16px;
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-
-        .results {
-            flex: 1;
-            overflow-y: auto;
-            padding: 1.6rem;
-        }
-
-        .year-section {
-            display: grid;
-            grid-template-columns: 100px 1fr;
-            gap: 1.6rem;
-            margin-bottom: 2rem;
-        }
-
-        .year-title {
-            font-size: 1.3rem;
-            font-weight: 900;
-            color: var(--accent);
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-        }
-
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 1rem;
-        }
+        .year-section { display: grid; grid-template-columns: 100px 1fr; gap: 1.6rem; margin-bottom: 2rem; }
+        .year-title { font-size: 1.3rem; font-weight: 900; color: var(--accent); writing-mode: vertical-rl; transform: rotate(180deg); }
+        .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
 
         .card {
-            height: 110px;
-            padding: 1rem;
-            background: var(--card);
-            border-radius: 18px;
-            border: 1.8px solid #d9c2a7;
-            text-decoration: none;
-            color: var(--text);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 0.6rem;
-            transition: all 0.3s;
-            position: relative;
+            height: 110px; padding: 1rem; background: var(--card); border-radius: 18px; border: 1.8px solid #d9c2a7;
+            color: var(--text); display: flex; flex-direction: column; justify-content: center; gap: 0.6rem;
+            transition: all 0.3s; cursor: pointer; position: relative;
         }
+        .card:hover { transform: translateY(-6px) scale(1.04); border-color: var(--accent); box-shadow: 0 15px 35px rgba(107,78,49,0.2); }
 
-        .card:hover {
-            transform: translateY(-6px) scale(1.04);
-            border-color: var(--accent);
-            box-shadow: 0 15px 35px rgba(107, 78, 49, 0.2);
+        .card-code { font-size: 1.1rem; font-weight: 900; color: var(--accent); }
+        .card-variety { font-size: 0.72rem; font-weight: 600; color: var(--text-dim); margin-top: -4px; opacity: 0.9; }
+        .price-row { font-size: 0.9rem; font-weight: 700; }
+        .label { color: var(--text-dim); font-size: 0.7rem; }
+        .insured { color: var(--green); }
+        .alt { color: var(--purple); font-weight: 900; }
+        .ext-badge { position: absolute; top: 8px; right: 8px; background: var(--purple); color: white; font-size: 0.6rem; font-weight: 900; padding: 3px 8px; border-radius: 10px; }
+
+        .footer { padding: 0.8rem; text-align: center; background: #ede0d4; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--border); }
+
+        .setup { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 3rem; background: var(--panel); }
+        .setup h2 { font-size: 2.2rem; color: var(--accent); margin-bottom: 1rem; font-weight: 900; }
+        .load-btn { padding: 1.2rem 3.5rem; background: var(--accent); color: #fff8f0; border: none; border-radius: 20px; font-size: 1.4rem; font-weight: 900; cursor: pointer; box-shadow: 0 12px 40px rgba(107,78,49,0.4); transition: all 0.3s; }
+        .load-btn:hover { transform: translateY(-5px); box-shadow: 0 20px 50px rgba(107,78,49,0.5); }
+
+        /* Detail Panel */
+        #detailPanel {
+            position: fixed; top: 0; right: -320px; width: 320px; height: 100vh; background: var(--panel);
+            border-left: 1px solid var(--border); box-shadow: -10px 0 30px rgba(0,0,0,0.1); padding: 2rem 1.5rem;
+            transition: right 0.3s ease; z-index: 100; overflow-y: auto;
         }
+        #detailPanel.open { right: 0; }
+        #detailPanel h3 { font-size: 1.2rem; font-weight: 900; color: var(--accent); margin-bottom: 1.5rem; }
+        #detailPanel p { font-size: 0.95rem; margin-bottom: 0.8rem; }
+        #detailPanel .value { font-weight: 800; }
+        #detailPanel .insured { color: var(--green); }
+        #detailPanel .alt { color: var(--purple); }
+        #detailPanel button { width: 100%; padding: 1rem; border: none; border-radius: 14px; font-weight: 900; font-size: 1rem; cursor: pointer; margin-top: 0.8rem; }
+        #detailEbayBtn { background: var(--accent); color: #fff8f0; }
+        #detailEbayBtn:hover { background: #8b6f47; }
+        #detailAltBtn { background: linear-gradient(135deg, #8b6f9e, #a78bfa); color: white; display: none; }
+        #detailAltBtn:hover { background: #7a5c8a; }
+        #detailClose { position: absolute; top: 1rem; right: 1.5rem; font-size: 1.5rem; cursor: pointer; color: var(--text-dim); }
 
-        .card-code {
-            font-size: 1.1rem;
-            font-weight: 900;
-            color: var(--accent);
-        }
-
-        .price-row {
-            font-size: 0.9rem;
-            font-weight: 700;
-        }
-
-        .label {
-            color: var(--text-dim);
-            font-size: 0.7rem;
-        }
-
-        .insured {
-            color: var(--green);
-        }
-
-        .alt {
-            color: var(--purple);
-            font-weight: 900;
-        }
-
-        .ext-badge {
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            background: var(--purple);
-            color: white;
-            font-size: 0.6rem;
-            font-weight: 900;
-            padding: 3px 8px;
-            border-radius: 10px;
-        }
-
-        .footer {
-            padding: 0.8rem;
-            text-align: center;
-            background: #ede0d4;
-            color: var(--text-dim);
-            font-size: 0.8rem;
-            border-top: 1px solid var(--border);
-        }
-
-        .setup {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 3rem;
-            background: var(--panel);
-        }
-
-        .setup h2 {
-            font-size: 2.2rem;
-            color: var(--accent);
-            margin-bottom: 1rem;
-            font-weight: 900;
-        }
-
-        .setup p {
-            font-size: 1.1rem;
-            color: var(--text-dim);
-            margin-bottom: 2rem;
-        }
-
-        .load-btn {
-            padding: 1.2rem 3.5rem;
-            background: var(--accent);
-            color: #fff8f0;
-            border: none;
-            border-radius: 20px;
-            font-size: 1.4rem;
-            font-weight: 900;
-            cursor: pointer;
-            box-shadow: 0 12px 40px rgba(107, 78, 49, 0.4);
-            transition: all 0.3s;
-        }
-
-        .load-btn:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 50px rgba(107, 78, 49, 0.5);
+        @media (max-width: 768px) {
+            .results.shifted { margin-right: 0; margin-bottom: 320px; }
+            #detailPanel { right: -100%; width: 100%; height: 320px; top: auto; bottom: 0; border-left: none; border-top: 1px solid var(--border); }
+            #detailPanel.open { right: 0; }
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <header>
@@ -312,7 +130,6 @@
             <h3>Seru</h3>
             <div id="lastUpdatedHeader">Loading...</div>
             <h6>Insured Value is a function of Alt Value and Insured Value at time of mint on CC</h6>
-        </header>
         </header>
 
         <div class="controls">
@@ -331,7 +148,6 @@
                     <button id="externalToggle" class="btn active">+ EXTERNAL</button>
                 </div>
             </div>
-
             <div class="right-controls">
                 <button id="lookupBtn">LOOKUP ALT</button>
                 <input type="text" id="certInput" placeholder="PSA Cert Number">
@@ -340,9 +156,22 @@
 
         <div id="altInfo">Enter a PSA cert number → click LOOKUP ALT</div>
         <div class="results" id="results"></div>
-        <div class="footer">
-            <div id="status">Initializing…</div>
-        </div>
+        <div class="footer"><div id="status">Initializing…</div></div>
+    </div>
+
+    <!-- Detail Panel -->
+    <div id="detailPanel">
+        <span id="detailClose">×</span>
+        <h3>Card Details</h3>
+        <p><strong>Pokémon:</strong> <span id="detailName"></span></p>
+        <p><strong>Year:</strong> <span id="detailYear"></span></p>
+        <p><strong>Code:</strong> <span id="detailCode"></span></p>
+        <p><strong>Variety:</strong> <span id="detailVariety"></span></p>
+        <p><strong>Insured Value:</strong> <span id="detailInsured" class="value insured"></span></p>
+        <p><strong>Alt Value:</strong> <span id="detailAlt" class="value alt"></span></p>
+
+        <button id="detailEbayBtn">View Sold eBay Listings</button>
+        <button id="detailAltBtn">View Alt Research Page</button>
     </div>
 
     <script>
@@ -351,20 +180,32 @@
         let currentData = {};
         const results = document.getElementById('results');
         const searchInput = document.getElementById('searchInput');
-        const certInput = document.getElementById('certInput');
-        const altInfo = document.getElementById('altInfo');
         const status = document.getElementById('status');
+        const altInfo = document.getElementById('altInfo');
 
-        // 100% WORKING LOCAL LOAD — FIXED
+        const detailPanel = document.getElementById('detailPanel');
+        const detailClose = document.getElementById('detailClose');
+        const detailName = document.getElementById('detailName');
+        const detailYear = document.getElementById('detailYear');
+        const detailCode = document.getElementById('detailCode');
+        const detailVariety = document.getElementById('detailVariety');
+        const detailInsured = document.getElementById('detailInsured');
+        const detailAlt = document.getElementById('detailAlt');
+        const detailEbayBtn = document.getElementById('detailEbayBtn');
+        const detailAltBtn = document.getElementById('detailAltBtn');
+
+        detailClose.onclick = () => { detailPanel.classList.remove('open'); results.classList.remove('shifted'); };
+        document.addEventListener('click', e => {
+            if (!detailPanel.contains(e.target) && !e.target.closest('.card')) {
+                detailPanel.classList.remove('open');
+                results.classList.remove('shifted');
+            }
+        });
+
         window.loadLocalFiles = function () {
-            const input = document.createElement('input');
-            input.type = 'file';
-            input.multiple = true;
-            input.accept = '.json';
+            const input = document.createElement('input'); input.type = 'file'; input.multiple = true; input.accept = '.json';
             input.onchange = e => {
-                const files = Array.from(e.target.files);
-                if (files.length === 0) return;
-                let loaded = 0;
+                const files = Array.from(e.target.files); let loaded = 0;
                 files.forEach(file => {
                     const reader = new FileReader();
                     reader.onload = () => {
@@ -375,22 +216,12 @@
                             const isExternal = name.includes('external');
                             const json = JSON.parse(reader.result.replace(/^\uFEFF/, '').trim());
                             const grade = name.includes('psa10') ? 'psa10' : name.includes('psa9') ? 'psa9' : 'cgc10';
-
                             if (isExternal) {
                                 if (!data[lang].external) data[lang].external = {};
                                 data[lang].external[grade] = json;
-                            } else {
-                                data[lang][grade] = json;
-                            }
-                            loaded++;
-                            if (loaded === files.length) {
-                                updateData();
-                                status.textContent = `Loaded ${files.length} files`;
-                                results.innerHTML = ''; // Clear setup screen
-                            }
-                        } catch (err) {
-                            console.error('Error loading:', file.name, err);
-                        }
+                            } else data[lang][grade] = json;
+                            if (++loaded === files.length) { updateData(); status.textContent = `Loaded ${files.length} files`; results.innerHTML = ''; }
+                        } catch (err) { console.error(err); }
                     };
                     reader.readAsText(file);
                 });
@@ -400,7 +231,7 @@
 
         async function tryAutoLoad() {
             if (location.protocol === 'file:') return false;
-            const files = ['./Dicts/PSA10.json', './Dicts/PSA9.json', './Dicts/CGC10.json', './Dicts/PSA10_JP.json', './Dicts/PSA9_JP.json', './Dicts/CGC10_JP.json', './Dicts/PSA10_external.json', './Dicts/PSA10_JP_external.json', './Dicts/PSA9_external.json', './Dicts/PSA9_JP_external.json'];
+            const files = ['./Dicts/PSA10.json','./Dicts/PSA9.json','./Dicts/CGC10.json','./Dicts/PSA10_JP.json','./Dicts/PSA9_JP.json','./Dicts/CGC10_JP.json','./Dicts/PSA10_external.json','./Dicts/PSA10_JP_external.json','./Dicts/PSA9_external.json','./Dicts/PSA9_JP_external.json'];
             let loaded = 0;
             for (const f of files) {
                 try {
@@ -416,7 +247,7 @@
                         data[lang].external[grade] = json;
                     } else data[lang][grade] = json;
                     loaded++;
-                } catch (e) { }
+                } catch (e) {}
             }
             return loaded >= 6;
         }
@@ -432,38 +263,88 @@
 
             for (const [poke, years] of Object.entries(ext)) {
                 if (!base[poke]) base[poke] = {};
-                for (const [yr, cards] of Object.entries(years)) {
+                for (const [yr, codes] of Object.entries(years)) {
                     if (!base[poke][yr]) base[poke][yr] = {};
-                    for (const [code, val] of Object.entries(cards)) {
-                        const altValue = typeof val === 'object' ? (val.alt_value ?? val) : val;
-                        // HIDE EXTERNAL CARDS WITH $0 ALT VALUE
-                        if (Number(altValue) === 0) continue;
-
-                        base[poke][yr][code] = {
-                            insured_value: 0,
-                            alt_value: altValue
-                        };
+                    for (const [code, varieties] of Object.entries(codes)) {
+                        if (!base[poke][yr][code]) base[poke][yr][code] = {};
+                        for (const [variety, val] of Object.entries(varieties)) {
+                            const altValue = val.alt_value ?? val.insured_value ?? 0;
+                            if (Number(altValue) === 0) continue;
+                            base[poke][yr][code][variety] = {
+                                insured_value: val.insured_value ?? 0,
+                                alt_value: altValue,
+                                asset_id: val.asset_id || null
+                            };
+                        }
                     }
                 }
             }
             return base;
         }
 
-        function formatCardContent(code, val, name, year, isExt = false) {
+        function formatCardContent(code, variety, val, name, year, isExt = false) {
             const clean = code.replace(/^#/, '').replace('NA', '').trim();
-            const terms = [name, year, clean, currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10', currentLang === 'jp' ? 'Japanese' : ''].filter(Boolean).join(' ');
-            const url = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
+            const varietyText = (variety && variety !== 'STANDARD') ? `<div class="card-variety">(${variety})</div>` : '';
+            const badge = isExt ? '<div class="ext-badge">ALT</div>' : '';
+
+            let priceLine = '';
             const insured = val?.insured_value ?? 0;
             const alt = val?.alt_value ?? 0;
-            let priceLine = isExt
-                ? `<div class="price-row"><span class="label">ALT VALUE:</span> <span class="alt">$${Number(alt).toLocaleString()}</span></div>`
-                : `<div class="price-row"><span class="label">INSURED:</span> <span class="insured">$${Number(insured).toLocaleString()}</span></div>` +
-                (alt > 0 ? `<div class="price-row"><span class="label">ALT:</span> <span class="alt">$${Number(alt).toLocaleString()}</span></div>` : '');
-            const badge = isExt ? '<div class="ext-badge">ALT</div>' : '';
-            return `<a href="${url}" target="_blank" class="card${isExt ? ' external' : ''}">${badge}<div class="card-code">${code}</div>${priceLine}</a>`;
+            if (insured > 0) priceLine += `<div class="price-row"><span class="label">INSURED:</span> <span class="insured">$${Number(insured).toLocaleString()}</span></div>`;
+            if (alt > 0) priceLine += `<div class="price-row"><span class="label">ALT:</span> <span class="alt">$${Number(alt).toFixed(2)}</span></div>`;
+
+            return `
+                <div class="card${isExt ? ' external' : ''}"
+                     data-name="${name}"
+                     data-year="${year}"
+                     data-code="${code}"
+                     data-variety="${variety}"
+                     data-insured="${insured}"
+                     data-alt="${alt}"
+                     data-asset-id="${val.asset_id || ''}"
+                     data-clean="${clean}">
+                    ${badge}
+                    <div class="card-code">#${clean}</div>
+                    ${varietyText}
+                    ${priceLine}
+                </div>`;
+        }
+
+        function getEbaySearchTerms(name, year, code, variety) {
+            const parts = [name, year];
+            const cleanCode = code.replace(/^#/, '').replace('NA', '').trim();
+            if (!cleanCode.toLowerCase().includes('promo')) parts.push(cleanCode);
+            if (variety && variety !== 'STANDARD') parts.push(variety);
+            parts.push(currentGrade === '10' ? 'PSA 10' : currentGrade === '9' ? 'PSA 9' : 'CGC 10');
+            if (currentLang === 'jp') parts.push('Japanese');
+            return parts.filter(Boolean).join(' ');
+        }
+
+        function showDetailPanel(name, year, code, variety, insured, alt, assetId) {
+            detailName.textContent = name;
+            detailYear.textContent = year;
+            detailCode.textContent = code;
+            detailVariety.textContent = variety || 'Standard';
+            detailInsured.textContent = insured > 0 ? `$${Number(insured).toLocaleString()}` : 'N/A';
+            detailAlt.textContent = alt > 0 ? `$${Number(alt).toFixed(2)}` : 'N/A';
+
+            const terms = getEbaySearchTerms(name, year, code, variety);
+            const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
+            detailEbayBtn.onclick = () => window.open(ebayUrl, '_blank');
+
+            if (assetId) {
+                detailAltBtn.style.display = 'block';
+                detailAltBtn.onclick = () => window.open(`https://app.alt.xyz/research/${assetId}`, '_blank');
+            } else {
+                detailAltBtn.style.display = 'none';
+            }
+
+            detailPanel.classList.add('open');
+            results.classList.add('shifted');
         }
 
         function updateData() { currentData = buildCurrentData(); search(); }
+
         function search() {
             const q = searchInput.value.trim().toLowerCase();
             results.innerHTML = '';
@@ -471,19 +352,35 @@
             const parts = q.split(/\s+/);
             const nameQ = parts[0];
             const yearQ = parts.length > 1 ? parts.slice(1).join(' ') : null;
-            const extDict = includeExternal ? data[currentLang].external?.[currentGrade === '10' ? 'psa10' : currentGrade === '9' ? 'psa9' : 'cgc10'] : null;
             const matches = Object.keys(currentData).filter(n => n.toLowerCase().includes(nameQ)).slice(0, 40);
+
             matches.forEach(name => {
                 const div = document.createElement('div');
                 div.innerHTML = `<div style="font-size:1.2rem;font-weight:800;color:var(--accent);margin-bottom:0.8rem">${name.toUpperCase()}</div>`;
-                const years = yearQ ? (currentData[name][yearQ] ? [[yearQ, currentData[name][yearQ]]] : []) : Object.entries(currentData[name]).sort(([a], [b]) => a.localeCompare(b));
-                years.forEach(([year, cards]) => {
+                const years = yearQ ? (currentData[name][yearQ] ? [[yearQ, currentData[name][yearQ]]] : []) : Object.entries(currentData[name]).sort(([a],[b]) => a.localeCompare(b));
+                years.forEach(([year, codes]) => {
                     const sec = document.createElement('div'); sec.className = 'year-section';
                     sec.innerHTML = `<div class="year-title">${year}</div><div class="cards"></div>`;
                     const cont = sec.querySelector('.cards');
-                    Object.entries(cards).forEach(([code, val]) => {
-                        const isExt = extDict && extDict[name]?.[year]?.[code] !== undefined;
-                        cont.innerHTML += formatCardContent(code, val, name, year, isExt);
+                    Object.entries(codes).forEach(([code, varieties]) => {
+                        Object.entries(varieties).forEach(([variety, val]) => {
+                            const isExt = val.insured_value === 0;
+                            const cardEl = document.createElement('div');
+                            cardEl.innerHTML = formatCardContent(code, variety, val, name, year, isExt);
+                            const cardDiv = cardEl.querySelector('.card');
+                            cardDiv.onclick = () => {
+                                showDetailPanel(
+                                    cardDiv.dataset.name,
+                                    cardDiv.dataset.year,
+                                    cardDiv.dataset.code,
+                                    cardDiv.dataset.variety,
+                                    parseFloat(cardDiv.dataset.insured) || 0,
+                                    parseFloat(cardDiv.dataset.alt) || 0,
+                                    cardDiv.dataset.assetId || null
+                                );
+                            };
+                            cont.appendChild(cardEl);
+                        });
                     });
                     div.appendChild(sec);
                 });
@@ -492,24 +389,34 @@
         }
 
         searchInput.addEventListener('input', search);
-        document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => { document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active')); b.classList.add('active'); currentLang = b.dataset.lang; updateData(); });
-        document.querySelectorAll('[data-grade]').forEach(b => b.onclick = () => { document.querySelectorAll('[data-grade]').forEach(x => x.classList.remove('active')); b.classList.add('active'); currentGrade = b.dataset.grade; updateData(); });
-        document.getElementById('externalToggle').onclick = () => { includeExternal = !includeExternal; this.classList.toggle('active'); this.textContent = includeExternal ? '+ EXTERNAL' : 'EXTERNAL OFF'; updateData(); };
+        document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => {
+            document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active'));
+            b.classList.add('active'); currentLang = b.dataset.lang; updateData();
+        });
+        document.querySelectorAll('[data-grade]').forEach(b => b.onclick = () => {
+            document.querySelectorAll('[data-grade]').forEach(x => x.classList.remove('active'));
+            b.classList.add('active'); currentGrade = b.dataset.grade; updateData();
+        });
+        document.getElementById('externalToggle').onclick = () => {
+            includeExternal = !includeExternal;
+            this.classList.toggle('active');
+            this.textContent = includeExternal ? '+ EXTERNAL' : 'EXTERNAL OFF';
+            updateData();
+        };
 
+        // Cert lookup (unchanged)
 document.getElementById('lookupBtn').onclick = async () => {
-    const cert = certInput.value.trim();
+    const cert = document.getElementById('certInput').value.trim();
     if (!/^\d{6,}$/.test(cert)) {
-        altInfo.innerHTML = '<strong>Invalid cert number</strong>';
-        altInfo.classList.add('error');
+        altInfo.innerHTML = '<strong style="color:#a00">Invalid cert number (6+ digits)</strong>';
         return;
     }
 
-    altInfo.textContent = "Looking up cert...";
-    altInfo.classList.remove('error');
+    altInfo.innerHTML = 'Looking up cert...';
 
     try {
-        // First call — get asset ID + real grade + grading company
-        const r1 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
+        // Step 1: Get Asset ID from cert
+        const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -518,7 +425,7 @@ document.getElementById('lookupBtn').onclick = async () => {
                 query: `
                     query Cert($certNumber: String!) {
                         cert(certNumber: $certNumber) {
-                            asset { id }
+                            asset { id name }
                             gradeNumber
                             gradingCompany
                         }
@@ -527,18 +434,17 @@ document.getElementById('lookupBtn').onclick = async () => {
             })
         });
 
-        const j1 = await r1.json();
-        const certData = j1?.data?.cert;
+        const certJson = await certRes.json();
+        const certData = certJson?.data?.cert;
         if (!certData?.asset?.id) throw new Error("Cert not found on Alt");
 
         const assetId = certData.asset.id;
-        const realGrade = certData.gradeNumber;           // e.g. "10.0", "9.0"
-        const realCompany = certData.gradingCompany;      // "PSA" or "CGC"
+        const cardName = certData.asset.name || "Unknown Card";
+        const grade = certData.gradeNumber;
+        const company = certData.gradingCompany;
 
-        altInfo.innerHTML = `Asset ID: <strong>${assetId}</strong><br>Fetching card name & value...`;
-
-        // Second call — use the REAL grade & company from the cert
-        const r2 = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
+        // Step 2: Get Alt Value
+        const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -546,14 +452,13 @@ document.getElementById('lookupBtn').onclick = async () => {
                 variables: {
                     id: assetId,
                     tsFilter: {
-                        gradeNumber: realGrade || "10.0",
-                        gradingCompany: realCompany || "PSA"
+                        gradeNumber: grade || "10.0",
+                        gradingCompany: company || "PSA"
                     }
                 },
                 query: `
                     query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
                         asset(id: $id) {
-                            name
                             altValueInfo(tsFilter: $tsFilter) {
                                 currentAltValue
                                 confidenceData {
@@ -567,53 +472,40 @@ document.getElementById('lookupBtn').onclick = async () => {
             })
         });
 
-        const j2 = await r2.json();
-        const asset = j2?.data?.asset;
-        if (!asset) throw new Error("Asset data not found");
-
-        const cardName = asset.name || "Unknown Card";
-        const info = asset.altValueInfo;
+        const valueJson = await valueRes.json();
+        const info = valueJson?.data?.asset?.altValueInfo;
         if (!info?.currentAltValue) throw new Error("No Alt value available");
 
-        const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+        const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
         const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
 
+        // Asset ID is now a clickable link!
         altInfo.innerHTML = `
-            Asset ID: <strong>${assetId}</strong><br>
-            <strong style="font-size:1.15em;color:#6b4e31;">${cardName} ${realCompany} ${realGrade}</strong><br><br>
+            <strong>Asset ID (Click for research page):</strong> 
+            <a href="https://app.alt.xyz/research/${assetId}" target="_blank" style="color:#8b6f9e; font-weight:900; text-decoration:underline;">
+                ${assetId}
+            </a><br><br>
+            <strong style="font-size:1.15em; color:#6b4e31;">${cardName} ${company} ${grade}</strong><br><br>
             <strong>Alt Value: $${val}</strong><br>
             <strong>70% Range: $${low} – $${high}</strong>
         `;
 
     } catch (e) {
-        altInfo.innerHTML = `<strong>Error:</strong> ${e.message}`;
-        altInfo.classList.add('error');
+        altInfo.innerHTML = `<strong style="color:#a00">Error:</strong> ${e.message}`;
     }
 };
-        // FINAL STARTUP — 100% WORKING
+
         (async () => {
             if (location.protocol === 'file:') {
-                results.innerHTML = `
-                    <div class="setup">
-                        <h2>Local Mode Active</h2>
-                        <p>Click below to load your dictionary files</p>
-                        <button class="load-btn" onclick="loadLocalFiles()">LOAD JSON FILES</button>
-                    </div>`;
+                results.innerHTML = `<div class="setup"><h2>Local Mode Active</h2><p>Click below to load your dictionary files</p><button class="load-btn" onclick="loadLocalFiles()">LOAD JSON FILES</button></div>`;
                 status.textContent = 'Local — click to load';
                 return;
             }
             const success = await tryAutoLoad();
-            if (success) {
-                updateData();
-                status.textContent = 'Ready';
-            } else {
-                results.innerHTML = `
-                    <div class="setup">
-                        <h2>Offline</h2>
-                        <p>Load dictionary files manually</p>
-                        <button class="load-btn" onclick="loadLocalFiles()">LOAD JSON FILES</button>
-                    </div>`;
+            if (success) { updateData(); status.textContent = 'Ready'; }
+            else {
+                results.innerHTML = `<div class="setup"><h2>Offline</h2><p>Load dictionary files manually</p><button class="load-btn" onclick="loadLocalFiles()">LOAD JSON FILES</button></div>`;
                 status.textContent = 'Offline — load manually';
             }
         })();
@@ -621,8 +513,7 @@ document.getElementById('lookupBtn').onclick = async () => {
         fetch('./Dicts/LastUpdated.txt?' + Date.now())
             .then(r => r.ok ? r.text() : 'Unknown')
             .then(t => document.getElementById('lastUpdatedHeader').textContent = t.trim() || 'Last updated: Unknown')
-            .catch(() => { });
+            .catch(() => {});
     </script>
 </body>
-
 </html>
