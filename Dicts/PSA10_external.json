@@ -428,6 +428,12 @@
                     "alt_value": 57.3,
                     "asset_id": "0b471b52-ee47-40d5-b11c-02f535b273ac"
                 }
+            },
+            "#SM212": {
+                "STANDARD": {
+                    "alt_value": 61.93,
+                    "asset_id": "23b8e0a6-1e9c-4a8e-b833-7e3108520e29"
+                }
             }
         },
         "2021": {
@@ -2505,6 +2511,12 @@
                 "Holo": {
                     "alt_value": 122.61,
                     "asset_id": "fda9de55-394c-44b9-bc64-6b89d5134630"
+                }
+            },
+            "#149": {
+                "STANDARD": {
+                    "alt_value": 49.59,
+                    "asset_id": "70b50f4b-7011-4c59-b833-e35c47d01bbc"
                 }
             }
         },
@@ -20340,6 +20352,12 @@
                     "alt_value": 27.93,
                     "asset_id": "c980e5c1-0425-4b15-afd5-c808b06281e6"
                 }
+            },
+            "#187": {
+                "STANDARD": {
+                    "alt_value": 49.51,
+                    "asset_id": "ebec36a6-4118-47ec-a192-c19643547211"
+                }
             }
         },
         "2019": {
@@ -25093,6 +25111,26 @@
                 "STANDARD": {
                     "alt_value": 50.87,
                     "asset_id": "ccdcb511-20ed-4fd8-b3d1-e59e6a17fa90"
+                }
+            }
+        }
+    },
+    "LARVESTA": {
+        "2024": {
+            "#196": {
+                "Art Rare": {
+                    "alt_value": 40.26,
+                    "asset_id": "e2af1584-a7c5-45c0-beca-603525343b4a"
+                }
+            }
+        }
+    },
+    "HELIOLISK": {
+        "2024": {
+            "#177": {
+                "Art Rare": {
+                    "alt_value": 36.86,
+                    "asset_id": "345d09ae-2e29-4f2b-8290-52fdae71e7ce"
                 }
             }
         }
