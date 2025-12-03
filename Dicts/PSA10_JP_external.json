@@ -226,6 +226,12 @@
                     "alt_value": 57.91,
                     "asset_id": "7011884a-c8a2-44a3-8172-ce46c47a2a58"
                 }
+            },
+            "#47": {
+                "STANDARD": {
+                    "alt_value": 37.48,
+                    "asset_id": "350e5a7f-0670-4555-afb1-592cbc4af25e"
+                }
             }
         },
         "2019": {
@@ -1439,6 +1445,10 @@
                 "1st Edition Holo": {
                     "alt_value": 245.28,
                     "asset_id": "f6463bb2-91bb-4234-9b54-38933bdd3575"
+                },
+                "STANDARD": {
+                    "alt_value": 162.81,
+                    "asset_id": "106021b8-5df1-4f31-9370-078c5ce58cef"
                 }
             }
         }
@@ -1749,6 +1759,12 @@
                 "STANDARD": {
                     "alt_value": 254.16,
                     "asset_id": "0bf5a03a-4b8f-41f7-9ffd-a328954ccafe"
+                }
+            },
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 45.05,
+                    "asset_id": "a1a71c81-d1a4-4530-a813-3b37035150bf"
                 }
             }
         },
@@ -3204,6 +3220,12 @@
                     "alt_value": 295.34,
                     "asset_id": "10288111-c936-4ed7-b027-d55030ed368a"
                 }
+            },
+            "#291": {
+                "STANDARD": {
+                    "alt_value": 74.35,
+                    "asset_id": "eda36349-9714-41ff-8c0a-da632394224e"
+                }
             }
         },
         "2020": {
@@ -3531,6 +3553,12 @@
                 "STANDARD": {
                     "alt_value": 59.74,
                     "asset_id": "d2f135fd-c104-4fc0-9005-6a2c980c28e1"
+                }
+            },
+            "#28": {
+                "STANDARD": {
+                    "alt_value": 50.52,
+                    "asset_id": "c86e8482-d687-4823-b5ba-d811c8541e72"
                 }
             }
         },
@@ -6868,6 +6896,12 @@
                     "alt_value": 49.81,
                     "asset_id": "a0f7c54a-4b25-4ff1-b0c8-92e1f9d4fa7f"
                 }
+            },
+            "#259": {
+                "STANDARD": {
+                    "alt_value": 64.64,
+                    "asset_id": "25591a0f-5c1d-46b0-8890-ed6409133d89"
+                }
             }
         }
     },
@@ -8455,6 +8489,18 @@
                 "STANDARD": {
                     "alt_value": 60.3,
                     "asset_id": "fa16a349-d379-481c-94df-4c6306d2e22d"
+                }
+            },
+            "#78": {
+                "STANDARD": {
+                    "alt_value": 51.07,
+                    "asset_id": "a44e5d8b-9b90-42a6-b2bf-eb6e469dbb86"
+                }
+            },
+            "#050": {
+                "STANDARD": {
+                    "alt_value": 34.25,
+                    "asset_id": "1e9e1456-bd78-4acd-9384-754093270ddc"
                 }
             }
         },
@@ -10323,6 +10369,12 @@
                 "Holo": {
                     "alt_value": 5029.53,
                     "asset_id": "5f3692c2-da97-40ae-847a-427bdfa9c39c"
+                }
+            },
+            "#19": {
+                "STANDARD": {
+                    "alt_value": 76.74,
+                    "asset_id": "2439e821-f0f9-4c8b-ba6c-425a51a5f078"
                 }
             }
         },
