@@ -865,6 +865,10 @@
                 "1st Edition Holo": {
                     "alt_value": 398.64,
                     "asset_id": "07a1dc59-6d5d-43bf-abed-1f16b869bc4e"
+                },
+                "Holo": {
+                    "alt_value": 121.47,
+                    "asset_id": "1c1bc0d2-18dc-4632-ae7b-443cba58400d"
                 }
             },
             "#1": {
@@ -3181,7 +3185,7 @@
             },
             "#058": {
                 "STANDARD": {
-                    "alt_value": 196.2,
+                    "alt_value": 199.22,
                     "asset_id": "d51dfc39-2f70-4e72-b9d2-10d9e6a0238f"
                 }
             },
@@ -6578,6 +6582,12 @@
                     "alt_value": 96.53,
                     "asset_id": "c9fcd98a-839f-4fbf-9db4-37bad0620c22"
                 }
+            },
+            "#37": {
+                "STANDARD": {
+                    "alt_value": 202.55,
+                    "asset_id": "eb96eb7b-a40d-4a19-bdde-1855fdb0c506"
+                }
             }
         },
         "2023": {
@@ -8191,6 +8201,12 @@
                 "1st Edition": {
                     "alt_value": 54.56,
                     "asset_id": "80e910a2-fd77-4078-9bdf-d82145177d1c"
+                }
+            },
+            "#13": {
+                "Holo": {
+                    "alt_value": 302.56,
+                    "asset_id": "890c3f97-e330-42e7-9e35-b9e977d77b67"
                 }
             }
         },
@@ -11164,6 +11180,12 @@
                     "alt_value": 175.53,
                     "asset_id": "f54de958-7bd7-4891-97d0-c12618bb864a"
                 }
+            },
+            "#19": {
+                "Holo": {
+                    "alt_value": 98.19,
+                    "asset_id": "1c846873-878d-4bde-86a1-81819f876ba7"
+                }
             }
         },
         "2022": {
@@ -11613,6 +11635,12 @@
                 "Holo": {
                     "alt_value": 452.04,
                     "asset_id": "1bf7beb7-48fd-48b1-b5cd-670e5fd0f613"
+                }
+            },
+            "#6": {
+                "Holo": {
+                    "alt_value": 156.97,
+                    "asset_id": "00dce69d-0ef0-47c4-a165-3ab3d23c1786"
                 }
             }
         },
@@ -15517,6 +15545,14 @@
                     "asset_id": "1b263e5f-d17a-48e4-b243-797842d96ff5"
                 }
             }
+        },
+        "2004": {
+            "#31": {
+                "Reverse Holo": {
+                    "alt_value": 71.0,
+                    "asset_id": "5f8ae0e3-8a60-4a57-bea2-f2cf4b69a3eb"
+                }
+            }
         }
     },
     "DARMANITAN": {
@@ -16721,6 +16757,14 @@
                 "STANDARD": {
                     "alt_value": 66.98,
                     "asset_id": "4f55e927-1b2a-4acb-820a-0d8c4a4abf10"
+                }
+            }
+        },
+        "2006": {
+            "#92": {
+                "Holo": {
+                    "alt_value": 201.41,
+                    "asset_id": "e13e7c3a-4fca-4d8c-bd5a-7874adafc56d"
                 }
             }
         }
@@ -17957,6 +18001,14 @@
                     "asset_id": "ca363d33-3812-46d4-bfca-02d841805f41"
                 }
             }
+        },
+        "2002": {
+            "#96": {
+                "Reverse Holo": {
+                    "alt_value": 148.1,
+                    "asset_id": "2fa96fcc-be56-4522-b1dc-bb9c99d88079"
+                }
+            }
         }
     },
     "BELDUM": {
@@ -18989,7 +19041,7 @@
             },
             "#96": {
                 "STANDARD": {
-                    "alt_value": 458.25,
+                    "alt_value": 482.92,
                     "asset_id": "b5900127-7016-4f50-8404-a395412f21d1"
                 }
             }
@@ -21977,6 +22029,14 @@
                     "asset_id": "f045ff66-10b5-4854-8bd4-a276653c7281"
                 }
             }
+        },
+        "2005": {
+            "#14": {
+                "Holo": {
+                    "alt_value": 87.47,
+                    "asset_id": "45c74d57-c2fe-44f9-8ea5-dacf8f6602cb"
+                }
+            }
         }
     },
     "BELLSPROUT": {
@@ -23613,6 +23673,14 @@
                 "Holo": {
                     "alt_value": 1841.53,
                     "asset_id": "5b64e774-e182-416e-a40d-db7088799281"
+                }
+            }
+        },
+        "2005": {
+            "#99": {
+                "STANDARD": {
+                    "alt_value": 224.48,
+                    "asset_id": "3187d787-f630-4d5c-962e-32f1bd81ea89"
                 }
             }
         }
