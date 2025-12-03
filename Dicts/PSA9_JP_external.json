@@ -37,6 +37,16 @@
                 "STANDARD": {
                     "alt_value": 308.38,
                     "asset_id": "d7d5d96f-5c2e-467c-ac26-846b78fad24e"
+                },
+                "1st Edition": {
+                    "alt_value": 241.27,
+                    "asset_id": "5f7e0d69-974e-4fb8-8eea-cfa2b6ad0e96"
+                }
+            },
+            "#6": {
+                "1st Edition": {
+                    "alt_value": 597.6,
+                    "asset_id": "ba6e930b-db76-41f2-9867-fc12cba7ea5f"
                 }
             }
         },
@@ -93,6 +103,10 @@
                 "Holo": {
                     "alt_value": 85.5,
                     "asset_id": "bfa70b98-1b4c-45ea-877a-fa992cb2009e"
+                },
+                "Reverse Holo": {
+                    "alt_value": 35.76,
+                    "asset_id": "877d34ba-bc96-438c-8347-8a7d9009570e"
                 }
             }
         },
@@ -150,6 +164,12 @@
                     "alt_value": 1629.41,
                     "asset_id": "d4471b18-298f-4104-b032-7cf14c3ce020"
                 }
+            },
+            "#1": {
+                "STANDARD": {
+                    "alt_value": 61.4,
+                    "asset_id": "3e6a437e-f425-4848-b79b-10c131443579"
+                }
             }
         },
         "2004": {
@@ -165,6 +185,22 @@
                 "STANDARD": {
                     "alt_value": 33.01,
                     "asset_id": "84b48094-dabf-4eb6-af41-a03e81131ecf"
+                }
+            }
+        },
+        "2002": {
+            "#27": {
+                "Holo": {
+                    "alt_value": 129.3,
+                    "asset_id": "b0501573-a726-4425-b22f-1138e777e725"
+                }
+            }
+        },
+        "2001": {
+            "#95": {
+                "1st Edition Holo": {
+                    "alt_value": 216.17,
+                    "asset_id": "02f23419-454e-4ebe-9d0b-1cde763a10e6"
                 }
             }
         }
@@ -233,6 +269,22 @@
                     "asset_id": "4ba39266-f3da-4180-834c-c24ea843c331"
                 }
             }
+        },
+        "2014": {
+            "#21": {
+                "STANDARD": {
+                    "alt_value": 31.64,
+                    "asset_id": "f5b131e7-31cd-4485-b454-899fee8ea31a"
+                }
+            }
+        },
+        "2024": {
+            "#90": {
+                "Art Rare": {
+                    "alt_value": 184.25,
+                    "asset_id": "3b0860c6-2bbf-48e4-82e2-97300d37c8a8"
+                }
+            }
         }
     },
     "MAGIKARP": {
@@ -275,6 +327,10 @@
                 "1st Edition": {
                     "alt_value": 518.5,
                     "asset_id": "07582c4f-2569-4f72-84e6-0709fa97820a"
+                },
+                "STANDARD": {
+                    "alt_value": 475.17,
+                    "asset_id": "8c65587f-5e5c-49e5-9dc8-66134a36c691"
                 }
             }
         },
@@ -283,6 +339,22 @@
                 "Holo": {
                     "alt_value": 67.5,
                     "asset_id": "4c6ba05a-9c6f-4461-ad7c-a09afab7c195"
+                }
+            }
+        },
+        "1996": {
+            "#129": {
+                "STANDARD": {
+                    "alt_value": 40.74,
+                    "asset_id": "2848bb0c-6879-4efd-a9d0-a7c7edb1ab1f"
+                }
+            }
+        },
+        "2015": {
+            "#150": {
+                "Holo": {
+                    "alt_value": 3041.08,
+                    "asset_id": "5f3692c2-da97-40ae-847a-427bdfa9c39c"
                 }
             }
         }
@@ -301,6 +373,14 @@
                 "Holo": {
                     "alt_value": 45.58,
                     "asset_id": "61b7ce4e-d3da-4580-bd7e-654711020b1d"
+                }
+            }
+        },
+        "2000": {
+            "#176": {
+                "Holo": {
+                    "alt_value": 38.05,
+                    "asset_id": "636708d2-3462-466d-be0f-b6a77af79a13"
                 }
             }
         }
@@ -341,6 +421,20 @@
                 "Reverse Holo": {
                     "alt_value": 48.81,
                     "asset_id": "da6977c4-3a28-4a49-9155-f4395dda5c7a"
+                }
+            }
+        },
+        "2001": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 68.89,
+                    "asset_id": "1b9d43e1-9362-48df-8d43-d2917878387c"
+                }
+            },
+            "#114": {
+                "Holo": {
+                    "alt_value": 141.23,
+                    "asset_id": "24d057b8-8bfd-4df9-9f72-271da06cbbf8"
                 }
             }
         }
@@ -387,6 +481,10 @@
                 "1st Edition": {
                     "alt_value": 88.45,
                     "asset_id": "ed0c95ac-299f-4e98-aa82-bed60ef2d2dd"
+                },
+                "STANDARD": {
+                    "alt_value": 99.66,
+                    "asset_id": "02ecfdbe-ab36-49b1-a67b-fbb1f470da7c"
                 }
             }
         },
@@ -445,6 +543,20 @@
                     "asset_id": "13793121-0a80-4653-94e8-43db6ab651fb"
                 }
             }
+        },
+        "2005": {
+            "#12": {
+                "STANDARD": {
+                    "alt_value": 64.02,
+                    "asset_id": "68ef6874-77ad-4f33-b34f-a8b400524d49"
+                }
+            },
+            "#98": {
+                "STANDARD": {
+                    "alt_value": 35.25,
+                    "asset_id": "56901c36-71a0-483f-8e52-debbbd0d0d56"
+                }
+            }
         }
     },
     "HOUNDOOM": {
@@ -469,6 +581,18 @@
                 "STANDARD": {
                     "alt_value": 70.1,
                     "asset_id": "a3601043-e6bb-4222-b4d1-d7c42704d8d0"
+                }
+            },
+            "#70": {
+                "1st Edition": {
+                    "alt_value": 266.11,
+                    "asset_id": "8ddd0645-f42d-45c1-9fa9-c6c3d83e7f53"
+                }
+            },
+            "#71": {
+                "1st Edition Holo": {
+                    "alt_value": 458.82,
+                    "asset_id": "149772b8-a2f5-4e0e-95e0-20c85dcf9345"
                 }
             }
         },
@@ -579,6 +703,10 @@
                 "STANDARD": {
                     "alt_value": 33.28,
                     "asset_id": "9921bd20-845a-479d-962e-01493717a153"
+                },
+                "Holo": {
+                    "alt_value": 139.53,
+                    "asset_id": "3d4d403a-ef54-46c0-abd4-f5666da6ddb0"
                 }
             }
         },
@@ -622,6 +750,18 @@
                     "alt_value": 164.34,
                     "asset_id": "29006efd-00c3-476c-b418-d510403cbd63"
                 }
+            },
+            "#27": {
+                "1st Edition": {
+                    "alt_value": 55.3,
+                    "asset_id": "b75e1ca6-cda3-477c-aca6-42e52238e8b2"
+                }
+            },
+            "#53": {
+                "1st Edition": {
+                    "alt_value": 50.4,
+                    "asset_id": "917719b5-9b15-4c44-b796-e4a82b26fdc4"
+                }
             }
         },
         "2019": {
@@ -637,6 +777,14 @@
                 "1st Edition": {
                     "alt_value": 86.99,
                     "asset_id": "fb3d3d8d-5830-4d85-b79a-7d39c97cf3e4"
+                }
+            }
+        },
+        "1997": {
+            "#26": {
+                "STANDARD": {
+                    "alt_value": 63.99,
+                    "asset_id": "44d9c5cf-e74e-4992-8ae3-f06d1d9dec78"
                 }
             }
         }
@@ -708,6 +856,12 @@
                     "alt_value": 17.7,
                     "asset_id": "2fac9066-285c-45d4-b651-506983432ea6"
                 }
+            },
+            "#204": {
+                "Art Rare": {
+                    "alt_value": 63.74,
+                    "asset_id": "c82b2f7b-c667-4340-bbcb-1577efebf463"
+                }
             }
         },
         "2001": {
@@ -715,6 +869,12 @@
                 "1st Edition Holo": {
                     "alt_value": 199.71,
                     "asset_id": "b438e296-9b55-430b-a292-cf4d2fe57be5"
+                }
+            },
+            "#145": {
+                "STANDARD": {
+                    "alt_value": 93.86,
+                    "asset_id": "cbe1d626-0277-4877-ab7e-1aff0ef2788e"
                 }
             }
         },
@@ -731,6 +891,14 @@
                 "STANDARD": {
                     "alt_value": 12.67,
                     "asset_id": "a00146d4-e9c6-452a-8f88-fe46c8584a09"
+                }
+            }
+        },
+        "1998": {
+            "#145": {
+                "STANDARD": {
+                    "alt_value": 351.43,
+                    "asset_id": "d281fe51-fe59-4330-8bee-00dac63683f7"
                 }
             }
         }
@@ -758,6 +926,12 @@
                     "alt_value": 138.16,
                     "asset_id": "6ff7a217-977a-405f-9622-dca286c9b4aa"
                 }
+            },
+            "#61": {
+                "Holo": {
+                    "alt_value": 62.92,
+                    "asset_id": "064da517-59ff-4d9c-adbd-4ebdc7e7e4a8"
+                }
             }
         },
         "2007": {
@@ -781,6 +955,14 @@
                 "Art Rare": {
                     "alt_value": 27.2,
                     "asset_id": "f8fc59dc-6211-4c92-8eee-1311baa8a591"
+                }
+            }
+        },
+        "2005": {
+            "#35": {
+                "Holo": {
+                    "alt_value": 388.91,
+                    "asset_id": "7f072e3b-ff01-4a61-b92c-f16adf10fd3d"
                 }
             }
         }
@@ -821,6 +1003,20 @@
                     "asset_id": "2af88ff3-65b5-4e17-a82a-eebb46496d5f"
                 }
             }
+        },
+        "2018": {
+            "#289": {
+                "STANDARD": {
+                    "alt_value": 4467.08,
+                    "asset_id": "139ab4b2-0266-4f62-94d3-34eb9ce2501e"
+                }
+            },
+            "#199": {
+                "STANDARD": {
+                    "alt_value": 390.6,
+                    "asset_id": "3875870a-f0da-46b6-bf83-60eee87b36d8"
+                }
+            }
         }
     },
     "MEWTWO": {
@@ -837,6 +1033,12 @@
                 "Holo": {
                     "alt_value": 114.31,
                     "asset_id": "47bd2bed-faaa-4b1c-82e2-54d528f3ff4e"
+                }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 80.01,
+                    "asset_id": "9299f333-5c8d-46ed-83ac-a3c2f51ad33e"
                 }
             }
         },
@@ -876,6 +1078,12 @@
                     "alt_value": 280.13,
                     "asset_id": "4d3bb12f-b761-45b3-86a0-df8f7b8597ac"
                 }
+            },
+            "#366": {
+                "STANDARD": {
+                    "alt_value": 58.16,
+                    "asset_id": "e55e6761-ae77-4205-aeec-cd8b545bacad"
+                }
             }
         },
         "2022": {
@@ -909,6 +1117,12 @@
                 "Holo": {
                     "alt_value": 206.11,
                     "asset_id": "2e501349-61ad-4474-875d-fbaeee1ae09a"
+                }
+            },
+            "#107": {
+                "STANDARD": {
+                    "alt_value": 134.18,
+                    "asset_id": "8e9ab0ca-8549-4a91-b02c-bec6dc9c4f39"
                 }
             }
         },
@@ -994,6 +1208,18 @@
                     "alt_value": 64.67,
                     "asset_id": "4638a44a-454d-4b1f-8f74-7a0ef93cff52"
                 }
+            },
+            "#82": {
+                "STANDARD": {
+                    "alt_value": 699.64,
+                    "asset_id": "c0272c25-1291-481f-a4b2-7c692c261891"
+                }
+            },
+            "#40": {
+                "STANDARD": {
+                    "alt_value": 27.36,
+                    "asset_id": "5d8849ff-2afc-4aa9-938d-d0eadba12ac5"
+                }
             }
         },
         "2001": {
@@ -1007,6 +1233,16 @@
                 "1st Edition Holo": {
                     "alt_value": 333.88,
                     "asset_id": "a7d7408a-aff2-4fd3-b01c-fe26a266cba9"
+                }
+            },
+            "#150": {
+                "Holo": {
+                    "alt_value": 476.47,
+                    "asset_id": "487d3d49-2fc6-414a-886c-3033b85203c1"
+                },
+                "STANDARD": {
+                    "alt_value": 111.42,
+                    "asset_id": "d0fe1563-bf05-46c7-ae32-de49492798d6"
                 }
             }
         },
@@ -1065,6 +1301,28 @@
                 "STANDARD": {
                     "alt_value": 24.28,
                     "asset_id": "f4958678-b468-4ee1-99c6-b2cb835aa43d"
+                }
+            }
+        },
+        "2003": {
+            "#26": {
+                "STANDARD": {
+                    "alt_value": 181.66,
+                    "asset_id": "718746c8-b836-4bc4-bb68-377834f10dbd"
+                }
+            }
+        },
+        "1996": {
+            "#150": {
+                "Holo": {
+                    "alt_value": 150.48,
+                    "asset_id": "83129d8e-68ac-45ab-85b5-0ab8c21c2f77"
+                }
+            },
+            "#202": {
+                "STANDARD": {
+                    "alt_value": 41.7,
+                    "asset_id": "64978837-27d9-4692-b4ee-ef09fac77335"
                 }
             }
         }
@@ -1254,6 +1512,24 @@
                     "alt_value": 187.46,
                     "asset_id": "67d1d17d-f99f-4ce6-a514-72482ae6ef8f"
                 }
+            },
+            "#71": {
+                "STANDARD": {
+                    "alt_value": 79.93,
+                    "asset_id": "554a6c0d-a929-4e8e-94fe-8161ea7b06f0"
+                }
+            },
+            "#92": {
+                "STANDARD": {
+                    "alt_value": 38.71,
+                    "asset_id": "b0f3967b-f4eb-42d4-b831-eb779cd95d91"
+                }
+            },
+            "#84": {
+                "STANDARD": {
+                    "alt_value": 33.83,
+                    "asset_id": "0b7217fe-fd57-4442-b3de-b675fe91a92c"
+                }
             }
         },
         "2018": {
@@ -1297,6 +1573,18 @@
                 "STANDARD": {
                     "alt_value": 59.05,
                     "asset_id": "fb8e0b09-d688-4acd-a0a7-82d747870cd6"
+                }
+            },
+            "#17": {
+                "STANDARD": {
+                    "alt_value": 23.64,
+                    "asset_id": "9cdb21f2-2940-43b5-97b4-47aeb0699965"
+                }
+            },
+            "#287": {
+                "STANDARD": {
+                    "alt_value": 891.07,
+                    "asset_id": "4fc552fe-5a86-4db8-a181-fc7ae1f48a71"
                 }
             }
         },
@@ -1392,6 +1680,12 @@
                     "alt_value": 26.95,
                     "asset_id": "76da69cb-a1ec-4e2f-b826-6ab579872cb0"
                 }
+            },
+            "#223": {
+                "Art Rare": {
+                    "alt_value": 34.48,
+                    "asset_id": "07ff725f-591e-487f-9067-757f5f240806"
+                }
             }
         },
         "2017": {
@@ -1412,6 +1706,36 @@
                     "alt_value": 825.18,
                     "asset_id": "d4a49559-df86-4cb6-a049-e32172a19213"
                 }
+            },
+            "#143": {
+                "STANDARD": {
+                    "alt_value": 633.17,
+                    "asset_id": "c0cf8c14-9ce6-448b-baa9-49cc9beec4fe"
+                }
+            },
+            "#137": {
+                "STANDARD": {
+                    "alt_value": 672.54,
+                    "asset_id": "7adb8b3b-cabb-48c4-952a-1c79bacb3e3d"
+                }
+            },
+            "#138": {
+                "STANDARD": {
+                    "alt_value": 727.85,
+                    "asset_id": "54dee9bc-641a-494f-94a1-41b41150308a"
+                }
+            },
+            "#140": {
+                "STANDARD": {
+                    "alt_value": 685.0,
+                    "asset_id": "29481f26-6b0f-4476-af6f-8fa98397937a"
+                }
+            },
+            "#144": {
+                "STANDARD": {
+                    "alt_value": 654.93,
+                    "asset_id": "c854b5a7-238c-40f7-819c-d76dee8b24f1"
+                }
             }
         },
         "2022": {
@@ -1419,6 +1743,38 @@
                 "STANDARD": {
                     "alt_value": 19.68,
                     "asset_id": "aba6493a-3d0d-4d2c-8a2f-d390387bb34a"
+                }
+            }
+        },
+        "2005": {
+            "#111": {
+                "STANDARD": {
+                    "alt_value": 44.68,
+                    "asset_id": "7b4180c2-0600-4962-926a-7fc956d38fa5"
+                }
+            }
+        },
+        "1997": {
+            "#133": {
+                "STANDARD": {
+                    "alt_value": 27.65,
+                    "asset_id": "0c6398f9-227f-41be-bf04-553769fa89ad"
+                }
+            }
+        },
+        "2003": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 21.98,
+                    "asset_id": "a5661a6b-3eba-4a36-b461-513d6c1497f4"
+                }
+            }
+        },
+        "2015": {
+            "#141": {
+                "STANDARD": {
+                    "alt_value": 39.2,
+                    "asset_id": "4ea77ed3-23de-4827-9d23-78da0cee7234"
                 }
             }
         }
@@ -1535,6 +1891,40 @@
                     "asset_id": "219bf1ff-f60c-4b9d-9155-730c2fb3daad"
                 }
             }
+        },
+        "2022": {
+            "#073": {
+                "STANDARD": {
+                    "alt_value": 74.82,
+                    "asset_id": "9344f9cf-4d12-4103-ae35-53287d2d09cd"
+                }
+            }
+        },
+        "1996": {
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 2065.21,
+                    "asset_id": "2fca8d16-b014-4b80-8cd1-af839cc83bf0"
+                }
+            },
+            "#68": {
+                "STANDARD": {
+                    "alt_value": 99.34,
+                    "asset_id": "e603474f-347f-469a-a94e-400ee1e7f508"
+                },
+                "Holo": {
+                    "alt_value": 73.22,
+                    "asset_id": "a72bff48-19c3-4ec5-b6e1-f98e4c056e90"
+                }
+            }
+        },
+        "1999": {
+            "#68": {
+                "Holo": {
+                    "alt_value": 805.81,
+                    "asset_id": "d1386da9-34aa-4702-8fb8-ce04dacb828d"
+                }
+            }
         }
     },
     "SYLVEON": {
@@ -1579,6 +1969,22 @@
                     "asset_id": "5218d5c3-3372-4ae1-b0b5-706e48fc76ee"
                 }
             }
+        },
+        "2018": {
+            "#238": {
+                "STANDARD": {
+                    "alt_value": 123.12,
+                    "asset_id": "cfd4f360-af3d-4d73-b4b2-0ac1373296b1"
+                }
+            }
+        },
+        "2023": {
+            "#070": {
+                "STANDARD": {
+                    "alt_value": 45.26,
+                    "asset_id": "41fd6586-1f21-4753-8ee2-5afa9e13363f"
+                }
+            }
         }
     },
     "UMBREON": {
@@ -1616,6 +2022,12 @@
                     "alt_value": 181.39,
                     "asset_id": "51ec9fec-c399-43c7-afe8-d22d21776553"
                 }
+            },
+            "#68": {
+                "1st Edition Holo": {
+                    "alt_value": 860.3,
+                    "asset_id": "f324369b-faa3-4cb3-8b36-9a1b81c7ae3b"
+                }
             }
         },
         "2024": {
@@ -1630,6 +2042,12 @@
                     "alt_value": 14.11,
                     "asset_id": "90302a4c-ca15-4348-84de-f19fd31a55a3"
                 }
+            },
+            "#217": {
+                "Art Rare": {
+                    "alt_value": 248.99,
+                    "asset_id": "9bc92d0e-447b-4c09-9e20-99bbb3dbe993"
+                }
             }
         },
         "2005": {
@@ -1637,6 +2055,10 @@
                 "Holo": {
                     "alt_value": 886.12,
                     "asset_id": "d28e47bd-30e1-4b4c-bc97-21b10b68c986"
+                },
+                "STANDARD": {
+                    "alt_value": 636.15,
+                    "asset_id": "1fb4a0c6-c5e6-4eff-9f41-20446468b836"
                 }
             }
         },
@@ -1666,6 +2088,12 @@
                     "alt_value": 53.02,
                     "asset_id": "1df27873-527b-426c-a95b-7322310ea8d6"
                 }
+            },
+            "#244": {
+                "Holo": {
+                    "alt_value": 41.02,
+                    "asset_id": "8dc73bfc-d052-44de-8358-b8d34684b9ae"
+                }
             }
         },
         "2012": {
@@ -1681,6 +2109,42 @@
                 "STANDARD": {
                     "alt_value": 172.32,
                     "asset_id": "ab02af1b-5942-4c8b-a4e1-9ad236ce0568"
+                }
+            }
+        },
+        "2001": {
+            "#91": {
+                "1st Edition Holo": {
+                    "alt_value": 2042.53,
+                    "asset_id": "32e7ba64-4b4e-49fc-9aa2-1bbda3253b60"
+                }
+            }
+        },
+        "2000": {
+            "#197": {
+                "Holo": {
+                    "alt_value": 312.97,
+                    "asset_id": "dc08403c-6849-4f19-ae65-5d5292c00667"
+                },
+                "STANDARD": {
+                    "alt_value": 69.96,
+                    "asset_id": "8525b5cf-5d1a-4ccf-8f70-b2806b0f986b"
+                }
+            }
+        },
+        "2010": {
+            "#37": {
+                "1st Edition": {
+                    "alt_value": 146.27,
+                    "asset_id": "54b21bf8-f54f-4911-9f04-850e6e6b7a6c"
+                }
+            }
+        },
+        "2023": {
+            "#067": {
+                "STANDARD": {
+                    "alt_value": 111.98,
+                    "asset_id": "9edfa325-2cff-4edc-95c8-528c7600a4f2"
                 }
             }
         }
@@ -1709,6 +2173,18 @@
                 "STANDARD": {
                     "alt_value": 23.01,
                     "asset_id": "39e3c15c-19b9-49ca-8f8e-2f33d83ba872"
+                }
+            },
+            "#307": {
+                "STANDARD": {
+                    "alt_value": 93.78,
+                    "asset_id": "75249613-558b-4e08-a223-163e42e7302f"
+                }
+            },
+            "#2": {
+                "STANDARD": {
+                    "alt_value": 37.88,
+                    "asset_id": "04b9a372-2539-4cce-b750-c403263dd5ef"
                 }
             }
         },
@@ -1757,6 +2233,12 @@
                 "1st Edition": {
                     "alt_value": 85.15,
                     "asset_id": "bb276937-2e14-4514-988b-dcd3b17cf316"
+                }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 132.3,
+                    "asset_id": "e8d3995f-7f9d-4de8-a55e-cd99828ab3ab"
                 }
             }
         },
@@ -1840,6 +2322,12 @@
                     "alt_value": 99.63,
                     "asset_id": "377b1678-8db5-42d4-b6c3-d3b9eae98209"
                 }
+            },
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 228.25,
+                    "asset_id": "34d6c782-9985-4fab-ae2b-531aa91d0fb7"
+                }
             }
         },
         "2019": {
@@ -1860,6 +2348,18 @@
                     "alt_value": 90.5,
                     "asset_id": "0b629370-958c-430a-8fe3-741590dc8408"
                 }
+            },
+            "#108": {
+                "STANDARD": {
+                    "alt_value": 55.54,
+                    "asset_id": "bcf401be-547c-4f26-bfca-d6bd418c0a98"
+                }
+            },
+            "#7": {
+                "STANDARD": {
+                    "alt_value": 33.82,
+                    "asset_id": "41ef45fc-7339-411e-9548-cc74e66c3959"
+                }
             }
         },
         "1999": {
@@ -1867,6 +2367,18 @@
                 "STANDARD": {
                     "alt_value": 204.23,
                     "asset_id": "113f1921-bcfa-467e-8b87-34a82ee35e3e"
+                }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 513.43,
+                    "asset_id": "93d108f6-92e4-4d7f-8789-72552c989424"
+                }
+            },
+            "#6": {
+                "Holo": {
+                    "alt_value": 282.99,
+                    "asset_id": "1c58d504-3c8b-4d74-8d24-5f5777458e8a"
                 }
             }
         },
@@ -1881,6 +2393,12 @@
                 "Holo": {
                     "alt_value": 455.3,
                     "asset_id": "4b029585-6abe-4923-a9b2-2e5677b3adff"
+                }
+            },
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 169.51,
+                    "asset_id": "3d5dda10-c6cb-48d6-9c46-dc255c9e5b3e"
                 }
             }
         },
@@ -1958,6 +2476,36 @@
                     "alt_value": 25.38,
                     "asset_id": "05e93c58-17bb-4151-a928-ae1a5178c5ff"
                 }
+            },
+            "#185": {
+                "STANDARD": {
+                    "alt_value": 31.79,
+                    "asset_id": "ddba782b-5a43-47a5-8455-38b5d6238b2d"
+                }
+            },
+            "#3": {
+                "Holo": {
+                    "alt_value": 118.57,
+                    "asset_id": "2eded21d-5198-4d6a-a723-25e4fe0d4c2c"
+                }
+            },
+            "#349": {
+                "Art Rare": {
+                    "alt_value": 164.82,
+                    "asset_id": "45605c30-369d-4945-af42-a1704d5d4f1f"
+                }
+            },
+            "#134": {
+                "Art Rare": {
+                    "alt_value": 113.54,
+                    "asset_id": "de56966f-096a-4846-abdf-d7eb94aa05c4"
+                }
+            },
+            "#201": {
+                "Art Rare": {
+                    "alt_value": 211.15,
+                    "asset_id": "c15a6fcd-be1d-4f6e-ae8b-1f3111edb5b3"
+                }
             }
         },
         "2008": {
@@ -1991,6 +2539,12 @@
                 "1st Edition": {
                     "alt_value": 290.21,
                     "asset_id": "e7a96d0c-acd7-491c-b164-f671adb6758d"
+                }
+            },
+            "#81": {
+                "STANDARD": {
+                    "alt_value": 355.21,
+                    "asset_id": "93257eac-b726-49ed-a966-a5ebf38f8434"
                 }
             }
         },
@@ -2038,6 +2592,12 @@
                     "alt_value": 26.48,
                     "asset_id": "80c3f3c8-ff05-4c01-b934-1e3116b39b50"
                 }
+            },
+            "#1": {
+                "Holo": {
+                    "alt_value": 249.44,
+                    "asset_id": "8521d866-8b4e-4b4e-a5b7-80755869e3c1"
+                }
             }
         },
         "2012": {
@@ -2061,6 +2621,98 @@
                 "Reverse Holo": {
                     "alt_value": 177.75,
                     "asset_id": "fdea78ce-6658-46e9-a897-207ec900a6cd"
+                }
+            }
+        },
+        "1998": {
+            "#23": {
+                "STANDARD": {
+                    "alt_value": 313.87,
+                    "asset_id": "4bc2fb4f-fb98-41d7-a090-3a7d929cd430"
+                }
+            },
+            "#6": {
+                "Holo": {
+                    "alt_value": 596.67,
+                    "asset_id": "5384ac25-59e8-4ca5-bfda-4451da548c0b"
+                }
+            }
+        },
+        "2001": {
+            "#97": {
+                "1st Edition": {
+                    "alt_value": 450.18,
+                    "asset_id": "ee3777d0-07bd-48fc-8cb5-204f45fdbdbd"
+                }
+            },
+            "#42": {
+                "STANDARD": {
+                    "alt_value": 1025.58,
+                    "asset_id": "ecd9a9fc-5fea-4471-90b3-554573104b69"
+                }
+            },
+            "#103": {
+                "1st Edition Holo": {
+                    "alt_value": 551.07,
+                    "asset_id": "39cb30fe-6b71-4593-862e-ebb17150c62a"
+                }
+            }
+        },
+        "2015": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 162.21,
+                    "asset_id": "132ea643-d29f-46b0-9b81-fd1e45011d5f"
+                }
+            }
+        },
+        "2009": {
+            "#001": {
+                "1st Edition Holo": {
+                    "alt_value": 81.73,
+                    "asset_id": "f3017af9-f268-44c3-9482-322511788fca"
+                }
+            }
+        },
+        "1996": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 906.27,
+                    "asset_id": "216c5be1-7876-420b-b5db-90f744cd9655"
+                }
+            },
+            "#6": {
+                "Holo": {
+                    "alt_value": 1262.58,
+                    "asset_id": "93e1529b-ae2c-4a2b-8ffb-afea8cfc7559"
+                }
+            }
+        },
+        "2006": {
+            "#32": {
+                "1st Edition Holo": {
+                    "alt_value": 573.17,
+                    "asset_id": "2b0012bd-c8f7-4933-b39a-88811aabc5e2"
+                }
+            }
+        },
+        "2017": {
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 899.16,
+                    "asset_id": "6d180a3b-90f2-43c1-9dc7-c59a67878027"
+                }
+            }
+        },
+        "1997": {
+            "#6": {
+                "Holo": {
+                    "alt_value": 341.29,
+                    "asset_id": "9840587b-7eae-464f-b498-b2636b755dbb"
+                },
+                "STANDARD": {
+                    "alt_value": 2263.78,
+                    "asset_id": "70c24bd6-e12a-452f-b745-2db1c0ceb8ec"
                 }
             }
         }
@@ -2142,12 +2794,24 @@
                     "alt_value": 18.15,
                     "asset_id": "cef5de31-4f2b-4585-9d28-0d15891ac3d4"
                 }
+            },
+            "#051": {
+                "STANDARD": {
+                    "alt_value": 38.96,
+                    "asset_id": "9325d758-675c-4888-b0c2-2866753c402c"
+                }
+            },
+            "#6": {
+                "STANDARD": {
+                    "alt_value": 23.15,
+                    "asset_id": "215244ab-ed9e-4cd1-8397-4eadb44e763d"
+                }
             }
         },
         "1999": {
             "#3": {
                 "Holo": {
-                    "alt_value": 90.07,
+                    "alt_value": 270.75,
                     "asset_id": "1b292a76-20f2-43ed-bf44-640d95579499"
                 }
             },
@@ -2198,6 +2862,18 @@
                     "alt_value": 166.85,
                     "asset_id": "e2406688-512f-4530-a4d9-74e0774a4a85"
                 }
+            },
+            "#20": {
+                "1st Edition": {
+                    "alt_value": 260.79,
+                    "asset_id": "82c41a3c-3130-487d-af29-30df36d9dc87"
+                }
+            },
+            "#9": {
+                "STANDARD": {
+                    "alt_value": 38.02,
+                    "asset_id": "ea1f212e-26bf-4fd2-848a-eee7827713d3"
+                }
             }
         },
         "2019": {
@@ -2231,6 +2907,12 @@
                 "1st Edition Holo": {
                     "alt_value": 272.09,
                     "asset_id": "509f6a02-c3d0-481b-b3dc-af0ae67f0df8"
+                }
+            },
+            "#65": {
+                "1st Edition": {
+                    "alt_value": 56.84,
+                    "asset_id": "78e6e5d3-7ec4-4fd1-ac19-1c5ad6f012e6"
                 }
             }
         },
@@ -2271,6 +2953,18 @@
                     "asset_id": "0e8e3d07-36dc-47ae-bbdb-54bced1534bd"
                 }
             }
+        },
+        "1996": {
+            "#3": {
+                "STANDARD": {
+                    "alt_value": 209.53,
+                    "asset_id": "a9eb8c7a-c4c2-4255-a50a-afedcbe9125f"
+                },
+                "Holo": {
+                    "alt_value": 216.54,
+                    "asset_id": "76aebe6c-1b88-4ad5-9a39-13cd59391666"
+                }
+            }
         }
     },
     "STARMIE": {
@@ -2305,6 +2999,10 @@
                 "Holo": {
                     "alt_value": 66.32,
                     "asset_id": "30f9ea54-0ec2-4c10-b582-20a508874b83"
+                },
+                "STANDARD": {
+                    "alt_value": 266.88,
+                    "asset_id": "653aab61-95f9-4863-906f-19dfc2c79894"
                 }
             }
         },
@@ -2319,6 +3017,22 @@
                 "STANDARD": {
                     "alt_value": 27.78,
                     "asset_id": "b8b4d0c0-0191-41ab-9387-f34d530c7852"
+                }
+            }
+        },
+        "2004": {
+            "#61": {
+                "STANDARD": {
+                    "alt_value": 170.58,
+                    "asset_id": "91978e8c-006f-4000-adac-c92ceea6db6c"
+                }
+            }
+        },
+        "1997": {
+            "#123": {
+                "Holo": {
+                    "alt_value": 55.27,
+                    "asset_id": "c23b10c1-2728-49fe-bc1a-92f1f23172fa"
                 }
             }
         }
@@ -2346,6 +3060,12 @@
                     "alt_value": 138.5,
                     "asset_id": "7cda02a1-5bef-450f-ac52-21bb0b36155f"
                 }
+            },
+            "#251": {
+                "STANDARD": {
+                    "alt_value": 88.81,
+                    "asset_id": "5cedcb63-b1cf-4525-88e4-35b576042234"
+                }
             }
         },
         "2007": {
@@ -2353,6 +3073,10 @@
                 "STANDARD": {
                     "alt_value": 48.19,
                     "asset_id": "5deed895-a067-4ae1-9a7e-a70226bdfefa"
+                },
+                "1st Edition": {
+                    "alt_value": 55.33,
+                    "asset_id": "a61fadf4-42a5-4648-8d90-e0e76aa7a704"
                 }
             }
         },
@@ -2392,6 +3116,12 @@
                     "alt_value": 43.66,
                     "asset_id": "8fa0a4a6-c0a5-4fac-95d3-a22cb4da7ed0"
                 }
+            },
+            "#12": {
+                "Holo": {
+                    "alt_value": 106.07,
+                    "asset_id": "58991a49-9d8a-489e-91e2-dd9588517b58"
+                }
             }
         },
         "2017": {
@@ -2399,6 +3129,20 @@
                 "Holo": {
                     "alt_value": 37.6,
                     "asset_id": "cbb33413-fbe7-4c7b-ae7e-26b46faa65d0"
+                }
+            }
+        },
+        "2005": {
+            "#52": {
+                "STANDARD": {
+                    "alt_value": 226.86,
+                    "asset_id": "e3788362-98b9-4671-9ca1-d5d4dd3c7a22"
+                }
+            },
+            "#1": {
+                "STANDARD": {
+                    "alt_value": 92.06,
+                    "asset_id": "774b4e91-0713-4222-be78-cd28ddac226d"
                 }
             }
         }
@@ -2439,6 +3183,12 @@
                 "STANDARD": {
                     "alt_value": 28.2,
                     "asset_id": "8d057d69-abc0-4977-8605-4b43210da61a"
+                }
+            },
+            "#125": {
+                "STANDARD": {
+                    "alt_value": 38.5,
+                    "asset_id": "178871d5-8e77-44d2-87fa-73147da29d77"
                 }
             }
         },
@@ -2484,6 +3234,12 @@
                     "alt_value": 55.82,
                     "asset_id": "fd24aab8-0269-4899-9fb4-8050d7e89194"
                 }
+            },
+            "#51": {
+                "STANDARD": {
+                    "alt_value": 104.98,
+                    "asset_id": "82d436f6-958d-459e-9915-9190d9e78e28"
+                }
             }
         },
         "2019": {
@@ -2516,6 +3272,12 @@
                     "alt_value": 64.39,
                     "asset_id": "3966a8f2-3df3-44db-9a49-46ed9938eea9"
                 }
+            },
+            "#259": {
+                "STANDARD": {
+                    "alt_value": 52.84,
+                    "asset_id": "6f6ac9a0-d75a-45b1-a3af-7b63fd13226a"
+                }
             }
         },
         "2008": {
@@ -2536,6 +3298,12 @@
                     "alt_value": 67.72,
                     "asset_id": "0bd921b3-f864-4e11-a96f-a84ffd3261b9"
                 }
+            },
+            "#33": {
+                "1st Edition": {
+                    "alt_value": 50.41,
+                    "asset_id": "29711eed-a76a-45e0-98c0-83ec03b76e37"
+                }
             }
         },
         "2007": {
@@ -2550,6 +3318,12 @@
                     "alt_value": 104.08,
                     "asset_id": "c3e0aa29-fd89-4bbb-b74a-8660f6872c34"
                 }
+            },
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 63.3,
+                    "asset_id": "8c00310f-df67-411a-b357-4e52075fe68e"
+                }
             }
         },
         "2015": {
@@ -2557,6 +3331,14 @@
                 "1st Edition": {
                     "alt_value": 74.25,
                     "asset_id": "e53f19c7-1ee5-48f9-8df2-8eed6474ce9d"
+                }
+            }
+        },
+        "2013": {
+            "#81": {
+                "STANDARD": {
+                    "alt_value": 154.96,
+                    "asset_id": "82024051-b21b-45b6-b6bf-208dffcb819b"
                 }
             }
         }
@@ -2613,8 +3395,24 @@
         "1997": {
             "#82": {
                 "Holo": {
-                    "alt_value": 46.13,
+                    "alt_value": 36.88,
                     "asset_id": "9d2898e3-fbbc-4a3d-8634-3233581d072d"
+                }
+            }
+        },
+        "1996": {
+            "#82": {
+                "Holo": {
+                    "alt_value": 52.89,
+                    "asset_id": "41c5a46e-87df-4ac3-a409-3f9f4aa59889"
+                }
+            }
+        },
+        "1998": {
+            "#82": {
+                "Holo": {
+                    "alt_value": 46.5,
+                    "asset_id": "e090bf5c-ff72-4558-8a42-bc8d2e9652ca"
                 }
             }
         }
@@ -2672,6 +3470,18 @@
                     "alt_value": 171.64,
                     "asset_id": "12b7ae9c-a079-49f6-88eb-c0c9edda7099"
                 }
+            },
+            "#79": {
+                "STANDARD": {
+                    "alt_value": 232.53,
+                    "asset_id": "04421734-db3f-4b41-900c-e9286eaed59f"
+                }
+            },
+            "#90": {
+                "1st Edition": {
+                    "alt_value": 1016.9,
+                    "asset_id": "068d4726-594b-4b61-a305-638cfda914cf"
+                }
             }
         },
         "2019": {
@@ -2685,6 +3495,12 @@
                 "STANDARD": {
                     "alt_value": 37.73,
                     "asset_id": "5a8daf1c-10c4-4aa2-bf42-124cbbb52ff1"
+                }
+            },
+            "#33": {
+                "STANDARD": {
+                    "alt_value": 32.44,
+                    "asset_id": "6a287bb5-af12-4962-a4ab-5a185fff7ab8"
                 }
             }
         },
@@ -2707,6 +3523,12 @@
                 "Holo": {
                     "alt_value": 24.24,
                     "asset_id": "c5786512-f1aa-4cf3-96cc-c64f306aeb03"
+                }
+            },
+            "#74": {
+                "STANDARD": {
+                    "alt_value": 35.09,
+                    "asset_id": "c1dddc23-b808-4f8d-b4f3-a070c997b316"
                 }
             }
         },
@@ -2736,6 +3558,12 @@
                     "alt_value": 22.99,
                     "asset_id": "62c0727b-4d33-4140-bed7-1523aa525f92"
                 }
+            },
+            "#20": {
+                "STANDARD": {
+                    "alt_value": 823.67,
+                    "asset_id": "a1f936a5-b8d7-4fc6-9edd-e66977da2681"
+                }
             }
         },
         "2024": {
@@ -2757,6 +3585,64 @@
                 "Holo": {
                     "alt_value": 31.93,
                     "asset_id": "b25048c5-6e9f-4dd4-be31-86c38dd9d3aa"
+                }
+            }
+        },
+        "2015": {
+            "#10": {
+                "STANDARD": {
+                    "alt_value": 98.67,
+                    "asset_id": "2db464ed-0e3f-42af-994f-687635a96567"
+                }
+            }
+        },
+        "2006": {
+            "#102": {
+                "STANDARD": {
+                    "alt_value": 288.25,
+                    "asset_id": "2f403fd9-b7d0-4de5-a048-ee0ed4dcf757"
+                }
+            }
+        },
+        "2001": {
+            "#94": {
+                "Holo": {
+                    "alt_value": 280.44,
+                    "asset_id": "5d004144-5bf4-4a79-a4c4-e193c696b6d7"
+                }
+            },
+            "#117": {
+                "Holo": {
+                    "alt_value": 613.36,
+                    "asset_id": "65d5072d-4b55-4e89-b679-2aed37969103"
+                }
+            }
+        },
+        "2010": {
+            "#015": {
+                "Holo": {
+                    "alt_value": 743.33,
+                    "asset_id": "f98e3b53-c9ad-487d-a1b2-a871c00804ba"
+                }
+            }
+        },
+        "1997": {
+            "#94": {
+                "Holo": {
+                    "alt_value": 228.88,
+                    "asset_id": "d322aa3a-3196-4e23-8ecf-86d7617c8e72"
+                }
+            }
+        },
+        "1999": {
+            "#94": {
+                "Holo": {
+                    "alt_value": 804.44,
+                    "asset_id": "73fad5b4-250b-4c71-8155-a912fa2acac7"
+                },
+                "STANDARD": {
+                    "alt_value": 262.6,
+                    "asset_id": "745cd206-2240-493f-a5d7-514244f575b7"
                 }
             }
         }
@@ -2858,6 +3744,26 @@
                     "alt_value": 218.31,
                     "asset_id": "87216d92-fcd9-4cff-b566-f5e42766387b"
                 }
+            },
+            "#90": {
+                "1st Edition Holo": {
+                    "alt_value": 237.33,
+                    "asset_id": "e688df86-baea-489c-8c76-e4421570aae1"
+                }
+            },
+            "#248": {
+                "Holo": {
+                    "alt_value": 75.78,
+                    "asset_id": "ae6ca0b2-0dfb-4220-a521-a791d07e0efd"
+                }
+            }
+        },
+        "2007": {
+            "#298": {
+                "1st Edition": {
+                    "alt_value": 63.22,
+                    "asset_id": "ddb622f2-4883-4b46-8cbe-716ed3276aaa"
+                }
             }
         }
     },
@@ -2921,6 +3827,18 @@
                 "STANDARD": {
                     "alt_value": 19.27,
                     "asset_id": "d2f135fd-c104-4fc0-9005-6a2c980c28e1"
+                }
+            },
+            "#227": {
+                "STANDARD": {
+                    "alt_value": 995.93,
+                    "asset_id": "cfac21b9-eacd-4b63-9774-a500777b6085"
+                }
+            },
+            "#222": {
+                "STANDARD": {
+                    "alt_value": 48.43,
+                    "asset_id": "56aea09a-4977-416f-9d26-7012ef4a39ed"
                 }
             }
         },
@@ -3026,6 +3944,18 @@
                     "alt_value": 189.87,
                     "asset_id": "2556de70-dabc-43d3-9278-8ea99d66e2bd"
                 }
+            },
+            "#339": {
+                "STANDARD": {
+                    "alt_value": 28.75,
+                    "asset_id": "1b56cc78-910f-4286-8908-fa18a6deabf9"
+                }
+            },
+            "#036": {
+                "STANDARD": {
+                    "alt_value": 91.28,
+                    "asset_id": "fc654d95-fe57-423b-8fb0-33b93466980e"
+                }
             }
         },
         "2025": {
@@ -3051,6 +3981,12 @@
                 "STANDARD": {
                     "alt_value": 22.45,
                     "asset_id": "a200f82a-2290-4ad2-89cb-3ec0f4cb7ac6"
+                }
+            },
+            "#260": {
+                "STANDARD": {
+                    "alt_value": 119.48,
+                    "asset_id": "391d386d-0757-467d-a6ba-41afb2592208"
                 }
             }
         },
@@ -3088,6 +4024,18 @@
                     "alt_value": 161.22,
                     "asset_id": "e5844d72-7b10-47b6-8509-fc022935eaa5"
                 }
+            },
+            "#1": {
+                "STANDARD": {
+                    "alt_value": 191.94,
+                    "asset_id": "2f1e60c8-88e2-4ce0-91b6-3102c0bc96d9"
+                }
+            },
+            "#173": {
+                "Art Rare": {
+                    "alt_value": 32.47,
+                    "asset_id": "6a047079-8da0-426c-b62a-db2e4ccef5a4"
+                }
             }
         },
         "2008": {
@@ -3109,6 +4057,18 @@
                 "STANDARD": {
                     "alt_value": 69.86,
                     "asset_id": "826303fb-b69e-4f49-9618-0fd3d1131a9d"
+                }
+            },
+            "#32": {
+                "Reverse Holo": {
+                    "alt_value": 53.48,
+                    "asset_id": "067c88e0-4ff4-49ad-813f-dfb29760bb15"
+                }
+            },
+            "#019LP": {
+                "Holo": {
+                    "alt_value": 275.42,
+                    "asset_id": "e59fcc64-ec94-44a9-b42d-de5961ad9800"
                 }
             }
         },
@@ -3159,6 +4119,18 @@
                 "STANDARD": {
                     "alt_value": 34.75,
                     "asset_id": "b855b8a9-1301-4f44-822d-c92669b49147"
+                }
+            },
+            "#323": {
+                "STANDARD": {
+                    "alt_value": 191.18,
+                    "asset_id": "775e0c80-ec15-4cc9-a2c4-7710484a3c44"
+                }
+            },
+            "#205": {
+                "Art Rare": {
+                    "alt_value": 87.22,
+                    "asset_id": "06c1d755-3d15-4fcc-8762-106ac701eb79"
                 }
             }
         },
@@ -3224,6 +4196,30 @@
                     "alt_value": 494.6,
                     "asset_id": "b1f73aee-9882-4227-82c9-16bf3befe103"
                 }
+            },
+            "#283": {
+                "STANDARD": {
+                    "alt_value": 250.25,
+                    "asset_id": "2d74ba8e-194f-4ce8-9308-fe17b0346dd7"
+                }
+            },
+            "#280": {
+                "STANDARD": {
+                    "alt_value": 481.97,
+                    "asset_id": "cc74ffdd-8f4b-4448-8932-b9282eeaf3c4"
+                }
+            },
+            "#270": {
+                "STANDARD": {
+                    "alt_value": 267.73,
+                    "asset_id": "950d06d4-7d8a-47bc-8b40-42df4f170ee8"
+                }
+            },
+            "#208": {
+                "STANDARD": {
+                    "alt_value": 365.15,
+                    "asset_id": "55a5acf4-daf6-44cc-8ad7-521f0f2966ce"
+                }
             }
         },
         "2015": {
@@ -3244,12 +4240,24 @@
                     "alt_value": 93.17,
                     "asset_id": "38f9e97d-61c0-41df-886b-7b48a3721c30"
                 }
+            },
+            "#175": {
+                "STANDARD": {
+                    "alt_value": 715.07,
+                    "asset_id": "4a150d63-6ca5-44a5-a899-b104050025e0"
+                }
+            },
+            "#203": {
+                "STANDARD": {
+                    "alt_value": 510.6,
+                    "asset_id": "5ac99e76-aa38-4141-9baa-05b6239243d9"
+                }
             }
         },
         "2016": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 22.32,
+                    "alt_value": 123.95,
                     "asset_id": "56375c25-99d1-4c3d-8b9a-a4eb410e7e7e"
                 }
             },
@@ -3287,6 +4295,54 @@
                 "STANDARD": {
                     "alt_value": 69.58,
                     "asset_id": "ceafc6eb-b164-4c85-928e-c2e41f978244"
+                }
+            },
+            "#292": {
+                "STANDARD": {
+                    "alt_value": 103.75,
+                    "asset_id": "18f296b5-ff18-430d-a483-86e2fbeffb3a"
+                }
+            },
+            "#10": {
+                "1st Edition": {
+                    "alt_value": 677.15,
+                    "asset_id": "382307ba-ac6f-4141-b1f7-a59e5f12fd85"
+                }
+            },
+            "#204": {
+                "STANDARD": {
+                    "alt_value": 5761.48,
+                    "asset_id": "0aab6e29-bfc8-4316-af56-b7609d13b433"
+                }
+            },
+            "#013": {
+                "STANDARD": {
+                    "alt_value": 3256.22,
+                    "asset_id": "9991d697-27a7-4d77-bc00-2d234d59b4a2"
+                }
+            },
+            "#296": {
+                "STANDARD": {
+                    "alt_value": 4376.81,
+                    "asset_id": "0bdaf895-a329-48a7-8626-0aa95db31a15"
+                }
+            },
+            "#293": {
+                "Holo": {
+                    "alt_value": 1947.4,
+                    "asset_id": "a14d38ef-6356-49ff-a3dc-c891faa3d4b5"
+                }
+            },
+            "#005": {
+                "STANDARD": {
+                    "alt_value": 371.3,
+                    "asset_id": "2faf27dc-e19b-4c06-82e6-0f0724d6d902"
+                }
+            },
+            "#295": {
+                "Holo": {
+                    "alt_value": 1840.25,
+                    "asset_id": "c900007c-7c2d-4b98-b5e1-f3d82c735bfc"
                 }
             }
         },
@@ -3352,6 +4408,18 @@
                     "alt_value": 512.22,
                     "asset_id": "135500ff-9608-4e24-bb63-d150b8ae7bfc"
                 }
+            },
+            "#179": {
+                "STANDARD": {
+                    "alt_value": 80.08,
+                    "asset_id": "d880fd1f-28e8-4801-8a3c-e6c577c4427f"
+                }
+            },
+            "#200": {
+                "STANDARD": {
+                    "alt_value": 65.29,
+                    "asset_id": "6a84217b-d1d3-49ad-b655-1a61f1459bfe"
+                }
             }
         },
         "2005": {
@@ -3398,6 +4466,18 @@
                     "alt_value": 162.91,
                     "asset_id": "496b2cf4-0c47-46e4-8d4d-90432fd3fac7"
                 }
+            },
+            "#124": {
+                "STANDARD": {
+                    "alt_value": 39.44,
+                    "asset_id": "c4d2dcaa-2952-4f12-9d38-5dd8ec78dafd"
+                }
+            },
+            "#144": {
+                "STANDARD": {
+                    "alt_value": 94.57,
+                    "asset_id": "4351e492-280c-4af2-bbb7-0a6df29e80bb"
+                }
             }
         },
         "2002": {
@@ -3405,6 +4485,18 @@
                 "STANDARD": {
                     "alt_value": 205.57,
                     "asset_id": "024bb6f7-e079-44d0-8460-4d2b33ce0fbb"
+                }
+            },
+            "#10": {
+                "Holo": {
+                    "alt_value": 630.46,
+                    "asset_id": "79c1408c-0956-4475-998d-6bbd329fbd05"
+                }
+            },
+            "#21P": {
+                "STANDARD": {
+                    "alt_value": 135.82,
+                    "asset_id": "465e9720-7af7-488d-8d70-03a5bd436068"
                 }
             }
         },
@@ -3452,6 +4544,12 @@
                     "alt_value": 1709.5,
                     "asset_id": "8eb6a4fc-7720-4e18-89db-c03392de86a7"
                 }
+            },
+            "#098": {
+                "STANDARD": {
+                    "alt_value": 654.93,
+                    "asset_id": "96e195c6-8333-48b8-9769-602c1443f120"
+                }
             }
         },
         "2013": {
@@ -3492,6 +4590,18 @@
                     "alt_value": 20.99,
                     "asset_id": "59f76a82-ac66-485e-bb77-e54762a0e6c3"
                 }
+            },
+            "#236": {
+                "STANDARD": {
+                    "alt_value": 33.55,
+                    "asset_id": "53ea3ed0-0a08-494f-b4b2-3633c39230dc"
+                }
+            },
+            "#132": {
+                "Art Rare": {
+                    "alt_value": 186.05,
+                    "asset_id": "dc30de49-c6a4-4566-bcd7-41c09722f99f"
+                }
             }
         },
         "2006": {
@@ -3500,13 +4610,55 @@
                     "alt_value": 58.13,
                     "asset_id": "2474f9ac-b579-40b9-8cd4-957898d8e7e9"
                 }
+            },
+            "#100DPP": {
+                "Special Art Rare": {
+                    "alt_value": 462.01,
+                    "asset_id": "758291cf-0e9e-4684-b0f2-5329ae3a058e"
+                }
             }
         },
         "1996": {
             "#25": {
                 "STANDARD": {
-                    "alt_value": 78.53,
+                    "alt_value": 973.61,
                     "asset_id": "068c1bd6-248d-4304-9432-a4ad570c7d46"
+                }
+            }
+        },
+        "1997": {
+            "#PROMO": {
+                "Art Rare": {
+                    "alt_value": 152.54,
+                    "asset_id": "d64a4708-cfb4-47cf-8251-1701255e6871"
+                },
+                "STANDARD": {
+                    "alt_value": 352.74,
+                    "asset_id": "2b88dd6b-b2a0-489b-a5ed-ef2346de688c"
+                }
+            }
+        },
+        "2004": {
+            "#113PCGP": {
+                "STANDARD": {
+                    "alt_value": 543.47,
+                    "asset_id": "b0efbbc9-db41-4363-be97-5513192c5a28"
+                }
+            }
+        },
+        "2003": {
+            "#24": {
+                "Art Rare": {
+                    "alt_value": 213.34,
+                    "asset_id": "76c38ba2-9853-4f84-b029-f2142171e338"
+                }
+            }
+        },
+        "1998": {
+            "#25": {
+                "STANDARD": {
+                    "alt_value": 59.14,
+                    "asset_id": "1d680508-53c4-414c-b915-61400dde5af8"
                 }
             }
         }
@@ -3553,6 +4705,20 @@
                 "Reverse Holo": {
                     "alt_value": 14.97,
                     "asset_id": "3ff54a2e-5ad3-44c9-822b-1f78652a840e"
+                }
+            },
+            "#206": {
+                "Art Rare": {
+                    "alt_value": 55.35,
+                    "asset_id": "5ef0023b-f15c-46a5-b867-db466c144fdc"
+                }
+            }
+        },
+        "2012": {
+            "#185": {
+                "STANDARD": {
+                    "alt_value": 73.42,
+                    "asset_id": "133c89f3-49ff-4d08-9042-68d8aee8792a"
                 }
             }
         }
@@ -3642,6 +4808,12 @@
                     "alt_value": 16.32,
                     "asset_id": "738d08a1-0343-48f4-96c0-248bd5b27229"
                 }
+            },
+            "#124": {
+                "Art Rare": {
+                    "alt_value": 83.48,
+                    "asset_id": "29e1aae8-c085-432f-bfa6-616304427305"
+                }
             }
         },
         "2002": {
@@ -3659,6 +4831,22 @@
                     "asset_id": "719fc39e-a1c8-4251-a9a5-155837fab184"
                 }
             }
+        },
+        "2022": {
+            "#190": {
+                "Art Rare": {
+                    "alt_value": 25.37,
+                    "asset_id": "d5aab486-c2b6-4a71-8125-d42568a0dff0"
+                }
+            }
+        },
+        "1998": {
+            "#146": {
+                "Holo": {
+                    "alt_value": 64.32,
+                    "asset_id": "2b7e7989-7899-47ac-a97f-238dc62a48ab"
+                }
+            }
         }
     },
     "DRAGONITE": {
@@ -3674,6 +4862,24 @@
                     "alt_value": 198.0,
                     "asset_id": "a13f2aed-5187-4253-a5b3-b660c8e2a0bf"
                 }
+            },
+            "#126": {
+                "Holo": {
+                    "alt_value": 423.75,
+                    "asset_id": "f0cdf76d-b230-4848-bff5-472994cdbb4f"
+                }
+            },
+            "#49": {
+                "1st Edition": {
+                    "alt_value": 106.54,
+                    "asset_id": "341d6930-eaf8-40a7-a741-078d7508d4c1"
+                }
+            },
+            "#38": {
+                "STANDARD": {
+                    "alt_value": 160.4,
+                    "asset_id": "aed38d1a-3f57-4769-ad5b-c3be5d6ac141"
+                }
             }
         },
         "2021": {
@@ -3681,6 +4887,12 @@
                 "STANDARD": {
                     "alt_value": 41.77,
                     "asset_id": "7091b218-ecbd-4a13-903c-c7b5d2453ef3"
+                }
+            },
+            "#74": {
+                "Holo": {
+                    "alt_value": 255.93,
+                    "asset_id": "0f1ad38c-1d06-4dcd-9839-cee6ac031603"
                 }
             }
         },
@@ -3735,6 +4947,42 @@
                     "asset_id": "f5e1ae04-d4d3-4617-a636-db3756680dc1"
                 }
             }
+        },
+        "2005": {
+            "#39": {
+                "1st Edition Holo": {
+                    "alt_value": 142.94,
+                    "asset_id": "43efc7a0-5e87-4619-821f-d84a95c1cc26"
+                },
+                "STANDARD": {
+                    "alt_value": 169.64,
+                    "asset_id": "c346aa8f-13c9-44b1-b800-12ed24374b1f"
+                }
+            }
+        },
+        "1998": {
+            "#149": {
+                "Holo": {
+                    "alt_value": 327.84,
+                    "asset_id": "ddfece2b-65ef-4608-8a23-fb45c4d3e3d8"
+                }
+            }
+        },
+        "2014": {
+            "#100": {
+                "STANDARD": {
+                    "alt_value": 240.52,
+                    "asset_id": "0fbf17f2-f51e-414e-9ef4-3ea2e8690326"
+                }
+            }
+        },
+        "2008": {
+            "#NONUM": {
+                "STANDARD": {
+                    "alt_value": 118.15,
+                    "asset_id": "87116e36-a9ce-4636-b410-3e62288ce725"
+                }
+            }
         }
     },
     "RAYQUAZA": {
@@ -3761,6 +5009,18 @@
                 "STANDARD": {
                     "alt_value": 42.78,
                     "asset_id": "4ed6c13f-deec-4f34-80a7-f9d248bc2890"
+                }
+            },
+            "#76": {
+                "STANDARD": {
+                    "alt_value": 350.06,
+                    "asset_id": "d081a7af-66a2-4f51-9b4c-d7893963cc1a"
+                }
+            },
+            "#252": {
+                "STANDARD": {
+                    "alt_value": 63.93,
+                    "asset_id": "b18dc78d-7c01-41fb-9a70-0133c6d0c55c"
                 }
             }
         },
@@ -3878,6 +5138,24 @@
                     "alt_value": 109.41,
                     "asset_id": "ef4157e7-9eee-4ba6-934c-98e7922d29b5"
                 }
+            },
+            "#231": {
+                "STANDARD": {
+                    "alt_value": 3921.25,
+                    "asset_id": "eb8a91d6-e87a-4e92-8475-22332c7e8813"
+                }
+            },
+            "#232": {
+                "STANDARD": {
+                    "alt_value": 353.91,
+                    "asset_id": "b9bb74d6-6565-4a61-b764-bdf2a0c66e9c"
+                }
+            },
+            "#230": {
+                "STANDARD": {
+                    "alt_value": 3788.36,
+                    "asset_id": "8d4e51a1-115b-45c4-863c-8bddcabe4259"
+                }
             }
         },
         "2018": {
@@ -3936,6 +5214,12 @@
                     "alt_value": 191.31,
                     "asset_id": "7f8d7b63-4428-4b75-a7bb-17d24034b4ed"
                 }
+            },
+            "#3": {
+                "STANDARD": {
+                    "alt_value": 77.02,
+                    "asset_id": "b49f8a6e-68b2-4782-a179-88a272b27dcf"
+                }
             }
         },
         "2022": {
@@ -3974,6 +5258,12 @@
                     "alt_value": 37.72,
                     "asset_id": "13703f34-043e-4dec-a5f1-e6d0b88100dc"
                 }
+            },
+            "#136": {
+                "STANDARD": {
+                    "alt_value": 51.22,
+                    "asset_id": "0e3b4e79-d558-4612-aa37-c188c1aa9590"
+                }
             }
         },
         "2009": {
@@ -3985,6 +5275,20 @@
                 "Holo": {
                     "alt_value": 258.01,
                     "asset_id": "418a5b89-6dc8-4185-8e6f-afdcc4ee29a0"
+                }
+            },
+            "#78": {
+                "STANDARD": {
+                    "alt_value": 99.6,
+                    "asset_id": "3e190494-d19f-4fbe-ba77-9f1f243038d2"
+                }
+            }
+        },
+        "2008": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 60.44,
+                    "asset_id": "a0c91ea6-f270-40ee-8237-18d2c05483b4"
                 }
             }
         }
@@ -4053,6 +5357,12 @@
                 "STANDARD": {
                     "alt_value": 32.5,
                     "asset_id": "4723750d-b48c-47e1-9c07-a6d3bb6e359a"
+                }
+            },
+            "#202": {
+                "Art Rare": {
+                    "alt_value": 69.02,
+                    "asset_id": "6d1a0363-9056-42b0-a8ac-4b9aec2ee360"
                 }
             }
         },
@@ -4143,6 +5453,42 @@
                 "Holo": {
                     "alt_value": 50.38,
                     "asset_id": "9a6b3167-e0f1-4099-a2ac-8651ac6113be"
+                }
+            }
+        },
+        "2001": {
+            "#20": {
+                "1st Edition": {
+                    "alt_value": 58.17,
+                    "asset_id": "16979e88-27fc-4323-8afa-9fbc43e4b924"
+                }
+            },
+            "#44": {
+                "STANDARD": {
+                    "alt_value": 421.81,
+                    "asset_id": "07e32046-5637-4feb-b95b-9797f3a77510"
+                }
+            },
+            "#108": {
+                "Holo": {
+                    "alt_value": 306.72,
+                    "asset_id": "e46fa654-56a1-41ef-a4da-8573b421c45a"
+                }
+            }
+        },
+        "1999": {
+            "#9": {
+                "Holo": {
+                    "alt_value": 357.06,
+                    "asset_id": "74b61659-3908-4886-b02e-2f2644b916f0"
+                }
+            }
+        },
+        "1996": {
+            "#9": {
+                "Holo": {
+                    "alt_value": 263.21,
+                    "asset_id": "d913ef68-66dd-43fd-b1a3-5358ac45a5f0"
                 }
             }
         }
@@ -4241,6 +5587,22 @@
                     "asset_id": "52ef41e4-6a0e-4e83-8655-a43e96364754"
                 }
             }
+        },
+        "1997": {
+            "#370": {
+                "STANDARD": {
+                    "alt_value": 61.16,
+                    "asset_id": "303e64ef-6ed4-4606-971b-a6e9b4b1c821"
+                }
+            }
+        },
+        "1996": {
+            "#59": {
+                "STANDARD": {
+                    "alt_value": 211.19,
+                    "asset_id": "81cb7270-6144-4ffa-be9b-1f58dbe36d0d"
+                }
+            }
         }
     },
     "HAUNTER": {
@@ -4257,6 +5619,14 @@
                 "Reverse Holo": {
                     "alt_value": 28.99,
                     "asset_id": "1f19d016-61de-4ca9-8df5-dca477d66a32"
+                }
+            }
+        },
+        "1996": {
+            "#93": {
+                "STANDARD": {
+                    "alt_value": 156.01,
+                    "asset_id": "1ea94ac8-df03-4064-a1eb-b6f314bde657"
                 }
             }
         }
@@ -4361,6 +5731,20 @@
                     "asset_id": "9f57b03b-8c9a-4abb-b444-eda7c32db3b3"
                 }
             }
+        },
+        "2004": {
+            "#10": {
+                "Holo": {
+                    "alt_value": 135.69,
+                    "asset_id": "ecee4a49-dbc6-4095-be5a-900d656c4a99"
+                }
+            },
+            "#36": {
+                "STANDARD": {
+                    "alt_value": 180.03,
+                    "asset_id": "04c6d766-d42b-4dc9-92dc-c777dc5002d2"
+                }
+            }
         }
     },
     "GYARADOS": {
@@ -4379,6 +5763,12 @@
                 "1st Edition": {
                     "alt_value": 197.93,
                     "asset_id": "b835e330-4603-423d-85e7-4775c90f7306"
+                }
+            },
+            "#151": {
+                "Holo": {
+                    "alt_value": 3652.13,
+                    "asset_id": "df1c89fd-d203-435f-8efc-6bee11e9fbbc"
                 }
             }
         },
@@ -4459,6 +5849,10 @@
                 "STANDARD": {
                     "alt_value": 58.9,
                     "asset_id": "87ee9362-8522-4a9d-8b04-bd8b312baa83"
+                },
+                "1st Edition": {
+                    "alt_value": 58.55,
+                    "asset_id": "a72dbc9a-1d24-4cde-a11e-1c1a7ecbaee4"
                 }
             }
         },
@@ -4484,6 +5878,48 @@
                     "alt_value": 54.03,
                     "asset_id": "2a767db6-3694-454b-b21f-775562b604da"
                 }
+            },
+            "#98": {
+                "1st Edition": {
+                    "alt_value": 199.97,
+                    "asset_id": "12bb4a2a-5491-4185-9f8f-f74bd34f06e2"
+                }
+            }
+        },
+        "1997": {
+            "#130": {
+                "STANDARD": {
+                    "alt_value": 120.96,
+                    "asset_id": "a660b7b8-4c50-442d-9650-a1cbea6249aa"
+                },
+                "Holo": {
+                    "alt_value": 62.71,
+                    "asset_id": "b6183137-ce34-4f6f-9b53-6a559b2d3bff"
+                }
+            }
+        },
+        "1998": {
+            "#130": {
+                "Holo": {
+                    "alt_value": 93.81,
+                    "asset_id": "9c00e0f0-f74d-4e11-af13-da8c8532baa2"
+                }
+            }
+        },
+        "2002": {
+            "#28": {
+                "STANDARD": {
+                    "alt_value": 674.27,
+                    "asset_id": "053a5772-8838-4370-9e1c-4e9a17223973"
+                }
+            }
+        },
+        "2004": {
+            "#35": {
+                "STANDARD": {
+                    "alt_value": 142.45,
+                    "asset_id": "33372c20-d57e-414e-9060-6ffbd6dbcd42"
+                }
             }
         }
     },
@@ -4501,6 +5937,12 @@
                 "STANDARD": {
                     "alt_value": 53.86,
                     "asset_id": "b6b9ab19-3b24-4d31-9c50-be2ea8767b7f"
+                }
+            },
+            "#104": {
+                "Holo": {
+                    "alt_value": 56.28,
+                    "asset_id": "0f4d15cc-ee7e-4085-9b03-ece8ef16695d"
                 }
             }
         },
@@ -4537,6 +5979,38 @@
                 "1st Edition Holo": {
                     "alt_value": 41.84,
                     "asset_id": "327f0445-a0f6-4ef6-8d67-bdad24476b89"
+                }
+            }
+        },
+        "2016": {
+            "#15": {
+                "STANDARD": {
+                    "alt_value": 21.51,
+                    "asset_id": "dd6b8eeb-84e1-4263-a853-5d4ecf686668"
+                }
+            }
+        },
+        "2004": {
+            "#18": {
+                "STANDARD": {
+                    "alt_value": 114.18,
+                    "asset_id": "e05d6110-8357-4fae-b6ec-bd7a6840301c"
+                }
+            }
+        },
+        "1996": {
+            "#38": {
+                "Holo": {
+                    "alt_value": 80.94,
+                    "asset_id": "af29ea35-a06f-4f50-814d-7ea1f4c8c637"
+                }
+            }
+        },
+        "2006": {
+            "#30": {
+                "1st Edition Holo": {
+                    "alt_value": 125.03,
+                    "asset_id": "11bc233c-5cf8-457b-bc51-f621c9f850b7"
                 }
             }
         }
@@ -4648,6 +6122,12 @@
                     "alt_value": 12.24,
                     "asset_id": "6d95998c-71a8-46ad-8e58-54d0eb9517ea"
                 }
+            },
+            "#209": {
+                "Art Rare": {
+                    "alt_value": 40.42,
+                    "asset_id": "9db67ed9-8b8d-433e-a79e-c7dcf4cf44ea"
+                }
             }
         },
         "1997": {
@@ -4655,6 +6135,14 @@
                 "Holo": {
                     "alt_value": 86.85,
                     "asset_id": "71004808-4e85-4dad-b64c-343c30765f6c"
+                }
+            }
+        },
+        "2012": {
+            "#186": {
+                "STANDARD": {
+                    "alt_value": 77.82,
+                    "asset_id": "4e736864-9b5a-4858-861d-74938d541f9a"
                 }
             }
         }
@@ -4704,6 +6192,12 @@
                     "alt_value": 106.48,
                     "asset_id": "a8cba1c3-e86d-4092-9ca4-04a17c76ec6a"
                 }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 2828.12,
+                    "asset_id": "edd00e6e-48f8-4a59-b4e9-2aaf85a13541"
+                }
             }
         },
         "2021": {
@@ -4731,6 +6225,30 @@
                 "Art Rare": {
                     "alt_value": 22.61,
                     "asset_id": "9347fa39-75cb-4159-a569-8f63dfc6e739"
+                }
+            }
+        },
+        "2012": {
+            "#53": {
+                "1st Edition": {
+                    "alt_value": 215.32,
+                    "asset_id": "cba3216f-a81e-4fb3-ba99-4fbb217a719f"
+                }
+            }
+        },
+        "2006": {
+            "#47": {
+                "1st Edition": {
+                    "alt_value": 62.18,
+                    "asset_id": "2b5101cd-f82f-4e80-8244-75597540b9fa"
+                }
+            }
+        },
+        "2005": {
+            "#32": {
+                "STANDARD": {
+                    "alt_value": 49.91,
+                    "asset_id": "d0009575-d7e9-402a-a34b-f3755d5d230d"
                 }
             }
         }
@@ -4762,6 +6280,18 @@
                     "alt_value": 33.45,
                     "asset_id": "e464ff72-2088-4862-a5b2-4fc2e3634c97"
                 }
+            },
+            "#347": {
+                "Art Rare": {
+                    "alt_value": 316.05,
+                    "asset_id": "84404850-3ad7-4430-97fb-545f8ad8ba15"
+                }
+            },
+            "#205": {
+                "Art Rare": {
+                    "alt_value": 112.22,
+                    "asset_id": "34a2b779-4448-40a4-a975-2b9188cc6acc"
+                }
             }
         },
         "2005": {
@@ -4787,6 +6317,22 @@
                 "STANDARD": {
                     "alt_value": 106.07,
                     "asset_id": "ce9d4999-abe1-47bb-8438-c0d59e90a56b"
+                },
+                "Holo": {
+                    "alt_value": 1938.54,
+                    "asset_id": "12286d17-1bb2-474e-8569-10d3677a6e5c"
+                }
+            },
+            "#003": {
+                "STANDARD": {
+                    "alt_value": 267.69,
+                    "asset_id": "3a43a574-1946-4cf5-b755-9e1307cbfecc"
+                }
+            },
+            "#1": {
+                "Holo": {
+                    "alt_value": 2831.11,
+                    "asset_id": "d3bfccb3-034f-4154-b3bb-316f23afad80"
                 }
             }
         },
@@ -4807,6 +6353,12 @@
                 "STANDARD": {
                     "alt_value": 447.58,
                     "asset_id": "74349496-22b7-4b50-ab94-cc26ac6588e6"
+                }
+            },
+            "#52": {
+                "STANDARD": {
+                    "alt_value": 39.4,
+                    "asset_id": "f5327e69-3608-43e9-bd2b-179bec21c811"
                 }
             }
         },
@@ -4888,6 +6440,12 @@
                     "alt_value": 18.31,
                     "asset_id": "ff584a51-d83e-4c49-92ca-a44572a7f00f"
                 }
+            },
+            "#183": {
+                "STANDARD": {
+                    "alt_value": 42.09,
+                    "asset_id": "38e67227-4b68-4ad8-8ab2-1d262d5c6239"
+                }
             }
         },
         "2016": {
@@ -4907,6 +6465,80 @@
                 "1st Edition Holo": {
                     "alt_value": 78.7,
                     "asset_id": "8cc08c81-b0a3-4a56-ac98-dd13123a0e61"
+                }
+            },
+            "#51": {
+                "STANDARD": {
+                    "alt_value": 63.87,
+                    "asset_id": "8f12c9bc-ea16-4ab6-b4af-e1c64189e68d"
+                }
+            }
+        },
+        "1996": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 424.32,
+                    "asset_id": "945ee2e8-6f0d-496f-b082-60c55941e324"
+                }
+            },
+            "#151": {
+                "STANDARD": {
+                    "alt_value": 209.05,
+                    "asset_id": "4175a79e-bdad-4c38-9753-a5622a83a17e"
+                }
+            }
+        },
+        "2002": {
+            "#33P": {
+                "STANDARD": {
+                    "alt_value": 350.36,
+                    "asset_id": "6c961182-a82b-40e6-8259-c5c00baf862f"
+                }
+            }
+        },
+        "2001": {
+            "#119": {
+                "1st Edition Holo": {
+                    "alt_value": 529.32,
+                    "asset_id": "40e95a83-f9e2-45db-84a5-71c2b65539e8"
+                }
+            },
+            "#151": {
+                "Holo": {
+                    "alt_value": 1548.82,
+                    "asset_id": "cab169f1-44e5-4c39-a007-a401be4b8a9a"
+                }
+            }
+        },
+        "2006": {
+            "#15": {
+                "Holo": {
+                    "alt_value": 2693.93,
+                    "asset_id": "7b716fa2-eb0e-4bc6-9ca8-f8e340225352"
+                }
+            }
+        },
+        "1997": {
+            "#151": {
+                "Holo": {
+                    "alt_value": 153.55,
+                    "asset_id": "605bba66-fc5f-4500-9248-80c59e3c0f78"
+                }
+            }
+        },
+        "2004": {
+            "#148PCGP": {
+                "STANDARD": {
+                    "alt_value": 415.25,
+                    "asset_id": "6ceae9d3-a67a-404e-9391-f15b32c33e00"
+                }
+            }
+        },
+        "1999": {
+            "#151": {
+                "Holo": {
+                    "alt_value": 229.63,
+                    "asset_id": "228d1a00-c040-44d7-89c0-a887cd2a994c"
                 }
             }
         }
@@ -4953,6 +6585,36 @@
                 "Art Rare": {
                     "alt_value": 73.33,
                     "asset_id": "b310954c-cc64-449c-990c-eb594145c580"
+                }
+            },
+            "#9": {
+                "Holo": {
+                    "alt_value": 212.66,
+                    "asset_id": "fedb10a5-3875-4cec-88bc-4c6faa5af701"
+                }
+            }
+        },
+        "2004": {
+            "#55": {
+                "STANDARD": {
+                    "alt_value": 95.83,
+                    "asset_id": "10cceb04-4cf3-43e8-a98b-95e0dd4bfdf9"
+                }
+            }
+        },
+        "1996": {
+            "#7": {
+                "STANDARD": {
+                    "alt_value": 39.89,
+                    "asset_id": "a61c87c0-470e-4e87-b4bc-8536e8fce72f"
+                }
+            }
+        },
+        "2002": {
+            "#7": {
+                "Holo": {
+                    "alt_value": 1327.62,
+                    "asset_id": "a921118c-25f6-4863-b440-58728b673032"
                 }
             }
         }
@@ -5002,6 +6664,12 @@
                     "alt_value": 16.68,
                     "asset_id": "4e791ca1-afca-4a33-b6e5-9db3ceae809a"
                 }
+            },
+            "#215": {
+                "STANDARD": {
+                    "alt_value": 40.69,
+                    "asset_id": "7d57c890-e948-42a4-8ea0-3f0e619c06fd"
+                }
             }
         },
         "2007": {
@@ -5017,6 +6685,30 @@
                 "1st Edition Holo": {
                     "alt_value": 15.63,
                     "asset_id": "2e049aec-c85f-4066-a3ca-9593bf708d7b"
+                }
+            }
+        },
+        "2001": {
+            "#245": {
+                "STANDARD": {
+                    "alt_value": 44.18,
+                    "asset_id": "b3bac047-4555-4626-acf4-cc2d4044436a"
+                }
+            }
+        },
+        "2002": {
+            "#31": {
+                "1st Edition Holo": {
+                    "alt_value": 198.34,
+                    "asset_id": "7179a91f-eeb6-4d36-8377-7b3009ed4475"
+                }
+            }
+        },
+        "2018": {
+            "#106": {
+                "Holo": {
+                    "alt_value": 35.05,
+                    "asset_id": "1afb9fba-adfb-428e-8c44-eb0fde520c06"
                 }
             }
         }
@@ -5155,6 +6847,10 @@
                 "Holo": {
                     "alt_value": 143.2,
                     "asset_id": "48d2e3d7-f02b-46ee-845d-5fdd636e4a04"
+                },
+                "STANDARD": {
+                    "alt_value": 46.84,
+                    "asset_id": "78f5112d-eff3-444c-8e38-551b6b649acd"
                 }
             }
         },
@@ -5163,6 +6859,22 @@
                 "STANDARD": {
                     "alt_value": 51.16,
                     "asset_id": "ef557159-aac6-4b73-a16d-b64e3f3ebd79"
+                }
+            }
+        },
+        "2005": {
+            "#49": {
+                "1st Edition Holo": {
+                    "alt_value": 147.49,
+                    "asset_id": "e05e21a3-161f-4924-8c8b-661d86b1c7ae"
+                }
+            }
+        },
+        "2011": {
+            "#33": {
+                "1st Edition": {
+                    "alt_value": 26.01,
+                    "asset_id": "0b118075-e45e-4eb9-866c-8d307c5f4e7a"
                 }
             }
         }
@@ -5190,6 +6902,12 @@
                     "alt_value": 26.04,
                     "asset_id": "e1f9b61b-26e2-4368-a066-d4c32c6f4a71"
                 }
+            },
+            "#106": {
+                "STANDARD": {
+                    "alt_value": 97.12,
+                    "asset_id": "ce70a93b-4dc5-4156-a900-0d55b59a5926"
+                }
             }
         },
         "2001": {
@@ -5197,6 +6915,22 @@
                 "1st Edition": {
                     "alt_value": 66.3,
                     "asset_id": "60e4b168-dae8-4aad-8b54-2fb1e5b33a15"
+                }
+            }
+        },
+        "1997": {
+            "#142": {
+                "Holo": {
+                    "alt_value": 57.44,
+                    "asset_id": "e7c8a19b-2be2-41a3-a071-f33be7897892"
+                }
+            }
+        },
+        "2003": {
+            "#55": {
+                "1st Edition": {
+                    "alt_value": 84.43,
+                    "asset_id": "4f92b5d9-8724-465e-a2d9-eadcd0c37cb3"
                 }
             }
         }
@@ -5208,6 +6942,12 @@
                     "alt_value": 117.47,
                     "asset_id": "ab9bcee5-8d89-416a-bab0-6a67680ce86f"
                 }
+            },
+            "#82": {
+                "STANDARD": {
+                    "alt_value": 104.39,
+                    "asset_id": "ceeeb359-19ee-4516-af62-79eee442a219"
+                }
             }
         },
         "2019": {
@@ -5215,6 +6955,30 @@
                 "STANDARD": {
                     "alt_value": 26.9,
                     "asset_id": "dd68ae7a-2953-4063-be1f-455f7ea213d0"
+                }
+            }
+        },
+        "2006": {
+            "#14": {
+                "1st Edition Holo": {
+                    "alt_value": 67.57,
+                    "asset_id": "9bdd1b27-0f9e-440d-9f2d-fb049109458b"
+                }
+            }
+        },
+        "2024": {
+            "#70": {
+                "Art Rare": {
+                    "alt_value": 19.51,
+                    "asset_id": "0adeb085-8d93-4823-8051-5ef4fbcdf75e"
+                }
+            }
+        },
+        "2005": {
+            "#62": {
+                "STANDARD": {
+                    "alt_value": 104.07,
+                    "asset_id": "5275508b-aa4d-43b8-ada9-a6aa70045115"
                 }
             }
         }
@@ -5286,6 +7050,12 @@
                     "alt_value": 36.69,
                     "asset_id": "c7b1a51c-aa85-4743-9788-a8d0ef304ff5"
                 }
+            },
+            "#59": {
+                "STANDARD": {
+                    "alt_value": 39.15,
+                    "asset_id": "f5573a86-7e7c-4cd8-aa0b-9ec5481213d5"
+                }
             }
         },
         "2025": {
@@ -5293,6 +7063,54 @@
                 "Art Rare": {
                     "alt_value": 20.46,
                     "asset_id": "a0f7c54a-4b25-4ff1-b0c8-92e1f9d4fa7f"
+                }
+            }
+        },
+        "1998": {
+            "#052": {
+                "STANDARD": {
+                    "alt_value": 266.53,
+                    "asset_id": "60ba2dda-6f6d-4b8d-a8bf-59c4ca762463"
+                }
+            }
+        },
+        "2001": {
+            "#29": {
+                "1st Edition": {
+                    "alt_value": 23.66,
+                    "asset_id": "5413fda4-dd17-46dd-b3d1-604ad6849aa6"
+                }
+            }
+        },
+        "1996": {
+            "#0": {
+                "STANDARD": {
+                    "alt_value": 367.27,
+                    "asset_id": "ea539d14-1dec-408f-b710-17bd2edde409"
+                }
+            }
+        },
+        "2003": {
+            "#28": {
+                "Art Rare": {
+                    "alt_value": 48.66,
+                    "asset_id": "e5cb8e42-5962-44a1-86e3-b4f04df7a953"
+                }
+            }
+        },
+        "2006": {
+            "#38": {
+                "1st Edition": {
+                    "alt_value": 25.96,
+                    "asset_id": "e2db37b7-ab64-4bca-87e7-13bb112745ad"
+                }
+            }
+        },
+        "1999": {
+            "#52": {
+                "STANDARD": {
+                    "alt_value": 175.37,
+                    "asset_id": "849eb2d9-76ca-44c2-b325-f9760ea7de05"
                 }
             }
         }
@@ -5387,6 +7205,34 @@
                     "asset_id": "87e286c2-8be4-4f12-a714-88478003819c"
                 }
             }
+        },
+        "1996": {
+            "#143": {
+                "STANDARD": {
+                    "alt_value": 189.85,
+                    "asset_id": "10d9b0ac-7350-4892-b4b0-9e00769fabd3"
+                }
+            }
+        },
+        "1999": {
+            "#143": {
+                "STANDARD": {
+                    "alt_value": 65.82,
+                    "asset_id": "bb85694c-68d7-4c43-a7c9-354104a6b320"
+                },
+                "Holo": {
+                    "alt_value": 163.06,
+                    "asset_id": "617c9221-dc8b-4c30-87e2-f4e0f1baf129"
+                }
+            }
+        },
+        "1998": {
+            "#143": {
+                "STANDARD": {
+                    "alt_value": 271.87,
+                    "asset_id": "41c87c61-6581-417d-bdcf-e1555be7a454"
+                }
+            }
         }
     },
     "POLIWRATH": {
@@ -5411,6 +7257,22 @@
                 "Holo": {
                     "alt_value": 43.49,
                     "asset_id": "826b411e-6773-4c1e-9274-d8407f035311"
+                }
+            }
+        },
+        "2001": {
+            "#109": {
+                "Holo": {
+                    "alt_value": 76.51,
+                    "asset_id": "9e87ec71-a33f-48ac-8d0b-d1c8f970b075"
+                }
+            }
+        },
+        "1996": {
+            "#62": {
+                "Holo": {
+                    "alt_value": 1469.64,
+                    "asset_id": "a0062c62-2bd8-49ba-b378-addc25da76e8"
                 }
             }
         }
@@ -5495,7 +7357,7 @@
             }
         }
     },
-    "MR. MIME": {
+    "MR_MIME": {
         "2023": {
             "#179": {
                 "Art Rare": {
@@ -5503,9 +7365,7 @@
                     "asset_id": "5d50fa3e-195d-431d-bd42-b304b9e9a8c9"
                 }
             }
-        }
-    },
-    "MR. MIME EX": {
+        },
         "2004": {
             "#54": {
                 "1st Edition": {
@@ -5517,6 +7377,22 @@
                 "1st Edition": {
                     "alt_value": 48.72,
                     "asset_id": "03efe1fd-890b-4f65-a892-5afbd01f5edc"
+                }
+            }
+        },
+        "1997": {
+            "#122": {
+                "Holo": {
+                    "alt_value": 50.88,
+                    "asset_id": "30ab13f6-fb0f-42fe-89c2-eb9e40761488"
+                }
+            }
+        },
+        "1998": {
+            "#122": {
+                "STANDARD": {
+                    "alt_value": 36.57,
+                    "asset_id": "a44be0be-72dd-4e61-9c40-9f7eee7d63db"
                 }
             }
         }
@@ -5710,6 +7586,18 @@
                     "alt_value": 57.26,
                     "asset_id": "319bd78d-538a-4461-bf56-8dca304cd53b"
                 }
+            },
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 91.36,
+                    "asset_id": "3ea1e5f6-b658-4aa7-a771-960c8856e175"
+                }
+            },
+            "#NONUM": {
+                "STANDARD": {
+                    "alt_value": 75.45,
+                    "asset_id": "df8bb25a-67ae-40b7-8288-cf60e1137c33"
+                }
             }
         },
         "2005": {
@@ -5736,6 +7624,12 @@
                     "alt_value": 673.48,
                     "asset_id": "e3baa72c-d126-44ac-b360-04894feca2a0"
                 }
+            },
+            "#59": {
+                "1st Edition": {
+                    "alt_value": 48.71,
+                    "asset_id": "e71f8fa1-07c2-4e44-a6a8-8648f43abb05"
+                }
             }
         },
         "2015": {
@@ -5743,6 +7637,26 @@
                 "STANDARD": {
                     "alt_value": 34.65,
                     "asset_id": "cf9321bd-72b8-4153-a647-f042b6cd48b6"
+                }
+            }
+        },
+        "2013": {
+            "#86": {
+                "1st Edition": {
+                    "alt_value": 53.76,
+                    "asset_id": "e1741c90-a5b0-4275-bade-b19d2f854ead"
+                }
+            }
+        },
+        "2000": {
+            "#249": {
+                "Holo": {
+                    "alt_value": 332.88,
+                    "asset_id": "b4dc07da-04cf-4cac-9e48-01109e2ced9e"
+                },
+                "STANDARD": {
+                    "alt_value": 62.11,
+                    "asset_id": "8ffa6e46-72f2-4f97-a796-a2db2279c52b"
                 }
             }
         }
@@ -5803,6 +7717,18 @@
                 "1st Edition": {
                     "alt_value": 26.62,
                     "asset_id": "7c39cb01-225e-4681-bdce-270332fe0a2f"
+                }
+            },
+            "#81": {
+                "STANDARD": {
+                    "alt_value": 166.99,
+                    "asset_id": "770e9f5b-db31-4787-90f6-ddc58147b5ff"
+                }
+            },
+            "#88": {
+                "1st Edition": {
+                    "alt_value": 276.02,
+                    "asset_id": "e43a1af6-aa1f-4488-bddd-2c02ecaa74d0"
                 }
             }
         },
@@ -5871,6 +7797,38 @@
                 "Holo": {
                     "alt_value": 113.12,
                     "asset_id": "222c3ec4-9cab-4d61-a84d-854da1c31016"
+                }
+            }
+        },
+        "1997": {
+            "#65": {
+                "Holo": {
+                    "alt_value": 56.89,
+                    "asset_id": "555d6ff8-1eca-4e8f-ba07-25c824ed072f"
+                }
+            }
+        },
+        "1998": {
+            "#65": {
+                "Holo": {
+                    "alt_value": 62.15,
+                    "asset_id": "06e17226-de38-413e-952d-13e1cc69a726"
+                }
+            }
+        },
+        "1999": {
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 1695.46,
+                    "asset_id": "3aed3748-12d1-4c99-9170-a40a4523c59a"
+                }
+            }
+        },
+        "2006": {
+            "#33": {
+                "Holo": {
+                    "alt_value": 1836.66,
+                    "asset_id": "025d0839-87fc-4d72-b5a1-5210c8f1065c"
                 }
             }
         }
@@ -5949,6 +7907,14 @@
                     "asset_id": "7fb25141-bb58-46ef-94ec-edb188986b28"
                 }
             }
+        },
+        "1996": {
+            "#101": {
+                "STANDARD": {
+                    "alt_value": 200.22,
+                    "asset_id": "b00e94a6-6925-4838-985b-0935abfca8f8"
+                }
+            }
         }
     },
     "KYUREM": {
@@ -5971,6 +7937,12 @@
                 "1st Edition": {
                     "alt_value": 64.87,
                     "asset_id": "ff412bbc-1e35-4389-b676-01bc56d68964"
+                }
+            },
+            "#20": {
+                "1st Edition": {
+                    "alt_value": 73.85,
+                    "asset_id": "0aa39c4f-3c3d-43dc-b0dc-89bb62713381"
                 }
             }
         },
@@ -6045,6 +8017,14 @@
                     "asset_id": "a73dfc0d-f3dd-4abe-a5df-e1e1eeca34fa"
                 }
             }
+        },
+        "2013": {
+            "#5": {
+                "1st Edition": {
+                    "alt_value": 29.94,
+                    "asset_id": "46bf045f-5d74-4410-aa5f-70a18b706745"
+                }
+            }
         }
     },
     "CHARMELEON": {
@@ -6076,6 +8056,12 @@
                     "alt_value": 23.89,
                     "asset_id": "9858e3e3-b63d-4c93-971a-2ecbd2af8ccc"
                 }
+            },
+            "#5": {
+                "Reverse Holo": {
+                    "alt_value": 15.95,
+                    "asset_id": "1324482a-c225-48bb-913a-a98ef4af1c03"
+                }
             }
         },
         "2007": {
@@ -6091,6 +8077,16 @@
                 "STANDARD": {
                     "alt_value": 33.6,
                     "asset_id": "c37d9b4a-082e-448d-8e70-da1c4016995b"
+                },
+                "1st Edition": {
+                    "alt_value": 42.75,
+                    "asset_id": "919eb1fb-12c7-4437-8f9e-77e6b71ab4e3"
+                }
+            },
+            "#22": {
+                "1st Edition": {
+                    "alt_value": 138.64,
+                    "asset_id": "d6e505b8-7573-43a4-b374-732085d65278"
                 }
             }
         },
@@ -6145,6 +8141,12 @@
                 "STANDARD": {
                     "alt_value": 15.86,
                     "asset_id": "c59a4949-0612-46fe-aeb3-8974be844355"
+                }
+            },
+            "#374": {
+                "STANDARD": {
+                    "alt_value": 25.34,
+                    "asset_id": "81189556-1ebc-4bc6-b9f8-9088f545dfcb"
                 }
             }
         },
@@ -6249,6 +8251,14 @@
                     "asset_id": "a6053ef7-2236-45e5-9452-fd93e97bf3b6"
                 }
             }
+        },
+        "1997": {
+            "#110": {
+                "Holo": {
+                    "alt_value": 36.39,
+                    "asset_id": "92a389fe-a5e1-47ef-9633-48a12597892b"
+                }
+            }
         }
     },
     "NIDOKING": {
@@ -6289,6 +8299,34 @@
                     "asset_id": "325c4813-ee0c-478b-bbc0-b314496a2e7c"
                 }
             }
+        },
+        "1999": {
+            "#34": {
+                "STANDARD": {
+                    "alt_value": 312.47,
+                    "asset_id": "3e33256d-70a1-4f80-b776-d9b8eb56a4fa"
+                },
+                "Holo": {
+                    "alt_value": 47.02,
+                    "asset_id": "57e6fe87-fdb5-46ea-9e53-c701ab2968ed"
+                }
+            }
+        },
+        "1996": {
+            "#34": {
+                "Holo": {
+                    "alt_value": 61.73,
+                    "asset_id": "35b00427-66be-40ad-b8ce-b9b1d2202815"
+                }
+            }
+        },
+        "2025": {
+            "#126": {
+                "Art Rare": {
+                    "alt_value": 55.42,
+                    "asset_id": "beba4223-f13d-4dd2-bede-b4113fb44a58"
+                }
+            }
         }
     },
     "NIDOQUEEN": {
@@ -6313,6 +8351,14 @@
                 "Reverse Holo": {
                     "alt_value": 16.55,
                     "asset_id": "92f49767-8168-4806-9f21-dceef01e36e4"
+                }
+            }
+        },
+        "1997": {
+            "#31": {
+                "Holo": {
+                    "alt_value": 49.56,
+                    "asset_id": "9b789b93-69ee-446f-8345-d5e6d1c28e4f"
                 }
             }
         }
@@ -6524,6 +8570,12 @@
                     "alt_value": 65.3,
                     "asset_id": "b22e4957-0f90-417d-ab24-0f0674290dd4"
                 }
+            },
+            "#260": {
+                "STANDARD": {
+                    "alt_value": 51.04,
+                    "asset_id": "c0772c99-57e1-4851-b500-35c9e3909b16"
+                }
             }
         },
         "2010": {
@@ -6531,6 +8583,12 @@
                 "1st Edition": {
                     "alt_value": 85.68,
                     "asset_id": "1e37646f-2146-438d-bd9f-470415ad55c2"
+                }
+            },
+            "#074": {
+                "Holo": {
+                    "alt_value": 358.47,
+                    "asset_id": "7b8fbba5-45ba-4461-8169-5223006ef902"
                 }
             }
         },
@@ -6587,6 +8645,12 @@
                 "STANDARD": {
                     "alt_value": 18.75,
                     "asset_id": "d4f4dd5b-9463-48f3-850a-be1f2acb03a1"
+                }
+            },
+            "#75": {
+                "STANDARD": {
+                    "alt_value": 43.19,
+                    "asset_id": "f3cb96c5-ac3f-42ea-bc27-a7e472a52d55"
                 }
             }
         },
@@ -6719,6 +8783,14 @@
                     "asset_id": "21aa6579-2f01-4c10-a6da-98f3b11937e6"
                 }
             }
+        },
+        "2022": {
+            "#202": {
+                "STANDARD": {
+                    "alt_value": 12.78,
+                    "asset_id": "527a737e-0645-4359-9df8-cb393c5ea4fb"
+                }
+            }
         }
     },
     "WOOLOO": {
@@ -6745,6 +8817,12 @@
                 "Holo": {
                     "alt_value": 46.16,
                     "asset_id": "708c257c-618c-48d2-b14d-d771c7780c17"
+                }
+            },
+            "#7": {
+                "STANDARD": {
+                    "alt_value": 39.13,
+                    "asset_id": "098d953f-455a-49bd-bacc-4e32e1929c32"
                 }
             }
         },
@@ -6776,6 +8854,12 @@
                     "alt_value": 38.45,
                     "asset_id": "5b376e51-d4ba-468f-a950-3af4751a5382"
                 }
+            },
+            "#11": {
+                "1st Edition": {
+                    "alt_value": 34.61,
+                    "asset_id": "376345fa-cb7c-499d-883f-796a98f60d59"
+                }
             }
         },
         "2022": {
@@ -6783,6 +8867,14 @@
                 "Art Rare": {
                     "alt_value": 11.72,
                     "asset_id": "332b912e-fc48-4dc6-ac67-ca0925e0938d"
+                }
+            }
+        },
+        "2011": {
+            "#53": {
+                "STANDARD": {
+                    "alt_value": 77.95,
+                    "asset_id": "594b2e83-f4ef-404e-8f80-a3395050ed38"
                 }
             }
         }
@@ -6811,6 +8903,14 @@
                     "asset_id": "ae23318a-8db3-4f40-bf3b-2a2898e0801b"
                 }
             }
+        },
+        "1997": {
+            "#51": {
+                "Holo": {
+                    "alt_value": 43.79,
+                    "asset_id": "25f75909-18da-4e64-9f8a-52a432eba615"
+                }
+            }
         }
     },
     "CATERPIE": {
@@ -6825,7 +8925,7 @@
         "1996": {
             "#10": {
                 "STANDARD": {
-                    "alt_value": 18.55,
+                    "alt_value": 60.11,
                     "asset_id": "14d13d9c-e825-4a5b-92a1-d43d2239d667"
                 }
             }
@@ -6883,6 +8983,22 @@
                     "asset_id": "b16b7eed-aeb9-4529-87d8-cc0f2cb7e985"
                 }
             }
+        },
+        "2002": {
+            "#16": {
+                "STANDARD": {
+                    "alt_value": 30.6,
+                    "asset_id": "41275895-c91f-40de-b790-489d74f3224d"
+                }
+            }
+        },
+        "1996": {
+            "#27": {
+                "STANDARD": {
+                    "alt_value": 38.77,
+                    "asset_id": "b53b7bd2-8ab6-454e-85fb-afce60caab3b"
+                }
+            }
         }
     },
     "GOLETT": {
@@ -6909,6 +9025,22 @@
                 "STANDARD": {
                     "alt_value": 47.85,
                     "asset_id": "fd560b4b-a035-4259-9695-6c1fdb010a6c"
+                }
+            }
+        },
+        "2006": {
+            "#23": {
+                "Holo": {
+                    "alt_value": 34.69,
+                    "asset_id": "f594c5af-c8e5-478e-a3d3-0d49ba9e68ef"
+                }
+            }
+        },
+        "1997": {
+            "#18": {
+                "Holo": {
+                    "alt_value": 52.03,
+                    "asset_id": "ebda6834-9437-43d3-a6e2-4dadfd8397a4"
                 }
             }
         }
@@ -6941,6 +9073,28 @@
                 "Art Rare": {
                     "alt_value": 27.54,
                     "asset_id": "1738a9ea-2751-4905-987b-c3ce94136186"
+                }
+            }
+        },
+        "2014": {
+            "#84": {
+                "1st Edition": {
+                    "alt_value": 58.23,
+                    "asset_id": "6feaabe4-9128-4129-becf-2f1f592e09aa"
+                }
+            },
+            "#90": {
+                "STANDARD": {
+                    "alt_value": 58.63,
+                    "asset_id": "88622e06-49c4-41a1-a656-4ffdbd691158"
+                }
+            }
+        },
+        "1997": {
+            "#115": {
+                "Holo": {
+                    "alt_value": 42.34,
+                    "asset_id": "c1497e88-6638-4413-93c9-a0331edb1a71"
                 }
             }
         }
@@ -6998,6 +9152,12 @@
                     "alt_value": 44.16,
                     "asset_id": "c208d0b2-8909-476d-b003-b576cc43b806"
                 }
+            },
+            "#51": {
+                "STANDARD": {
+                    "alt_value": 26.31,
+                    "asset_id": "d5c3810d-c223-44f0-bded-f6bc0872b6d7"
+                }
             }
         },
         "2019": {
@@ -7011,6 +9171,12 @@
                 "STANDARD": {
                     "alt_value": 135.45,
                     "asset_id": "3f40824b-5d10-4715-9788-2d1604d52af5"
+                }
+            },
+            "#96": {
+                "STANDARD": {
+                    "alt_value": 50.06,
+                    "asset_id": "03fccb48-bd75-423e-85ad-4bb9aad8e63a"
                 }
             }
         },
@@ -7054,6 +9220,12 @@
                     "alt_value": 38.39,
                     "asset_id": "c913ce0b-38c0-45fd-a86b-b91923f49f1f"
                 }
+            },
+            "#60": {
+                "STANDARD": {
+                    "alt_value": 38.74,
+                    "asset_id": "433a9361-d3fe-420a-a96a-1f1a3812fc0a"
+                }
             }
         },
         "2021": {
@@ -7075,6 +9247,20 @@
                 "Art Rare": {
                     "alt_value": 16.14,
                     "asset_id": "ee9e02ae-0b6a-4c1b-9637-87e12066fdea"
+                }
+            },
+            "#174": {
+                "STANDARD": {
+                    "alt_value": 200.58,
+                    "asset_id": "812b444e-f8ab-452d-b6c8-4f5baa069d12"
+                }
+            }
+        },
+        "2015": {
+            "#002": {
+                "STANDARD": {
+                    "alt_value": 78.93,
+                    "asset_id": "94388f44-3ebd-4be4-b10a-b3ef5b05c0f8"
                 }
             }
         }
@@ -7111,6 +9297,22 @@
                     "asset_id": "0949b3a5-f61d-4bd4-aacd-c1e2ceb0fb39"
                 }
             }
+        },
+        "1998": {
+            "#92": {
+                "STANDARD": {
+                    "alt_value": 36.12,
+                    "asset_id": "290e87f7-a5b8-466a-8f92-34eb02049864"
+                }
+            }
+        },
+        "1996": {
+            "#92": {
+                "STANDARD": {
+                    "alt_value": 131.08,
+                    "asset_id": "d2c7fdde-cc20-4973-a36c-6e9734554942"
+                }
+            }
         }
     },
     "BRONZONG": {
@@ -7137,6 +9339,14 @@
                 "Art Rare": {
                     "alt_value": 18.38,
                     "asset_id": "dd1fc54f-40f6-4c41-bb6a-d549884b130c"
+                }
+            }
+        },
+        "2002": {
+            "#58": {
+                "1st Edition Holo": {
+                    "alt_value": 79.85,
+                    "asset_id": "9413640d-9e77-4281-a10d-1ffef1405596"
                 }
             }
         }
@@ -7175,6 +9385,22 @@
                     "asset_id": "3486359b-4ef1-4ee7-81ca-3d50988d4b3e"
                 }
             }
+        },
+        "2000": {
+            "#15": {
+                "Holo": {
+                    "alt_value": 47.74,
+                    "asset_id": "2c8bd329-2d49-4765-a153-08db9fb7637d"
+                }
+            }
+        },
+        "1999": {
+            "#15": {
+                "STANDARD": {
+                    "alt_value": 44.42,
+                    "asset_id": "10dfc993-6b7c-4899-8989-9d7f323eb908"
+                }
+            }
         }
     },
     "DODUO": {
@@ -7183,6 +9409,14 @@
                 "Reverse Holo": {
                     "alt_value": 12.73,
                     "asset_id": "81d5d5dc-18db-486e-bc4d-029d13d53452"
+                }
+            }
+        },
+        "1996": {
+            "#84": {
+                "STANDARD": {
+                    "alt_value": 15.92,
+                    "asset_id": "79b5375f-90ee-4f62-8cc0-3181b307a67a"
                 }
             }
         }
@@ -7231,6 +9465,14 @@
                 "Reverse Holo": {
                     "alt_value": 11.45,
                     "asset_id": "0514b388-f5e9-462e-808a-5e70da56cbf9"
+                }
+            }
+        },
+        "1996": {
+            "#75": {
+                "STANDARD": {
+                    "alt_value": 34.96,
+                    "asset_id": "a76aa773-28d6-46a9-b7c0-0c1804d01fa8"
                 }
             }
         }
@@ -7336,6 +9578,12 @@
                     "alt_value": 15.34,
                     "asset_id": "835b895d-e691-42ff-b87b-6932c72e44fd"
                 }
+            },
+            "#45": {
+                "Holo": {
+                    "alt_value": 12.36,
+                    "asset_id": "f31162ef-d636-42d9-b17e-502aa057ecad"
+                }
             }
         },
         "2003": {
@@ -7360,6 +9608,12 @@
                     "alt_value": 320.38,
                     "asset_id": "1a9a11ca-1910-4922-82ba-558cfceeb44e"
                 }
+            },
+            "#41": {
+                "1st Edition Holo": {
+                    "alt_value": 121.62,
+                    "asset_id": "ca29c9c8-3bc3-457a-b0d2-62d01e7abf82"
+                }
             }
         },
         "2017": {
@@ -7381,6 +9635,12 @@
                 "1st Edition": {
                     "alt_value": 82.02,
                     "asset_id": "1c94481d-1264-4ce3-920f-47f3b813409a"
+                }
+            },
+            "#15": {
+                "1st Edition": {
+                    "alt_value": 58.59,
+                    "asset_id": "f49d6979-f04c-4b89-99b7-0abccdd46591"
                 }
             }
         },
@@ -7436,6 +9696,12 @@
                     "alt_value": 20.78,
                     "asset_id": "5e30b437-1086-4b62-b285-e8aaabb15840"
                 }
+            },
+            "#065": {
+                "STANDARD": {
+                    "alt_value": 54.49,
+                    "asset_id": "9b77a8fb-3442-4ae5-8259-7160b2b86f13"
+                }
             }
         },
         "2024": {
@@ -7454,6 +9720,12 @@
                     "alt_value": 15.37,
                     "asset_id": "2365fbb4-373f-4434-9ee5-8b487f35971c"
                 }
+            },
+            "#202": {
+                "Art Rare": {
+                    "alt_value": 38.5,
+                    "asset_id": "b3ae1ba4-1c02-4e64-8562-4d98833f6fa8"
+                }
             }
         },
         "2008": {
@@ -7469,6 +9741,12 @@
                 "1st Edition Holo": {
                     "alt_value": 103.09,
                     "asset_id": "5bc6357c-cb38-4f83-b6f4-91746b7c5325"
+                }
+            },
+            "#4": {
+                "1st Edition": {
+                    "alt_value": 106.53,
+                    "asset_id": "6a9d9ee7-a03a-4fad-a436-6ef228ba9163"
                 }
             }
         },
@@ -7494,6 +9772,12 @@
                     "alt_value": 161.82,
                     "asset_id": "2c0c3cae-f77b-40f4-b5db-27a9e766d725"
                 }
+            },
+            "#7": {
+                "1st Edition": {
+                    "alt_value": 456.0,
+                    "asset_id": "7e6a2787-f8e7-4035-8f3d-09c8f3763de5"
+                }
             }
         },
         "2001": {
@@ -7509,6 +9793,42 @@
                 "STANDARD": {
                     "alt_value": 24.55,
                     "asset_id": "40420fbf-829a-455a-8594-fec69bc306b9"
+                }
+            }
+        },
+        "2002": {
+            "#1T": {
+                "STANDARD": {
+                    "alt_value": 84.06,
+                    "asset_id": "b390f801-286a-4af7-9cda-55f7ce7ff337"
+                }
+            }
+        },
+        "2003": {
+            "#15": {
+                "1st Edition": {
+                    "alt_value": 61.11,
+                    "asset_id": "49341ba7-c22b-43b8-ab71-ad15f42739d2"
+                }
+            }
+        },
+        "1997": {
+            "#136": {
+                "Holo": {
+                    "alt_value": 80.44,
+                    "asset_id": "f78d796c-8323-4c70-aa43-6d55d9abfeec"
+                },
+                "STANDARD": {
+                    "alt_value": 26.5,
+                    "asset_id": "af8d64e7-ca78-4a8c-b5a4-b1ff75b7af65"
+                }
+            }
+        },
+        "2010": {
+            "#9": {
+                "1st Edition": {
+                    "alt_value": 33.53,
+                    "asset_id": "6f9a33df-0c9a-48aa-aba0-d6e3b1e23f96"
                 }
             }
         }
@@ -7696,6 +10016,12 @@
                     "alt_value": 13.11,
                     "asset_id": "685bb164-cf7f-484a-b4f9-17c45b355b6c"
                 }
+            },
+            "#131": {
+                "Art Rare": {
+                    "alt_value": 54.87,
+                    "asset_id": "096dadc5-d9f8-407b-83d2-1981960a7d38"
+                }
             }
         },
         "2006": {
@@ -7711,6 +10037,14 @@
                 "STANDARD": {
                     "alt_value": 20.22,
                     "asset_id": "d640790f-12e0-4fdf-af80-06e78f75a551"
+                }
+            }
+        },
+        "2020": {
+            "#145/S-P": {
+                "STANDARD": {
+                    "alt_value": 54.24,
+                    "asset_id": "7a100f4c-420c-4e41-9dc2-ab6b11e88c75"
                 }
             }
         }
@@ -7729,6 +10063,10 @@
                 "1st Edition": {
                     "alt_value": 59.68,
                     "asset_id": "16c48c2e-0567-4811-a432-7c1c6faf762a"
+                },
+                "STANDARD": {
+                    "alt_value": 53.29,
+                    "asset_id": "cec39b48-cab7-49ce-a50f-ce96b2667491"
                 }
             }
         },
@@ -7816,6 +10154,18 @@
                     "alt_value": 64.93,
                     "asset_id": "0b41b254-f085-4062-8c2e-4632fd9b4a6a"
                 }
+            },
+            "#20": {
+                "Holo": {
+                    "alt_value": 130.42,
+                    "asset_id": "37db8d41-b0e3-4873-9c8d-9909dbedbff6"
+                }
+            },
+            "#7": {
+                "STANDARD": {
+                    "alt_value": 39.71,
+                    "asset_id": "ade66f98-6b9e-4e4d-abc2-1b020e857aab"
+                }
             }
         },
         "2024": {
@@ -7839,6 +10189,44 @@
                 "Art Rare": {
                     "alt_value": 28.39,
                     "asset_id": "14bf9f74-e6ea-4182-8c69-1b8eff388f1b"
+                }
+            }
+        },
+        "2016": {
+            "#73": {
+                "STANDARD": {
+                    "alt_value": 52.37,
+                    "asset_id": "9d5cddb2-5fcd-4abb-a606-fa91af84af9f"
+                }
+            }
+        },
+        "2015": {
+            "#144": {
+                "STANDARD": {
+                    "alt_value": 41.45,
+                    "asset_id": "6da64ed4-1f3b-4605-88de-bb87b682bf6a"
+                }
+            },
+            "#15": {
+                "1st Edition": {
+                    "alt_value": 508.89,
+                    "asset_id": "50ae945b-c444-461d-8354-6d8c64aff0fe"
+                }
+            }
+        },
+        "2006": {
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 138.61,
+                    "asset_id": "f7067aed-4c5d-41b4-aa4d-8f6a5e3355ef"
+                }
+            }
+        },
+        "2014": {
+            "#40": {
+                "1st Edition": {
+                    "alt_value": 69.68,
+                    "asset_id": "d0b8f167-dc82-4150-b7f4-194c9c2ff3d6"
                 }
             }
         }
@@ -7915,6 +10303,12 @@
                 "Art Rare": {
                     "alt_value": 25.44,
                     "asset_id": "6227b653-ee86-4604-81aa-6a059cd1f97b"
+                }
+            },
+            "#183": {
+                "STANDARD": {
+                    "alt_value": 30.67,
+                    "asset_id": "5bd7bed7-b2d8-44b0-9bec-ffd3cbe1755c"
                 }
             }
         },
@@ -8015,6 +10409,14 @@
                     "asset_id": "7bb1ebf1-9b6d-4359-87ab-e17f8aac1c42"
                 }
             }
+        },
+        "2003": {
+            "#11": {
+                "1st Edition": {
+                    "alt_value": 64.43,
+                    "asset_id": "e9c5ec9c-4e6d-401f-a55f-842ac2d235ed"
+                }
+            }
         }
     },
     "PORYGON": {
@@ -8069,6 +10471,14 @@
                 "Holo": {
                     "alt_value": 46.39,
                     "asset_id": "a39cfa96-0e93-4063-9079-85408bb9471f"
+                }
+            }
+        },
+        "2000": {
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 2086.63,
+                    "asset_id": "a02eb11b-ed89-42c0-b573-3e5fc042b73b"
                 }
             }
         }
@@ -8195,6 +10605,14 @@
                     "asset_id": "d50fd0c0-38f0-4e69-8c3e-69f0353805a7"
                 }
             }
+        },
+        "2007": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 64.97,
+                    "asset_id": "5d3f91be-b293-423c-9e78-37ab353eeb25"
+                }
+            }
         }
     },
     "SOLROCK": {
@@ -8255,13 +10673,21 @@
                     "asset_id": "edb6d139-cb1f-4913-853a-90bc07b782ac"
                 }
             }
+        },
+        "2025": {
+            "#172": {
+                "Art Rare": {
+                    "alt_value": 20.7,
+                    "asset_id": "1d1515f9-4074-4e29-adac-c4bf6ec4143f"
+                }
+            }
         }
     },
     "FARFETCH'D": {
         "1996": {
             "#83": {
                 "STANDARD": {
-                    "alt_value": 24.36,
+                    "alt_value": 96.98,
                     "asset_id": "7d9ee338-0ae5-4ed0-83dd-986d20f62109"
                 }
             }
@@ -8444,6 +10870,12 @@
                     "alt_value": 86.12,
                     "asset_id": "689ec4a0-8a7c-4806-98cf-722a49e5533b"
                 }
+            },
+            "#348": {
+                "Art Rare": {
+                    "alt_value": 85.72,
+                    "asset_id": "ea20f5d5-5ba8-4f1b-83f9-eaf97186ae49"
+                }
             }
         },
         "2014": {
@@ -8502,6 +10934,12 @@
                     "alt_value": 127.51,
                     "asset_id": "4b474959-6f9d-4fd0-b339-e4f661fe8299"
                 }
+            },
+            "#092": {
+                "STANDARD": {
+                    "alt_value": 228.46,
+                    "asset_id": "1985891d-ba83-4d36-bda1-ade147ab14d5"
+                }
             }
         },
         "2019": {
@@ -8517,6 +10955,14 @@
                     "asset_id": "00147e68-0b7e-48a4-9206-25c56a3910ff"
                 }
             }
+        },
+        "2006": {
+            "#5": {
+                "STANDARD": {
+                    "alt_value": 50.61,
+                    "asset_id": "0e9558b4-448d-4b5b-91da-3df6e7df9989"
+                }
+            }
         }
     },
     "NIDORINO": {
@@ -8525,6 +10971,14 @@
                 "Reverse Holo": {
                     "alt_value": 12.65,
                     "asset_id": "b25bb5ce-c0c9-45a2-90d5-b47b63da6e91"
+                }
+            }
+        },
+        "1996": {
+            "#33": {
+                "STANDARD": {
+                    "alt_value": 99.12,
+                    "asset_id": "9cbdd278-62ae-479a-88ed-b4b72bdaa636"
                 }
             }
         }
@@ -8569,6 +11023,20 @@
                 "Art Rare": {
                     "alt_value": 21.36,
                     "asset_id": "284330ca-03e0-4487-b6c6-1bac35a69d92"
+                }
+            }
+        },
+        "2002": {
+            "#14": {
+                "Holo": {
+                    "alt_value": 219.58,
+                    "asset_id": "31c0ab5e-1dcd-4e10-9aed-349b554547c7"
+                }
+            },
+            "#31": {
+                "Holo": {
+                    "alt_value": 35.93,
+                    "asset_id": "594897ef-d69e-40b0-99ab-94e46919ce73"
                 }
             }
         }
@@ -8621,6 +11089,14 @@
                 "1st Edition": {
                     "alt_value": 30.9,
                     "asset_id": "4174b009-594d-4553-bb72-8b7744970871"
+                }
+            }
+        },
+        "2005": {
+            "#109": {
+                "STANDARD": {
+                    "alt_value": 26.23,
+                    "asset_id": "80df5bb2-2f9d-4f6f-bc81-0c9b35cc3970"
                 }
             }
         }
@@ -8700,6 +11176,36 @@
                     "alt_value": 29.76,
                     "asset_id": "314a7fda-7c38-4f66-9ffc-1a77901e10fb"
                 }
+            },
+            "#357": {
+                "STANDARD": {
+                    "alt_value": 74.05,
+                    "asset_id": "60f25bdd-bebc-4a2f-bbb7-974d25e6b472"
+                }
+            }
+        },
+        "2002": {
+            "#4": {
+                "Holo": {
+                    "alt_value": 589.63,
+                    "asset_id": "bfa3c26e-6b1d-4cf2-967e-73964d66e531"
+                }
+            }
+        },
+        "2008": {
+            "#90": {
+                "STANDARD": {
+                    "alt_value": 57.24,
+                    "asset_id": "2fd3d9fe-be96-45eb-b78e-3ba08b1651dd"
+                }
+            }
+        },
+        "2007": {
+            "#6": {
+                "1st Edition": {
+                    "alt_value": 46.84,
+                    "asset_id": "4d59e42f-ef76-400a-964b-98ef3bc970cc"
+                }
             }
         }
     },
@@ -8727,6 +11233,14 @@
                     "asset_id": "cf515e7f-fb06-4798-b7b7-c169c5219e96"
                 }
             }
+        },
+        "2017": {
+            "#122": {
+                "STANDARD": {
+                    "alt_value": 14.29,
+                    "asset_id": "de99b214-7f9a-434f-8aeb-acf401252403"
+                }
+            }
         }
     },
     "GOLDUCK": {
@@ -8735,6 +11249,14 @@
                 "1st Edition": {
                     "alt_value": 26.46,
                     "asset_id": "56e2a659-d021-40f9-9c10-4b4c70fd76dd"
+                }
+            }
+        },
+        "1998": {
+            "#55": {
+                "Holo": {
+                    "alt_value": 53.0,
+                    "asset_id": "ad360d26-cc8d-44f3-b599-dbfb50723513"
                 }
             }
         }
@@ -8763,6 +11285,14 @@
                 "1st Edition": {
                     "alt_value": 38.31,
                     "asset_id": "f43d4a7c-75db-43d7-a14a-1c4220f3178b"
+                }
+            }
+        },
+        "2021": {
+            "#2008": {
+                "STANDARD": {
+                    "alt_value": 1438.36,
+                    "asset_id": "63ca6df6-2a1d-4068-90c1-88c840293736"
                 }
             }
         }
@@ -8866,6 +11396,12 @@
                     "alt_value": 10.73,
                     "asset_id": "cd866886-2607-46a8-b243-6685dcaa1d78"
                 }
+            },
+            "#127": {
+                "Holo": {
+                    "alt_value": 49.46,
+                    "asset_id": "c4422201-0748-4cdd-841c-679051b2fc07"
+                }
             }
         },
         "2011": {
@@ -8927,7 +11463,7 @@
         "2003": {
             "#25": {
                 "STANDARD": {
-                    "alt_value": 75.06,
+                    "alt_value": 76.1,
                     "asset_id": "302a2550-2f6d-46e0-aaab-cc1ae234cde7"
                 }
             }
@@ -8945,6 +11481,36 @@
                 "Holo": {
                     "alt_value": 96.75,
                     "asset_id": "563e1694-f75f-4de1-8a75-ce685c904e87"
+                }
+            }
+        },
+        "2001": {
+            "#115": {
+                "Holo": {
+                    "alt_value": 85.74,
+                    "asset_id": "ab140833-6116-4f9a-8b53-6d18e0083879"
+                }
+            },
+            "#181": {
+                "Holo": {
+                    "alt_value": 55.21,
+                    "asset_id": "b3545974-16da-412f-a0e3-816301f89354"
+                }
+            }
+        },
+        "2006": {
+            "#51": {
+                "1st Edition": {
+                    "alt_value": 33.02,
+                    "asset_id": "8096f341-a009-44d4-80ff-c7db66df2f47"
+                }
+            }
+        },
+        "2000": {
+            "#181": {
+                "Holo": {
+                    "alt_value": 36.87,
+                    "asset_id": "2f1447f1-f6ce-45b4-9bf5-3d5416038f3d"
                 }
             }
         }
@@ -9004,6 +11570,36 @@
                     "alt_value": 58.02,
                     "asset_id": "f8dbca1e-67a4-4521-83cd-a38d211005d9"
                 }
+            },
+            "#17": {
+                "1st Edition Holo": {
+                    "alt_value": 76.96,
+                    "asset_id": "6dec2c5d-edc0-43de-82cd-1bba8c46b36b"
+                }
+            },
+            "#43": {
+                "1st Edition Holo": {
+                    "alt_value": 423.35,
+                    "asset_id": "01782acd-96cc-476f-a218-8ac1c08b3c2f"
+                }
+            },
+            "#37": {
+                "1st Edition": {
+                    "alt_value": 48.17,
+                    "asset_id": "2ecce360-1e75-484e-b83c-9732ad5ba4cd"
+                }
+            },
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 56.14,
+                    "asset_id": "d97cbe8f-212f-40a6-b7cd-d9ea935a6451"
+                }
+            },
+            "#71": {
+                "1st Edition Holo": {
+                    "alt_value": 22.06,
+                    "asset_id": "d89cbd0d-613b-46da-a120-8d23a800a429"
+                }
             }
         },
         "2022": {
@@ -9041,6 +11637,14 @@
                     "asset_id": "fceef013-09c5-4f24-80c2-0e2f3ec00b0d"
                 }
             }
+        },
+        "2015": {
+            "#024": {
+                "1st Edition": {
+                    "alt_value": 69.83,
+                    "asset_id": "35b022f0-392f-45fe-bcca-f5062daac2a9"
+                }
+            }
         }
     },
     "VAPOREON": {
@@ -9055,7 +11659,7 @@
         "2003": {
             "#22": {
                 "STANDARD": {
-                    "alt_value": 60.37,
+                    "alt_value": 77.19,
                     "asset_id": "385be04e-ead9-47e5-9fef-c9959933a457"
                 }
             }
@@ -9079,6 +11683,12 @@
                 "Reverse Holo": {
                     "alt_value": 21.46,
                     "asset_id": "088e95c5-7c95-4dda-907e-c13439541244"
+                }
+            },
+            "#063": {
+                "STANDARD": {
+                    "alt_value": 47.05,
+                    "asset_id": "cf446096-b59e-4729-a7dd-142d2ba404f6"
                 }
             }
         },
@@ -9115,6 +11725,32 @@
                 "STANDARD": {
                     "alt_value": 12.29,
                     "asset_id": "7f81bb39-da96-4e43-bd12-97fa0165a802"
+                }
+            },
+            "#205": {
+                "Art Rare": {
+                    "alt_value": 45.8,
+                    "asset_id": "e0aac8d9-aa93-4e75-b1e3-ec65703eedb4"
+                }
+            }
+        },
+        "1997": {
+            "#134": {
+                "Holo": {
+                    "alt_value": 84.12,
+                    "asset_id": "33339b31-363c-4f86-b6e6-8b97d37377b0"
+                },
+                "STANDARD": {
+                    "alt_value": 25.04,
+                    "asset_id": "d668a11f-8631-4c5f-b8f3-e3754b014a27"
+                }
+            }
+        },
+        "2007": {
+            "#15": {
+                "1st Edition": {
+                    "alt_value": 1504.29,
+                    "asset_id": "7ff2cfda-1f90-4542-8a4f-6dcc04a51091"
                 }
             }
         }
@@ -9205,6 +11841,38 @@
                     "asset_id": "5611b53d-f305-4459-92fc-75bb598115e9"
                 }
             }
+        },
+        "2007": {
+            "#300": {
+                "1st Edition Holo": {
+                    "alt_value": 37.63,
+                    "asset_id": "b5ec5d3f-f118-452b-8f1f-e023e0f60c0a"
+                }
+            }
+        },
+        "2010": {
+            "#48": {
+                "Holo": {
+                    "alt_value": 74.32,
+                    "asset_id": "3973bbbe-83f0-4082-9e6a-dc5b18b18483"
+                }
+            }
+        },
+        "2017": {
+            "#083": {
+                "STANDARD": {
+                    "alt_value": 51.66,
+                    "asset_id": "255997d9-1ab5-4c3d-9cdc-0cb7dc60f052"
+                }
+            }
+        },
+        "2000": {
+            "#250": {
+                "Holo": {
+                    "alt_value": 179.06,
+                    "asset_id": "bad5db0e-4958-42b4-923d-d1e195e835aa"
+                }
+            }
         }
     },
     "HUNTAIL": {
@@ -9261,6 +11929,42 @@
                 "Art Rare": {
                     "alt_value": 20.48,
                     "asset_id": "1ab62496-2d95-41ef-aca6-e265a61746f9"
+                }
+            },
+            "#S-P": {
+                "STANDARD": {
+                    "alt_value": 64.95,
+                    "asset_id": "1054cfea-8f48-4c83-a9e6-b4a674390b54"
+                }
+            }
+        },
+        "2007": {
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 61.56,
+                    "asset_id": "c7af322b-9b2e-48f0-9678-7a07d75c6807"
+                }
+            }
+        },
+        "2006": {
+            "#14": {
+                "1st Edition": {
+                    "alt_value": 231.46,
+                    "asset_id": "8bfa942c-c9bb-4546-85f3-4336e907dc86"
+                }
+            },
+            "#10": {
+                "1st Edition Holo": {
+                    "alt_value": 86.54,
+                    "asset_id": "20012b32-3c69-47f4-9390-5dce4bd36f12"
+                }
+            }
+        },
+        "2003": {
+            "#6": {
+                "STANDARD": {
+                    "alt_value": 61.03,
+                    "asset_id": "7b2ab411-77e5-4360-a45c-8f8422b29872"
                 }
             }
         }
@@ -9333,6 +12037,20 @@
                 "1st Edition Holo": {
                     "alt_value": 139.03,
                     "asset_id": "94c84406-333f-4fbe-9f5c-2378f28cc0d1"
+                }
+            },
+            "#208": {
+                "Holo": {
+                    "alt_value": 1200.89,
+                    "asset_id": "d52c2598-f85b-45d2-a182-e2aa7e95c509"
+                }
+            }
+        },
+        "2000": {
+            "#208": {
+                "Holo": {
+                    "alt_value": 42.77,
+                    "asset_id": "b86da632-9b8c-47b1-ac8b-eddf016daed8"
                 }
             }
         }
@@ -9499,6 +12217,14 @@
                     "asset_id": "f6e23058-4752-42af-a2de-5df9647c96d2"
                 }
             }
+        },
+        "2000": {
+            "#202": {
+                "Holo": {
+                    "alt_value": 42.39,
+                    "asset_id": "153ab8fa-73bb-475f-9b22-7044072006f4"
+                }
+            }
         }
     },
     "HO-OH-": {
@@ -9517,6 +12243,12 @@
                 "STANDARD": {
                     "alt_value": 29.15,
                     "asset_id": "2dbbdb68-52b2-4d7f-a441-f9081e5afca8"
+                }
+            },
+            "#62": {
+                "STANDARD": {
+                    "alt_value": 43.06,
+                    "asset_id": "96692b97-3691-4afc-b2a4-d753205a8204"
                 }
             }
         },
@@ -9537,6 +12269,10 @@
                 "STANDARD": {
                     "alt_value": 41.41,
                     "asset_id": "43441771-0426-4751-98a1-bea728ab75ab"
+                },
+                "Holo": {
+                    "alt_value": 30.31,
+                    "asset_id": "45d5b1a1-6f35-4ad3-bf55-9b1fa30004a0"
                 }
             }
         },
@@ -9545,6 +12281,14 @@
                 "Holo": {
                     "alt_value": 60.64,
                     "asset_id": "15f1c4ec-0944-4965-aeea-0b4fe5a82824"
+                }
+            }
+        },
+        "1998": {
+            "#45": {
+                "Holo": {
+                    "alt_value": 39.29,
+                    "asset_id": "18d974a8-e890-44d2-9cf4-cd2dfbd426b9"
                 }
             }
         }
@@ -9563,6 +12307,18 @@
                 "STANDARD": {
                     "alt_value": 30.69,
                     "asset_id": "1e88b612-56d6-455f-a075-cc4c7743720e"
+                }
+            }
+        },
+        "1998": {
+            "#125": {
+                "Holo": {
+                    "alt_value": 38.53,
+                    "asset_id": "70fdc13c-0625-4a7d-878a-1cf94e7232b7"
+                },
+                "STANDARD": {
+                    "alt_value": 91.94,
+                    "asset_id": "6da537d4-0d75-4e6b-9b79-0a084e365a91"
                 }
             }
         }
@@ -9637,6 +12393,14 @@
                     "asset_id": "48aa8733-4ec1-43b8-bc49-48643bf9e84b"
                 }
             }
+        },
+        "1999": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 47.51,
+                    "asset_id": "7188e774-2aa5-45ad-af41-f09f186ceaba"
+                }
+            }
         }
     },
     "CHANSEY": {
@@ -9663,6 +12427,22 @@
                     "asset_id": "320ef8d1-283b-4772-8349-3f2a264800e1"
                 }
             }
+        },
+        "1996": {
+            "#113": {
+                "Holo": {
+                    "alt_value": 81.06,
+                    "asset_id": "f0cdd57f-9ade-4cd2-b6c6-6404145f1158"
+                }
+            }
+        },
+        "1999": {
+            "#113": {
+                "STANDARD": {
+                    "alt_value": 52.9,
+                    "asset_id": "df94a44e-31b5-4e32-96a4-764a03c9fe6f"
+                }
+            }
         }
     },
     "DITTO": {
@@ -9680,6 +12460,12 @@
                     "alt_value": 24.24,
                     "asset_id": "3c4953d6-93d9-4ff2-a7b3-1bcbda87c8a3"
                 }
+            },
+            "#140": {
+                "STANDARD": {
+                    "alt_value": 14.76,
+                    "asset_id": "b881a959-f882-43b9-95f5-a39af7ba1e99"
+                }
             }
         },
         "1997": {
@@ -9687,6 +12473,22 @@
                 "Holo": {
                     "alt_value": 45.53,
                     "asset_id": "ba797cbe-e654-405e-ab9c-5cf238f56921"
+                }
+            }
+        },
+        "2014": {
+            "#077": {
+                "Holo": {
+                    "alt_value": 169.76,
+                    "asset_id": "890eafcb-8baf-45b9-a3f4-4499ba9b8e92"
+                }
+            }
+        },
+        "2005": {
+            "#108PCGP": {
+                "STANDARD": {
+                    "alt_value": 59.81,
+                    "asset_id": "9a59ceec-8659-4624-85f8-70b7d49f7743"
                 }
             }
         }
@@ -9697,6 +12499,48 @@
                 "STANDARD": {
                     "alt_value": 30.17,
                     "asset_id": "6bee2d10-f84c-4a5e-aeb4-d1b9b3aeb103"
+                }
+            },
+            "#48": {
+                "1st Edition": {
+                    "alt_value": 42.73,
+                    "asset_id": "9be44b65-145a-4730-8af9-2edbc2042fb7"
+                },
+                "STANDARD": {
+                    "alt_value": 57.29,
+                    "asset_id": "ae1d7f91-a608-4003-98f7-9e70428ad3d6"
+                }
+            }
+        },
+        "2002": {
+            "#89": {
+                "1st Edition Holo": {
+                    "alt_value": 1006.46,
+                    "asset_id": "6531df1a-698b-4416-ae24-66b98e4ebe34"
+                }
+            }
+        },
+        "2001": {
+            "#122": {
+                "Holo": {
+                    "alt_value": 63.53,
+                    "asset_id": "786008a0-8caf-422e-a4f8-cb215d865d30"
+                }
+            }
+        },
+        "1999": {
+            "#NNO": {
+                "Holo": {
+                    "alt_value": 868.88,
+                    "asset_id": "9bb76641-69e4-48cb-9f5d-0c4c2dcd01e5"
+                }
+            }
+        },
+        "2023": {
+            "#76": {
+                "Holo": {
+                    "alt_value": 8.56,
+                    "asset_id": "ad2e9438-f6ae-421f-bfa5-4aa70330d9ff"
                 }
             }
         }
@@ -9741,6 +12585,14 @@
                 "Holo": {
                     "alt_value": 33.11,
                     "asset_id": "6756b52c-1ead-4e4a-abf6-fbf986aa0151"
+                }
+            }
+        },
+        "2009": {
+            "#61": {
+                "1st Edition": {
+                    "alt_value": 42.67,
+                    "asset_id": "fd2e18e3-b8a2-4558-b095-7e9c440554a0"
                 }
             }
         }
@@ -9909,6 +12761,14 @@
                     "asset_id": "88735596-9c71-41b4-abb2-e23ca1bb755e"
                 }
             }
+        },
+        "1997": {
+            "#42": {
+                "Holo": {
+                    "alt_value": 34.86,
+                    "asset_id": "d3069e44-7633-4751-bedf-684f665001a5"
+                }
+            }
         }
     },
     "AGGRON": {
@@ -9925,6 +12785,12 @@
                 "1st Edition": {
                     "alt_value": 46.01,
                     "asset_id": "7f8a66a4-5379-44dc-95a4-f2f09083bfd6"
+                }
+            },
+            "#46": {
+                "1st Edition": {
+                    "alt_value": 71.99,
+                    "asset_id": "1948d24c-f343-4b9e-93f0-8a3696a8dc9d"
                 }
             }
         }
@@ -10025,6 +12891,22 @@
                     "asset_id": "66f87593-2e8b-4407-ad7c-a15293677782"
                 }
             }
+        },
+        "2001": {
+            "#64": {
+                "STANDARD": {
+                    "alt_value": 45.65,
+                    "asset_id": "cb4e0d5b-c52d-4d12-8e48-e91daaabaceb"
+                }
+            }
+        },
+        "1996": {
+            "#64": {
+                "STANDARD": {
+                    "alt_value": 50.44,
+                    "asset_id": "f6760322-fb7e-4b03-af8b-b33f5368fe3e"
+                }
+            }
         }
     },
     "STARYU": {
@@ -10068,6 +12950,12 @@
                     "alt_value": 21.63,
                     "asset_id": "57bf0621-f919-4282-9c40-d901f043c7f4"
                 }
+            },
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 28.37,
+                    "asset_id": "075b6de2-878e-4a2a-986f-1e62df8455b7"
+                }
             }
         },
         "1996": {
@@ -10083,6 +12971,12 @@
                 "STANDARD": {
                     "alt_value": 645.83,
                     "asset_id": "f33e9c1c-369b-4cd7-928f-2233b903a036"
+                }
+            },
+            "#037": {
+                "STANDARD": {
+                    "alt_value": 705.47,
+                    "asset_id": "08171e48-5eeb-4620-bd74-f0f5af54fba2"
                 }
             }
         }
@@ -10101,6 +12995,10 @@
                 "1st Edition Holo": {
                     "alt_value": 182.27,
                     "asset_id": "3aeff1ca-895f-4f2a-a9ae-c4f21ca454bf"
+                },
+                "STANDARD": {
+                    "alt_value": 145.64,
+                    "asset_id": "479ae7ff-b0e5-4abc-8490-283b7fbdace7"
                 }
             }
         },
@@ -10109,6 +13007,38 @@
                 "Art Rare": {
                     "alt_value": 22.67,
                     "asset_id": "fd8730b8-a671-4681-940b-d5f6509184e3"
+                }
+            }
+        },
+        "1997": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 29.75,
+                    "asset_id": "0a890422-f8e1-42ac-ba5d-0e0884f4564c"
+                }
+            }
+        },
+        "1999": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 34.61,
+                    "asset_id": "5c4bdbdd-bc8d-482f-b81f-a03768f48605"
+                }
+            }
+        },
+        "2018": {
+            "#286": {
+                "STANDARD": {
+                    "alt_value": 935.03,
+                    "asset_id": "1aff110c-951c-478e-84b1-1ac46fb5fb55"
+                }
+            }
+        },
+        "2025": {
+            "#071": {
+                "Art Rare": {
+                    "alt_value": 35.67,
+                    "asset_id": "3addded4-7116-4c3e-96cd-8ef74f5b102f"
                 }
             }
         }
@@ -10205,6 +13135,14 @@
                 "1st Edition": {
                     "alt_value": 41.38,
                     "asset_id": "11ea9a64-dc99-431c-be9f-3472008620e1"
+                }
+            }
+        },
+        "2012": {
+            "#60": {
+                "1st Edition": {
+                    "alt_value": 90.57,
+                    "asset_id": "4945c4cc-8af4-48de-bca0-6ee6f36d2012"
                 }
             }
         }
@@ -10338,6 +13276,20 @@
                     "alt_value": 103.18,
                     "asset_id": "e4bc4fd0-3628-47a2-9739-a7a2279eae4a"
                 }
+            },
+            "#158": {
+                "STANDARD": {
+                    "alt_value": 44.1,
+                    "asset_id": "0db0bf3f-21cd-41f0-9e9c-e06935d6d0ed"
+                }
+            }
+        },
+        "2023": {
+            "#068": {
+                "STANDARD": {
+                    "alt_value": 59.27,
+                    "asset_id": "a1000538-c051-485a-a3b6-af54e9aa46ad"
+                }
             }
         }
     },
@@ -10383,6 +13335,12 @@
                 "STANDARD": {
                     "alt_value": 37.7,
                     "asset_id": "da7e8978-0b18-4169-bed3-bab6a29d5378"
+                }
+            },
+            "#9": {
+                "1st Edition Holo": {
+                    "alt_value": 33.79,
+                    "asset_id": "ab963c9e-a944-47cb-8751-921918ac4cc5"
                 }
             }
         }
@@ -10445,6 +13403,22 @@
                 "Holo": {
                     "alt_value": 73.53,
                     "asset_id": "b37238b0-3896-4b8b-8c7a-78e954544f2f"
+                }
+            }
+        },
+        "1997": {
+            "#36": {
+                "Holo": {
+                    "alt_value": 37.67,
+                    "asset_id": "ae4f2c3e-4fec-4988-b8ef-037805cfe7e1"
+                }
+            }
+        },
+        "1995": {
+            "#36": {
+                "STANDARD": {
+                    "alt_value": 41.38,
+                    "asset_id": "ee7edb43-b4d1-47c4-b734-c3b0e11531c9"
                 }
             }
         }
@@ -10627,6 +13601,14 @@
                     "asset_id": "5393a88a-338b-4926-92da-bd2c6ee2222a"
                 }
             }
+        },
+        "2013": {
+            "#025": {
+                "STANDARD": {
+                    "alt_value": 67.79,
+                    "asset_id": "df26d4c1-5bd2-46cd-aaa0-fb4fd19709bb"
+                }
+            }
         }
     },
     "ALTARIA": {
@@ -10679,6 +13661,14 @@
                 "Art Rare": {
                     "alt_value": 10.45,
                     "asset_id": "4ce9a0d0-9e41-4cf4-888c-d1dd2e1c9184"
+                }
+            }
+        },
+        "1996": {
+            "#20": {
+                "STANDARD": {
+                    "alt_value": 29.99,
+                    "asset_id": "1221809f-16d4-4945-8786-5ca1f92ebcfa"
                 }
             }
         }
@@ -10798,6 +13788,12 @@
                     "alt_value": 62.19,
                     "asset_id": "73c1933a-4a9f-4744-8dcb-1675d4b0b753"
                 }
+            },
+            "#1": {
+                "STANDARD": {
+                    "alt_value": 38.18,
+                    "asset_id": "e263b0fc-a2dc-4bbb-b18b-99d40c2b23b7"
+                }
             }
         },
         "2009": {
@@ -10869,6 +13865,22 @@
                 "STANDARD": {
                     "alt_value": 34.53,
                     "asset_id": "35e2dc17-9465-46fe-aad0-ae26cdd8d98c"
+                }
+            }
+        },
+        "2002": {
+            "#12T": {
+                "STANDARD": {
+                    "alt_value": 75.49,
+                    "asset_id": "5250eddd-5752-4666-aa53-aff86b957d00"
+                }
+            }
+        },
+        "1997": {
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 26.83,
+                    "asset_id": "0beb7342-6bc8-442c-9183-8cbf92e14a5a"
                 }
             }
         }
@@ -10984,6 +13996,24 @@
                     "alt_value": 181.15,
                     "asset_id": "b1fed9cf-283f-4215-ba77-81fa7a07f187"
                 }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 63.29,
+                    "asset_id": "90c601f1-2a49-4e60-831c-9c5d9eb13e9b"
+                }
+            },
+            "#40": {
+                "STANDARD": {
+                    "alt_value": 41.6,
+                    "asset_id": "d3131300-b8c8-45ce-a5bc-82756477fee3"
+                }
+            },
+            "#35": {
+                "STANDARD": {
+                    "alt_value": 40.87,
+                    "asset_id": "b7013a31-83b3-4bc3-99d2-ce6159498ddb"
+                }
             }
         },
         "2019": {
@@ -11009,6 +14039,14 @@
                     "asset_id": "bc9dcf75-a60a-4a45-9087-f56225eb6d88"
                 }
             }
+        },
+        "1998": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 112.24,
+                    "asset_id": "3833def9-aeef-4470-a64e-35493fda7d90"
+                }
+            }
         }
     },
     "MAGMORTAR": {
@@ -11017,6 +14055,18 @@
                 "STANDARD": {
                     "alt_value": 13.17,
                     "asset_id": "e3b70e03-6ac4-4567-ac00-b10a6273293e"
+                }
+            }
+        },
+        "2012": {
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 116.26,
+                    "asset_id": "f13a2b30-b999-46f6-9f6b-16712d11f102"
+                },
+                "STANDARD": {
+                    "alt_value": 67.48,
+                    "asset_id": "b582edaf-b709-4ddd-b93d-d6ea7f71c8b7"
                 }
             }
         }
@@ -11063,6 +14113,10 @@
                 "STANDARD": {
                     "alt_value": 26.76,
                     "asset_id": "94152cef-87b9-4cee-bb9c-abf797057df5"
+                },
+                "Holo": {
+                    "alt_value": 41.7,
+                    "asset_id": "ba31aef8-1519-4114-ac5e-59bda121adee"
                 }
             }
         },
@@ -11079,6 +14133,14 @@
                 "STANDARD": {
                     "alt_value": 41.47,
                     "asset_id": "efc946fe-2a9c-4ffe-911a-a33a00845df4"
+                }
+            }
+        },
+        "2012": {
+            "#33": {
+                "1st Edition": {
+                    "alt_value": 38.97,
+                    "asset_id": "6a970c31-0e8c-4323-b30d-3be23bb239d3"
                 }
             }
         }
@@ -11135,6 +14197,14 @@
                 "Art Rare": {
                     "alt_value": 12.57,
                     "asset_id": "fd70e1b9-845b-4587-828b-2e81c4fa61a2"
+                }
+            }
+        },
+        "2002": {
+            "#17": {
+                "STANDARD": {
+                    "alt_value": 31.01,
+                    "asset_id": "3edfa1a8-bafa-43bc-bc3b-dfc0e2419df9"
                 }
             }
         }
@@ -11229,6 +14299,14 @@
                 "Art Rare": {
                     "alt_value": 24.49,
                     "asset_id": "905ab9e9-2a00-4ff9-a8cd-29fe9d909673"
+                }
+            }
+        },
+        "1997": {
+            "#131": {
+                "Holo": {
+                    "alt_value": 59.14,
+                    "asset_id": "79dec577-493c-4b4e-9bbd-74aa1407a849"
                 }
             }
         }
@@ -11351,6 +14429,22 @@
                     "asset_id": "d61a5b34-f26e-4d68-bc21-7fc4bdede732"
                 }
             }
+        },
+        "2025": {
+            "#127": {
+                "Art Rare": {
+                    "alt_value": 34.83,
+                    "asset_id": "1319a566-727e-488b-851f-2c5275a8f07f"
+                }
+            }
+        },
+        "2000": {
+            "#169": {
+                "Holo": {
+                    "alt_value": 32.44,
+                    "asset_id": "a8596083-fc51-449d-b803-d68ce56bc7e9"
+                }
+            }
         }
     },
     "CALYREX": {
@@ -11401,6 +14495,14 @@
                     "asset_id": "7bc27da0-4538-49d8-82c0-f721a7bbcc43"
                 }
             }
+        },
+        "2009": {
+            "#81": {
+                "1st Edition": {
+                    "alt_value": 41.72,
+                    "asset_id": "0813baf0-8c2c-4f7c-bfc1-cfb90f5fb22f"
+                }
+            }
         }
     },
     "QUAXLY": {
@@ -11427,6 +14529,14 @@
                 "Art Rare": {
                     "alt_value": 12.9,
                     "asset_id": "367eeeb2-caf7-47f4-af75-b6a9ec8b8865"
+                }
+            }
+        },
+        "2007": {
+            "#11": {
+                "STANDARD": {
+                    "alt_value": 26.65,
+                    "asset_id": "0806151b-ffa9-4f65-a38d-8046e227ef87"
                 }
             }
         }
@@ -11605,6 +14715,10 @@
                 "1st Edition": {
                     "alt_value": 43.76,
                     "asset_id": "e2a3aded-a760-4da6-96a7-3cc30c34297b"
+                },
+                "STANDARD": {
+                    "alt_value": 29.44,
+                    "asset_id": "a9cde0e2-fbb5-42a5-a4ca-05c0fbe0834b"
                 }
             }
         },
@@ -11621,6 +14735,14 @@
                 "STANDARD": {
                     "alt_value": 18.25,
                     "asset_id": "7a29de0f-3ba2-41f6-a196-175836df8f3c"
+                }
+            }
+        },
+        "1996": {
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 79.63,
+                    "asset_id": "48a386d4-03de-4bce-ba69-e064c0db94da"
                 }
             }
         }
@@ -11678,6 +14800,12 @@
                     "alt_value": 101.81,
                     "asset_id": "a9041cdf-18e2-4d71-9bea-611e5c295aa5"
                 }
+            },
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 32.67,
+                    "asset_id": "509a013e-4633-4883-97a7-6a2b96c01ff3"
+                }
             }
         },
         "2000": {
@@ -11725,6 +14853,38 @@
                     "asset_id": "0ba1cd5b-bcaa-45d6-ad4d-cc8c6b594587"
                 }
             }
+        },
+        "2009": {
+            "#39": {
+                "1st Edition Holo": {
+                    "alt_value": 43.21,
+                    "asset_id": "ac566197-72dd-44a6-b49c-5327446f864a"
+                }
+            }
+        },
+        "1996": {
+            "#0": {
+                "STANDARD": {
+                    "alt_value": 242.85,
+                    "asset_id": "c0c288a7-bc49-4c1c-ae4b-ed83df3093b3"
+                }
+            }
+        },
+        "2000": {
+            "#199": {
+                "Holo": {
+                    "alt_value": 49.77,
+                    "asset_id": "6ed72461-40dc-48b3-893f-4fae2d0aa8ed"
+                }
+            }
+        },
+        "1999": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 93.98,
+                    "asset_id": "35c3f7a9-6740-4950-8fed-1a1f755fe80a"
+                }
+            }
         }
     },
     "ARBOK": {
@@ -11733,6 +14893,12 @@
                 "STANDARD": {
                     "alt_value": 12.63,
                     "asset_id": "a0363462-b020-49be-9760-8bdf72ca14ee"
+                }
+            },
+            "#24": {
+                "STANDARD": {
+                    "alt_value": 9.93,
+                    "asset_id": "482899e1-5e73-4990-891b-336aa7e9119b"
                 }
             }
         },
@@ -11749,6 +14915,22 @@
                 "Art Rare": {
                     "alt_value": 11.6,
                     "asset_id": "4bb75251-d987-408f-a62c-258ce6f2e579"
+                }
+            }
+        },
+        "1996": {
+            "#24": {
+                "STANDARD": {
+                    "alt_value": 42.86,
+                    "asset_id": "ec6861ef-ea30-4e3f-aa7f-1890a2165313"
+                }
+            }
+        },
+        "1997": {
+            "#24": {
+                "Holo": {
+                    "alt_value": 38.81,
+                    "asset_id": "df18c00c-1057-4780-abbc-63130f298a5c"
                 }
             }
         }
@@ -11781,6 +14963,22 @@
                 "1st Edition": {
                     "alt_value": 73.97,
                     "asset_id": "2ecd9608-2ef3-4adb-bed6-536d7ab567d4"
+                }
+            }
+        },
+        "1999": {
+            "#160": {
+                "Holo": {
+                    "alt_value": 43.98,
+                    "asset_id": "03cf4945-59f6-4e77-9f83-c56d7f133878"
+                }
+            }
+        },
+        "2005": {
+            "#3": {
+                "Holo": {
+                    "alt_value": 79.4,
+                    "asset_id": "f9101ec3-753d-4f71-95a1-c530cdf64092"
                 }
             }
         }
@@ -11934,6 +15132,20 @@
                     "alt_value": 27.31,
                     "asset_id": "31886af4-3cd6-4bbd-a1b8-5cc91035f24c"
                 }
+            },
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 79.49,
+                    "asset_id": "d79316ba-5f24-42aa-9dee-f5777b4e548a"
+                }
+            }
+        },
+        "2008": {
+            "#78": {
+                "STANDARD": {
+                    "alt_value": 54.56,
+                    "asset_id": "dd635d53-b4d2-4112-80d1-a3fb1bd9fcb0"
+                }
             }
         }
     },
@@ -12003,6 +15215,14 @@
                     "asset_id": "3567c4ca-bb42-44d6-9370-c1cce571f92a"
                 }
             }
+        },
+        "1998": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 71.8,
+                    "asset_id": "e3bebacc-53f8-4e89-8d99-ba3441068cd4"
+                }
+            }
         }
     },
     "SCOVILLAIN": {
@@ -12033,6 +15253,14 @@
                     "asset_id": "4be9adeb-349c-4c70-92de-e94f5db9f510"
                 }
             }
+        },
+        "2003": {
+            "#10": {
+                "STANDARD": {
+                    "alt_value": 50.23,
+                    "asset_id": "f1836157-dfb0-4480-8474-373dbb752dcd"
+                }
+            }
         }
     },
     "TOTODILE": {
@@ -12059,6 +15287,14 @@
                 "STANDARD": {
                     "alt_value": 79.11,
                     "asset_id": "370e3b94-3aa1-457f-8d27-e3280bda29c2"
+                }
+            }
+        },
+        "1999": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 60.66,
+                    "asset_id": "624f7720-af0b-4e24-9d29-b3d836ebf9cb"
                 }
             }
         }
@@ -12107,6 +15343,14 @@
                 "1st Edition": {
                     "alt_value": 36.14,
                     "asset_id": "fab5fa7d-f5a2-42c5-b740-5076ce0cc219"
+                }
+            }
+        },
+        "2008": {
+            "#74": {
+                "1st Edition": {
+                    "alt_value": 22.95,
+                    "asset_id": "8bef66fd-3858-40b3-917b-a9711a71f68a"
                 }
             }
         }
@@ -12176,6 +15420,12 @@
                     "alt_value": 88.01,
                     "asset_id": "4a132abf-53fb-408a-809d-5c1ba6552906"
                 }
+            },
+            "#157": {
+                "Holo": {
+                    "alt_value": 59.43,
+                    "asset_id": "bd7c326b-34cf-446c-8d7d-a05b6ed8b54e"
+                }
             }
         },
         "2025": {
@@ -12183,6 +15433,30 @@
                 "Art Rare": {
                     "alt_value": 21.03,
                     "asset_id": "677c48c4-0515-4856-845d-b3e0bfdec047"
+                }
+            }
+        },
+        "2005": {
+            "#3": {
+                "STANDARD": {
+                    "alt_value": 52.4,
+                    "asset_id": "aed7627f-5be5-437a-a478-48d2d78e3411"
+                }
+            }
+        },
+        "2000": {
+            "#157": {
+                "Holo": {
+                    "alt_value": 73.59,
+                    "asset_id": "9f46b7f6-4010-45af-b2f8-374cf6344dd3"
+                }
+            }
+        },
+        "2009": {
+            "#17": {
+                "1st Edition": {
+                    "alt_value": 57.69,
+                    "asset_id": "585b6e97-5e8d-4e3c-8b81-6ed1c5f03063"
                 }
             }
         }
@@ -12233,6 +15507,10 @@
                 "STANDARD": {
                     "alt_value": 272.62,
                     "asset_id": "31a7a2a1-c69a-4786-beab-d57092da4a01"
+                },
+                "1st Edition": {
+                    "alt_value": 230.0,
+                    "asset_id": "0f304f85-df01-4bdb-9cba-5cec2ed8f44b"
                 }
             }
         },
@@ -12249,6 +15527,20 @@
                 "Art Rare": {
                     "alt_value": 135.94,
                     "asset_id": "2dda7bf7-813a-424e-8993-aa742035eb92"
+                }
+            },
+            "#174": {
+                "STANDARD": {
+                    "alt_value": 194.74,
+                    "asset_id": "3684a53e-4af4-4d2d-821f-8f9f4aa0392e"
+                }
+            }
+        },
+        "2012": {
+            "#159": {
+                "STANDARD": {
+                    "alt_value": 205.38,
+                    "asset_id": "fabe105f-5a16-4022-9b12-d9ce6435ea4d"
                 }
             }
         }
@@ -12367,6 +15659,14 @@
                     "asset_id": "3426322f-27d0-4fd3-a7df-64ec92836190"
                 }
             }
+        },
+        "1997": {
+            "#106": {
+                "Holo": {
+                    "alt_value": 45.85,
+                    "asset_id": "0eea9a67-08f3-4d9e-befe-7825e21bed28"
+                }
+            }
         }
     },
     "HERACROSS": {
@@ -12453,6 +15753,20 @@
                 "Reverse Holo": {
                     "alt_value": 13.04,
                     "asset_id": "572786f0-cd81-46b5-aa33-b9efc6eba1b7"
+                }
+            },
+            "#119": {
+                "Art Rare": {
+                    "alt_value": 11.3,
+                    "asset_id": "0d120e3b-49f6-4ca9-ac08-8f45d05f93d7"
+                }
+            }
+        },
+        "1996": {
+            "#17": {
+                "STANDARD": {
+                    "alt_value": 317.19,
+                    "asset_id": "37a2bb95-5292-4c13-889b-9f72a4b75d8c"
                 }
             }
         }
@@ -12563,7 +15877,7 @@
         "1996": {
             "#96": {
                 "STANDARD": {
-                    "alt_value": 28.86,
+                    "alt_value": 83.02,
                     "asset_id": "2ede9fc0-d2b4-4d24-9af3-bede762cf665"
                 }
             }
@@ -12661,6 +15975,14 @@
                 "Art Rare": {
                     "alt_value": 16.95,
                     "asset_id": "c3fa2f02-beae-477b-b319-f2e22ddcc168"
+                }
+            }
+        },
+        "2010": {
+            "#48": {
+                "STANDARD": {
+                    "alt_value": 84.23,
+                    "asset_id": "d0b1b4b3-3431-4ee5-bc4e-cd90b55527a0"
                 }
             }
         }
@@ -12765,6 +16087,14 @@
                     "asset_id": "cb79b9f9-7c2f-462c-b069-e675d9908c1b"
                 }
             }
+        },
+        "2010": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 4649.1,
+                    "asset_id": "64dc836d-789d-476e-87cf-52369dc875f4"
+                }
+            }
         }
     },
     "CLAYDOL": {
@@ -12773,6 +16103,10 @@
                 "1st Edition": {
                     "alt_value": 46.97,
                     "asset_id": "5d93c804-d708-479d-b404-d00fe6bd594d"
+                },
+                "STANDARD": {
+                    "alt_value": 39.5,
+                    "asset_id": "902b2033-ab69-4517-9ebf-b85908711a96"
                 }
             }
         }
@@ -12893,6 +16227,18 @@
                 "1st Edition": {
                     "alt_value": 22.61,
                     "asset_id": "b79946a1-e698-41f9-b3f5-4ba4739abe7c"
+                }
+            },
+            "#83": {
+                "STANDARD": {
+                    "alt_value": 43.43,
+                    "asset_id": "f436c0c7-356c-40d0-be89-2c1d653ea2a5"
+                }
+            },
+            "#48": {
+                "STANDARD": {
+                    "alt_value": 67.87,
+                    "asset_id": "34555e58-4d15-47f4-a121-8ed104ebe69a"
                 }
             }
         }
@@ -13027,6 +16373,14 @@
                     "asset_id": "cd0a816b-d9d9-41d0-b0de-16e1cc3fdb5c"
                 }
             }
+        },
+        "2022": {
+            "#201": {
+                "STANDARD": {
+                    "alt_value": 14.88,
+                    "asset_id": "a51d9cfc-2243-4faf-a69e-47cabffdfd68"
+                }
+            }
         }
     },
     "AGGRON-": {
@@ -13085,6 +16439,14 @@
                 "STANDARD": {
                     "alt_value": 18.09,
                     "asset_id": "35668872-acca-4402-ad76-f86b51cba69f"
+                }
+            }
+        },
+        "2007": {
+            "#001": {
+                "Holo": {
+                    "alt_value": 40.44,
+                    "asset_id": "54ac5bc0-4a25-4f6c-bc77-59c673a053c3"
                 }
             }
         }
@@ -13223,6 +16585,10 @@
                 "Holo": {
                     "alt_value": 1253.42,
                     "asset_id": "4dbbf355-5fdb-49d8-9ef1-87741f0818ed"
+                },
+                "STANDARD": {
+                    "alt_value": 818.37,
+                    "asset_id": "c8e5ebe2-bf15-4a2f-acde-978e54cd40f9"
                 }
             }
         },
@@ -13231,6 +16597,14 @@
                 "1st Edition": {
                     "alt_value": 77.96,
                     "asset_id": "4d917358-8a8c-42e5-9f39-be330b4d28ea"
+                }
+            }
+        },
+        "2003": {
+            "#3": {
+                "Holo": {
+                    "alt_value": 111.23,
+                    "asset_id": "19421e82-454b-4812-9fe0-a68e19a51e2d"
                 }
             }
         }
@@ -13298,6 +16672,20 @@
                     "alt_value": 56.44,
                     "asset_id": "17b0f9bd-1b6c-4d2c-a510-61160b310987"
                 }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 33.94,
+                    "asset_id": "7430dc3e-7d50-4d71-81e5-27451b02ca33"
+                }
+            }
+        },
+        "2001": {
+            "#35": {
+                "1st Edition": {
+                    "alt_value": 29.26,
+                    "asset_id": "beee01c0-54ec-418b-95ca-0f409ee4a4ad"
+                }
             }
         }
     },
@@ -13307,6 +16695,14 @@
                 "Art Rare": {
                     "alt_value": 14.04,
                     "asset_id": "4447b2f9-f0ba-4402-a8ea-9ac735b1a9da"
+                }
+            }
+        },
+        "2001": {
+            "#19": {
+                "1st Edition": {
+                    "alt_value": 32.23,
+                    "asset_id": "1a8c366f-581d-4070-b890-8893f48e2a81"
                 }
             }
         }
@@ -13375,6 +16771,14 @@
                     "asset_id": "acf15aa1-19cf-40dc-9aa7-18445a91969b"
                 }
             }
+        },
+        "2011": {
+            "#9": {
+                "1st Edition Holo": {
+                    "alt_value": 25.37,
+                    "asset_id": "8ddda7a4-760b-4479-8ae9-fc07021159ba"
+                }
+            }
         }
     },
     "REGICE": {
@@ -13383,6 +16787,14 @@
                 "Holo": {
                     "alt_value": 95.8,
                     "asset_id": "9496cc1d-793a-4304-bc78-f18ea587045b"
+                }
+            }
+        },
+        "2005": {
+            "#33": {
+                "1st Edition Holo": {
+                    "alt_value": 1477.09,
+                    "asset_id": "fa7e236d-e7c9-44b8-86ef-e1df33d58f5a"
                 }
             }
         }
@@ -13399,6 +16811,12 @@
                 "STANDARD": {
                     "alt_value": 79.33,
                     "asset_id": "59292c24-ef7e-447a-83d8-33a7aa38462d"
+                }
+            },
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 31.13,
+                    "asset_id": "3b97d01e-b5e7-4460-9dbf-287d4308d787"
                 }
             }
         },
@@ -13417,6 +16835,14 @@
                 "Reverse Holo": {
                     "alt_value": 12.6,
                     "asset_id": "d7ea9efe-ef82-4d1e-b84a-3db6f85c72dc"
+                }
+            }
+        },
+        "1998": {
+            "#117": {
+                "Holo": {
+                    "alt_value": 44.49,
+                    "asset_id": "bf48d19c-b489-4a43-8494-cdcb82babefc"
                 }
             }
         }
@@ -13457,6 +16883,10 @@
                 "1st Edition Holo": {
                     "alt_value": 68.4,
                     "asset_id": "f165a3bd-efc5-459c-a1d2-ef2c8c99acaa"
+                },
+                "STANDARD": {
+                    "alt_value": 60.61,
+                    "asset_id": "863d9dac-9b7e-4c95-b915-ff8283b11e5a"
                 }
             }
         },
@@ -13465,6 +16895,14 @@
                 "Holo": {
                     "alt_value": 34.93,
                     "asset_id": "ddabc915-f213-4732-9d9a-303759db5132"
+                }
+            }
+        },
+        "2000": {
+            "#184": {
+                "Holo": {
+                    "alt_value": 31.93,
+                    "asset_id": "5966e5ba-3ea2-4e40-8d2d-46f9b657721e"
                 }
             }
         }
@@ -13619,6 +17057,14 @@
                     "asset_id": "fa3c3162-4692-49c5-a2a8-36646dfc2e0a"
                 }
             }
+        },
+        "2001": {
+            "#128": {
+                "Holo": {
+                    "alt_value": 65.07,
+                    "asset_id": "26d4c224-191e-4f49-b646-0adf54d1c9ca"
+                }
+            }
         }
     },
     "ZERAORA": {
@@ -13742,6 +17188,12 @@
                     "alt_value": 112.83,
                     "asset_id": "30f0d2d3-2702-4f90-bd7f-27399dc52b96"
                 }
+            },
+            "#89": {
+                "1st Edition Holo": {
+                    "alt_value": 716.03,
+                    "asset_id": "2f005a98-70c2-48df-914f-ab4595758209"
+                }
             }
         },
         "2010": {
@@ -13749,6 +17201,14 @@
                 "1st Edition": {
                     "alt_value": 48.56,
                     "asset_id": "13e67d93-256b-4f79-b8d1-b3615516aff4"
+                }
+            }
+        },
+        "2000": {
+            "#230": {
+                "Holo": {
+                    "alt_value": 40.44,
+                    "asset_id": "771e1f6a-6b16-4735-8558-ec870eea7c6a"
                 }
             }
         }
@@ -13769,6 +17229,30 @@
                 "1st Edition Holo": {
                     "alt_value": 20.08,
                     "asset_id": "ccc819de-28a2-4a24-b859-ddb82609eca7"
+                }
+            }
+        },
+        "1998": {
+            "#107": {
+                "Holo": {
+                    "alt_value": 51.0,
+                    "asset_id": "b2021541-3be2-41ad-b261-bcaf4f360fdc"
+                }
+            }
+        },
+        "2004": {
+            "#60": {
+                "1st Edition": {
+                    "alt_value": 171.95,
+                    "asset_id": "38cbcabe-964e-4e03-b8af-828652d607d4"
+                }
+            }
+        },
+        "1996": {
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 1729.37,
+                    "asset_id": "0710c939-8355-4353-8744-6f9ea510e55d"
                 }
             }
         }
@@ -13879,6 +17363,14 @@
                     "asset_id": "d18f69e9-51e2-469e-bb00-c1e649779f6c"
                 }
             }
+        },
+        "1998": {
+            "#139": {
+                "Holo": {
+                    "alt_value": 617.81,
+                    "asset_id": "f8ba5e50-cce0-4c93-8b15-2c5d50c990b9"
+                }
+            }
         }
     },
     "VOLTORB": {
@@ -13913,6 +17405,14 @@
                 "Art Rare": {
                     "alt_value": 13.98,
                     "asset_id": "f9a29831-8596-4279-85d5-7a987ab5ae66"
+                }
+            }
+        },
+        "2022": {
+            "#232": {
+                "STANDARD": {
+                    "alt_value": 21.31,
+                    "asset_id": "0431e80e-550e-4764-9cae-6d283983998a"
                 }
             }
         }
@@ -13953,6 +17453,14 @@
                 "STANDARD": {
                     "alt_value": 17.89,
                     "asset_id": "6161167a-138b-488f-afa8-ff6d6173c470"
+                }
+            }
+        },
+        "2000": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 37.79,
+                    "asset_id": "bb81de21-0d05-409b-8e18-cb9765f865f4"
                 }
             }
         }
@@ -14005,6 +17513,14 @@
                     "asset_id": "510e1869-0c0f-4ab8-b80e-7b6045c42bb1"
                 }
             }
+        },
+        "2014": {
+            "#71": {
+                "1st Edition": {
+                    "alt_value": 94.49,
+                    "asset_id": "567eb778-c748-4f4f-a90b-0784971dd71a"
+                }
+            }
         }
     },
     "CUBONE": {
@@ -14015,6 +17531,22 @@
                     "asset_id": "f65194fb-adfd-4883-9ffd-9066b6e4f31b"
                 }
             }
+        },
+        "2001": {
+            "#104": {
+                "STANDARD": {
+                    "alt_value": 48.74,
+                    "asset_id": "358fb57d-4692-42da-acc9-b1b912ecf161"
+                }
+            }
+        },
+        "1997": {
+            "#104": {
+                "Holo": {
+                    "alt_value": 36.72,
+                    "asset_id": "4593902d-d234-487c-9a4d-cd839ffce037"
+                }
+            }
         }
     },
     "PINSIR": {
@@ -14023,6 +17555,14 @@
                 "Art Rare": {
                     "alt_value": 12.24,
                     "asset_id": "ca884f5a-2d2c-4896-8f68-bf39996b738a"
+                }
+            }
+        },
+        "1997": {
+            "#127": {
+                "Holo": {
+                    "alt_value": 36.96,
+                    "asset_id": "a8e3a574-56c5-4b11-9a1e-f2ecb7fbfcb2"
                 }
             }
         }
@@ -14121,6 +17661,424 @@
                 "STANDARD": {
                     "alt_value": 13.36,
                     "asset_id": "134e3a0b-fa5f-446d-9d69-3a9cd47473ef"
+                }
+            }
+        }
+    },
+    "SLOWBRO": {
+        "2001": {
+            "#28": {
+                "1st Edition": {
+                    "alt_value": 69.63,
+                    "asset_id": "39065833-876b-446e-a544-1120d4dfb607"
+                }
+            }
+        },
+        "1997": {
+            "#80": {
+                "Holo": {
+                    "alt_value": 48.76,
+                    "asset_id": "38a0394e-4314-4dc1-bee3-cf40033d8281"
+                }
+            }
+        },
+        "1996": {
+            "#80": {
+                "STANDARD": {
+                    "alt_value": 35.79,
+                    "asset_id": "de40d1a3-d5f1-4dd2-a0a3-b8d15913e3f3"
+                }
+            }
+        }
+    },
+    "LARVITAR": {
+        "2002": {
+            "#18": {
+                "Holo": {
+                    "alt_value": 182.79,
+                    "asset_id": "53905488-2ba7-4227-8814-9e344598c67b"
+                }
+            }
+        }
+    },
+    "HYPNO": {
+        "2002": {
+            "#42": {
+                "1st Edition Holo": {
+                    "alt_value": 107.89,
+                    "asset_id": "6e47e7a6-8017-456e-98b5-8706c950ccf8"
+                }
+            }
+        },
+        "1997": {
+            "#97": {
+                "Holo": {
+                    "alt_value": 39.55,
+                    "asset_id": "ae23c1ad-eaa6-4829-bc74-55d76405cc55"
+                }
+            }
+        },
+        "2004": {
+            "#43": {
+                "1st Edition": {
+                    "alt_value": 74.49,
+                    "asset_id": "063d836d-ff60-4648-9630-2a9582ca3a18"
+                }
+            }
+        }
+    },
+    "JYNX": {
+        "1999": {
+            "#124": {
+                "STANDARD": {
+                    "alt_value": 31.81,
+                    "asset_id": "55bab384-43f4-4767-be98-a28dc7f853c3"
+                }
+            }
+        },
+        "1996": {
+            "#124": {
+                "STANDARD": {
+                    "alt_value": 42.91,
+                    "asset_id": "e02cc97c-42fb-4019-8039-2599afb53449"
+                }
+            }
+        },
+        "2001": {
+            "#74": {
+                "1st Edition": {
+                    "alt_value": 33.82,
+                    "asset_id": "7dc1c97d-c8f8-4ac5-8d19-422c9145c1de"
+                }
+            }
+        }
+    },
+    "PERRIN": {
+        "2024": {
+            "#92": {
+                "Art Rare": {
+                    "alt_value": 59.76,
+                    "asset_id": "3f8532a7-1378-4a3d-9b9d-5e53b03f9af4"
+                }
+            }
+        }
+    },
+    "NIDORINA": {
+        "1997": {
+            "#30": {
+                "Holo": {
+                    "alt_value": 13.75,
+                    "asset_id": "a620f852-4d93-4c8b-9364-82cb47025c1e"
+                }
+            }
+        }
+    },
+    "SHARPEDO": {
+        "2004": {
+            "#72": {
+                "1st Edition Holo": {
+                    "alt_value": 63.22,
+                    "asset_id": "ec973d36-49cc-4cad-98cf-88e3cd78fa2f"
+                }
+            }
+        }
+    },
+    "MEGANIUM": {
+        "2009": {
+            "#9": {
+                "STANDARD": {
+                    "alt_value": 46.45,
+                    "asset_id": "0bf5a03a-4b8f-41f7-9ffd-a328954ccafe"
+                }
+            }
+        },
+        "2001": {
+            "#102": {
+                "1st Edition Holo": {
+                    "alt_value": 78.97,
+                    "asset_id": "06bbfffd-c6d0-40c8-aa6a-98438ff2a151"
+                }
+            }
+        },
+        "2000": {
+            "#154": {
+                "Holo": {
+                    "alt_value": 46.77,
+                    "asset_id": "23a607e4-fda0-421a-b861-00f920f9c2c9"
+                }
+            }
+        }
+    },
+    "CLOYSTER": {
+        "2001": {
+            "#110": {
+                "Holo": {
+                    "alt_value": 53.23,
+                    "asset_id": "342af0d4-f8d7-4cbb-a837-df95885bdbbb"
+                }
+            }
+        }
+    },
+    "PORYGON2": {
+        "2000": {
+            "#233": {
+                "Holo": {
+                    "alt_value": 33.4,
+                    "asset_id": "fc551d97-dd2f-406f-a0ad-cada532f4d83"
+                }
+            }
+        }
+    },
+    "OCTILLERY": {
+        "2002": {
+            "#40": {
+                "1st Edition Holo": {
+                    "alt_value": 63.64,
+                    "asset_id": "8175e038-4df6-47b8-b833-56545281bb9c"
+                }
+            }
+        }
+    },
+    "ROWLET": {
+        "2018": {
+            "#290": {
+                "STANDARD": {
+                    "alt_value": 451.45,
+                    "asset_id": "7ce888ec-0fd3-43b0-accd-395675f1e19b"
+                }
+            }
+        }
+    },
+    "KAKUNA": {
+        "1996": {
+            "#14": {
+                "STANDARD": {
+                    "alt_value": 70.01,
+                    "asset_id": "97d7b062-59b7-43d2-9401-7410d05414a2"
+                }
+            }
+        }
+    },
+    "MISDREAVUS": {
+        "2000": {
+            "#200": {
+                "Holo": {
+                    "alt_value": 34.43,
+                    "asset_id": "933626d8-d1f1-4e7a-aa97-3bf65067929e"
+                }
+            }
+        }
+    },
+    "HIPPOWDON": {
+        "2008": {
+            "#56": {
+                "1st Edition": {
+                    "alt_value": 32.37,
+                    "asset_id": "0b1b6eb1-4ecc-4f9c-a02a-ba661f6d30a7"
+                }
+            }
+        }
+    },
+    "NOCTOWL": {
+        "2001": {
+            "#164": {
+                "STANDARD": {
+                    "alt_value": 1088.57,
+                    "asset_id": "448278cb-2eb1-46bd-a09b-2d9c27eed3ac"
+                }
+            }
+        }
+    },
+    "YANMA": {
+        "2000": {
+            "#193": {
+                "Holo": {
+                    "alt_value": 29.34,
+                    "asset_id": "f5d623bd-8f8c-49fa-93d6-8302cbf15457"
+                }
+            }
+        }
+    },
+    "LINOONE": {
+        "2020": {
+            "#278": {
+                "STANDARD": {
+                    "alt_value": 9.96,
+                    "asset_id": "4026eeff-2d97-4a65-820a-3c3b8953c844"
+                }
+            }
+        }
+    },
+    "FLYGON": {
+        "2003": {
+            "#6": {
+                "STANDARD": {
+                    "alt_value": 51.0,
+                    "asset_id": "c237428a-73f7-46af-a519-29ea0f8d452c"
+                }
+            },
+            "#32": {
+                "Art Rare": {
+                    "alt_value": 42.26,
+                    "asset_id": "6d48d523-0ee0-4eb6-aaf4-3e88b3fcf9ff"
+                }
+            }
+        },
+        "2006": {
+            "#125": {
+                "STANDARD": {
+                    "alt_value": 46.89,
+                    "asset_id": "d14dc284-305c-4adc-93d5-9b6e8d1779e7"
+                }
+            }
+        }
+    },
+    "UNOWN": {
+        "2000": {
+            "#201": {
+                "STANDARD": {
+                    "alt_value": 36.58,
+                    "asset_id": "ee0fb2df-aafb-46f5-bec3-f2193bf9b837"
+                }
+            }
+        }
+    },
+    "TIMBURR": {
+        "2024": {
+            "#109": {
+                "Art Rare": {
+                    "alt_value": 10.82,
+                    "asset_id": "6323293c-c515-42c5-8523-e395c44a968c"
+                }
+            }
+        }
+    },
+    "DODRIO": {
+        "1997": {
+            "#85": {
+                "Holo": {
+                    "alt_value": 13.71,
+                    "asset_id": "b2504cb8-f44a-4107-bbe1-aac9b0b9b3fa"
+                }
+            }
+        }
+    },
+    "CHIKORITA": {
+        "2002": {
+            "#3": {
+                "Holo": {
+                    "alt_value": 181.96,
+                    "asset_id": "35bfacbc-6ae0-4874-b290-20bdb34cb45e"
+                }
+            }
+        }
+    },
+    "SUNKERN": {
+        "2000": {
+            "#191": {
+                "STANDARD": {
+                    "alt_value": 131.32,
+                    "asset_id": "2202f929-93e3-4a36-92e7-f476039701e1"
+                }
+            }
+        }
+    },
+    "AZELF": {
+        "2008": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 65.21,
+                    "asset_id": "a5371b47-4efc-4ff3-a051-8d9f0dff3560"
+                }
+            }
+        }
+    },
+    "CYNDAQUIL": {
+        "2002": {
+            "#6": {
+                "STANDARD": {
+                    "alt_value": 51.81,
+                    "asset_id": "3fa80b9c-5eb6-4608-b85a-62acf28bee89"
+                }
+            }
+        }
+    },
+    "MUNCHLAX": {
+        "2005": {
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 148.47,
+                    "asset_id": "12948f58-7ddb-414a-97d7-e2ed81c09b10"
+                }
+            }
+        }
+    },
+    "COMBUSKEN": {
+        "2003": {
+            "#9": {
+                "STANDARD": {
+                    "alt_value": 36.54,
+                    "asset_id": "888370f1-a311-4be9-afa9-140082da72e5"
+                }
+            }
+        }
+    },
+    "DIGLETT": {
+        "1996": {
+            "#50": {
+                "STANDARD": {
+                    "alt_value": 42.0,
+                    "asset_id": "91da4b95-2c69-40d2-9c7e-27b43776f462"
+                }
+            }
+        }
+    },
+    "PRINPLUP": {
+        "2007": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 34.35,
+                    "asset_id": "b4e577cb-721b-467c-9ac5-2962ae69522e"
+                }
+            }
+        }
+    },
+    "BELLOSSOM": {
+        "1999": {
+            "#182": {
+                "Holo": {
+                    "alt_value": 27.53,
+                    "asset_id": "b360ad55-c4c3-4eb1-9eb1-e702f1b12bb9"
+                }
+            }
+        }
+    },
+    "GALLADE": {
+        "2019": {
+            "#57": {
+                "STANDARD": {
+                    "alt_value": 22.91,
+                    "asset_id": "23f96dc6-bbd0-4d7a-aa60-8fb56849ffdd"
+                }
+            }
+        }
+    },
+    "MAGMAR": {
+        "1996": {
+            "#126": {
+                "STANDARD": {
+                    "alt_value": 112.31,
+                    "asset_id": "30d1f9cb-3e60-4a5a-9bf4-e77d8f2cfc1d"
+                }
+            }
+        }
+    },
+    "WIGGLYTUFF": {
+        "1997": {
+            "#40": {
+                "Holo": {
+                    "alt_value": 39.24,
+                    "asset_id": "6c3af2a5-6117-41d3-95d5-22c741466ab0"
                 }
             }
         }
