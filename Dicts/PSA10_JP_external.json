@@ -670,6 +670,12 @@
                     "alt_value": 75.09,
                     "asset_id": "4a7b91eb-9281-4d4c-a385-670abdf7b7bb"
                 }
+            },
+            "#242": {
+                "STANDARD": {
+                    "alt_value": 37.12,
+                    "asset_id": "2dcaad6f-9712-48a2-8ced-c7870e98a641"
+                }
             }
         },
         "2016": {
@@ -2893,6 +2899,12 @@
                 "STANDARD": {
                     "alt_value": 47.76,
                     "asset_id": "a1e85907-8b5a-4b79-a06d-acd3e170e43a"
+                }
+            },
+            "#6": {
+                "STANDARD": {
+                    "alt_value": 40.98,
+                    "asset_id": "228d0a0d-fa62-4293-b865-1132c7e9faee"
                 }
             }
         },
@@ -9874,6 +9886,12 @@
                     "alt_value": 77.42,
                     "asset_id": "e3a7cedb-30ca-4020-9766-e9cc03d01b34"
                 }
+            },
+            "#079": {
+                "STANDARD": {
+                    "alt_value": 41.88,
+                    "asset_id": "07032f31-3b1d-4cd4-b7f1-a7fc845aea10"
+                }
             }
         },
         "2022": {
@@ -11896,6 +11914,12 @@
                     "alt_value": 76.92,
                     "asset_id": "1319a566-727e-488b-851f-2c5275a8f07f"
                 }
+            },
+            "#131": {
+                "STANDARD": {
+                    "alt_value": 36.46,
+                    "asset_id": "253f71cd-1b11-467e-9747-3932cf01e56e"
+                }
             }
         },
         "2002": {
@@ -12619,6 +12643,12 @@
                 "Reverse Holo": {
                     "alt_value": 33.29,
                     "asset_id": "3ff54a2e-5ad3-44c9-822b-1f78652a840e"
+                }
+            },
+            "#41": {
+                "STANDARD": {
+                    "alt_value": 23.6,
+                    "asset_id": "da545a9a-b20c-4b20-85d2-2ecfe6253a86"
                 }
             }
         },
@@ -17385,6 +17415,14 @@
                     "asset_id": "4dd657f3-9926-43fd-844a-0ad75a5015b5"
                 }
             }
+        },
+        "2023": {
+            "#72": {
+                "Art Rare": {
+                    "alt_value": 31.64,
+                    "asset_id": "ccaaf0f9-183f-4d66-806a-5b3cf8decbef"
+                }
+            }
         }
     },
     "GARBODOR": {
@@ -18505,6 +18543,16 @@
                 "Art Rare": {
                     "alt_value": 27.11,
                     "asset_id": "7ef39790-8db4-4987-bb60-208f9bb9b1ea"
+                }
+            }
+        }
+    },
+    "SAWSBUCK": {
+        "2024": {
+            "#74": {
+                "Art Rare": {
+                    "alt_value": 37.05,
+                    "asset_id": "1315621b-093f-408b-b74a-4edf8eb908d4"
                 }
             }
         }
