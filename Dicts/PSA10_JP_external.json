@@ -7,7 +7,7 @@
                 }
             },
             "#17": {
-                "Starter Set": {
+                "STANDARD": {
                     "alt_value": 52.59
                 }
             },
@@ -22,21 +22,21 @@
                 }
             },
             "#106": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 133.18
                 }
             }
         },
         "2013": {
             "#235BWP": {
-                "Holo Pokemon Fair 711": {
+                "Holo": {
                     "alt_value": 256.76
                 }
             }
         },
         "2021": {
             "#89": {
-                "Hyper Rare": {
+                "STANDARD": {
                     "alt_value": 529.44
                 }
             },
@@ -56,7 +56,7 @@
                 }
             },
             "#92": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 66.21
                 }
             },
@@ -83,7 +83,7 @@
                 }
             },
             "#187": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 92.58
                 }
             }
@@ -104,33 +104,33 @@
         },
         "2024": {
             "#224": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 65.41
                 }
             },
             "#223": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 73.06
                 }
             }
         },
         "2015": {
             "#141": {
-                "Pokemon Time Eevee Collection": {
+                "STANDARD": {
                     "alt_value": 94.4
                 }
             }
         },
         "2000": {
             "#133": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 88.6
                 }
             }
         },
         "2023": {
             "#062": {
-                "Yu Nagaba X Pcg Campaign": {
+                "STANDARD": {
                     "alt_value": 152.76
                 }
             }
@@ -139,7 +139,7 @@
     "VOLCANION": {
         "2025": {
             "#124": {
-                "Super Art Rare": {
+                "Art Rare": {
                     "alt_value": 36.84
                 }
             }
@@ -148,14 +148,14 @@
     "SALAMENCE": {
         "2025": {
             "#129": {
-                "Special Art Rare Holo": {
+                "Holo": {
                     "alt_value": 61.08
                 }
             }
         },
         "2016": {
             "#253": {
-                "Corocoro Ichiban!": {
+                "STANDARD": {
                     "alt_value": 100.88
                 }
             }
@@ -178,7 +178,7 @@
         },
         "2010": {
             "#074": {
-                "Legendary Pokemon Present Campaign Holo": {
+                "Holo": {
                     "alt_value": 839.6
                 }
             }
@@ -187,7 +187,7 @@
     "MOLTRES": {
         "2025": {
             "#124": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 156.58
                 }
             }
@@ -208,7 +208,7 @@
         },
         "2016": {
             "#5": {
-                "Mythical and Legendary Dream Shine Collection 1st Edition": {
+                "1st Edition": {
                     "alt_value": 93.37
                 }
             }
@@ -245,24 +245,24 @@
         },
         "2019": {
             "#60": {
-                "Gg End": {
+                "STANDARD": {
                     "alt_value": 265.97
                 }
             },
             "#225": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 145.33
                 }
             }
         },
         "2016": {
             "#XY-P": {
-                "Kamex Mega Battle": {
+                "STANDARD": {
                     "alt_value": 275.22
                 }
             },
             "#245": {
-                "Kamex Mega Battle Participation Prize": {
+                "STANDARD": {
                     "alt_value": 124.72
                 }
             }
@@ -283,7 +283,7 @@
                 }
             },
             "#280": {
-                "Japanese Let's Trade Please 20th Holo": {
+                "Holo": {
                     "alt_value": 1122.86
                 }
             },
@@ -293,7 +293,7 @@
                 }
             },
             "#PROMO": {
-                "Mega Charizard X Pikachu": {
+                "STANDARD": {
                     "alt_value": 323.88
                 }
             },
@@ -312,32 +312,32 @@
         },
         "2023": {
             "#349": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 290.6
                 }
             },
             "#134": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 270.89
                 }
             },
             "#201": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 338.91
                 }
             },
             "#125": {
-                "Super Rare": {
+                "STANDARD": {
                     "alt_value": 58.28
                 }
             },
             "#8": {
-                "Charizard and Ho-Oh Ex Deck": {
+                "STANDARD": {
                     "alt_value": 87.05
                 }
             },
             "#052": {
-                "Charizard and Blastoise Special Deck Set Ex": {
+                "STANDARD": {
                     "alt_value": 102.68
                 }
             }
@@ -349,7 +349,7 @@
                 }
             },
             "#108": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 135.93
                 }
             },
@@ -366,7 +366,7 @@
                 }
             },
             "#2": {
-                "Starter Set": {
+                "STANDARD": {
                     "alt_value": 74.51
                 }
             }
@@ -388,7 +388,7 @@
                 }
             },
             "#211": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 84.13
                 }
             },
@@ -400,14 +400,14 @@
         },
         "1999": {
             "#PROMO": {
-                "Embossed": {
+                "STANDARD": {
                     "alt_value": 2543.37
                 }
             }
         },
         "1998": {
             "#23": {
-                "Prizm": {
+                "STANDARD": {
                     "alt_value": 1037.4
                 }
             }
@@ -433,14 +433,14 @@
         },
         "2006": {
             "#32": {
-                "Holo 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 1751.33
                 }
             }
         },
         "1997": {
             "#6": {
-                "Unscratched Prism": {
+                "STANDARD": {
                     "alt_value": 7398.93
                 }
             }
@@ -460,14 +460,14 @@
             }
         },
         "2025": {
-            "#094": {
-                "Super Rare": {
-                    "alt_value": 142.62
-                }
-            },
             "#013": {
                 "STANDARD": {
                     "alt_value": 78.35
+                }
+            },
+            "#094": {
+                "STANDARD": {
+                    "alt_value": 142.62
                 }
             }
         }
@@ -487,21 +487,21 @@
                 }
             },
             "#10": {
-                "Holo 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 565.79
                 }
             }
         },
         "2003": {
             "#6": {
-                "Mcdonald's": {
+                "STANDARD": {
                     "alt_value": 253.94
                 }
             }
         },
         "2022": {
             "#S-P": {
-                "Latias Jumbo Card Collection": {
+                "STANDARD": {
                     "alt_value": 217.21
                 }
             }
@@ -515,7 +515,7 @@
         },
         "2025": {
             "#088": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 129.82
                 }
             }
@@ -538,7 +538,7 @@
         },
         "2006": {
             "#41": {
-                "Holo 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 576.96
                 }
             }
@@ -561,7 +561,7 @@
     "KINGDRA": {
         "2002": {
             "#42": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 290.04
                 }
             },
@@ -588,25 +588,6 @@
             }
         }
     },
-    "CLEFFA": {
-        "2019": {
-            "#186": {
-                "Japanese": {
-                    "alt_value": 432.43
-                }
-            },
-            "#94": {
-                "STANDARD": {
-                    "alt_value": 74.1
-                }
-            },
-            "#185": {
-                "STANDARD": {
-                    "alt_value": 120.17
-                }
-            }
-        }
-    },
     "LUCARIO": {
         "2014": {
             "#53": {
@@ -617,17 +598,17 @@
         },
         "2025": {
             "#092": {
-                "Mega Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 455.47
                 }
             },
             "#088": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 172.84
                 }
             },
             "#078": {
-                "Super Rare": {
+                "STANDARD": {
                     "alt_value": 72.76
                 }
             }
@@ -639,7 +620,7 @@
                 }
             },
             "#98": {
-                "Lucario and the Mystery of Mew": {
+                "STANDARD": {
                     "alt_value": 219.23
                 }
             }
@@ -651,7 +632,7 @@
                 }
             },
             "#224": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 108.02
                 }
             }
@@ -667,7 +648,7 @@
         },
         "2001": {
             "#22": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 306.02
                 }
             },
@@ -678,10 +659,29 @@
             }
         }
     },
+    "CLEFFA": {
+        "2019": {
+            "#186": {
+                "STANDARD": {
+                    "alt_value": 432.43
+                }
+            },
+            "#94": {
+                "STANDARD": {
+                    "alt_value": 74.1
+                }
+            },
+            "#185": {
+                "STANDARD": {
+                    "alt_value": 120.17
+                }
+            }
+        }
+    },
     "VENUSAUR": {
         "2013": {
             "#61": {
-                "X": {
+                "STANDARD": {
                     "alt_value": 444.63
                 }
             }
@@ -705,7 +705,7 @@
                 }
             },
             "#200": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 126.32
                 }
             },
@@ -717,7 +717,7 @@
         },
         "2019": {
             "#66": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 170.45
                 }
             }
@@ -738,14 +738,14 @@
         },
         "1996": {
             "#3": {
-                "Red Prism": {
+                "STANDARD": {
                     "alt_value": 1326.33
                 }
             }
         },
         "2025": {
             "#087": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 108.35
                 }
             }
@@ -766,7 +766,7 @@
                 }
             },
             "#158": {
-                "Pokemon Center Promotion": {
+                "STANDARD": {
                     "alt_value": 320.79
                 }
             },
@@ -783,7 +783,7 @@
         },
         "2012": {
             "#144BWP": {
-                "Pokemon + Nobunaga's Ambition Holo": {
+                "Holo": {
                     "alt_value": 408.48
                 }
             }
@@ -811,7 +811,7 @@
         },
         "2019": {
             "#003": {
-                "V Starter Sets Holo": {
+                "Holo": {
                     "alt_value": 52.5
                 }
             }
@@ -854,7 +854,7 @@
                 }
             },
             "#105": {
-                "Special Advance Ticket": {
+                "STANDARD": {
                     "alt_value": 444.92
                 }
             },
@@ -864,12 +864,12 @@
                 }
             },
             "#339": {
-                "Detective Pikachu Special Jumbo Card Pack: Mewtwo-Gx Version": {
+                "STANDARD": {
                     "alt_value": 135.18
                 }
             },
             "#393": {
-                "Japanese Beams Exclusive": {
+                "STANDARD": {
                     "alt_value": 298.38
                 }
             },
@@ -884,7 +884,7 @@
                 }
             },
             "#002": {
-                "Pokemon Center Opening": {
+                "STANDARD": {
                     "alt_value": 360.91
                 }
             },
@@ -894,12 +894,12 @@
                 }
             },
             "#407": {
-                "Pokemon Center Osaka Dx Opening": {
+                "STANDARD": {
                     "alt_value": 499.52
                 }
             },
             "#25": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 161.25
                 }
             },
@@ -916,17 +916,14 @@
         },
         "2013": {
             "#7": {
-                "Holo 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 436.46
                 }
             }
         },
         "2023": {
             "#25": {
-                "Master Ball Reverse Holo": {
-                    "alt_value": 271.71
-                },
-                "Poke Ball Reverse Holo": {
+                "Reverse Holo": {
                     "alt_value": 62.56
                 }
             },
@@ -936,7 +933,7 @@
                 }
             },
             "#98": {
-                "Pre Order": {
+                "STANDARD": {
                     "alt_value": 244.08
                 }
             },
@@ -963,7 +960,7 @@
                 }
             },
             "#100DPP": {
-                "10th Anniversary Commemorative Ecard Pokemon Center": {
+                "Special Art Rare": {
                     "alt_value": 1953.92
                 }
             }
@@ -975,33 +972,27 @@
                 }
             },
             "#PROMO": {
-                "Mega Campaign Business Card-Lucario": {
-                    "alt_value": 279.74
-                },
-                "Mega Campaign Business Card-Sableye": {
-                    "alt_value": 281.04
-                },
-                "Mega Campaign Business Card-Charizard Y": {
+                "STANDARD": {
                     "alt_value": 328.18
                 }
             },
             "#292": {
-                "Corocoro Aniki": {
+                "STANDARD": {
                     "alt_value": 490.44
                 }
             },
             "#204": {
-                "Pokemon Center": {
+                "STANDARD": {
                     "alt_value": 8867.84
                 }
             },
             "#013": {
-                "Special Box Pretend Grunt Pikachu": {
+                "STANDARD": {
                     "alt_value": 6226.44
                 }
             },
             "#296": {
-                "Special Box": {
+                "STANDARD": {
                     "alt_value": 8283.25
                 }
             },
@@ -1013,17 +1004,17 @@
         },
         "2018": {
             "#283": {
-                "Pokemon Center Yokohama": {
+                "STANDARD": {
                     "alt_value": 536.14
                 }
             },
             "#307": {
-                "Holo Tag Bolt Release Commemoration Aeon Limited Special Pack": {
+                "Holo": {
                     "alt_value": 162.23
                 }
             },
             "#214": {
-                "Pokemon Card Gym": {
+                "STANDARD": {
                     "alt_value": 160.67
                 }
             },
@@ -1033,7 +1024,7 @@
                 }
             },
             "#208": {
-                "Pokemon Center Tokyo Dx": {
+                "STANDARD": {
                     "alt_value": 788.08
                 }
             },
@@ -1045,12 +1036,12 @@
         },
         "2025": {
             "#260": {
-                "Pokemon Center Tohoku Special Box": {
+                "STANDARD": {
                     "alt_value": 351.45
                 }
             },
             "#261": {
-                "Pokemon Center Hiroshima Special Box": {
+                "Art Rare": {
                     "alt_value": 264.73
                 }
             },
@@ -1060,24 +1051,24 @@
                 }
             },
             "#242": {
-                "Illustration Contest '24": {
+                "STANDARD": {
                     "alt_value": 56.46
                 }
             }
         },
         "2020": {
             "#114": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 334.82
                 }
             },
             "#125": {
-                "Pikapika! Pikachu! Campaign!": {
+                "STANDARD": {
                     "alt_value": 63.97
                 }
             },
             "#144": {
-                "Pokemon Center Kanazawa Opening": {
+                "STANDARD": {
                     "alt_value": 228.35
                 }
             },
@@ -1087,41 +1078,41 @@
                 }
             },
             "#126": {
-                "Pikapika! Pikachu! Campaign!": {
+                "STANDARD": {
                     "alt_value": 69.78
                 }
             }
         },
         "2024": {
             "#218": {
-                "Summer Get Campaign Pack": {
+                "STANDARD": {
                     "alt_value": 97.69
                 }
             },
             "#132": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 312.98
                 }
             },
             "#197": {
-                "Gym Participation": {
+                "STANDARD": {
                     "alt_value": 78.11
                 }
             },
             "#236": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 81.56
                 }
             }
         },
         "2017": {
             "#179": {
-                "Japanese Pokemon Card Friendly Shop": {
+                "STANDARD": {
                     "alt_value": 314.8
                 }
             },
             "#200": {
-                "Japanese Card Friendly Shop": {
+                "STANDARD": {
                     "alt_value": 198.44
                 }
             }
@@ -1148,7 +1139,7 @@
                 }
             },
             "#001": {
-                "Pre Order": {
+                "STANDARD": {
                     "alt_value": 65.93
                 }
             },
@@ -1205,7 +1196,7 @@
                 }
             },
             "#222": {
-                "Character Super Rare": {
+                "STANDARD": {
                     "alt_value": 119.7
                 }
             }
@@ -1217,7 +1208,7 @@
                 }
             },
             "#25": {
-                "Red Green Gift Set": {
+                "STANDARD": {
                     "alt_value": 359.85
                 }
             }
@@ -1231,19 +1222,19 @@
         },
         "2003": {
             "#24": {
-                "7-11 Fair Campaign": {
+                "Art Rare": {
                     "alt_value": 1355.07
                 }
             }
         },
         "2009": {
             "#32": {
-                "Reverse Foil": {
+                "Reverse Holo": {
                     "alt_value": 188.09
                 }
             },
             "#019LP": {
-                "Pokemon Daisuki Club Gold Rank Holo": {
+                "Holo": {
                     "alt_value": 981.55
                 }
             }
@@ -1257,7 +1248,7 @@
         },
         "1997": {
             "#PROMO": {
-                "Japanese Toyota": {
+                "STANDARD": {
                     "alt_value": 2502.15
                 }
             }
@@ -1265,9 +1256,6 @@
         "1996": {
             "#25": {
                 "STANDARD": {
-                    "alt_value": 634.41
-                },
-                "No Rarity Symbol": {
                     "alt_value": 8821.09
                 }
             }
@@ -1276,7 +1264,7 @@
     "LUGIA": {
         "2005": {
             "#38": {
-                "Pokepark Grand Opening": {
+                "STANDARD": {
                     "alt_value": 442.86
                 }
             }
@@ -1290,12 +1278,12 @@
         },
         "2018": {
             "#108": {
-                "Super-Burst Impact": {
+                "STANDARD": {
                     "alt_value": 270.98
                 }
             },
             "#018": {
-                "Gx Starter Decks Purchase Campaign": {
+                "STANDARD": {
                     "alt_value": 67.03
                 }
             },
@@ -1331,7 +1319,7 @@
                 }
             },
             "#325": {
-                "Japanese Booster Box Bonus Pack": {
+                "STANDARD": {
                     "alt_value": 76.49
                 }
             }
@@ -1366,7 +1354,7 @@
     "RAICHU": {
         "2019": {
             "#57": {
-                "Tag Team Super Rare": {
+                "STANDARD": {
                     "alt_value": 569.61
                 }
             }
@@ -1394,12 +1382,12 @@
         },
         "2001": {
             "#27": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 132.29
                 }
             },
             "#53": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 131.58
                 }
             }
@@ -1408,6 +1396,43 @@
             "#11": {
                 "STANDARD": {
                     "alt_value": 99.9
+                }
+            }
+        }
+    },
+    "HO-OH": {
+        "2000": {
+            "#250": {
+                "Holo": {
+                    "alt_value": 647.81
+                }
+            }
+        },
+        "2017": {
+            "#083": {
+                "STANDARD": {
+                    "alt_value": 179.02
+                }
+            }
+        },
+        "2007": {
+            "#300": {
+                "1st Edition Holo": {
+                    "alt_value": 300.6
+                }
+            }
+        },
+        "2010": {
+            "#48": {
+                "Holo": {
+                    "alt_value": 182.88
+                }
+            }
+        },
+        "2025": {
+            "#86": {
+                "Art Rare": {
+                    "alt_value": 154.47
                 }
             }
         }
@@ -1431,43 +1456,6 @@
             "#043": {
                 "1st Edition": {
                     "alt_value": 147.28
-                }
-            }
-        }
-    },
-    "HO-OH": {
-        "2000": {
-            "#250": {
-                "Holo": {
-                    "alt_value": 647.81
-                }
-            }
-        },
-        "2017": {
-            "#083": {
-                "Shining Legends Booster Box": {
-                    "alt_value": 179.02
-                }
-            }
-        },
-        "2007": {
-            "#300": {
-                "Holo Shining Darkness 1st Edition": {
-                    "alt_value": 300.6
-                }
-            }
-        },
-        "2010": {
-            "#48": {
-                "Holo '10 World Championship": {
-                    "alt_value": 182.88
-                }
-            }
-        },
-        "2025": {
-            "#86": {
-                "Special Art Rare": {
-                    "alt_value": 154.47
                 }
             }
         }
@@ -1499,12 +1487,12 @@
         },
         "2025": {
             "#125": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 448.88
                 }
             },
             "#130": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 66.03
                 }
             }
@@ -1516,12 +1504,12 @@
                 }
             },
             "#367": {
-                "Mewtwo and Mew Gx Special Jumbo": {
+                "STANDARD": {
                     "alt_value": 110.49
                 }
             },
             "#366": {
-                "Japanese Mewtwo Strikes Back": {
+                "STANDARD": {
                     "alt_value": 137.61
                 }
             }
@@ -1535,7 +1523,7 @@
         },
         "2005": {
             "#107": {
-                "Meiji Chocolate": {
+                "STANDARD": {
                     "alt_value": 712.58
                 }
             }
@@ -1561,7 +1549,7 @@
         },
         "2022": {
             "#84": {
-                "Hyper Rare": {
+                "STANDARD": {
                     "alt_value": 64.23
                 }
             },
@@ -1608,6 +1596,67 @@
             }
         }
     },
+    "GROUDON": {
+        "2003": {
+            "#2": {
+                "STANDARD": {
+                    "alt_value": 285.28
+                }
+            },
+            "#27": {
+                "STANDARD": {
+                    "alt_value": 369.93
+                }
+            }
+        },
+        "2006": {
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 479.04
+                }
+            }
+        },
+        "2005": {
+            "#7": {
+                "STANDARD": {
+                    "alt_value": 192.17
+                }
+            },
+            "#20": {
+                "Holo": {
+                    "alt_value": 404.37
+                }
+            }
+        },
+        "2014": {
+            "#40": {
+                "1st Edition": {
+                    "alt_value": 171.41
+                }
+            }
+        },
+        "2021": {
+            "#11": {
+                "STANDARD": {
+                    "alt_value": 51.63
+                }
+            }
+        },
+        "2016": {
+            "#73": {
+                "STANDARD": {
+                    "alt_value": 119.39
+                }
+            }
+        },
+        "2023": {
+            "#69": {
+                "Art Rare": {
+                    "alt_value": 66.38
+                }
+            }
+        }
+    },
     "ESPEON": {
         "2000": {
             "#196": {
@@ -1618,14 +1667,14 @@
         },
         "2001": {
             "#76": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 257.05
                 }
             }
         },
         "2017": {
             "#124": {
-                "Champions League  '18 Yokohama": {
+                "STANDARD": {
                     "alt_value": 436.14
                 }
             }
@@ -1639,22 +1688,38 @@
         },
         "2005": {
             "#49": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 565.79
                 }
             }
         },
         "2023": {
             "#066": {
-                "Yu Nagaba X Pcg Campaign": {
+                "STANDARD": {
                     "alt_value": 121.89
                 }
             }
         },
         "2024": {
             "#211": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 107.13
+                }
+            }
+        }
+    },
+    "AGGRON": {
+        "2014": {
+            "#76": {
+                "STANDARD": {
+                    "alt_value": 318.54
+                }
+            }
+        },
+        "2003": {
+            "#46": {
+                "1st Edition": {
+                    "alt_value": 161.05
                 }
             }
         }
@@ -1662,14 +1727,14 @@
     "SNORLAX": {
         "1999": {
             "#143": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 524.58
                 }
             }
         },
         "1996": {
             "#143": {
-                "Carddass Vending": {
+                "STANDARD": {
                     "alt_value": 1690.19
                 }
             }
@@ -1702,14 +1767,14 @@
         },
         "2016": {
             "#1": {
-                "Sun & Moon": {
+                "STANDARD": {
                     "alt_value": 65.73
                 }
             }
         },
         "2023": {
             "#143": {
-                "Master Ball Pattern Reverse Holo": {
+                "Reverse Holo": {
                     "alt_value": 53.62
                 }
             }
@@ -1718,53 +1783,6 @@
             "#77": {
                 "STANDARD": {
                     "alt_value": 43.74
-                }
-            }
-        }
-    },
-    "ZEKROM": {
-        "2025": {
-            "#174": {
-                "STANDARD": {
-                    "alt_value": 365.34
-                }
-            },
-            "#161": {
-                "Super Rare Holo": {
-                    "alt_value": 40.13
-                }
-            },
-            "#169": {
-                "Special Art Rare": {
-                    "alt_value": 220.32
-                }
-            }
-        },
-        "2015": {
-            "#9": {
-                "Japanese 1st Edition": {
-                    "alt_value": 390.43
-                }
-            }
-        },
-        "2010": {
-            "#55": {
-                "White Collection-1st Edition": {
-                    "alt_value": 973.78
-                }
-            }
-        },
-        "2012": {
-            "#159": {
-                "STANDARD": {
-                    "alt_value": 739.67
-                }
-            }
-        },
-        "2021": {
-            "#21": {
-                "STANDARD": {
-                    "alt_value": 108.59
                 }
             }
         }
@@ -1779,12 +1797,12 @@
         },
         "2025": {
             "#174": {
-                "Black and White Rare": {
+                "STANDARD": {
                     "alt_value": 334.91
                 }
             },
             "#168": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 180.89
                 }
             }
@@ -1803,7 +1821,7 @@
         },
         "2011": {
             "#51": {
-                "Special Trunk Set": {
+                "STANDARD": {
                     "alt_value": 123.65
                 }
             }
@@ -1857,14 +1875,14 @@
         },
         "2002": {
             "#1T": {
-                "Japanese Trainers Magazine Vol 14": {
+                "STANDARD": {
                     "alt_value": 349.64
                 }
             }
         },
         "2024": {
             "#202": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 83.93
                 }
             }
@@ -1896,7 +1914,7 @@
     "BLASTOISE": {
         "2013": {
             "#61": {
-                "Y-1st Edition": {
+                "1st Edition": {
                     "alt_value": 415.13
                 }
             }
@@ -1930,7 +1948,7 @@
                 }
             },
             "#108": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 821.35
                 }
             }
@@ -1944,7 +1962,7 @@
         },
         "2023": {
             "#202": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 152.78
                 }
             }
@@ -1959,18 +1977,49 @@
             }
         }
     },
-    "AGGRON": {
-        "2014": {
-            "#76": {
+    "ZEKROM": {
+        "2025": {
+            "#174": {
                 "STANDARD": {
-                    "alt_value": 318.54
+                    "alt_value": 365.34
+                }
+            },
+            "#161": {
+                "Holo": {
+                    "alt_value": 40.13
+                }
+            },
+            "#169": {
+                "Art Rare": {
+                    "alt_value": 220.32
                 }
             }
         },
-        "2003": {
-            "#46": {
+        "2015": {
+            "#9": {
                 "1st Edition": {
-                    "alt_value": 161.05
+                    "alt_value": 390.43
+                }
+            }
+        },
+        "2010": {
+            "#55": {
+                "1st Edition": {
+                    "alt_value": 973.78
+                }
+            }
+        },
+        "2012": {
+            "#159": {
+                "STANDARD": {
+                    "alt_value": 739.67
+                }
+            }
+        },
+        "2021": {
+            "#21": {
+                "STANDARD": {
+                    "alt_value": 108.59
                 }
             }
         }
@@ -1978,7 +2027,7 @@
     "ENTEI": {
         "2002": {
             "#043P": {
-                "Jr Rally": {
+                "STANDARD": {
                     "alt_value": 532.64
                 }
             },
@@ -1990,7 +2039,7 @@
         },
         "2005": {
             "#1": {
-                "Pokepark Blue": {
+                "STANDARD": {
                     "alt_value": 134.93
                 }
             }
@@ -2073,20 +2122,64 @@
             }
         }
     },
-    "SUNKERN": {
-        "2000": {
-            "#191": {
-                "Natta Wake Volume 4": {
-                    "alt_value": 346.37
-                }
-            }
-        }
-    },
     "LARVITAR": {
         "2002": {
             "#18": {
                 "Holo": {
                     "alt_value": 356.32
+                }
+            }
+        }
+    },
+    "SUNKERN": {
+        "2000": {
+            "#191": {
+                "STANDARD": {
+                    "alt_value": 346.37
+                }
+            }
+        }
+    },
+    "ARCANINE": {
+        "1999": {
+            "#59": {
+                "Holo": {
+                    "alt_value": 311.3
+                }
+            }
+        },
+        "1996": {
+            "#59": {
+                "STANDARD": {
+                    "alt_value": 1706.45
+                }
+            }
+        },
+        "1997": {
+            "#370": {
+                "STANDARD": {
+                    "alt_value": 196.89
+                }
+            }
+        },
+        "2001": {
+            "#59": {
+                "Holo": {
+                    "alt_value": 449.56
+                }
+            }
+        },
+        "2009": {
+            "#14": {
+                "1st Edition Holo": {
+                    "alt_value": 102.5
+                }
+            }
+        },
+        "2023": {
+            "#92": {
+                "STANDARD": {
+                    "alt_value": 37.14
                 }
             }
         }
@@ -2113,204 +2206,43 @@
         },
         "2005": {
             "#32": {
-                "Mcdonald's": {
+                "STANDARD": {
                     "alt_value": 395.41
                 }
             }
         },
         "2004": {
             "#PROMO": {
-                "Lenticular": {
+                "STANDARD": {
                     "alt_value": 14142.95
                 }
             }
         }
     },
-    "ARCANINE": {
-        "1999": {
-            "#59": {
-                "Holo": {
-                    "alt_value": 311.3
-                }
-            }
-        },
-        "1996": {
-            "#59": {
-                "No Rarity Symbol": {
-                    "alt_value": 1706.45
-                }
-            }
-        },
-        "1997": {
-            "#370": {
-                "STANDARD": {
-                    "alt_value": 196.89
-                }
-            }
-        },
+    "AMPHAROS": {
         "2001": {
-            "#59": {
+            "#181": {
                 "Holo": {
-                    "alt_value": 449.56
-                }
-            }
-        },
-        "2009": {
-            "#14": {
-                "Holo 1st Edition": {
-                    "alt_value": 102.5
-                }
-            }
-        },
-        "2023": {
-            "#92": {
-                "STANDARD": {
-                    "alt_value": 37.14
-                }
-            }
-        }
-    },
-    "GROUDON": {
-        "2003": {
-            "#2": {
-                "Corocoro Comic": {
-                    "alt_value": 285.28
+                    "alt_value": 144.08
                 }
             },
-            "#27": {
-                "STANDARD": {
-                    "alt_value": 369.93
+            "#115": {
+                "Holo": {
+                    "alt_value": 341.07
                 }
             }
         },
         "2006": {
-            "#8": {
+            "#51": {
                 "1st Edition": {
-                    "alt_value": 479.04
+                    "alt_value": 219.09
                 }
             }
         },
-        "2005": {
-            "#7": {
-                "STANDARD": {
-                    "alt_value": 192.17
-                }
-            },
-            "#20": {
-                "Japanese Holo": {
-                    "alt_value": 404.37
-                }
-            }
-        },
-        "2014": {
-            "#40": {
-                "1st Edition": {
-                    "alt_value": 171.41
-                }
-            }
-        },
-        "2021": {
-            "#11": {
-                "STANDARD": {
-                    "alt_value": 51.63
-                }
-            }
-        },
-        "2016": {
-            "#73": {
-                "Premium Champion Pack": {
-                    "alt_value": 119.39
-                }
-            }
-        },
-        "2023": {
-            "#69": {
-                "Art Rare": {
-                    "alt_value": 66.38
-                }
-            }
-        }
-    },
-    "UMBREON": {
         "2000": {
-            "#197": {
-                "STANDARD": {
-                    "alt_value": 347.03
-                },
+            "#181": {
                 "Holo": {
-                    "alt_value": 1669.6
-                }
-            }
-        },
-        "2016": {
-            "#42": {
-                "1st Edition": {
-                    "alt_value": 237.53
-                }
-            },
-            "#37": {
-                "STANDARD": {
-                    "alt_value": 104.1
-                }
-            }
-        },
-        "2024": {
-            "#217": {
-                "Special Art Rare": {
-                    "alt_value": 499.29
-                }
-            },
-            "#92": {
-                "Master Ball Reverse Holo": {
-                    "alt_value": 127.13
-                }
-            },
-            "#93": {
-                "STANDARD": {
-                    "alt_value": 33.67
-                }
-            }
-        },
-        "2023": {
-            "#067": {
-                "STANDARD": {
-                    "alt_value": 199.68
-                }
-            }
-        },
-        "2005": {
-            "#91": {
-                "STANDARD": {
-                    "alt_value": 2883.3
-                }
-            }
-        },
-        "2001": {
-            "#91": {
-                "1st Edition Holo": {
-                    "alt_value": 5540.49
-                }
-            }
-        },
-        "2021": {
-            "#100": {
-                "STANDARD": {
-                    "alt_value": 40.0
-                }
-            },
-            "#244": {
-                "Character Secret Rare Holo": {
-                    "alt_value": 85.65
-                }
-            },
-            "#101": {
-                "STANDARD": {
-                    "alt_value": 50.4
-                }
-            },
-            "#245": {
-                "STANDARD": {
-                    "alt_value": 107.34
+                    "alt_value": 93.13
                 }
             }
         }
@@ -2332,36 +2264,8 @@
         },
         "2005": {
             "#62": {
-                "Spring Battle Road Lottery": {
+                "STANDARD": {
                     "alt_value": 482.4
-                }
-            }
-        }
-    },
-    "AMPHAROS": {
-        "2001": {
-            "#181": {
-                "Holo": {
-                    "alt_value": 144.08
-                }
-            },
-            "#115": {
-                "Japanese Holo": {
-                    "alt_value": 341.07
-                }
-            }
-        },
-        "2006": {
-            "#51": {
-                "1st Edition": {
-                    "alt_value": 219.09
-                }
-            }
-        },
-        "2000": {
-            "#181": {
-                "Holo": {
-                    "alt_value": 93.13
                 }
             }
         }
@@ -2388,7 +2292,7 @@
         },
         "1997": {
             "#130": {
-                "Carddass Vending Prism": {
+                "STANDARD": {
                     "alt_value": 1565.63
                 }
             }
@@ -2436,6 +2340,90 @@
             }
         }
     },
+    "UMBREON": {
+        "2000": {
+            "#197": {
+                "STANDARD": {
+                    "alt_value": 347.03
+                },
+                "Holo": {
+                    "alt_value": 1669.6
+                }
+            }
+        },
+        "2016": {
+            "#42": {
+                "1st Edition": {
+                    "alt_value": 237.53
+                }
+            },
+            "#37": {
+                "STANDARD": {
+                    "alt_value": 104.1
+                }
+            }
+        },
+        "2024": {
+            "#217": {
+                "Art Rare": {
+                    "alt_value": 499.29
+                }
+            },
+            "#92": {
+                "Reverse Holo": {
+                    "alt_value": 127.13
+                }
+            },
+            "#93": {
+                "STANDARD": {
+                    "alt_value": 33.67
+                }
+            }
+        },
+        "2023": {
+            "#067": {
+                "STANDARD": {
+                    "alt_value": 199.68
+                }
+            }
+        },
+        "2005": {
+            "#91": {
+                "STANDARD": {
+                    "alt_value": 2883.3
+                }
+            }
+        },
+        "2001": {
+            "#91": {
+                "1st Edition Holo": {
+                    "alt_value": 5540.49
+                }
+            }
+        },
+        "2021": {
+            "#100": {
+                "STANDARD": {
+                    "alt_value": 40.0
+                }
+            },
+            "#244": {
+                "Holo": {
+                    "alt_value": 85.65
+                }
+            },
+            "#101": {
+                "STANDARD": {
+                    "alt_value": 50.4
+                }
+            },
+            "#245": {
+                "STANDARD": {
+                    "alt_value": 107.34
+                }
+            }
+        }
+    },
     "IVYSAUR": {
         "2025": {
             "#065": {
@@ -2472,7 +2460,7 @@
         },
         "2018": {
             "#113": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 505.48
                 }
             },
@@ -2491,7 +2479,7 @@
         },
         "2023": {
             "#94": {
-                "Master Ball Reverse Holo": {
+                "Reverse Holo": {
                     "alt_value": 443.42
                 }
             }
@@ -2517,7 +2505,7 @@
         },
         "2024": {
             "#88": {
-                "Super Rare": {
+                "STANDARD": {
                     "alt_value": 104.69
                 }
             },
@@ -2541,7 +2529,7 @@
         },
         "2014": {
             "#79": {
-                "Pokemon Center": {
+                "STANDARD": {
                     "alt_value": 708.9
                 }
             }
@@ -2593,21 +2581,21 @@
                 }
             },
             "#339": {
-                "Illustration Contest 2022": {
+                "STANDARD": {
                     "alt_value": 78.72
                 }
             }
         },
         "2024": {
             "#90": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 348.79
                 }
             }
         },
         "2014": {
             "#21": {
-                "Gym Pack": {
+                "STANDARD": {
                     "alt_value": 138.95
                 }
             }
@@ -2616,14 +2604,14 @@
     "MEOWTH": {
         "2024": {
             "#192": {
-                "Special Battle Set Exclusive": {
+                "STANDARD": {
                     "alt_value": 116.36
                 }
             }
         },
         "1998": {
             "#052": {
-                "Glossy": {
+                "STANDARD": {
                     "alt_value": 766.85
                 }
             }
@@ -2644,14 +2632,14 @@
         },
         "1996": {
             "#0": {
-                "Japan Rail 2000": {
+                "STANDARD": {
                     "alt_value": 859.48
                 }
             }
         },
         "2003": {
             "#28": {
-                "7-11 Fair Campaign": {
+                "Art Rare": {
                     "alt_value": 225.14
                 }
             }
@@ -2665,8 +2653,83 @@
         },
         "1999": {
             "#52": {
-                "Meowth's Party": {
+                "STANDARD": {
                     "alt_value": 1350.63
+                }
+            }
+        }
+    },
+    "MIMIKYU": {
+        "2018": {
+            "#198": {
+                "STANDARD": {
+                    "alt_value": 463.65
+                }
+            },
+            "#199": {
+                "STANDARD": {
+                    "alt_value": 1281.9
+                }
+            },
+            "#289": {
+                "STANDARD": {
+                    "alt_value": 9244.22
+                }
+            }
+        },
+        "2021": {
+            "#233": {
+                "STANDARD": {
+                    "alt_value": 99.85
+                }
+            },
+            "#234": {
+                "STANDARD": {
+                    "alt_value": 78.81
+                }
+            }
+        },
+        "2019": {
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 96.17
+                }
+            }
+        }
+    },
+    "PICHU": {
+        "2006": {
+            "#112DPP": {
+                "STANDARD": {
+                    "alt_value": 334.54
+                }
+            }
+        },
+        "2001": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 211.13
+                }
+            }
+        },
+        "2009": {
+            "#31": {
+                "1st Edition Holo": {
+                    "alt_value": 137.0
+                }
+            }
+        },
+        "1999": {
+            "#172": {
+                "Holo": {
+                    "alt_value": 304.9
+                }
+            }
+        },
+        "2022": {
+            "#214": {
+                "STANDARD": {
+                    "alt_value": 55.17
                 }
             }
         }
@@ -2690,7 +2753,7 @@
         },
         "2001": {
             "#208": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 6048.39
                 }
             }
@@ -2699,81 +2762,6 @@
             "#208": {
                 "Holo": {
                     "alt_value": 114.04
-                }
-            }
-        }
-    },
-    "PICHU": {
-        "2006": {
-            "#112DPP": {
-                "Card Exchange": {
-                    "alt_value": 334.54
-                }
-            }
-        },
-        "2001": {
-            "#PROMO": {
-                "Japanese Meiji Silver Foil": {
-                    "alt_value": 211.13
-                }
-            }
-        },
-        "2009": {
-            "#31": {
-                "1st Edition Holo": {
-                    "alt_value": 137.0
-                }
-            }
-        },
-        "1999": {
-            "#172": {
-                "Japanese Holo": {
-                    "alt_value": 304.9
-                }
-            }
-        },
-        "2022": {
-            "#214": {
-                "Graniph Purchase Campaign": {
-                    "alt_value": 55.17
-                }
-            }
-        }
-    },
-    "MIMIKYU": {
-        "2018": {
-            "#198": {
-                "Special Box": {
-                    "alt_value": 463.65
-                }
-            },
-            "#199": {
-                "It's Mimikyu Special Box": {
-                    "alt_value": 1281.9
-                }
-            },
-            "#289": {
-                "STANDARD": {
-                    "alt_value": 9244.22
-                }
-            }
-        },
-        "2021": {
-            "#233": {
-                "Character Super Rare": {
-                    "alt_value": 99.85
-                }
-            },
-            "#234": {
-                "STANDARD": {
-                    "alt_value": 78.81
-                }
-            }
-        },
-        "2019": {
-            "#58": {
-                "Japanese": {
-                    "alt_value": 96.17
                 }
             }
         }
@@ -2795,7 +2783,7 @@
         },
         "2021": {
             "#193": {
-                "Character Rare": {
+                "STANDARD": {
                     "alt_value": 37.9
                 }
             }
@@ -2816,20 +2804,36 @@
         },
         "2024": {
             "#209": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 76.22
                 }
             },
             "#51": {
-                "Master Ball Holo": {
+                "Holo": {
                     "alt_value": 33.7
                 }
             }
         },
         "2023": {
             "#064": {
-                "Yu Nagaba X Pcg Campaign": {
+                "STANDARD": {
                     "alt_value": 116.58
+                }
+            }
+        }
+    },
+    "ARTICUNO": {
+        "2004": {
+            "#10": {
+                "Holo": {
+                    "alt_value": 333.75
+                }
+            }
+        },
+        "1997": {
+            "#144": {
+                "Holo": {
+                    "alt_value": 406.78
                 }
             }
         }
@@ -2849,24 +2853,17 @@
         },
         "2024": {
             "#200": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 90.27
                 }
             }
         }
     },
-    "ARTICUNO": {
-        "2004": {
-            "#10": {
-                "Japanese Holo": {
-                    "alt_value": 333.75
-                }
-            }
-        },
-        "1997": {
-            "#144": {
-                "Holo": {
-                    "alt_value": 406.78
+    "CALYREX": {
+        "2021": {
+            "#86": {
+                "STANDARD": {
+                    "alt_value": 391.61
                 }
             }
         }
@@ -2899,19 +2896,10 @@
             }
         }
     },
-    "CALYREX": {
-        "2021": {
-            "#86": {
-                "STANDARD": {
-                    "alt_value": 391.61
-                }
-            }
-        }
-    },
     "VAPOREON": {
         "2005": {
             "#3": {
-                "Japanese 1st Edition Holon Research Tower": {
+                "1st Edition Holo": {
                     "alt_value": 407.23
                 }
             }
@@ -2942,12 +2930,12 @@
         },
         "2024": {
             "#30": {
-                "Master Ball Reverse Holo": {
+                "Reverse Holo": {
                     "alt_value": 37.56
                 }
             },
             "#205": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 97.93
                 }
             }
@@ -2980,24 +2968,24 @@
         },
         "2023": {
             "#347": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 424.24
                 }
             },
             "#208": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 68.38
                 }
             },
             "#205": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 216.49
                 }
             }
         },
         "2006": {
             "#15": {
-                "Japanese Gold Star Holo": {
+                "Holo": {
                     "alt_value": 23939.46
                 }
             }
@@ -3030,7 +3018,7 @@
         },
         "1996": {
             "#151": {
-                "Green Prism": {
+                "STANDARD": {
                     "alt_value": 2074.47
                 }
             }
@@ -3072,7 +3060,7 @@
     "CLEFAIRY": {
         "2025": {
             "#126": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 234.54
                 }
             }
@@ -3088,7 +3076,7 @@
     "GIRATINA": {
         "2022": {
             "#261": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 230.78
                 }
             }
@@ -3104,7 +3092,7 @@
     "DARKRAI": {
         "2019": {
             "#215": {
-                "Hyper Rare": {
+                "STANDARD": {
                     "alt_value": 219.76
                 }
             },
@@ -3123,38 +3111,8 @@
         },
         "2022": {
             "#228": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 79.68
-                }
-            }
-        }
-    },
-    "DITTO": {
-        "1997": {
-            "#132": {
-                "Holo": {
-                    "alt_value": 230.06
-                }
-            }
-        },
-        "2020": {
-            "#140": {
-                "Japanese": {
-                    "alt_value": 29.9
-                }
-            }
-        },
-        "2014": {
-            "#077": {
-                "Holo": {
-                    "alt_value": 416.13
-                }
-            }
-        },
-        "2005": {
-            "#108PCGP": {
-                "Meiji Chocolate": {
-                    "alt_value": 192.32
                 }
             }
         }
@@ -3189,31 +3147,10 @@
             }
         }
     },
-    "SKARMORY": {
-        "2001": {
-            "#7": {
-                "1st Edition Holo": {
-                    "alt_value": 232.14
-                }
-            },
-            "#128": {
-                "Japanese Holo": {
-                    "alt_value": 276.29
-                }
-            }
-        },
-        "2012": {
-            "#177": {
-                "Plasma Gale Booster Pack": {
-                    "alt_value": 92.38
-                }
-            }
-        }
-    },
     "FERALIGATR": {
         "2001": {
             "#160": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 179.34
                 }
             }
@@ -3222,6 +3159,27 @@
             "#3": {
                 "Holo": {
                     "alt_value": 226.01
+                }
+            }
+        }
+    },
+    "SKARMORY": {
+        "2001": {
+            "#7": {
+                "1st Edition Holo": {
+                    "alt_value": 232.14
+                }
+            },
+            "#128": {
+                "Holo": {
+                    "alt_value": 276.29
+                }
+            }
+        },
+        "2012": {
+            "#177": {
+                "STANDARD": {
+                    "alt_value": 92.38
                 }
             }
         }
@@ -3236,7 +3194,7 @@
         },
         "2005": {
             "#39": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 549.53
                 },
                 "STANDARD": {
@@ -3251,12 +3209,12 @@
                 }
             },
             "#126": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 1674.08
                 }
             },
             "#49": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 335.53
                 }
             }
@@ -3270,7 +3228,7 @@
         },
         "2021": {
             "#74": {
-                "Super Rare Holo": {
+                "Holo": {
                     "alt_value": 506.78
                 }
             }
@@ -3300,12 +3258,12 @@
         },
         "2005": {
             "#52": {
-                "Spring Battle Road": {
+                "STANDARD": {
                     "alt_value": 896.61
                 }
             },
             "#1": {
-                "Pokepark Forest": {
+                "STANDARD": {
                     "alt_value": 352.63
                 }
             }
@@ -3319,14 +3277,14 @@
         },
         "2017": {
             "#4": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 102.38
                 }
             }
         },
         "2001": {
             "#251": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 300.65
                 }
             }
@@ -3341,6 +3299,36 @@
             }
         }
     },
+    "DITTO": {
+        "1997": {
+            "#132": {
+                "Holo": {
+                    "alt_value": 230.06
+                }
+            }
+        },
+        "2020": {
+            "#140": {
+                "STANDARD": {
+                    "alt_value": 29.9
+                }
+            }
+        },
+        "2014": {
+            "#077": {
+                "Holo": {
+                    "alt_value": 416.13
+                }
+            }
+        },
+        "2005": {
+            "#108PCGP": {
+                "STANDARD": {
+                    "alt_value": 192.32
+                }
+            }
+        }
+    },
     "SUICUNE": {
         "2000": {
             "#245": {
@@ -3351,7 +3339,7 @@
         },
         "2001": {
             "#245": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 110.54
                 }
             }
@@ -3397,7 +3385,7 @@
         },
         "2025": {
             "#271": {
-                "Black Bolt White Flare Card File Set": {
+                "STANDARD": {
                     "alt_value": 72.65
                 }
             },
@@ -3418,7 +3406,7 @@
         },
         "2025": {
             "#172": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 56.81
                 }
             }
@@ -3427,7 +3415,7 @@
     "DUSKNOIR": {
         "2019": {
             "#179": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 134.63
                 }
             }
@@ -3448,7 +3436,7 @@
         },
         "2025": {
             "#168": {
-                "Special Art Rare Holo": {
+                "Holo": {
                     "alt_value": 80.03
                 }
             }
@@ -3478,7 +3466,7 @@
         },
         "1996": {
             "#58": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 944.98
                 }
             }
@@ -3494,12 +3482,12 @@
         },
         "1996": {
             "#PROMO": {
-                "Holo No Rarity Symbol": {
+                "Holo": {
                     "alt_value": 9042.91
                 }
             },
             "#68": {
-                "Green Prism": {
+                "STANDARD": {
                     "alt_value": 448.57
                 }
             }
@@ -3524,24 +3512,6 @@
             "#53": {
                 "Holo": {
                     "alt_value": 174.75
-                }
-            }
-        }
-    },
-    "MANAPHY": {
-        "2016": {
-            "#12": {
-                "1st Edition": {
-                    "alt_value": 196.25
-                }
-            }
-        }
-    },
-    "DIANCIE": {
-        "2014": {
-            "#37": {
-                "the Cocoon of Destruction and Diancie": {
-                    "alt_value": 172.24
                 }
             }
         }
@@ -3576,6 +3546,33 @@
             }
         }
     },
+    "DIANCIE": {
+        "2014": {
+            "#37": {
+                "STANDARD": {
+                    "alt_value": 172.24
+                }
+            }
+        }
+    },
+    "MANAPHY": {
+        "2016": {
+            "#12": {
+                "1st Edition": {
+                    "alt_value": 196.25
+                }
+            }
+        }
+    },
+    "METAGROSS": {
+        "2014": {
+            "#102": {
+                "STANDARD": {
+                    "alt_value": 163.33
+                }
+            }
+        }
+    },
     "ZAPDOS": {
         "2016": {
             "#20": {
@@ -3593,24 +3590,15 @@
         },
         "1996": {
             "#145": {
-                "Red Prism Holo": {
+                "Holo": {
                     "alt_value": 1153.39
                 }
             }
         },
         "2023": {
             "#204": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 128.84
-                }
-            }
-        }
-    },
-    "METAGROSS": {
-        "2014": {
-            "#102": {
-                "Special Pack Silver": {
-                    "alt_value": 163.33
                 }
             }
         }
@@ -3618,7 +3606,7 @@
     "ONIX": {
         "1998": {
             "#PROMO": {
-                "Japanese Corocoro": {
+                "STANDARD": {
                     "alt_value": 292.03
                 }
             }
@@ -3627,7 +3615,7 @@
     "NIDOKING": {
         "1999": {
             "#34": {
-                "Glossy": {
+                "STANDARD": {
                     "alt_value": 3012.72
                 },
                 "Holo": {
@@ -3650,19 +3638,10 @@
             }
         }
     },
-    "MR. MIME": {
-        "1998": {
-            "#122": {
-                "STANDARD": {
-                    "alt_value": 168.79
-                }
-            }
-        }
-    },
     "PALKIA": {
         "2007": {
             "#PROMO": {
-                "Holo Constructed Standard Deck": {
+                "Holo": {
                     "alt_value": 188.47
                 }
             }
@@ -3688,17 +3667,8 @@
                 }
             },
             "#259": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 103.15
-                }
-            }
-        }
-    },
-    "HOOTHOOT": {
-        "2000": {
-            "#PROMO": {
-                "Gold Foil": {
-                    "alt_value": 171.2
                 }
             }
         }
@@ -3715,6 +3685,24 @@
             "#80": {
                 "STANDARD": {
                     "alt_value": 431.99
+                }
+            }
+        }
+    },
+    "HOOTHOOT": {
+        "2000": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 171.2
+                }
+            }
+        }
+    },
+    "MR. MIME": {
+        "1998": {
+            "#122": {
+                "STANDARD": {
+                    "alt_value": 168.79
                 }
             }
         }
@@ -3759,14 +3747,14 @@
         },
         "2006": {
             "#33": {
-                "Japanese Gold Star Holo": {
+                "Holo": {
                     "alt_value": 5590.9
                 }
             }
         },
         "2023": {
             "#203": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 83.38
                 }
             }
@@ -3782,7 +3770,7 @@
     "GRIMER": {
         "1997": {
             "#88": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 84.82
                 }
             }
@@ -3814,7 +3802,7 @@
         },
         "2025": {
             "#89": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 77.42
                 }
             }
@@ -3830,24 +3818,15 @@
         },
         "1995": {
             "#36": {
-                "Green Back": {
+                "STANDARD": {
                     "alt_value": 239.76
                 }
             }
         },
         "1998": {
             "#36": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 124.86
-                }
-            }
-        }
-    },
-    "NIDORINA": {
-        "1997": {
-            "#30": {
-                "Japanese Holo": {
-                    "alt_value": 41.68
                 }
             }
         }
@@ -3860,7 +3839,7 @@
                 }
             },
             "#90": {
-                "1st Ed-Utr.": {
+                "STANDARD": {
                     "alt_value": 235.22
                 }
             }
@@ -3874,13 +3853,22 @@
         },
         "2025": {
             "#89": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 78.95
                 }
             },
             "#080": {
-                "Super Rare": {
+                "STANDARD": {
                     "alt_value": 31.73
+                }
+            }
+        }
+    },
+    "NIDORINA": {
+        "1997": {
+            "#30": {
+                "Holo": {
+                    "alt_value": 41.68
                 }
             }
         }
@@ -3897,7 +3885,7 @@
     "NIDORINO": {
         "1996": {
             "#33": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 100.53
                 }
             }
@@ -3906,7 +3894,7 @@
     "DROWZEE": {
         "1996": {
             "#96": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 705.49
                 }
             }
@@ -3931,14 +3919,14 @@
     "RAIKOU": {
         "2010": {
             "#61": {
-                "Legend Perfect Set Holo": {
+                "Holo": {
                     "alt_value": 238.78
                 }
             }
         },
         "2005": {
             "#35": {
-                "Holo Rocket Gang Strikes Back": {
+                "Holo": {
                     "alt_value": 1222.08
                 }
             }
@@ -3952,17 +3940,8 @@
         },
         "2022": {
             "#218": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 56.36
-                }
-            }
-        }
-    },
-    "TORCHIC": {
-        "2013": {
-            "#5": {
-                "1st Edition": {
-                    "alt_value": 95.68
                 }
             }
         }
@@ -3977,7 +3956,7 @@
         },
         "1996": {
             "#17": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 2999.86
                 }
             }
@@ -3990,10 +3969,19 @@
             }
         }
     },
+    "TORCHIC": {
+        "2013": {
+            "#5": {
+                "1st Edition": {
+                    "alt_value": 95.68
+                }
+            }
+        }
+    },
     "SLOWKING": {
         "2009": {
             "#39": {
-                "Holo R 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 120.06
                 }
             }
@@ -4014,7 +4002,7 @@
         },
         "1999": {
             "#PROMO": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 1118.73
                 }
             }
@@ -4023,10 +4011,7 @@
     "MAGIKARP": {
         "1996": {
             "#129": {
-                "No Rarity Symbol": {
-                    "alt_value": 7252.92
-                },
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 397.4
                 }
             }
@@ -4054,7 +4039,7 @@
         },
         "2018": {
             "#98": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 118.25
                 }
             }
@@ -4063,7 +4048,7 @@
     "ZORUA": {
         "2010": {
             "#PROMO": {
-                "Design Contest Pokemon Fan Winner Izumi Sakaga": {
+                "STANDARD": {
                     "alt_value": 8891.49
                 }
             }
@@ -4078,17 +4063,26 @@
             }
         }
     },
+    "CATERPIE": {
+        "1996": {
+            "#10": {
+                "STANDARD": {
+                    "alt_value": 501.42
+                }
+            }
+        }
+    },
     "SQUIRTLE": {
         "2004": {
             "#55": {
-                "Meiji Chocolate": {
+                "STANDARD": {
                     "alt_value": 373.99
                 }
             }
         },
         "1996": {
             "#7": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 2594.45
                 }
             }
@@ -4124,11 +4118,11 @@
             }
         }
     },
-    "CATERPIE": {
-        "1996": {
-            "#10": {
-                "No Rarity Symbol": {
-                    "alt_value": 501.42
+    "BLAZIKEN": {
+        "2003": {
+            "#11": {
+                "1st Edition": {
+                    "alt_value": 229.04
                 }
             }
         }
@@ -4142,19 +4136,10 @@
             }
         }
     },
-    "BLAZIKEN": {
-        "2003": {
-            "#11": {
-                "1st Edition": {
-                    "alt_value": 229.04
-                }
-            }
-        }
-    },
     "RHYDON": {
         "2001": {
             "#35": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 51.73
                 }
             }
@@ -4184,14 +4169,14 @@
         },
         "2001": {
             "#74": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 72.25
                 }
             }
         },
         "1999": {
             "#124": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 143.93
                 }
             }
@@ -4245,19 +4230,10 @@
             }
         }
     },
-    "SILVALLY": {
-        "2017": {
-            "#122": {
-                "Sparkling Silvally Get": {
-                    "alt_value": 32.44
-                }
-            }
-        }
-    },
     "MILTANK": {
         "2001": {
             "#19": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 108.26
                 }
             }
@@ -4266,24 +4242,8 @@
     "DONPHAN": {
         "2005": {
             "#109": {
-                "Meiji Chocolate": {
+                "STANDARD": {
                     "alt_value": 92.06
-                }
-            }
-        }
-    },
-    "EXEGGUTOR": {
-        "2024": {
-            "#183": {
-                "Paradise Dragona Sealed Battle-Winner": {
-                    "alt_value": 98.38
-                }
-            }
-        },
-        "1999": {
-            "#103": {
-                "Japanese": {
-                    "alt_value": 67.78
                 }
             }
         }
@@ -4291,14 +4251,14 @@
     "WARTORTLE": {
         "2002": {
             "#12T": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 170.5
                 }
             }
         },
         "1997": {
             "#8": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 79.84
                 }
             }
@@ -4321,8 +4281,33 @@
     "ELECTABUZZ": {
         "1998": {
             "#125": {
-                "Glossy": {
+                "STANDARD": {
                     "alt_value": 688.78
+                }
+            }
+        }
+    },
+    "SILVALLY": {
+        "2017": {
+            "#122": {
+                "STANDARD": {
+                    "alt_value": 32.44
+                }
+            }
+        }
+    },
+    "EXEGGUTOR": {
+        "2024": {
+            "#183": {
+                "STANDARD": {
+                    "alt_value": 98.38
+                }
+            }
+        },
+        "1999": {
+            "#103": {
+                "STANDARD": {
+                    "alt_value": 67.78
                 }
             }
         }
@@ -4339,7 +4324,7 @@
     "OCTILLERY": {
         "2002": {
             "#40": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 157.15
                 }
             }
@@ -4355,9 +4340,6 @@
         },
         "1996": {
             "#27": {
-                "No Rarity Symbol": {
-                    "alt_value": 572.17
-                },
                 "STANDARD": {
                     "alt_value": 173.7
                 }
@@ -4374,7 +4356,7 @@
         },
         "1996": {
             "#4": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 4941.02
                 }
             }
@@ -4404,17 +4386,8 @@
     "KAKUNA": {
         "1996": {
             "#14": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 1115.19
-                }
-            }
-        }
-    },
-    "MARSHTOMP": {
-        "2003": {
-            "#10": {
-                "Shogakukan Elementary School": {
-                    "alt_value": 205.36
                 }
             }
         }
@@ -4437,14 +4410,11 @@
             }
         }
     },
-    "MAGMORTAR": {
-        "2012": {
-            "#8": {
-                "1st Edition": {
-                    "alt_value": 192.03
-                },
+    "MARSHTOMP": {
+        "2003": {
+            "#10": {
                 "STANDARD": {
-                    "alt_value": 245.85
+                    "alt_value": 205.36
                 }
             }
         }
@@ -4459,7 +4429,7 @@
         },
         "2003": {
             "#3": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 318.86
                 }
             }
@@ -4468,7 +4438,7 @@
     "ARCEUS": {
         "2009": {
             "#37": {
-                "Japanese 1st Edition": {
+                "1st Edition": {
                     "alt_value": 276.49
                 }
             },
@@ -4478,12 +4448,12 @@
                 }
             },
             "#71": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 71.28
                 }
             },
             "#17": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 235.15
                 }
             },
@@ -4495,13 +4465,25 @@
         },
         "2022": {
             "#267": {
-                "P/L: Arceus Pre-Order": {
+                "STANDARD": {
                     "alt_value": 76.39
                 }
             },
             "#262": {
-                "Ultra Rare": {
+                "STANDARD": {
                     "alt_value": 132.86
+                }
+            }
+        }
+    },
+    "MAGMORTAR": {
+        "2012": {
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 192.03
+                },
+                "STANDARD": {
+                    "alt_value": 245.85
                 }
             }
         }
@@ -4509,7 +4491,7 @@
     "FARFETCH'D": {
         "1996": {
             "#83": {
-                "No Rarity Symbol Error": {
+                "STANDARD": {
                     "alt_value": 1118.62
                 }
             }
@@ -4518,22 +4500,6 @@
             "#3": {
                 "1st Edition": {
                     "alt_value": 75.89
-                }
-            }
-        }
-    },
-    "HITMONCHAN": {
-        "2004": {
-            "#60": {
-                "1st Edition": {
-                    "alt_value": 468.99
-                }
-            }
-        },
-        "1996": {
-            "#PROMO": {
-                "Holo No Rarity Symbol": {
-                    "alt_value": 7299.44
                 }
             }
         }
@@ -4550,7 +4516,7 @@
     "CHANSEY": {
         "1999": {
             "#113": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 243.51
                 }
             }
@@ -4570,6 +4536,22 @@
             }
         }
     },
+    "HITMONCHAN": {
+        "2004": {
+            "#60": {
+                "1st Edition": {
+                    "alt_value": 468.99
+                }
+            }
+        },
+        "1996": {
+            "#PROMO": {
+                "Holo": {
+                    "alt_value": 7299.44
+                }
+            }
+        }
+    },
     "NINETALES": {
         "2004": {
             "#18": {
@@ -4580,14 +4562,14 @@
         },
         "2006": {
             "#30": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 1171.51
                 }
             }
         },
         "2009": {
             "#13": {
-                "Holo 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 93.34
                 }
             }
@@ -4596,7 +4578,7 @@
     "TURTWIG": {
         "2007": {
             "#001": {
-                "Fan Club 2000 Exp Points Holo": {
+                "Holo": {
                     "alt_value": 172.08
                 }
             }
@@ -4645,8 +4627,38 @@
         },
         "1999": {
             "#NNO": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 5135.48
+                }
+            }
+        }
+    },
+    "LINOONE": {
+        "2020": {
+            "#278": {
+                "STANDARD": {
+                    "alt_value": 19.29
+                }
+            }
+        }
+    },
+    "FLYGON": {
+        "2003": {
+            "#6": {
+                "STANDARD": {
+                    "alt_value": 155.21
+                }
+            },
+            "#32": {
+                "Art Rare": {
+                    "alt_value": 185.65
+                }
+            }
+        },
+        "2006": {
+            "#125": {
+                "STANDARD": {
+                    "alt_value": 270.35
                 }
             }
         }
@@ -4661,7 +4673,7 @@
         },
         "1999": {
             "#54": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 158.85
                 }
             }
@@ -4680,26 +4692,17 @@
                 }
             }
         },
-        "2025": {
-            "#262": {
-                "Gym Promo Pack 10": {
-                    "alt_value": 107.64
-                }
-            }
-        },
         "2019": {
             "#11": {
                 "STANDARD": {
                     "alt_value": 120.65
                 }
             }
-        }
-    },
-    "LINOONE": {
-        "2020": {
-            "#278": {
-                "Japanese Shiny": {
-                    "alt_value": 19.29
+        },
+        "2025": {
+            "#262": {
+                "STANDARD": {
+                    "alt_value": 107.64
                 }
             }
         }
@@ -4720,15 +4723,6 @@
             }
         }
     },
-    "PACHIRISU": {
-        "2007": {
-            "#11": {
-                "Meiji Chocolate": {
-                    "alt_value": 127.18
-                }
-            }
-        }
-    },
     "TIMBURR": {
         "2024": {
             "#109": {
@@ -4738,23 +4732,11 @@
             }
         }
     },
-    "FLYGON": {
-        "2003": {
-            "#6": {
+    "PACHIRISU": {
+        "2007": {
+            "#11": {
                 "STANDARD": {
-                    "alt_value": 155.21
-                }
-            },
-            "#32": {
-                "7-11 Fair Campaign": {
-                    "alt_value": 185.65
-                }
-            }
-        },
-        "2006": {
-            "#125": {
-                "Mcdonald's": {
-                    "alt_value": 270.35
+                    "alt_value": 127.18
                 }
             }
         }
@@ -4776,17 +4758,8 @@
         },
         "2025": {
             "#127": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 76.92
-                }
-            }
-        }
-    },
-    "TOGETIC-": {
-        "2004": {
-            "#57": {
-                "STANDARD": {
-                    "alt_value": 259.86
                 }
             }
         }
@@ -4801,7 +4774,7 @@
         },
         "2023": {
             "#070": {
-                "Yu Nagaba X Pcg Campaign": {
+                "STANDARD": {
                     "alt_value": 124.06
                 }
             }
@@ -4820,17 +4793,8 @@
         },
         "2024": {
             "#212": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 166.33
-                }
-            }
-        }
-    },
-    "DODRIO": {
-        "1997": {
-            "#85": {
-                "Japanese Holo": {
-                    "alt_value": 180.59
                 }
             }
         }
@@ -4845,8 +4809,26 @@
         },
         "1996": {
             "#64": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 223.79
+                }
+            }
+        }
+    },
+    "TOGETIC-": {
+        "2004": {
+            "#57": {
+                "STANDARD": {
+                    "alt_value": 259.86
+                }
+            }
+        }
+    },
+    "DODRIO": {
+        "1997": {
+            "#85": {
+                "Holo": {
+                    "alt_value": 180.59
                 }
             }
         }
@@ -4861,7 +4843,7 @@
         },
         "2025": {
             "#170": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 50.55
                 }
             }
@@ -4870,14 +4852,14 @@
     "ELECTRODE": {
         "1996": {
             "#101": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 934.77
                 }
             }
         },
         "2010": {
             "#27": {
-                "Holo 1st Edition": {
+                "1st Edition Holo": {
                     "alt_value": 135.03
                 }
             }
@@ -4886,7 +4868,7 @@
     "GASTLY": {
         "1998": {
             "#92": {
-                "Series III": {
+                "STANDARD": {
                     "alt_value": 135.69
                 }
             }
@@ -4908,15 +4890,6 @@
             }
         }
     },
-    "BUTTERFREE": {
-        "2001": {
-            "#8": {
-                "Japanese 1st Edition": {
-                    "alt_value": 82.31
-                }
-            }
-        }
-    },
     "CYNDAQUIL": {
         "2002": {
             "#6": {
@@ -4926,20 +4899,11 @@
             }
         }
     },
-    "SLOWPOKE": {
-        "2002": {
-            "#31": {
-                "Japanese Holo": {
-                    "alt_value": 117.02
-                }
-            }
-        }
-    },
-    "COMBUSKEN": {
-        "2003": {
-            "#9": {
-                "Shogakukan Elementary School": {
-                    "alt_value": 210.22
+    "BUTTERFREE": {
+        "2001": {
+            "#8": {
+                "1st Edition": {
+                    "alt_value": 82.31
                 }
             }
         }
@@ -4953,11 +4917,29 @@
             }
         }
     },
+    "COMBUSKEN": {
+        "2003": {
+            "#9": {
+                "STANDARD": {
+                    "alt_value": 210.22
+                }
+            }
+        }
+    },
     "DIGLETT": {
         "1996": {
             "#50": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 861.49
+                }
+            }
+        }
+    },
+    "SLOWPOKE": {
+        "2002": {
+            "#31": {
+                "Holo": {
+                    "alt_value": 117.02
                 }
             }
         }
@@ -4974,6 +4956,15 @@
             "#5": {
                 "STANDARD": {
                     "alt_value": 94.34
+                }
+            }
+        }
+    },
+    "CLAYDOL": {
+        "2007": {
+            "#37": {
+                "STANDARD": {
+                    "alt_value": 137.35
                 }
             }
         }
@@ -4996,26 +4987,17 @@
             }
         }
     },
-    "CLAYDOL": {
-        "2007": {
-            "#37": {
-                "STANDARD": {
-                    "alt_value": 137.35
-                }
-            }
-        }
-    },
     "POLIWRATH": {
         "1996": {
             "#62": {
-                "Holo No Rarity Symbol": {
+                "Holo": {
                     "alt_value": 6389.39
                 }
             }
         },
         "2001": {
             "#109": {
-                "Japanese Holo": {
+                "Holo": {
                     "alt_value": 215.77
                 }
             }
@@ -5024,14 +5006,14 @@
     "HAUNTER": {
         "1996": {
             "#93": {
-                "No Rarity Symbol": {
+                "STANDARD": {
                     "alt_value": 839.56
                 }
             }
         },
         "2023": {
             "#93": {
-                "Mirror Foil Master Ball Pattern": {
+                "Reverse Holo": {
                     "alt_value": 79.34
                 }
             }
@@ -5058,7 +5040,7 @@
     "PRINPLUP": {
         "2007": {
             "#54": {
-                "Dp Card Exchange": {
+                "STANDARD": {
                     "alt_value": 113.68
                 }
             }
@@ -5076,24 +5058,8 @@
     "MAGMAR": {
         "1996": {
             "#126": {
-                "No Rarity Symbol": {
-                    "alt_value": 2446.55
-                }
-            }
-        }
-    },
-    "KABUTOPS": {
-        "2002": {
-            "#58": {
                 "STANDARD": {
-                    "alt_value": 214.32
-                }
-            }
-        },
-        "2000": {
-            "#141": {
-                "Holo": {
-                    "alt_value": 173.95
+                    "alt_value": 2446.55
                 }
             }
         }
@@ -5129,8 +5095,24 @@
         },
         "2024": {
             "#206": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 102.55
+                }
+            }
+        }
+    },
+    "KABUTOPS": {
+        "2002": {
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 214.32
+                }
+            }
+        },
+        "2000": {
+            "#141": {
+                "Holo": {
+                    "alt_value": 173.95
                 }
             }
         }
@@ -5138,7 +5120,7 @@
     "CHIMCHAR": {
         "2007": {
             "#2": {
-                "Fan Club 2000 Exp Points Holo": {
+                "Holo": {
                     "alt_value": 151.74
                 }
             }
@@ -5165,7 +5147,7 @@
     "ZERAORA": {
         "2022": {
             "#219": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 37.16
                 }
             }
@@ -5192,20 +5174,6 @@
             }
         }
     },
-    "CLOYSTER": {
-        "2001": {
-            "#40": {
-                "Japanese 1st Edition": {
-                    "alt_value": 84.58
-                }
-            },
-            "#110": {
-                "Japanese Holo": {
-                    "alt_value": 177.3
-                }
-            }
-        }
-    },
     "PIDGEY": {
         "2001": {
             "#16": {
@@ -5215,15 +5183,29 @@
             }
         }
     },
+    "CLOYSTER": {
+        "2001": {
+            "#40": {
+                "1st Edition": {
+                    "alt_value": 84.58
+                }
+            },
+            "#110": {
+                "Holo": {
+                    "alt_value": 177.3
+                }
+            }
+        }
+    },
     "GARDEVOIR": {
         "2025": {
             "#078": {
-                "Super Rare": {
+                "STANDARD": {
                     "alt_value": 52.56
                 }
             },
             "#087": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 212.5
                 }
             }
@@ -5235,7 +5217,7 @@
                 }
             },
             "#408": {
-                "Pokemon Center": {
+                "STANDARD": {
                     "alt_value": 65.34
                 }
             }
@@ -5249,7 +5231,7 @@
         },
         "2023": {
             "#348": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 130.37
                 }
             }
@@ -5258,7 +5240,7 @@
     "ALTARIA": {
         "2023": {
             "#90": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 92.51
                 }
             }
@@ -5294,14 +5276,14 @@
     "HYDREIGON": {
         "2024": {
             "#133": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 41.89
                 }
             }
         },
         "2025": {
             "#171": {
-                "Special Art Rare Holo": {
+                "Holo": {
                     "alt_value": 79.73
                 }
             }
@@ -5310,12 +5292,12 @@
     "BELLIBOLT": {
         "2025": {
             "#114": {
-                "Super Rare": {
+                "STANDARD": {
                     "alt_value": 25.69
                 }
             },
             "#125": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 80.72
                 }
             }
@@ -5338,7 +5320,7 @@
     "SIMISEAR": {
         "2022": {
             "#214": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 62.82
                 }
             }
@@ -5347,7 +5329,7 @@
     "CORSOLA": {
         "2002": {
             "#004": {
-                "Theater Vs Pack Japanese": {
+                "STANDARD": {
                     "alt_value": 98.86
                 }
             }
@@ -5413,7 +5395,7 @@
     "SUDOWOODO": {
         "2002": {
             "#58": {
-                "Japanese 1st Edition Holo": {
+                "1st Edition Holo": {
                     "alt_value": 267.62
                 }
             }
@@ -5422,14 +5404,14 @@
     "PORYGON": {
         "2000": {
             "#PROMO": {
-                "Japanese 700 Points Fan Club Holo": {
+                "Holo": {
                     "alt_value": 5269.99
                 }
             }
         },
         "1998": {
             "#137": {
-                "Cd Promo Holo": {
+                "Holo": {
                     "alt_value": 192.18
                 }
             }
@@ -5479,7 +5461,7 @@
     "TOGEPI": {
         "1999": {
             "#PROMO": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 853.65
                 }
             }
@@ -5549,7 +5531,7 @@
     "MARILL": {
         "1999": {
             "#PROMO": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 490.57
                 }
             }
@@ -5567,7 +5549,7 @@
     "EMPOLEON": {
         "2008": {
             "#78": {
-                "Shining Darkness": {
+                "STANDARD": {
                     "alt_value": 183.7
                 }
             }
@@ -5594,7 +5576,7 @@
     "CERULEDGE": {
         "2024": {
             "#203": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 46.67
                 }
             }
@@ -5630,7 +5612,7 @@
     "MONKEY D. LUFFY": {
         "2023": {
             "#P043": {
-                "Weekly Shonen Jump 36-37": {
+                "STANDARD": {
                     "alt_value": 121.02
                 }
             }
@@ -5645,6 +5627,15 @@
             }
         }
     },
+    "SOBBLE": {
+        "2020": {
+            "#146": {
+                "STANDARD": {
+                    "alt_value": 54.9
+                }
+            }
+        }
+    },
     "PIPLUP": {
         "2025": {
             "#085": {
@@ -5654,11 +5645,11 @@
             }
         }
     },
-    "SOBBLE": {
-        "2020": {
-            "#146": {
-                "Pokemon Center Kanazawa Opening": {
-                    "alt_value": 54.9
+    "CLAMPERL": {
+        "2025": {
+            "#102": {
+                "Art Rare": {
+                    "alt_value": 25.34
                 }
             }
         }
@@ -5666,7 +5657,7 @@
     "VILEPLUME": {
         "2019": {
             "#62": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 103.08
                 }
             }
@@ -5675,15 +5666,6 @@
             "#45": {
                 "Holo": {
                     "alt_value": 99.16
-                }
-            }
-        }
-    },
-    "CLAMPERL": {
-        "2025": {
-            "#102": {
-                "Art Rare": {
-                    "alt_value": 25.34
                 }
             }
         }
@@ -5700,17 +5682,8 @@
     "MILOTIC": {
         "2024": {
             "#131": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 89.86
-                }
-            }
-        }
-    },
-    "POLIWAG": {
-        "1996": {
-            "#60": {
-                "STANDARD": {
-                    "alt_value": 91.28
                 }
             }
         }
@@ -5731,11 +5704,11 @@
             }
         }
     },
-    "QUAXLY": {
-        "2025": {
-            "#019": {
-                "Mcdonald's Promo": {
-                    "alt_value": 35.74
+    "POLIWAG": {
+        "1996": {
+            "#60": {
+                "STANDARD": {
+                    "alt_value": 91.28
                 }
             }
         }
@@ -5745,6 +5718,15 @@
             "#068": {
                 "Art Rare": {
                     "alt_value": 46.98
+                }
+            }
+        }
+    },
+    "QUAXLY": {
+        "2025": {
+            "#019": {
+                "STANDARD": {
+                    "alt_value": 35.74
                 }
             }
         }
@@ -5761,7 +5743,7 @@
     "PERRIN": {
         "2024": {
             "#92": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 109.77
                 }
             }
@@ -5779,7 +5761,7 @@
     "RALTS": {
         "2025": {
             "#021": {
-                "Mcdonald's Promotion": {
+                "STANDARD": {
                     "alt_value": 37.19
                 }
             }
@@ -5797,7 +5779,7 @@
     "KOFFING": {
         "2019": {
             "#56": {
-                "Japanese": {
+                "STANDARD": {
                     "alt_value": 54.24
                 }
             }
@@ -5806,7 +5788,7 @@
     "PALAFIN": {
         "2024": {
             "#207": {
-                "Special Art Rare": {
+                "Art Rare": {
                     "alt_value": 60.56
                 }
             }
@@ -5815,7 +5797,7 @@
     "ZOROARK": {
         "2025": {
             "#127": {
-                "Special Art Rare Holo": {
+                "Holo": {
                     "alt_value": 59.68
                 }
             }
