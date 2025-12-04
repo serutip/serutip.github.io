@@ -7,7 +7,7 @@
                     "asset_id": "f023c9bd-8e9b-4ae6-a03c-fa81cc67463e"
                 }
             },
-            "#001": {
+            "#1": {
                 "STANDARD": {
                     "alt_value": 36.98,
                     "asset_id": "49a704ae-e215-4a56-ae80-a9d62671be44"
@@ -71,7 +71,7 @@
             }
         },
         "2023": {
-            "#046": {
+            "#46": {
                 "STANDARD": {
                     "alt_value": 48.07,
                     "asset_id": "3739d98c-46ce-45c0-ae23-28828e1524a7"
@@ -133,7 +133,7 @@
                     "asset_id": "b6cd5ef5-9806-46d7-b9a4-b4ee66f91774"
                 }
             },
-            "#081": {
+            "#81": {
                 "Holo": {
                     "alt_value": 44.34,
                     "asset_id": "690a150b-cff7-4d39-964c-7e8ebd481e75"
@@ -273,7 +273,7 @@
             }
         },
         "2024": {
-            "#058": {
+            "#58": {
                 "STANDARD": {
                     "alt_value": 342.1,
                     "asset_id": "befa2376-ac3e-4c65-8081-894209ed81c1"
@@ -361,7 +361,7 @@
                     "asset_id": "38ca51e4-8da1-4cd1-94e8-c086f18df5dc"
                 }
             },
-            "#052": {
+            "#52": {
                 "STANDARD": {
                     "alt_value": 327.55,
                     "asset_id": "95655133-62af-4120-8c2c-c0544dac7a26"
@@ -539,7 +539,7 @@
                     "asset_id": "d6ea2a3f-c7d4-41be-8caa-24c3eafed9cb"
                 }
             },
-            "#004": {
+            "#4": {
                 "STANDARD": {
                     "alt_value": 39.95,
                     "asset_id": "eedf17f9-49ff-4cf8-87ce-a781e0c1373d"
@@ -603,13 +603,13 @@
                     "asset_id": "b3f042fc-76e7-474e-a994-cb8be0bb4cdf"
                 }
             },
-            "#044": {
+            "#44": {
                 "STANDARD": {
                     "alt_value": 268.75,
                     "asset_id": "f5f6423b-d3a4-427b-8762-08826e098147"
                 }
             },
-            "#047": {
+            "#47": {
                 "STANDARD": {
                     "alt_value": 53.66,
                     "asset_id": "366308b5-f90c-40ba-964e-073b103c9780"
@@ -781,7 +781,7 @@
                     "asset_id": "6f5fbe14-990b-4a80-a9c1-0c97dc5bff91"
                 }
             },
-            "#053": {
+            "#53": {
                 "STANDARD": {
                     "alt_value": 477.35,
                     "asset_id": "388c12ea-1596-4269-ae89-f059ec95fb2e"
@@ -1037,7 +1037,7 @@
     },
     "CHARIZARD": {
         "2023": {
-            "#056": {
+            "#56": {
                 "STANDARD": {
                     "alt_value": 97.32,
                     "asset_id": "a964c762-7aeb-4c50-8fd8-5eb78302a8bd"
@@ -1179,7 +1179,7 @@
                     "asset_id": "b34a5b74-3190-4bb3-9dd1-dab09f281ddc"
                 }
             },
-            "#004": {
+            "#4": {
                 "STANDARD": {
                     "alt_value": 8066.05,
                     "asset_id": "e82c66cb-b9a2-4186-9038-9c10d0534343"
@@ -1217,7 +1217,7 @@
                     "asset_id": "c1bbef3f-e7a1-43d8-a279-63b1e651e715"
                 }
             },
-            "#017": {
+            "#17": {
                 "STANDARD": {
                     "alt_value": 69.97,
                     "asset_id": "f71140d0-2f51-4ec4-9552-a7636b9473d1"
@@ -1921,7 +1921,7 @@
                     "asset_id": "d38a9539-d891-429e-8e55-1d25fff14083"
                 }
             },
-            "#037": {
+            "#37": {
                 "STANDARD": {
                     "alt_value": 62.99,
                     "asset_id": "20161d8d-82cb-40c0-9118-59d34e3661cf"
@@ -1951,7 +1951,7 @@
             }
         },
         "2025": {
-            "#087": {
+            "#87": {
                 "Holo": {
                     "alt_value": 331.1,
                     "asset_id": "02be6e71-4ca7-4014-9c1e-81e8357df163"
@@ -1987,7 +1987,7 @@
                     "asset_id": "2cda9570-a6aa-41b1-b7ee-3d4b0abc4107"
                 }
             },
-            "#050": {
+            "#50": {
                 "STANDARD": {
                     "alt_value": 46.33,
                     "asset_id": "f9961247-349a-459d-98d8-98fbc96073b7"
@@ -2029,7 +2029,7 @@
             }
         },
         "2024": {
-            "#082": {
+            "#82": {
                 "STANDARD": {
                     "alt_value": 167.95,
                     "asset_id": "ddd22411-d4ee-490b-81f7-d1218e4229e3"
@@ -2425,7 +2425,7 @@
                     "asset_id": "d980692d-d5b0-4d47-a746-eb6990baee18"
                 }
             },
-            "#034": {
+            "#34": {
                 "STANDARD": {
                     "alt_value": 469.04,
                     "asset_id": "479698b7-74c4-4e04-ac7c-8c0492b88f19"
@@ -2631,7 +2631,7 @@
                     "asset_id": "ac399a6b-0b01-40c6-8a6b-79c886a149b0"
                 }
             },
-            "#005": {
+            "#5": {
                 "Holo": {
                     "alt_value": 98.36,
                     "asset_id": "b9525e6e-1951-4e03-90ef-2626ffb876bc"
@@ -2709,7 +2709,7 @@
                     "asset_id": "2df92a1a-50c1-40e3-bff6-bf69dfe76cc7"
                 }
             },
-            "#057": {
+            "#57": {
                 "STANDARD": {
                     "alt_value": 196.62,
                     "asset_id": "29d8d8d6-a68d-4091-b651-2d09add54e4e"
@@ -2863,7 +2863,7 @@
             }
         },
         "2023": {
-            "#002": {
+            "#2": {
                 "STANDARD": {
                     "alt_value": 38.35,
                     "asset_id": "a3513324-6033-4883-b567-c56d1e8ee3f7"
@@ -2977,7 +2977,7 @@
                     "asset_id": "943b3a16-18d0-4d2d-bc0e-4530215edafa"
                 }
             },
-            "#026": {
+            "#26": {
                 "STANDARD": {
                     "alt_value": 62.48,
                     "asset_id": "c8ac5a1f-38a6-4fc2-a65a-85c16a717969"
@@ -3551,7 +3551,7 @@
                     "asset_id": "25b3965c-1629-4e8e-98ce-2cac9d0cbebd"
                 }
             },
-            "#074": {
+            "#74": {
                 "STANDARD": {
                     "alt_value": 69.9,
                     "asset_id": "ae854384-efcd-49ee-b46b-144dfd9747fb"
@@ -3579,7 +3579,7 @@
                     "asset_id": "4d385486-40bc-403b-9ede-261c5d7622e6"
                 }
             },
-            "#075": {
+            "#75": {
                 "STANDARD": {
                     "alt_value": 68.47,
                     "asset_id": "bb992536-ea36-4239-bc6e-74feca2e5eae"
@@ -3707,7 +3707,7 @@
             }
         },
         "2025": {
-            "#086": {
+            "#86": {
                 "Reverse Holo": {
                     "alt_value": 62.39,
                     "asset_id": "530d1750-a5f2-44de-be71-321cf5361795"
@@ -4015,7 +4015,7 @@
             }
         },
         "2023": {
-            "#051": {
+            "#51": {
                 "STANDARD": {
                     "alt_value": 140.41,
                     "asset_id": "a42e8b83-b821-4909-9a04-e94113ee3696"
@@ -4139,7 +4139,7 @@
                     "asset_id": "a9289692-6f92-4f31-9877-e973e393098a"
                 }
             },
-            "#027": {
+            "#27": {
                 "STANDARD": {
                     "alt_value": 134.91,
                     "asset_id": "2a02a8a6-f48d-4baf-aeaa-c72a5228413a"
@@ -4151,7 +4151,7 @@
                     "asset_id": "0fd6a184-761b-40f5-a302-5253dfaef529"
                 }
             },
-            "#085": {
+            "#85": {
                 "STANDARD": {
                     "alt_value": 1426.52,
                     "asset_id": "04ef1814-e99d-4767-b78d-2a7cd9d8e718"
@@ -4213,7 +4213,7 @@
                     "asset_id": "4f521efb-81e3-420f-a4a8-8c01eb176c61"
                 }
             },
-            "#061": {
+            "#61": {
                 "STANDARD": {
                     "alt_value": 46.11,
                     "asset_id": "9e01e04d-ba24-4d69-81b5-264747fe7044"
@@ -4281,7 +4281,7 @@
                     "asset_id": "7e1e460d-188e-4d31-9889-849ae4cca06d"
                 }
             },
-            "#014": {
+            "#14": {
                 "STANDARD": {
                     "alt_value": 1394.19,
                     "asset_id": "5ee2a224-00a3-41a4-a128-93f97072287b"
@@ -4327,7 +4327,7 @@
                     "asset_id": "11314bb0-60cc-4f1d-99d9-b186328099be"
                 }
             },
-            "#0": {
+            "#": {
                 "STANDARD": {
                     "alt_value": 130.21,
                     "asset_id": "fb627e74-502e-4fa4-aae0-dad62fd0fa51"
@@ -4425,7 +4425,7 @@
             }
         },
         "2020": {
-            "#016": {
+            "#16": {
                 "STANDARD": {
                     "alt_value": 334.8,
                     "asset_id": "2acd8518-bddf-4e1c-98fb-018a0d7e2dfe"
@@ -4473,7 +4473,7 @@
                     "asset_id": "756f0629-9d3e-4fb8-873d-a8412eca9bf1"
                 }
             },
-            "#039": {
+            "#39": {
                 "Holo": {
                     "alt_value": 134.05,
                     "asset_id": "6db48686-ea97-4913-bdfa-a31f9ed12315"
@@ -4559,7 +4559,7 @@
                     "asset_id": "862f945a-05f0-4a0a-8a04-d1d7471de1d6"
                 }
             },
-            "#018": {
+            "#18": {
                 "STANDARD": {
                     "alt_value": 94.01,
                     "asset_id": "4bdf342b-1741-4195-8aa5-355846e1319d"
@@ -4585,7 +4585,7 @@
             }
         },
         "2014": {
-            "#099": {
+            "#99": {
                 "STANDARD": {
                     "alt_value": 1088.22,
                     "asset_id": "c8edbb15-f46c-4239-b4b4-921b697321f7"
@@ -4831,7 +4831,7 @@
             }
         },
         "2025": {
-            "#024": {
+            "#24": {
                 "Holo": {
                     "alt_value": 93.93,
                     "asset_id": "26ebd015-8e45-46c5-ae24-a7ef10e94be0"
@@ -5747,7 +5747,7 @@
             }
         },
         "2023": {
-            "#003": {
+            "#3": {
                 "STANDARD": {
                     "alt_value": 109.47,
                     "asset_id": "47e80035-cc3f-4f47-ab66-3496b22354da"
@@ -5859,7 +5859,7 @@
             }
         },
         "2025": {
-            "#009": {
+            "#9": {
                 "STANDARD": {
                     "alt_value": 79.26,
                     "asset_id": "a7a7a12f-dc40-4776-9596-ffdcc3b12bbe"
@@ -5953,7 +5953,7 @@
             }
         },
         "1999": {
-            "#0": {
+            "#": {
                 "STANDARD": {
                     "alt_value": 1033.74,
                     "asset_id": "6de28585-e449-44ee-8c1f-1b5bc45a8288"
@@ -6027,7 +6027,7 @@
             }
         },
         "2025": {
-            "#051": {
+            "#51": {
                 "STANDARD": {
                     "alt_value": 92.48,
                     "asset_id": "704fe3cc-2e90-4480-ad1f-f19b22bb9d91"
@@ -6175,7 +6175,7 @@
             }
         },
         "2023": {
-            "#049": {
+            "#49": {
                 "STANDARD": {
                     "alt_value": 33.96,
                     "asset_id": "cced2b53-ea81-48c8-84d9-9b197fe2933f"
@@ -6207,7 +6207,7 @@
             }
         },
         "2025": {
-            "#070": {
+            "#70": {
                 "STANDARD": {
                     "alt_value": 105.74,
                     "asset_id": "0cdfa101-828e-4a59-8a0f-926de2ee6081"
@@ -6835,7 +6835,7 @@
             }
         },
         "2024": {
-            "#007": {
+            "#7": {
                 "STANDARD": {
                     "alt_value": 56.1,
                     "asset_id": "b00fab99-4b24-4c38-b6a8-c55c3e9c53af"
@@ -6863,7 +6863,7 @@
             }
         },
         "2022": {
-            "#061": {
+            "#61": {
                 "STANDARD": {
                     "alt_value": 61.13,
                     "asset_id": "cd4fdbbd-d82b-462d-8721-a66ac457c937"
@@ -6893,7 +6893,7 @@
                     "asset_id": "3b48285e-4a7f-4418-9af2-f68fa4917e56"
                 }
             },
-            "#007": {
+            "#7": {
                 "STANDARD": {
                     "alt_value": 265.6,
                     "asset_id": "a4e5f24c-5e44-4b74-aa8c-54e6916d5541"
@@ -6981,7 +6981,7 @@
             }
         },
         "2009": {
-            "#005LP": {
+            "#5LP": {
                 "STANDARD": {
                     "alt_value": 129.61,
                     "asset_id": "83fab9e2-3e46-487e-8fbd-1efadafadd13"
@@ -7879,7 +7879,7 @@
             }
         },
         "2009": {
-            "#037": {
+            "#37": {
                 "STANDARD": {
                     "alt_value": 38.91,
                     "asset_id": "d083c6e1-11a6-440f-a1ff-785ab9de298e"
@@ -8427,7 +8427,7 @@
     },
     "TYRANITAR": {
         "2025": {
-            "#096": {
+            "#96": {
                 "Holo": {
                     "alt_value": 373.99,
                     "asset_id": "c7ff3b38-9528-4b90-bb95-562c8ca6416e"
@@ -8655,7 +8655,7 @@
             }
         },
         "2025": {
-            "#054": {
+            "#54": {
                 "Reverse Holo": {
                     "alt_value": 47.63,
                     "asset_id": "2a550876-b7aa-42ff-b0c5-cf4b41c53b29"
@@ -8727,7 +8727,7 @@
     },
     "GOTHITA": {
         "2025": {
-            "#041": {
+            "#41": {
                 "Reverse Holo": {
                     "alt_value": 30.77,
                     "asset_id": "9c02d92b-350a-4a7d-bcc0-f9a6fd075138"
@@ -9367,7 +9367,7 @@
             }
         },
         "2025": {
-            "#030": {
+            "#30": {
                 "STANDARD": {
                     "alt_value": 30.61,
                     "asset_id": "4b57cfa3-93fb-47d7-baaf-e255f0b13584"
@@ -10359,7 +10359,7 @@
                     "asset_id": "595dd255-8f2d-4dd6-b9c0-fea4434a0fee"
                 }
             },
-            "#013": {
+            "#13": {
                 "STANDARD": {
                     "alt_value": 71.1,
                     "asset_id": "fb0861a4-65c7-4bbe-ba1f-786f3b681d99"
@@ -11339,7 +11339,7 @@
             }
         },
         "2025": {
-            "#018": {
+            "#18": {
                 "STANDARD": {
                     "alt_value": 41.88,
                     "asset_id": "3b4aba57-b0d3-4d6d-aa77-7e0aa74dc630"
@@ -11521,13 +11521,13 @@
     },
     "SERVINE": {
         "2025": {
-            "#088": {
+            "#88": {
                 "Holo": {
                     "alt_value": 51.44,
                     "asset_id": "9789cfac-e581-4345-adfc-03a4bd25da29"
                 }
             },
-            "#002": {
+            "#2": {
                 "Reverse Holo": {
                     "alt_value": 34.84,
                     "asset_id": "5b9bba3d-3cf8-4692-8862-f26983842025"
@@ -12427,7 +12427,7 @@
     },
     "KORAIDON": {
         "2023": {
-            "#014": {
+            "#14": {
                 "STANDARD": {
                     "alt_value": 77.58,
                     "asset_id": "b34453dc-4870-4983-9db9-e88e48c1da7e"
@@ -12453,7 +12453,7 @@
             }
         },
         "2022": {
-            "#049": {
+            "#49": {
                 "STANDARD": {
                     "alt_value": 96.11,
                     "asset_id": "debce993-2c78-4f28-83e6-efbf2a37da6c"
@@ -12819,7 +12819,7 @@
                     "asset_id": "db53a6b8-a3ca-4ac0-89f1-66e128cefde3"
                 }
             },
-            "#011": {
+            "#11": {
                 "STANDARD": {
                     "alt_value": 205.14,
                     "asset_id": "d4d6d8a1-6045-41a7-828b-eb613530dacb"
@@ -14071,7 +14071,7 @@
     },
     "DUSKULL": {
         "2025": {
-            "#035": {
+            "#35": {
                 "Holo": {
                     "alt_value": 37.12,
                     "asset_id": "707a8ec7-8bb6-4b68-9ccb-50bacb455ba9"
@@ -14857,7 +14857,7 @@
     },
     "LAMPENT": {
         "2025": {
-            "#017": {
+            "#17": {
                 "Reverse Holo": {
                     "alt_value": 30.29,
                     "asset_id": "2f4048bc-c03a-4b1a-a10a-f235894a6640"
@@ -14887,7 +14887,7 @@
     },
     "PUPITAR": {
         "2025": {
-            "#048": {
+            "#48": {
                 "Holo": {
                     "alt_value": 30.19,
                     "asset_id": "a387a3f8-a299-43f9-b294-28b7d448101d"
@@ -15799,7 +15799,7 @@
     },
     "FERROTHORN": {
         "2025": {
-            "#069": {
+            "#69": {
                 "Reverse Holo": {
                     "alt_value": 28.28,
                     "asset_id": "f072331a-efaa-485c-92b4-22eed97b5037"
@@ -15859,7 +15859,7 @@
     },
     "PURRLOIN": {
         "2025": {
-            "#055": {
+            "#55": {
                 "Reverse Holo": {
                     "alt_value": 28.34,
                     "asset_id": "9e89e73d-5bf6-4000-8e8b-5ad1ae7da192"
