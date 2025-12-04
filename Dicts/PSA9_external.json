@@ -1480,6 +1480,12 @@
                     "alt_value": 98.19,
                     "asset_id": "1c846873-878d-4bde-86a1-81819f876ba7"
                 }
+            },
+            "#18": {
+                "Holo": {
+                    "alt_value": 175.53,
+                    "asset_id": "f54de958-7bd7-4891-97d0-c12618bb864a"
+                }
             }
         },
         "2021": {
@@ -2657,6 +2663,10 @@
                 "Holo": {
                     "alt_value": 55.07,
                     "asset_id": "5bb06241-6f67-4c1d-8d85-1e9176ee0376"
+                },
+                "STANDARD": {
+                    "alt_value": 359.45,
+                    "asset_id": "d6147ca4-103f-4db2-934c-c32562aa0710"
                 }
             },
             "#79": {
@@ -2787,6 +2797,12 @@
                 "STANDARD": {
                     "alt_value": 326.69,
                     "asset_id": "9fcbbc13-bc2e-426f-a095-c191e2ee7e31"
+                }
+            },
+            "#XY17": {
+                "STANDARD": {
+                    "alt_value": 137.05,
+                    "asset_id": "8380bcab-b8a6-4b7d-834d-429c0d7b0e8a"
                 }
             }
         },
@@ -5171,6 +5187,14 @@
                     "asset_id": "8cec2ca8-2527-45bc-b044-d2c5c6c9555f"
                 }
             }
+        },
+        "2003": {
+            "#H19": {
+                "Holo": {
+                    "alt_value": 355.17,
+                    "asset_id": "50b91aa4-c9e2-41e9-8cd1-31a208105fab"
+                }
+            }
         }
     },
     "MELOETTA": {
@@ -6781,6 +6805,14 @@
                     "asset_id": "4e40cbc2-9cb7-4955-9b01-e7451b1b3821"
                 }
             }
+        },
+        "2014": {
+            "#XY123": {
+                "STANDARD": {
+                    "alt_value": 596.65,
+                    "asset_id": "a574aa79-3a35-49a7-ba80-434fc8f01d79"
+                }
+            }
         }
     },
     "CLEFAIRY": {
@@ -7357,6 +7389,14 @@
                 "Art Rare": {
                     "alt_value": 20.7,
                     "asset_id": "34434d9b-e6a2-46b0-bb8a-8e8f810d62e2"
+                }
+            }
+        },
+        "2014": {
+            "#144": {
+                "STANDARD": {
+                    "alt_value": 182.3,
+                    "asset_id": "e9988e5c-86a8-4d02-8e8e-59bb401b7650"
                 }
             }
         }
@@ -10279,6 +10319,14 @@
                     "asset_id": "aa8e32b5-e948-4385-8018-5eae6fae8d93"
                 }
             }
+        },
+        "2002": {
+            "#19": {
+                "Reverse Holo": {
+                    "alt_value": 603.07,
+                    "asset_id": "b151dcfa-f07e-49a8-9021-1b5cf8afccfb"
+                }
+            }
         }
     },
     "ZOROARK": {
@@ -11149,6 +11197,14 @@
                 "Holo": {
                     "alt_value": 33.79,
                     "asset_id": "8c508340-b46f-4024-baaa-f36cebca9017"
+                }
+            }
+        },
+        "2022": {
+            "#TG13": {
+                "STANDARD": {
+                    "alt_value": 22.43,
+                    "asset_id": "9a1350d1-c7bc-416d-b7de-3534b0edb970"
                 }
             }
         }
@@ -12603,6 +12659,26 @@
                 "STANDARD": {
                     "alt_value": 63.96,
                     "asset_id": "4f65f1ae-bbc4-4aa9-a03b-d3e3151a1d1c"
+                }
+            }
+        }
+    },
+    "SWAMPERT": {
+        "2003": {
+            "#13": {
+                "Holo": {
+                    "alt_value": 184.58,
+                    "asset_id": "e2198c5a-00b4-49f8-a993-ddfc4e473ea9"
+                }
+            }
+        }
+    },
+    "MANKEY": {
+        "2002": {
+            "#81": {
+                "Reverse Holo": {
+                    "alt_value": 167.39,
+                    "asset_id": "c908a623-c62d-497b-830c-b3372a437fb3"
                 }
             }
         }
