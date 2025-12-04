@@ -1729,6 +1729,14 @@
                     "asset_id": "ddad7460-5a3c-402f-8a09-0ba80f622cae"
                 }
             }
+        },
+        "2001": {
+            "#5": {
+                "STANDARD": {
+                    "alt_value": 166.89,
+                    "asset_id": "12a17bea-f040-499e-9392-30f08b019315"
+                }
+            }
         }
     },
     "ESPEON": {
@@ -4709,6 +4717,12 @@
                 "STANDARD": {
                     "alt_value": 61.83,
                     "asset_id": "69985aa8-77bf-42aa-9118-214eafae7ae2"
+                }
+            },
+            "#TG19": {
+                "STANDARD": {
+                    "alt_value": 45.0,
+                    "asset_id": "48bad989-41c8-49d1-a424-6043869014ad"
                 }
             }
         }
@@ -11307,6 +11321,10 @@
                 "1st Edition": {
                     "alt_value": 330.91,
                     "asset_id": "a35d3506-bdf2-467c-8b51-6817f7d0d0f0"
+                },
+                "STANDARD": {
+                    "alt_value": 284.93,
+                    "asset_id": "8b698eec-0b9b-43f3-ac30-77c56c1249ba"
                 }
             }
         }
