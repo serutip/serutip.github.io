@@ -285,7 +285,7 @@
         function formatCardContent(code, variety, val, name, year, isExt = false) {
             const clean = code.replace(/^#/, '').replace('NA', '').trim();
             const varietyText = (variety && variety !== 'STANDARD') ? `<div class="card-variety">(${variety})</div>` : '';
-            const badge = isExt ? '<div class="ext-badge">ALT</div>' : '';
+            const badge = isExt ? '<div class="ext-badge">NON-CC</div>' : '';
 
             let priceLine = '';
             const insured = val?.insured_value ?? 0;
