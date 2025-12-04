@@ -22,7 +22,7 @@
             "#24": {
                 "STANDARD": {
                     "insured_value": 29.0,
-                    "alt_value": 42.86,
+                    "alt_value": 42.0,
                     "asset_id": "ec6861ef-ea30-4e3f-aa7f-1890a2165313"
                 }
             }
@@ -218,7 +218,7 @@
             "#102": {
                 "STANDARD": {
                     "insured_value": 56.0,
-                    "alt_value": 288.25,
+                    "alt_value": 265.78,
                     "asset_id": "2f403fd9-b7d0-4de5-a048-ee0ed4dcf757"
                 }
             }
@@ -880,7 +880,7 @@
             "#S-P": {
                 "STANDARD": {
                     "insured_value": 66.0,
-                    "alt_value": 64.95,
+                    "alt_value": 65.44,
                     "asset_id": "1054cfea-8f48-4c83-a9e6-b4a674390b54"
                 }
             }
@@ -905,7 +905,7 @@
             "#14": {
                 "1st Edition": {
                     "insured_value": 192.0,
-                    "alt_value": 231.46,
+                    "alt_value": 222.06,
                     "asset_id": "8bfa942c-c9bb-4546-85f3-4336e907dc86"
                 }
             }
@@ -954,7 +954,7 @@
             "#9": {
                 "Holo": {
                     "insured_value": 135.0,
-                    "alt_value": 130.78,
+                    "alt_value": 128.76,
                     "asset_id": "ecaaf1f3-bc2c-49e0-865b-6a162aa6cb01"
                 }
             }
@@ -1002,7 +1002,7 @@
             "#20": {
                 "1st Edition": {
                     "insured_value": 85.0,
-                    "alt_value": 58.17,
+                    "alt_value": 59.64,
                     "asset_id": "16979e88-27fc-4323-8afa-9fbc43e4b924"
                 }
             }
@@ -1076,6 +1076,10 @@
                     "insured_value": 60.0,
                     "alt_value": 63.99,
                     "asset_id": "44d9c5cf-e74e-4992-8ae3-f06d1d9dec78"
+                },
+                "Holo": {
+                    "alt_value": 61.41,
+                    "asset_id": "44d9c5cf-e74e-4992-8ae3-f06d1d9dec78"
                 }
             }
         },
@@ -1119,7 +1123,7 @@
             "#185": {
                 "STANDARD": {
                     "insured_value": 80.0,
-                    "alt_value": 73.42,
+                    "alt_value": 72.95,
                     "asset_id": "133c89f3-49ff-4d08-9042-68d8aee8792a"
                 }
             }
@@ -1297,7 +1301,7 @@
             "#54": {
                 "STANDARD": {
                     "insured_value": 22.0,
-                    "alt_value": 21.98,
+                    "alt_value": 22.83,
                     "asset_id": "a5661a6b-3eba-4a36-b461-513d6c1497f4"
                 }
             }
@@ -1315,7 +1319,7 @@
             "#111": {
                 "STANDARD": {
                     "insured_value": 36.0,
-                    "alt_value": 44.68,
+                    "alt_value": 43.5,
                     "asset_id": "7b4180c2-0600-4962-926a-7fc956d38fa5"
                 }
             }
@@ -1437,7 +1441,7 @@
             "#46": {
                 "1st Edition": {
                     "insured_value": 48.0,
-                    "alt_value": 71.99,
+                    "alt_value": 70.91,
                     "asset_id": "1948d24c-f343-4b9e-93f0-8a3696a8dc9d"
                 }
             }
@@ -1510,7 +1514,7 @@
             "#59": {
                 "1st Edition": {
                     "insured_value": 51.0,
-                    "alt_value": 48.71,
+                    "alt_value": 48.65,
                     "asset_id": "e71f8fa1-07c2-4e44-a6a8-8648f43abb05"
                 }
             }
@@ -1544,7 +1548,7 @@
             "#86": {
                 "1st Edition": {
                     "insured_value": 33.0,
-                    "alt_value": 53.76,
+                    "alt_value": 74.12,
                     "asset_id": "e1741c90-a5b0-4275-bade-b19d2f854ead"
                 }
             }
@@ -1602,14 +1606,14 @@
             "#90": {
                 "STANDARD": {
                     "insured_value": 80.0,
-                    "alt_value": 58.63,
+                    "alt_value": 61.88,
                     "asset_id": "88622e06-49c4-41a1-a656-4ffdbd691158"
                 }
             },
             "#84": {
                 "1st Edition": {
                     "insured_value": 152.0,
-                    "alt_value": 58.23,
+                    "alt_value": 61.5,
                     "asset_id": "6feaabe4-9128-4129-becf-2f1f592e09aa"
                 }
             }
@@ -2031,7 +2035,7 @@
             "#PROMO": {
                 "STANDARD": {
                     "insured_value": 47.0,
-                    "alt_value": 68.89,
+                    "alt_value": 62.04,
                     "asset_id": "1b9d43e1-9362-48df-8d43-d2917878387c"
                 }
             }
@@ -2135,7 +2139,7 @@
             "#39": {
                 "STANDARD": {
                     "insured_value": 90.0,
-                    "alt_value": 169.64,
+                    "alt_value": 166.11,
                     "asset_id": "c346aa8f-13c9-44b1-b800-12ed24374b1f"
                 },
                 "1st Edition Holo": {
@@ -2167,7 +2171,7 @@
             "#51": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 26.31,
+                    "alt_value": 26.52,
                     "asset_id": "d5c3810d-c223-44f0-bded-f6bc0872b6d7"
                 }
             }
@@ -2192,7 +2196,7 @@
             "#60": {
                 "STANDARD": {
                     "insured_value": 33.0,
-                    "alt_value": 38.74,
+                    "alt_value": 39.24,
                     "asset_id": "433a9361-d3fe-420a-a96a-1f1a3812fc0a"
                 }
             }
@@ -2218,7 +2222,7 @@
             "#21": {
                 "STANDARD": {
                     "insured_value": 39.0,
-                    "alt_value": 71.86,
+                    "alt_value": 76.44,
                     "asset_id": "af66a22c-f071-45be-b279-d33b54af84d8"
                 }
             }
@@ -2306,7 +2310,7 @@
             "#6": {
                 "1st Edition": {
                     "insured_value": 51.0,
-                    "alt_value": 46.84,
+                    "alt_value": 46.74,
                     "asset_id": "4d59e42f-ef76-400a-964b-98ef3bc970cc"
                 }
             }
@@ -2315,7 +2319,7 @@
             "#90": {
                 "STANDARD": {
                     "insured_value": 64.0,
-                    "alt_value": 57.24,
+                    "alt_value": 57.19,
                     "asset_id": "2fd3d9fe-be96-45eb-b78e-3ba08b1651dd"
                 }
             }
@@ -2335,7 +2339,7 @@
             "#PROMO": {
                 "STANDARD": {
                     "insured_value": 58.0,
-                    "alt_value": 64.97,
+                    "alt_value": 65.8,
                     "asset_id": "5d3f91be-b293-423c-9e78-37ab353eeb25"
                 }
             }
@@ -2447,7 +2451,7 @@
             },
             "#009": {
                 "STANDARD": {
-                    "alt_value": 277.2,
+                    "alt_value": 269.98,
                     "asset_id": "807a0a6d-60e3-47fc-b9ab-0f45904a84fe"
                 }
             }
@@ -2593,7 +2597,7 @@
             },
             "#9": {
                 "STANDARD": {
-                    "alt_value": 38.02,
+                    "alt_value": 42.75,
                     "asset_id": "ea1f212e-26bf-4fd2-848a-eee7827713d3"
                 }
             }
@@ -2689,7 +2693,7 @@
             "#202": {
                 "STANDARD": {
                     "insured_value": 44.0,
-                    "alt_value": 41.7,
+                    "alt_value": 45.29,
                     "asset_id": "64978837-27d9-4692-b4ee-ef09fac77335"
                 }
             },
@@ -2705,7 +2709,7 @@
             "#40": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 27.36,
+                    "alt_value": 27.18,
                     "asset_id": "5d8849ff-2afc-4aa9-938d-d0eadba12ac5"
                 }
             },
@@ -2912,7 +2916,7 @@
             "#143": {
                 "STANDARD": {
                     "insured_value": 77.0,
-                    "alt_value": 189.85,
+                    "alt_value": 189.32,
                     "asset_id": "10d9b0ac-7350-4892-b4b0-9e00769fabd3"
                 }
             }
@@ -2923,7 +2927,7 @@
             "#54": {
                 "STANDARD": {
                     "insured_value": 37.0,
-                    "alt_value": 34.35,
+                    "alt_value": 33.68,
                     "asset_id": "b4e577cb-721b-467c-9ac5-2962ae69522e"
                 }
             }
@@ -3107,7 +3111,7 @@
             "#158": {
                 "STANDARD": {
                     "insured_value": 33.0,
-                    "alt_value": 44.1,
+                    "alt_value": 45.04,
                     "asset_id": "0db0bf3f-21cd-41f0-9e9c-e06935d6d0ed"
                 }
             }
@@ -3288,7 +3292,7 @@
         "2005": {
             "#62": {
                 "STANDARD": {
-                    "alt_value": 104.07,
+                    "alt_value": 100.81,
                     "asset_id": "5275508b-aa4d-43b8-ada9-a6aa70045115"
                 }
             }
@@ -3427,7 +3431,7 @@
             "#151": {
                 "Holo": {
                     "insured_value": 1120.0,
-                    "alt_value": 1548.82,
+                    "alt_value": 1487.71,
                     "asset_id": "cab169f1-44e5-4c39-a007-a401be4b8a9a"
                 }
             },
@@ -3540,7 +3544,7 @@
             "#75": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 43.19,
+                    "alt_value": 43.02,
                     "asset_id": "f3cb96c5-ac3f-42ea-bc27-a7e472a52d55"
                 }
             }
@@ -3706,7 +3710,7 @@
             "#48": {
                 "1st Edition": {
                     "insured_value": 45.0,
-                    "alt_value": 42.73,
+                    "alt_value": 44.32,
                     "asset_id": "9be44b65-145a-4730-8af9-2edbc2042fb7"
                 },
                 "STANDARD": {
@@ -3823,7 +3827,7 @@
             "#33": {
                 "1st Edition": {
                     "insured_value": 30.0,
-                    "alt_value": 26.01,
+                    "alt_value": 26.38,
                     "asset_id": "0b118075-e45e-4eb9-866c-8d307c5f4e7a"
                 }
             }
@@ -3904,7 +3908,7 @@
             "#144": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 41.45,
+                    "alt_value": 43.5,
                     "asset_id": "6da64ed4-1f3b-4605-88de-bb87b682bf6a"
                 }
             }
@@ -3913,7 +3917,7 @@
             "#40": {
                 "1st Edition": {
                     "insured_value": 85.0,
-                    "alt_value": 69.68,
+                    "alt_value": 69.41,
                     "asset_id": "d0b8f167-dc82-4150-b7f4-194c9c2ff3d6"
                 }
             }
@@ -3982,7 +3986,7 @@
             "#54": {
                 "STANDARD": {
                     "insured_value": 25.0,
-                    "alt_value": 34.61,
+                    "alt_value": 37.59,
                     "asset_id": "5c4bdbdd-bc8d-482f-b81f-a03768f48605"
                 }
             }
@@ -3991,7 +3995,7 @@
             "#20": {
                 "STANDARD": {
                     "insured_value": 125.0,
-                    "alt_value": 145.64,
+                    "alt_value": 161.62,
                     "asset_id": "479ae7ff-b0e5-4abc-8490-283b7fbdace7"
                 }
             }
@@ -4194,7 +4198,7 @@
             "#74": {
                 "1st Edition": {
                     "insured_value": 13.0,
-                    "alt_value": 22.95,
+                    "alt_value": 21.52,
                     "asset_id": "8bef66fd-3858-40b3-917b-a9711a71f68a"
                 }
             }
@@ -4263,7 +4267,7 @@
             "#37": {
                 "STANDARD": {
                     "insured_value": 25.0,
-                    "alt_value": 39.5,
+                    "alt_value": 37.23,
                     "asset_id": "902b2033-ab69-4517-9ebf-b85908711a96"
                 }
             }
@@ -4318,7 +4322,7 @@
             "#38": {
                 "1st Edition": {
                     "insured_value": 15.0,
-                    "alt_value": 25.96,
+                    "alt_value": 25.4,
                     "asset_id": "e2db37b7-ab64-4bca-87e7-13bb112745ad"
                 }
             }
@@ -4327,7 +4331,7 @@
             "#28": {
                 "Art Rare": {
                     "insured_value": 20.0,
-                    "alt_value": 48.66,
+                    "alt_value": 50.25,
                     "asset_id": "e5cb8e42-5962-44a1-86e3-b4f04df7a953"
                 }
             }
@@ -4351,7 +4355,7 @@
             "#29": {
                 "1st Edition": {
                     "insured_value": 20.0,
-                    "alt_value": 23.66,
+                    "alt_value": 24.54,
                     "asset_id": "5413fda4-dd17-46dd-b3d1-604ad6849aa6"
                 }
             }
@@ -4360,7 +4364,7 @@
             "#59": {
                 "STANDARD": {
                     "insured_value": 18.0,
-                    "alt_value": 39.15,
+                    "alt_value": 37.64,
                     "asset_id": "f5573a86-7e7c-4cd8-aa0b-9ec5481213d5"
                 }
             }
@@ -4391,7 +4395,7 @@
             "#PROMO": {
                 "1st Edition": {
                     "insured_value": 75.0,
-                    "alt_value": 60.29,
+                    "alt_value": 57.71,
                     "asset_id": "721bd531-0113-404b-bde3-de4a08d177f6"
                 }
             }
@@ -4453,7 +4457,7 @@
             "#83": {
                 "STANDARD": {
                     "insured_value": 32.0,
-                    "alt_value": 43.43,
+                    "alt_value": 39.78,
                     "asset_id": "f436c0c7-356c-40d0-be89-2c1d653ea2a5"
                 }
             }
@@ -4475,7 +4479,7 @@
             "#124": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 31.81,
+                    "alt_value": 29.36,
                     "asset_id": "55bab384-43f4-4767-be98-a28dc7f853c3"
                 }
             }
@@ -4542,7 +4546,7 @@
             "#125": {
                 "STANDARD": {
                     "insured_value": 41.0,
-                    "alt_value": 46.89,
+                    "alt_value": 47.62,
                     "asset_id": "d14dc284-305c-4adc-93d5-9b6e8d1779e7"
                 }
             }
@@ -4551,14 +4555,14 @@
             "#32": {
                 "Art Rare": {
                     "insured_value": 25.0,
-                    "alt_value": 42.26,
+                    "alt_value": 41.61,
                     "asset_id": "6d48d523-0ee0-4eb6-aaf4-3e88b3fcf9ff"
                 }
             },
             "#6": {
                 "STANDARD": {
                     "insured_value": 45.0,
-                    "alt_value": 51.0,
+                    "alt_value": 46.74,
                     "asset_id": "c237428a-73f7-46af-a519-29ea0f8d452c"
                 }
             }
@@ -4628,7 +4632,7 @@
             "#301": {
                 "1st Edition": {
                     "insured_value": 30.0,
-                    "alt_value": 55.33,
+                    "alt_value": 55.22,
                     "asset_id": "a61fadf4-42a5-4648-8d90-e0e76aa7a704"
                 }
             }
@@ -4653,7 +4657,7 @@
             "#52": {
                 "STANDARD": {
                     "insured_value": 237.0,
-                    "alt_value": 226.86,
+                    "alt_value": 233.84,
                     "asset_id": "e3788362-98b9-4671-9ca1-d5d4dd3c7a22"
                 }
             }
@@ -4720,7 +4724,7 @@
             "#55": {
                 "STANDARD": {
                     "insured_value": 120.0,
-                    "alt_value": 95.83,
+                    "alt_value": 103.93,
                     "asset_id": "10cceb04-4cf3-43e8-a98b-95e0dd4bfdf9"
                 }
             }
@@ -4746,7 +4750,7 @@
             "#33": {
                 "1st Edition": {
                     "insured_value": 40.0,
-                    "alt_value": 50.41,
+                    "alt_value": 47.05,
                     "asset_id": "29711eed-a76a-45e0-98c0-83ec03b76e37"
                 }
             }
@@ -4921,7 +4925,7 @@
             "#20": {
                 "STANDARD": {
                     "insured_value": 35.0,
-                    "alt_value": 29.99,
+                    "alt_value": 30.25,
                     "asset_id": "1221809f-16d4-4945-8786-5ca1f92ebcfa"
                 }
             }
@@ -4974,7 +4978,7 @@
             "#31": {
                 "Holo": {
                     "insured_value": 32.0,
-                    "alt_value": 35.93,
+                    "alt_value": 35.05,
                     "asset_id": "594897ef-d69e-40b0-99ab-94e46919ce73"
                 }
             },
@@ -5147,7 +5151,7 @@
             "#47": {
                 "1st Edition": {
                     "insured_value": 40.0,
-                    "alt_value": 62.18,
+                    "alt_value": 62.75,
                     "asset_id": "2b5101cd-f82f-4e80-8244-75597540b9fa"
                 }
             }
@@ -5187,7 +5191,7 @@
             "#21": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 31.64,
+                    "alt_value": 34.22,
                     "asset_id": "f5b131e7-31cd-4485-b454-899fee8ea31a"
                 }
             }
@@ -5348,7 +5352,7 @@
             "#370": {
                 "STANDARD": {
                     "insured_value": 48.0,
-                    "alt_value": 61.16,
+                    "alt_value": 65.99,
                     "asset_id": "303e64ef-6ed4-4606-971b-a6e9b4b1c821"
                 }
             }
@@ -5426,12 +5430,12 @@
             "#8": {
                 "STANDARD": {
                     "insured_value": 100.0,
-                    "alt_value": 67.48,
+                    "alt_value": 69.94,
                     "asset_id": "b582edaf-b709-4ddd-b93d-d6ea7f71c8b7"
                 },
                 "1st Edition": {
                     "insured_value": 61.0,
-                    "alt_value": 116.26,
+                    "alt_value": 117.2,
                     "asset_id": "f13a2b30-b999-46f6-9f6b-16712d11f102"
                 }
             }
@@ -5594,7 +5598,7 @@
             },
             "#025": {
                 "STANDARD": {
-                    "alt_value": 67.79,
+                    "alt_value": 66.15,
                     "asset_id": "df26d4c1-5bd2-46cd-aaa0-fb4fd19709bb"
                 }
             }
@@ -5667,7 +5671,7 @@
             "#58": {
                 "STANDARD": {
                     "insured_value": 24.0,
-                    "alt_value": 56.14,
+                    "alt_value": 56.64,
                     "asset_id": "d97cbe8f-212f-40a6-b7cd-d9ea935a6451"
                 }
             },
@@ -5717,7 +5721,7 @@
             "#30": {
                 "1st Edition Holo": {
                     "insured_value": 114.0,
-                    "alt_value": 125.03,
+                    "alt_value": 127.31,
                     "asset_id": "11bc233c-5cf8-457b-bc51-f621c9f850b7"
                 }
             }
@@ -5847,7 +5851,7 @@
             "#35": {
                 "Holo": {
                     "insured_value": 465.0,
-                    "alt_value": 388.91,
+                    "alt_value": 372.88,
                     "asset_id": "7f072e3b-ff01-4a61-b92c-f16adf10fd3d"
                 }
             }
@@ -5885,7 +5889,7 @@
             "#11": {
                 "1st Edition": {
                     "insured_value": 34.0,
-                    "alt_value": 34.61,
+                    "alt_value": 35.62,
                     "asset_id": "376345fa-cb7c-499d-883f-796a98f60d59"
                 }
             }
@@ -5902,7 +5906,7 @@
         "2009": {
             "#7": {
                 "STANDARD": {
-                    "alt_value": 39.13,
+                    "alt_value": 39.0,
                     "asset_id": "098d953f-455a-49bd-bacc-4e32e1929c32"
                 }
             }
@@ -5924,7 +5928,7 @@
             "#85": {
                 "Holo": {
                     "insured_value": 14.0,
-                    "alt_value": 13.71,
+                    "alt_value": 14.11,
                     "asset_id": "b2504cb8-f44a-4107-bbe1-aac9b0b9b3fa"
                 }
             }
@@ -5955,7 +5959,7 @@
             "#PROMO": {
                 "STANDARD": {
                     "insured_value": 38.0,
-                    "alt_value": 37.79,
+                    "alt_value": 37.27,
                     "asset_id": "bb81de21-0d05-409b-8e18-cb9765f865f4"
                 }
             }
@@ -6015,13 +6019,13 @@
             "#12": {
                 "STANDARD": {
                     "insured_value": 85.0,
-                    "alt_value": 64.02,
+                    "alt_value": 68.34,
                     "asset_id": "68ef6874-77ad-4f33-b34f-a8b400524d49"
                 }
             },
             "#98": {
                 "STANDARD": {
-                    "alt_value": 35.25,
+                    "alt_value": 33.39,
                     "asset_id": "56901c36-71a0-483f-8e52-debbbd0d0d56"
                 }
             }
@@ -6071,7 +6075,7 @@
             "#60": {
                 "1st Edition": {
                     "insured_value": 113.0,
-                    "alt_value": 171.95,
+                    "alt_value": 164.17,
                     "asset_id": "38cbcabe-964e-4e03-b8af-828652d607d4"
                 }
             }
@@ -6091,7 +6095,7 @@
             "#11": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 26.65,
+                    "alt_value": 30.14,
                     "asset_id": "0806151b-ffa9-4f65-a38d-8046e227ef87"
                 }
             }
@@ -6262,7 +6266,7 @@
             "#278": {
                 "STANDARD": {
                     "insured_value": 8.0,
-                    "alt_value": 9.96,
+                    "alt_value": 10.49,
                     "asset_id": "4026eeff-2d97-4a65-820a-3c3b8953c844"
                 }
             }
@@ -6367,7 +6371,7 @@
         "2003": {
             "#55": {
                 "1st Edition": {
-                    "alt_value": 84.43,
+                    "alt_value": 87.52,
                     "asset_id": "4f92b5d9-8724-465e-a2d9-eadcd0c37cb3"
                 }
             }
@@ -6760,7 +6764,7 @@
             "#33": {
                 "1st Edition": {
                     "insured_value": 35.0,
-                    "alt_value": 38.97,
+                    "alt_value": 37.27,
                     "asset_id": "6a970c31-0e8c-4323-b30d-3be23bb239d3"
                 }
             }
@@ -6791,7 +6795,7 @@
             "#36": {
                 "STANDARD": {
                     "insured_value": 31.0,
-                    "alt_value": 41.38,
+                    "alt_value": 39.85,
                     "asset_id": "ee7edb43-b4d1-47c4-b734-c3b0e11531c9"
                 }
             }
@@ -6855,7 +6859,7 @@
             "#10": {
                 "STANDARD": {
                     "insured_value": 40.0,
-                    "alt_value": 50.23,
+                    "alt_value": 56.02,
                     "asset_id": "f1836157-dfb0-4480-8474-373dbb752dcd"
                 }
             }
@@ -6874,7 +6878,7 @@
         "1998": {
             "#122": {
                 "STANDARD": {
-                    "alt_value": 36.57,
+                    "alt_value": 34.25,
                     "asset_id": "a44be0be-72dd-4e61-9c40-9f7eee7d63db"
                 }
             }
@@ -6893,7 +6897,7 @@
         "2022": {
             "#125": {
                 "STANDARD": {
-                    "alt_value": 38.5,
+                    "alt_value": 34.32,
                     "asset_id": "178871d5-8e77-44d2-87fa-73147da29d77"
                 }
             }
@@ -6995,7 +6999,7 @@
             "#183": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 30.67,
+                    "alt_value": 25.29,
                     "asset_id": "5bd7bed7-b2d8-44b0-9bec-ffd3cbe1755c"
                 }
             }
@@ -7014,7 +7018,7 @@
         "2002": {
             "#26": {
                 "STANDARD": {
-                    "alt_value": 60.61,
+                    "alt_value": 61.99,
                     "asset_id": "863d9dac-9b7e-4c95-b915-ff8283b11e5a"
                 }
             }
@@ -7036,7 +7040,7 @@
             "#109": {
                 "STANDARD": {
                     "insured_value": 32.0,
-                    "alt_value": 26.23,
+                    "alt_value": 28.76,
                     "asset_id": "80df5bb2-2f9d-4f6f-bc81-0c9b35cc3970"
                 }
             }
@@ -7047,7 +7051,7 @@
             "#122": {
                 "STANDARD": {
                     "insured_value": 10.0,
-                    "alt_value": 14.29,
+                    "alt_value": 12.91,
                     "asset_id": "de99b214-7f9a-434f-8aeb-acf401252403"
                 }
             }
@@ -7069,7 +7073,7 @@
             "#11": {
                 "1st Edition": {
                     "insured_value": 53.0,
-                    "alt_value": 64.43,
+                    "alt_value": 63.96,
                     "asset_id": "e9c5ec9c-4e6d-401f-a55f-842ac2d235ed"
                 }
             }
@@ -7133,7 +7137,7 @@
             "#75": {
                 "STANDARD": {
                     "insured_value": 35.0,
-                    "alt_value": 34.96,
+                    "alt_value": 36.22,
                     "asset_id": "a76aa773-28d6-46a9-b7c0-0c1804d01fa8"
                 }
             }
@@ -7166,7 +7170,7 @@
             "#5": {
                 "1st Edition": {
                     "insured_value": 35.0,
-                    "alt_value": 29.94,
+                    "alt_value": 28.83,
                     "asset_id": "46bf045f-5d74-4410-aa5f-70a18b706745"
                 }
             }
@@ -7254,7 +7258,7 @@
             "#71": {
                 "1st Edition": {
                     "insured_value": 89.0,
-                    "alt_value": 94.49,
+                    "alt_value": 91.34,
                     "asset_id": "567eb778-c748-4f4f-a90b-0784971dd71a"
                 }
             }
