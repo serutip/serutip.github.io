@@ -3385,8 +3385,8 @@
             },
             "#41": {
                 "STANDARD": {
-                    "alt_value": 809.97,
-                    "asset_id": "7c1e2b19-8191-47b7-b0bb-3312be99b17b"
+                    "alt_value": 892.24,
+                    "asset_id": "02b658d4-0214-4369-a2a1-14b16d39b698"
                 }
             },
             "#2": {
@@ -4323,6 +4323,12 @@
                 "STANDARD": {
                     "alt_value": 39.2,
                     "asset_id": "60b14523-c549-4e12-abda-35d3ddddf2dd"
+                }
+            },
+            "#341": {
+                "Art Rare": {
+                    "alt_value": 53.89,
+                    "asset_id": "f45f1cb3-5263-4506-a6f6-0dec46f24428"
                 }
             }
         },
@@ -8043,6 +8049,10 @@
                 "1st Edition": {
                     "alt_value": 221.62,
                     "asset_id": "d7c75148-c964-40f9-a0a3-49b31ebae263"
+                },
+                "STANDARD": {
+                    "alt_value": 225.45,
+                    "asset_id": "c501ad0c-0974-4f12-8bc0-3db674c1ec0c"
                 }
             }
         },
@@ -9235,6 +9245,14 @@
                 "Holo": {
                     "alt_value": 117.65,
                     "asset_id": "0f1b4bd8-dbeb-4599-be4f-652793c094b5"
+                }
+            }
+        },
+        "2002": {
+            "#56": {
+                "STANDARD": {
+                    "alt_value": 168.95,
+                    "asset_id": "ca43fb58-6ee0-4715-b802-6d79419cb933"
                 }
             }
         }
@@ -10778,6 +10796,12 @@
                     "alt_value": 182.96,
                     "asset_id": "f8dbca1e-67a4-4521-83cd-a38d211005d9"
                 }
+            },
+            "#76": {
+                "1st Edition": {
+                    "alt_value": 168.72,
+                    "asset_id": "87caf3e9-cc22-4c51-9cff-a647e5b47bd4"
+                }
             }
         },
         "2008": {
@@ -11855,6 +11879,12 @@
                 "Art Rare": {
                     "alt_value": 220.32,
                     "asset_id": "2dda7bf7-813a-424e-8993-aa742035eb92"
+                }
+            },
+            "#161": {
+                "Holo": {
+                    "alt_value": 40.13,
+                    "asset_id": "a4cdc716-418f-4126-9045-682a446e3cb5"
                 }
             }
         },
@@ -14959,6 +14989,16 @@
                 "Art Rare": {
                     "alt_value": 28.15,
                     "asset_id": "7ef39790-8db4-4987-bb60-208f9bb9b1ea"
+                }
+            }
+        }
+    },
+    "STUFFUL": {
+        "2025": {
+            "#075": {
+                "Art Rare": {
+                    "alt_value": 29.61,
+                    "asset_id": "3d0bdd23-8e0a-48db-8755-06b72b65f2ee"
                 }
             }
         }
