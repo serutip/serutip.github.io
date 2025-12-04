@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,11 @@
             --border: #d9c2a7;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             background: var(--bg);
@@ -50,78 +55,366 @@
             color: #fff8f0;
         }
 
-        h1 { font-size: clamp(2.2rem, 5.5vw, 4.5rem); font-weight: 900; letter-spacing: 6px; text-shadow: 0 3px 8px rgba(0,0,0,0.3); }
-        header h2 { font-size: 0.95rem; font-weight: 700; letter-spacing: 4px; margin-top: 0.3rem; }
-        header h3 { font-size: 0.85rem; margin-top: 0.3rem; }
-        #lastUpdatedHeader { font-size: 0.8rem; font-weight: 600; margin-top: 0.5rem; background: rgba(255,248,240,0.3); padding: 0.3rem 0.9rem; border-radius: 12px; display: inline-block; }
+        h1 {
+            font-size: clamp(2.2rem, 5.5vw, 4.5rem);
+            font-weight: 900;
+            letter-spacing: 6px;
+            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+        }
 
-        .controls { padding: 0.9rem 1.8rem; background: #fdfaf7; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-        .left-controls, .right-controls { display: flex; gap: 0.9rem; align-items: center; flex-wrap: wrap; }
-        input[type="text"] { padding: 0.65rem 1.2rem; background: white; border: 1.8px solid #d9c2a7; border-radius: 14px; font-size: 0.95rem; min-width: 240px; }
-        input[type="text"]:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px rgba(107,78,49,0.15); }
+        header h2 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+            margin-top: 0.3rem;
+        }
 
-        .btn-group { display: flex; background: white; border-radius: 14px; padding: 5px; border: 1.8px solid #d9c2a7; gap: 5px; }
-        .btn { padding: 0.55rem 1.1rem; background: transparent; border: none; color: var(--text-dim); font-weight: 600; font-size: 0.85ccb; border-radius: 10px; cursor: pointer; }
-        .btn.active { background: var(--accent); color: #fff8f0; font-weight: 800; }
-        #lookupBtn { padding: 0.65rem 2rem; background: linear-gradient(135deg, #8b6f9e, #a78bfa);  color: white; border: none; border-radius: 14px; font-weight: 900; font-size: 0.95rem; cursor: pointer; }
+        header h3 {
+            font-size: 0.85rem;
+            margin-top: 0.3rem;
+        }
 
-        #altInfo { margin: 0.8rem 1.8rem; padding: 0.9rem 1.4rem; background: #f0e6d2; border: 1.8px solid #d9c2a7; border-radius: 16px; font-size: 0.95rem; line-height: 1.5; }
+        #lastUpdatedHeader {
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+            background: rgba(255, 248, 240, 0.3);
+            padding: 0.3rem 0.9rem;
+            border-radius: 12px;
+            display: inline-block;
+        }
 
-        .results { flex: 1; overflow-y: auto; padding: 1.6rem; transition: margin-right 0.3s ease; }
-        .results.shifted { margin-right: 320px; }
+        .controls {
+            padding: 0.9rem 1.8rem;
+            background: #fdfaf7;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
 
-        .year-section { display: grid; grid-template-columns: 100px 1fr; gap: 1.6rem; margin-bottom: 2rem; }
-        .year-title { font-size: 1.3rem; font-weight: 900; color: var(--accent); writing-mode: vertical-rl; transform: rotate(180deg); }
-        .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
+        .left-controls,
+        .right-controls {
+            display: flex;
+            gap: 0.9rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        input[type="text"] {
+            padding: 0.65rem 1.2rem;
+            background: white;
+            border: 1.8px solid #d9c2a7;
+            border-radius: 14px;
+            font-size: 0.95rem;
+            min-width: 240px;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(107, 78, 49, 0.15);
+        }
+
+        .btn-group {
+            display: flex;
+            background: white;
+            border-radius: 14px;
+            padding: 5px;
+            border: 1.8px solid #d9c2a7;
+            gap: 5px;
+        }
+
+        .btn {
+            padding: 0.55rem 1.1rem;
+            background: transparent;
+            border: none;
+            color: var(--text-dim);
+            font-weight: 600;
+            font-size: 0.85ccb;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn.active {
+            background: var(--accent);
+            color: #fff8f0;
+            font-weight: 800;
+        }
+
+        #lookupBtn {
+            padding: 0.65rem 2rem;
+            background: linear-gradient(135deg, #8b6f9e, #a78bfa);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-weight: 900;
+            font-size: 0.95rem;
+            cursor: pointer;
+        }
+
+        #altInfo {
+            margin: 0.8rem 1.8rem;
+            padding: 0.9rem 1.4rem;
+            background: #f0e6d2;
+            border: 1.8px solid #d9c2a7;
+            border-radius: 16px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .results {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.6rem;
+            transition: margin-right 0.3s ease;
+        }
+
+        .results.shifted {
+            margin-right: 320px;
+        }
+
+        .year-section {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 1.6rem;
+            margin-bottom: 2rem;
+        }
+
+        .year-title {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: var(--accent);
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+        }
 
         .card {
-            height: 110px; padding: 1rem; background: var(--card); border-radius: 18px; border: 1.8px solid #d9c2a7;
-            color: var(--text); display: flex; flex-direction: column; justify-content: center; gap: 0.6rem;
-            transition: all 0.3s; cursor: pointer; position: relative;
+            height: 110px;
+            padding: 1rem;
+            background: var(--card);
+            border-radius: 18px;
+            border: 1.8px solid #d9c2a7;
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.6rem;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
         }
-        .card:hover { transform: translateY(-6px) scale(1.04); border-color: var(--accent); box-shadow: 0 15px 35px rgba(107,78,49,0.2); }
 
-        .card-code { font-size: 1.1rem; font-weight: 900; color: var(--accent); }
-        .card-variety { font-size: 0.72rem; font-weight: 600; color: var(--text-dim); margin-top: -4px; opacity: 0.9; }
-        .price-row { font-size: 0.9rem; font-weight: 700; }
-        .label { color: var(--text-dim); font-size: 0.7rem; }
-        .insured { color: var(--green); }
-        .alt { color: var(--purple); font-weight: 900; }
-        .ext-badge { position: absolute; top: 8px; right: 8px; background: var(--purple); color: white; font-size: 0.6rem; font-weight: 900; padding: 3px 8px; border-radius: 10px; }
+        .card:hover {
+            transform: translateY(-6px) scale(1.04);
+            border-color: var(--accent);
+            box-shadow: 0 15px 35px rgba(107, 78, 49, 0.2);
+        }
 
-        .footer { padding: 0.8rem; text-align: center; background: #ede0d4; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--border); }
+        .card-code {
+            font-size: 1.1rem;
+            font-weight: 900;
+            color: var(--accent);
+        }
 
-        .setup { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 3rem; background: var(--panel); }
-        .setup h2 { font-size: 2.2rem; color: var(--accent); margin-bottom: 1rem; font-weight: 900; }
-        .load-btn { padding: 1.2rem 3.5rem; background: var(--accent); color: #fff8f0; border: none; border-radius: 20px; font-size: 1.4rem; font-weight: 900; cursor: pointer; box-shadow: 0 12px 40px rgba(107,78,49,0.4); transition: all 0.3s; }
-        .load-btn:hover { transform: translateY(-5px); box-shadow: 0 20px 50px rgba(107,78,49,0.5); }
+        .card-variety {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            margin-top: -4px;
+            opacity: 0.9;
+        }
+
+        .price-row {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .label {
+            color: var(--text-dim);
+            font-size: 0.7rem;
+        }
+
+        .insured {
+            color: var(--green);
+        }
+
+        .alt {
+            color: var(--purple);
+            font-weight: 900;
+        }
+
+        .ext-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: var(--purple);
+            color: white;
+            font-size: 0.6rem;
+            font-weight: 900;
+            padding: 3px 8px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            padding: 0.8rem;
+            text-align: center;
+            background: #ede0d4;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .setup {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 3rem;
+            background: var(--panel);
+        }
+
+        .setup h2 {
+            font-size: 2.2rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+
+        .load-btn {
+            padding: 1.2rem 3.5rem;
+            background: var(--accent);
+            color: #fff8f0;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            cursor: pointer;
+            box-shadow: 0 12px 40px rgba(107, 78, 49, 0.4);
+            transition: all 0.3s;
+        }
+
+        .load-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(107, 78, 49, 0.5);
+        }
 
         /* Detail Panel */
         #detailPanel {
-            position: fixed; top: 0; right: -320px; width: 320px; height: 100vh; background: var(--panel);
-            border-left: 1px solid var(--border); box-shadow: -10px 0 30px rgba(0,0,0,0.1); padding: 2rem 1.5rem;
-            transition: right 0.3s ease; z-index: 100; overflow-y: auto;
+            position: fixed;
+            top: 0;
+            right: -320px;
+            width: 320px;
+            height: 100vh;
+            background: var(--panel);
+            border-left: 1px solid var(--border);
+            box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+            padding: 2rem 1.5rem;
+            transition: right 0.3s ease;
+            z-index: 100;
+            overflow-y: auto;
         }
-        #detailPanel.open { right: 0; }
-        #detailPanel h3 { font-size: 1.2rem; font-weight: 900; color: var(--accent); margin-bottom: 1.5rem; }
-        #detailPanel p { font-size: 0.95rem; margin-bottom: 0.8rem; }
-        #detailPanel .value { font-weight: 800; }
-        #detailPanel .insured { color: var(--green); }
-        #detailPanel .alt { color: var(--purple); }
-        #detailPanel button { width: 100%; padding: 1rem; border: none; border-radius: 14px; font-weight: 900; font-size: 1rem; cursor: pointer; margin-top: 0.8rem; }
-        #detailEbayBtn { background: var(--accent); color: #fff8f0; }
-        #detailEbayBtn:hover { background: #8b6f47; }
-        #detailAltBtn { background: linear-gradient(135deg, #8b6f9e, #a78bfa); color: white; display: none; }
-        #detailAltBtn:hover { background: #7a5c8a; }
-        #detailClose { position: absolute; top: 1rem; right: 1.5rem; font-size: 1.5rem; cursor: pointer; color: var(--text-dim); }
+
+        #detailPanel.open {
+            right: 0;
+        }
+
+        #detailPanel h3 {
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        #detailPanel p {
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+
+        #detailPanel .value {
+            font-weight: 800;
+        }
+
+        #detailPanel .insured {
+            color: var(--green);
+        }
+
+        #detailPanel .alt {
+            color: var(--purple);
+        }
+
+        #detailPanel button {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 14px;
+            font-weight: 900;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 0.8rem;
+        }
+
+        #detailEbayBtn {
+            background: var(--accent);
+            color: #fff8f0;
+        }
+
+        #detailEbayBtn:hover {
+            background: #8b6f47;
+        }
+
+        #detailAltBtn {
+            background: linear-gradient(135deg, #8b6f9e, #a78bfa);
+            color: white;
+            display: none;
+        }
+
+        #detailAltBtn:hover {
+            background: #7a5c8a;
+        }
+
+        #detailClose {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-dim);
+        }
 
         @media (max-width: 768px) {
-            .results.shifted { margin-right: 0; margin-bottom: 320px; }
-            #detailPanel { right: -100%; width: 100%; height: 320px; top: auto; bottom: 0; border-left: none; border-top: 1px solid var(--border); }
-            #detailPanel.open { right: 0; }
+            .results.shifted {
+                margin-right: 0;
+                margin-bottom: 320px;
+            }
+
+            #detailPanel {
+                right: -100%;
+                width: 100%;
+                height: 320px;
+                top: auto;
+                bottom: 0;
+                border-left: none;
+                border-top: 1px solid var(--border);
+            }
+
+            #detailPanel.open {
+                right: 0;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -156,7 +449,9 @@
 
         <div id="altInfo">Enter a PSA cert number → click LOOKUP ALT</div>
         <div class="results" id="results"></div>
-        <div class="footer"><div id="status">Initializing…</div></div>
+        <div class="footer">
+            <div id="status">Initializing…</div>
+        </div>
     </div>
 
     <!-- Detail Panel -->
@@ -231,7 +526,7 @@
 
         async function tryAutoLoad() {
             if (location.protocol === 'file:') return false;
-            const files = ['./Dicts/PSA10.json','./Dicts/PSA9.json','./Dicts/CGC10.json','./Dicts/PSA10_JP.json','./Dicts/PSA9_JP.json','./Dicts/CGC10_JP.json','./Dicts/PSA10_external.json','./Dicts/PSA10_JP_external.json','./Dicts/PSA9_external.json','./Dicts/PSA9_JP_external.json'];
+            const files = ['./Dicts/PSA10.json', './Dicts/PSA9.json', './Dicts/CGC10.json', './Dicts/PSA10_JP.json', './Dicts/PSA9_JP.json', './Dicts/CGC10_JP.json', './Dicts/PSA10_external.json', './Dicts/PSA10_JP_external.json', './Dicts/PSA9_external.json', './Dicts/PSA9_JP_external.json'];
             let loaded = 0;
             for (const f of files) {
                 try {
@@ -247,7 +542,7 @@
                         data[lang].external[grade] = json;
                     } else data[lang][grade] = json;
                     loaded++;
-                } catch (e) {}
+                } catch (e) { }
             }
             return loaded >= 6;
         }
@@ -261,20 +556,35 @@
             const ext = data[currentLang].external?.[key];
             if (!ext) return base;
 
-            for (const [poke, years] of Object.entries(ext)) {
-                if (!base[poke]) base[poke] = {};
-                for (const [yr, codes] of Object.entries(years)) {
-                    if (!base[poke][yr]) base[poke][yr] = {};
-                    for (const [code, varieties] of Object.entries(codes)) {
-                        if (!base[poke][yr][code]) base[poke][yr][code] = {};
-                        for (const [variety, val] of Object.entries(varieties)) {
-                            const altValue = val.alt_value ?? val.insured_value ?? 0;
-                            if (Number(altValue) === 0) continue;
-                            base[poke][yr][code][variety] = {
-                                insured_value: val.insured_value ?? 0,
-                                alt_value: altValue,
-                                asset_id: val.asset_id || null
-                            };
+            if (includeExternal && currentGrade !== 'cgc' && ext) {
+                for (const [poke, years] of Object.entries(ext)) {
+                    if (!base[poke]) base[poke] = {};
+
+                    for (const [yr, codes] of Object.entries(years)) {
+                        if (!base[poke][yr]) base[poke][yr] = {};
+
+                        for (const [code, varieties] of Object.entries(codes)) {
+                            if (!base[poke][yr][code]) base[poke][yr][code] = {};
+
+                            for (const [variety, val] of Object.entries(varieties)) {
+                                const key = variety || 'STANDARD';
+
+                                // Only add external entry if it doesn't already exist in main dict
+                                if (!base[poke][yr][code][key] ||
+                                    (base[poke][yr][code][key].insured_value === 0 &&
+                                        base[poke][yr][code][key].alt_value === 0)) {
+
+                                    const altValue = val.alt_value ?? val.insured_value ?? 0;
+                                    if (Number(altValue) === 0) continue;
+
+                                    base[poke][yr][code][key] = {
+                                        insured_value: val.insured_value ?? 0,
+                                        alt_value: altValue,
+                                        asset_id: val.asset_id || null
+                                    };
+                                }
+                                // If main entry exists and has real data → keep it, ignore external
+                            }
                         }
                     }
                 }
@@ -357,7 +667,7 @@
             matches.forEach(name => {
                 const div = document.createElement('div');
                 div.innerHTML = `<div style="font-size:1.2rem;font-weight:800;color:var(--accent);margin-bottom:0.8rem">${name.toUpperCase()}</div>`;
-                const years = yearQ ? (currentData[name][yearQ] ? [[yearQ, currentData[name][yearQ]]] : []) : Object.entries(currentData[name]).sort(([a],[b]) => a.localeCompare(b));
+                const years = yearQ ? (currentData[name][yearQ] ? [[yearQ, currentData[name][yearQ]]] : []) : Object.entries(currentData[name]).sort(([a], [b]) => a.localeCompare(b));
                 years.forEach(([year, codes]) => {
                     const sec = document.createElement('div'); sec.className = 'year-section';
                     sec.innerHTML = `<div class="year-title">${year}</div><div class="cards"></div>`;
@@ -405,24 +715,24 @@
         };
 
         // Cert lookup (unchanged)
-document.getElementById('lookupBtn').onclick = async () => {
-    const cert = document.getElementById('certInput').value.trim();
-    if (!/^\d{6,}$/.test(cert)) {
-        altInfo.innerHTML = '<strong style="color:#a00">Invalid cert number (6+ digits)</strong>';
-        return;
-    }
+        document.getElementById('lookupBtn').onclick = async () => {
+            const cert = document.getElementById('certInput').value.trim();
+            if (!/^\d{6,}$/.test(cert)) {
+                altInfo.innerHTML = '<strong style="color:#a00">Invalid cert number (6+ digits)</strong>';
+                return;
+            }
 
-    altInfo.innerHTML = 'Looking up cert...';
+            altInfo.innerHTML = 'Looking up cert...';
 
-    try {
-        // Step 1: Get Asset ID from cert
-        const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                operationName: "Cert",
-                variables: { certNumber: cert },
-                query: `
+            try {
+                // Step 1: Get Asset ID from cert
+                const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        operationName: "Cert",
+                        variables: { certNumber: cert },
+                        query: `
                     query Cert($certNumber: String!) {
                         cert(certNumber: $certNumber) {
                             asset { id name }
@@ -431,32 +741,32 @@ document.getElementById('lookupBtn').onclick = async () => {
                         }
                     }
                 `
-            })
-        });
+                    })
+                });
 
-        const certJson = await certRes.json();
-        const certData = certJson?.data?.cert;
-        if (!certData?.asset?.id) throw new Error("Cert not found on Alt");
+                const certJson = await certRes.json();
+                const certData = certJson?.data?.cert;
+                if (!certData?.asset?.id) throw new Error("Cert not found on Alt");
 
-        const assetId = certData.asset.id;
-        const cardName = certData.asset.name || "Unknown Card";
-        const grade = certData.gradeNumber;
-        const company = certData.gradingCompany;
+                const assetId = certData.asset.id;
+                const cardName = certData.asset.name || "Unknown Card";
+                const grade = certData.gradeNumber;
+                const company = certData.gradingCompany;
 
-        // Step 2: Get Alt Value
-        const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                operationName: "AssetDetails",
-                variables: {
-                    id: assetId,
-                    tsFilter: {
-                        gradeNumber: grade || "10.0",
-                        gradingCompany: company || "PSA"
-                    }
-                },
-                query: `
+                // Step 2: Get Alt Value
+                const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        operationName: "AssetDetails",
+                        variables: {
+                            id: assetId,
+                            tsFilter: {
+                                gradeNumber: grade || "10.0",
+                                gradingCompany: company || "PSA"
+                            }
+                        },
+                        query: `
                     query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
                         asset(id: $id) {
                             altValueInfo(tsFilter: $tsFilter) {
@@ -469,19 +779,19 @@ document.getElementById('lookupBtn').onclick = async () => {
                         }
                     }
                 `
-            })
-        });
+                    })
+                });
 
-        const valueJson = await valueRes.json();
-        const info = valueJson?.data?.asset?.altValueInfo;
-        if (!info?.currentAltValue) throw new Error("No Alt value available");
+                const valueJson = await valueRes.json();
+                const info = valueJson?.data?.asset?.altValueInfo;
+                if (!info?.currentAltValue) throw new Error("No Alt value available");
 
-        const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-        const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
-        const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
+                const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
+                const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
 
-        // Asset ID is now a clickable link!
-        altInfo.innerHTML = `
+                // Asset ID is now a clickable link!
+                altInfo.innerHTML = `
             <strong>Asset ID (Click for research page):</strong> 
             <a href="https://app.alt.xyz/research/${assetId}" target="_blank" style="color:#8b6f9e; font-weight:900; text-decoration:underline;">
                 ${assetId}
@@ -491,10 +801,10 @@ document.getElementById('lookupBtn').onclick = async () => {
             <strong>70% Range: $${low} – $${high}</strong>
         `;
 
-    } catch (e) {
-        altInfo.innerHTML = `<strong style="color:#a00">Error:</strong> ${e.message}`;
-    }
-};
+            } catch (e) {
+                altInfo.innerHTML = `<strong style="color:#a00">Error:</strong> ${e.message}`;
+            }
+        };
 
         (async () => {
             if (location.protocol === 'file:') {
@@ -513,7 +823,8 @@ document.getElementById('lookupBtn').onclick = async () => {
         fetch('./Dicts/LastUpdated.txt?' + Date.now())
             .then(r => r.ok ? r.text() : 'Unknown')
             .then(t => document.getElementById('lastUpdatedHeader').textContent = t.trim() || 'Last updated: Unknown')
-            .catch(() => {});
+            .catch(() => { });
     </script>
 </body>
+
 </html>
