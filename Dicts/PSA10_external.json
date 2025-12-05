@@ -313,7 +313,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 88.3,
+                    "alt_value": 92.87,
                     "asset_id": "8881f806-8e70-409c-8b12-913e383b20bd"
                 }
             },
@@ -511,7 +511,7 @@
             },
             "#62": {
                 "STANDARD": {
-                    "alt_value": 455.66,
+                    "alt_value": 443.76,
                     "asset_id": "f19b06b4-b122-4ec7-91b1-d905bcb05e55"
                 }
             }
@@ -555,17 +555,17 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 576.55,
+                    "alt_value": 549.53,
                     "asset_id": "382d7da9-e7be-4317-be51-878d25cf944b"
                 },
                 "Holo": {
-                    "alt_value": 34.56,
+                    "alt_value": 34.05,
                     "asset_id": "24a183cc-2e33-40e7-90d1-b51c89c162b6"
                 }
             },
             "#62": {
                 "STANDARD": {
-                    "alt_value": 30.05,
+                    "alt_value": 31.9,
                     "asset_id": "f109ae9b-bccc-4c04-84cd-5561db4258d9"
                 }
             }
@@ -779,7 +779,7 @@
             },
             "#28": {
                 "STANDARD": {
-                    "alt_value": 747.42,
+                    "alt_value": 836.63,
                     "asset_id": "372fb614-225a-4209-96a2-68dd2bdc34ad"
                 }
             }
@@ -787,7 +787,7 @@
         "2002": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 80.74,
+                    "alt_value": 80.21,
                     "asset_id": "2d9d74c0-31fb-49a3-8547-27b6956b062c"
                 }
             },
@@ -927,7 +927,7 @@
             },
             "#208": {
                 "STANDARD": {
-                    "alt_value": 281.57,
+                    "alt_value": 289.06,
                     "asset_id": "07fb65c2-9336-4538-b951-18fbd1f95bef"
                 }
             }
@@ -941,7 +941,7 @@
             },
             "#100": {
                 "STANDARD": {
-                    "alt_value": 119.42,
+                    "alt_value": 122.93,
                     "asset_id": "486ef14f-3a7f-4c1f-865f-b7e79a4ee217"
                 }
             }
@@ -1119,7 +1119,7 @@
             },
             "#89": {
                 "STANDARD": {
-                    "alt_value": 329.6,
+                    "alt_value": 327.39,
                     "asset_id": "8436df11-22a5-4727-8beb-1c2959819404"
                 }
             }
@@ -1235,7 +1235,7 @@
         "2024": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 297.22,
+                    "alt_value": 294.45,
                     "asset_id": "5ad62d5d-bc13-4a28-bb52-be799d89dcc4"
                 }
             }
@@ -1269,7 +1269,7 @@
         "2023": {
             "#135": {
                 "STANDARD": {
-                    "alt_value": 43.99,
+                    "alt_value": 48.23,
                     "asset_id": "d4ee39b4-db00-4b84-be2d-f3ee10664a09"
                 }
             }
@@ -1443,7 +1443,7 @@
             },
             "#SWSH065": {
                 "STANDARD": {
-                    "alt_value": 46.07,
+                    "alt_value": 47.77,
                     "asset_id": "0f51f996-02d2-499b-9029-0590080d70a7"
                 }
             },
@@ -1487,7 +1487,7 @@
         "2000": {
             "#133": {
                 "STANDARD": {
-                    "alt_value": 77.45,
+                    "alt_value": 83.08,
                     "asset_id": "34d8fce8-6b1b-4f1c-aa09-fda152f6a2a6"
                 }
             },
@@ -1695,7 +1695,7 @@
             },
             "#36": {
                 "STANDARD": {
-                    "alt_value": 58.76,
+                    "alt_value": 56.4,
                     "asset_id": "6a36aa07-59aa-426b-b4a9-aa30b9f1be94"
                 }
             },
@@ -1857,7 +1857,7 @@
         "2004": {
             "#103": {
                 "STANDARD": {
-                    "alt_value": 299.71,
+                    "alt_value": 305.38,
                     "asset_id": "75cca6d7-59de-4814-abfc-3a6fc7148671"
                 }
             },
@@ -1985,13 +1985,13 @@
             },
             "#22": {
                 "Holo": {
-                    "alt_value": 288.76,
+                    "alt_value": 296.89,
                     "asset_id": "877359bb-5de1-40d2-a395-5d223d6325b8"
                 }
             },
             "#67": {
                 "STANDARD": {
-                    "alt_value": 175.24,
+                    "alt_value": 164.41,
                     "asset_id": "23b4f84d-ea7d-4afd-ae63-536a31acc842"
                 }
             }
@@ -1999,7 +1999,7 @@
         "2000": {
             "#146": {
                 "STANDARD": {
-                    "alt_value": 145.7,
+                    "alt_value": 148.11,
                     "asset_id": "27f7ffe8-396a-4ff4-a81e-d1fb7f41cce3"
                 }
             },
@@ -2083,7 +2083,7 @@
         "2008": {
             "#10": {
                 "Reverse Holo": {
-                    "alt_value": 231.71,
+                    "alt_value": 226.56,
                     "asset_id": "acc0d367-c3b3-4f5a-a5f8-64cc56a3fb32"
                 }
             }
@@ -2091,7 +2091,7 @@
         "2016": {
             "#XY127": {
                 "STANDARD": {
-                    "alt_value": 209.49,
+                    "alt_value": 198.69,
                     "asset_id": "741b08d3-c9e5-4718-bdec-c98b83b4a18e"
                 }
             }
@@ -2161,13 +2161,13 @@
             },
             "#74": {
                 "1st Edition": {
-                    "alt_value": 155.18,
+                    "alt_value": 149.94,
                     "asset_id": "04f86fe3-0986-4cd4-80d6-6adbba253aae"
                 }
             },
             "#43": {
                 "1st Edition": {
-                    "alt_value": 174.27,
+                    "alt_value": 168.13,
                     "asset_id": "54aef70b-276e-40ca-96db-31333ae0eb0b"
                 }
             },
@@ -2187,7 +2187,7 @@
         "2004": {
             "#46": {
                 "STANDARD": {
-                    "alt_value": 154.64,
+                    "alt_value": 150.86,
                     "asset_id": "1f939c6e-75f4-4b6c-9d16-5b084232b82d"
                 }
             }
@@ -2229,7 +2229,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 66.25,
+                    "alt_value": 69.13,
                     "asset_id": "ef4b2668-e3c1-47f7-90f6-5b06de3e7734"
                 }
             }
@@ -2243,7 +2243,7 @@
             },
             "#9": {
                 "STANDARD": {
-                    "alt_value": 261.13,
+                    "alt_value": 245.33,
                     "asset_id": "9e7cd049-4366-42ca-b034-4d3b3a618ca0"
                 }
             }
@@ -2451,7 +2451,7 @@
         "2000": {
             "#196A": {
                 "STANDARD": {
-                    "alt_value": 105.16,
+                    "alt_value": 105.37,
                     "asset_id": "3a0413b9-fe5c-4085-9069-9e11e005927b"
                 }
             }
@@ -2459,7 +2459,7 @@
         "2012": {
             "#48": {
                 "STANDARD": {
-                    "alt_value": 86.95,
+                    "alt_value": 98.78,
                     "asset_id": "96ed1050-6c97-4ee9-a6b2-cf117093d828"
                 }
             }
@@ -2531,7 +2531,7 @@
         "2012": {
             "#25": {
                 "Promo / Stamped": {
-                    "alt_value": 261.6,
+                    "alt_value": 280.83,
                     "asset_id": "459cb425-4aac-4490-a7ab-d617bdd44cc7"
                 }
             }
@@ -2561,7 +2561,7 @@
         "2019": {
             "#42": {
                 "STANDARD": {
-                    "alt_value": 63.99,
+                    "alt_value": 65.88,
                     "asset_id": "19354814-ffab-4a15-b124-a9fc4d2c3689"
                 }
             }
@@ -2625,7 +2625,7 @@
         "2025": {
             "#100": {
                 "Illustration Rare": {
-                    "alt_value": 91.24,
+                    "alt_value": 97.05,
                     "asset_id": "2edddd82-7dfd-49d5-b476-3c758562b4bf"
                 }
             }
@@ -2655,7 +2655,7 @@
         "2000": {
             "#142": {
                 "STANDARD": {
-                    "alt_value": 68.21,
+                    "alt_value": 66.74,
                     "asset_id": "1c93417c-78f9-464e-bafe-9151fa84eb39"
                 }
             }
@@ -3199,7 +3199,7 @@
             },
             "#132": {
                 "Promo / Stamped": {
-                    "alt_value": 427.98,
+                    "alt_value": 414.73,
                     "asset_id": "ca0e220b-38fb-4589-bbca-3818cbdf13a6"
                 }
             },
@@ -3235,7 +3235,7 @@
             },
             "#190": {
                 "STANDARD": {
-                    "alt_value": 289.1,
+                    "alt_value": 293.07,
                     "asset_id": "fb71b75f-c24e-4d60-afa3-a653890abf26"
                 }
             },
@@ -3253,7 +3253,7 @@
             },
             "#20": {
                 "STANDARD": {
-                    "alt_value": 2316.91,
+                    "alt_value": 2238.45,
                     "asset_id": "c81837d3-e0b8-4533-828d-c3fb3bc96edf"
                 }
             }
@@ -3359,7 +3359,7 @@
         "2004": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 371.92,
+                    "alt_value": 347.57,
                     "asset_id": "3721817e-2f3c-48b0-b9e7-48aeebe9040c"
                 }
             }
@@ -3381,7 +3381,7 @@
         "1996": {
             "#6": {
                 "STANDARD": {
-                    "alt_value": 1418.48,
+                    "alt_value": 1416.54,
                     "asset_id": "a795073b-6c8f-47ce-b7b6-a0b37d94e856"
                 }
             }
@@ -3669,7 +3669,7 @@
             },
             "#28": {
                 "Reverse Holo": {
-                    "alt_value": 374.1,
+                    "alt_value": 394.63,
                     "asset_id": "47d24914-4c6c-4aaf-a39b-c3b75d2d68cd"
                 }
             },
@@ -3693,7 +3693,7 @@
             },
             "#44": {
                 "Reverse Holo": {
-                    "alt_value": 290.51,
+                    "alt_value": 297.96,
                     "asset_id": "d67eeb25-4580-4acf-b720-82b4caf7e554"
                 }
             },
@@ -3723,7 +3723,7 @@
             },
             "#16": {
                 "STANDARD": {
-                    "alt_value": 115.85,
+                    "alt_value": 112.72,
                     "asset_id": "8288cc1a-1bb9-415b-8a34-6f5f246a445a"
                 }
             }
@@ -3761,7 +3761,7 @@
         "2021": {
             "#170": {
                 "Promo / Stamped": {
-                    "alt_value": 68.28,
+                    "alt_value": 69.14,
                     "asset_id": "4b69bb03-c1d2-4876-a3f6-8d0848e8391e"
                 }
             }
@@ -3889,7 +3889,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 116.12,
+                    "alt_value": 108.59,
                     "asset_id": "3cc9d62e-f413-4824-b830-8ac65af634d4"
                 }
             }
@@ -3905,7 +3905,7 @@
         "2024": {
             "#143": {
                 "Illustration Rare": {
-                    "alt_value": 149.23,
+                    "alt_value": 134.41,
                     "asset_id": "bd357b5f-1e2e-4f4f-97f2-13b39655daa6"
                 }
             },
@@ -4063,7 +4063,7 @@
         "2016": {
             "#36": {
                 "STANDARD": {
-                    "alt_value": 2937.51,
+                    "alt_value": 3143.76,
                     "asset_id": "46a2a2aa-7579-4637-b27f-97d91f2994ba"
                 }
             }
@@ -4119,7 +4119,7 @@
         "2024": {
             "#214": {
                 "Special Art Rare": {
-                    "alt_value": 880.52,
+                    "alt_value": 907.71,
                     "asset_id": "80a45eeb-23a6-4728-8227-7f742b77fa8e"
                 }
             },
@@ -4147,7 +4147,7 @@
         "2016": {
             "#41": {
                 "STANDARD": {
-                    "alt_value": 350.92,
+                    "alt_value": 335.61,
                     "asset_id": "a4a8d7f5-a578-40e5-b466-de35646f5462"
                 }
             }
@@ -4169,7 +4169,7 @@
         "2023": {
             "#SWSH305": {
                 "STANDARD": {
-                    "alt_value": 279.41,
+                    "alt_value": 298.79,
                     "asset_id": "1ae73194-be5a-44d1-b702-081e637ed38a"
                 }
             }
@@ -4245,7 +4245,7 @@
         "2023": {
             "#198": {
                 "Illustration Rare": {
-                    "alt_value": 130.78,
+                    "alt_value": 137.11,
                     "asset_id": "76bef406-7c51-498d-a724-1badcdbb7479"
                 }
             },
@@ -4327,13 +4327,13 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 84.61,
+                    "alt_value": 87.42,
                     "asset_id": "36d7a1bb-4ec8-450a-8e5d-36138711bac9"
                 }
             },
             "#132": {
                 "Reverse Holo": {
-                    "alt_value": 160.71,
+                    "alt_value": 164.59,
                     "asset_id": "9c74dc4e-503f-4ceb-91c8-7e3e1286b5c5"
                 }
             }
@@ -4803,7 +4803,7 @@
         "2007": {
             "#29": {
                 "Reverse Holo": {
-                    "alt_value": 260.49,
+                    "alt_value": 223.74,
                     "asset_id": "c586b27d-20c6-4332-a749-cc82c9a6fd96"
                 }
             }
@@ -4903,7 +4903,7 @@
         "2007": {
             "#16": {
                 "Reverse Holo": {
-                    "alt_value": 140.02,
+                    "alt_value": 143.35,
                     "asset_id": "03d94f0f-111d-4bbc-907b-64b7a9618117"
                 }
             }
@@ -5081,7 +5081,7 @@
             },
             "#149": {
                 "STANDARD": {
-                    "alt_value": 124.89,
+                    "alt_value": 123.48,
                     "asset_id": "112ad99a-e045-4c9e-a026-a5c81b80dee4"
                 }
             },
@@ -5215,7 +5215,7 @@
             },
             "#151": {
                 "STANDARD": {
-                    "alt_value": 492.57,
+                    "alt_value": 505.65,
                     "asset_id": "65650cc4-94bc-4611-be59-6084497cb8fc"
                 }
             }
@@ -5285,7 +5285,7 @@
         "1998": {
             "#149": {
                 "STANDARD": {
-                    "alt_value": 301.96,
+                    "alt_value": 300.67,
                     "asset_id": "8364be2a-4c4a-472d-921d-18dd35d09169"
                 }
             }
@@ -5475,7 +5475,7 @@
         "2000": {
             "#128": {
                 "STANDARD": {
-                    "alt_value": 913.32,
+                    "alt_value": 849.7,
                     "asset_id": "61aa2783-86a8-4957-8841-320deebcadfc"
                 }
             }
@@ -5507,7 +5507,7 @@
             },
             "#137": {
                 "STANDARD": {
-                    "alt_value": 43.63,
+                    "alt_value": 43.71,
                     "asset_id": "2e01baab-265b-4508-97ab-0d188ae7b3a2"
                 }
             }
@@ -5651,7 +5651,7 @@
             },
             "#96": {
                 "STANDARD": {
-                    "alt_value": 48.7,
+                    "alt_value": 47.03,
                     "asset_id": "8cf1b7a6-641d-4ac5-80b3-f6bd0d94fdc8"
                 }
             }
@@ -5725,7 +5725,7 @@
         "2023": {
             "#39": {
                 "STANDARD": {
-                    "alt_value": 44.34,
+                    "alt_value": 42.57,
                     "asset_id": "618436c6-d81f-4942-9dc9-5adec1c2b105"
                 }
             }
@@ -5739,7 +5739,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 72.22,
+                    "alt_value": 73.17,
                     "asset_id": "e85949d0-91cc-43e9-891d-ab549deda005"
                 }
             },
@@ -5825,7 +5825,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 176.79,
+                    "alt_value": 178.03,
                     "asset_id": "d38a9539-d891-429e-8e55-1d25fff14083"
                 }
             },
@@ -5877,7 +5877,7 @@
             },
             "#117": {
                 "Promo / Stamped": {
-                    "alt_value": 49.05,
+                    "alt_value": 45.33,
                     "asset_id": "ad0848b9-799b-4cc5-abff-27c1e0831eb4"
                 }
             }
@@ -6011,7 +6011,7 @@
         "2013": {
             "#BW62": {
                 "STANDARD": {
-                    "alt_value": 231.59,
+                    "alt_value": 229.05,
                     "asset_id": "0713e14e-7ca3-48b3-873f-9a7cd3637c40"
                 }
             },
@@ -6027,7 +6027,7 @@
         "1996": {
             "#2": {
                 "STANDARD": {
-                    "alt_value": 72.08,
+                    "alt_value": 77.23,
                     "asset_id": "38b2e576-72d2-4c25-9b92-3a95ccbc2ba0"
                 }
             }
@@ -6101,7 +6101,7 @@
         "1997": {
             "#109": {
                 "STANDARD": {
-                    "alt_value": 154.7,
+                    "alt_value": 151.18,
                     "asset_id": "40e345ed-c982-4a39-8163-a0483c8e94c4"
                 }
             }
@@ -6275,7 +6275,7 @@
         "2006": {
             "#108": {
                 "STANDARD": {
-                    "alt_value": 211.37,
+                    "alt_value": 220.22,
                     "asset_id": "1038f811-04e3-4541-b199-ca8e3d7e4875"
                 }
             }
@@ -6397,7 +6397,7 @@
         "2007": {
             "#112": {
                 "STANDARD": {
-                    "alt_value": 168.12,
+                    "alt_value": 165.65,
                     "asset_id": "65c750cf-25b2-4efc-9858-90da786ac1e4"
                 }
             }
@@ -6407,7 +6407,7 @@
         "2025": {
             "#20": {
                 "Reverse Holo": {
-                    "alt_value": 45.11,
+                    "alt_value": 42.65,
                     "asset_id": "fec7da13-5254-461c-8cdf-c795e498bb39"
                 }
             }
@@ -6509,7 +6509,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 234.98,
+                    "alt_value": 220.26,
                     "asset_id": "3baf6db1-f721-463b-94d8-d4468b11a8cb"
                 }
             }
@@ -6621,7 +6621,7 @@
         "2004": {
             "#82": {
                 "Reverse Holo": {
-                    "alt_value": 206.69,
+                    "alt_value": 217.36,
                     "asset_id": "819b2c1b-705d-440d-b26d-3154c5585a82"
                 }
             }
@@ -6631,7 +6631,7 @@
         "2005": {
             "#400": {
                 "STANDARD": {
-                    "alt_value": 227.8,
+                    "alt_value": 220.26,
                     "asset_id": "f144d41a-7226-4d07-8a7a-48d8f0f58db1"
                 }
             },
@@ -6737,7 +6737,7 @@
         "2019": {
             "#SM219": {
                 "Promo / Stamped": {
-                    "alt_value": 162.26,
+                    "alt_value": 152.06,
                     "asset_id": "bc5c311a-b416-44cb-b968-e46ed046e0f7"
                 }
             }
@@ -6807,7 +6807,7 @@
         "2000": {
             "#245": {
                 "STANDARD": {
-                    "alt_value": 88.54,
+                    "alt_value": 86.85,
                     "asset_id": "5f01847f-b556-479d-ad5b-f68a8dbfb9ce"
                 }
             }
@@ -6979,7 +6979,7 @@
         "2023": {
             "#113": {
                 "STANDARD": {
-                    "alt_value": 41.12,
+                    "alt_value": 39.81,
                     "asset_id": "bb8d9e74-7646-4c29-8e74-4f12269bc646"
                 }
             }
@@ -7009,7 +7009,7 @@
         "1999": {
             "#50": {
                 "STANDARD": {
-                    "alt_value": 71.55,
+                    "alt_value": 72.27,
                     "asset_id": "e192b801-960f-4344-a0b1-78d8946fc6a8"
                 },
                 "1st Edition": {
@@ -7029,7 +7029,7 @@
         "2006": {
             "#52": {
                 "Reverse Holo": {
-                    "alt_value": 492.22,
+                    "alt_value": 453.52,
                     "asset_id": "e4c2f38f-c91f-4c11-825c-dda51520c357"
                 }
             }
@@ -7087,7 +7087,7 @@
             },
             "#82": {
                 "STANDARD": {
-                    "alt_value": 129.95,
+                    "alt_value": 134.26,
                     "asset_id": "f9f035dd-5a8c-49f7-af25-4fe80c2795ca"
                 }
             }
@@ -7217,7 +7217,7 @@
                     "asset_id": "aefe590d-d1e6-4752-ada6-f21a2d8ac788"
                 },
                 "1st Edition Holo": {
-                    "alt_value": 1688.85,
+                    "alt_value": 1591.29,
                     "asset_id": "3110b494-ce78-4fe6-91ff-ba35512ec832"
                 }
             }
@@ -7253,7 +7253,7 @@
         "2010": {
             "#21": {
                 "Promo / Stamped": {
-                    "alt_value": 502.57,
+                    "alt_value": 539.53,
                     "asset_id": "a8dd2313-3e95-4d1e-94a3-3f4012845479"
                 }
             }
@@ -7263,8 +7263,8 @@
         "2000": {
             "#49": {
                 "STANDARD": {
-                    "alt_value": 333.48,
-                    "asset_id": "0907a9bd-a812-4074-83a3-134f10f10f98"
+                    "alt_value": 43.76,
+                    "asset_id": "1d692aac-a1af-4ede-94d5-9bb40aafd703"
                 }
             }
         },
@@ -7277,7 +7277,7 @@
             },
             "#49": {
                 "STANDARD": {
-                    "alt_value": 38.93,
+                    "alt_value": 40.42,
                     "asset_id": "5d48c9b4-e4e4-4294-9ae7-b7bdcef2442a"
                 }
             },
@@ -7299,7 +7299,7 @@
         "2004": {
             "#49": {
                 "Reverse Holo": {
-                    "alt_value": 101.49,
+                    "alt_value": 96.87,
                     "asset_id": "3eec4b7c-1160-426b-b36e-9fcfc714e563"
                 }
             }
@@ -7325,7 +7325,7 @@
             },
             "#186": {
                 "STANDARD": {
-                    "alt_value": 444.17,
+                    "alt_value": 447.39,
                     "asset_id": "3eeb10f1-8ebf-407c-9192-a431a934d400"
                 }
             },
@@ -7359,7 +7359,7 @@
             },
             "#130": {
                 "STANDARD": {
-                    "alt_value": 101.33,
+                    "alt_value": 100.25,
                     "asset_id": "bc450bb5-ff20-4875-97f3-8b549f27d310"
                 }
             }
@@ -7383,7 +7383,7 @@
         "2013": {
             "#62": {
                 "STANDARD": {
-                    "alt_value": 161.88,
+                    "alt_value": 173.7,
                     "asset_id": "0b48d1eb-45e8-40c6-90ca-b6c018ed3b4f"
                 }
             }
@@ -7811,7 +7811,7 @@
             },
             "#27": {
                 "STANDARD": {
-                    "alt_value": 45.6,
+                    "alt_value": 42.31,
                     "asset_id": "a09614bd-1c9c-4d49-b7e4-d15edb181070"
                 }
             }
@@ -7861,7 +7861,7 @@
         "2009": {
             "#37": {
                 "STANDARD": {
-                    "alt_value": 38.91,
+                    "alt_value": 43.81,
                     "asset_id": "d083c6e1-11a6-440f-a1ff-785ab9de298e"
                 }
             }
@@ -8145,7 +8145,7 @@
         "2024": {
             "#1": {
                 "STANDARD": {
-                    "alt_value": 33.38,
+                    "alt_value": 35.67,
                     "asset_id": "96a12eab-9939-4ea1-b835-130677053a14"
                 }
             }
@@ -8153,7 +8153,7 @@
         "2018": {
             "#3": {
                 "STANDARD": {
-                    "alt_value": 54.54,
+                    "alt_value": 52.6,
                     "asset_id": "d3f0fc66-65e4-44ee-9f0e-43b931fe5166"
                 }
             }
@@ -8195,7 +8195,7 @@
         "2006": {
             "#3": {
                 "STANDARD": {
-                    "alt_value": 263.26,
+                    "alt_value": 281.77,
                     "asset_id": "4e40cbc2-9cb7-4955-9b01-e7451b1b3821"
                 }
             }
@@ -8511,7 +8511,7 @@
             },
             "#15": {
                 "STANDARD": {
-                    "alt_value": 239.87,
+                    "alt_value": 254.1,
                     "asset_id": "8060f81e-a4e7-422a-aa59-aa12ac62111a"
                 }
             },
@@ -8651,7 +8651,7 @@
         "2005": {
             "#13": {
                 "Holo": {
-                    "alt_value": 382.42,
+                    "alt_value": 375.41,
                     "asset_id": "f3bf7964-d94a-444c-a081-37c815210aa5"
                 },
                 "Reverse Holo": {
@@ -8803,7 +8803,7 @@
         "2000": {
             "#181": {
                 "STANDARD": {
-                    "alt_value": 72.01,
+                    "alt_value": 70.27,
                     "asset_id": "c47c774f-42e1-4a0b-97b0-c9661a961e53"
                 }
             },
@@ -8849,7 +8849,7 @@
         "2007": {
             "#1": {
                 "Reverse Holo": {
-                    "alt_value": 163.56,
+                    "alt_value": 164.38,
                     "asset_id": "3f7aeff2-2f3d-4a6b-b657-8b7812dd61f8"
                 }
             }
@@ -8865,7 +8865,7 @@
             },
             "#BW23": {
                 "STANDARD": {
-                    "alt_value": 512.68,
+                    "alt_value": 475.65,
                     "asset_id": "2eba1716-1abc-4ba9-97a4-3ff27429098c"
                 }
             }
@@ -9095,7 +9095,7 @@
             },
             "#128": {
                 "STANDARD": {
-                    "alt_value": 89.81,
+                    "alt_value": 86.81,
                     "asset_id": "6d2673f7-091a-4649-bddc-3d184d1b72db"
                 }
             },
@@ -9153,7 +9153,7 @@
         "2025": {
             "#9": {
                 "STANDARD": {
-                    "alt_value": 79.26,
+                    "alt_value": 79.42,
                     "asset_id": "a7a7a12f-dc40-4776-9596-ffdcc3b12bbe"
                 }
             }
@@ -9193,7 +9193,7 @@
         "2010": {
             "#13": {
                 "STANDARD": {
-                    "alt_value": 262.22,
+                    "alt_value": 254.23,
                     "asset_id": "d623272a-7cf4-4b27-b57c-3eb18b0445eb"
                 }
             }
@@ -9329,13 +9329,13 @@
         "2018": {
             "#58": {
                 "STANDARD": {
-                    "alt_value": 47.98,
+                    "alt_value": 50.88,
                     "asset_id": "003d591b-ce38-4b72-a18c-0de3895f2252"
                 }
             },
             "#120": {
                 "Reverse Holo": {
-                    "alt_value": 533.25,
+                    "alt_value": 542.66,
                     "asset_id": "093f29e6-e155-46c8-8f27-1a2e64b0ebc6"
                 }
             }
@@ -9343,7 +9343,7 @@
         "2010": {
             "#10": {
                 "STANDARD": {
-                    "alt_value": 2472.2,
+                    "alt_value": 2515.0,
                     "asset_id": "34e60763-821c-49fd-93e3-ba438708fc82"
                 }
             },
@@ -9505,7 +9505,7 @@
         "2023": {
             "#73": {
                 "STANDARD": {
-                    "alt_value": 359.4,
+                    "alt_value": 324.31,
                     "asset_id": "a6ed782c-fac1-47b8-8e56-f508ab2c037e"
                 }
             }
@@ -9535,7 +9535,7 @@
             },
             "#XY65": {
                 "STANDARD": {
-                    "alt_value": 729.14,
+                    "alt_value": 760.24,
                     "asset_id": "5531bed8-e7c1-4616-ba7f-4681238f3156"
                 }
             },
@@ -9683,7 +9683,7 @@
         "2024": {
             "#215": {
                 "STANDARD": {
-                    "alt_value": 24.95,
+                    "alt_value": 25.23,
                     "asset_id": "ef2cbc09-932c-45e5-bcdb-129bd6782c66"
                 }
             },
@@ -9747,7 +9747,7 @@
         "1999": {
             "#58": {
                 "STANDARD": {
-                    "alt_value": 40.5,
+                    "alt_value": 40.82,
                     "asset_id": "073cfb70-a60c-4ce8-8e14-0fc56071e718"
                 }
             },
@@ -9791,7 +9791,7 @@
         "2025": {
             "#35": {
                 "Reverse Holo": {
-                    "alt_value": 37.12,
+                    "alt_value": 35.93,
                     "asset_id": "707a8ec7-8bb6-4b68-9ccb-50bacb455ba9"
                 }
             }
@@ -9879,7 +9879,7 @@
         "2013": {
             "#55": {
                 "STANDARD": {
-                    "alt_value": 214.32,
+                    "alt_value": 244.32,
                     "asset_id": "221911d8-391c-42c0-a5fc-39fb4de1a555"
                 }
             }
@@ -9901,7 +9901,7 @@
             },
             "#169": {
                 "STANDARD": {
-                    "alt_value": 40.25,
+                    "alt_value": 40.29,
                     "asset_id": "4156ca97-cd14-49a3-b313-3a0289c468d7"
                 }
             },
@@ -9995,7 +9995,7 @@
         "2000": {
             "#243": {
                 "STANDARD": {
-                    "alt_value": 70.95,
+                    "alt_value": 70.04,
                     "asset_id": "ad87d8ab-a107-4d5a-8b18-4f8e251bdecb"
                 }
             }
@@ -10069,7 +10069,7 @@
         "2022": {
             "#298": {
                 "STANDARD": {
-                    "alt_value": 31.13,
+                    "alt_value": 32.61,
                     "asset_id": "30740e5d-9f39-41e5-82fa-dfb87fb0e94d"
                 }
             },
@@ -10083,7 +10083,7 @@
         "2018": {
             "#231": {
                 "STANDARD": {
-                    "alt_value": 54.33,
+                    "alt_value": 53.17,
                     "asset_id": "abfe5972-257d-4d74-937a-5d6dbf2c9ce0"
                 }
             }
@@ -10115,7 +10115,7 @@
         "2019": {
             "#SM160": {
                 "STANDARD": {
-                    "alt_value": 258.85,
+                    "alt_value": 251.05,
                     "asset_id": "d9643004-a0f1-4d37-a316-2c9f260bb98a"
                 }
             }
@@ -10151,6 +10151,10 @@
         "2022": {
             "#TG10": {
                 "STANDARD": {
+                    "alt_value": 194.7,
+                    "asset_id": "7080eec5-148b-41ed-8a7c-cc3d7b7dd180"
+                },
+                "Trainer Gallery": {
                     "alt_value": 194.7,
                     "asset_id": "7080eec5-148b-41ed-8a7c-cc3d7b7dd180"
                 }
@@ -10213,7 +10217,7 @@
         "2005": {
             "#290": {
                 "STANDARD": {
-                    "alt_value": 636.82,
+                    "alt_value": 654.3,
                     "asset_id": "93bf88a9-5cd6-446f-a65d-47253bdf0e78"
                 }
             }
@@ -10635,7 +10639,7 @@
             },
             "#47": {
                 "Holo": {
-                    "alt_value": 263.38,
+                    "alt_value": 257.22,
                     "asset_id": "16dee096-ed9c-403a-8e6e-fce5ec7ee2d3"
                 }
             }
@@ -10669,7 +10673,7 @@
         "2024": {
             "#133": {
                 "Promo / Stamped": {
-                    "alt_value": 81.14,
+                    "alt_value": 89.25,
                     "asset_id": "25ab4b41-e307-4f63-a4d6-67a5adea3485"
                 }
             },
@@ -10793,7 +10797,7 @@
         "2005": {
             "#17": {
                 "STANDARD": {
-                    "alt_value": 100.72,
+                    "alt_value": 117.35,
                     "asset_id": "7082b433-1460-4ee6-9a68-c7e19377f2c4"
                 },
                 "Holo": {
@@ -10857,7 +10861,7 @@
         "2018": {
             "#42": {
                 "Holo": {
-                    "alt_value": 141.96,
+                    "alt_value": 155.12,
                     "asset_id": "86dcf15d-5aa6-401d-858d-a14a463d2190"
                 }
             }
@@ -11009,7 +11013,7 @@
         "2025": {
             "#207": {
                 "Holo": {
-                    "alt_value": 32.56,
+                    "alt_value": 31.19,
                     "asset_id": "e53744c3-7626-472a-803f-72f7648ea1cd"
                 }
             }
@@ -11051,7 +11055,7 @@
         "1997": {
             "#67": {
                 "STANDARD": {
-                    "alt_value": 135.24,
+                    "alt_value": 137.84,
                     "asset_id": "f490ff49-00af-46c6-9eb1-807885fc5721"
                 }
             }
@@ -11075,7 +11079,7 @@
             },
             "#35": {
                 "STANDARD": {
-                    "alt_value": 158.18,
+                    "alt_value": 146.9,
                     "asset_id": "d3fd9bba-4663-46ca-87c4-c6b06730bec1"
                 }
             }
@@ -11153,7 +11157,7 @@
         "2023": {
             "#94": {
                 "STANDARD": {
-                    "alt_value": 31.66,
+                    "alt_value": 30.7,
                     "asset_id": "e49229c4-5357-4b26-ab7f-b05d530d9b81"
                 }
             },
@@ -11303,7 +11307,7 @@
         "1999": {
             "#39": {
                 "1st Edition": {
-                    "alt_value": 99.8,
+                    "alt_value": 95.67,
                     "asset_id": "f647b4f3-842e-4ab7-983d-50bd0c3d2b06"
                 }
             }
@@ -11319,7 +11323,7 @@
         "2024": {
             "#138": {
                 "STANDARD": {
-                    "alt_value": 51.01,
+                    "alt_value": 50.23,
                     "asset_id": "7fd1ff94-6bf4-404a-90e6-5d3a9f4d1ea8"
                 }
             }
@@ -11335,7 +11339,7 @@
         "2015": {
             "#67": {
                 "STANDARD": {
-                    "alt_value": 124.92,
+                    "alt_value": 115.33,
                     "asset_id": "c4e8109d-d5df-441c-bee0-58b7ce96a761"
                 }
             }
@@ -11351,7 +11355,7 @@
             },
             "#56": {
                 "STANDARD": {
-                    "alt_value": 59.89,
+                    "alt_value": 62.41,
                     "asset_id": "104d9e24-edc1-44f9-ac68-82eb8ad36f73"
                 }
             }
@@ -11373,7 +11377,7 @@
         "2025": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 44.45,
+                    "alt_value": 44.93,
                     "asset_id": "141a2bd8-75d0-4ca5-ae36-412a54edc921"
                 }
             },
@@ -11393,7 +11397,7 @@
             },
             "#SM54": {
                 "STANDARD": {
-                    "alt_value": 205.97,
+                    "alt_value": 216.93,
                     "asset_id": "09b199bb-d33b-44e6-8b4a-a5e869a28586"
                 }
             },
@@ -11445,7 +11449,7 @@
         "2016": {
             "#63": {
                 "STANDARD": {
-                    "alt_value": 132.86,
+                    "alt_value": 133.51,
                     "asset_id": "1b5960e5-9adb-4128-ba26-308413851ca1"
                 }
             }
@@ -11461,7 +11465,7 @@
         "2012": {
             "#64": {
                 "STANDARD": {
-                    "alt_value": 497.3,
+                    "alt_value": 493.46,
                     "asset_id": "d841efc7-64da-4023-b13b-52d08cf13244"
                 }
             }
@@ -11527,7 +11531,7 @@
         "2014": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 39.4,
+                    "alt_value": 40.8,
                     "asset_id": "e3969a43-4f6c-4b90-9f51-7ed6c298493d"
                 }
             }
@@ -11883,7 +11887,7 @@
         "2006": {
             "#105": {
                 "STANDARD": {
-                    "alt_value": 836.32,
+                    "alt_value": 850.7,
                     "asset_id": "7da042e3-d501-40f6-b221-15398d4e2947"
                 }
             }
@@ -11921,7 +11925,7 @@
         "2025": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 47.94,
+                    "alt_value": 50.07,
                     "asset_id": "03c225d0-793f-4ca5-bab6-1ce8d5d770c1"
                 }
             }
@@ -12007,7 +12011,7 @@
             },
             "#14": {
                 "STANDARD": {
-                    "alt_value": 57.44,
+                    "alt_value": 58.19,
                     "asset_id": "a9725687-ddd7-4335-967b-5869875e6cb1"
                 }
             }
@@ -12101,7 +12105,7 @@
         "2000": {
             "#38": {
                 "STANDARD": {
-                    "alt_value": 1123.59,
+                    "alt_value": 1089.41,
                     "asset_id": "83242d3b-7d20-44a9-84dc-6bfc5f238cc8"
                 }
             },
@@ -12559,7 +12563,7 @@
         "2017": {
             "#148": {
                 "STANDARD": {
-                    "alt_value": 96.52,
+                    "alt_value": 90.0,
                     "asset_id": "9febe3f0-4652-451a-998e-720036e3bad0"
                 }
             }
@@ -12639,7 +12643,7 @@
         "2003": {
             "#62": {
                 "Reverse Holo": {
-                    "alt_value": 99.37,
+                    "alt_value": 93.03,
                     "asset_id": "29344572-0358-4d60-b411-a91fcff1958b"
                 }
             },
@@ -12701,7 +12705,7 @@
         "2025": {
             "#54": {
                 "Reverse Holo": {
-                    "alt_value": 47.63,
+                    "alt_value": 46.06,
                     "asset_id": "2a550876-b7aa-42ff-b0c5-cf4b41c53b29"
                 }
             },
@@ -12721,7 +12725,7 @@
             },
             "#222": {
                 "STANDARD": {
-                    "alt_value": 38.26,
+                    "alt_value": 36.82,
                     "asset_id": "c04ab3ee-da8b-4313-a8bb-787bcb9bd592"
                 }
             },
@@ -12745,7 +12749,7 @@
         "2000": {
             "#15": {
                 "STANDARD": {
-                    "alt_value": 58.41,
+                    "alt_value": 57.17,
                     "asset_id": "b0aa2480-e849-4ae4-b757-4e49b67c4eae"
                 }
             },
@@ -12775,7 +12779,7 @@
         "2001": {
             "#18": {
                 "1st Edition": {
-                    "alt_value": 113.63,
+                    "alt_value": 113.37,
                     "asset_id": "89e98ceb-30a2-4f1b-ac3a-598d0cd72783"
                 }
             }
@@ -12905,7 +12909,7 @@
         "2003": {
             "#24": {
                 "STANDARD": {
-                    "alt_value": 88.55,
+                    "alt_value": 84.31,
                     "asset_id": "7cdadfc8-53c1-4bf1-8b73-5c0386399acb"
                 }
             }
@@ -12937,7 +12941,7 @@
         "2004": {
             "#72": {
                 "STANDARD": {
-                    "alt_value": 35.57,
+                    "alt_value": 37.28,
                     "asset_id": "0a0c3a90-034c-4d7d-b514-f1d04ac35594"
                 }
             }
@@ -13257,7 +13261,7 @@
             },
             "#124": {
                 "STANDARD": {
-                    "alt_value": 147.88,
+                    "alt_value": 147.42,
                     "asset_id": "c9cf6017-c526-46f2-9a02-203bc947cf6f"
                 }
             }
@@ -13355,7 +13359,7 @@
         "2004": {
             "#AST18": {
                 "STANDARD": {
-                    "alt_value": 143.99,
+                    "alt_value": 136.53,
                     "asset_id": "4095f16f-4743-4b4a-b8c8-38a8a1e7d162"
                 }
             }
@@ -13411,7 +13415,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 113.88,
+                    "alt_value": 112.38,
                     "asset_id": "ab14f0b3-d59b-4477-a084-abda77a3aafa"
                 }
             }
@@ -13429,7 +13433,7 @@
         "2005": {
             "#264": {
                 "STANDARD": {
-                    "alt_value": 153.4,
+                    "alt_value": 147.75,
                     "asset_id": "338711a0-9b43-4659-b1b6-4b41b2b17679"
                 }
             }
@@ -13609,7 +13613,7 @@
         "2018": {
             "#197": {
                 "STANDARD": {
-                    "alt_value": 43.19,
+                    "alt_value": 43.85,
                     "asset_id": "5cb5e89a-c79f-499c-a906-dfe59a1ae606"
                 }
             }
@@ -13681,6 +13685,10 @@
                 "Character Rare": {
                     "alt_value": 65.63,
                     "asset_id": "d019d6c4-95dd-4c88-a564-5ab30a271757"
+                },
+                "STANDARD": {
+                    "alt_value": 65.63,
+                    "asset_id": "d019d6c4-95dd-4c88-a564-5ab30a271757"
                 }
             }
         },
@@ -13715,7 +13723,7 @@
         "2000": {
             "#93": {
                 "STANDARD": {
-                    "alt_value": 122.15,
+                    "alt_value": 128.59,
                     "asset_id": "49d0c074-b784-48e1-9681-c55bbaa4c2ee"
                 }
             },
@@ -13909,7 +13917,7 @@
             },
             "#63": {
                 "STANDARD": {
-                    "alt_value": 57.38,
+                    "alt_value": 55.11,
                     "asset_id": "18be5742-1869-4897-901a-b0acab657a96"
                 }
             }
@@ -13937,7 +13945,7 @@
             },
             "#25": {
                 "1st Edition": {
-                    "alt_value": 141.97,
+                    "alt_value": 150.88,
                     "asset_id": "069b31af-3d7f-4660-b8fb-25c5dfc5ee93"
                 }
             }
@@ -13975,7 +13983,7 @@
         "1999": {
             "#24": {
                 "STANDARD": {
-                    "alt_value": 43.72,
+                    "alt_value": 45.02,
                     "asset_id": "36880bef-a19a-481a-b889-2b3dccd4fed0"
                 }
             }
@@ -13983,7 +13991,7 @@
         "2003": {
             "#29": {
                 "Reverse Holo": {
-                    "alt_value": 136.39,
+                    "alt_value": 138.78,
                     "asset_id": "ac089b0f-d0bc-4b5e-82ea-fce8cd29925f"
                 }
             }
@@ -14077,7 +14085,7 @@
         "2024": {
             "#237": {
                 "Special Art Rare": {
-                    "alt_value": 345.9,
+                    "alt_value": 324.97,
                     "asset_id": "34668661-310f-4c09-b204-f078d027d461"
                 }
             },
@@ -14115,7 +14123,7 @@
         "2012": {
             "#28": {
                 "STANDARD": {
-                    "alt_value": 710.38,
+                    "alt_value": 803.26,
                     "asset_id": "13378c91-0bd5-4dc5-809b-bb0edd575fc8"
                 }
             }
@@ -14281,7 +14289,7 @@
             },
             "#150": {
                 "STANDARD": {
-                    "alt_value": 29.65,
+                    "alt_value": 28.88,
                     "asset_id": "8ac18f59-bde3-4165-8b50-1cc6fe4bfc8d"
                 }
             }
@@ -14305,7 +14313,7 @@
         "1996": {
             "#59": {
                 "STANDARD": {
-                    "alt_value": 148.68,
+                    "alt_value": 148.24,
                     "asset_id": "e77dab5c-86cf-403e-9c0b-a7f901a8d9e2"
                 }
             }
@@ -14453,7 +14461,7 @@
             },
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 82.96,
+                    "alt_value": 82.7,
                     "asset_id": "64ffbb14-6a7d-4e61-bc19-fb70b1ae0205"
                 }
             },
@@ -14603,7 +14611,7 @@
         "2018": {
             "#18": {
                 "STANDARD": {
-                    "alt_value": 56.13,
+                    "alt_value": 61.42,
                     "asset_id": "8dcf099c-f2cd-412d-8a5d-51a0e0604182"
                 }
             }
@@ -14625,7 +14633,7 @@
             },
             "#19": {
                 "STANDARD": {
-                    "alt_value": 102.73,
+                    "alt_value": 106.72,
                     "asset_id": "e9f66c65-f052-42c0-bf9d-4a8c2a9dbc17"
                 }
             },
@@ -14747,7 +14755,7 @@
         "2003": {
             "#98": {
                 "STANDARD": {
-                    "alt_value": 65.23,
+                    "alt_value": 66.97,
                     "asset_id": "09bf548e-3a76-4bd5-99e6-d828f487e8a1"
                 }
             }
@@ -14779,7 +14787,7 @@
         "2000": {
             "#69": {
                 "1st Edition": {
-                    "alt_value": 173.61,
+                    "alt_value": 167.0,
                     "asset_id": "3c37e36e-0030-4ec7-9af7-e6f939a22d07"
                 }
             }
@@ -14801,7 +14809,7 @@
         "2005": {
             "#386": {
                 "STANDARD": {
-                    "alt_value": 162.6,
+                    "alt_value": 188.12,
                     "asset_id": "2d5d2acc-6749-4103-a0cf-e27da7d4f922"
                 }
             },
@@ -14895,7 +14903,7 @@
                     "asset_id": "abefb09e-211b-41c3-a3ae-47d469ecfe1b"
                 },
                 "STANDARD": {
-                    "alt_value": 367.16,
+                    "alt_value": 378.5,
                     "asset_id": "64096f9f-d0db-4ae6-ae57-96a5462c3cf2"
                 }
             },
@@ -14929,7 +14937,7 @@
         "2000": {
             "#23": {
                 "STANDARD": {
-                    "alt_value": 124.9,
+                    "alt_value": 125.51,
                     "asset_id": "fd76aaeb-ce89-4da4-b10c-b8ed4c89fb26"
                 }
             },
@@ -15013,7 +15021,7 @@
         "2025": {
             "#161": {
                 "STANDARD": {
-                    "alt_value": 134.76,
+                    "alt_value": 123.52,
                     "asset_id": "664c19d0-5ff7-4aa4-846f-9c788700461b"
                 }
             }
@@ -15051,7 +15059,7 @@
         "2013": {
             "#67": {
                 "STANDARD": {
-                    "alt_value": 200.9,
+                    "alt_value": 196.76,
                     "asset_id": "b69c5b33-d8ea-476e-836f-95fcbef61f17"
                 }
             }
@@ -15127,7 +15135,7 @@
         "2022": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 67.45,
+                    "alt_value": 55.39,
                     "asset_id": "f30fa0fe-f1db-45ca-aa6d-178d70e246d4"
                 }
             }
@@ -15153,7 +15161,7 @@
         "2018": {
             "#180": {
                 "STANDARD": {
-                    "alt_value": 44.55,
+                    "alt_value": 42.85,
                     "asset_id": "89785e18-f57d-438a-9565-82b4f98a2bad"
                 }
             }
@@ -15203,7 +15211,7 @@
         "2018": {
             "#6": {
                 "STANDARD": {
-                    "alt_value": 46.7,
+                    "alt_value": 41.64,
                     "asset_id": "f63ef072-ac4b-4e47-86c4-3b55c086be7a"
                 }
             }
@@ -15223,7 +15231,7 @@
             },
             "#14": {
                 "STANDARD": {
-                    "alt_value": 222.06,
+                    "alt_value": 217.34,
                     "asset_id": "a1c79ad3-afb6-49bd-bdf0-fecdaca21dce"
                 }
             },
@@ -15293,6 +15301,12 @@
                 "Special Art Rare": {
                     "alt_value": 442.86,
                     "asset_id": "0768c560-1d1c-484a-b300-f70a7675a843"
+                }
+            },
+            "#9": {
+                "STANDARD": {
+                    "alt_value": 780.01,
+                    "asset_id": "30c5c27e-4491-4c2c-a812-8cdd78277e24"
                 }
             }
         },
@@ -15485,7 +15499,7 @@
         "2025": {
             "#122": {
                 "Illustration Rare": {
-                    "alt_value": 92.74,
+                    "alt_value": 85.1,
                     "asset_id": "15aebb95-d6a3-4d51-ad5c-b183d7d39f05"
                 }
             }
@@ -15527,7 +15541,7 @@
         "2015": {
             "#56": {
                 "STANDARD": {
-                    "alt_value": 49.08,
+                    "alt_value": 50.1,
                     "asset_id": "58530187-444d-45a5-8648-2906265cbed7"
                 }
             }
@@ -15583,7 +15597,7 @@
         "1996": {
             "#44": {
                 "STANDARD": {
-                    "alt_value": 58.36,
+                    "alt_value": 57.69,
                     "asset_id": "aeb5d247-00b7-4ba7-8fd4-dc5413ed155b"
                 }
             }
@@ -15591,7 +15605,7 @@
         "1993": {
             "#111": {
                 "STANDARD": {
-                    "alt_value": 340.0,
+                    "alt_value": 342.27,
                     "asset_id": "4f0eade0-5721-42c2-bb10-71c4d0ccd2f1"
                 }
             }
@@ -15633,7 +15647,7 @@
         "2005": {
             "#64": {
                 "Reverse Holo": {
-                    "alt_value": 916.35,
+                    "alt_value": 940.77,
                     "asset_id": "416aec24-b3f1-4e6a-8df2-7bd3843371a8"
                 }
             },
@@ -15651,7 +15665,7 @@
             },
             "#38": {
                 "Reverse Holo": {
-                    "alt_value": 418.46,
+                    "alt_value": 415.97,
                     "asset_id": "604bae2d-2f2c-48ab-9883-ed9ee0b3024a"
                 }
             }
@@ -15849,7 +15863,7 @@
         "2019": {
             "#187": {
                 "STANDARD": {
-                    "alt_value": 128.63,
+                    "alt_value": 123.71,
                     "asset_id": "5d990aa3-ffd8-49c2-8878-e8bcf45a8783"
                 }
             }
@@ -15913,7 +15927,7 @@
         "2006": {
             "#39": {
                 "Reverse Holo": {
-                    "alt_value": 217.8,
+                    "alt_value": 234.89,
                     "asset_id": "37c1e015-d0fb-462b-8811-7f8f9f42f082"
                 }
             }
@@ -16071,7 +16085,7 @@
         "2024": {
             "#167": {
                 "STANDARD": {
-                    "alt_value": 45.53,
+                    "alt_value": 45.93,
                     "asset_id": "2e53b8af-acfe-4151-a71d-ff53cf7f7509"
                 }
             }
@@ -16103,7 +16117,7 @@
         "2007": {
             "#1": {
                 "STANDARD": {
-                    "alt_value": 123.56,
+                    "alt_value": 126.24,
                     "asset_id": "1111e267-a25e-4f74-b448-b151c80189db"
                 }
             }
@@ -16113,7 +16127,7 @@
         "2016": {
             "#72": {
                 "STANDARD": {
-                    "alt_value": 102.63,
+                    "alt_value": 101.82,
                     "asset_id": "bdaac7c8-7765-49d7-aebf-d6f9f7e2b2ec"
                 }
             }
@@ -16173,7 +16187,7 @@
                     "asset_id": "4b3487ea-6087-4c36-988a-581ae1e38531"
                 },
                 "STANDARD": {
-                    "alt_value": 269.93,
+                    "alt_value": 228.82,
                     "asset_id": "0712e8b2-0017-4057-8343-394d82b70238"
                 }
             }
@@ -16241,7 +16255,7 @@
         "2021": {
             "#138": {
                 "STANDARD": {
-                    "alt_value": 152.45,
+                    "alt_value": 151.34,
                     "asset_id": "24e09624-2ba7-494f-87a0-3141f05649f2"
                 }
             }
@@ -16269,7 +16283,7 @@
         "2003": {
             "#74": {
                 "STANDARD": {
-                    "alt_value": 69.59,
+                    "alt_value": 70.69,
                     "asset_id": "9f219e59-9b9d-4316-8c44-b35ab52b1b3f"
                 }
             }
@@ -16277,7 +16291,7 @@
         "2014": {
             "#12111": {
                 "STANDARD": {
-                    "alt_value": 126.48,
+                    "alt_value": 128.95,
                     "asset_id": "a8c51cec-981b-440a-bb1b-bdd642d01230"
                 }
             }
@@ -16335,7 +16349,7 @@
         "2025": {
             "#17": {
                 "Reverse Holo": {
-                    "alt_value": 30.29,
+                    "alt_value": 30.96,
                     "asset_id": "2f4048bc-c03a-4b1a-a10a-f235894a6640"
                 }
             }
@@ -16345,7 +16359,7 @@
         "2025": {
             "#48": {
                 "Reverse Holo": {
-                    "alt_value": 30.19,
+                    "alt_value": 28.41,
                     "asset_id": "a387a3f8-a299-43f9-b294-28b7d448101d"
                 }
             }
@@ -16365,7 +16379,7 @@
         "2003": {
             "#76": {
                 "STANDARD": {
-                    "alt_value": 136.15,
+                    "alt_value": 141.21,
                     "asset_id": "06c4d74e-76ab-4f64-a2c3-a5868807f2ee"
                 }
             },
@@ -16413,7 +16427,7 @@
             },
             "#150": {
                 "Holo": {
-                    "alt_value": 24.61,
+                    "alt_value": 23.77,
                     "asset_id": "92aad8ed-e402-4f25-8b41-19dec4903d97"
                 }
             }
@@ -16445,7 +16459,7 @@
         "1997": {
             "#53": {
                 "STANDARD": {
-                    "alt_value": 91.56,
+                    "alt_value": 98.98,
                     "asset_id": "36202e90-d468-4fd1-8a24-5af733e29770"
                 }
             }
@@ -16553,7 +16567,7 @@
         "2018": {
             "#249": {
                 "STANDARD": {
-                    "alt_value": 86.45,
+                    "alt_value": 82.97,
                     "asset_id": "840d2f25-a519-422b-9e8f-c5e49c4617ca"
                 }
             }
@@ -16635,7 +16649,7 @@
         "2005": {
             "#31": {
                 "Reverse Holo": {
-                    "alt_value": 168.53,
+                    "alt_value": 174.47,
                     "asset_id": "a927c7fc-6167-4149-8869-5735bd042419"
                 }
             }
@@ -16645,7 +16659,7 @@
         "2024": {
             "#161": {
                 "STANDARD": {
-                    "alt_value": 41.65,
+                    "alt_value": 43.08,
                     "asset_id": "cdcfe2ff-31e8-4e81-ba53-0963243ccb88"
                 }
             },
@@ -16703,7 +16717,7 @@
         "2000": {
             "#59": {
                 "STANDARD": {
-                    "alt_value": 19.92,
+                    "alt_value": 20.61,
                     "asset_id": "d2d317ea-fc2d-441a-9ede-d3b1ec2a15a4"
                 },
                 "1st Edition": {
@@ -16875,7 +16889,7 @@
         "2011": {
             "#BW12": {
                 "STANDARD": {
-                    "alt_value": 263.36,
+                    "alt_value": 277.66,
                     "asset_id": "c1969c5b-b602-4121-826c-6700fed75e75"
                 }
             }
@@ -16883,7 +16897,7 @@
         "2017": {
             "#73": {
                 "Reverse Holo": {
-                    "alt_value": 102.9,
+                    "alt_value": 108.58,
                     "asset_id": "460c83fa-5555-4e10-b9bf-75ccb9147512"
                 }
             }
@@ -16901,7 +16915,7 @@
         "2023": {
             "#83": {
                 "STANDARD": {
-                    "alt_value": 22.52,
+                    "alt_value": 22.76,
                     "asset_id": "3d9c47f1-45f2-40bd-a897-8efbba062875"
                 }
             }
@@ -16949,7 +16963,7 @@
         "2018": {
             "#SM118": {
                 "Promo / Stamped": {
-                    "alt_value": 88.61,
+                    "alt_value": 85.91,
                     "asset_id": "96f7f75a-c0c1-482f-a538-e10dbe77e594"
                 }
             }
@@ -16985,7 +16999,7 @@
         "2004": {
             "#36": {
                 "STANDARD": {
-                    "alt_value": 33.67,
+                    "alt_value": 34.96,
                     "asset_id": "729f69b8-854e-46ed-91c5-dcdfe466a222"
                 }
             }
@@ -17205,7 +17219,7 @@
         "2014": {
             "#XY163": {
                 "STANDARD": {
-                    "alt_value": 140.11,
+                    "alt_value": 129.44,
                     "asset_id": "538ce64e-80dc-4f4f-9e22-6cb8859ce5cd"
                 }
             }
@@ -17495,7 +17509,7 @@
         "2000": {
             "#82": {
                 "1st Edition": {
-                    "alt_value": 74.79,
+                    "alt_value": 67.97,
                     "asset_id": "44638088-aad6-434d-8b8b-500fc1e701ad"
                 }
             }
@@ -17503,7 +17517,7 @@
         "2003": {
             "#66": {
                 "STANDARD": {
-                    "alt_value": 83.97,
+                    "alt_value": 89.06,
                     "asset_id": "acafac88-d221-4965-b764-c5b3509fb7a6"
                 }
             }
@@ -17583,7 +17597,7 @@
         "2019": {
             "#202": {
                 "STANDARD": {
-                    "alt_value": 49.8,
+                    "alt_value": 46.84,
                     "asset_id": "fb48bbfa-7414-41d0-9634-dd4912201c46"
                 }
             }
@@ -17635,7 +17649,7 @@
         "2020": {
             "#28": {
                 "Holo": {
-                    "alt_value": 19.94,
+                    "alt_value": 20.87,
                     "asset_id": "7e7a3125-0e6a-49cb-bdf1-78eda54cc599"
                 }
             }
@@ -17671,7 +17685,7 @@
         "2004": {
             "#32": {
                 "STANDARD": {
-                    "alt_value": 116.92,
+                    "alt_value": 115.19,
                     "asset_id": "1c9a609a-9ebe-4700-ac17-823c1725e20a"
                 },
                 "Reverse Holo": {
@@ -17683,7 +17697,7 @@
         "2000": {
             "#148": {
                 "STANDARD": {
-                    "alt_value": 2047.03,
+                    "alt_value": 2140.91,
                     "asset_id": "7f349949-8dce-496b-a26a-34aa56ed12b7"
                 }
             },
@@ -17735,7 +17749,7 @@
                     "asset_id": "7d6311c6-0d2e-4bd5-afe5-44a875b9fed6"
                 },
                 "1st Edition": {
-                    "alt_value": 198.99,
+                    "alt_value": 205.87,
                     "asset_id": "1a56d764-6c57-4841-a147-6a1bb7d03dd8"
                 }
             }
@@ -17935,7 +17949,7 @@
             },
             "#SV100": {
                 "STANDARD": {
-                    "alt_value": 27.89,
+                    "alt_value": 25.79,
                     "asset_id": "3d5d59bf-8843-475b-a11d-7891d585e707"
                 }
             }
@@ -18099,7 +18113,7 @@
             },
             "#3": {
                 "STANDARD": {
-                    "alt_value": 28.3,
+                    "alt_value": 29.82,
                     "asset_id": "1692a5d6-5784-4391-9982-14937f0b982b"
                 }
             }
@@ -18127,7 +18141,7 @@
         "2018": {
             "#176": {
                 "STANDARD": {
-                    "alt_value": 83.98,
+                    "alt_value": 82.96,
                     "asset_id": "2bfba6d3-598c-4bda-bfca-faa52dfb7ef6"
                 }
             }
@@ -18135,7 +18149,7 @@
         "2019": {
             "#SM180": {
                 "Promo / Stamped": {
-                    "alt_value": 135.2,
+                    "alt_value": 135.39,
                     "asset_id": "74287111-efbf-41b7-8dc8-2bfde092bd22"
                 }
             }
@@ -18277,7 +18291,7 @@
         "2021": {
             "#185": {
                 "STANDARD": {
-                    "alt_value": 63.76,
+                    "alt_value": 61.78,
                     "asset_id": "22c3060d-4797-44b9-82fc-de7be11029d6"
                 }
             }
@@ -18385,7 +18399,7 @@
         "2005": {
             "#261": {
                 "STANDARD": {
-                    "alt_value": 148.94,
+                    "alt_value": 139.59,
                     "asset_id": "ef069bc6-436d-48d0-b53b-fb18bd3d94d0"
                 }
             }
@@ -18517,7 +18531,7 @@
             },
             "#227": {
                 "STANDARD": {
-                    "alt_value": 50.88,
+                    "alt_value": 46.37,
                     "asset_id": "c3ac2372-7946-4752-8764-9d8cf40944c4"
                 }
             }
@@ -18571,7 +18585,7 @@
         "2004": {
             "#2": {
                 "STANDARD": {
-                    "alt_value": 206.37,
+                    "alt_value": 200.21,
                     "asset_id": "3ab70576-f8de-4523-ae0d-543f525f1c0b"
                 }
             }
@@ -18645,7 +18659,7 @@
         "2009": {
             "#105": {
                 "STANDARD": {
-                    "alt_value": 201.13,
+                    "alt_value": 174.88,
                     "asset_id": "4f55e927-1b2a-4acb-820a-0d8c4a4abf10"
                 }
             }
@@ -18751,7 +18765,7 @@
         "2024": {
             "#12": {
                 "STANDARD": {
-                    "alt_value": 56.87,
+                    "alt_value": 61.62,
                     "asset_id": "c498a797-ce77-47d5-a5a7-b43a49a29425"
                 }
             },
@@ -18803,7 +18817,7 @@
         "2012": {
             "#26": {
                 "STANDARD": {
-                    "alt_value": 219.94,
+                    "alt_value": 217.62,
                     "asset_id": "659e5e43-5569-43a7-9a41-fcd723df401f"
                 }
             }
@@ -18831,7 +18845,7 @@
         "2001": {
             "#36": {
                 "1st Edition": {
-                    "alt_value": 57.46,
+                    "alt_value": 58.37,
                     "asset_id": "6ff14444-6142-4031-acf2-9cf4ae0d6fe4"
                 }
             }
@@ -18971,7 +18985,7 @@
         "2025": {
             "#153": {
                 "Illustration Rare": {
-                    "alt_value": 90.3,
+                    "alt_value": 89.92,
                     "asset_id": "a3754f0c-13aa-4b49-9c22-e94809ebaba7"
                 }
             }
@@ -19015,7 +19029,7 @@
         "2013": {
             "#84": {
                 "STANDARD": {
-                    "alt_value": 371.67,
+                    "alt_value": 396.25,
                     "asset_id": "fda15a50-59db-404a-be82-fe0a724a267b"
                 }
             }
@@ -19051,7 +19065,7 @@
         "2000": {
             "#52": {
                 "1st Edition": {
-                    "alt_value": 70.79,
+                    "alt_value": 75.33,
                     "asset_id": "7a12a470-7bf8-4523-b0f9-d57df4b89d49"
                 }
             }
@@ -19059,7 +19073,7 @@
         "2025": {
             "#151": {
                 "Illustration Rare": {
-                    "alt_value": 75.28,
+                    "alt_value": 70.91,
                     "asset_id": "58f421f7-53f1-4c4a-81f0-574fe841f359"
                 }
             }
@@ -19147,8 +19161,8 @@
             },
             "#116": {
                 "Promo / Stamped": {
-                    "alt_value": 51.24,
-                    "asset_id": "ead7dd50-2955-46bd-aac0-cd4ba0a095ad"
+                    "alt_value": 244.69,
+                    "asset_id": "1d8f46ee-0c4e-466d-8e88-d77c1eb4f7de"
                 }
             }
         },
@@ -19235,13 +19249,13 @@
         "2009": {
             "#DP18": {
                 "STANDARD": {
-                    "alt_value": 239.94,
+                    "alt_value": 248.56,
                     "asset_id": "51489587-1a39-4745-b7a6-8a3a81ce8830"
                 }
             },
             "#26": {
                 "STANDARD": {
-                    "alt_value": 83.78,
+                    "alt_value": 82.74,
                     "asset_id": "dcc3cbe0-43e6-457d-8674-4ee5b9f5533b"
                 }
             }
@@ -19345,7 +19359,7 @@
         "2018": {
             "#152": {
                 "STANDARD": {
-                    "alt_value": 89.56,
+                    "alt_value": 77.05,
                     "asset_id": "463efa4f-1ab6-40f2-b198-97602f7a774b"
                 }
             }
@@ -19389,7 +19403,7 @@
         "2020": {
             "#24": {
                 "Promo / Stamped": {
-                    "alt_value": 108.1,
+                    "alt_value": 105.29,
                     "asset_id": "b8608c4c-cf6b-434c-96ab-3862d1ac2879"
                 }
             }
@@ -19555,7 +19569,7 @@
         "2004": {
             "#9": {
                 "Reverse Holo": {
-                    "alt_value": 978.2,
+                    "alt_value": 983.97,
                     "asset_id": "8d97811d-c2dc-46cf-9f41-674d7d64ce66"
                 }
             }
@@ -19581,7 +19595,7 @@
         "2025": {
             "#2": {
                 "Reverse Holo": {
-                    "alt_value": 34.84,
+                    "alt_value": 31.58,
                     "asset_id": "5b9bba3d-3cf8-4692-8862-f26983842025"
                 }
             },
@@ -19625,7 +19639,7 @@
         "2024": {
             "#220": {
                 "STANDARD": {
-                    "alt_value": 37.67,
+                    "alt_value": 35.13,
                     "asset_id": "cfef5a3c-479e-4fd5-9e5e-7368dc55029a"
                 }
             }
@@ -19663,7 +19677,7 @@
         "2012": {
             "#89": {
                 "STANDARD": {
-                    "alt_value": 125.43,
+                    "alt_value": 126.72,
                     "asset_id": "121c7f48-12a5-4685-aa69-e61305955601"
                 }
             }
@@ -19733,7 +19747,7 @@
         "2024": {
             "#208": {
                 "STANDARD": {
-                    "alt_value": 41.26,
+                    "alt_value": 38.59,
                     "asset_id": "8338d447-3cc0-4fb8-bd4a-74feb412f7d2"
                 }
             }
@@ -19753,7 +19767,7 @@
         "2023": {
             "#203": {
                 "Illustration Rare": {
-                    "alt_value": 896.47,
+                    "alt_value": 1077.82,
                     "asset_id": "04b9c46d-eabf-40e7-8152-7109aa2a02fb"
                 }
             }
@@ -19773,7 +19787,7 @@
                     "asset_id": "bd9e26b5-d039-49b4-9f9a-9c56fdac6c86"
                 },
                 "STANDARD": {
-                    "alt_value": 271.17,
+                    "alt_value": 269.75,
                     "asset_id": "84df9fc2-d3f6-4104-807d-ade886fba163"
                 }
             }
@@ -19781,7 +19795,7 @@
         "1999": {
             "#35": {
                 "1st Edition Holo": {
-                    "alt_value": 254.36,
+                    "alt_value": 230.62,
                     "asset_id": "39d6e952-b5fc-4ff3-86ec-0d2bcce82d16"
                 },
                 "1st Edition": {
@@ -19809,13 +19823,13 @@
         "1996": {
             "#129A": {
                 "STANDARD": {
-                    "alt_value": 98.57,
+                    "alt_value": 101.12,
                     "asset_id": "c57a3686-1fc1-4ef8-b0c5-ab7915e83055"
                 }
             },
             "#129": {
                 "STANDARD": {
-                    "alt_value": 177.52,
+                    "alt_value": 189.49,
                     "asset_id": "942a07b5-44e9-4d7a-bf19-0acaecec4380"
                 }
             }
@@ -19945,7 +19959,7 @@
         "2025": {
             "#69": {
                 "Reverse Holo": {
-                    "alt_value": 28.28,
+                    "alt_value": 26.65,
                     "asset_id": "f072331a-efaa-485c-92b4-22eed97b5037"
                 }
             }
@@ -19955,7 +19969,7 @@
         "2016": {
             "#21": {
                 "STANDARD": {
-                    "alt_value": 55.59,
+                    "alt_value": 58.39,
                     "asset_id": "3a1b74d9-d281-41cb-b1a2-7aabacbc978b"
                 }
             }
@@ -19985,7 +19999,7 @@
         "2025": {
             "#55": {
                 "Reverse Holo": {
-                    "alt_value": 28.34,
+                    "alt_value": 28.12,
                     "asset_id": "9e89e73d-5bf6-4000-8e8b-5ad1ae7da192"
                 }
             }
@@ -20233,7 +20247,7 @@
         "2024": {
             "#100": {
                 "STANDARD": {
-                    "alt_value": 4988.1,
+                    "alt_value": 4545.73,
                     "asset_id": "6c4ec183-cb98-404e-8273-37bca370b77c"
                 }
             }
@@ -20435,7 +20449,7 @@
         "1999": {
             "#56": {
                 "STANDARD": {
-                    "alt_value": 67.73,
+                    "alt_value": 68.18,
                     "asset_id": "ca363d33-3812-46d4-bfca-02d841805f41"
                 }
             }
@@ -20515,7 +20529,7 @@
             },
             "#57": {
                 "STANDARD": {
-                    "alt_value": 66.66,
+                    "alt_value": 65.36,
                     "asset_id": "ceb48248-1439-4d23-ab9b-e2d663aa01ea"
                 }
             }
@@ -20541,7 +20555,7 @@
         "2000": {
             "#189C": {
                 "STANDARD": {
-                    "alt_value": 26.83,
+                    "alt_value": 27.33,
                     "asset_id": "58e81423-322d-4d53-8ba1-8f6741247d7c"
                 }
             },
@@ -20595,7 +20609,7 @@
         "2007": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 47.0,
+                    "alt_value": 42.56,
                     "asset_id": "f8d919c9-2e3e-40eb-aafd-790197a4cacf"
                 }
             }
@@ -20721,7 +20735,7 @@
         "2025": {
             "#109": {
                 "Illustration Rare": {
-                    "alt_value": 120.09,
+                    "alt_value": 119.23,
                     "asset_id": "9fb34a59-0c3c-4110-87a8-c679832381d0"
                 }
             }
@@ -20731,7 +20745,7 @@
         "2025": {
             "#119": {
                 "Illustration Rare": {
-                    "alt_value": 76.82,
+                    "alt_value": 81.73,
                     "asset_id": "f7e4f707-d438-449c-a7ca-5bccece917d1"
                 }
             }
@@ -20751,7 +20765,7 @@
         "2025": {
             "#41": {
                 "Reverse Holo": {
-                    "alt_value": 30.77,
+                    "alt_value": 31.6,
                     "asset_id": "9c02d92b-350a-4a7d-bcc0-f9a6fd075138"
                 }
             }
@@ -20809,7 +20823,7 @@
         "2025": {
             "#140": {
                 "Illustration Rare": {
-                    "alt_value": 44.33,
+                    "alt_value": 37.65,
                     "asset_id": "d188966b-5e35-4413-8372-f506c3fdaf97"
                 }
             }
@@ -20861,7 +20875,7 @@
         "2025": {
             "#106": {
                 "Illustration Rare": {
-                    "alt_value": 58.06,
+                    "alt_value": 56.02,
                     "asset_id": "a8422799-93ee-4460-ac05-2665cd616d85"
                 }
             }
@@ -20925,7 +20939,7 @@
         "1999": {
             "#42": {
                 "STANDARD": {
-                    "alt_value": 59.03,
+                    "alt_value": 59.68,
                     "asset_id": "8511bccd-f41a-48a4-a6da-0df8be2fac4c"
                 }
             }
@@ -20933,7 +20947,7 @@
         "2004": {
             "#36": {
                 "Holo": {
-                    "alt_value": 98.31,
+                    "alt_value": 95.61,
                     "asset_id": "80fe284d-a78f-443e-8d8e-c289c0c6eb27"
                 }
             }
@@ -21099,7 +21113,7 @@
         "2007": {
             "#25": {
                 "STANDARD": {
-                    "alt_value": 744.36,
+                    "alt_value": 789.46,
                     "asset_id": "33486dd6-e125-4ae7-85b2-2e7db2096347"
                 }
             },
@@ -21169,7 +21183,7 @@
         "2003": {
             "#28": {
                 "STANDARD": {
-                    "alt_value": 56.04,
+                    "alt_value": 54.77,
                     "asset_id": "e7c1dd67-c785-4ef9-aa11-5322a2599d7c"
                 }
             }
@@ -21189,7 +21203,7 @@
         "2008": {
             "#49": {
                 "Promo / Stamped": {
-                    "alt_value": 144.15,
+                    "alt_value": 150.99,
                     "asset_id": "77e4518c-3888-4c95-84dd-ba6698452b6f"
                 }
             }
@@ -21265,7 +21279,7 @@
         "2024": {
             "#136": {
                 "Promo / Stamped": {
-                    "alt_value": 85.11,
+                    "alt_value": 83.55,
                     "asset_id": "118e9cf7-aaf2-4470-909c-41f33d5bc115"
                 }
             }
@@ -21305,13 +21319,13 @@
         "2025": {
             "#18": {
                 "STANDARD": {
-                    "alt_value": 41.88,
+                    "alt_value": 39.19,
                     "asset_id": "3b4aba57-b0d3-4d6d-aa77-7e0aa74dc630"
                 }
             },
             "#103": {
                 "Illustration Rare": {
-                    "alt_value": 149.44,
+                    "alt_value": 131.73,
                     "asset_id": "cc7d67b8-eca9-4d55-9f08-878115696765"
                 }
             }
@@ -21335,7 +21349,7 @@
         "2013": {
             "#16": {
                 "Holo": {
-                    "alt_value": 352.75,
+                    "alt_value": 366.09,
                     "asset_id": "439be730-6d66-4e79-aced-80440b784931"
                 }
             }
@@ -21411,7 +21425,7 @@
         "2024": {
             "#163": {
                 "STANDARD": {
-                    "alt_value": 25.6,
+                    "alt_value": 24.55,
                     "asset_id": "00046c1b-8e1e-44e9-808b-a0553d28b3cd"
                 }
             }
@@ -21421,7 +21435,7 @@
         "2018": {
             "#162": {
                 "STANDARD": {
-                    "alt_value": 78.09,
+                    "alt_value": 72.71,
                     "asset_id": "7a4977d9-48aa-4436-8edb-e26aaf42e54a"
                 }
             }
@@ -21517,7 +21531,7 @@
         "2024": {
             "#166": {
                 "STANDARD": {
-                    "alt_value": 31.42,
+                    "alt_value": 30.96,
                     "asset_id": "d5a9688c-69a3-4c69-ab31-973ddb2adba0"
                 }
             }
@@ -21577,13 +21591,13 @@
         "2011": {
             "#19": {
                 "STANDARD": {
-                    "alt_value": 242.26,
+                    "alt_value": 240.84,
                     "asset_id": "42a8cf7e-371f-40d9-b974-9d0170ca7f8a"
                 }
             },
             "#20": {
                 "STANDARD": {
-                    "alt_value": 246.45,
+                    "alt_value": 231.64,
                     "asset_id": "c997f59a-4532-44c3-9e39-d5d77d350fc8"
                 }
             }
@@ -21611,7 +21625,7 @@
         "2024": {
             "#103": {
                 "STANDARD": {
-                    "alt_value": 31.0,
+                    "alt_value": 32.0,
                     "asset_id": "090ceb1b-aadc-4650-8cae-da5d994149ea"
                 }
             }
@@ -21669,7 +21683,7 @@
         "2021": {
             "#SV039": {
                 "STANDARD": {
-                    "alt_value": 37.52,
+                    "alt_value": 34.5,
                     "asset_id": "15b190f6-c6d3-428e-ae44-f2070b3d9a22"
                 }
             }
@@ -21779,7 +21793,7 @@
         "2006": {
             "#45": {
                 "STANDARD": {
-                    "alt_value": 50.44,
+                    "alt_value": 51.62,
                     "asset_id": "96b8f74f-aa85-4b0a-b3db-c433604ff191"
                 }
             }
@@ -21823,13 +21837,13 @@
             },
             "#55": {
                 "STANDARD": {
-                    "alt_value": 613.92,
+                    "alt_value": 593.29,
                     "asset_id": "9cc03869-4c9a-445d-91c3-67e4399573c5"
                 }
             },
             "#30": {
                 "1st Edition": {
-                    "alt_value": 114.31,
+                    "alt_value": 108.48,
                     "asset_id": "4cfd441e-48c6-4112-808d-3a1acb4df8da"
                 }
             },
@@ -22019,7 +22033,7 @@
         "2024": {
             "#114": {
                 "STANDARD": {
-                    "alt_value": 37.27,
+                    "alt_value": 36.41,
                     "asset_id": "8593f0bb-c9c0-4363-8b94-24b5b432a21f"
                 }
             }
@@ -22091,7 +22105,7 @@
         "2004": {
             "#6": {
                 "Holo": {
-                    "alt_value": 99.08,
+                    "alt_value": 97.04,
                     "asset_id": "b969758f-002a-4111-9e41-1e6b574990e9"
                 }
             }
@@ -22133,7 +22147,7 @@
         "2016": {
             "#XY142": {
                 "STANDARD": {
-                    "alt_value": 98.02,
+                    "alt_value": 92.24,
                     "asset_id": "446b689a-096b-444e-97b0-504469edf6b2"
                 }
             }
@@ -22161,7 +22175,7 @@
         "2001": {
             "#22": {
                 "1st Edition": {
-                    "alt_value": 144.97,
+                    "alt_value": 138.0,
                     "asset_id": "e122c0dc-ff51-43ff-9063-ef1e6f9a1a79"
                 }
             }
@@ -22171,7 +22185,7 @@
         "2025": {
             "#106": {
                 "Illustration Rare": {
-                    "alt_value": 152.76,
+                    "alt_value": 143.72,
                     "asset_id": "cefa13b6-a418-4bc1-9a5f-e6d43ae20e5e"
                 }
             }
@@ -22181,7 +22195,7 @@
         "2024": {
             "#135": {
                 "Promo / Stamped": {
-                    "alt_value": 60.78,
+                    "alt_value": 57.69,
                     "asset_id": "9db7842e-b286-4f99-a184-25ee4a5f27be"
                 }
             }
@@ -22191,7 +22205,7 @@
         "2006": {
             "#PROMO": {
                 "STANDARD": {
-                    "alt_value": 141.46,
+                    "alt_value": 136.54,
                     "asset_id": "909bb9a0-7c70-4fb8-af94-56dc7c0b39bd"
                 }
             },
@@ -22251,7 +22265,7 @@
         "2003": {
             "#25": {
                 "STANDARD": {
-                    "alt_value": 97.21,
+                    "alt_value": 93.97,
                     "asset_id": "d19bbdef-39fb-4c23-93fb-b68eb994260d"
                 }
             }
@@ -22317,7 +22331,7 @@
         "2003": {
             "#52": {
                 "Reverse Holo": {
-                    "alt_value": 78.16,
+                    "alt_value": 79.78,
                     "asset_id": "5c3eff0e-a838-4af4-978d-1d6c7fcc63a4"
                 }
             }
@@ -22337,7 +22351,7 @@
         "2001": {
             "#40": {
                 "1st Edition": {
-                    "alt_value": 111.41,
+                    "alt_value": 109.42,
                     "asset_id": "8b15617c-343a-48e7-8288-f3371ff10960"
                 }
             }
@@ -22437,7 +22451,7 @@
         "2007": {
             "#8": {
                 "Reverse Holo": {
-                    "alt_value": 187.51,
+                    "alt_value": 181.85,
                     "asset_id": "c78633c7-b0f3-4bb1-90e8-225f33cef1b3"
                 }
             }
@@ -22447,7 +22461,7 @@
         "2004": {
             "#3": {
                 "Holo": {
-                    "alt_value": 376.23,
+                    "alt_value": 372.53,
                     "asset_id": "e9c2fd34-c018-410e-8a81-e272b86252d1"
                 }
             }
@@ -22491,7 +22505,7 @@
         "1997": {
             "#28": {
                 "STANDARD": {
-                    "alt_value": 166.72,
+                    "alt_value": 181.25,
                     "asset_id": "d1c52a33-4889-4b3f-8293-051e6ad77e98"
                 }
             }
@@ -22525,7 +22539,7 @@
         "2025": {
             "#10": {
                 "STANDARD": {
-                    "alt_value": 35.95,
+                    "alt_value": 34.48,
                     "asset_id": "9c1bc10b-4658-4c2c-9986-4778cb4eb582"
                 }
             }
