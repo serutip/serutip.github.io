@@ -4258,7 +4258,7 @@
             "#111": {
                 "STANDARD": {
                     "insured_value": 255.0,
-                    "alt_value": 225.89,
+                    "alt_value": 235.22,
                     "asset_id": "70335dbe-ecf9-43de-b596-73082f2fecd0"
                 }
             },
@@ -7218,7 +7218,7 @@
             "#TG16": {
                 "STANDARD": {
                     "insured_value": 250.0,
-                    "alt_value": 208.87,
+                    "alt_value": 208.07,
                     "asset_id": "70129057-5beb-4c35-a36d-5efca18902e2"
                 }
             }
@@ -7774,7 +7774,7 @@
             "#170": {
                 "STANDARD": {
                     "insured_value": 108.0,
-                    "alt_value": 173.44,
+                    "alt_value": 173.43,
                     "asset_id": "4f65f1ae-bbc4-4aa9-a03b-d3e3151a1d1c"
                 }
             },
