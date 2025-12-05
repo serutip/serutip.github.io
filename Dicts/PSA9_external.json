@@ -1857,7 +1857,7 @@
             },
             "#20": {
                 "STANDARD": {
-                    "alt_value": 1108.04,
+                    "alt_value": 1086.65,
                     "asset_id": "c81837d3-e0b8-4533-828d-c3fb3bc96edf"
                 }
             },
@@ -3607,7 +3607,7 @@
             },
             "#DP18": {
                 "STANDARD": {
-                    "alt_value": 61.86,
+                    "alt_value": 58.47,
                     "asset_id": "51489587-1a39-4745-b7a6-8a3a81ce8830"
                 }
             }
@@ -8133,7 +8133,7 @@
         "1999": {
             "#42": {
                 "STANDARD": {
-                    "alt_value": 15.34,
+                    "alt_value": 16.05,
                     "asset_id": "8511bccd-f41a-48a4-a6da-0df8be2fac4c"
                 }
             }
@@ -10437,7 +10437,7 @@
             },
             "#38": {
                 "STANDARD": {
-                    "alt_value": 557.13,
+                    "alt_value": 556.09,
                     "asset_id": "83242d3b-7d20-44a9-84dc-6bfc5f238cc8"
                 }
             }
@@ -12301,7 +12301,7 @@
             },
             "#55": {
                 "STANDARD": {
-                    "alt_value": 204.9,
+                    "alt_value": 205.32,
                     "asset_id": "9cc03869-4c9a-445d-91c3-67e4399573c5"
                 }
             },
@@ -14859,7 +14859,7 @@
         "2004": {
             "#9": {
                 "Reverse Holo": {
-                    "alt_value": 114.08,
+                    "alt_value": 125.96,
                     "asset_id": "8d97811d-c2dc-46cf-9f41-674d7d64ce66"
                 }
             }
@@ -15707,7 +15707,7 @@
             },
             "#63": {
                 "STANDARD": {
-                    "alt_value": 23.16,
+                    "alt_value": 24.73,
                     "asset_id": "18be5742-1869-4897-901a-b0acab657a96"
                 }
             }
@@ -17231,7 +17231,7 @@
                     "asset_id": "7d6311c6-0d2e-4bd5-afe5-44a875b9fed6"
                 },
                 "1st Edition": {
-                    "alt_value": 70.23,
+                    "alt_value": 76.49,
                     "asset_id": "1a56d764-6c57-4841-a147-6a1bb7d03dd8"
                 }
             }
@@ -17801,7 +17801,7 @@
         "2009": {
             "#105": {
                 "STANDARD": {
-                    "alt_value": 65.21,
+                    "alt_value": 67.05,
                     "asset_id": "4f55e927-1b2a-4acb-820a-0d8c4a4abf10"
                 }
             }
@@ -18167,7 +18167,7 @@
         "2001": {
             "#40": {
                 "1st Edition": {
-                    "alt_value": 26.15,
+                    "alt_value": 26.66,
                     "asset_id": "8b15617c-343a-48e7-8288-f3371ff10960"
                 }
             }
@@ -18431,7 +18431,7 @@
         "2003": {
             "#66": {
                 "STANDARD": {
-                    "alt_value": 33.47,
+                    "alt_value": 36.25,
                     "asset_id": "acafac88-d221-4965-b764-c5b3509fb7a6"
                 }
             }
@@ -18457,7 +18457,7 @@
         "2007": {
             "#25": {
                 "STANDARD": {
-                    "alt_value": 47.29,
+                    "alt_value": 43.77,
                     "asset_id": "33486dd6-e125-4ae7-85b2-2e7db2096347"
                 }
             },
@@ -18757,7 +18757,7 @@
         "2024": {
             "#166": {
                 "STANDARD": {
-                    "alt_value": 10.31,
+                    "alt_value": 10.48,
                     "asset_id": "d5a9688c-69a3-4c69-ab31-973ddb2adba0"
                 }
             }
@@ -18775,7 +18775,7 @@
         "2025": {
             "#106": {
                 "Illustration Rare": {
-                    "alt_value": 17.22,
+                    "alt_value": 16.64,
                     "asset_id": "a8422799-93ee-4460-ac05-2665cd616d85"
                 }
             }
@@ -18807,7 +18807,7 @@
         "2025": {
             "#106": {
                 "Illustration Rare": {
-                    "alt_value": 24.56,
+                    "alt_value": 24.0,
                     "asset_id": "cefa13b6-a418-4bc1-9a5f-e6d43ae20e5e"
                 }
             }
