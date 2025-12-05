@@ -106,7 +106,7 @@
                     "asset_id": "76da69cb-a1ec-4e2f-b826-6ab579872cb0"
                 },
                 "Art Rare": {
-                    "alt_value": 73.99,
+                    "alt_value": 62.36,
                     "asset_id": "76da69cb-a1ec-4e2f-b826-6ab579872cb0"
                 }
             },
@@ -268,7 +268,7 @@
             },
             "#189": {
                 "STANDARD": {
-                    "alt_value": 369.95,
+                    "alt_value": 371.81,
                     "asset_id": "da6087e6-c95d-4fd3-9f7d-0a426ea06982"
                 }
             }
@@ -18942,6 +18942,10 @@
             "#9": {
                 "STANDARD": {
                     "insured_value": 127.0,
+                    "alt_value": 133.35,
+                    "asset_id": "a352b4bf-424a-4b06-b494-67d89bb680aa"
+                },
+                "Holo": {
                     "alt_value": 133.35,
                     "asset_id": "a352b4bf-424a-4b06-b494-67d89bb680aa"
                 }
