@@ -6030,7 +6030,7 @@
             "#97": {
                 "Holo": {
                     "insured_value": 350.0,
-                    "alt_value": 406.57,
+                    "alt_value": 411.8,
                     "asset_id": "dcce92c2-b604-46eb-9299-6a46f3186cbc"
                 }
             }
@@ -6163,7 +6163,7 @@
             "#170": {
                 "STANDARD": {
                     "insured_value": 80.0,
-                    "alt_value": 57.1,
+                    "alt_value": 56.31,
                     "asset_id": "4f65f1ae-bbc4-4aa9-a03b-d3e3151a1d1c"
                 }
             }
@@ -10027,7 +10027,7 @@
             "#111": {
                 "STANDARD": {
                     "insured_value": 50.0,
-                    "alt_value": 38.99,
+                    "alt_value": 40.54,
                     "asset_id": "70335dbe-ecf9-43de-b596-73082f2fecd0"
                 }
             }
@@ -10392,7 +10392,7 @@
             "#TG16": {
                 "STANDARD": {
                     "insured_value": 60.0,
-                    "alt_value": 55.77,
+                    "alt_value": 53.62,
                     "asset_id": "70129057-5beb-4c35-a36d-5efca18902e2"
                 }
             },
