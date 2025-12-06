@@ -5645,6 +5645,10 @@
                 "Reverse Holo": {
                     "alt_value": 167.46,
                     "asset_id": "91ff0835-2b9d-4049-ba2a-6103e1174d44"
+                },
+                "STANDARD": {
+                    "alt_value": 167.46,
+                    "asset_id": "91ff0835-2b9d-4049-ba2a-6103e1174d44"
                 }
             },
             "#2": {
@@ -7243,6 +7247,10 @@
         "2021": {
             "#SWSH102": {
                 "Promo / Stamped": {
+                    "alt_value": 28.6,
+                    "asset_id": "382015c3-e9ed-4ed6-bc73-3f106197c404"
+                },
+                "STANDARD": {
                     "alt_value": 28.6,
                     "asset_id": "382015c3-e9ed-4ed6-bc73-3f106197c404"
                 }
