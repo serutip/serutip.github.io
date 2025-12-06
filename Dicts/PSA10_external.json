@@ -8023,6 +8023,10 @@
                 "Promo / Stamped": {
                     "alt_value": 99.83,
                     "asset_id": "382015c3-e9ed-4ed6-bc73-3f106197c404"
+                },
+                "STANDARD": {
+                    "alt_value": 99.83,
+                    "asset_id": "382015c3-e9ed-4ed6-bc73-3f106197c404"
                 }
             },
             "#SWSH101": {
@@ -12495,6 +12499,10 @@
             },
             "#98": {
                 "Reverse Holo": {
+                    "alt_value": 1455.25,
+                    "asset_id": "91ff0835-2b9d-4049-ba2a-6103e1174d44"
+                },
+                "STANDARD": {
                     "alt_value": 1455.25,
                     "asset_id": "91ff0835-2b9d-4049-ba2a-6103e1174d44"
                 }
