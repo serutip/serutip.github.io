@@ -5238,6 +5238,10 @@
                     "insured_value": 845.0,
                     "alt_value": 875.39,
                     "asset_id": "c290d59f-1f7e-4a66-a301-9866806f97cc"
+                },
+                "1st Edition": {
+                    "alt_value": 875.39,
+                    "asset_id": "c290d59f-1f7e-4a66-a301-9866806f97cc"
                 }
             },
             "#1": {
