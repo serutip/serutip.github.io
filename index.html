@@ -458,6 +458,7 @@
     <div id="detailPanel">
         <span id="detailClose">×</span>
         <h3>Card Details</h3>
+        <p><strong>Card Name:</strong> <span id="detailCardName"></span></p>
         <p><strong>Pokémon:</strong> <span id="detailName"></span></p>
         <p><strong>Year:</strong> <span id="detailYear"></span></p>
         <p><strong>Code:</strong> <span id="detailCode"></span></p>
@@ -481,6 +482,7 @@
         const detailPanel = document.getElementById('detailPanel');
         const detailClose = document.getElementById('detailClose');
         const detailName = document.getElementById('detailName');
+        const detailCardName = document.getElementById('detailCardName');
         const detailYear = document.getElementById('detailYear');
         const detailCode = document.getElementById('detailCode');
         const detailVariety = document.getElementById('detailVariety');
@@ -630,11 +632,20 @@
             return parts.filter(Boolean).join(' ');
         }
 
-        function showDetailPanel(name, year, code, variety, insured, alt, assetId) {
+        function showDetailPanel(name, year, code, variety, insured, alt, assetId, cardName) {  // ← added cardName param
             detailName.textContent = name;
             detailYear.textContent = year;
             detailCode.textContent = code;
             detailVariety.textContent = variety || 'Standard';
+
+            // Show Card Name only if it actually exists and is not empty
+            if (cardName && cardName.trim() !== '') {
+                detailCardName.textContent = cardName.trim();
+                detailCardName.parentElement.style.display = 'block';
+            } else {
+                detailCardName.parentElement.style.display = 'none';
+            }
+
             detailInsured.textContent = insured > 0 ? `$${Number(insured).toLocaleString()}` : 'N/A';
             detailAlt.textContent = alt > 0 ? `$${Number(alt).toFixed(2)}` : 'N/A';
 
@@ -652,7 +663,6 @@
             detailPanel.classList.add('open');
             results.classList.add('shifted');
         }
-
         function updateData() { currentData = buildCurrentData(); search(); }
 
         function search() {
@@ -679,14 +689,24 @@
                             cardEl.innerHTML = formatCardContent(code, variety, val, name, year, isExt);
                             const cardDiv = cardEl.querySelector('.card');
                             cardDiv.onclick = () => {
+                                // Get the actual card object to read the .name field
+                                const pokeData = currentData[cardDiv.dataset.name];
+                                const yearData = pokeData?.[cardDiv.dataset.year];
+                                const codeData = yearData?.[cardDiv.dataset.code];
+                                const varietyKey = cardDiv.dataset.variety || 'STANDARD';
+                                const cardObj = codeData?.[varietyKey];
+
+                                const cardName = cardObj?.name || '';
+
                                 showDetailPanel(
                                     cardDiv.dataset.name,
                                     cardDiv.dataset.year,
                                     cardDiv.dataset.code,
-                                    cardDiv.dataset.variety,
+                                    cardDiv.dataset.variety || 'Standard',
                                     parseFloat(cardDiv.dataset.insured) || 0,
                                     parseFloat(cardDiv.dataset.alt) || 0,
-                                    cardDiv.dataset.assetId || null
+                                    cardDiv.dataset.assetId || null,
+                                    cardName  // ← passed here
                                 );
                             };
                             cont.appendChild(cardEl);
