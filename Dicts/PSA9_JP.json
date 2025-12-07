@@ -24,7 +24,7 @@
             "#24": {
                 "STANDARD": {
                     "insured_value": 29.0,
-                    "alt_value": 42.56,
+                    "alt_value": 41.31,
                     "asset_id": "ec6861ef-ea30-4e3f-aa7f-1890a2165313",
                     "name": "1996 POKEMON JAPANESE BANDAI CARDDASS VENDING ARBOK #24"
                 }
@@ -244,7 +244,7 @@
             "#102": {
                 "STANDARD": {
                     "insured_value": 56.0,
-                    "alt_value": 254.89,
+                    "alt_value": 262.67,
                     "asset_id": "2f403fd9-b7d0-4de5-a048-ee0ed4dcf757",
                     "name": "2006 POKEMON JAPANESE DIAMOND & PEARL SPACE-TIME CREATION GENGAR #102"
                 }
@@ -989,7 +989,7 @@
             "#S-P": {
                 "STANDARD": {
                     "insured_value": 66.0,
-                    "alt_value": 63.37,
+                    "alt_value": 62.72,
                     "asset_id": "1054cfea-8f48-4c83-a9e6-b4a674390b54",
                     "name": "2022 POKEMON JAPANESE S PROMO LATIAS JUMBO CARD COLLECTION LATIAS #S-P"
                 }
@@ -1017,7 +1017,7 @@
             "#14": {
                 "1st Edition": {
                     "insured_value": 192.0,
-                    "alt_value": 213.83,
+                    "alt_value": 219.88,
                     "asset_id": "8bfa942c-c9bb-4546-85f3-4336e907dc86",
                     "name": "2006 POKEMON JAPANESE DRAGON FRONTIERS 1ST EDITION LATIAS EX #14"
                 }
@@ -1129,7 +1129,7 @@
             "#20": {
                 "1st Edition": {
                     "insured_value": 85.0,
-                    "alt_value": 61.78,
+                    "alt_value": 59.0,
                     "asset_id": "16979e88-27fc-4323-8afa-9fbc43e4b924",
                     "name": "2001 POKEMON JAPANESE E-STARTER DECK 1ST EDITION BLASTOISE #20"
                 }
@@ -1260,7 +1260,7 @@
             "#185": {
                 "STANDARD": {
                     "insured_value": 80.0,
-                    "alt_value": 75.73,
+                    "alt_value": 74.64,
                     "asset_id": "133c89f3-49ff-4d08-9042-68d8aee8792a",
                     "name": "2012 POKEMON JAPANESE BLACK & WHITE PROMO GLACEON #185"
                 }
@@ -1482,7 +1482,7 @@
             "#54": {
                 "STANDARD": {
                     "insured_value": 22.0,
-                    "alt_value": 22.02,
+                    "alt_value": 22.83,
                     "asset_id": "a5661a6b-3eba-4a36-b461-513d6c1497f4",
                     "name": "2003 POKEMON JAPANESE MAGMA VS AQUA EEVEE #54"
                 }
@@ -1502,7 +1502,7 @@
             "#111": {
                 "STANDARD": {
                     "insured_value": 36.0,
-                    "alt_value": 45.34,
+                    "alt_value": 40.73,
                     "asset_id": "7b4180c2-0600-4962-926a-7fc956d38fa5",
                     "name": "2005 POKEMON JAPANESE PROMO MEIJI CHOCOLATE EEVEE #111"
                 }
@@ -1640,7 +1640,7 @@
             "#46": {
                 "1st Edition": {
                     "insured_value": 48.0,
-                    "alt_value": 72.27,
+                    "alt_value": 73.87,
                     "asset_id": "1948d24c-f343-4b9e-93f0-8a3696a8dc9d",
                     "name": "2003 POKEMON JAPANESE MIRACLE OF THE DESERT 1ST EDITION AGGRON EX #46"
                 }
@@ -1721,7 +1721,7 @@
             "#59": {
                 "1st Edition": {
                     "insured_value": 51.0,
-                    "alt_value": 48.48,
+                    "alt_value": 46.72,
                     "asset_id": "e71f8fa1-07c2-4e44-a6a8-8648f43abb05",
                     "name": "2012 POKEMON JAPANESE BLACK & WHITE PLASMA GALE 1ST EDITION LUGIA EX #59"
                 }
@@ -1759,7 +1759,7 @@
             "#86": {
                 "1st Edition": {
                     "insured_value": 33.0,
-                    "alt_value": 66.79,
+                    "alt_value": 70.08,
                     "asset_id": "e1741c90-a5b0-4275-bade-b19d2f854ead",
                     "name": "2013 POKEMON JAPANESE BLACK & WHITE EX BATTLE BOOST 1ST EDITION LUGIA EX #86"
                 }
@@ -1814,7 +1814,7 @@
                     "asset_id": "88622e06-49c4-41a1-a656-4ffdbd691158"
                 },
                 "STANDARD": {
-                    "alt_value": 60.54,
+                    "alt_value": 60.67,
                     "asset_id": "88622e06-49c4-41a1-a656-4ffdbd691158",
                     "name": "2014 POKEMON JAPANESE XY WILD BLAZE 1ST ED-UTR. M KANGASKHAN EX #90"
                 }
@@ -1822,7 +1822,7 @@
             "#84": {
                 "1st Edition": {
                     "insured_value": 152.0,
-                    "alt_value": 62.76,
+                    "alt_value": 57.26,
                     "asset_id": "6feaabe4-9128-4129-becf-2f1f592e09aa",
                     "name": "2014 POKEMON JAPANESE XY WILD BLAZE 1ST EDITION KANGASKHAN EX #84"
                 }
@@ -2327,7 +2327,7 @@
             "#PROMO": {
                 "STANDARD": {
                     "insured_value": 47.0,
-                    "alt_value": 64.81,
+                    "alt_value": 64.57,
                     "asset_id": "1b9d43e1-9362-48df-8d43-d2917878387c",
                     "name": "2001 POKEMON PROMO JAPANESE MEIJI SILVER FOIL PICHU"
                 }
@@ -2376,7 +2376,7 @@
             "#51": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 25.31,
+                    "alt_value": 24.01,
                     "asset_id": "d5c3810d-c223-44f0-bded-f6bc0872b6d7",
                     "name": "2011 POKEMON JAPANESE BLACK & WHITE PROMO SPECIAL TRUNK SET RESHIRAM #51"
                 }
@@ -2408,7 +2408,7 @@
             "#60": {
                 "STANDARD": {
                     "insured_value": 33.0,
-                    "alt_value": 38.7,
+                    "alt_value": 37.5,
                     "asset_id": "433a9361-d3fe-420a-a96a-1f1a3812fc0a",
                     "name": "2018 POKEMON JAPANESE SUN & MOON DRAGON STORM RESHIRAM GX #60"
                 }
@@ -2436,7 +2436,7 @@
             "#21": {
                 "STANDARD": {
                     "insured_value": 39.0,
-                    "alt_value": 75.63,
+                    "alt_value": 73.43,
                     "asset_id": "af66a22c-f071-45be-b279-d33b54af84d8",
                     "name": "2004 POKEMON ROCKET GANG STRIKES BACK 1ST EDITION JAPANESE DARK HOUNDOOM #21"
                 }
@@ -2563,7 +2563,7 @@
             },
             "#9": {
                 "STANDARD": {
-                    "alt_value": 42.13,
+                    "alt_value": 36.02,
                     "asset_id": "ea1f212e-26bf-4fd2-848a-eee7827713d3",
                     "name": "2004 POKEMON JAPANESE VENUSAUR CHARIZARD BLASTOISE RANDOM CONSTRUCTED STARTER DECK CHARMANDER #9"
                 }
@@ -2625,7 +2625,7 @@
             "#6": {
                 "1st Edition": {
                     "insured_value": 51.0,
-                    "alt_value": 47.96,
+                    "alt_value": 46.56,
                     "asset_id": "4d59e42f-ef76-400a-964b-98ef3bc970cc",
                     "name": "2007 POKEMON JAPANESE WORLD CHAMPIONS PACK 1ST EDITION CHARMANDER #6"
                 }
@@ -2635,7 +2635,7 @@
             "#90": {
                 "STANDARD": {
                     "insured_value": 64.0,
-                    "alt_value": 56.2,
+                    "alt_value": 54.81,
                     "asset_id": "2fd3d9fe-be96-45eb-b78e-3ba08b1651dd",
                     "name": "2008 POKEMON JAPANESE STORMFRONT CHARMANDER #90"
                 }
@@ -2669,7 +2669,7 @@
             "#PROMO": {
                 "STANDARD": {
                     "insured_value": 58.0,
-                    "alt_value": 64.58,
+                    "alt_value": 67.29,
                     "asset_id": "5d3f91be-b293-423c-9e78-37ab353eeb25",
                     "name": "2007 POKEMON JAPANESE DIAMOND & PEARL MOONLIT PURSUIT GARCHOMP LV X"
                 }
@@ -2772,7 +2772,7 @@
             },
             "#9": {
                 "STANDARD": {
-                    "alt_value": 292.77,
+                    "alt_value": 273.59,
                     "asset_id": "807a0a6d-60e3-47fc-b9ab-0f45904a84fe",
                     "name": "2005 POKEPARK PREMIUM FILES POKEPARK BLUE JAPANESE RAYQUAZA #009"
                 }
@@ -2960,7 +2960,7 @@
             "#202": {
                 "STANDARD": {
                     "insured_value": 44.0,
-                    "alt_value": 43.45,
+                    "alt_value": 46.49,
                     "asset_id": "64978837-27d9-4692-b4ee-ef09fac77335",
                     "name": "1996 AMADA POKEMON JAPANESE STICKER COLLECTION MEWTWO #202"
                 }
@@ -2978,7 +2978,7 @@
             "#40": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 26.15,
+                    "alt_value": 26.46,
                     "asset_id": "5d8849ff-2afc-4aa9-938d-d0eadba12ac5",
                     "name": "2017 POKEMON SUN AND MOON SHINING LEGENDS JAPANESE MEWTWO GX #40"
                 }
@@ -3212,7 +3212,7 @@
             "#143": {
                 "STANDARD": {
                     "insured_value": 77.0,
-                    "alt_value": 186.45,
+                    "alt_value": 191.85,
                     "asset_id": "10d9b0ac-7350-4892-b4b0-9e00769fabd3",
                     "name": "1996 POKEMON JAPANESE BANDAI CARDDASS VENDING CARDDASS VENDING SNORLAX #143"
                 }
@@ -3224,7 +3224,7 @@
             "#54": {
                 "STANDARD": {
                     "insured_value": 37.0,
-                    "alt_value": 32.79,
+                    "alt_value": 35.33,
                     "asset_id": "b4e577cb-721b-467c-9ac5-2962ae69522e",
                     "name": "2007 POKEMON JAPANESE PROMO DP CARD EXCHANGE PRINPLUP #54"
                 }
@@ -3433,7 +3433,7 @@
             "#158": {
                 "STANDARD": {
                     "insured_value": 33.0,
-                    "alt_value": 36.73,
+                    "alt_value": 37.85,
                     "asset_id": "0db0bf3f-21cd-41f0-9e9c-e06935d6d0ed",
                     "name": "2007 POKEMON JAPANESE DIAMOND & PEARL DAWN DASH LEAFEON #158"
                 }
@@ -3962,7 +3962,7 @@
             "#75": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 40.78,
+                    "alt_value": 38.42,
                     "asset_id": "f3cb96c5-ac3f-42ea-bc27-a7e472a52d55",
                     "name": "2017 POKEMON JAPANESE SUN & MOON ULTRA SUN DIALGA GX #75"
                 }
@@ -4120,7 +4120,7 @@
             "#48": {
                 "1st Edition": {
                     "insured_value": 45.0,
-                    "alt_value": 40.99,
+                    "alt_value": 44.09,
                     "asset_id": "9be44b65-145a-4730-8af9-2edbc2042fb7",
                     "name": "2003 POKEMON JAPANESE MAGMA VS AQUA 1ST EDITION GOLEM EX #48"
                 }
@@ -4246,7 +4246,7 @@
             "#33": {
                 "1st Edition": {
                     "insured_value": 30.0,
-                    "alt_value": 26.92,
+                    "alt_value": 26.08,
                     "asset_id": "0b118075-e45e-4eb9-866c-8d307c5f4e7a",
                     "name": "2011 POKEMON JAPANESE BLACK & WHITE DARK RUSH 1ST EDITION ESPEON #33"
                 }
@@ -4340,7 +4340,7 @@
             "#144": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 40.72,
+                    "alt_value": 40.84,
                     "asset_id": "6da64ed4-1f3b-4605-88de-bb87b682bf6a",
                     "name": "2015 POKEMON JAPANESE XY PROMO HOOPA'S APPEARANCE GROUDON #144"
                 }
@@ -4350,7 +4350,7 @@
             "#40": {
                 "1st Edition": {
                     "insured_value": 85.0,
-                    "alt_value": 70.91,
+                    "alt_value": 69.12,
                     "asset_id": "d0b8f167-dc82-4150-b7f4-194c9c2ff3d6",
                     "name": "2014 POKEMON JAPANESE XY GAIA VOLCANO 1ST EDITION PRIMAL GROUDON EX #40"
                 }
@@ -4430,7 +4430,7 @@
             "#54": {
                 "STANDARD": {
                     "insured_value": 25.0,
-                    "alt_value": 37.22,
+                    "alt_value": 36.35,
                     "asset_id": "5c4bdbdd-bc8d-482f-b81f-a03768f48605",
                     "name": "1999 POKEMON GYM 2: CHALLENGE FROM THE DARKNESS JAPANESE PSYDUCK #54"
                 }
@@ -4440,7 +4440,7 @@
             "#20": {
                 "STANDARD": {
                     "insured_value": 125.0,
-                    "alt_value": 158.99,
+                    "alt_value": 164.07,
                     "asset_id": "479ae7ff-b0e5-4abc-8490-283b7fbdace7",
                     "name": "2002 POKEMON JAPANESE THE TOWN ON NO MAP PSYDUCK #20"
                 }
@@ -4677,7 +4677,7 @@
             "#74": {
                 "1st Edition": {
                     "insured_value": 13.0,
-                    "alt_value": 23.16,
+                    "alt_value": 21.92,
                     "asset_id": "8bef66fd-3858-40b3-917b-a9711a71f68a",
                     "name": "2008 POKEMON JAPANESE GALACTIC'S CONQUEST 1ST EDITION SLAKING #74"
                 }
@@ -4765,7 +4765,7 @@
             "#37": {
                 "STANDARD": {
                     "insured_value": 25.0,
-                    "alt_value": 39.35,
+                    "alt_value": 38.28,
                     "asset_id": "902b2033-ab69-4517-9ebf-b85908711a96",
                     "name": "2007 POKEMON JAPANESE WORLD CHAMPIONS PACK CLAYDOL EX-HOLO #37"
                 }
@@ -4825,7 +4825,7 @@
             "#38": {
                 "1st Edition": {
                     "insured_value": 15.0,
-                    "alt_value": 23.7,
+                    "alt_value": 25.16,
                     "asset_id": "e2db37b7-ab64-4bca-87e7-13bb112745ad",
                     "name": "2006 POKEMON JAPANESE HOLON PHANTOMS 1ST EDITION MEOWTH #38"
                 }
@@ -4839,7 +4839,7 @@
                     "asset_id": "e5cb8e42-5962-44a1-86e3-b4f04df7a953"
                 },
                 "Art Rare": {
-                    "alt_value": 52.07,
+                    "alt_value": 48.8,
                     "asset_id": "e5cb8e42-5962-44a1-86e3-b4f04df7a953",
                     "name": "2003 POKEMON JAPANESE PROMO 7-11 FAIR CAMPAIGN MEOWTH #28"
                 }
@@ -4865,7 +4865,7 @@
             "#29": {
                 "1st Edition": {
                     "insured_value": 20.0,
-                    "alt_value": 24.62,
+                    "alt_value": 27.25,
                     "asset_id": "5413fda4-dd17-46dd-b3d1-604ad6849aa6",
                     "name": "2001 POKEMON JAPANESE EXPEDITION 1ST EDITION MEOWTH #29"
                 }
@@ -4875,7 +4875,7 @@
             "#59": {
                 "STANDARD": {
                     "insured_value": 18.0,
-                    "alt_value": 37.92,
+                    "alt_value": 40.79,
                     "asset_id": "f5573a86-7e7c-4cd8-aa0b-9ec5481213d5",
                     "name": "2004 POKEMON JAPANESE ROCKET GANG STRIKES BACK ROCKET'S MEOWTH #59"
                 }
@@ -4901,7 +4901,7 @@
             "#PROMO": {
                 "1st Edition": {
                     "insured_value": 75.0,
-                    "alt_value": 61.63,
+                    "alt_value": 63.66,
                     "asset_id": "721bd531-0113-404b-bde3-de4a08d177f6",
                     "name": "2007 POKEMON JAPANESE DIAMOND & PEARL DAWN DASH 1ST EDITION GARDEVOIR LV X"
                 }
@@ -5031,7 +5031,7 @@
                     "name": "2005 POKEMON HOLON RESEARCH TOWER JAPANESE 1ST EDITION HOLO DRAGONITE #39"
                 },
                 "STANDARD": {
-                    "alt_value": 169.34,
+                    "alt_value": 166.07,
                     "asset_id": "c346aa8f-13c9-44b1-b800-12ed24374b1f",
                     "name": "2005 POKEMON JAPANESE HOLON RESEARCH TOWER DRAGONITE #39"
                 }
@@ -5072,7 +5072,7 @@
             "#83": {
                 "STANDARD": {
                     "insured_value": 32.0,
-                    "alt_value": 42.24,
+                    "alt_value": 41.42,
                     "asset_id": "f436c0c7-356c-40d0-be89-2c1d653ea2a5",
                     "name": "2005 POKEMON JAPANESE PROMO MCDONALDS MUDKIP #83"
                 }
@@ -5118,7 +5118,7 @@
             "#124": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 31.69,
+                    "alt_value": 28.58,
                     "asset_id": "e54ae1ae-6beb-49fe-988c-fa108a628236",
                     "name": "1999 POKEMON GYM 2: CHALLENGE FROM THE DARKNESS JAPANESE JYNX #124"
                 }
@@ -5181,7 +5181,7 @@
             "#125": {
                 "STANDARD": {
                     "insured_value": 41.0,
-                    "alt_value": 43.02,
+                    "alt_value": 42.46,
                     "asset_id": "d14dc284-305c-4adc-93d5-9b6e8d1779e7",
                     "name": "2006 POKEMON JAPANESE PROMO MCDONALD'S FLYGON #125"
                 }
@@ -5195,7 +5195,7 @@
                     "asset_id": "6d48d523-0ee0-4eb6-aaf4-3e88b3fcf9ff"
                 },
                 "Art Rare": {
-                    "alt_value": 41.12,
+                    "alt_value": 39.3,
                     "asset_id": "6d48d523-0ee0-4eb6-aaf4-3e88b3fcf9ff",
                     "name": "2003 POKEMON JAPANESE PROMO 7-11 FAIR CAMPAIGN FLYGON #32"
                 }
@@ -5203,7 +5203,7 @@
             "#6": {
                 "STANDARD": {
                     "insured_value": 45.0,
-                    "alt_value": 50.67,
+                    "alt_value": 47.8,
                     "asset_id": "c237428a-73f7-46af-a519-29ea0f8d452c",
                     "name": "2003 POKEMON JAPANESE MOVIE COMMEMORATION VS PACK FORINA'S FLYGON #6"
                 }
@@ -5272,7 +5272,7 @@
             "#301": {
                 "1st Edition": {
                     "insured_value": 30.0,
-                    "alt_value": 53.81,
+                    "alt_value": 53.31,
                     "asset_id": "a61fadf4-42a5-4648-8d90-e0e76aa7a704",
                     "name": "2007 POKEMON JAPANESE DIAMOND & PEARL SECRET OF THE LAKES 1ST EDITION CELEBI #301"
                 }
@@ -5299,7 +5299,7 @@
             "#52": {
                 "STANDARD": {
                     "insured_value": 237.0,
-                    "alt_value": 245.44,
+                    "alt_value": 251.39,
                     "asset_id": "e3788362-98b9-4671-9ca1-d5d4dd3c7a22",
                     "name": "2005 POKEMON JAPANESE PROMO SPRING BATTLE ROAD CELEBI EX #52"
                 }
@@ -5365,7 +5365,7 @@
             "#55": {
                 "STANDARD": {
                     "insured_value": 120.0,
-                    "alt_value": 98.91,
+                    "alt_value": 95.99,
                     "asset_id": "10cceb04-4cf3-43e8-a98b-95e0dd4bfdf9",
                     "name": "2004 POKEMON JAPANESE PROMO MEIJI CHOCOLATE SQUIRTLE #55"
                 }
@@ -5406,7 +5406,7 @@
             "#33": {
                 "1st Edition": {
                     "insured_value": 40.0,
-                    "alt_value": 47.5,
+                    "alt_value": 48.64,
                     "asset_id": "29711eed-a76a-45e0-98c0-83ec03b76e37",
                     "name": "2008 POKEMON JAPANESE GALACTIC'S CONQUEST 1ST EDITION PALKIA G LV X #33"
                 }
@@ -5608,7 +5608,7 @@
             "#20": {
                 "STANDARD": {
                     "insured_value": 35.0,
-                    "alt_value": 29.6,
+                    "alt_value": 30.07,
                     "asset_id": "1221809f-16d4-4945-8786-5ca1f92ebcfa",
                     "name": "1996 POKEMON JAPANESE BANDAI CARDDASS VENDING RATICATE #20"
                 }
@@ -5669,7 +5669,7 @@
             "#31": {
                 "Holo": {
                     "insured_value": 32.0,
-                    "alt_value": 36.69,
+                    "alt_value": 35.18,
                     "asset_id": "594897ef-d69e-40b0-99ab-94e46919ce73",
                     "name": "2002 POKEMON WIND FROM THE SEA JAPANESE HOLO SLOWPOKE #31"
                 }
@@ -5842,7 +5842,7 @@
             "#47": {
                 "1st Edition": {
                     "insured_value": 40.0,
-                    "alt_value": 63.13,
+                    "alt_value": 63.29,
                     "asset_id": "2b5101cd-f82f-4e80-8244-75597540b9fa",
                     "name": "2006 POKEMON JAPANESE HOLON PHANTOMS 1ST EDITION DEOXYS #47"
                 }
@@ -5890,7 +5890,7 @@
             "#21": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 36.55,
+                    "alt_value": 33.85,
                     "asset_id": "f5b131e7-31cd-4485-b454-899fee8ea31a",
                     "name": "2014 POKEMON JAPANESE XY PROMO GYM PACK GRENINJA EX #21"
                 }
@@ -6068,7 +6068,7 @@
             "#370": {
                 "STANDARD": {
                     "insured_value": 48.0,
-                    "alt_value": 61.81,
+                    "alt_value": 61.23,
                     "asset_id": "303e64ef-6ed4-4606-971b-a6e9b4b1c821",
                     "name": "1997 AMADA POKEMON JAPANESE STICKER COLLECTION KAI ARCANINE #370"
                 }
@@ -6162,13 +6162,13 @@
             "#8": {
                 "STANDARD": {
                     "insured_value": 100.0,
-                    "alt_value": 65.12,
+                    "alt_value": 66.4,
                     "asset_id": "b582edaf-b709-4ddd-b93d-d6ea7f71c8b7",
                     "name": "2012 POKEMON JAPANESE BLACK & WHITE DRAGON BLADE MAGMORTAR #8"
                 },
                 "1st Edition": {
                     "insured_value": 61.0,
-                    "alt_value": 115.32,
+                    "alt_value": 111.96,
                     "asset_id": "f13a2b30-b999-46f6-9f6b-16712d11f102",
                     "name": "2012 POKEMON JAPANESE BLACK & WHITE DRAGON BLADE 1ST EDITION MAGMORTAR #8"
                 }
@@ -6348,7 +6348,7 @@
             },
             "#25": {
                 "STANDARD": {
-                    "alt_value": 71.4,
+                    "alt_value": 65.87,
                     "asset_id": "df26d4c1-5bd2-46cd-aaa0-fb4fd19709bb",
                     "name": "2013 BLACK AND WHITE SHINY COLLECTION JAPANESE MELOETTA EX #025"
                 }
@@ -6429,7 +6429,7 @@
             "#58": {
                 "STANDARD": {
                     "insured_value": 24.0,
-                    "alt_value": 56.76,
+                    "alt_value": 57.82,
                     "asset_id": "d97cbe8f-212f-40a6-b7cd-d9ea935a6451",
                     "name": "2009 POKEMON JAPANESE ADVENT OF ARCEUS ARCEUS #58"
                 }
@@ -6485,7 +6485,7 @@
             "#30": {
                 "1st Edition Holo": {
                     "insured_value": 114.0,
-                    "alt_value": 126.61,
+                    "alt_value": 129.36,
                     "asset_id": "11bc233c-5cf8-457b-bc51-f621c9f850b7",
                     "name": "2006 POKEMON EX DRAGON FRONTIERS JAPANESE 1ST EDITION HOLO NINETALES #30"
                 }
@@ -6636,7 +6636,7 @@
             "#35": {
                 "Holo": {
                     "insured_value": 465.0,
-                    "alt_value": 386.15,
+                    "alt_value": 393.13,
                     "asset_id": "7f072e3b-ff01-4a61-b92c-f16adf10fd3d",
                     "name": "2005 POKEMON JAPANESE PROMO HOLO ROCKET GANG STRIKES BACK ROCKET'S RAIKOU EX #35"
                 }
@@ -6678,7 +6678,7 @@
             "#11": {
                 "1st Edition": {
                     "insured_value": 34.0,
-                    "alt_value": 37.63,
+                    "alt_value": 37.23,
                     "asset_id": "376345fa-cb7c-499d-883f-796a98f60d59",
                     "name": "2008 POKEMON JAPANESE STORMFRONT 1ST EDITION SHAYMIN #11"
                 }
@@ -6697,7 +6697,7 @@
         "2009": {
             "#7": {
                 "STANDARD": {
-                    "alt_value": 37.56,
+                    "alt_value": 41.47,
                     "asset_id": "098d953f-455a-49bd-bacc-4e32e1929c32",
                     "name": "2009 POKEMON JAPANESE SHAYMIN LV.X COLLECTION PACK PIKACHU #7"
                 }
@@ -6721,7 +6721,7 @@
             "#85": {
                 "Holo": {
                     "insured_value": 14.0,
-                    "alt_value": 12.89,
+                    "alt_value": 13.57,
                     "asset_id": "b2504cb8-f44a-4107-bbe1-aac9b0b9b3fa",
                     "name": "1997 POKEMON JUNGLE JAPANESE HOLO DODRIO #85"
                 }
@@ -6775,7 +6775,7 @@
             "#PROMO": {
                 "STANDARD": {
                     "insured_value": 38.0,
-                    "alt_value": 37.65,
+                    "alt_value": 36.49,
                     "asset_id": "bb81de21-0d05-409b-8e18-cb9765f865f4",
                     "name": "2000 POKEMON JAPANESE MEIJI PROMO GOLD FOIL HOOTHOOT"
                 }
@@ -6829,14 +6829,14 @@
             "#12": {
                 "STANDARD": {
                     "insured_value": 85.0,
-                    "alt_value": 66.49,
+                    "alt_value": 61.27,
                     "asset_id": "68ef6874-77ad-4f33-b34f-a8b400524d49",
                     "name": "2005 POKEMON JAPANESE MOVIE VS PACK AURA'S LUCARIO #12"
                 }
             },
             "#98": {
                 "STANDARD": {
-                    "alt_value": 32.81,
+                    "alt_value": 38.41,
                     "asset_id": "56901c36-71a0-483f-8e52-debbbd0d0d56",
                     "name": "2005 POKEMON JAPANESE PROMO LUCARIO AND THE MYSTERY OF MEW REGICE #98"
                 }
@@ -6881,7 +6881,7 @@
             "#60": {
                 "1st Edition": {
                     "insured_value": 113.0,
-                    "alt_value": 169.02,
+                    "alt_value": 170.42,
                     "asset_id": "38cbcabe-964e-4e03-b8af-828652d607d4",
                     "name": "2004 POKEMON JAPANESE ROCKET GANG STRIKES BACK 1ST EDITION ROCKET'S HITMONCHAN EX #60"
                 }
@@ -6903,7 +6903,7 @@
             "#11": {
                 "STANDARD": {
                     "insured_value": 30.0,
-                    "alt_value": 26.83,
+                    "alt_value": 30.63,
                     "asset_id": "0806151b-ffa9-4f65-a38d-8046e227ef87",
                     "name": "2007 POKEMON JAPANESE PROMO MEIJI CHOCOLATE PACHIRISU #11"
                 }
@@ -7099,7 +7099,7 @@
             "#278": {
                 "STANDARD": {
                     "insured_value": 8.0,
-                    "alt_value": 10.38,
+                    "alt_value": 10.68,
                     "asset_id": "4026eeff-2d97-4a65-820a-3c3b8953c844",
                     "name": "2020 POKEMON SWORD AND SHIELD SHINY STAR V JAPANESE SHINY GALARIAN LINOONE #278"
                 }
@@ -7646,7 +7646,7 @@
             "#33": {
                 "1st Edition": {
                     "insured_value": 35.0,
-                    "alt_value": 37.01,
+                    "alt_value": 37.13,
                     "asset_id": "6a970c31-0e8c-4323-b30d-3be23bb239d3",
                     "name": "2012 POKEMON JAPANESE BLACK & WHITE SPIRAL FORCE 1ST EDITION ABSOL #33"
                 }
@@ -7728,7 +7728,7 @@
             "#10": {
                 "STANDARD": {
                     "insured_value": 40.0,
-                    "alt_value": 56.6,
+                    "alt_value": 51.64,
                     "asset_id": "f1836157-dfb0-4480-8474-373dbb752dcd",
                     "name": "2003 POKEMON JAPANESE PROMO SHOGAKUKAN ELEMENTARY SCHOOL MARSHTOMP #10"
                 }
@@ -7868,7 +7868,7 @@
                     "asset_id": "5bd7bed7-b2d8-44b0-9bec-ffd3cbe1755c"
                 },
                 "STANDARD": {
-                    "alt_value": 28.71,
+                    "alt_value": 30.67,
                     "asset_id": "5bd7bed7-b2d8-44b0-9bec-ffd3cbe1755c",
                     "name": "2024 POKEMON JAPANESE SV-P PROMO PARADISE DRAGONA SEALED BATTLE-WINNER ALOLAN EXEGGUTOR EX #183"
                 }
@@ -7904,7 +7904,7 @@
             "#109": {
                 "STANDARD": {
                     "insured_value": 32.0,
-                    "alt_value": 29.14,
+                    "alt_value": 28.46,
                     "asset_id": "80df5bb2-2f9d-4f6f-bc81-0c9b35cc3970",
                     "name": "2005 POKEMON JAPANESE PROMO MEIJI CHOCOLATE DONPHAN #109"
                 }
@@ -7916,7 +7916,7 @@
             "#122": {
                 "STANDARD": {
                     "insured_value": 10.0,
-                    "alt_value": 14.45,
+                    "alt_value": 12.96,
                     "asset_id": "de99b214-7f9a-434f-8aeb-acf401252403",
                     "name": "2017 POKEMON JAPANESE SM PROMO SPARKLING SILVALLY GET SILVALLY GX #122"
                 }
@@ -7968,7 +7968,7 @@
             "#11": {
                 "1st Edition": {
                     "insured_value": 53.0,
-                    "alt_value": 66.53,
+                    "alt_value": 65.68,
                     "asset_id": "e9c5ec9c-4e6d-401f-a55f-842ac2d235ed",
                     "name": "2003 POKEMON JAPANESE EXPANSION PACK 1ST EDITION BLAZIKEN #11"
                 }
@@ -8030,7 +8030,7 @@
             "#75": {
                 "STANDARD": {
                     "insured_value": 35.0,
-                    "alt_value": 33.57,
+                    "alt_value": 34.58,
                     "asset_id": "a76aa773-28d6-46a9-b7c0-0c1804d01fa8",
                     "name": "1996 POKEMON JAPANESE BANDAI CARDDASS VENDING GRAVELER #75"
                 }
@@ -8066,7 +8066,7 @@
             "#5": {
                 "1st Edition": {
                     "insured_value": 35.0,
-                    "alt_value": 31.56,
+                    "alt_value": 30.63,
                     "asset_id": "46bf045f-5d74-4410-aa5f-70a18b706745",
                     "name": "2013 POKEMON JAPANESE BLACK & WHITE SHINY COLLECTION 1ST EDITION TORCHIC #5"
                 }
@@ -8177,7 +8177,7 @@
             "#71": {
                 "1st Edition": {
                     "insured_value": 89.0,
-                    "alt_value": 91.97,
+                    "alt_value": 92.93,
                     "asset_id": "567eb778-c748-4f4f-a90b-0784971dd71a",
                     "name": "2014 POKEMON JAPANESE XY TIDAL STORM 1ST EDITION WAILORD EX #71"
                 }
