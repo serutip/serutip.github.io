@@ -16698,9 +16698,9 @@
             "#260": {
                 "STANDARD": {
                     "insured_value": 135.0,
-                    "name": "2019 POKEMON SUN AND MOON COSMIC ECLIPSE GUZZLORD GX/NAGANADEL #260",
+                    "name": "2019 POKEMON SUN AND MOON COSMIC ECLIPSE GUZZLORD GX NAGANADEL #260",
                     "asset_id": "c1db81d1-58d3-49f9-84e5-472a70836fe1",
-                    "alt_value": 106.80067264586516
+                    "alt_value": 106.8
                 }
             }
         }
@@ -22842,6 +22842,11 @@
                     "name": "2025 BLACK BOLT - BLK EN - ENGLISH ILLUSTRATION RARE HOLO KLANG #140",
                     "asset_id": "d188966b-5e35-4413-8372-f506c3fdaf97",
                     "alt_value": 34.728594287988074
+                },
+                "Holo": {
+                    "alt_value": 34.73,
+                    "asset_id": "d188966b-5e35-4413-8372-f506c3fdaf97",
+                    "name": "2025 BLACK BOLT - BLK EN - ENGLISH ILLUSTRATION RARE HOLO KLANG #140"
                 }
             }
         }
