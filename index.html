@@ -602,7 +602,8 @@
                                     base[poke][yr][code][key] = {
                                         insured_value: val.insured_value ?? 0,
                                         alt_value: altValue,
-                                        asset_id: val.asset_id || null
+                                        asset_id: val.asset_id || null,
+                                        name: val.name || null                     // ← THIS LINE ADDED
                                     };
                                 }
                                 // If main entry exists and has real data → keep it, ignore external
@@ -685,124 +686,124 @@
         }
         function updateData() { currentData = buildCurrentData(); search(); }
 
-function search() {
-    const q = searchInput.value.trim();
-    if (!q) {
-        results.innerHTML = '';
-        return;
-    }
-
-    const lowerQ = q.toLowerCase();
-    const tokens = lowerQ.split(/\s+/).filter(t => t);
-
-    let pokemonQuery = '';
-    let yearFilter = null;
-    let codeFilter = null;
-    let varietyFilter = null;
-
-    // Extract year or code from the end if present
-    const lastToken = tokens[tokens.length - 1];
-
-    if (/^\d{4}$/.test(lastToken) || ['151', 'sv1', 'sv2', 'sv3', 'sv4', 'sv5', 'sv6'].includes(lastToken)) {
-        yearFilter = lastToken;
-        tokens.pop();
-    } else if (lastToken.startsWith('#')) {
-        codeFilter = lastToken.slice(1); // remove #
-        tokens.pop();
-    }
-
-    // Remaining tokens after year/code removal
-    const remaining = tokens.join(' ');
-
-    // Now split remaining into Pokémon name and variety
-    const varietyKeywords = ['shiny', 'full', 'art', 'vmax', 'vstar', 'ex', 'gx', 'v', 'rainbow', 'gold', 'secret', 'character', 'illustration', 'standard'];
-    const varietyMatch = tokens.find(t => varietyKeywords.some(k => t.includes(k)));
-
-    if (varietyMatch) {
-        varietyFilter = varietyMatch;
-        pokemonQuery = tokens.filter(t => t !== varietyMatch).join(' ');
-    } else {
-        pokemonQuery = remaining || lowerQ;
-    }
-
-    results.innerHTML = '';
-
-    const matchingPokemon = Object.keys(currentData)
-        .filter(name => name.toLowerCase().includes(pokemonQuery))
-        .slice(0, 40);
-
-    matchingPokemon.forEach(name => {
-        const pokeData = currentData[name];
-        if (!pokeData) return;
-
-        const yearsToCheck = yearFilter
-            ? (pokeData[yearFilter] ? [[yearFilter, pokeData[yearFilter]]] : [])
-            : Object.entries(pokeData).sort(([a], [b]) => a.localeCompare(b));
-
-        const container = document.createElement('div');
-        container.innerHTML = `<div style="font-size:1.2rem;font-weight:800;color:var(--accent);margin-bottom:0.8rem">${name.toUpperCase()}</div>`;
-
-        let hasAnyCard = false;
-
-        yearsToCheck.forEach(([year, codes]) => {
-            const sec = document.createElement('div');
-            sec.className = 'year-section';
-            sec.innerHTML = `<div class="year-title">${year}</div><div class="cards"></div>`;
-            const cardsContainer = sec.querySelector('.cards');
-
-            Object.entries(codes).forEach(([code, varieties]) => {
-                const cleanCode = code.replace(/^#/, '').replace('NA', '').trim();
-
-                // Skip if code doesn't match # filter
-                if (codeFilter && cleanCode !== codeFilter && cleanCode !== codeFilter.padStart(3, '0')) return;
-
-                Object.entries(varieties).forEach(([variety, val]) => {
-                    const varietyKey = (variety || 'STANDARD').toLowerCase();
-
-                    // Variety filtering
-                    if (varietyFilter) {
-                        const matches = varietyKey.includes(varietyFilter) ||
-                            (varietyFilter === 'full' && varietyKey.includes('art')) ||
-                            (varietyFilter === 'standard' && variety === 'STANDARD');
-                        if (!matches) return;
-                    }
-
-                    const isExt = val.insured_value === 0;
-                    const cardEl = document.createElement('div');
-                    cardEl.innerHTML = formatCardContent(code, variety, val, name, year, isExt);
-                    const cardDiv = cardEl.querySelector('.card');
-
-                    cardDiv.onclick = () => {
-                        const cardObj = currentData[name][year][code][variety || 'STANDARD'];
-                        const cardName = cardObj?.name || '';
-
-                        showDetailPanel(
-                            name,
-                            year,
-                            code,
-                            variety || 'Standard',
-                            parseFloat(val.insured_value) || 0,
-                            parseFloat(val.alt_value) || 0,
-                            val.asset_id || null,
-                            cardName
-                        );
-                    };
-
-                    cardsContainer.appendChild(cardEl);
-                    hasAnyCard = true;
-                });
-            });
-
-            if (cardsContainer.children.length > 0) {
-                container.appendChild(sec);
+        function search() {
+            const q = searchInput.value.trim();
+            if (!q) {
+                results.innerHTML = '';
+                return;
             }
-        });
 
-        if (hasAnyCard) {
-            results.appendChild(container);
+            const lowerQ = q.toLowerCase();
+            const tokens = lowerQ.split(/\s+/).filter(t => t);
+
+            let pokemonQuery = '';
+            let yearFilter = null;
+            let codeFilter = null;
+            let varietyFilter = null;
+
+            // Extract year or code from the end if present
+            const lastToken = tokens[tokens.length - 1];
+
+            if (/^\d{4}$/.test(lastToken) || ['151', 'sv1', 'sv2', 'sv3', 'sv4', 'sv5', 'sv6'].includes(lastToken)) {
+                yearFilter = lastToken;
+                tokens.pop();
+            } else if (lastToken.startsWith('#')) {
+                codeFilter = lastToken.slice(1); // remove #
+                tokens.pop();
+            }
+
+            // Remaining tokens after year/code removal
+            const remaining = tokens.join(' ');
+
+            // Now split remaining into Pokémon name and variety
+            const varietyKeywords = ['shiny', 'full', 'art', 'vmax', 'vstar', 'ex', 'gx', 'v', 'rainbow', 'gold', 'secret', 'character', 'illustration', 'standard'];
+            const varietyMatch = tokens.find(t => varietyKeywords.some(k => t.includes(k)));
+
+            if (varietyMatch) {
+                varietyFilter = varietyMatch;
+                pokemonQuery = tokens.filter(t => t !== varietyMatch).join(' ');
+            } else {
+                pokemonQuery = remaining || lowerQ;
+            }
+
+            results.innerHTML = '';
+
+            const matchingPokemon = Object.keys(currentData)
+                .filter(name => name.toLowerCase().includes(pokemonQuery))
+                .slice(0, 40);
+
+            matchingPokemon.forEach(name => {
+                const pokeData = currentData[name];
+                if (!pokeData) return;
+
+                const yearsToCheck = yearFilter
+                    ? (pokeData[yearFilter] ? [[yearFilter, pokeData[yearFilter]]] : [])
+                    : Object.entries(pokeData).sort(([a], [b]) => a.localeCompare(b));
+
+                const container = document.createElement('div');
+                container.innerHTML = `<div style="font-size:1.2rem;font-weight:800;color:var(--accent);margin-bottom:0.8rem">${name.toUpperCase()}</div>`;
+
+                let hasAnyCard = false;
+
+                yearsToCheck.forEach(([year, codes]) => {
+                    const sec = document.createElement('div');
+                    sec.className = 'year-section';
+                    sec.innerHTML = `<div class="year-title">${year}</div><div class="cards"></div>`;
+                    const cardsContainer = sec.querySelector('.cards');
+
+                    Object.entries(codes).forEach(([code, varieties]) => {
+                        const cleanCode = code.replace(/^#/, '').replace('NA', '').trim();
+
+                        // Skip if code doesn't match # filter
+                        if (codeFilter && cleanCode !== codeFilter && cleanCode !== codeFilter.padStart(3, '0')) return;
+
+                        Object.entries(varieties).forEach(([variety, val]) => {
+                            const varietyKey = (variety || 'STANDARD').toLowerCase();
+
+                            // Variety filtering
+                            if (varietyFilter) {
+                                const matches = varietyKey.includes(varietyFilter) ||
+                                    (varietyFilter === 'full' && varietyKey.includes('art')) ||
+                                    (varietyFilter === 'standard' && variety === 'STANDARD');
+                                if (!matches) return;
+                            }
+
+                            const isExt = val.insured_value === 0;
+                            const cardEl = document.createElement('div');
+                            cardEl.innerHTML = formatCardContent(code, variety, val, name, year, isExt);
+                            const cardDiv = cardEl.querySelector('.card');
+
+                            cardDiv.onclick = () => {
+                                const cardObj = currentData[name][year][code][variety || 'STANDARD'];
+                                const cardName = cardObj?.name || '';
+
+                                showDetailPanel(
+                                    name,
+                                    year,
+                                    code,
+                                    variety || 'Standard',
+                                    parseFloat(val.insured_value) || 0,
+                                    parseFloat(val.alt_value) || 0,
+                                    val.asset_id || null,
+                                    cardName
+                                );
+                            };
+
+                            cardsContainer.appendChild(cardEl);
+                            hasAnyCard = true;
+                        });
+                    });
+
+                    if (cardsContainer.children.length > 0) {
+                        container.appendChild(sec);
+                    }
+                });
+
+                if (hasAnyCard) {
+                    results.appendChild(container);
+                }
+            });
         }
-    });
-}
         searchInput.addEventListener('input', search);
         document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => {
             document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active'));
