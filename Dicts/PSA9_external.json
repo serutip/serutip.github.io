@@ -194,6 +194,24 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET PALDEAN FATES SHINY RARE RAICHU #132"
                 }
             }
+        },
+        "2001": {
+            "#21": {
+                "1st Edition": {
+                    "alt_value": 50.24,
+                    "asset_id": "b1970042-b5fb-4b27-823a-3fbd2890edd1",
+                    "name": "2001 POKEMON NEO REVELATION 1ST EDITION RAICHU #21"
+                }
+            }
+        },
+        "2016": {
+            "#36": {
+                "Holo": {
+                    "alt_value": 18.25,
+                    "asset_id": "92d01918-79cb-4975-b1f9-a8a9423997d7",
+                    "name": "2016 POKEMON XY EVOLUTIONS HOLO RAICHU #36"
+                }
+            }
         }
     },
     "MEW": {
@@ -704,6 +722,13 @@
                     "alt_value": 36.64,
                     "asset_id": "e5218c4c-efd7-4340-bef9-93fdbbd9b1da",
                     "name": "2014 POKEMON XY FLASHFIRE CHARIZARD EX #11"
+                }
+            },
+            "#13": {
+                "Holo": {
+                    "alt_value": 115.3,
+                    "asset_id": "4d5a30a9-7ca9-4e43-b579-6ec33da31baa",
+                    "name": "2014 POKEMON XY FLASHFIRE HOLO M CHARIZARD EX #13"
                 }
             }
         },
@@ -1455,6 +1480,13 @@
                     "asset_id": "3644073a-c268-4257-b04d-7292f07bb7d0",
                     "name": "2023 POKEMON TRADING CARD GAME CLASSIC CHARIZARD AND HO-OH EX DECK CHARMELEON #2"
                 }
+            },
+            "#17": {
+                "STANDARD": {
+                    "alt_value": 164.71,
+                    "asset_id": "249fc95f-850e-4b81-abf0-ec31097376f0",
+                    "name": "2023 POKEMON PLAY! POKEMON PRIZE PACK: SERIES 2 CHARIZARD V #17"
+                }
             }
         },
         "2012": {
@@ -1722,6 +1754,13 @@
                     "asset_id": "c4fa3db3-fe11-4f77-9f3c-81bf6f8228ff",
                     "name": "1999 BICYCLE POKEMON MINI PLAYING CARDS BLUE DECK 3 OF CLUBS PIKACHU"
                 }
+            },
+            "#15": {
+                "STANDARD": {
+                    "alt_value": 46.91,
+                    "asset_id": "6f5ccc77-8e1b-49fe-9125-3f1a9afd7b67",
+                    "name": "1999 POCKET MONSTERS SEALDASS FANCY GRAFFITI SEALDASS FANCY GRAFFITI PIKACHU & OTHERS #15"
+                }
             }
         },
         "2000": {
@@ -1765,6 +1804,11 @@
                     "alt_value": 40.72,
                     "asset_id": "3bbc0c8f-8e73-4d65-9b89-474cb4b53ff3",
                     "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION LT. SURGE'S PIKACHU #84"
+                },
+                "STANDARD": {
+                    "alt_value": 31.35,
+                    "asset_id": "6f9c2d02-c665-4c91-b357-9d647c71c26d",
+                    "name": "2000 POKEMON GYM CHALLENGE LT. SURGE'S PIKACHU #84"
                 }
             },
             "#70": {
@@ -1791,6 +1835,13 @@
                     "alt_value": 23.28,
                     "asset_id": "daddca16-c9d3-46ac-9d44-15f020f7614c",
                     "name": "2000 POKEMON BASE SET 2 PIKACHU #87"
+                }
+            },
+            "#60": {
+                "1st Edition": {
+                    "alt_value": 55.57,
+                    "asset_id": "a7f6f4b3-fc53-436a-8a49-99746b0ea93e",
+                    "name": "2000 POKEMON JUNGLE DUTCH 1ST EDITION PIKACHU #60"
                 }
             }
         },
@@ -1959,6 +2010,13 @@
                     "asset_id": "ebb67f2d-950a-4d7a-a84b-73ff8bb25e9a",
                     "name": "2020 POKEMON SWORD AND SHIELD VIVID VOLTAGE PIKACHU VMAX #44"
                 }
+            },
+            "#65": {
+                "STANDARD": {
+                    "alt_value": 19.63,
+                    "asset_id": "52e4cc5a-248a-442a-8775-48e40b0c9ba6",
+                    "name": "2020 POKEMON SWORD AND SHIELD PIKACHU #65"
+                }
             }
         },
         "2017": {
@@ -2072,6 +2130,13 @@
                     "alt_value": 209.32,
                     "asset_id": "6447937d-2b13-44da-9616-71116349236a",
                     "name": "2016 POKEMON MARIO PIKACHU HANAFUDA PIKACHU #NNO"
+                }
+            },
+            "#281": {
+                "STANDARD": {
+                    "alt_value": 114.89,
+                    "asset_id": "0c319a03-297f-4117-8e0d-b7bf5f951648",
+                    "name": "2016 POKEMON XY TRADE PLEASE CAMPAIGN 20TH PIKACHU #281XYP"
                 }
             }
         },
@@ -2213,6 +2278,13 @@
                     "alt_value": 69.31,
                     "asset_id": "0e140b94-da12-42df-9458-c87a5593c3f0",
                     "name": "2008 POKEMON 11TH MOVIE COMMEMORATION SET PIKACHU #3"
+                }
+            },
+            "#70": {
+                "STANDARD": {
+                    "alt_value": 52.4,
+                    "asset_id": "63c1826c-361d-422c-9ecf-2cd0b3886b48",
+                    "name": "2008 POKEMON DIAMOND AND PEARL MAJESTIC DAWN PIKACHU #70"
                 }
             }
         },
@@ -2472,6 +2544,15 @@
                     "alt_value": 30.59,
                     "asset_id": "dce66e2e-694f-467b-8f79-693dd6c8e4fd",
                     "name": "2015 POKEMON XY ROARING SKIES REVERSE HOLO PIKACHU #20"
+                }
+            }
+        },
+        "2018": {
+            "#207": {
+                "STANDARD": {
+                    "alt_value": 66.54,
+                    "asset_id": "1587d3ce-4ea6-48ef-ae04-a99337ce2aef",
+                    "name": "2018 ULTRA POKEMON SUN AND MOON SHINING BEAST CAMPAIGN PIKACHU #207SMP"
                 }
             }
         }
@@ -2811,6 +2892,13 @@
                     "asset_id": "6445581e-f7f7-41c7-adbb-7a828dd0aa14",
                     "name": "2015 POKEMON ANCIENT ORIGINS M TYRANITAR EX #92"
                 }
+            },
+            "#42": {
+                "STANDARD": {
+                    "alt_value": 43.06,
+                    "asset_id": "0738e78c-f96c-4d0a-a77f-2329e7a69948",
+                    "name": "2015 POKEMON XY ANCIENT ORIGINS TYRANITAR EX #42"
+                }
             }
         },
         "2002": {
@@ -2838,6 +2926,13 @@
                     "alt_value": 291.83,
                     "asset_id": "fee16e77-65b6-4c51-ab8a-55d894869d5a",
                     "name": "2002 POKEMON NEO DESTINY HOLO DARK TYRANITAR #11"
+                }
+            },
+            "#29": {
+                "Reverse Holo": {
+                    "alt_value": 196.23,
+                    "asset_id": "17111c26-6627-478e-b2c2-ec6e667d269a",
+                    "name": "2002 POKEMON EXPEDITION REVERSE HOLO TYRANITAR #29"
                 }
             }
         },
@@ -2945,6 +3040,24 @@
                     "alt_value": 14.05,
                     "asset_id": "7c376d7f-16f8-46de-8e1f-741dd83bfe09",
                     "name": "2020 POKEMON SWORD AND SHIELD DARKNESS ABLAZE REVERSE HOLO TYRANITAR #88"
+                }
+            }
+        },
+        "2008": {
+            "#30": {
+                "STANDARD": {
+                    "alt_value": 118.67,
+                    "asset_id": "82ca44f0-4b31-4fe1-ad76-939f0813d7eb",
+                    "name": "2008 POKEMON DIAMOND & PEARL STORMFRONT COSMOS TYRANITAR #30"
+                }
+            }
+        },
+        "2007": {
+            "#17": {
+                "Holo": {
+                    "alt_value": 132.38,
+                    "asset_id": "39d9def0-a056-408b-9a68-463d60fe008e",
+                    "name": "2007 POKEMON DIAMOND AND PEARL MYSTERIOUS TREASURES HOLO TYRANITAR #17"
                 }
             }
         }
@@ -3172,6 +3285,13 @@
                     "asset_id": "663240aa-2659-4956-ad5e-12702d28011f",
                     "name": "2022 POKEMON SWORD AND SHIELD BRILLIANT STARS SECRET RARE GALARIAN ZAPDOS V #182"
                 }
+            },
+            "#29": {
+                "Holo": {
+                    "alt_value": 21.01,
+                    "asset_id": "5866daa0-d075-415f-a25e-5d103be2c7f9",
+                    "name": "2022 POKEMON GO HOLO ZAPDOS #29"
+                }
             }
         }
     },
@@ -3337,6 +3457,13 @@
                     "alt_value": 64.82,
                     "asset_id": "5ad73b07-da9e-4ef5-8545-6c59e269e0d3",
                     "name": "2018 POKEMON SUN AND MOON LOST THUNDER ALOLAN NINETALES GX #225"
+                }
+            },
+            "#205": {
+                "STANDARD": {
+                    "alt_value": 27.83,
+                    "asset_id": "e730b01d-7aef-4363-b442-dfd2b495808e",
+                    "name": "2018 POKEMON SUN AND MOON LOST THUNDER ALOLAN NINETALES GX #205"
                 }
             }
         },
@@ -3965,6 +4092,13 @@
                     "asset_id": "04961a4a-7ec5-4d95-acf7-0848f0028f1d",
                     "name": "2016 POKEMON XY FATES COLLIDE ALAKAZAM EX #117"
                 }
+            },
+            "#25": {
+                "Reverse Holo": {
+                    "alt_value": 37.19,
+                    "asset_id": "65906e60-f0f8-40af-b95f-c0074a3d1353",
+                    "name": "2016 POKEMON XY FATES COLLIDE REVERSE HOLO ALAKAZAM EX #25"
+                }
             }
         },
         "2002": {
@@ -4560,6 +4694,11 @@
                     "alt_value": 78.45,
                     "asset_id": "bcf4b25d-5ff3-4663-9327-6bef6c52cee4",
                     "name": "2006 POKEMON EX HOLON PHANTOMS HOLO KABUTOPS #9"
+                },
+                "STANDARD": {
+                    "alt_value": 130.6,
+                    "asset_id": "823e1c78-454f-4520-8ef4-96cc96ffd4d2",
+                    "name": "2006 POKEMON EX HOLON PHANTOMS REVERSE FOIL KABUTOPS #9"
                 }
             }
         }
@@ -4777,6 +4916,11 @@
                     "alt_value": 32.36,
                     "asset_id": "63f50a7a-1720-4ffa-bb99-3e5b93e40a1c",
                     "name": "2000 POKEMON GYM CHALLENGE BLAINE'S CHARMELEON #31"
+                },
+                "1st Edition": {
+                    "alt_value": 35.65,
+                    "asset_id": "b100b8a3-9b0e-4d37-bd63-42cb5f066915",
+                    "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION BLAINE'S CHARMELEON #31"
                 }
             }
         },
@@ -5085,6 +5229,13 @@
                     "asset_id": "4dec34e7-3667-4471-bd6c-1a63cbb2f710",
                     "name": "2023 POKEMON SCARLET AND VIOLET SPECIAL ILLUSTRATION RARE GARDEVOIR EX #245"
                 }
+            },
+            "#141": {
+                "STANDARD": {
+                    "alt_value": 17.55,
+                    "asset_id": "9d910987-da6a-4284-9c7f-731860dd3245",
+                    "name": "2023 POKEMON SUN & MOON STRONG BOND TINS PROMO GARDEVOIR #141"
+                }
             }
         },
         "2003": {
@@ -5278,6 +5429,11 @@
                     "alt_value": 18.01,
                     "asset_id": "b2a98769-8126-499b-a267-2967675f90b7",
                     "name": "2016 POKEMON XY EVOLUTIONS REVERSE HOLO NIDOKING #45"
+                },
+                "Holo": {
+                    "alt_value": 17.36,
+                    "asset_id": "4b011681-d5f3-4e9d-9ade-4ae5221f741e",
+                    "name": "2016 POKEMON XY EVOLUTIONS HOLO NIDOKING #45"
                 }
             },
             "#46": {
@@ -5813,6 +5969,13 @@
                     "asset_id": "6c087224-3e74-4161-a334-f826d6bd97f5",
                     "name": "2020 POKEMON SWORD AND SHIELD SNORLAX V #197"
                 }
+            },
+            "#141": {
+                "STANDARD": {
+                    "alt_value": 19.71,
+                    "asset_id": "a85091db-504c-4718-8f8b-efad9ada076b",
+                    "name": "2020 POKEMON SWORD & SHIELD REBEL CLASH 2021 SNORLAX KNOCKOUT TIN SNORLAX #141"
+                }
             }
         },
         "2007": {
@@ -5844,6 +6007,13 @@
                     "alt_value": 139.82,
                     "asset_id": "49f4e2be-0639-4f3b-9f34-3212b19b724a",
                     "name": "1999 POKEMON JUNGLE 1ST EDITION SNORLAX #27"
+                }
+            },
+            "#S22": {
+                "STANDARD": {
+                    "alt_value": 39.28,
+                    "asset_id": "187f30ae-af99-4104-8038-3ebd1490b7d5",
+                    "name": "1999 MERLIN POKEMON SNORLAX #S22"
                 }
             }
         },
@@ -6001,6 +6171,13 @@
                     "alt_value": 60.06,
                     "asset_id": "8e7c5b47-2106-49dd-afb2-8cb70932af24",
                     "name": "1999 POKEMON INTRO PACK SQUIRTLE DECK SQUIRTLE #18"
+                }
+            },
+            "#40": {
+                "STANDARD": {
+                    "alt_value": 54.44,
+                    "asset_id": "a7bb23c3-6f94-44f7-ae2e-cfafb2f4b9ee",
+                    "name": "1999 POKEMON INTRO PACK SQUIRTLE HALF DECK SQUIRTLE #40"
                 }
             }
         },
@@ -6174,6 +6351,15 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET TWILIGHT MASQUERADE ILLUSTRATION RARE HISUIAN GROWLITHE #181"
                 }
             }
+        },
+        "2016": {
+            "#17": {
+                "Reverse Holo": {
+                    "alt_value": 14.59,
+                    "asset_id": "58650807-8cab-488d-a0b9-ad10a9550ede",
+                    "name": "2016 POKEMON XY EVOLUTIONS REVERSE HOLO GROWLITHE #17"
+                }
+            }
         }
     },
     "MAGIKARP": {
@@ -6254,6 +6440,13 @@
                     "asset_id": "5d29e59d-720e-40b6-8d6f-ceb5dc8c8dad",
                     "name": "2000 POKEMON TEAM ROCKET 1ST EDITION MAGIKARP #47"
                 }
+            },
+            "#88": {
+                "1st Edition": {
+                    "alt_value": 34.7,
+                    "asset_id": "debf590e-b122-4983-aa98-fcb10c07e38a",
+                    "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION MISTY'S MAGIKARP #88"
+                }
             }
         },
         "2021": {
@@ -6316,6 +6509,13 @@
                     "alt_value": 42.5,
                     "asset_id": "007fb38e-4a04-4b8a-9bc3-e4111d1fe3a9",
                     "name": "2014 POKEMON XY PHANTOM FORCES MANECTRIC EX #113"
+                }
+            },
+            "#120": {
+                "STANDARD": {
+                    "alt_value": 78.74,
+                    "asset_id": "8a860fdf-8dc4-4441-87e6-9ffc61b2cae3",
+                    "name": "2014 POKEMON XY PHANTOM FORCES ULTRA RARE M MANECTRIC EX #120"
                 }
             }
         },
@@ -6613,6 +6813,15 @@
                     "alt_value": 18.39,
                     "asset_id": "44f5a18a-3ee3-4d4a-8e01-886314ef6dc1",
                     "name": "2022 POKEMON SWORD AND SHIELD SILVER TEMPEST TRAINER GALLERY BLISSEY V #TG22"
+                }
+            }
+        },
+        "2000": {
+            "#242": {
+                "STANDARD": {
+                    "alt_value": 16.67,
+                    "asset_id": "8662ee2c-3123-4174-882a-163e9b8851d2",
+                    "name": "2000 POKEMON GOLD VERSION PLAYING CARDS QUEEN OF SPADES BLISSEY #242"
                 }
             }
         }
@@ -6958,6 +7167,13 @@
                     "asset_id": "416aec24-b3f1-4e6a-8df2-7bd3843371a8",
                     "name": "2005 POKEMON EX DELTA SPECIES REVERSE HOLO DITTO #64"
                 }
+            },
+            "#63": {
+                "STANDARD": {
+                    "alt_value": 93.09,
+                    "asset_id": "7cb75815-91ef-474b-aec5-a20b3a2b6fa4",
+                    "name": "2005 POKEMON EX DELTA SPECIES DITTO #63"
+                }
             }
         },
         "2000": {
@@ -7056,6 +7272,13 @@
                     "alt_value": 350.85,
                     "asset_id": "6bed0965-549c-46de-b72a-c87613c5c1a1",
                     "name": "1999 POKEMON JUNGLE 1ST EDITION HOLO SCYTHER #10"
+                }
+            },
+            "#26": {
+                "1st Edition Holo": {
+                    "alt_value": 65.07,
+                    "asset_id": "c31610cd-c1c4-41f9-8e1a-febd31558745",
+                    "name": "1999 POKEMON JUNGLE 1ST EDITION HOLO SCYTHER #26"
                 }
             }
         },
@@ -7371,6 +7594,13 @@
                     "asset_id": "e49c1742-81c0-45aa-b9e4-9c17951a45cf",
                     "name": "2015 POKEMON XY ROARING SKIES HOLO MEGA RAYQUAZA EX #61"
                 }
+            },
+            "#76": {
+                "STANDARD": {
+                    "alt_value": 165.8,
+                    "asset_id": "10384282-f961-4e47-932d-ba0930f5b27b",
+                    "name": "2015 POKEMON XY ROARING SKIES M RAYQUAZA EX #76"
+                }
             }
         },
         "2018": {
@@ -7612,6 +7842,15 @@
                     "name": "2006 POKEMON EX HOLON PHANTOMS RAYQUAZA #26"
                 }
             }
+        },
+        "2007": {
+            "#97": {
+                "STANDARD": {
+                    "alt_value": 205.53,
+                    "asset_id": "c17ccc2a-b758-4841-9f95-421c6e75901d",
+                    "name": "2007 POKEMON WORLD CHAMPIONSHIPS PROMO LEGENDARY ASCENT DECK RAYQUAZA EX #97"
+                }
+            }
         }
     },
     "PSYDUCK": {
@@ -7673,6 +7912,15 @@
                     "alt_value": 36.28,
                     "asset_id": "962ffe62-9df1-47d8-9575-0010b6504f40",
                     "name": "2000 POKEMON NEO GENESIS 1ST EDITION LEVEL 14 CYNDAQUIL #56"
+                }
+            }
+        },
+        "2002": {
+            "#61": {
+                "1st Edition": {
+                    "alt_value": 32.6,
+                    "asset_id": "6c977485-5d97-4d20-aabd-d86a59b7508e",
+                    "name": "2002 POKEMON NEO DESTINY 1ST EDITION CYNDAQUIL #61"
                 }
             }
         }
@@ -7867,6 +8115,13 @@
                     "alt_value": 157.04,
                     "asset_id": "bed84061-715b-4da9-8c42-be70f3102d44",
                     "name": "1999 POKEMON BASE SET HOLO GYARADOS #6"
+                }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 27.17,
+                    "asset_id": "bbcc77a5-7ab3-4110-8423-03790d1ec113",
+                    "name": "1999 BICYCLE POKEMON MINI PLAYING CARDS RED DECK 10 OF SPADES GYARADOS"
                 }
             }
         },
@@ -8710,6 +8965,33 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET PALDEAN FATES SHINY RARE CHARMANDER #109"
                 }
             }
+        },
+        "2003": {
+            "#98": {
+                "Holo": {
+                    "alt_value": 170.73,
+                    "asset_id": "7f892d65-585b-42af-bfd9-caa250adb695",
+                    "name": "2003 POKEMON EX DRAGON HOLO CHARMANDER #98"
+                }
+            }
+        },
+        "1996": {
+            "#4": {
+                "STANDARD": {
+                    "alt_value": 56.27,
+                    "asset_id": "63e55c3b-4af0-4285-a325-a60a7beff89b",
+                    "name": "1996 POKEMON RED VERSION PLAYING CARDS ACE OF CLUBS CHARMANDER #4"
+                }
+            }
+        },
+        "1998": {
+            "#4": {
+                "STANDARD": {
+                    "alt_value": 49.66,
+                    "asset_id": "6fb3f33d-af15-44d2-840b-ce847fad4b59",
+                    "name": "1998 POKEMON YELLOW VERSION PLAYING CARDS ACE OF CLUBS CHARMANDER #4"
+                }
+            }
         }
     },
     "HOUNDOUR": {
@@ -9011,6 +9293,15 @@
                     "name": "2007 POKEMON DIAMOND AND PEARL SECRET WONDERS HOLO VENUSAUR #20"
                 }
             }
+        },
+        "2005": {
+            "#48": {
+                "STANDARD": {
+                    "alt_value": 49.58,
+                    "asset_id": "b31556ce-a596-446a-9d8e-02dc3d94a1c8",
+                    "name": "2005 CARDDASS POKEMON ADVANCED GENERATION ZUKAN CARD RAINBOW VENUSAUR #48"
+                }
+            }
         }
     },
     "STARYU": {
@@ -9210,6 +9501,13 @@
                     "asset_id": "39e39706-8b99-4ccb-a436-e70373150c0a",
                     "name": "2000 POKEMON GYM HEROES 1ST EDITION SABRINA'S ABRA #91"
                 }
+            },
+            "#19": {
+                "STANDARD": {
+                    "alt_value": 62.28,
+                    "asset_id": "fc0feb18-085e-44f1-a113-50d0a61c07e4",
+                    "name": "2000 POKEMON PROMO POKEMON LEAGUE SABRINA'S ABRA #19"
+                }
             }
         },
         "1999": {
@@ -9239,6 +9537,22 @@
                     "alt_value": 323.97,
                     "asset_id": "6f99f3b9-9172-47ea-8859-781730ce6e24",
                     "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE HOLO ABRA #67"
+                }
+            },
+            "#93": {
+                "STANDARD": {
+                    "alt_value": 28.92,
+                    "asset_id": "3bba12d6-be7e-4684-8456-036a5256bbca",
+                    "name": "2002 POKEMON EXPEDITION ABRA #93"
+                }
+            }
+        },
+        "2003": {
+            "#46": {
+                "STANDARD": {
+                    "alt_value": 38.9,
+                    "asset_id": "ee590c6b-8337-4cf9-a4dc-15a7d8d865ed",
+                    "name": "2003 POKEMON SKYRIDGE ABRA #46"
                 }
             }
         }
@@ -9550,6 +9864,11 @@
                     "alt_value": 64.67,
                     "asset_id": "f8d5794e-6359-41a1-8b65-5def1d255cbe",
                     "name": "2015 POKEMON XY ROARING SKIES HOLO DRAGONITE #52"
+                },
+                "Reverse Holo": {
+                    "alt_value": 65.88,
+                    "asset_id": "29385b04-b87a-4c02-b55d-736596bbe245",
+                    "name": "2015 POKEMON XY ROARING SKIES REVERSE HOLO DRAGONITE #52"
                 }
             }
         }
@@ -9655,6 +9974,13 @@
                     "alt_value": 26.16,
                     "asset_id": "67220335-848a-4b9e-a07f-68c9affcfa78",
                     "name": "2016 POKEMON XY EVOLUTIONS M SLOWBRO EX #27"
+                }
+            },
+            "#26": {
+                "STANDARD": {
+                    "alt_value": 16.79,
+                    "asset_id": "95ebe332-a6da-4b9a-9f38-931c6905f5f6",
+                    "name": "2016 POKEMON XY EVOLUTIONS SLOWBRO EX #26"
                 }
             }
         },
@@ -9878,6 +10204,20 @@
                     "asset_id": "3b5fcd51-dbd6-4da8-8309-4bf139d8afd6",
                     "name": "2018 POKEMON SUN AND MOON DRAGON MAJESTY SALAMENCE GX #73"
                 }
+            },
+            "#SM139": {
+                "STANDARD": {
+                    "alt_value": 29.72,
+                    "asset_id": "fc26cbb4-245d-4333-9bef-e311e266a3b6",
+                    "name": "2018 POKEMON SUN AND MOON BLACK STAR PROMOS DRAGON MAJESTY SPECIAL COLLECTION SALAMENCE GX #SM139"
+                }
+            },
+            "#106": {
+                "STANDARD": {
+                    "alt_value": 12.21,
+                    "asset_id": "11c0b5d6-e7cc-4732-8225-050ebc84aa80",
+                    "name": "2018 POKEMON SUN AND MOON CELESTIAL STORM SALAMENCE #106"
+                }
             }
         }
     },
@@ -10009,6 +10349,11 @@
                     "alt_value": 402.56,
                     "asset_id": "7a41548a-fa7a-45a5-97ef-cb720c2fc297",
                     "name": "1999 POKEMON JUNGLE 1ST EDITION HOLO FLAREON #3"
+                },
+                "Holo": {
+                    "alt_value": 133.0,
+                    "asset_id": "685385ad-143f-448e-8568-2aee8331054f",
+                    "name": "1999 POKEMON JUNGLE HOLO FLAREON #3"
                 }
             }
         },
@@ -10140,6 +10485,13 @@
                     "asset_id": "6cad3ed4-84f0-4ece-8771-b8dd3d1cb654",
                     "name": "2002 POKEMON NEO DESTINY 1ST EDITION LIGHT FLAREON #46"
                 }
+            },
+            "#10": {
+                "Holo": {
+                    "alt_value": 112.98,
+                    "asset_id": "885726b6-c041-427c-a69b-613ea6bf3309",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION HOLO FLAREON #10"
+                }
             }
         }
     },
@@ -10157,6 +10509,13 @@
                     "alt_value": 12.46,
                     "asset_id": "fb845a46-6b40-4389-8172-659c0f39fe04",
                     "name": "2020 POKEMON SWORD AND SHIELD VIVID VOLTAGE ZAMAZENTA #102"
+                }
+            },
+            "#SWSH077": {
+                "STANDARD": {
+                    "alt_value": 17.29,
+                    "asset_id": "b8737756-1ba4-43a8-9975-4941d67ee418",
+                    "name": "2020 POKEMON SWORD AND SHIELD BLACK STAR PROMOS ULTRA PREMIUM COLLECTION ZAMAZENTA V #SWSH077"
                 }
             }
         },
@@ -10379,6 +10738,13 @@
                     "asset_id": "70406352-7e57-40e7-afef-16b72cb1126e",
                     "name": "2004 POKEMON EX FIRE RED LEAF GREEN HOLO ARTICUNO EX #114"
                 }
+            },
+            "#379": {
+                "Holo": {
+                    "alt_value": 92.05,
+                    "asset_id": "bfffe8a1-cd68-4e13-94fe-01b2c38729b5",
+                    "name": "2004 CARDDASS POKEMON ADVANCED GENERATION ZUKAN CARD HOLO ARTICUNO #379"
+                }
             }
         }
     },
@@ -10428,6 +10794,13 @@
                     "alt_value": 29.85,
                     "asset_id": "7eee049a-8bec-4dc5-8d35-13e05e25158a",
                     "name": "1999 POKEMON BASE SET HAUNTER #29"
+                }
+            },
+            "#21": {
+                "STANDARD": {
+                    "alt_value": 34.8,
+                    "asset_id": "127afe70-5224-4437-920c-83e13a041ff9",
+                    "name": "1999 POKEMON FOSSIL HAUNTER #21"
                 }
             }
         },
@@ -10777,6 +11150,13 @@
                     "asset_id": "a9725687-ddd7-4335-967b-5869875e6cb1",
                     "name": "2018 ULTRA POKEMON GX SHINY BLAZIKEN #14"
                 }
+            },
+            "#28": {
+                "STANDARD": {
+                    "alt_value": 25.51,
+                    "asset_id": "067305c4-ce5d-4d6a-8c09-7741ead87764",
+                    "name": "2018 POKEMON SUN AND MOON CELESTIAL STORM GERMAN BLAZIKEN GX #28"
+                }
             }
         },
         "2025": {
@@ -10839,6 +11219,13 @@
                     "alt_value": 37.11,
                     "asset_id": "922fe875-d215-4e5c-8cad-991607f392d8",
                     "name": "2014 POKEMON XY PROMO BLASTOISE EX #XY30"
+                }
+            },
+            "#30": {
+                "STANDARD": {
+                    "alt_value": 43.53,
+                    "asset_id": "517dca50-de56-48f7-bc2a-321b605fca1f",
+                    "name": "2014 POKEMON XY M BLASTOISE EX #30"
                 }
             }
         },
@@ -10946,6 +11333,13 @@
                     "alt_value": 29.84,
                     "asset_id": "68a118fe-9a71-4bee-8afa-fdf8ca240ac0",
                     "name": "1999 BICYCLE POKEMON MINI PLAYING CARDS BLUE DECK QUEEN OF CLUBS BLASTOISE"
+                }
+            },
+            "#S4": {
+                "STANDARD": {
+                    "alt_value": 23.44,
+                    "asset_id": "d8677426-e760-44ac-8bdb-6954d47a6e20",
+                    "name": "1999 POKEMON ALBUM STICKERS PRISM BLASTOISE #S4"
                 }
             }
         },
@@ -11275,6 +11669,11 @@
                     "alt_value": 14.95,
                     "asset_id": "82b0eee9-37a7-4d2c-b23d-3ef2deecff2e",
                     "name": "1999 POKEMON JUNGLE 1ST EDITION SPEAROW #62"
+                },
+                "STANDARD": {
+                    "alt_value": 15.09,
+                    "asset_id": "d65b49c4-c238-4629-9c94-18d3ba2385b9",
+                    "name": "1999 POKEMON JUNGLE SPEAROW SPEAROW #62"
                 }
             }
         },
@@ -11295,6 +11694,15 @@
                     "name": "1998 POKEMON VENDING SERIES 2 SPEAROW"
                 }
             }
+        },
+        "2002": {
+            "#94": {
+                "Reverse Holo": {
+                    "alt_value": 118.7,
+                    "asset_id": "b160d0fc-546b-46fb-909c-95c71df66033",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE HOLO SPEAROW #94"
+                }
+            }
         }
     },
     "ABSOL": {
@@ -11304,6 +11712,13 @@
                     "alt_value": 22.59,
                     "asset_id": "664c19d0-5ff7-4aa4-846f-9c788700461b",
                     "name": "2025 POKEMON MEG EN-MEGA EVOLUTION ULTRA RARE MEGA ABSOL EX #161"
+                }
+            },
+            "#180": {
+                "Special Art Rare": {
+                    "alt_value": 78.21,
+                    "asset_id": "c97d171c-71d6-407a-b791-657742fcec9f",
+                    "name": "2025 POKEMON MEG EN-MEGA EVOLUTION SPECIAL ILLUSTRATION RARE MEGA ABSOL EX #180"
                 }
             }
         },
@@ -11811,6 +12226,33 @@
                     "name": "2021 POKEMON SWORD AND SHIELD BLACK STAR PROMO SHINING FATES ELITE TRAINER BOX EEVEE VMAX #SWSH087"
                 }
             }
+        },
+        "1998": {
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 144.95,
+                    "asset_id": "8273961a-0844-4dbf-81b1-f2836ebb77af",
+                    "name": "1998 POKEMON BANDAI CARDDASS ANIME COLLECTION EEVEE EVOLUTIONS #8"
+                }
+            }
+        },
+        "1996": {
+            "#133": {
+                "STANDARD": {
+                    "alt_value": 80.69,
+                    "asset_id": "aefd8e5b-555c-423d-9491-42c6f97756ef",
+                    "name": "1996 POKEMON BANDAI CARDDASS PART 2 RED EEVEE #133"
+                }
+            }
+        },
+        "2018": {
+            "#105": {
+                "STANDARD": {
+                    "alt_value": 40.1,
+                    "asset_id": "bae7e1cf-42e4-4d00-9d71-513ffb866790",
+                    "name": "2018 ULTRA POKEMON GX SHINY EEVEE #105"
+                }
+            }
         }
     },
     "MEWTWO": {
@@ -11892,6 +12334,13 @@
                     "alt_value": 118.02,
                     "asset_id": "87d973bf-42c4-44ca-ac74-49ce3c08d66d",
                     "name": "2015 POKEMON XY BREAKTHROUGH ULTRA RARE MEWTWO EX #158"
+                }
+            },
+            "#64": {
+                "STANDARD": {
+                    "alt_value": 94.32,
+                    "asset_id": "f2b6b849-f450-4eb3-b82a-4ac57042f8b1",
+                    "name": "2015 POKEMON XY BREAKTHROUGH PSYCHIC INFINITY M MEWTWO EX #64"
                 }
             }
         },
@@ -12172,6 +12621,13 @@
                     "asset_id": "0e5484e7-0e1a-453e-84c5-19f0a793137b",
                     "name": "2012 POKEMON BLACK AND WHITE NEXT DESTINIES MEWTWO EX #98"
                 }
+            },
+            "#BW45": {
+                "STANDARD": {
+                    "alt_value": 83.34,
+                    "asset_id": "069fc873-b0a1-450c-bb6c-040224fb3a96",
+                    "name": "2012 POKEMON BLACK & WHITE PROMO MEWTWO #BW45"
+                }
             }
         },
         "2003": {
@@ -12287,6 +12743,15 @@
                     "name": "2020 POKEMON BATTLE ACADEMY MEWTWO GX #31"
                 }
             }
+        },
+        "2013": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 59.02,
+                    "asset_id": "e2faa353-7766-4c9a-b326-c7cc9e9535fa",
+                    "name": "2013 POKEMON BLACK AND WHITE LEGENDARY TREASURES MEWTWO EX #54"
+                }
+            }
         }
     },
     "SEADRA": {
@@ -12400,6 +12865,13 @@
                     "asset_id": "13697fee-32b5-4f08-b439-9c6ec115dbae",
                     "name": "2005 POKEMON EX DELTA SPECIES GOLD STAR HOLO GROUDON #111"
                 }
+            },
+            "#5": {
+                "STANDARD": {
+                    "alt_value": 88.67,
+                    "asset_id": "9889158d-a98d-4056-9a31-90231bc2c934",
+                    "name": "2005 POKEMON EX EMERALD GROUDON #5"
+                }
             }
         },
         "2021": {
@@ -12408,6 +12880,13 @@
                     "alt_value": 15.65,
                     "asset_id": "b1792af8-be49-4ed3-9769-ade7f61bb6f9",
                     "name": "2021 POKEMON CELEBRATIONS CLASSIC COLLECTION HOLO MAGMA VS AQUA TEAM MAGMA'S GROUDON #9"
+                }
+            },
+            "#17": {
+                "STANDARD": {
+                    "alt_value": 16.13,
+                    "asset_id": "fde1ee8a-481e-4492-9844-81db2f544190",
+                    "name": "2021 POKEMON CELEBRATIONS GROUDON #17"
                 }
             }
         },
@@ -12484,6 +12963,13 @@
                     "asset_id": "d42fafe0-d82a-42e6-865a-1b16dfc62b0b",
                     "name": "2020 POKEMON SWORD AND SHIELD ZACIAN V #195"
                 }
+            },
+            "#SWSH076": {
+                "STANDARD": {
+                    "alt_value": 18.62,
+                    "asset_id": "9b240b92-86ae-4910-aba7-650c4218f741",
+                    "name": "2020 POKEMON SWORD AND SHIELD BLACK STAR PROMOS ULTRA PREMIUM COLLECTION ZACIAN V #SWSH076"
+                }
             }
         }
     },
@@ -12554,6 +13040,11 @@
                     "alt_value": 100.06,
                     "asset_id": "470bb9b4-838f-464c-9743-b70c59efdae4",
                     "name": "1999 POKEMON FOSSIL HOLO 1ST EDITION MUK #13"
+                },
+                "Holo": {
+                    "alt_value": 38.64,
+                    "asset_id": "a1ed6fc3-20a8-4551-b48d-72359eaae4d1",
+                    "name": "1999 POKEMON FOSSIL HOLO MUK #13"
                 }
             }
         },
@@ -12563,6 +13054,15 @@
                     "alt_value": 18.33,
                     "asset_id": "e20add76-bbc1-4469-a914-370eedf84cac",
                     "name": "2017 POKEMON SUN AND MOON BURNING SHADOWS ALOLAN MUK GX #84"
+                }
+            }
+        },
+        "2000": {
+            "#26": {
+                "1st Edition": {
+                    "alt_value": 26.23,
+                    "asset_id": "05a9e53a-ad04-4aa7-90be-222223f744eb",
+                    "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION KOGA'S MUK #26"
                 }
             }
         }
@@ -12606,6 +13106,22 @@
                     "alt_value": 34.13,
                     "asset_id": "20e6a55e-2444-4856-92ab-a8e2e1e6f4a4",
                     "name": "2018 POKEMON SUN AND MOON FORBIDDEN LIGHT ULTRA NECROZMA GX #140"
+                }
+            },
+            "#161": {
+                "STANDARD": {
+                    "alt_value": 22.37,
+                    "asset_id": "b9f0f1e1-995c-4608-bd78-02ce51152af2",
+                    "name": "2018 ULTRA POKEMON SUN AND MOON PRISM DAWN WINGS NECROZMA GX #161"
+                }
+            }
+        },
+        "2017": {
+            "#134": {
+                "STANDARD": {
+                    "alt_value": 20.46,
+                    "asset_id": "4a2a0169-0169-4797-8117-42d47fc130c9",
+                    "name": "2017 POKEMON SUN AND MOON BURNING SHADOWS NECROZMA GX #134"
                 }
             }
         }
@@ -12831,6 +13347,11 @@
                     "alt_value": 71.96,
                     "asset_id": "8d15aeff-0466-489e-b57f-713828bfb041",
                     "name": "2005 POKEMON EX DEOXYS REVERSE HOLO MANECTRIC #38"
+                },
+                "STANDARD": {
+                    "alt_value": 38.34,
+                    "asset_id": "38474eb1-b268-4398-bdd4-21e93c83c3a2",
+                    "name": "2005 POKEMON EX DEOXYS MANECTRIC #38"
                 }
             },
             "#16": {
@@ -12852,6 +13373,20 @@
                     "alt_value": 82.33,
                     "asset_id": "f1ec5526-2245-46d0-bbe3-ca4f820b42f1",
                     "name": "2005 POKEMON EX EMERALD DEOXYS HOLO R #2"
+                }
+            },
+            "#41": {
+                "Reverse Holo": {
+                    "alt_value": 49.83,
+                    "asset_id": "d08db110-bdd5-438d-a0f2-e131b5b9365a",
+                    "name": "2005 POKEMON EX DEOXYS REVERSE HOLO MINUN #41"
+                }
+            },
+            "#9": {
+                "Holo": {
+                    "alt_value": 142.96,
+                    "asset_id": "09a379e6-0708-4495-b48f-75ab1b2c42fc",
+                    "name": "2005 POKEMON EX DEOXYS HOLO JIRACHI #9"
                 }
             }
         },
@@ -12877,6 +13412,11 @@
                     "alt_value": 256.13,
                     "asset_id": "0d607806-c63c-4141-aba1-23f329490804",
                     "name": "2006 POKEMON EX HOLON PHANTOMS REVERSE HOLO DEOXYS #6"
+                },
+                "Holo": {
+                    "alt_value": 114.59,
+                    "asset_id": "4e8376f8-7655-48c8-9f38-d1f75f9404cb",
+                    "name": "2006 POKEMON EX HOLON PHANTOMS HOLO DEOXYS #6"
                 }
             },
             "#5": {
@@ -12893,6 +13433,13 @@
                     "alt_value": 85.05,
                     "asset_id": "ca7e53f2-0ef7-4d06-b37d-25bac6f01a80",
                     "name": "2013 POKEMON BLACK AND WHITE PROMO DEOXYS EX #BW82"
+                }
+            },
+            "#53": {
+                "STANDARD": {
+                    "alt_value": 57.72,
+                    "asset_id": "85a39ecd-5cf3-47a5-8115-3e33126123ca",
+                    "name": "2013 POKEMON BLACK & WHITE PLASMA FREEZE DEOXYS EX #53"
                 }
             }
         },
@@ -13009,6 +13556,13 @@
                     "alt_value": 171.87,
                     "asset_id": "14e41e5e-7fd3-4b4a-9bd1-28578ac0a627",
                     "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION HOLO GIOVANNI'S MACHAMP #6"
+                }
+            },
+            "#27": {
+                "1st Edition": {
+                    "alt_value": 42.31,
+                    "asset_id": "4132ac8a-66be-4971-b647-240dd2d63c04",
+                    "name": "2000 POKEMON TEAM ROCKET 1ST EDITION MACHAMP #27"
                 }
             }
         },
@@ -13146,6 +13700,15 @@
                     "name": "2010 POKEMON HEARTGOLD & SOULSILVER UNLEASHED CROSSHATCH-2010 REGIONAL CHAMPIONSHIPS POLIWRATH #21"
                 }
             }
+        },
+        "2016": {
+            "#25": {
+                "Reverse Holo": {
+                    "alt_value": 17.71,
+                    "asset_id": "b5512fa3-5605-4a2a-9e4c-17bdbf58be46",
+                    "name": "2016 POKEMON XY EVOLUTIONS REVERSE HOLO POLIWRATH #25"
+                }
+            }
         }
     },
     "POLIWHIRL": {
@@ -13169,6 +13732,24 @@
                     "alt_value": 25.03,
                     "asset_id": "993c605d-c5a0-4747-9a86-f99c946d33b2",
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 ILLUSTRATION RARE POLIWHIRL #176"
+                }
+            }
+        },
+        "2002": {
+            "#89": {
+                "Reverse Holo": {
+                    "alt_value": 37.04,
+                    "asset_id": "01ba4a67-02bf-4aee-9e03-2e34ec3e9144",
+                    "name": "2002 POKEMON EXPEDITION REVERSE HOLO POLIWHIRL #89"
+                }
+            }
+        },
+        "2003": {
+            "#88": {
+                "STANDARD": {
+                    "alt_value": 66.39,
+                    "asset_id": "7f50c1f8-4dea-49f9-9ae0-a61ce11de7db",
+                    "name": "2003 POKEMON SKYRIDGE POLIWHIRL #88"
                 }
             }
         }
@@ -13480,6 +14061,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 GOLEM EX #76"
                 }
             }
+        },
+        "1998": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 21.48,
+                    "asset_id": "cb9bd7f1-005e-465e-8c14-a7162e6472a9",
+                    "name": "1998 POKEMON STADIUM YELLOW PLAYING CARDS KING OF CLUBS GOLEM"
+                }
+            }
         }
     },
     "ALTARIA": {
@@ -13505,6 +14095,13 @@
                     "alt_value": 37.85,
                     "asset_id": "f4572bc7-200f-45a1-b396-da45c3196f37",
                     "name": "2016 POKEMON XY POKEKYUN COLLECTION ALTARIA #29"
+                }
+            },
+            "#69": {
+                "STANDARD": {
+                    "alt_value": 22.41,
+                    "asset_id": "a325e0f8-31a0-4bd2-ac86-2523960e967a",
+                    "name": "2016 POKEMON XY FATES COLLIDE M ALTARIA EX #69"
                 }
             }
         },
@@ -13560,6 +14157,13 @@
                     "alt_value": 22.7,
                     "asset_id": "36295b36-406a-4cbb-ac4f-4d9d106d05cc",
                     "name": "2018 POKEMON SUN AND MOON DRAGON MAJESTY ALTARIA GX #68"
+                }
+            },
+            "#72": {
+                "STANDARD": {
+                    "alt_value": 29.89,
+                    "asset_id": "8b0d5fcf-1a20-4c88-b640-2c2e4436ce88",
+                    "name": "2018 POKEMON SUN AND MOON DRAGON MAJESTY SECRET RARE ALTARIA GX #72"
                 }
             }
         },
@@ -13950,6 +14554,15 @@
                     "alt_value": 100.91,
                     "asset_id": "2d290b7c-4b86-42a7-866e-9cfc5e63608a",
                     "name": "2006 POKEMON EX LEGEND MAKER REVERSE HOLO LAPRAS #8"
+                }
+            }
+        },
+        "2017": {
+            "#151": {
+                "STANDARD": {
+                    "alt_value": 24.54,
+                    "asset_id": "15b06557-6ee1-46c9-a63a-17f552129265",
+                    "name": "2017 POKEMON SUN AND MOON LAPRAS GX #151"
                 }
             }
         }
@@ -14664,6 +15277,13 @@
                     "asset_id": "c693143a-d353-418a-841b-e704c7ea4e41",
                     "name": "2018 POKEMON SUN AND MOON LOST THUNDER MIMIKYU GX #206"
                 }
+            },
+            "#149": {
+                "STANDARD": {
+                    "alt_value": 31.87,
+                    "asset_id": "5bf2b4eb-5947-436d-b4e9-bc2e6e7bd725",
+                    "name": "2018 POKEMON SUN AND MOON LOST THUNDER MIMIKYU GX #149"
+                }
             }
         },
         "2024": {
@@ -14761,6 +15381,15 @@
                     "name": "2005 POKEMON EX UNSEEN FORCES HOLO URSARING #18"
                 }
             }
+        },
+        "2002": {
+            "#21": {
+                "1st Edition": {
+                    "alt_value": 52.25,
+                    "asset_id": "d2b779ee-5f52-403e-857b-43c1e3658edb",
+                    "name": "2002 POKEMON NEO DESTINY 1ST EDITION DARK URSARING #21"
+                }
+            }
         }
     },
     "ELECTIVIRE": {
@@ -14840,6 +15469,24 @@
                     "alt_value": 20.3,
                     "asset_id": "5370af0a-1da1-4115-bdc7-87f1f9275614",
                     "name": "2023 POKEMON SCARLET AND VIOLET PALDEA EVOLVED ILLUSTRATION RARE HERACROSS #194"
+                }
+            }
+        },
+        "2000": {
+            "#6": {
+                "Holo": {
+                    "alt_value": 92.48,
+                    "asset_id": "42922b6b-1825-4644-b05d-0a05df97163d",
+                    "name": "2000 POKEMON NEO GENESIS HOLO HERACROSS #6"
+                }
+            }
+        },
+        "2014": {
+            "#112": {
+                "STANDARD": {
+                    "alt_value": 80.3,
+                    "asset_id": "65b78cc3-5028-45cc-917a-d432e18775d1",
+                    "name": "2014 POKEMON XY FURIOUS FISTS ULTRA RARE M HERACROSS EX #112"
                 }
             }
         }
@@ -15044,6 +15691,24 @@
                     "alt_value": 60.51,
                     "asset_id": "de3aaf49-6ac0-41c7-a96f-55ad3f14aad8",
                     "name": "2000 POKEMON GYM HEROES HOLO MISTY'S TENTACRUEL #10"
+                }
+            }
+        },
+        "2003": {
+            "#38": {
+                "STANDARD": {
+                    "alt_value": 24.48,
+                    "asset_id": "19376f8e-e435-43e7-8667-9501c963a99d",
+                    "name": "2003 POKEMON AQUAPOLIS TENTACRUEL #38"
+                }
+            }
+        },
+        "2002": {
+            "#66": {
+                "Reverse Holo": {
+                    "alt_value": 177.66,
+                    "asset_id": "ab904613-d8d7-4548-8f98-6af5b7fda4c1",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE HOLO TENTACRUEL #66"
                 }
             }
         }
@@ -15650,6 +16315,13 @@
                     "asset_id": "9af2d084-f8b6-4820-b73b-eb1a1c1a0520",
                     "name": "2003 POKEMON SKYRIDGE HOLO BEEDRILL #H4"
                 }
+            },
+            "#5": {
+                "Reverse Holo": {
+                    "alt_value": 45.23,
+                    "asset_id": "2d3b2746-4714-40dc-9483-148eb8f71257",
+                    "name": "2003 POKEMON SKYRIDGE REVERSE HOLO BEEDRILL #5"
+                }
             }
         },
         "2004": {
@@ -15687,6 +16359,15 @@
                     "alt_value": 112.17,
                     "asset_id": "13948880-c77c-433d-98a5-06daa5891fbb",
                     "name": "2001 POKEMON NEO DISCOVERY 1ST EDITION HOLO FORRETRESS #2"
+                }
+            }
+        },
+        "2003": {
+            "#H8": {
+                "Holo": {
+                    "alt_value": 218.58,
+                    "asset_id": "c6674b4d-6ed3-4667-8274-0a1d1ab3bdb8",
+                    "name": "2003 POKEMON SKYRIDGE HOLO FORRETRESS #H8"
                 }
             }
         }
@@ -16010,6 +16691,24 @@
                     "name": "2023 POKEMON SWORD AND SHIELD CROWN ZENITH GALARIAN GALLERY SECRET RARE ORIGIN FORME PALKIA VSTAR #GG67"
                 }
             }
+        },
+        "2018": {
+            "#165": {
+                "STANDARD": {
+                    "alt_value": 58.07,
+                    "asset_id": "3c4fa1b5-3b98-420b-bfd9-a32303ac7851",
+                    "name": "2018 ULTRA POKEMON SUN AND MOON PRISM PALKIA GX #165"
+                }
+            }
+        },
+        "2007": {
+            "#11": {
+                "Holo": {
+                    "alt_value": 111.59,
+                    "asset_id": "f9847bdc-f3d0-48fb-b3ee-130afd84e94c",
+                    "name": "2007 POKEMON DIAMOND AND PEARL HOLO PALKIA #11"
+                }
+            }
         }
     },
     "ARBOK": {
@@ -16289,6 +16988,15 @@
                     "name": "2021 POKEMON SWORD AND SHIELD CHILLING REIGN METAGROSS VMAX #208"
                 }
             }
+        },
+        "2007": {
+            "#95": {
+                "Holo": {
+                    "alt_value": 217.27,
+                    "asset_id": "4000a435-0992-488f-848a-f671026502d8",
+                    "name": "2007 POKEMON EX POWER KEEPERS HOLO METAGROSS EX #95"
+                }
+            }
         }
     },
     "DEWOTT": {
@@ -16341,6 +17049,24 @@
                     "alt_value": 64.34,
                     "asset_id": "af4570d6-08cc-488c-96f7-4baaa4c80c5e",
                     "name": "2004 POKEMON EX TEAM ROCKET RETURNS HOLO DARK ELECTRODE #4"
+                }
+            }
+        },
+        "2000": {
+            "#34": {
+                "1st Edition": {
+                    "alt_value": 20.4,
+                    "asset_id": "56181267-6875-4957-b772-634c98ee2dfb",
+                    "name": "2000 POKEMON TEAM ROCKET 1ST EDITION DARK ELECTRODE #34"
+                }
+            }
+        },
+        "2002": {
+            "#22": {
+                "Reverse Holo": {
+                    "alt_value": 216.3,
+                    "asset_id": "143b597e-3529-4a7a-b6a5-556646ce758e",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE FOIL ELECTRODE #22"
                 }
             }
         }
@@ -16451,6 +17177,13 @@
                     "asset_id": "c973afb9-91ea-4574-9903-6f180aeca2df",
                     "name": "2018 POKEMON SUN AND MOON CELESTIAL STORM SCIZOR GX #175"
                 }
+            },
+            "#90": {
+                "STANDARD": {
+                    "alt_value": 23.35,
+                    "asset_id": "010e6511-c8fb-495b-9ee6-401d99a4e80d",
+                    "name": "2018 POKEMON SUN AND MOON CELESTIAL STORM SCIZOR GX #90"
+                }
             }
         },
         "2010": {
@@ -16497,6 +17230,15 @@
                     "name": "2019 POKEMON SUN AND MOON HIDDEN FATES SHINY VAULT SCIZOR GX #SV72"
                 }
             }
+        },
+        "2000": {
+            "#212": {
+                "STANDARD": {
+                    "alt_value": 33.96,
+                    "asset_id": "367bcef2-29c1-4131-9c59-db9128a2d655",
+                    "name": "2000 POKEMON GOLD VERSION PLAYING CARDS KING OF CLUBS SCIZOR #212"
+                }
+            }
         }
     },
     "SLOWKING": {
@@ -16524,6 +17266,13 @@
                     "alt_value": 55.65,
                     "asset_id": "4ef5dd51-dde0-46d0-b6b0-1dd3da7cf197",
                     "name": "2021 POKEMON SWORD AND SHIELD CHILLING REIGN ULTRA RARE GALARIAN SLOWKING V #179"
+                }
+            },
+            "#46": {
+                "STANDARD": {
+                    "alt_value": 58.16,
+                    "asset_id": "90344f72-5971-4bdb-ad27-f99dc4f9766c",
+                    "name": "2021 POKEMON SWORD AND SHIELD PEERLESS FIGHTERS GALARIAN SLOWKING V #46"
                 }
             }
         },
@@ -16856,6 +17605,11 @@
                     "alt_value": 29.48,
                     "asset_id": "402cae2b-7231-400c-a32f-e6b52ac529e5",
                     "name": "2000 POKEMON TEAM ROCKET 1ST EDITION DROWZEE #54"
+                },
+                "STANDARD": {
+                    "alt_value": 22.9,
+                    "asset_id": "18aca000-61b6-498d-89f0-f447b5d2f8ed",
+                    "name": "2000 POKEMON TEAM ROCKET DROWZEE #54"
                 }
             }
         },
@@ -17033,6 +17787,13 @@
                     "alt_value": 95.88,
                     "asset_id": "78828842-4f8b-482a-a0df-264b7e81fa9c",
                     "name": "2018 POKEMON SUN AND MOON FORBIDDEN LIGHT SECRET RARE LUCARIO GX #135"
+                }
+            },
+            "#122": {
+                "STANDARD": {
+                    "alt_value": 50.57,
+                    "asset_id": "05b831e3-6ab5-4e75-a929-520e9179f9a6",
+                    "name": "2018 POKEMON SUN AND MOON FORBIDDEN LIGHT LUCARIO GX #122"
                 }
             }
         },
@@ -17354,7 +18115,7 @@
         "2007": {
             "#86R143": {
                 "STANDARD": {
-                    "alt_value": 67.23,
+                    "alt_value": 68.87,
                     "asset_id": "7009f174-aa00-4bcf-a3ef-079ef2dcc009",
                     "name": "2007 FLEER '86 RETRO ROOKIE KEVIN DURANT #86R143"
                 }
@@ -17558,6 +18319,13 @@
                     "asset_id": "b108c4ac-06ab-4587-9895-72065d334486",
                     "name": "2000 POKEMON NEO GENESIS 1ST EDITION ELECTABUZZ #33"
                 }
+            },
+            "#125": {
+                "STANDARD": {
+                    "alt_value": 16.12,
+                    "asset_id": "a5ab01ea-b62f-4387-81c1-7cd8620a02de",
+                    "name": "2000 POKEMON SILVER VERSION PLAYING CARDS 5 OF CLUBS ELECTABUZZ #125"
+                }
             }
         },
         "1999": {
@@ -17566,6 +18334,15 @@
                     "alt_value": 26.63,
                     "asset_id": "17cb1ec2-db30-4e27-ae15-8697f6d84270",
                     "name": "1999 POKEMON GAME MOVIE PROMO ELECTABUZZ #2"
+                }
+            }
+        },
+        "2016": {
+            "#41": {
+                "Reverse Holo": {
+                    "alt_value": 16.39,
+                    "asset_id": "49f12430-e140-4b16-8971-5658a4fdfed1",
+                    "name": "2016 POKEMON XY EVOLUTIONS REVERSE HOLO ELECTABUZZ #41"
                 }
             }
         }
@@ -17906,6 +18683,13 @@
                     "asset_id": "da888346-68c3-401d-a126-8da5699ece1d",
                     "name": "2006 POKEMON EX CRYSTAL GUARDIANS REVERSE HOLO MUDKIP #57"
                 }
+            },
+            "#58": {
+                "Reverse Holo": {
+                    "alt_value": 121.54,
+                    "asset_id": "0ebc1fa2-20cc-4023-a8b6-05aace0e4b1d",
+                    "name": "2006 POKEMON EX CRYSTAL GUARDIANS REVERSE HOLO MUDKIP #58"
+                }
             }
         },
         "2003": {
@@ -18204,6 +18988,24 @@
                     "name": "1997 POKEMON TOMY SCRATCH CARDS OMASTAR #139"
                 }
             }
+        },
+        "2003": {
+            "#23": {
+                "STANDARD": {
+                    "alt_value": 26.1,
+                    "asset_id": "dca44ecb-5191-4674-86d3-c8f8ef3e6a42",
+                    "name": "2003 POKEMON SKYRIDGE OMASTAR #23"
+                }
+            }
+        },
+        "1999": {
+            "#40": {
+                "Holo": {
+                    "alt_value": 17.89,
+                    "asset_id": "5bb09f69-3d9a-4111-b26b-29390b2bdc5f",
+                    "name": "1999 POKEMON FOSSIL HOLO OMASTAR #40"
+                }
+            }
         }
     },
     "BULBASAUR": {
@@ -18220,6 +19022,11 @@
                     "alt_value": 49.81,
                     "asset_id": "83a8700b-50ce-4103-b219-b7905f092c36",
                     "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION ERIKA'S BULBASAUR #39"
+                },
+                "STANDARD": {
+                    "alt_value": 30.6,
+                    "asset_id": "a476e65c-a769-4395-bd94-4e75bd47b2f7",
+                    "name": "2000 POKEMON GYM CHALLENGE ERIKA'S BULBASAUR #39"
                 }
             }
         },
@@ -18352,6 +19159,11 @@
                     "alt_value": 18.25,
                     "asset_id": "3fa5c521-2f21-4871-9a29-08eb7e5d5cd0",
                     "name": "1999 POKEMON FOSSIL 1ST EDITION HORSEA #49"
+                },
+                "STANDARD": {
+                    "alt_value": 15.53,
+                    "asset_id": "56fcecd3-4b75-4a4e-a0e9-420284e3ee53",
+                    "name": "1999 POKEMON FOSSIL HORSEA #49"
                 }
             }
         }
@@ -18587,6 +19399,13 @@
                     "asset_id": "09bf548e-3a76-4bd5-99e6-d828f487e8a1",
                     "name": "2003 POKEMON AQUAPOLIS ONIX #98"
                 }
+            },
+            "#71": {
+                "Reverse Holo": {
+                    "alt_value": 24.24,
+                    "asset_id": "d1c6abe7-262e-4f6f-a046-e114e22a4f57",
+                    "name": "2003 POKEMON EX SANDSTORM REVERSE HOLO ONIX #71"
+                }
             }
         },
         "2005": {
@@ -18595,6 +19414,15 @@
                     "alt_value": 44.17,
                     "asset_id": "5a69fcb3-a1c7-4038-b1b8-bacfa4cdf108",
                     "name": "2005 POKEMON EX UNSEEN FORCES REVERSE HOLO ONIX #65"
+                }
+            }
+        },
+        "2016": {
+            "#61": {
+                "Reverse Holo": {
+                    "alt_value": 12.69,
+                    "asset_id": "cd0ce829-86ea-4d96-97e4-9c9557506dfb",
+                    "name": "2016 POKEMON XY EVOLUTIONS REVERSE HOLO ONIX #61"
                 }
             }
         }
@@ -18679,6 +19507,15 @@
                     "alt_value": 31.38,
                     "asset_id": "0b48d1eb-45e8-40c6-90ca-b6c018ed3b4f",
                     "name": "2013 POKEMON BLACK AND WHITE PLASMA STORM GIRATINA #62"
+                }
+            }
+        },
+        "2016": {
+            "#57": {
+                "STANDARD": {
+                    "alt_value": 29.88,
+                    "asset_id": "d54a1e11-c324-436b-9389-14bb95f9858c",
+                    "name": "2016 POKEMON WORLD CHAMPIONSHIPS PROMO BLACK DRAGON GIRATINA EX #57"
                 }
             }
         }
@@ -18770,6 +19607,11 @@
                     "alt_value": 67.29,
                     "asset_id": "cee3c0ca-e9dc-4953-8a58-bceb92cc64c5",
                     "name": "2003 POKEMON SKYRIDGE REVERSE HOLO CLEFFA #48"
+                },
+                "STANDARD": {
+                    "alt_value": 25.39,
+                    "asset_id": "0c4affae-8910-429e-8ae8-67f25e3a8f4b",
+                    "name": "2003 POKEMON SKYRIDGE CLEFFA #48"
                 }
             }
         },
@@ -18881,6 +19723,13 @@
                     "asset_id": "fec626c9-e163-44b8-95e0-eb719b472143",
                     "name": "2012 POKEMON BLACK AND WHITE BOUNDARIES CROSSED WHITE KYUREM EX #146"
                 }
+            },
+            "#38": {
+                "STANDARD": {
+                    "alt_value": 39.5,
+                    "asset_id": "76c14a7e-f2c9-46de-86b2-f9eb38289b1b",
+                    "name": "2012 POKEMON BLACK & WHITE NEXT DESTINIES KYUREM EX #38"
+                }
             }
         },
         "2013": {
@@ -18896,6 +19745,13 @@
                     "alt_value": 31.58,
                     "asset_id": "ac8dd1dd-80df-4b33-87e4-d0fe26bf9a7a",
                     "name": "2013 POKEMON BLACK AND WHITE PLASMA STORM BLACK KYUREM EX #95"
+                }
+            },
+            "#96": {
+                "STANDARD": {
+                    "alt_value": 27.75,
+                    "asset_id": "518a3e38-5fcf-4adc-82e9-d1eecdd1840f",
+                    "name": "2013 POKEMON BLACK AND WHITE PLASMA STORM WHITE KYUREM EX #96"
                 }
             }
         },
@@ -19520,6 +20376,20 @@
                     "asset_id": "0ec9ac9a-b7a7-477d-a7a5-be00c2e6c12d",
                     "name": "2015 POKEMON XY ROARING SKIES M LATIOS EX #102"
                 }
+            },
+            "#174": {
+                "STANDARD": {
+                    "alt_value": 51.68,
+                    "asset_id": "d30c882f-d979-439b-ad06-ff8f7d796335",
+                    "name": "2015 POKEMON XY UNIVERSITY FESTIVAL BEGINNER'S CLASSROOM EXPERIENCE BATTLE PARTICIPATION PRIZE LATIOS #174XYP"
+                }
+            },
+            "#XY72": {
+                "STANDARD": {
+                    "alt_value": 59.67,
+                    "asset_id": "91cac44a-b832-4510-9a41-9dbe6e212e6f",
+                    "name": "2015 POKEMON XY BLACK STAR PROMOS EX LATIOS #XY72"
+                }
             }
         },
         "2013": {
@@ -19537,6 +20407,13 @@
                     "alt_value": 532.05,
                     "asset_id": "69d0903e-8fd8-4d88-8e46-9ef45835a6e4",
                     "name": "2003 POKEMON EX DRAGON HOLO LATIOS EX #94"
+                }
+            },
+            "#15": {
+                "STANDARD": {
+                    "alt_value": 81.5,
+                    "asset_id": "2d52e9e3-3edb-4bd2-ba1b-fefb8af23198",
+                    "name": "2003 POKEMON NINTENDO BLACK STAR PROMOS LATIOS #15"
                 }
             }
         },
@@ -19776,6 +20653,11 @@
                     "alt_value": 36.63,
                     "asset_id": "16dee096-ed9c-403a-8e6e-fce5ec7ee2d3",
                     "name": "2011 POKEMON BLACK AND WHITE HOLO ZEKROM #47"
+                },
+                "Reverse Holo": {
+                    "alt_value": 37.06,
+                    "asset_id": "19d3bc1f-e824-48e6-bd1b-11b2d4523b97",
+                    "name": "2011 POKEMON BLACK AND WHITE REVERSE HOLO ZEKROM #47"
                 }
             }
         },
@@ -19873,6 +20755,11 @@
                     "alt_value": 19.3,
                     "asset_id": "33067515-8fce-43c1-9d5a-31bf775e5f6f",
                     "name": "1999 POKEMON FOSSIL 1ST EDITION GRIMER #48"
+                },
+                "STANDARD": {
+                    "alt_value": 16.9,
+                    "asset_id": "9234c83e-1a61-4a16-acf7-183b866e73eb",
+                    "name": "1999 POKEMON FOSSIL GRIMER #48"
                 }
             }
         },
@@ -20032,6 +20919,15 @@
                     "name": "2021 POKEMON INDONESIAN SM PROMO KFC CHAKI KIDS MEAL DRATINI #185"
                 }
             }
+        },
+        "2002": {
+            "#72": {
+                "STANDARD": {
+                    "alt_value": 26.82,
+                    "asset_id": "80381ead-4dd5-4345-8e3b-36ca9fde2f7b",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION DRATINI #72"
+                }
+            }
         }
     },
     "HITMONLEE": {
@@ -20053,6 +20949,11 @@
                     "alt_value": 33.69,
                     "asset_id": "e93da5c6-0e95-454f-a7d3-f84333f49837",
                     "name": "1999 POKEMON FOSSIL HITMONLEE #22"
+                },
+                "1st Edition": {
+                    "alt_value": 50.37,
+                    "asset_id": "aa7a0a67-b32c-4181-92ec-d143da68f443",
+                    "name": "1999 POKEMON FOSSIL 1ST EDITION HITMONLEE #22"
                 }
             }
         },
@@ -20089,6 +20990,24 @@
                     "alt_value": 121.03,
                     "asset_id": "70f4108c-43fb-460d-8703-4056744c53e5",
                     "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE FOIL DODRIO #41"
+                }
+            }
+        },
+        "2024": {
+            "#85": {
+                "STANDARD": {
+                    "alt_value": 36.82,
+                    "asset_id": "24157480-4ec2-4037-9177-129efb51eeb4",
+                    "name": "2024 POKEMON PLAY! POKEMON PRIZE PACK: SERIES 5 DODRIO #85"
+                }
+            }
+        },
+        "1999": {
+            "#34": {
+                "1st Edition": {
+                    "alt_value": 21.41,
+                    "asset_id": "21e800fe-35b7-4c4d-96f3-887dc53d645e",
+                    "name": "1999 POKEMON JUNGLE 1ST EDITION DODRIO #34"
                 }
             }
         }
@@ -20129,6 +21048,15 @@
                     "name": "2025 PRISMATIC EVOLUTIONS - PRE EN - ENGLISH MASTER BALL HOLO DUSKULL #035"
                 }
             }
+        },
+        "2003": {
+            "#62": {
+                "STANDARD": {
+                    "alt_value": 10.51,
+                    "asset_id": "d039d8f7-bf0f-42bd-bede-30b3acc24359",
+                    "name": "2003 POKEMON EX SANDSTORM DUSKULL #62"
+                }
+            }
         }
     },
     "NOIBAT": {
@@ -20149,6 +21077,13 @@
                     "alt_value": 67.11,
                     "asset_id": "17900905-d7b0-4441-b27c-86a6ce686783",
                     "name": "2005 POKEMON EX UNSEEN FORCES REVERSE HOLO MEGANIUM #9"
+                }
+            },
+            "#106": {
+                "Holo": {
+                    "alt_value": 226.53,
+                    "asset_id": "327a1d3c-7937-46da-bdb8-0b81520c4fd6",
+                    "name": "2005 POKEMON EX UNSEEN FORCES HOLO MEGANIUM EX #106"
                 }
             }
         },
@@ -20259,6 +21194,15 @@
                     "alt_value": 65.76,
                     "asset_id": "88a1df60-d9b6-42b8-bf79-f04c230b0b50",
                     "name": "2002 POKEMON EXPEDITION REVERSE HOLO BUTTERFREE #38"
+                }
+            }
+        },
+        "2009": {
+            "#17": {
+                "Holo": {
+                    "alt_value": 20.69,
+                    "asset_id": "c8236e19-514d-4243-ba82-3bab96d3d0be",
+                    "name": "2009 POKEMON PLATINUM SUPREME VICTORS HOLO CROSSHATCH 2009 POKEMON LEAGUE BUTTERFREE #17"
                 }
             }
         }
@@ -21034,6 +21978,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET PALDEA EVOLVED ILLUSTRATION RARE PALDEAN TAUROS #218"
                 }
             }
+        },
+        "2006": {
+            "#12": {
+                "Holo": {
+                    "alt_value": 31.11,
+                    "asset_id": "d27223ab-e0d5-49d7-a865-5ec97f1198c8",
+                    "name": "2006 POKEMON EX CRYSTAL GUARDIANS HOLO TAUROS #12"
+                }
+            }
         }
     },
     "SNEASEL": {
@@ -21312,6 +22265,15 @@
                     "alt_value": 16.22,
                     "asset_id": "953cc7b2-de95-4392-9e40-9194da69ca01",
                     "name": "2022 POKEMON SWORD AND SHIELD BRILLIANT STARS TRAINERS GALLERY BOLTUND V #TG13"
+                }
+            }
+        },
+        "2021": {
+            "#249": {
+                "STANDARD": {
+                    "alt_value": 12.95,
+                    "asset_id": "f8f7c5da-633f-42ff-8e15-02e7137b6ac4",
+                    "name": "2021 POKEMON SWORD AND SHIELD FUSION STRIKE BOLTUND V #249"
                 }
             }
         }
@@ -21691,6 +22653,15 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET PALDEAN FATES CERULEDGE #162"
                 }
             }
+        },
+        "2023": {
+            "#98": {
+                "STANDARD": {
+                    "alt_value": 13.61,
+                    "asset_id": "12b9307b-682d-47cb-9a35-b0ed572f4524",
+                    "name": "2023 POKEMON PAL EN-PALDEA EVOLVED PARADOX RIFT SINGLE PACK BLISTERS CERULEDGE #98"
+                }
+            }
         }
     },
     "KAKUNA": {
@@ -21761,6 +22732,20 @@
                     "alt_value": 110.19,
                     "asset_id": "e4c2f38f-c91f-4c11-825c-dda51520c357",
                     "name": "2006 POKEMON EX LEGEND MAKER REVERSE HOLO GASTLY #52"
+                }
+            }
+        },
+        "2000": {
+            "#97": {
+                "1st Edition": {
+                    "alt_value": 31.66,
+                    "asset_id": "2182b0ea-a2f7-4007-9295-ea7742dfb87d",
+                    "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION SABRINA'S GASTLY #97"
+                },
+                "STANDARD": {
+                    "alt_value": 23.81,
+                    "asset_id": "cc9922f8-00ee-49d3-ab45-3b6637b4975f",
+                    "name": "2000 POKEMON GYM CHALLENGE SABRINA'S GASTLY #97"
                 }
             }
         }
@@ -21952,6 +22937,15 @@
                     "alt_value": 146.09,
                     "asset_id": "92816cc1-e637-49e1-9885-f4a8f12d6dec",
                     "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE HOLO EXEGGCUTE #75"
+                }
+            }
+        },
+        "1999": {
+            "#52": {
+                "1st Edition": {
+                    "alt_value": 18.73,
+                    "asset_id": "3ce06960-fa27-4e18-9444-646619a78db2",
+                    "name": "1999 POKEMON JUNGLE 1ST EDITION EXEGGCUTE #52"
                 }
             }
         }
@@ -22217,6 +23211,15 @@
                     "name": "1999 POKEMON JUNGLE HOLO VICTREEBEL #14A"
                 }
             }
+        },
+        "1996": {
+            "#71": {
+                "STANDARD": {
+                    "alt_value": 11.72,
+                    "asset_id": "bd659719-4eb6-4210-b475-76776acfa8d2",
+                    "name": "1996 POKEMON GREEN VERSION PLAYING CARDS KING OF DIAMONDS VICTREEBEL #71"
+                }
+            }
         }
     },
     "SOBBLE": {
@@ -22333,6 +23336,22 @@
                     "alt_value": 21.12,
                     "asset_id": "6debd823-c6ca-4665-acf4-a6e0419d4aee",
                     "name": "2017 POKEMON SUN AND MOON LUNALA GX #141"
+                }
+            },
+            "#153": {
+                "STANDARD": {
+                    "alt_value": 19.8,
+                    "asset_id": "24ca2f43-ef6a-426a-ae90-ccbd9b49842e",
+                    "name": "2017 POKEMON SUN AND MOON LUNALA GX #153"
+                }
+            }
+        },
+        "2018": {
+            "#172": {
+                "STANDARD": {
+                    "alt_value": 53.09,
+                    "asset_id": "2be6e793-919c-4d95-af9e-97ece094aef5",
+                    "name": "2018 ULTRA POKEMON SUN AND MOON PRISM LUNALA GX #172"
                 }
             }
         }
@@ -22503,6 +23522,15 @@
                     "name": "2019 POKEMON SWORD AND SHIELD BLACK STAR PROMOS BIDOOF DAY HOLO SPECIAL DELIVERY BIDOOF #SWSH177"
                 }
             }
+        },
+        "2022": {
+            "#59": {
+                "STANDARD": {
+                    "alt_value": 14.14,
+                    "asset_id": "e9887da7-7ea3-4af1-a4cb-0c9c0f77522f",
+                    "name": "2022 POKEMON GO BIDOOF #59"
+                }
+            }
         }
     },
     "PELIPPER": {
@@ -22575,6 +23603,15 @@
                     "alt_value": 15.2,
                     "asset_id": "9bc96ea6-3455-4ee7-8b85-d06499f5397f",
                     "name": "2016 POKEMON XY EVOLUTIONS REVERSE HOLO NIDORINO #44"
+                }
+            }
+        },
+        "2002": {
+            "#56": {
+                "Reverse Holo": {
+                    "alt_value": 137.48,
+                    "asset_id": "97abef1a-4768-45dd-a530-1028583d8db7",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION REVERSE HOLO NIDORINO #56"
                 }
             }
         }
@@ -23099,6 +24136,15 @@
                     "name": "2006 POKEMON EX LEGEND MAKER HOLO AGGRON #2"
                 }
             }
+        },
+        "2015": {
+            "#153": {
+                "STANDARD": {
+                    "alt_value": 90.16,
+                    "asset_id": "d03ab932-51a3-44d9-9651-a5f96eddd41c",
+                    "name": "2015 POKEMON XY PRIMAL CLASH AGGRON EX #153"
+                }
+            }
         }
     },
     "SHEDINJA": {
@@ -23148,6 +24194,15 @@
                     "alt_value": 59.68,
                     "asset_id": "acc72cfc-d15f-4383-93ac-6006f6c92825",
                     "name": "1999 POKEMON BASE SET 1ST EDITION METAPOD #54"
+                }
+            }
+        },
+        "2001": {
+            "#42": {
+                "1st Edition Holo": {
+                    "alt_value": 30.35,
+                    "asset_id": "e06a9159-4808-40ff-b926-a938dd529bf1",
+                    "name": "2001 POKEMON NEO DISCOVERY 1ST EDITION HOLO METAPOD #42"
                 }
             }
         }
@@ -23315,6 +24370,15 @@
                     "name": "1999 POKEMON BASE SET PONYTA #60"
                 }
             }
+        },
+        "2000": {
+            "#64": {
+                "1st Edition": {
+                    "alt_value": 18.25,
+                    "asset_id": "951b3db6-70b1-4c6e-b2a8-3eeda0fa14b7",
+                    "name": "2000 POKEMON TEAM ROCKET 1ST EDITION PONYTA #64"
+                }
+            }
         }
     },
     "PECHARUNT": {
@@ -23418,6 +24482,15 @@
                     "name": "2012 POKEMON BLACK AND WHITE BOUNDARIES CROSSED KELDEO EX #49"
                 }
             }
+        },
+        "2019": {
+            "#240": {
+                "STANDARD": {
+                    "alt_value": 29.06,
+                    "asset_id": "0ff4a753-0a9e-4141-889c-c1c593d7f3fb",
+                    "name": "2019 POKEMON SUN AND MOON UNIFIED MINDS KELDEO GX #240"
+                }
+            }
         }
     },
     "CUBONE": {
@@ -23427,6 +24500,11 @@
                     "alt_value": 53.12,
                     "asset_id": "b527fde4-1460-4648-9ec1-c284fb0deb0d",
                     "name": "1999 POKEMON JUNGLE 1ST EDITION CUBONE #50"
+                },
+                "STANDARD": {
+                    "alt_value": 32.38,
+                    "asset_id": "d64412e4-4319-4307-ab24-fb184b76cc74",
+                    "name": "1999 POKEMON JUNGLE CUBONE #50"
                 }
             }
         }
@@ -23458,6 +24536,15 @@
                     "alt_value": 13.98,
                     "asset_id": "aacdc0cb-6964-4274-a955-24cc90101992",
                     "name": "2025 POKEMON SCARLET AND VIOLET DESTINED RIVALS ILLUSTRATION RARE ROTOM #197"
+                }
+            }
+        },
+        "2009": {
+            "#RT2": {
+                "Holo": {
+                    "alt_value": 57.19,
+                    "asset_id": "8e911f88-38e7-4ef4-918b-72bb6c160d3a",
+                    "name": "2009 POKEMON PLATINUM RISING RIVALS HOLO FROST ROTOM #RT2"
                 }
             }
         }
@@ -23909,6 +24996,13 @@
                     "asset_id": "372344ff-e937-4df2-bd9a-e8945171e1aa",
                     "name": "2009 POKEMON REGIGIGAS LV. X COLLECTION PACK LEAFEON #2"
                 }
+            },
+            "#11": {
+                "Holo": {
+                    "alt_value": 32.66,
+                    "asset_id": "254f20fa-0505-4934-b846-bb6cdf4c365c",
+                    "name": "2009 POKEMON REGIGIGAS LV. X COLLECTION PACK HOLO REGIGIGAS LV X #11"
+                }
             }
         },
         "2023": {
@@ -24125,6 +25219,15 @@
                     "alt_value": 13.08,
                     "asset_id": "05a60bff-534a-4b9b-9da2-9a2e05d18bba",
                     "name": "2018 ULTRA POKEMON GX SHINY BUZZWOLE GX #228"
+                }
+            }
+        },
+        "2017": {
+            "#104": {
+                "Reverse Holo": {
+                    "alt_value": 16.21,
+                    "asset_id": "79d8b59c-8192-42a2-baf0-da518a650b91",
+                    "name": "2017 POKEMON SUN AND MOON CRIMSON INVASION REVERSE HOLO BUZZWOLE GX #104"
                 }
             }
         }
@@ -24404,6 +25507,15 @@
                     "name": "2019 POKEMON SUN AND MOON UNIFIED MINDS MAWILE GX #246"
                 }
             }
+        },
+        "2006": {
+            "#9": {
+                "Holo": {
+                    "alt_value": 35.82,
+                    "asset_id": "f4cdc308-9977-4353-ae3c-ecdabc434f64",
+                    "name": "2006 POKEMON EX CRYSTAL GUARDIANS HOLO MAWILE #9"
+                }
+            }
         }
     },
     "DIPPLIN": {
@@ -24455,6 +25567,15 @@
                     "alt_value": 12.66,
                     "asset_id": "82cad8eb-ab1a-4770-85ba-01876226122d",
                     "name": "2000 POKEMON BASE SET 2 WEEPINBELL #64"
+                }
+            }
+        },
+        "1999": {
+            "#48": {
+                "1st Edition": {
+                    "alt_value": 18.67,
+                    "asset_id": "779ae479-5d8b-41dc-84dc-15d80fb917dd",
+                    "name": "1999 POKEMON JUNGLE 1ST EDITION WEEPINBELL #48"
                 }
             }
         }
@@ -24552,6 +25673,13 @@
                     "alt_value": 42.39,
                     "asset_id": "814d5e34-bfb5-41d2-afe0-ff42e74fb339",
                     "name": "2018 POKEMON SUN AND MOON FORBIDDEN LIGHT XERNEAS GX #139"
+                }
+            },
+            "#126": {
+                "STANDARD": {
+                    "alt_value": 26.66,
+                    "asset_id": "3a7293ee-bf90-4af1-91f5-41a312ef5214",
+                    "name": "2018 POKEMON SUN & MOON FORBIDDEN LIGHT XERNEAS GX #126"
                 }
             }
         }
@@ -24705,6 +25833,15 @@
                     "alt_value": 20.52,
                     "asset_id": "a3566ef0-017f-4967-9b80-dd7798bfc0d9",
                     "name": "2019 POKEMON SUN AND MOON HIDDEN FATES SHINY VAULT ROWLET #SV2"
+                }
+            }
+        },
+        "2018": {
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 67.02,
+                    "asset_id": "a5e071d6-5a18-4418-9c0e-b59a08b28d85",
+                    "name": "2018 POKEMON MUNCH: A RETROSPECTIVE CAMPAIGN POSTCARD ROWLET"
                 }
             }
         }
@@ -24861,6 +25998,15 @@
                     "alt_value": 38.59,
                     "asset_id": "307b6ebc-4416-4833-8ead-63c804476386",
                     "name": "1999 POKEMON BASE SET 1ST EDITION NIDORAN #55"
+                }
+            }
+        },
+        "2013": {
+            "#NNO": {
+                "STANDARD": {
+                    "alt_value": 52.12,
+                    "asset_id": "fdef8263-ed33-41b1-a125-7f6af501541b",
+                    "name": "2013 POKEMON HANAFUDA NIDORAN MALE & FEMALE #NNO"
                 }
             }
         }
@@ -25196,6 +26342,15 @@
                     "name": "1999 POKEMON JUNGLE 1ST EDITION MAROWAK #39"
                 }
             }
+        },
+        "2003": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 29.57,
+                    "asset_id": "1c03e7d0-7d01-416a-a21b-dd53c3fed25a",
+                    "name": "2003 POKEMON AQUAPOLIS MAROWAK #54"
+                }
+            }
         }
     },
     "MAMOSWINE": {
@@ -25254,6 +26409,15 @@
                     "alt_value": 14.24,
                     "asset_id": "58f829ba-d51c-4247-974e-2c17f07bb197",
                     "name": "2021 POKEMON SWORD AND SHIELD SHINING FATES SHINY VAULT SCORBUNNY #SV015"
+                }
+            }
+        },
+        "2020": {
+            "#4": {
+                "STANDARD": {
+                    "alt_value": 40.52,
+                    "asset_id": "ef991f61-3594-401a-bdf7-d97eebb2182b",
+                    "name": "2020 POKEMON FUTSAL COLLECTION SCORBUNNY ON THE BALL #004"
                 }
             }
         }
@@ -25722,6 +26886,13 @@
                     "asset_id": "218cdd59-6cc4-4651-9b75-3925875d3869",
                     "name": "2017 POKEMON XY BLACK STAR PROMO PREMIUM COLLECTION M SHARPEDO EX #XY200"
                 }
+            },
+            "#71": {
+                "STANDARD": {
+                    "alt_value": 38.56,
+                    "asset_id": "11e96137-8dfd-4b0c-a23f-bd3e2cc13152",
+                    "name": "2017 BEST POKEMON THE OF XY M SHARPEDO EX #71"
+                }
             }
         }
     },
@@ -25798,6 +26969,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK TRIPLET BEAT DEDENNE EX #89"
                 }
             }
+        },
+        "2019": {
+            "#219": {
+                "STANDARD": {
+                    "alt_value": 33.06,
+                    "asset_id": "dbe8835d-a768-45b7-b5ba-918d06a3e750",
+                    "name": "2019 POKEMON SUN AND MOON UNBROKEN BONDS SECRET DEDENNE GX #219"
+                }
+            }
         }
     },
     "GOLURK": {
@@ -25818,6 +26998,15 @@
                     "alt_value": 15.26,
                     "asset_id": "44cba2a5-b73e-4923-9317-e8dbd6f9be98",
                     "name": "2024 POKEMON SURGING SPARKS ILLUSTRATION RARE BRAVIARY #214"
+                }
+            }
+        },
+        "2025": {
+            "#155": {
+                "Illustration Rare": {
+                    "alt_value": 21.64,
+                    "asset_id": "b080ef68-4a51-46e4-b82f-27b17a714c63",
+                    "name": "2025 BLACK BOLT - BLK EN - ENGLISH ILLUSTRATION RARE HOLO BRAVIARY #155"
                 }
             }
         }
@@ -26085,6 +27274,15 @@
                     "alt_value": 14.18,
                     "asset_id": "34d74680-37e7-4888-aabd-2a75f8c60762",
                     "name": "2025 POKEMON SCARLET AND VIOLET DESTINED RIVALS ILLUSTRATION RARE YANMA #183"
+                }
+            }
+        },
+        "2001": {
+            "#17": {
+                "1st Edition Holo": {
+                    "alt_value": 227.11,
+                    "asset_id": "536e9971-f502-4bc7-85c6-379ec71bffca",
+                    "name": "2001 POKEMON NEO DISCOVERY 1ST EDITION HOLO YANMA #17"
                 }
             }
         }
@@ -26389,6 +27587,15 @@
                     "name": "2012 POKEMON BLACK AND WHITE BOUNDARIES CROSSED LANDORUS EX #89"
                 }
             }
+        },
+        "2013": {
+            "#85": {
+                "STANDARD": {
+                    "alt_value": 21.17,
+                    "asset_id": "2f7a729a-23f1-4af8-914e-1263783c855f",
+                    "name": "2013 POKEMON BLACK AND WHITE LEGENDARY TREASURES LANDORUS #85"
+                }
+            }
         }
     },
     "FIDOUGH": {
@@ -26508,6 +27715,15 @@
                     "alt_value": 18.09,
                     "asset_id": "acfb5fc8-d267-4905-83d3-97376e9adce6",
                     "name": "2019 POKEMON SUN AND MOON COSMIC ECLIPSE SECRET RARE WISHIWASHI #240"
+                }
+            }
+        },
+        "2017": {
+            "#133": {
+                "STANDARD": {
+                    "alt_value": 22.89,
+                    "asset_id": "aa4d078c-6b58-477e-84f9-18890cc07573",
+                    "name": "2017 POKEMON SUN AND MOON GUARDIANS RISING WISHIWASHI GX #133"
                 }
             }
         }
@@ -26663,6 +27879,13 @@
                     "asset_id": "34ae7171-dedb-449b-93b5-31a96e3a3625",
                     "name": "2003 POKEMON EX DRAGON REVERSE HOLO SLUGMA #72"
                 }
+            },
+            "#99": {
+                "STANDARD": {
+                    "alt_value": 23.85,
+                    "asset_id": "4b97fee4-891e-4381-833b-989d46a2bbe5",
+                    "name": "2003 POKEMON SKYRIDGE SLUGMA #99"
+                }
             }
         }
     },
@@ -26695,6 +27918,116 @@
                     "alt_value": 20.64,
                     "asset_id": "13178209-320a-4356-86d5-95a7d967d5eb",
                     "name": "2019 POKEMON SUN AND MOON TEAM UP INCINEROAR GX #167"
+                }
+            }
+        }
+    },
+    "ILLUMISE": {
+        "2003": {
+            "#38": {
+                "STANDARD": {
+                    "alt_value": 13.15,
+                    "asset_id": "5d668ae0-63f7-46c4-8b55-6497c12e6c73",
+                    "name": "2003 POKEMON EX SANDSTORM ILLUMISE #38"
+                }
+            }
+        }
+    },
+    "GRAVELER": {
+        "2002": {
+            "#44": {
+                "STANDARD": {
+                    "alt_value": 15.1,
+                    "asset_id": "bf26b813-65bb-4a97-82d4-9f31cdf45a45",
+                    "name": "2002 POKEMON LEGENDARY COLLECTION GRAVELER #44"
+                }
+            }
+        }
+    },
+    "EMOLGA": {
+        "2014": {
+            "#143": {
+                "STANDARD": {
+                    "alt_value": 57.83,
+                    "asset_id": "6de85285-2273-4ae7-89ee-714288175bc5",
+                    "name": "2014 POKEMON XY ULTRA RARE EMOLGA EX #143"
+                }
+            }
+        }
+    },
+    "KARRABLAST": {
+        "2025": {
+            "#94": {
+                "Illustration Rare": {
+                    "alt_value": 19.86,
+                    "asset_id": "80fc53f0-a8f4-4fea-a683-163a80fdf038",
+                    "name": "2025 BLACK BOLT - BLK EN - ENGLISH ILLUSTRATION RARE HOLO KARRABLAST #094"
+                }
+            }
+        }
+    },
+    "TEPIG": {
+        "2025": {
+            "#96": {
+                "Illustration Rare": {
+                    "alt_value": 21.53,
+                    "asset_id": "1ef0fc29-d76f-4406-b505-d75299e1d20c",
+                    "name": "2025 WHITE FLARE - WHT EN - ENGLISH ILLUSTRATION RARE HOLO TEPIG #096"
+                }
+            }
+        }
+    },
+    "TOXAPEX": {
+        "2017": {
+            "#136": {
+                "STANDARD": {
+                    "alt_value": 18.81,
+                    "asset_id": "fb79a5f4-542e-42ba-a2ee-554009dad7be",
+                    "name": "2017 POKEMON SUN AND MOON GUARDIANS RISING TOXAPEX GX #136"
+                }
+            }
+        }
+    },
+    "SEAKING": {
+        "1999": {
+            "#46": {
+                "1st Edition": {
+                    "alt_value": 25.14,
+                    "asset_id": "e4064f95-202d-4043-beb4-cfb898db293a",
+                    "name": "1999 POKEMON JUNGLE 1ST EDITION SEAKING #46"
+                }
+            }
+        }
+    },
+    "MAGEARNA": {
+        "2016": {
+            "#110": {
+                "STANDARD": {
+                    "alt_value": 19.96,
+                    "asset_id": "6e6bdbea-9c38-4f17-a0bd-39a5c32a08fa",
+                    "name": "2016 POKEMON XY STEAM SIEGE MAGEARNA EX #110"
+                }
+            }
+        }
+    },
+    "SENTRET": {
+        "2003": {
+            "#107": {
+                "STANDARD": {
+                    "alt_value": 17.97,
+                    "asset_id": "ce7c1ed6-c510-47dc-a0f2-1e1528d38f7a",
+                    "name": "2003 POKEMON AQUAPOLIS SENTRET #107"
+                }
+            }
+        }
+    },
+    "GIRAFARIG": {
+        "2003": {
+            "#58": {
+                "STANDARD": {
+                    "alt_value": 21.16,
+                    "asset_id": "29e9a49f-d8dd-45d8-90de-f2ba26be395a",
+                    "name": "2003 POKEMON SKYRIDGE GIRAFARIG #58"
                 }
             }
         }
