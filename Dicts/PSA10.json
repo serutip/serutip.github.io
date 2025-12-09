@@ -670,6 +670,11 @@
                     "alt_value": 64.19,
                     "asset_id": "690a150b-cff7-4d39-964c-7e8ebd481e75",
                     "name": "2025 POKEMON DESTINED RIVALS HOLO TEAM ROCKET'S MEWTWO EX #081"
+                },
+                "STANDARD": {
+                    "alt_value": 64.19,
+                    "asset_id": "690a150b-cff7-4d39-964c-7e8ebd481e75",
+                    "name": "2025 POKEMON DESTINED RIVALS TEAM ROCKET'S MEWTWO EX #081"
                 }
             }
         },
@@ -7458,6 +7463,11 @@
                     "name": "2018 ULTRA POKEMON GX SHINY BLAZIKEN #14",
                     "asset_id": "a9725687-ddd7-4335-967b-5869875e6cb1",
                     "alt_value": 58.58
+                },
+                "Holo": {
+                    "alt_value": 58.58,
+                    "asset_id": "a9725687-ddd7-4335-967b-5869875e6cb1",
+                    "name": "2018 POKEMON GX ULTRA SHINY HOLO BLAZIKEN #14"
                 }
             }
         },
