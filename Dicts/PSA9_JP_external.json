@@ -138,6 +138,11 @@
                     "alt_value": 10.04,
                     "asset_id": "0f67aa1b-d371-4201-8f35-d34930c2a0fb",
                     "name": "2024 POKEMON SCARLET AND VIOLET TERASTAL FESTIVAL EX JAPANESE REVERSE HOLO UMBREON #92"
+                },
+                "STANDARD": {
+                    "alt_value": 12.63,
+                    "asset_id": "d8fc9ed1-969a-447d-9176-537e4ea19ca3",
+                    "name": "2024 POKEMON TERASTAL FEST EX JAPANESE UMBREON #92"
                 }
             },
             "#93": {
@@ -1045,6 +1050,13 @@
                     "alt_value": 14.92,
                     "asset_id": "352356e2-2131-4b2f-a040-4e9f543a53b1",
                     "name": "2023 POKEMON JAPANESE CLF-TRADING CARD GAME CLASSIC VENUSAUR & LUGIA EX DECK ONIX #10"
+                }
+            },
+            "#5": {
+                "Holo": {
+                    "alt_value": 9.55,
+                    "asset_id": "6f67d836-94e1-4c86-920a-b2221cfce00f",
+                    "name": "2023 POKEMON TRADING CARD GAME CLASSIC JAPANESE VENUSAUR AND LUGIA EX DECK HOLO PARASECT #5"
                 }
             }
         },
@@ -4508,6 +4520,13 @@
                     "asset_id": "08dbcc85-4fea-441d-aac0-476ac4a502d1",
                     "name": "2022 POKEMON SWORD AND SHIELD PARADIGM TRIGGER JAPANESE LUGIA V #109"
                 }
+            },
+            "#324/S-P": {
+                "STANDARD": {
+                    "alt_value": 26.12,
+                    "asset_id": "9621a088-dec7-4179-859d-8fc2e6cdfb09",
+                    "name": "2022 POKEMON GET CHALLENGE CAMPAIGN JAPANESE LUGIA V #324 S-P"
+                }
             }
         },
         "2017": {
@@ -4996,6 +5015,20 @@
                     "alt_value": 18.36,
                     "asset_id": "75c4fc3b-8b5e-4c32-a45f-43a152b9655f",
                     "name": "2023 POKEMON SCARLET AND VIOLET RULER OF THE BLACK FLAME JAPANESE CHARIZARD EX #66"
+                }
+            },
+            "#14": {
+                "STANDARD": {
+                    "alt_value": 12.99,
+                    "asset_id": "00413eee-b8b0-4666-923f-f27bbe4edb9d",
+                    "name": "2023 POKEMON TRADING CARD GAME CLASSIC JAPANESE CHARIZARD AND HO-OH EX DECK CLEFABLE #14"
+                }
+            },
+            "#12": {
+                "STANDARD": {
+                    "alt_value": 14.47,
+                    "asset_id": "8f921505-72ee-4db8-8534-b6b27d2c331c",
+                    "name": "2023 POKEMON TRADING CARD GAME CLASSIC JAPANESE CHARIZARD AND HO-OH EX DECK ZAPDOS #12"
                 }
             }
         },
@@ -5600,6 +5633,13 @@
                     "alt_value": 47.8,
                     "asset_id": "d2beceda-42d1-40d1-8719-496d687638db",
                     "name": "2016 POKEMON JAPANESE MYTHICAL & LEGENDARY DREAM SHINE COLLECTION 1ST EDITION MANAPHY #12"
+                }
+            },
+            "#11": {
+                "1st Edition": {
+                    "alt_value": 18.77,
+                    "asset_id": "9ca0a546-fd0e-498c-93ee-aeee0e892907",
+                    "name": "2016 POKEMON JAPANESE MYTHICAL & LEGENDARY DREAM SHINE COLLECTION 1ST EDITION MANAPHY #11"
                 }
             }
         },
@@ -7695,6 +7735,13 @@
                     "asset_id": "d67dd5fa-0d3b-48df-a7bc-4facacdfdda7",
                     "name": "1999 POKEMON JAPANESE BULBASAUR DECK KOFFING #39"
                 }
+            },
+            "#37": {
+                "STANDARD": {
+                    "alt_value": 19.55,
+                    "asset_id": "c1a92540-7594-4e71-8c7d-aa2ad58525b3",
+                    "name": "1999 POKEMON JAPANESE BULBASAUR DECK JYNX #37"
+                }
             }
         },
         "1998": {
@@ -8129,6 +8176,11 @@
                     "alt_value": 15.25,
                     "asset_id": "3be0f506-59c1-4631-b1e9-93192712f873",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO NIDOKING #34"
+                },
+                "Holo": {
+                    "alt_value": 12.98,
+                    "asset_id": "be2e9dd0-5b1d-4e9f-9465-9677521bd4b4",
+                    "name": "2023 POKÉMON CARD 151 - SV2A JAPANESE HOLO NIDOKING #34"
                 }
             },
             "#174": {
@@ -8376,6 +8428,13 @@
                     "asset_id": "4a7b91eb-9281-4d4c-a385-670abdf7b7bb",
                     "name": "2021 POKEMON JAPANESE START DECK 100 GALARIAN MOLTRES V #422"
                 }
+            },
+            "#242": {
+                "STANDARD": {
+                    "alt_value": 18.47,
+                    "asset_id": "2dcaad6f-9712-48a2-8ced-c7870e98a641",
+                    "name": "2021 POKEMON SWORD AND SHIELD VMAX CLIMAX JAPANESE SUPER RARE GALARIAN MOLTRES V #242"
+                }
             }
         },
         "2016": {
@@ -8393,6 +8452,15 @@
                     "alt_value": 114.22,
                     "asset_id": "b23990da-e6c7-4a02-890f-f50c843205de",
                     "name": "2004 POKEMON PLAY PROMO JAPANESE HOLO MOLTRES EX #9"
+                }
+            }
+        },
+        "2018": {
+            "#18": {
+                "STANDARD": {
+                    "alt_value": 15.27,
+                    "asset_id": "2dca5842-264a-4a21-a57d-b7805d9b35a5",
+                    "name": "2018 POKEMON SUN AND MOON TAG BOLT JAPANESE MOLTRES #18"
                 }
             }
         }
@@ -8529,6 +8597,15 @@
                     "alt_value": 82.6,
                     "asset_id": "7ec1011b-351f-46e9-904c-eebce57ffff4",
                     "name": "1998 POKEMON PROMO JAPANESE COROCORO JYNX"
+                }
+            }
+        },
+        "2023": {
+            "#193": {
+                "STANDARD": {
+                    "alt_value": 13.81,
+                    "asset_id": "c14fcc39-c82d-42b7-a990-528f5cd09c5a",
+                    "name": "2023 POKÉMON CARD 151 - SV2A JAPANESE JYNX EX #193"
                 }
             }
         }
@@ -8855,6 +8932,15 @@
                     "alt_value": 13.67,
                     "asset_id": "7f69b443-93c8-4f2a-80ca-ef64ff1e96cf",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO PERSIAN #53"
+                }
+            }
+        },
+        "2025": {
+            "#118": {
+                "Holo": {
+                    "alt_value": 12.55,
+                    "asset_id": "03d329a6-bbe4-40ab-8b89-3652ad0eb4b4",
+                    "name": "2025 GLORY OF THE ROCKET GANG - SV10 - JAPANESE SUPER RARE HOLO TEAM ROCKET'S PERSIAN EX #118"
                 }
             }
         }
@@ -9212,6 +9298,13 @@
                     "alt_value": 18.51,
                     "asset_id": "86780809-5371-41c8-b425-be43eb9b805f",
                     "name": "2022 POKEMON SWORD AND SHIELD STRENGTH EXPANSION PACK INCANDESCENT ARCANA JAPANESE CHARACTER RARE GARDEVOIR #72"
+                }
+            },
+            "#55": {
+                "STANDARD": {
+                    "alt_value": 12.24,
+                    "asset_id": "910fbf73-797b-46dd-bd36-19fcaf310b5d",
+                    "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE RADIANT GARDEVOIR #55"
                 }
             }
         },
@@ -9968,6 +10061,15 @@
                     "alt_value": 16.49,
                     "asset_id": "689c2865-3b72-4424-9c80-909e9b5d4f73",
                     "name": "2014 POKEMON JAPANESE XY TIDAL STORM 1ST EDITION SHARPEDO EX #44"
+                }
+            }
+        },
+        "2015": {
+            "#21": {
+                "1st Edition": {
+                    "alt_value": 20.25,
+                    "asset_id": "98df94fe-f49a-4892-9b7b-548207ef30f8",
+                    "name": "2015 POKEMON JAPANESE XY DOUBLE CRISIS 1ST EDITION TEAM AQUA'S SHARPEDO #21"
                 }
             }
         }
@@ -12883,6 +12985,15 @@
                     "name": "2015 POKEMON EMERALD BREAK 1ST EDITION JAPANESE ARTICUNO #16"
                 }
             }
+        },
+        "2022": {
+            "#182": {
+                "STANDARD": {
+                    "alt_value": 15.73,
+                    "asset_id": "f105f1fa-5d89-4f14-a5e6-2566fd3ec1b8",
+                    "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE GALARIAN ARTICUNO #182"
+                }
+            }
         }
     },
     "MAGNETON": {
@@ -13426,6 +13537,15 @@
                     "name": "2001 POKEMON WEB JAPANESE 1ST EDITION SLOWPOKE #12"
                 }
             }
+        },
+        "1997": {
+            "#79": {
+                "STANDARD": {
+                    "alt_value": 22.05,
+                    "asset_id": "d4dcbb95-f895-42b0-855c-6a662ee06216",
+                    "name": "1997 POKEMON FOSSIL JAPANESE SLOWPOKE #79"
+                }
+            }
         }
     },
     "SUICUNE": {
@@ -13562,6 +13682,15 @@
                     "alt_value": 14.81,
                     "asset_id": "d2011f11-b7c8-4f2a-b187-49d24b86db0b",
                     "name": "2016 POKEMON JAPANESE MYTHICAL & LEGENDARY DREAM SHINE COLLECTION 1ST EDITION SUICUNE #10"
+                }
+            }
+        },
+        "2024": {
+            "#194": {
+                "STANDARD": {
+                    "alt_value": 11.88,
+                    "asset_id": "2a145191-6e9b-4849-9519-1b8539b5a856",
+                    "name": "2024 POKEMON JAPANESE SV-P PROMO SD GENERATIONS SP BTL SET SUICUNE #194"
                 }
             }
         }
@@ -14146,6 +14275,13 @@
                     "alt_value": 18.22,
                     "asset_id": "cf94299d-12ce-4ec7-8289-de88bd1c5ac0",
                     "name": "2023 POKEMON SCARLET AND VIOLET VIOLET EX JAPANESE ARCANINE EX #92"
+                }
+            },
+            "#16": {
+                "STANDARD": {
+                    "alt_value": 13.15,
+                    "asset_id": "ba662cd2-3a24-4703-87bf-02281027fff0",
+                    "name": "2023 POKEMON SCARLET AND VIOLET VIOLET EX JAPANESE ARCANINE EX #16"
                 }
             }
         },
@@ -15871,6 +16007,15 @@
                     "name": "2018 POKEMON JAPANESE SUN & MOON DRAGON STORM WHITE KYUREM GX #63"
                 }
             }
+        },
+        "2016": {
+            "#15": {
+                "1st Edition": {
+                    "alt_value": 13.11,
+                    "asset_id": "de4d4faa-b09e-44db-bf02-ee2f5f113863",
+                    "name": "2016 POKEMON JAPANESE MYTHICAL & LEGENDARY DREAM SHINE COLLECTION 1ST EDITION WHITE KYUREM #15"
+                }
+            }
         }
     },
     "HIPPOWDON": {
@@ -15934,6 +16079,15 @@
                     "alt_value": 12.4,
                     "asset_id": "e3b70e03-6ac4-4567-ac00-b10a6273293e",
                     "name": "2009 POKEMON JAPANESE BATTLE STARTER DECKS MAGMORTAR STARTER DECK VULPIX #1"
+                }
+            }
+        },
+        "2022": {
+            "#175": {
+                "Illustration Rare": {
+                    "alt_value": 19.15,
+                    "asset_id": "ee9d41b1-6a89-4fba-8307-9c4f406904ef",
+                    "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE ART RARE MAGMORTAR #175"
                 }
             }
         }
@@ -17294,6 +17448,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE IVYSAUR #167"
                 }
             }
+        },
+        "1999": {
+            "#2": {
+                "STANDARD": {
+                    "alt_value": 25.45,
+                    "asset_id": "5c6c6035-ac07-42cf-a407-dfb46ddb6d45",
+                    "name": "1999 POKEMON SOUTHERN ISLANDS PROMO JAPANESE IVYSAUR #2"
+                }
+            }
         }
     },
     "DUSKNOIR": {
@@ -17303,6 +17466,13 @@
                     "alt_value": 21.67,
                     "asset_id": "bc656894-d0e3-4d45-b8a9-a9c7de9aec82",
                     "name": "2024 POKEMON SCARLET AND VIOLET NIGHT WANDERER JAPANESE ART RARE DUSKNOIR #70"
+                }
+            },
+            "#66": {
+                "Reverse Holo": {
+                    "alt_value": 11.15,
+                    "asset_id": "b7e49495-4192-4575-bbff-6bf72d9e827a",
+                    "name": "2024 POKEMON TERASTAL FEST EX JAPANESE MASTER BALL HOLO DUSKNOIR #66"
                 }
             }
         },
@@ -18914,6 +19084,15 @@
                     "name": "2015 POKEMON JAPANESE XY DOUBLE CRISIS 1ST EDITION HOLO TEAM MAGMA'S AGGRON #14"
                 }
             }
+        },
+        "2010": {
+            "#55": {
+                "1st Edition": {
+                    "alt_value": 28.48,
+                    "asset_id": "a7874fc4-bdd6-4fc6-958b-9dee0a6ab3eb",
+                    "name": "2010 POKEMON JAPANESE CLASH AT THE SUMMIT 1ST EDITION AGGRON #55"
+                }
+            }
         }
     },
     "SCIZOR": {
@@ -19462,6 +19641,15 @@
                     "alt_value": 51.04,
                     "asset_id": "a9408d59-f3e8-45d6-9f08-5266911dc623",
                     "name": "2009 POKEMON JAPANESE MELEE! POKEMON SCRAMBLE HEATRAN #4"
+                }
+            }
+        },
+        "2022": {
+            "#11": {
+                "STANDARD": {
+                    "alt_value": 11.64,
+                    "asset_id": "b08707af-6a8e-4c73-be96-650106e8be3b",
+                    "name": "2022 POKEMON JAPANESE SWORD & SHIELD BATTLE REGION SPARKLING HEATRAN #11"
                 }
             }
         }
@@ -20041,6 +20229,15 @@
                     "name": "2014 POKEMON JAPANESE XY PROMO SPECIAL PACK SILVER MEGA METAGROSS EX #102"
                 }
             }
+        },
+        "2021": {
+            "#50": {
+                "STANDARD": {
+                    "alt_value": 10.53,
+                    "asset_id": "a8159299-f498-4959-bc0f-0c10160ef276",
+                    "name": "2021 POKEMON SWORD AND SHIELD JET-BLACK SPIRIT JAPANESE METAGROSS VMAX #50"
+                }
+            }
         }
     },
     "POLIWAG": {
@@ -20160,6 +20357,13 @@
                     "alt_value": 13.01,
                     "asset_id": "d993f39d-85b9-4a57-a0a5-cefc67d4feb0",
                     "name": "2024 POKEMON TERASTAL FEST EX JAPANESE SPECIAL ART RARE CORNERSTONE MASK OGERPON EX #216"
+                }
+            },
+            "#204": {
+                "Special Art Rare": {
+                    "alt_value": 12.74,
+                    "asset_id": "a3ee684c-357f-4472-a554-d85f3f1aa0df",
+                    "name": "2024 POKEMON TERASTAL FEST EX JAPANESE SPECIAL ART RARE HEARTHFLAME MASK OGERPON EX #204"
                 }
             }
         }
@@ -21995,6 +22199,13 @@
                     "asset_id": "b3a2153c-7c3f-457a-8521-941d8648cda8",
                     "name": "2021 POKEMON SWORD AND SHIELD JET BLACK SPIRIT JAPANESE ZERAORA V #74"
                 }
+            },
+            "#224": {
+                "STANDARD": {
+                    "alt_value": 15.15,
+                    "asset_id": "80c149ae-052d-4f82-bcaa-031b6a9066d5",
+                    "name": "2021 POKEMON SWORD AND SHIELD VMAX CLIMAX JAPANESE ZERAORA #224"
+                }
             }
         },
         "2024": {
@@ -22075,6 +22286,15 @@
                     "alt_value": 13.76,
                     "asset_id": "27f9fa66-7293-4988-9faf-7e173f5d07b9",
                     "name": "2019 POKEMON SUN AND MOON TAG TEAM GX ALL STARS JAPANESE ULTRA NECROZMA GX #101"
+                }
+            }
+        },
+        "2018": {
+            "#69": {
+                "STANDARD": {
+                    "alt_value": 17.19,
+                    "asset_id": "f252845f-a4f6-4756-951b-74439e190c95",
+                    "name": "2018 POKEMON JAPANESE SUN & MOON FORBIDDEN LIGHT ULTRA NECROZMA GX #69"
                 }
             }
         }
@@ -22329,6 +22549,15 @@
                     "name": "2001 POKEMON JAPANESE EXPEDITION 1ST EDITION TAUROS #30"
                 }
             }
+        },
+        "2005": {
+            "#8": {
+                "STANDARD": {
+                    "alt_value": 26.05,
+                    "asset_id": "d965705c-bc94-41e8-8e5f-b3a268ce0120",
+                    "name": "2005 POKEMON JAPANESE POKEPARK BLUE TAUROS #8"
+                }
+            }
         }
     },
     "SABLEYE": {
@@ -22393,6 +22622,15 @@
                     "alt_value": 12.44,
                     "asset_id": "e7ab49d4-4358-4080-83a1-251f5e70dbe5",
                     "name": "2021 POKEMON 25TH ANNIVERSARY COLLECTION JAPANESE REVERSE FOIL SOLGALEO #16"
+                }
+            }
+        },
+        "2017": {
+            "#70": {
+                "STANDARD": {
+                    "alt_value": 13.74,
+                    "asset_id": "573c10a4-99c9-4775-8af2-5acdd8ac65f5",
+                    "name": "2017 POKEMON JAPANESE SUN & MOON GX BATTLE BOOST SOLGALEO GX #70"
                 }
             }
         }
@@ -22617,6 +22855,15 @@
                     "name": "2003 POKEMON JAPANESE MAGMA VS AQUA 1ST EDITION SWAMPERT EX #50"
                 }
             }
+        },
+        "2007": {
+            "#310": {
+                "STANDARD": {
+                    "alt_value": 38.69,
+                    "asset_id": "97ce2aea-0e8f-48a8-af44-90b8742ef4e2",
+                    "name": "2007 POKEMON JAPANESE DIAMOND & PEARL MOONLIT PURSUIT SWAMPERT #310"
+                }
+            }
         }
     },
     "VIRIZION": {
@@ -22797,6 +23044,15 @@
                     "alt_value": 35.15,
                     "asset_id": "2f774b00-83d9-45b6-933e-f2092b2e0047",
                     "name": "2000 POKEMON NEO 2: CROSSING THE RUINS JAPANESE HOLO SMEARGLE #235"
+                }
+            }
+        },
+        "2022": {
+            "#73": {
+                "Character Rare": {
+                    "alt_value": 14.08,
+                    "asset_id": "f1247767-bee7-42f4-b196-491331cc218c",
+                    "name": "2022 POKEMON SWORD AND SHIELD STRENGTH EXPANSION PACK INCANDESCENT ARCANA JAPANESE CHARACTER RARE SMEARGLE #73"
                 }
             }
         }
@@ -23387,6 +23643,15 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET WHITE FLARE JAPANESE ART RARE TORNADUS #158"
                 }
             }
+        },
+        "2010": {
+            "#54": {
+                "STANDARD": {
+                    "alt_value": 38.4,
+                    "asset_id": "9bd09424-f3bf-4112-9b25-fc27ff8fec1b",
+                    "name": "2010 POKEMON JAPANESE BLACK & WHITE BLACK COLLECTION TORNADUS #54"
+                }
+            }
         }
     },
     "COSMOG": {
@@ -23772,6 +24037,15 @@
                     "name": "2005 POKEMON JAPANESE HOLON RESEARCH TOWER LIGHTNING 1ST EDITION DRATINI #5"
                 }
             }
+        },
+        "2023": {
+            "#147": {
+                "Reverse Holo": {
+                    "alt_value": 17.14,
+                    "asset_id": "b1d4a4ba-c1a6-4098-9ae7-71da4d66fc69",
+                    "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL PATTERN REVERSE HOLO DRATINI #147"
+                }
+            }
         }
     },
     "OMANYTE": {
@@ -23900,6 +24174,15 @@
                     "name": "2025 POKEMON EX STARTER SET JAPANESE MARNIE'S MORPEKO #020"
                 }
             }
+        },
+        "2023": {
+            "#76": {
+                "Illustration Rare": {
+                    "alt_value": 17.94,
+                    "asset_id": "d0ecd0b0-3019-4e40-a35c-4148383108bc",
+                    "name": "2023 POKEMON SCARLET AND VIOLET ANCIENT ROAR JAPANESE ART RARE MORPEKO #76"
+                }
+            }
         }
     },
     "MINCCINO": {
@@ -24019,6 +24302,15 @@
                     "alt_value": 17.63,
                     "asset_id": "fa4c678a-d93b-4ad1-94c9-cc198e21d30c",
                     "name": "2024 POKEMON SCARLET AND VIOLET TERASTAL FESTIVAL EX JAPANESE SPECIAL ART RARE PALAFIN EX #207"
+                }
+            }
+        },
+        "2023": {
+            "#339": {
+                "STANDARD": {
+                    "alt_value": 15.78,
+                    "asset_id": "8c17649c-00f9-4495-b7d9-6a552f643941",
+                    "name": "2023 POKEMON SCARLET AND VIOLET HIGH CLASS PACK SHINY TREASURE EX JAPANESE PALAFIN #339"
                 }
             }
         }
@@ -24428,6 +24720,13 @@
                     "asset_id": "80a603a6-ec41-4fd0-820a-d61e97630892",
                     "name": "2008 POKEMON JAPANESE BONDS TO THE END OF TIME 1ST EDITION MISMAGIUS GL #46"
                 }
+            },
+            "#34": {
+                "1st Edition": {
+                    "alt_value": 19.12,
+                    "asset_id": "e27f15b3-e06a-445f-8a54-6ad39ada68e5",
+                    "name": "2008 POKEMON JAPANESE STORMFRONT 1ST EDITION MISMAGIUS #34"
+                }
             }
         }
     },
@@ -24652,6 +24951,116 @@
                     "alt_value": 13.28,
                     "asset_id": "1011007e-61f9-47d6-a59d-fb4bb15a23be",
                     "name": "2011 POKEMON JAPANESE BLACK & WHITE PROMO POKEMON KIDS SPECIAL GOTHORITA #64"
+                }
+            }
+        }
+    },
+    "NAGANADEL": {
+        "2019": {
+            "#65": {
+                "STANDARD": {
+                    "alt_value": 21.81,
+                    "asset_id": "69ff55a3-bf39-49f2-bd37-7a68607d5c80",
+                    "name": "2019 POKEMON SUN AND MOON SKY LEGEND JAPANESE HYPER RARE NAGANADEL GX #65"
+                }
+            }
+        }
+    },
+    "CYCLIZAR": {
+        "2024": {
+            "#51": {
+                "Holo": {
+                    "alt_value": 10.37,
+                    "asset_id": "1df78e39-b94c-46f9-87ee-66f64ac65d5f",
+                    "name": "2024 POKEMON SCARLET AND VIOLET PARADISE DRAGONA JAPANESE HOLO CYCLIZAR EX #51"
+                }
+            }
+        }
+    },
+    "SNOVER": {
+        "2025": {
+            "#67": {
+                "Illustration Rare": {
+                    "alt_value": 10.34,
+                    "asset_id": "ca143e55-6112-4d19-a19b-e5a69e4e155a",
+                    "name": "2025 POKEMON MEGA SYMPHONIA JAPANESE ART RARE SNOVER #067"
+                }
+            }
+        }
+    },
+    "PHIONE": {
+        "2024": {
+            "#71": {
+                "Illustration Rare": {
+                    "alt_value": 16.64,
+                    "asset_id": "f13bce87-b54f-4b5c-8d4a-b1b96ef2369e",
+                    "name": "2024 POKEMON SCARLET AND VIOLET CRIMSON HAZE JAPANESE ART RARE PHIONE #71"
+                }
+            }
+        }
+    },
+    "TREVENANT": {
+        "2014": {
+            "#71": {
+                "1st Edition": {
+                    "alt_value": 26.3,
+                    "asset_id": "ebfbba2b-4378-4b6e-a81f-73b433998473",
+                    "name": "2014 POKEMON JAPANESE XY GAIA VOLCANO 1ST EDITION TREVENANT EX #71"
+                }
+            }
+        }
+    },
+    "GOLURK": {
+        "2025": {
+            "#129": {
+                "Illustration Rare": {
+                    "alt_value": 10.28,
+                    "asset_id": "efafbb94-b6a7-4122-b202-2ebd7a2d973c",
+                    "name": "2025 POKEMON JAPANESE SV11B-BLACK BOLT ART RARE GOLURK #129"
+                }
+            }
+        }
+    },
+    "BELLSPROUT": {
+        "1997": {
+            "#69": {
+                "STANDARD": {
+                    "alt_value": 15.19,
+                    "asset_id": "6bfac05f-8a10-4e81-a301-622a43fca985",
+                    "name": "1997 POKEMON JUNGLE JAPANESE BELLSPROUT #69"
+                }
+            }
+        }
+    },
+    "FRAXURE": {
+        "2012": {
+            "#15": {
+                "1st Edition": {
+                    "alt_value": 11.77,
+                    "asset_id": "dd47dca8-d781-48ae-9681-b977ca4ade6c",
+                    "name": "2012 POKEMON JAPANESE BLACK & WHITE DRAGON SELECTION 1ST EDITION FRAXURE #15"
+                }
+            }
+        }
+    },
+    "SHELGON": {
+        "2012": {
+            "#7": {
+                "1st Edition": {
+                    "alt_value": 10.98,
+                    "asset_id": "77d73baa-4040-4f42-9f72-1fb0d7e80a2f",
+                    "name": "2012 POKEMON JAPANESE BLACK & WHITE DRAGON SELECTION 1ST EDITION SHELGON #7"
+                }
+            }
+        }
+    },
+    "CASTFORM": {
+        "2021": {
+            "#211": {
+                "STANDARD": {
+                    "alt_value": 12.76,
+                    "asset_id": "ba5811b7-bcf3-4910-bcbf-75f0321cbad6",
+                    "name": "2021 POKEMON SWORD AND SHIELD VMAX CLIMAX JAPANESE CASTFORM #211"
                 }
             }
         }
