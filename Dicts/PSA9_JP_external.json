@@ -1294,6 +1294,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO GROWLITHE #58"
                 }
             }
+        },
+        "2002": {
+            "#30P": {
+                "Promo / Stamped": {
+                    "alt_value": 47.38,
+                    "asset_id": "18697331-307e-42d8-b4d5-21f0a5edf4c3",
+                    "name": "2002 POKEMON JAPANESE MCDONALDS PROMO GROWLITHE #030P"
+                }
+            }
         }
     },
     "GROUDON": {
@@ -2096,6 +2105,13 @@
                     "asset_id": "e46fa654-56a1-41ef-a4da-8573b421c45a",
                     "name": "2001 POKEMON EXPEDITION JAPANESE HOLO BLASTOISE #108"
                 }
+            },
+            "#76": {
+                "1st Edition": {
+                    "alt_value": 80.66,
+                    "asset_id": "a2316e24-7feb-4722-a387-d359df9c4771",
+                    "name": "2001 POKEMON JAPANESE EXPEDITION 1ST EDITION BLASTOISE #76"
+                }
             }
         },
         "2022": {
@@ -2127,6 +2143,13 @@
                     "alt_value": 82.07,
                     "asset_id": "d8cd9b8f-2b29-436c-8a86-9d6d58038db2",
                     "name": "2013 POKEMON HANAFUDA KANTO JAPANESE BLASTOISE"
+                }
+            },
+            "#61": {
+                "1st Edition": {
+                    "alt_value": 162.55,
+                    "asset_id": "6b053756-5f1e-4686-abef-3935dd9428b1",
+                    "name": "2013 POKEMON JAPANESE XY Y-1ST EDITION BLASTOISE EX #61"
                 }
             }
         },
@@ -2728,6 +2751,13 @@
                     "alt_value": 38.47,
                     "asset_id": "877d34ba-bc96-438c-8347-8a7d9009570e",
                     "name": "2000 POKEMON NEO 2 PROMO JAPANESE REVERSE HOLO ENTEI #244"
+                }
+            },
+            "#MOVIE 24": {
+                "STANDARD": {
+                    "alt_value": 238.13,
+                    "asset_id": "e58365c7-f0a8-4ccc-ae60-c4a52e1fd6e4",
+                    "name": "2000 POKEMON JAPANESE BANDAI ANIME MOVIE 2 ENTEI VS ASH-PRISM #MOVIE 24"
                 }
             }
         },
@@ -4413,6 +4443,15 @@
                     "name": "2006 POKEMON EX DRAGON FRONTIERS JAPANESE 1ST EDITION HOLO DRAGONITE EX #4"
                 }
             }
+        },
+        "2015": {
+            "#43": {
+                "Holo": {
+                    "alt_value": 47.4,
+                    "asset_id": "37243e62-9713-48c3-a0cb-8924570b18e9",
+                    "name": "2015 POKEMON XY EMERALD BREAK JAPANESE HOLO DRAGONITE #43"
+                }
+            }
         }
     },
     "LUGIA": {
@@ -6094,6 +6133,15 @@
                     "name": "1997 POKEMON TEAM ROCKET JAPANESE MAGIKARP #129"
                 }
             }
+        },
+        "2004": {
+            "#23": {
+                "1st Edition": {
+                    "alt_value": 39.11,
+                    "asset_id": "1dea7b73-a81f-4053-a719-c53a497da6bf",
+                    "name": "2004 POKEMON JAPANESE CLASH OF THE BLUE SKY 1ST EDITION MAGIKARP #23"
+                }
+            }
         }
     },
     "MEWTWO": {
@@ -6281,6 +6329,13 @@
                     "alt_value": 57.95,
                     "asset_id": "1a463236-bb5f-4192-94af-c59c8764ee24",
                     "name": "1998 POKEMON JAPANESE BANDAI CARDDASS VENDING MEWTWO #MOVIE 14"
+                }
+            },
+            "#150": {
+                "STANDARD": {
+                    "alt_value": 98.4,
+                    "asset_id": "388b61e9-975d-4a67-b843-df3282be3867",
+                    "name": "1998 POKEMON JAPANESE RED GREEN GIFT MEWTWO #150"
                 }
             }
         },
@@ -7544,6 +7599,13 @@
                     "asset_id": "a8aa3247-59cc-4078-850d-1264d819f3ef",
                     "name": "2019 POKEMON BABANUKI OLD MAID JAPANESE MEOWTH"
                 }
+            },
+            "#29": {
+                "STANDARD": {
+                    "alt_value": 36.42,
+                    "asset_id": "99d9c718-e75b-4d2b-ba48-4130e23c3014",
+                    "name": "2019 POKEMON JAPANESE S PROMO POKEMON CARD CHALLENGE MEOWTH VMAX #29"
+                }
             }
         },
         "1997": {
@@ -7852,6 +7914,13 @@
                     "alt_value": 20.0,
                     "asset_id": "c1a92540-7594-4e71-8c7d-aa2ad58525b3",
                     "name": "1999 POKEMON JAPANESE BULBASAUR DECK JYNX #37"
+                }
+            },
+            "#18": {
+                "STANDARD": {
+                    "alt_value": 50.04,
+                    "asset_id": "4b849fc0-fe0d-4c93-9af4-5d44e62715d4",
+                    "name": "1999 INTRO PACK JAPANESE BULBASAUR DECK BULBASAUR #18"
                 }
             }
         },
@@ -9061,6 +9130,15 @@
                     "name": "2025 GLORY OF THE ROCKET GANG - SV10 - JAPANESE SUPER RARE HOLO TEAM ROCKET'S PERSIAN EX #118"
                 }
             }
+        },
+        "1997": {
+            "#53": {
+                "Holo": {
+                    "alt_value": 20.64,
+                    "asset_id": "5a813665-3d5b-40f2-9783-5d8b4616f8b4",
+                    "name": "1997 POKEMON JUNGLE JAPANESE HOLO PERSIAN #53"
+                }
+            }
         }
     },
     "AMPHAROS": {
@@ -9708,6 +9786,13 @@
                     "asset_id": "94388f44-3ebd-4be4-b10a-b3ef5b05c0f8",
                     "name": "2015 XY CONCEPT PACK LEGENDARY SHINE COLLECTION JAPANESE RESHIRAM #002"
                 }
+            },
+            "#161": {
+                "STANDARD": {
+                    "alt_value": 35.35,
+                    "asset_id": "3dd42c34-e6c4-4e1e-bc33-738d93ad0bf0",
+                    "name": "2015 POKEMON JAPANESE XY PROMO POKEMON CENTER RESHIRAM #161"
+                }
             }
         },
         "2025": {
@@ -10275,6 +10360,13 @@
                     "alt_value": 284.67,
                     "asset_id": "41c87c61-6581-417d-bdcf-e1555be7a454",
                     "name": "1998 POKEMON VENDING SERIES ONE JAPANESE SNORLAX #143"
+                }
+            },
+            "#13": {
+                "STANDARD": {
+                    "alt_value": 81.21,
+                    "asset_id": "219150e2-2bd5-4813-b449-f44c907bbb25",
+                    "name": "1998 POKEMON JAPANESE BANDAI CARDDASS VENDING SNORLAX #13"
                 }
             }
         },
@@ -10942,6 +11034,13 @@
                     "asset_id": "fd560b4b-a035-4259-9695-6c1fdb010a6c",
                     "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE PIDGEOT EX #96"
                 }
+            },
+            "#97": {
+                "STANDARD": {
+                    "alt_value": 61.09,
+                    "asset_id": "f7efa4e0-def1-4e49-8441-425449c8cefb",
+                    "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE MEGA PIDGEOT EX #97"
+                }
             }
         },
         "1999": {
@@ -11423,9 +11522,9 @@
             },
             "#41": {
                 "STANDARD": {
-                    "alt_value": 191.39,
-                    "asset_id": "7c1e2b19-8191-47b7-b0bb-3312be99b17b",
-                    "name": "2005 POKEMON MIRAGE FOREST 1ST EDITION JAPANESE MEW EX #41"
+                    "alt_value": 195.32,
+                    "asset_id": "02b658d4-0214-4369-a2a1-14b16d39b698",
+                    "name": "2005 POKEMON MIRAGE FOREST UNLIMITED JAPANESE MEW EX #41"
                 }
             },
             "#85": {
@@ -12100,6 +12199,13 @@
                     "asset_id": "a9f6a02d-76ae-4936-9717-9476ccac8a8b",
                     "name": "2014 POKEMON JAPANESE XY RISING FIST 1ST EDITION-ULTRA RARE M LUCARIO EX #105"
                 }
+            },
+            "#66": {
+                "STANDARD": {
+                    "alt_value": 62.01,
+                    "asset_id": "9e4ecfd1-d6b5-48a8-bfa0-514a559a66e1",
+                    "name": "2014 POKEMON JAPANESE XY PROMO COROCORO ICHIBAN! LUCARIO EX #66"
+                }
             }
         },
         "2010": {
@@ -12153,6 +12259,13 @@
                     "alt_value": 55.17,
                     "asset_id": "9a59ceec-8659-4624-85f8-70b7d49f7743",
                     "name": "2005 POKEMON JAPANESE PROMOS MEIJI CHOCOLATE DITTO #108PCGP"
+                }
+            },
+            "#46": {
+                "1st Edition": {
+                    "alt_value": 41.87,
+                    "asset_id": "f854f0d4-cefe-46df-8a36-96c0be0fd3d5",
+                    "name": "2005 POKEMON JAPANESE HOLON RESEARCH TOWER 1ST EDITION DITTO MR. MIME #46"
                 }
             }
         },
@@ -13303,6 +13416,15 @@
                     "name": "2001 POKEMON VENDING SERIES THREE JAPANESE GRAVELER #75"
                 }
             }
+        },
+        "1997": {
+            "#75": {
+                "STANDARD": {
+                    "alt_value": 14.69,
+                    "asset_id": "94cbbeac-13b8-4e00-9002-baa3dc133fb5",
+                    "name": "1997 POKEMON FOSSIL JAPANESE GRAVELER #75"
+                }
+            }
         }
     },
     "CATERPIE": {
@@ -13497,6 +13619,15 @@
                     "alt_value": 11.84,
                     "asset_id": "fa3c3162-4692-49c5-a2a8-36646dfc2e0a",
                     "name": "2024 POKEMON PARADISE DRAGONA JAPANESE ART RARE SKARMORY #73"
+                }
+            }
+        },
+        "2012": {
+            "#177": {
+                "STANDARD": {
+                    "alt_value": 29.74,
+                    "asset_id": "ea4c209d-3c6d-409f-b255-57e8624f7ab8",
+                    "name": "2012 POKEMON JAPANESE BLACK & WHITE PROMO PLASMA GALE BOOSTER PACK SKARMORY #177"
                 }
             }
         }
@@ -13699,6 +13830,13 @@
                     "asset_id": "594897ef-d69e-40b0-99ab-94e46919ce73",
                     "name": "2002 POKEMON WIND FROM THE SEA JAPANESE HOLO SLOWPOKE #31"
                 }
+            },
+            "#4T": {
+                "STANDARD": {
+                    "alt_value": 81.85,
+                    "asset_id": "8a9fa3ca-3765-43d0-926f-b997be5791a9",
+                    "name": "2002 POKEMON TRAINERS MAGAZINE PROMO JAPANESE SLOWPOKE #4T"
+                }
             }
         },
         "1999": {
@@ -13752,6 +13890,13 @@
                     "alt_value": 47.93,
                     "asset_id": "b3bac047-4555-4626-acf4-cc2d4044436a",
                     "name": "2001 POKEMON NEO 3 PROMO JAPANESE SUICUNE #245"
+                }
+            },
+            "#96": {
+                "1st Edition Holo": {
+                    "alt_value": 208.29,
+                    "asset_id": "68156a85-6d36-4ee9-9041-1bb439fc3452",
+                    "name": "2001 POKEMON VS JAPANESE 1ST EDITION HOLO ROCKET'S SUICUNE #96"
                 }
             }
         },
@@ -13976,6 +14121,15 @@
                     "alt_value": 131.03,
                     "asset_id": "b44a2218-f5a4-42ef-944e-c4a430a685e1",
                     "name": "2016 POKEMON XY POKEKYUN COLLECTION 1ST EDITION JAPANESE SYLVEON EX #25"
+                }
+            }
+        },
+        "2014": {
+            "#67": {
+                "1st Edition Holo": {
+                    "alt_value": 21.05,
+                    "asset_id": "9d631bb3-33e7-43f8-861d-06bf7d8c9a36",
+                    "name": "2014 POKEMON XY RISING FIST JAPANESE 1ST EDITION HOLO SYLVEON #67"
                 }
             }
         }
@@ -15256,6 +15410,13 @@
                     "asset_id": "ba5deed1-2bdc-42e6-a373-0c15b1692b69",
                     "name": "2002 POKEMON THE TOWN ON NO MAP JAPANESE 1ST EDITION HOLO ZAPDOS #38"
                 }
+            },
+            "#37": {
+                "1st Edition": {
+                    "alt_value": 78.6,
+                    "asset_id": "9af5bc12-239b-41d4-b189-002e2f8fc528",
+                    "name": "2002 POKEMON JAPANESE THE TOWN ON NO MAP 1ST EDITION ZAPDOS #37"
+                }
             }
         }
     },
@@ -15334,6 +15495,15 @@
                     "alt_value": 44.86,
                     "asset_id": "8b181d26-c328-459d-b59f-255573c5c4e5",
                     "name": "1999 POKEMON SOUTHERN ISLANDS PROMO JAPANESE LAPRAS #131"
+                }
+            }
+        },
+        "2019": {
+            "#69": {
+                "STANDARD": {
+                    "alt_value": 20.62,
+                    "asset_id": "680099fe-aa5e-438b-8026-d71c8872b649",
+                    "name": "2019 POKEMON SWORD AND SHIELD JAPANESE SWORD HYPER RARE LAPRAS VMAX #69"
                 }
             }
         }
@@ -16114,6 +16284,13 @@
                     "asset_id": "c4250b41-a843-4834-bc5a-9afe95802e52",
                     "name": "2001 POKEMON NEO 4: DARKNESS AND TO LIGHT JAPANESE HOLO CROBAT #169"
                 }
+            },
+            "#79": {
+                "1st Edition": {
+                    "alt_value": 35.4,
+                    "asset_id": "7cff6a69-c59b-4344-b657-e63755c2657d",
+                    "name": "2001 POKEMON VS JAPANESE 1ST EDITION KOGA'S CROBAT #79"
+                }
             }
         },
         "2002": {
@@ -16519,6 +16696,11 @@
                     "alt_value": 58.58,
                     "asset_id": "d6e505b8-7573-43a4-b374-732085d65278",
                     "name": "2001 POKEMON WEB JAPANESE 1ST EDITION DARK CHARMELEON #22"
+                },
+                "STANDARD": {
+                    "alt_value": 47.74,
+                    "asset_id": "f73638c1-725c-495d-a2db-7b58c6be7fa2",
+                    "name": "2001 POKEMON WEB SET UNLIMITED JAPANESE DARK CHARMELEON #22"
                 }
             },
             "#7": {
@@ -16730,6 +16912,11 @@
                     "alt_value": 82.92,
                     "asset_id": "7ae3f8aa-31eb-4504-ba2d-c2540e862c4e",
                     "name": "2002 POKEMON MYSTERIOUS MOUNTAINS UNLIMITED JAPANESE NIDOQUEEN #10"
+                },
+                "1st Edition Holo": {
+                    "alt_value": 94.98,
+                    "asset_id": "91318bdb-34b0-4124-9af2-d2fef252456e",
+                    "name": "2002 POKEMON MYSTERIOUS MOUNTAINS JAPANESE HOLO 1ST EDITION NIDOQUEEN #10"
                 }
             }
         },
@@ -18620,6 +18807,15 @@
                     "name": "2008 POKEMON JAPANESE DIAMOND & PEARL TEMPLE OF ANGER 1ST EDITION KINGDRA #134"
                 }
             }
+        },
+        "2016": {
+            "#85": {
+                "1st Edition": {
+                    "alt_value": 55.79,
+                    "asset_id": "f8509704-9da9-422a-95ca-c323f599d345",
+                    "name": "2016 POKEMON JAPANESE XY AWAKENING PSYCHIC KING 1ST EDITION KINGDRA EX #85"
+                }
+            }
         }
     },
     "COMBUSKEN": {
@@ -18922,6 +19118,11 @@
                     "alt_value": 31.37,
                     "asset_id": "7107840a-52bd-4910-ac07-99d1733c119a",
                     "name": "2007 POKEMON JAPANESE DIAMOND & PEARL SHINING DARKNESS 1ST EDITION SALAMENCE #431"
+                },
+                "STANDARD": {
+                    "alt_value": 41.48,
+                    "asset_id": "c8a05558-7c9b-4d7b-8f07-1418cebe4f3c",
+                    "name": "2007 POKEMON JAPANESE DIAMOND & PEARL SHINING DARKNESS SALAMENCE #431"
                 }
             }
         },
@@ -19065,6 +19266,15 @@
                     "name": "2013 POKEMON JAPANESE BLACK & WHITE EX BATTLE BOOST 1ST EDITION PIPLUP #25"
                 }
             }
+        },
+        "2009": {
+            "#7": {
+                "STANDARD": {
+                    "alt_value": 34.19,
+                    "asset_id": "2fa75bef-c65a-4d44-a6a2-2a7d51727e05",
+                    "name": "2009 POKEMON JAPANESE MOVIE COMMEMORATION RANDOM PACK PIPLUP M #7"
+                }
+            }
         }
     },
     "SEADRA": {
@@ -19206,6 +19416,13 @@
                     "alt_value": 79.58,
                     "asset_id": "1d1e39eb-aefd-4678-b2b2-0825690a48c5",
                     "name": "2000 POKEMON JAPANESE PROMO ALL NIPPON AIRLINES MARILL #183"
+                }
+            },
+            "#PROMO": {
+                "STANDARD": {
+                    "alt_value": 65.65,
+                    "asset_id": "bc8b79c7-0571-463a-bb4b-b18dfc14b24a",
+                    "name": "2000 POKEMON MEIJI JAPANESE GOLD FOIL MARILL"
                 }
             }
         },
@@ -19532,6 +19749,13 @@
                     "alt_value": 30.26,
                     "asset_id": "7d8a26a9-576d-4a30-9557-b8c06666477e",
                     "name": "2018 POKEMON JAPANESE SUN & MOON FORBIDDEN LIGHT XERNEAS GX #106"
+                }
+            },
+            "#98": {
+                "STANDARD": {
+                    "alt_value": 25.92,
+                    "asset_id": "3d089cd7-19de-4a5e-a55f-59873a4aa709",
+                    "name": "2018 POKEMON JAPANESE SUN & MOON FORBIDDEN LIGHT XERNEAS GX #98"
                 }
             }
         },
@@ -20854,6 +21078,15 @@
                     "name": "2018 POKEMON SUN AND MOON PROMO JAPANESE POKEMON CARD GYM ALOLAN MAROWAK GX #252SMP"
                 }
             }
+        },
+        "2001": {
+            "#23": {
+                "1st Edition": {
+                    "alt_value": 37.39,
+                    "asset_id": "8233e95a-e5f8-4ce6-97d7-27908db0adc9",
+                    "name": "2001 POKEMON VS JAPANESE 1ST EDITION MORTY'S MAROWAK #23"
+                }
+            }
         }
     },
     "CRUSTLE": {
@@ -21711,6 +21944,11 @@
                     "alt_value": 21.07,
                     "asset_id": "042371e8-5721-4b95-a3f3-ae65d778b702",
                     "name": "2001 POKEMON EXPEDITION JAPANESE HOLO PONYTA #7"
+                },
+                "1st Edition": {
+                    "alt_value": 20.49,
+                    "asset_id": "5e4b30bc-7573-45f2-af73-791c19fd3d90",
+                    "name": "2001 POKEMON JAPANESE EXPEDITION 1ST EDITION PONYTA #7"
                 }
             }
         },
@@ -21729,6 +21967,15 @@
                     "alt_value": 14.41,
                     "asset_id": "2a92ba6e-29ab-4898-aad6-4a6e912daa7c",
                     "name": "2002 POKEMON WIND FROM THE SEA JAPANESE HOLO PONYTA #24"
+                }
+            }
+        },
+        "1999": {
+            "#77": {
+                "STANDARD": {
+                    "alt_value": 16.26,
+                    "asset_id": "df69825c-e659-449a-bd70-a018185831c4",
+                    "name": "1999 POKEMON GYM 2: CHALLENGE FROM THE DARKNESS JAPANESE PONYTA #77"
                 }
             }
         }
@@ -22214,6 +22461,13 @@
                     "alt_value": 14.69,
                     "asset_id": "7c668932-a578-48ab-9424-d7ecb3e87e48",
                     "name": "2014 POKEMON XY PHANTOM GATE JAPANESE 1ST EDITION FLORGES EX #60"
+                }
+            },
+            "#92": {
+                "1st Edition": {
+                    "alt_value": 29.93,
+                    "asset_id": "4aa75606-0f84-4207-adca-ff1fd36b7fa4",
+                    "name": "2014 POKEMON JAPANESE XY PHANTOM GATE 1ST EDITION FLORGES EX #92"
                 }
             }
         }
@@ -23254,6 +23508,13 @@
                     "asset_id": "41f78c40-5ff1-47bc-a533-86bd608f8fbf",
                     "name": "2011 POKEMON JAPANESE BLACK & WHITE PROMO COROCORO VIRIZION #39"
                 }
+            },
+            "#67": {
+                "1st Edition": {
+                    "alt_value": 57.34,
+                    "asset_id": "bed9e952-edd7-45e5-bca8-f2b33a93de71",
+                    "name": "2011 POKEMON JAPANESE BLACK & WHITE RED COLLECTION 1ST EDITION VIRIZION #67"
+                }
             }
         },
         "2012": {
@@ -24033,6 +24294,15 @@
                     "alt_value": 43.25,
                     "asset_id": "9bd09424-f3bf-4112-9b25-fc27ff8fec1b",
                     "name": "2010 POKEMON JAPANESE BLACK & WHITE BLACK COLLECTION TORNADUS #54"
+                }
+            }
+        },
+        "2011": {
+            "#73": {
+                "1st Edition": {
+                    "alt_value": 60.34,
+                    "asset_id": "7596fa68-ae11-43b8-89c3-45e3f492f63c",
+                    "name": "2011 POKEMON JAPANESE BLACK & WHITE DARK RUSH 1ST EDITION TORNADUS EX #73"
                 }
             }
         }
@@ -24957,6 +25227,15 @@
                     "name": "2001 POKEMON MEIJI PROMO JAPANESE SILVER FOIL BLISSEY"
                 }
             }
+        },
+        "2005": {
+            "#89": {
+                "STANDARD": {
+                    "alt_value": 63.28,
+                    "asset_id": "137a9659-1edf-413b-a722-4041a9f4f019",
+                    "name": "2005 POKEMON JAPANESE GOLDEN SKY, SILVERY OCEAN BLISSEY EX #89"
+                }
+            }
         }
     },
     "TEDDIURSA": {
@@ -25502,6 +25781,37 @@
                     "alt_value": 14.61,
                     "asset_id": "eb0711d0-b5f6-4dbf-af4d-c9b6260ce506",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ILLUSTRATION RARE TANGELA #178"
+                }
+            }
+        },
+        "1996": {
+            "#114": {
+                "STANDARD": {
+                    "alt_value": 18.93,
+                    "asset_id": "3846e397-67ce-4968-8cbf-4b0507879c8a",
+                    "name": "1996 POKEMON BASE SET JAPANESE TANGELA #114"
+                }
+            }
+        }
+    },
+    "SNIVY": {
+        "2013": {
+            "#1": {
+                "1st Edition": {
+                    "alt_value": 18.1,
+                    "asset_id": "c009ea39-9e63-4973-95ea-e77c455f8399",
+                    "name": "2013 POKEMON JAPANESE BLACK & WHITE SHINY COLLECTION 1ST EDITION SNIVY #1"
+                }
+            }
+        }
+    },
+    "AUDINO": {
+        "2013": {
+            "#17": {
+                "1st Edition": {
+                    "alt_value": 15.95,
+                    "asset_id": "4d23b450-af20-4d08-86ac-0c7255ceab8f",
+                    "name": "2013 POKEMON JAPANESE BLACK & WHITE SHINY COLLECTION 1ST EDITION AUDINO #17"
                 }
             }
         }
