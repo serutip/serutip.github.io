@@ -2160,6 +2160,13 @@
                     "asset_id": "e55e6761-ae77-4205-aeec-cd8b545bacad",
                     "name": "2019 POKEMON SUN AND MOON PROMO JAPANESE MEWTWO STRIKES BACK CHARIZARD #366SMP"
                 }
+            },
+            "#36": {
+                "STANDARD": {
+                    "alt_value": 31.07,
+                    "asset_id": "f91ceb44-b3ba-4947-adbc-49056edb9f77",
+                    "name": "2019 POKEMON JAPANESE SUN & MOON DOUBLE BLAZE MEWTWO #36"
+                }
             }
         },
         "1998": {
@@ -5092,6 +5099,15 @@
                     "name": "1996 POKEMON BASE SET JAPANESE VULPIX #37"
                 }
             }
+        },
+        "2025": {
+            "#67": {
+                "Illustration Rare": {
+                    "alt_value": 35.19,
+                    "asset_id": "ae613d3f-d01a-4174-8f72-7ad8c74c0ebc",
+                    "name": "2025 POKEMON JAPANESE M1L-MEGA BRAVE ART RARE VULPIX #067"
+                }
+            }
         }
     },
     "TYRANITAR": {
@@ -6803,6 +6819,15 @@
                     "alt_value": 211.71,
                     "asset_id": "35b022f0-392f-45fe-bcca-f5062daac2a9",
                     "name": "2015 POKEMON XY CONCEPT PACK LEGENDARY SHINE COLLECTION JAPANESE 1ST EDITION ARCEUS #024"
+                }
+            }
+        },
+        "2016": {
+            "#35": {
+                "1st Edition Holo": {
+                    "alt_value": 72.1,
+                    "asset_id": "77450735-0f97-4c25-930c-b2f265b9cba6",
+                    "name": "2016 POKEMON XY BREAK MYTHICAL AND LEGENDARY DREAM SHINE COLLECTION JAPANESE 1ST EDITION HOLO ARCEUS #035"
                 }
             }
         }
@@ -9275,6 +9300,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET SNOW HAZARD JAPANESE ART RARE MARILL #73"
                 }
             }
+        },
+        "2012": {
+            "#11": {
+                "STANDARD": {
+                    "alt_value": 61.29,
+                    "asset_id": "d9929cfc-0f38-4da9-8670-4d41e35e2429",
+                    "name": "2012 POKEMON JAPANESE EVERYONE'S EXCITING BATTLE MARILL #11"
+                }
+            }
         }
     },
     "PSYDUCK": {
@@ -11142,6 +11176,15 @@
                     "name": "2006 POKEMON MIRACLE CRYSTAL JAPANESE GOLD STAR HOLO ALAKAZAM #33"
                 }
             }
+        },
+        "2022": {
+            "#31": {
+                "STANDARD": {
+                    "alt_value": 26.85,
+                    "asset_id": "4271abd9-70c8-43b8-b46f-461bff25801f",
+                    "name": "2022 POKEMON SWORD AND SHIELD STRENGTH EXPANSION PACK INCANDESCENT ARCANA JAPANESE RADIANT ALAKAZAM #31"
+                }
+            }
         }
     },
     "SNEASEL": {
@@ -12010,6 +12053,15 @@
                     "alt_value": 38.58,
                     "asset_id": "de4d4faa-b09e-44db-bf02-ee2f5f113863",
                     "name": "2016 POKEMON JAPANESE MYTHICAL & LEGENDARY DREAM SHINE COLLECTION 1ST EDITION WHITE KYUREM #15"
+                }
+            }
+        },
+        "2011": {
+            "#24": {
+                "1st Edition": {
+                    "alt_value": 56.76,
+                    "asset_id": "77a2044a-151e-48b4-9404-07c7dc17ff1c",
+                    "name": "2011 POKEMON JAPANESE BLACK & WHITE RED COLLECTION 1ST EDITION KYUREM #24"
                 }
             }
         }
@@ -19217,6 +19269,15 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET EXPANSION PACK 151 JAPANESE ART RARE MACHOKE #177"
                 }
             }
+        },
+        "2001": {
+            "#67": {
+                "STANDARD": {
+                    "alt_value": 75.76,
+                    "asset_id": "b7b914d8-33bf-43ef-8c4e-730b6f762259",
+                    "name": "2001 POKEMON VENDING SERIES THREE JAPANESE MACHOKE #67"
+                }
+            }
         }
     },
     "CUTIEFLY": {
@@ -20373,6 +20434,11 @@
                     "alt_value": 99.8,
                     "asset_id": "d3069e44-7633-4751-bedf-684f665001a5",
                     "name": "1997 POKEMON ROCKET JAPANESE HOLO DARK GOLBAT #42"
+                },
+                "STANDARD": {
+                    "alt_value": 87.85,
+                    "asset_id": "131292f5-8811-44eb-9996-da72fd5f695d",
+                    "name": "1997 POKEMON THE MYSTERY OF THE FOSSILS JAPANESE GOLBAT #42"
                 }
             }
         }
@@ -20589,6 +20655,15 @@
                     "alt_value": 34.94,
                     "asset_id": "a32ec756-59ed-49bb-8ae7-4f3e23aa051c",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO NIDORAN #29"
+                }
+            }
+        },
+        "1997": {
+            "#29": {
+                "STANDARD": {
+                    "alt_value": 59.86,
+                    "asset_id": "b650704b-4b5f-4ced-8c50-8d2ba8b5c2ec",
+                    "name": "1997 POKEMON JUNGLE JAPANESE NIDORAN #29"
                 }
             }
         }
@@ -24230,6 +24305,15 @@
                     "name": "2025 POKEMON JAPANESE SV11B-BLACK BOLT ART RARE EMOLGA #116"
                 }
             }
+        },
+        "2013": {
+            "#62": {
+                "1st Edition": {
+                    "alt_value": 134.55,
+                    "asset_id": "1f67e30f-53d0-489d-b177-f809386e0279",
+                    "name": "2013 POKEMON JAPANESE XY Y-1ST EDITION EMOLGA EX #62"
+                }
+            }
         }
     },
     "OMANYTE": {
@@ -25651,6 +25735,15 @@
                     "name": "2011 POKEMON JAPANESE BLACK & WHITE PROMO POKEMON KIDS SPECIAL GOTHORITA #64"
                 }
             }
+        },
+        "2023": {
+            "#78": {
+                "Illustration Rare": {
+                    "alt_value": 20.98,
+                    "asset_id": "b4a334e0-9231-4a49-b7d9-f86406d5cf80",
+                    "name": "2023 POKEMON SNOW HAZARD JAPANESE ART RARE GOTHORITA #78"
+                }
+            }
         }
     },
     "CYCLIZAR": {
@@ -25812,6 +25905,39 @@
                     "alt_value": 47.1,
                     "asset_id": "4d23b450-af20-4d08-86ac-0c7255ceab8f",
                     "name": "2013 POKEMON JAPANESE BLACK & WHITE SHINY COLLECTION 1ST EDITION AUDINO #17"
+                }
+            }
+        }
+    },
+    "SNUBBULL": {
+        "2002": {
+            "#68": {
+                "STANDARD": {
+                    "alt_value": 48.49,
+                    "asset_id": "34ce35af-eb19-4ccf-8081-85e26a350641",
+                    "name": "2002 POKEMON JAPANESE SPLIT EARTH SNUBBULL #68"
+                }
+            }
+        }
+    },
+    "SAWK": {
+        "2025": {
+            "#128": {
+                "Illustration Rare": {
+                    "alt_value": 29.91,
+                    "asset_id": "fd80ff3e-7ef6-412f-8dc3-75566e752d56",
+                    "name": "2025 WHITE FLARE - SV11W - JAPANESE ART RARE HOLO SAWK #128"
+                }
+            }
+        }
+    },
+    "PAWNIARD": {
+        "2025": {
+            "#147": {
+                "Illustration Rare": {
+                    "alt_value": 33.0,
+                    "asset_id": "16d4841f-c5e0-4c59-a416-11729f11bd88",
+                    "name": "2025 POKEMON JAPANESE SV11B-BLACK BOLT ART RARE PAWNIARD #147"
                 }
             }
         }
