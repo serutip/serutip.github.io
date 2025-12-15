@@ -3842,6 +3842,11 @@
                     "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE HOOPA V #231",
                     "asset_id": "663c9dc2-367d-4f9f-b895-2846e42e63cd",
                     "alt_value": 31.48
+                },
+                "Art Rare": {
+                    "alt_value": 31.48,
+                    "asset_id": "663c9dc2-367d-4f9f-b895-2846e42e63cd",
+                    "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE SPECIAL ART RARE HOOPA V #231"
                 }
             }
         }
@@ -12169,6 +12174,11 @@
                     "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE NINETALES #15",
                     "asset_id": "dd6b8eeb-84e1-4263-a853-5d4ecf686668",
                     "alt_value": 44.29
+                },
+                "1st Edition": {
+                    "alt_value": 44.29,
+                    "asset_id": "dd6b8eeb-84e1-4263-a853-5d4ecf686668",
+                    "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE 1ST EDITION NINETALES #15"
                 }
             }
         },
