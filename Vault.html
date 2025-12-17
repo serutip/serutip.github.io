@@ -219,6 +219,7 @@
         }
         #ccBtn { background: var(--accent); color: #fff8f0; }
         #marketBtn { background: linear-gradient(135deg, #8b6f9e, #a78bfa); color: white; }
+        #altResearchBtn { background: linear-gradient(135deg, #4a2c6d, #7b4ba8); color: white; }
 
         @media (max-width: 768px) {
             #detailPanel {
@@ -250,7 +251,7 @@
         </div>
         <div id="altInfo">Enter a PSA cert number and click LOOKUP ALT to search its value.</div>
         <div class="results" id="results"></div>
-        <div class="footer">Wallet: 21beBQJJNCAFYpb1UvgykE5Vgrjjgq1U6cZWVcQ4ea6x • December 12, 2025</div>
+        <div class="footer">Wallet: 21beBQJJNCAFYpb1UvgykE5Vgrjjgq1U6cZWVcQ4ea6x • December 17, 2025</div>
     </div>
 
     <!-- Detail Panel -->
@@ -264,8 +265,10 @@
         <p><strong>ALT Value:</strong> <span id="detailAlt" class="value alt">Loading...</span></p>
         <p><strong>Suggested Sale (97%):</strong> <span id="detailSale" class="value sale">Loading...</span></p>
         <p><strong>NFT Address:</strong> <a id="detailNftLink" href="" target="_blank"></a></p>
+        <button id="altResearchBtn">Alt Research Page</button>
         <button id="ccBtn">View on Collector Crypt</button>
         <button id="marketBtn">View MagicEden Listing</button>
+        
     </div>
 
     <script>
@@ -281,18 +284,17 @@
         const lookupBtn = document.getElementById('lookupBtn');
 
         async function fetchWalletData() {
-            // Try multiple proxies in order until one works
             const proxies = [
-                'https://api.allorigins.win/raw?url=',  // Old reliable, but sometimes flaky
-                'https://corsproxy.io/?',              // Popular alternative
-                'https://api.codetabs.com/v1/proxy?quest=', // Another good one
-                'https://cors-anywhere.herokuapp.com/' // Classic (may need to visit site first to unlock)
+                'https://api.allorigins.win/raw?url=',
+                'https://corsproxy.io/?',
+                'https://api.codetabs.com/v1/proxy?quest=',
+                'https://cors-anywhere.herokuapp.com/'
             ];
 
             for (const proxy of proxies) {
                 try {
                     const url = proxy + encodeURIComponent(API_URL);
-                    const response = await fetch(url, { signal: AbortSignal.timeout(10000) }); // 10s timeout
+                    const response = await fetch(url, { signal: AbortSignal.timeout(10000) });
                     if (response.ok) {
                         const data = await response.json();
                         if (data.filterNFtCard && data.filterNFtCard.length > 0) {
@@ -310,9 +312,8 @@
         function processCards(rawData) {
             let rawCards = rawData.filterNFtCard || [];
             if (rawCards.length === 0) {
-                rawCards = [
-                ];
-                summary.textContent = 'Live data unavailable – showing latest known collection (Dec 12, 2025)';
+                rawCards = [];
+                summary.textContent = 'Live data unavailable – showing latest known collection (Dec 17, 2025)';
             }
             cards = rawCards.map(card => {
                 const title = card.itemName.split(' PSA ')[0].trim();
@@ -329,12 +330,11 @@
                     location: (card.location || []).join(' • '),
                     nft: card.nftAddress || '',
                     cert: card.gradingID || '',
-                    altValue: null
+                    altValue: null,
+                    assetId: null
                 };
             });
         }
-
-        // Rest of the functions remain the same (renderCards, fetchAltValue, loadAltValues, showDetail, etc.)
 
         function renderCards() {
             results.innerHTML = '';
@@ -361,8 +361,7 @@
         }
 
         async function fetchAltValue(cert) {
-            // (same as before)
-            if (!cert || !/^\d{6,}$/.test(cert)) return null;
+            if (!cert || !/^\d{6,}$/.test(cert)) return { value: null, assetId: null };
             try {
                 const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
                     method: "POST",
@@ -373,10 +372,10 @@
                         query: `query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id name } gradeNumber gradingCompany } }`
                     })
                 });
-                if (!certRes.ok) return null;
+                if (!certRes.ok) return { value: null, assetId: null };
                 const certJson = await certRes.json();
                 const certData = certJson?.data?.cert;
-                if (!certData?.asset?.id) return null;
+                if (!certData?.asset?.id) return { value: null, assetId: null };
 
                 const assetId = certData.asset.id;
                 const grade = certData.gradeNumber || "10";
@@ -391,19 +390,22 @@
                         query: `query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) { asset(id: $id) { altValueInfo(tsFilter: $tsFilter) { currentAltValue } } }`
                     })
                 });
-                if (!valueRes.ok) return null;
+                if (!valueRes.ok) return { value: null, assetId };
                 const valueJson = await valueRes.json();
-                return valueJson?.data?.asset?.altValueInfo?.currentAltValue ? parseFloat(valueJson.data.asset.altValueInfo.currentAltValue) : null;
+                const currentValue = valueJson?.data?.asset?.altValueInfo?.currentAltValue;
+                return { value: currentValue ? parseFloat(currentValue) : null, assetId };
             } catch (e) {
                 console.error(e);
-                return null;
+                return { value: null, assetId: null };
             }
         }
 
         async function loadAltValues() {
             for (const card of cards) {
                 if (card.cert) {
-                    card.altValue = await fetchAltValue(card.cert);
+                    const result = await fetchAltValue(card.cert);
+                    card.altValue = result.value;
+                    card.assetId = result.assetId;
                 }
             }
         }
@@ -417,17 +419,25 @@
             const nftLink = document.getElementById('detailNftLink');
             nftLink.textContent = card.nft ? `${card.nft.slice(0,8)}...${card.nft.slice(-8)}` : 'N/A';
             nftLink.href = card.nft ? `https://solscan.io/token/${card.nft}` : '#';
+
             const detailAlt = document.getElementById('detailAlt');
             const detailSale = document.getElementById('detailSale');
-            if (card.altValue !== null && card.altValue > 0) {
+            const altBtn = document.getElementById('altResearchBtn');
+
+            if (card.altValue !== null && card.altValue > 0 && card.assetId) {
                 detailAlt.textContent = `$${card.altValue.toFixed(2)}`;
                 detailSale.textContent = `$${(card.altValue * 0.97).toFixed(1)}`;
+                altBtn.style.display = 'block';
+                altBtn.onclick = () => window.open(`https://app.alt.xyz/browse/${card.assetId}`, '_blank');
             } else {
                 detailAlt.textContent = 'Not found on ALT';
                 detailSale.textContent = 'N/A';
+                altBtn.style.display = 'none';
             }
-            document.getElementById('ccBtn').onclick = () => window.open('https://collectorcrypt.com', '_blank');
+
+            document.getElementById('ccBtn').onclick = () => window.open('https://collectorcrypt.com/assets/solana/' + card.nft, '_blank');
             document.getElementById('marketBtn').onclick = () => window.open('https://magiceden.io/item-details/' + card.nft, '_blank');
+
             document.getElementById('detailPanel').classList.add('open');
         }
 
@@ -439,10 +449,13 @@
             const cert = certInput.value.trim();
             if (!cert) return;
             altInfo.innerHTML = 'Looking up...';
-            const altValue = await fetchAltValue(cert);
-            if (altValue !== null) {
-                const sale = (altValue * 0.97).toFixed(1);
-                altInfo.innerHTML = `<strong>ALT Value: $${altValue.toFixed(2)}</strong><br><strong>Suggested Sale (97%): $${sale}</strong>`;
+            const result = await fetchAltValue(cert);
+            if (result.value !== null) {
+                const sale = (result.value * 0.97).toFixed(1);
+                altInfo.innerHTML = `<strong>ALT Value: $${result.value.toFixed(2)}</strong><br><strong>Suggested Sale (97%): $${sale}</strong>`;
+                if (result.assetId) {
+                    altInfo.innerHTML += `<br><a href="https://app.alt.xyz/browse/${result.assetId}" target="_blank" style="color: var(--purple); font-weight: 800;">Open Alt Research Page →</a>`;
+                }
             } else {
                 altInfo.innerHTML = '<strong style="color:#a00">No ALT value found or error.</strong>';
             }
@@ -454,10 +467,11 @@
                 processCards(data);
             } catch (e) {
                 console.error('All live fetches failed', e);
-                processCards({ filterNFtCard: [] }); // Use fallback
+                processCards({ filterNFtCard: [] });
             }
             renderCards();
             await loadAltValues();
+            renderCards();
         })();
     </script>
 </body>
