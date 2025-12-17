@@ -428,7 +428,7 @@
                 detailAlt.textContent = `$${card.altValue.toFixed(2)}`;
                 detailSale.textContent = `$${(card.altValue * 0.97).toFixed(1)}`;
                 altBtn.style.display = 'block';
-                altBtn.onclick = () => window.open(`https://app.alt.xyz/browse/${card.assetId}`, '_blank');
+                altBtn.onclick = () => window.open(`https://app.alt.xyz/research/${card.assetId}`, '_blank');
             } else {
                 detailAlt.textContent = 'Not found on ALT';
                 detailSale.textContent = 'N/A';
