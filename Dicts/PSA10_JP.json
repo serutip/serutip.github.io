@@ -1751,7 +1751,7 @@
                     "insured_value": 1713.0,
                     "name": "2005 POKEMON PROMO JAPANESE AUTUMN BATTLE ROAD NO STAMP PIKACHU #113",
                     "asset_id": "b2ac0dd3-1fc0-444f-9671-67eb5094192b",
-                    "alt_value": 1682.63
+                    "alt_value": 2629.97
                 }
             },
             "#4": {
@@ -9911,6 +9911,11 @@
                     "alt_value": 68.69,
                     "asset_id": "ac9ef06e-4837-4a7e-b1db-7391e0c82cf0",
                     "name": "2023 POKEMON SCARLET AND VIOLET RAGING SURF JAPANESE SPECIAL ART RARE HOLO GARCHOMP EX #85"
+                },
+                "Art Rare": {
+                    "alt_value": 68.69,
+                    "asset_id": "ac9ef06e-4837-4a7e-b1db-7391e0c82cf0",
+                    "name": "2023 POKEMON SCARLET AND VIOLET RAGING SURF JAPANESE SPECIAL ART RARE GARCHOMP EX #85"
                 }
             },
             "#90": {
