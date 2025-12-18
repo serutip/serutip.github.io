@@ -5802,6 +5802,11 @@
                     "alt_value": 98.95,
                     "asset_id": "26ebd015-8e45-46c5-ae24-a7ef10e94be0",
                     "name": "2025 PRISMATIC EVOLUTIONS - PRE EN - ENGLISH MASTER BALL HOLO SUICUNE #024"
+                },
+                "Reverse Holo": {
+                    "alt_value": 98.95,
+                    "asset_id": "26ebd015-8e45-46c5-ae24-a7ef10e94be0",
+                    "name": "2025 PANINI PRISMATIC EVOLUTIONS MASTER BALL REVERSE HOLO SUICUNE #024"
                 }
             }
         },
@@ -21415,6 +21420,11 @@
                     "name": "1999 POKEMON JUNGLE 1ST EDITION HOLO FEAROW #36",
                     "asset_id": "b036b623-880a-481b-acf7-0030221048bf",
                     "alt_value": 143.78
+                },
+                "1st Edition": {
+                    "alt_value": 143.78,
+                    "asset_id": "b036b623-880a-481b-acf7-0030221048bf",
+                    "name": "1999 POKEMON JUNGLE 1ST EDITION FEAROW #36"
                 }
             }
         }
