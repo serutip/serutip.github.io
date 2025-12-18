@@ -12378,9 +12378,9 @@
             "#13": {
                 "STANDARD": {
                     "insured_value": 37.0,
-                    "name": "2022 POKEMON SWORD AND SHIELD JAPANESE RRR STAR BIRTH SHAYMIN VSTAR #13",
+                    "name": "2022 POKEMON SWORD AND SHIELD STAR BIRTH JAPANESE TRIPLE RARE SHAYMIN VSTAR #13",
                     "asset_id": "332b912e-fc48-4dc6-ac67-ca0925e0938d",
-                    "alt_value": 30.88641796337205
+                    "alt_value": 32.4
                 },
                 "Art Rare": {
                     "alt_value": 32.4,
@@ -15536,6 +15536,11 @@
                     "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE ZACIAN V #225",
                     "asset_id": "c7f78740-9543-4c50-8bbf-060af2ca2d52",
                     "alt_value": 41.99
+                },
+                "Art Rare": {
+                    "alt_value": 41.99,
+                    "asset_id": "c7f78740-9543-4c50-8bbf-060af2ca2d52",
+                    "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE SPECIAL ART RARE ZACIAN V #225"
                 }
             }
         }
