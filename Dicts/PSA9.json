@@ -5117,6 +5117,11 @@
                     "name": "2014 POKEMON XY PHANTOM FORCES HOLO GENGAR EX #114",
                     "asset_id": "3afb167a-c247-4dac-8ce4-a6520ac00100",
                     "alt_value": 1400.01
+                },
+                "STANDARD": {
+                    "alt_value": 1400.01,
+                    "asset_id": "3afb167a-c247-4dac-8ce4-a6520ac00100",
+                    "name": "2014 POKEMON XY PHANTOM FORCES GENGAR EX #114"
                 }
             }
         },
