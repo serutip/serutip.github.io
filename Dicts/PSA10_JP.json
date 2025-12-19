@@ -3254,6 +3254,13 @@
                     "asset_id": "41ef45fc-7339-411e-9548-cc74e66c3959",
                     "alt_value": 79.33
                 }
+            },
+            "#96": {
+                "STANDARD": {
+                    "alt_value": 105.92,
+                    "asset_id": "03fccb48-bd75-423e-85ad-4bb9aad8e63a",
+                    "name": "2019 POKEMON SUN AND MOON DOUBLE BLAZE JAPANESE CHARIZARD GX RESHIRAM #96"
+                }
             }
         },
         "2000": {
@@ -7393,6 +7400,13 @@
                     "name": "2022 SWORD & SHIELD PROMOS JAPANESE BOOSTER BOX BONUS PACK LUGIA VSTAR #325",
                     "asset_id": "bbc06f23-1413-4f5a-b077-9053e1008e84",
                     "alt_value": 91.41
+                }
+            },
+            "#325/S-P": {
+                "STANDARD": {
+                    "alt_value": 91.41,
+                    "asset_id": "bbc06f23-1413-4f5a-b077-9053e1008e84",
+                    "name": "2022 POKEMON JAPANESE PROMO LUGIA GET CHALLENGE LUGIA VSTAR #325 S-P"
                 }
             }
         },
