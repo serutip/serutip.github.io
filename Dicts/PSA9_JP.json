@@ -2005,6 +2005,13 @@
                     "asset_id": "e55e6761-ae77-4205-aeec-cd8b545bacad",
                     "alt_value": 59.07074093921395
                 }
+            },
+            "#96": {
+                "STANDARD": {
+                    "alt_value": 49.1,
+                    "asset_id": "03fccb48-bd75-423e-85ad-4bb9aad8e63a",
+                    "name": "2019 POKEMON SUN AND MOON DOUBLE BLAZE JAPANESE CHARIZARD GX RESHIRAM #96"
+                }
             }
         },
         "2022": {
@@ -5012,6 +5019,15 @@
                     "name": "2004 POKEMON JAPANESE ROCKET GANG STRIKES BACK ROCKET'S MEOWTH #59",
                     "asset_id": "f5573a86-7e7c-4cd8-aa0b-9ec5481213d5",
                     "alt_value": 39.67
+                }
+            }
+        },
+        "2000": {
+            "#10": {
+                "STANDARD": {
+                    "alt_value": 367.26,
+                    "asset_id": "ea539d14-1dec-408f-b710-17bd2edde409",
+                    "name": "2000 POKEMON JAPANESE PROMOS STAMP RALLY MEOWTH #10"
                 }
             }
         }
