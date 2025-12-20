@@ -8,6 +8,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
+
         :root {
             --bg: #f5f0e6;
             --panel: #fdfaf7;
@@ -432,17 +433,63 @@
             border-radius: 3px;
             box-shadow: 0 4px 12px rgba(107, 78, 49, 0.3);
         }
+
+        .ref-code-container {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+            z-index: 10;
+        }
+
+        .ref-code-img {
+            width: 120px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .ref-button {
+            padding: 0.6rem 1.2rem;
+            background: #8b6f9e;
+            color: white;
+            font-weight: 900;
+            font-size: 0.85rem;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(107, 78, 49, 0.3);
+            white-space: nowrap;
+        }
+
+        .ref-button:hover {
+            background: #a78bfa;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(107, 78, 49, 0.4);
+        }
+
+        header {
+            position: relative;
+            /* Already in your CSS, but ensure it's there */
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>SNIPER SNIPER</h1>
+            <h1>ALT Dictionary</h1>
             <h2>V2.0 — COFFEE EDITION</h2>
             <h3>Seru</h3>
             <div id="lastUpdatedHeader">Loading...</div>
             <h6>Insured Value is only pulled once to make mint refreshs quicker</h6>
+            <div class="ref-code-container">
+                <img src="./Refcode.jpg" alt="Seru Ref code" class="ref-code-img">
+                <a href="https://gacha.collectorcrypt.com/r/seru" target="_blank" class="ref-button">Visit CollectorCrypt</a>
+            </div>
         </header>
 
         <div class="controls">
