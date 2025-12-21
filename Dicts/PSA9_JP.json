@@ -497,7 +497,8 @@
                     "name": "2019 POKEMON SUN AND MOON DREAM LEAGUE JAPANESE PIKACHU #54",
                     "asset_id": "60caed89-1f74-4f57-a2ef-8bf7101d92f6",
                     "alt_value": 84.92,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/sm/sm10/54/high.jpg"
                 }
             },
             "#339": {
@@ -610,13 +611,15 @@
                     "insured_value": 22.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE PIKACHU #173",
                     "asset_id": "6a047079-8da0-426c-b62a-db2e4ccef5a4",
-                    "alt_value": 30.244376442649145
+                    "alt_value": 30.244376442649145,
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/173/high.jpg"
                 },
                 "Art Rare": {
                     "alt_value": 28.84,
                     "asset_id": "6a047079-8da0-426c-b62a-db2e4ccef5a4",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE PIKACHU #173",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/173/high.jpg"
                 }
             },
             "#98": {
@@ -901,7 +904,8 @@
                     "insured_value": 40.0,
                     "name": "2009 POKEMON JAPANESE SHAYMIN LV.X COLLECTION PACK PIKACHU #7",
                     "asset_id": "098d953f-455a-49bd-bacc-4e32e1929c32",
-                    "alt_value": 41.46885709064254
+                    "alt_value": 41.46885709064254,
+                    "ImageURL": "https://assets.tcgdex.net/en/pl/ru1/7/high.jpg"
                 }
             },
             "#019LP": {
@@ -1678,7 +1682,8 @@
                     "name": "2003 POKEMON JAPANESE MAGMA VS AQUA EEVEE #54",
                     "asset_id": "a5661a6b-3eba-4a36-b461-513d6c1497f4",
                     "alt_value": 25.56,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/ecard/ecard3/54/high.jpg"
                 }
             }
         },
@@ -2382,7 +2387,8 @@
                     "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE 1ST EDITION HOLO CHARIZARD #11",
                     "asset_id": "078f2880-2ab7-4f34-afd3-30f24f9a76d4",
                     "alt_value": 155.11,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/xy/xy12/11/high.jpg"
                 }
             },
             "#12": {
@@ -2498,7 +2504,8 @@
                     "alt_value": 62.85,
                     "asset_id": "f3017af9-f268-44c3-9482-322511788fca",
                     "name": "2009 POKEMON JAPANESE CHARIZARD HALF DECK 1ST EDITION HOLO CHARIZARD G #001",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/pl/pl4/1/high.jpg"
                 }
             }
         },
@@ -2923,13 +2930,15 @@
                     "insured_value": 27.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE CHARMANDER #168",
                     "asset_id": "98b16c73-d952-483d-b796-8fa29ce92498",
-                    "alt_value": 29.067173004150387
+                    "alt_value": 29.067173004150387,
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/168/high.jpg"
                 },
                 "Art Rare": {
                     "alt_value": 26.73,
                     "asset_id": "98b16c73-d952-483d-b796-8fa29ce92498",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE CHARMANDER #168",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/168/high.jpg"
                 }
             },
             "#051": {
@@ -3120,13 +3129,15 @@
                 "STANDARD": {
                     "alt_value": 260.07,
                     "asset_id": "807a0a6d-60e3-47fc-b9ab-0f45904a84fe",
-                    "name": "2005 POKEPARK PREMIUM FILES POKEPARK BLUE JAPANESE RAYQUAZA #009"
+                    "name": "2005 POKEPARK PREMIUM FILES POKEPARK BLUE JAPANESE RAYQUAZA #009",
+                    "ImageURL": "https://assets.tcgdex.net/en/ex/ex9/9/high.jpg"
                 },
                 "Holo": {
                     "alt_value": 276.1,
                     "asset_id": "807a0a6d-60e3-47fc-b9ab-0f45904a84fe",
                     "name": "2005 POKEMON POKEPARK PREMIUM FILES JAPANESE POKEPARK BLUE HOLO RAYQUAZA #009",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/ex/ex9/9/high.jpg"
                 }
             }
         },
@@ -3202,7 +3213,8 @@
                     "name": "2004 POKEMON JAPANESE MOVIE COMMEMORATION VS PACK SKY'S RAYQUAZA #3",
                     "asset_id": "b49f8a6e-68b2-4782-a179-88a272b27dcf",
                     "alt_value": 71.54,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/pop/pop1/3/high.jpg"
                 }
             }
         },
@@ -3320,7 +3332,8 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO MEWTWO #150",
                     "asset_id": "6a50f228-481b-4645-81fc-7acd6e8cb817",
                     "alt_value": 49.41,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/150/high.jpg"
                 }
             },
             "#183": {
@@ -4705,12 +4718,14 @@
                     "insured_value": 22.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE WARTORTLE #171",
                     "asset_id": "4a09de21-12e5-4b7b-870d-8c9c17d9faca",
-                    "alt_value": 21.578537334095348
+                    "alt_value": 21.578537334095348,
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/171/high.jpg"
                 },
                 "Art Rare": {
                     "alt_value": 18.08,
                     "asset_id": "4a09de21-12e5-4b7b-870d-8c9c17d9faca",
-                    "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE WARTORTLE #171"
+                    "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE WARTORTLE #171",
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/171/high.jpg"
                 }
             }
         },
@@ -5000,7 +5015,8 @@
                     "insured_value": 70.0,
                     "name": "2019 POKEMON SUN AND MOON MIRACLE TWIN JAPANESE PSYDUCK/SLOWPOKE GX #11",
                     "asset_id": "c2542d82-1517-4997-9d9f-e54db4c26937",
-                    "alt_value": 54.758113292095594
+                    "alt_value": 54.758113292095594,
+                    "ImageURL": "https://assets.tcgdex.net/en/sm/sm115/11/high.jpg"
                 }
             }
         },
@@ -5978,13 +5994,15 @@
                     "insured_value": 30.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE SQUIRTLE #170",
                     "asset_id": "cc727102-2d8b-4803-88fb-bf518d6602a6",
-                    "alt_value": 43.01267797296697
+                    "alt_value": 43.01267797296697,
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/170/high.jpg"
                 },
                 "Art Rare": {
                     "alt_value": 26.33,
                     "asset_id": "cc727102-2d8b-4803-88fb-bf518d6602a6",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ART RARE SQUIRTLE #170",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/170/high.jpg"
                 }
             }
         },
@@ -6212,7 +6230,8 @@
                     "name": "2003 POKEMON JAPANESE PROMO SHOGAKUKAN ELEMENTARY SCHOOL COMBUSKEN #9",
                     "asset_id": "888370f1-a311-4be9-afa9-140082da72e5",
                     "alt_value": 36.85,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/pop/np/9/high.jpg"
                 }
             }
         }
@@ -6659,7 +6678,8 @@
                     "name": "2005 POKEMON JAPANESE POKEPARK BLUE ENTEI #1",
                     "asset_id": "3e6a437e-f425-4848-b79b-10c131443579",
                     "alt_value": 42.78,
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/pop/pop2/1/high.jpg"
                 }
             }
         }
@@ -7310,13 +7330,15 @@
                     "insured_value": 21.0,
                     "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE NINETALES #15",
                     "asset_id": "dd6b8eeb-84e1-4263-a853-5d4ecf686668",
-                    "alt_value": 20.46
+                    "alt_value": 20.46,
+                    "ImageURL": "https://assets.tcgdex.net/en/xy/xy12/15/high.jpg"
                 },
                 "1st Edition": {
                     "alt_value": 19.18,
                     "asset_id": "dd6b8eeb-84e1-4263-a853-5d4ecf686668",
                     "name": "2016 POKEMON XY 20TH ANNIVERSARY COLLECTION JAPANESE 1ST EDITION NINETALES #15",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/xy/xy12/15/high.jpg"
                 }
             }
         }
@@ -9146,7 +9168,8 @@
                     "alt_value": 17.0,
                     "asset_id": "eb0711d0-b5f6-4dbf-af4d-c9b6260ce506",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE ILLUSTRATION RARE TANGELA #178",
-                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)"
+                    "LastUpdated": "Last Updated on 21 December 2025, 12:35 PM (CET)",
+                    "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/178/high.jpg"
                 }
             }
         }
