@@ -8,7 +8,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-
         :root {
             --bg: #f5f0e6;
             --panel: #fdfaf7;
@@ -54,6 +53,7 @@
             padding: 1.4rem 2rem 1.2rem;
             text-align: center;
             color: #fff8f0;
+            position: relative;
         }
 
         h1 {
@@ -134,7 +134,7 @@
             border: none;
             color: var(--text-dim);
             font-weight: 600;
-            font-size: 0.85ccb;
+            font-size: 0.85rem;
             border-radius: 10px;
             cursor: pointer;
         }
@@ -393,6 +393,45 @@
             color: var(--text-dim);
         }
 
+        /* New: Image and LastUpdated in detail panel */
+        #detailImageContainer {
+            margin: 1.5rem 0;
+            text-align: center;
+            display: none;
+        }
+
+        #detailImage {
+            max-width: 100%;
+            max-height: 400px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Hover preview */
+        #hoverPreview {
+            position: absolute;
+            pointer-events: none;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 3px solid white;
+            max-width: 140px;
+            transform: translate(15px, -50%);
+        }
+
+        #hoverPreview.show {
+            opacity: 1;
+        }
+
+        #hoverPreview img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
         @media (max-width: 768px) {
             .results.shifted {
                 margin-right: 0;
@@ -470,11 +509,6 @@
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(107, 78, 49, 0.4);
         }
-
-        header {
-            position: relative;
-            /* Already in your CSS, but ensure it's there */
-        }
     </style>
 </head>
 
@@ -532,10 +566,18 @@
         <p><strong>Variety:</strong> <span id="detailVariety"></span></p>
         <p><strong>Insured Value:</strong> <span id="detailInsured" class="value insured"></span></p>
         <p><strong>Alt Value:</strong> <span id="detailAlt" class="value alt"></span></p>
+        <p id="detailLastUpdatedRow" style="display:none;"><strong>Last Updated:</strong> <span id="detailLastUpdated"></span></p>
+
+        <div id="detailImageContainer">
+            <img id="detailImage" src="" alt="Card Image">
+        </div>
 
         <button id="detailEbayBtn">View Sold eBay Listings</button>
         <button id="detailAltBtn">View Alt Research Page</button>
     </div>
+
+    <!-- Hover Preview -->
+    <div id="hoverPreview"><img src="" alt="Preview"></div>
 
     <script>
         const data = { en: { psa10: {}, psa9: {}, cgc10: {}, external: {} }, jp: { psa10: {}, psa9: {}, cgc10: {}, external: {} } };
@@ -555,8 +597,15 @@
         const detailVariety = document.getElementById('detailVariety');
         const detailInsured = document.getElementById('detailInsured');
         const detailAlt = document.getElementById('detailAlt');
+        const detailLastUpdated = document.getElementById('detailLastUpdated');
+        const detailLastUpdatedRow = document.getElementById('detailLastUpdatedRow');
+        const detailImageContainer = document.getElementById('detailImageContainer');
+        const detailImage = document.getElementById('detailImage');
         const detailEbayBtn = document.getElementById('detailEbayBtn');
         const detailAltBtn = document.getElementById('detailAltBtn');
+
+        const hoverPreview = document.getElementById('hoverPreview');
+        const hoverImg = hoverPreview.querySelector('img');
 
         detailClose.onclick = () => { detailPanel.classList.remove('open'); results.classList.remove('shifted'); };
         document.addEventListener('click', e => {
@@ -650,10 +699,11 @@
                                         insured_value: val.insured_value ?? 0,
                                         alt_value: altValue,
                                         asset_id: val.asset_id || null,
-                                        name: val.name || null                     // ← THIS LINE ADDED
+                                        name: val.name || null,
+                                        ImageURL: val.ImageURL || '',
+                                        LastUpdated: val.LastUpdated || ''
                                     };
                                 }
-                                // If main entry exists and has real data → keep it, ignore external
                             }
                         }
                     }
@@ -700,13 +750,12 @@
             return parts.filter(Boolean).join(' ');
         }
 
-        function showDetailPanel(name, year, code, variety, insured, alt, assetId, cardName) {  // ← added cardName param
+        function showDetailPanel(name, year, code, variety, insured, alt, assetId, cardName, imageUrl = '', lastUpdated = '') {
             detailName.textContent = name;
             detailYear.textContent = year;
             detailCode.textContent = code;
             detailVariety.textContent = variety || 'Standard';
 
-            // Show Card Name only if it actually exists and is not empty
             if (cardName && cardName.trim() !== '') {
                 detailCardName.textContent = cardName.trim();
                 detailCardName.parentElement.style.display = 'block';
@@ -716,6 +765,23 @@
 
             detailInsured.textContent = insured > 0 ? `$${Number(insured).toLocaleString()}` : 'N/A';
             detailAlt.textContent = alt > 0 ? `$${Number(alt).toFixed(2)}` : 'N/A';
+
+            // Last Updated
+            if (lastUpdated && lastUpdated.trim() !== '') {
+                detailLastUpdated.textContent = lastUpdated.trim();
+                detailLastUpdatedRow.style.display = 'block';
+            } else {
+                detailLastUpdatedRow.style.display = 'none';
+            }
+
+            // Image
+            if (imageUrl && imageUrl.trim() !== '') {
+                detailImage.src = imageUrl;
+                detailImageContainer.style.display = 'block';
+            } else {
+                detailImage.src = '';
+                detailImageContainer.style.display = 'none';
+            }
 
             const terms = getEbaySearchTerms(name, year, code, variety);
             const ebayUrl = `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(terms)}&LH_Sold=1&LH_Complete=1`;
@@ -731,6 +797,7 @@
             detailPanel.classList.add('open');
             results.classList.add('shifted');
         }
+
         function updateData() { currentData = buildCurrentData(); search(); }
 
         function search() {
@@ -748,21 +815,18 @@
             let codeFilter = null;
             let varietyFilter = null;
 
-            // Extract year or code from the end if present
             const lastToken = tokens[tokens.length - 1];
 
             if (/^\d{4}$/.test(lastToken) || ['151', 'sv1', 'sv2', 'sv3', 'sv4', 'sv5', 'sv6'].includes(lastToken)) {
                 yearFilter = lastToken;
                 tokens.pop();
             } else if (lastToken.startsWith('#')) {
-                codeFilter = lastToken.slice(1); // remove #
+                codeFilter = lastToken.slice(1);
                 tokens.pop();
             }
 
-            // Remaining tokens after year/code removal
             const remaining = tokens.join(' ');
 
-            // Now split remaining into Pokémon name and variety
             const varietyKeywords = ['shiny', 'full', 'art', 'vmax', 'vstar', 'ex', 'gx', 'v', 'rainbow', 'gold', 'secret', 'character', 'illustration', 'standard'];
             const varietyMatch = tokens.find(t => varietyKeywords.some(k => t.includes(k)));
 
@@ -801,13 +865,11 @@
                     Object.entries(codes).forEach(([code, varieties]) => {
                         const cleanCode = code.replace(/^#/, '').replace('NA', '').trim();
 
-                        // Skip if code doesn't match # filter
                         if (codeFilter && cleanCode !== codeFilter && cleanCode !== codeFilter.padStart(3, '0')) return;
 
                         Object.entries(varieties).forEach(([variety, val]) => {
                             const varietyKey = (variety || 'STANDARD').toLowerCase();
 
-                            // Variety filtering
                             if (varietyFilter) {
                                 const matches = varietyKey.includes(varietyFilter) ||
                                     (varietyFilter === 'full' && varietyKey.includes('art')) ||
@@ -820,10 +882,12 @@
                             cardEl.innerHTML = formatCardContent(code, variety, val, name, year, isExt);
                             const cardDiv = cardEl.querySelector('.card');
 
-                            cardDiv.onclick = () => {
-                                const cardObj = currentData[name][year][code][variety || 'STANDARD'];
-                                const cardName = cardObj?.name || '';
+                            const cardObj = currentData[name][year][code][variety || 'STANDARD'];
+                            const cardName = cardObj?.name || '';
+                            const imageUrl = cardObj?.ImageURL || '';
+                            const lastUpdated = cardObj?.LastUpdated || '';
 
+                            cardDiv.onclick = () => {
                                 showDetailPanel(
                                     name,
                                     year,
@@ -832,9 +896,29 @@
                                     parseFloat(val.insured_value) || 0,
                                     parseFloat(val.alt_value) || 0,
                                     val.asset_id || null,
-                                    cardName
+                                    cardName,
+                                    imageUrl,
+                                    lastUpdated
                                 );
                             };
+
+                            // Hover preview only if ImageURL exists
+                            if (imageUrl && imageUrl.trim() !== '') {
+                                cardDiv.onmouseenter = () => {
+                                    hoverImg.src = imageUrl;
+                                    hoverPreview.classList.add('show');
+                                };
+                                cardDiv.onmousemove = (e) => {
+                                    hoverPreview.style.top = e.clientY + 'px';
+                                    hoverPreview.style.left = e.clientX + 'px';
+                                };
+                                cardDiv.onmouseleave = () => {
+                                    hoverPreview.classList.remove('show');
+                                    setTimeout(() => {
+                                        if (!hoverPreview.classList.contains('show')) hoverImg.src = '';
+                                    }, 300);
+                                };
+                            }
 
                             cardsContainer.appendChild(cardEl);
                             hasAnyCard = true;
@@ -851,6 +935,7 @@
                 }
             });
         }
+
         searchInput.addEventListener('input', search);
         document.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => {
             document.querySelectorAll('[data-lang]').forEach(x => x.classList.remove('active'));
@@ -878,7 +963,6 @@
             altInfo.innerHTML = 'Looking up cert...';
 
             try {
-                // Step 1: Get Asset ID from cert
                 const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -906,7 +990,6 @@
                 const grade = certData.gradeNumber;
                 const company = certData.gradingCompany;
 
-                // Step 2: Get Alt Value
                 const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -943,7 +1026,6 @@
                 const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
                 const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
 
-                // Asset ID is now a clickable link!
                 altInfo.innerHTML = `
             <strong>Asset ID (Click for research page):</strong> 
             <a href="https://app.alt.xyz/research/${assetId}" target="_blank" style="color:#8b6f9e; font-weight:900; text-decoration:underline;">
