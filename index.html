@@ -909,7 +909,82 @@
             altInfo.innerHTML = 'Looking up cert...';
 
             try {
-                // ... (your cert lookup code unchanged)
+                // Step 1: Get Asset ID from cert
+                const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        operationName: "Cert",
+                        variables: { certNumber: cert },
+                        query: `
+                    query Cert($certNumber: String!) {
+                        cert(certNumber: $certNumber) {
+                            asset { id name }
+                            gradeNumber
+                            gradingCompany
+                        }
+                    }
+                `
+                    })
+                });
+
+                const certJson = await certRes.json();
+                const certData = certJson?.data?.cert;
+                if (!certData?.asset?.id) throw new Error("Cert not found on Alt");
+
+                const assetId = certData.asset.id;
+                const cardName = certData.asset.name || "Unknown Card";
+                const grade = certData.gradeNumber;
+                const company = certData.gradingCompany;
+
+                // Step 2: Get Alt Value
+                const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        operationName: "AssetDetails",
+                        variables: {
+                            id: assetId,
+                            tsFilter: {
+                                gradeNumber: grade || "10.0",
+                                gradingCompany: company || "PSA"
+                            }
+                        },
+                        query: `
+                    query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) {
+                        asset(id: $id) {
+                            altValueInfo(tsFilter: $tsFilter) {
+                                currentAltValue
+                                confidenceData {
+                                    currentErrorLowerBound
+                                    currentErrorUpperBound
+                                }
+                            }
+                        }
+                    }
+                `
+                    })
+                });
+
+                const valueJson = await valueRes.json();
+                const info = valueJson?.data?.asset?.altValueInfo;
+                if (!info?.currentAltValue) throw new Error("No Alt value available");
+
+                const val = Number(info.currentAltValue).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                const low = info.confidenceData?.currentErrorLowerBound ? Math.round(info.confidenceData.currentErrorLowerBound) : "N/A";
+                const high = info.confidenceData?.currentErrorUpperBound ? Math.round(info.confidenceData.currentErrorUpperBound) : "N/A";
+
+                // Asset ID is now a clickable link!
+                altInfo.innerHTML = `
+            <strong>Asset ID (Click for research page):</strong> 
+            <a href="https://app.alt.xyz/research/${assetId}" target="_blank" style="color:#8b6f9e; font-weight:900; text-decoration:underline;">
+                ${assetId}
+            </a><br><br>
+            <strong style="font-size:1.15em; color:#6b4e31;">${cardName} ${company} ${grade}</strong><br><br>
+            <strong>Alt Value: $${val}</strong><br>
+            <strong>70% Range: $${low} – $${high}</strong>
+        `;
+
             } catch (e) {
                 altInfo.innerHTML = `<strong style="color:#a00">Error:</strong> ${e.message}`;
             }
