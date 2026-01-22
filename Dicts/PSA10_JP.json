@@ -371,7 +371,7 @@
                     "name": "2000 POKEMON NEO 2 PROMO JAPANESE EEVEE #133",
                     "asset_id": "9a1f31a4-30d9-4c8f-bb04-e08ca0bf50d8",
                     "alt_value": 133.54,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -827,7 +827,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO PIKACHU #25",
                     "asset_id": "46a6a6ac-16b3-41fb-88d1-6157cfb45bd0",
                     "alt_value": 456.7,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 },
                 "STANDARD": {
                     "insured_value": 30.0,
@@ -859,8 +859,8 @@
                     "insured_value": 69.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET HIGH CLASS PACK SHINY TREASURE EX JAPANESE PIKACHU #236",
                     "asset_id": "dc1e66b0-3411-4108-815b-e2e26472dbc7",
-                    "alt_value": 97.81,
-                    "LastUpdated": "Last Updated on 20 January 2026, 09:00 AM (CET)"
+                    "alt_value": 96.75,
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#55": {
@@ -1510,7 +1510,7 @@
                     "name": "2022 POKEMON SCARLET AND VIOLET PROMO JAPANESE PRE ORDER PIKACHU #001SVP",
                     "asset_id": "2b2538cf-9d47-4e32-b047-1dc15e7541b4",
                     "alt_value": 82.42,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#415": {
@@ -2083,7 +2083,7 @@
                     "name": "2010 POKEMON PIKACHU WORLD PROMO JAPANESE-7-11-GREEN PIKACHU",
                     "asset_id": "03269ab1-6bda-464d-93db-166b157f30b6",
                     "alt_value": 1835.1,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#079LP": {
@@ -2621,7 +2621,7 @@
                     "name": "1997 POKEMON CD PROMO JAPANESE HOLO SNORLAX #143",
                     "asset_id": "617c9221-dc8b-4c30-87e2-f4e0f1baf129",
                     "alt_value": 667.79,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         }
@@ -2715,10 +2715,10 @@
                     "alt_value": 37.44596422154358
                 },
                 "STANDARD": {
-                    "alt_value": 36.7,
+                    "alt_value": 38.45,
                     "asset_id": "d640790f-12e0-4fdf-af80-06e78f75a551",
                     "name": "2022 POKEMON SWORD AND SHIELD STRENGTH EXPANSION PACK INCANDESCENT ARCANA JAPANESE MILOTIC #70",
-                    "LastUpdated": "Last Updated on 20 January 2026, 09:00 AM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -3184,7 +3184,7 @@
                     "name": "2022 POKEMON SWORD AND SHIELD HIGH CLASS PACK VSTAR UNIVERSE JAPANESE RADIANT CHARIZARD #15",
                     "asset_id": "ecbabcf7-273b-4374-93e8-e4c901afb8ea",
                     "alt_value": 51.25,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 },
                 "Holo": {
                     "alt_value": 46.67,
@@ -4278,7 +4278,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO RAICHU #26",
                     "asset_id": "441c6c44-b88c-4fbe-8c43-7b4e17c22118",
                     "alt_value": 45.91,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#237": {
@@ -4698,7 +4698,7 @@
                     "name": "2005 POKEMON MIRAGE FOREST 1ST EDITION JAPANESE MEW EX #41",
                     "asset_id": "7c1e2b19-8191-47b7-b0bb-3312be99b17b",
                     "alt_value": 809.6,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#69": {
@@ -4944,6 +4944,12 @@
                     "asset_id": "228d1a00-c040-44d7-89c0-a887cd2a994c",
                     "alt_value": 2705.74,
                     "LastUpdated": "Last Updated on 21 January 2026, 08:38 AM (CET)"
+                },
+                "Reverse Holo": {
+                    "alt_value": 2705.74,
+                    "asset_id": "228d1a00-c040-44d7-89c0-a887cd2a994c",
+                    "name": "1999 POKEMON SOUTHERN ISLANDS PROMO JAPANESE REVERSE HOLO MEW #151",
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#PROMO": {
@@ -5291,7 +5297,7 @@
                     "name": "1997 POKEMON TEAM ROCKET JAPANESE HOLO DARK DRAGONITE #149",
                     "asset_id": "4e8f4bc9-b8b4-4ae3-832b-298a0bf2dbed",
                     "alt_value": 959.61,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -6121,7 +6127,7 @@
                     "name": "1997 POKEMON TEAM ROCKET JAPANESE HOLO DARK MAGNETON #82",
                     "asset_id": "9d2898e3-fbbc-4a3d-8634-3233581d072d",
                     "alt_value": 277.16,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -7046,7 +7052,7 @@
                     "name": "2023 POKEMON SPECIAL DECK SET EX JAPANESE VENUSAUR EX DECK VENUSAUR EX #3",
                     "asset_id": "30f85fd9-ed54-4cbc-a3e3-13da9c443203",
                     "alt_value": 28.61,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#184": {
@@ -7079,7 +7085,7 @@
                     "alt_value": 39.58,
                     "asset_id": "cef5de31-4f2b-4585-9d28-0d15891ac3d4",
                     "name": "2023 POKEMON TRADING CARD CLASSIC GAME JAPANESE VENUSAUR AND LUGIA EX DECK SNORLAX #16",
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#9": {
@@ -7147,7 +7153,7 @@
                     "name": "1999 POKEMON GYM 2 CHALLENGE FROM THE DARKNESS JAPANESE HOLO ERIKA'S VENUSAUR #3",
                     "asset_id": "1b292a76-20f2-43ed-bf44-640d95579499",
                     "alt_value": 413.75,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#PROMO": {
@@ -7344,7 +7350,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO FLAREON #136",
                     "asset_id": "ac557105-a9f6-4007-86a2-20ffd534219c",
                     "alt_value": 46.52,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#65": {
@@ -7854,7 +7860,7 @@
                     "name": "2008 POKEMON JAPANESE BONDS TO THE END OF TIME ALAKAZAM 4 LV X #42",
                     "asset_id": "9c1016e7-0787-4655-9ce9-a2c086052f58",
                     "alt_value": 695.12,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -7876,7 +7882,7 @@
                     "name": "2024 POKEMON TERASTAL FEST EX JAPANESE POKE BALL HOLO ALAKAZAM #59",
                     "asset_id": "e2b88bbb-96f1-400a-842b-3055bbe383ac",
                     "alt_value": 25.11,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 },
                 "Reverse Holo": {
                     "insured_value": 36.0,
@@ -8201,7 +8207,7 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET TERASTAL FEST EX JAPANESE MASTER BALL REVERSE HOLO SYLVEON #68",
                     "asset_id": "e2e2b9e2-8761-4669-9a51-81115fba8eea",
                     "alt_value": 51.49,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#69": {
@@ -8609,10 +8615,10 @@
             "#249": {
                 "Holo": {
                     "insured_value": 2062.0,
-                    "name": "2000 POKEMON NEO JAPANESE HOLO LUGIA #249",
+                    "name": "2000 POKEMON GOLD SILVER TO A NEW WORLD JAPANESE HOLO LUGIA #249",
                     "asset_id": "b4dc07da-04cf-4cac-9e48-01109e2ced9e",
-                    "alt_value": 2324.51,
-                    "LastUpdated": "Last Updated on 20 January 2026, 09:00 AM (CET)"
+                    "alt_value": 2308.43,
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 },
                 "STANDARD": {
                     "insured_value": 245.0,
@@ -9278,7 +9284,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 JAPANESE POKE BALL REVERSE HOLO MEWTWO #150",
                     "asset_id": "8263e1aa-939f-42f6-aaaa-513794706e12",
                     "alt_value": 63.03,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 },
                 "Holo": {
                     "insured_value": 35.0,
@@ -9288,10 +9294,10 @@
                     "LastUpdated": "Last Updated on 06 January 2026, 08:00 AM (CET)"
                 },
                 "STANDARD": {
-                    "alt_value": 43.63,
+                    "alt_value": 44.47,
                     "asset_id": "ec0ab065-f504-4f2a-8fbe-2907b8512923",
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MEWTWO #150",
-                    "LastUpdated": "Last Updated on 20 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#14": {
@@ -9951,7 +9957,7 @@
                     "name": "2015 POKEMON BANDIT RING 1ST EDITION JAPANESE MEGA RAYQUAZA EX #95",
                     "asset_id": "a6cd4c30-b249-4e1c-95bd-209202447e60",
                     "alt_value": 2352.92,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#86": {
@@ -12528,7 +12534,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET STRENGTH EXPANSION PACK 151 JAPANESE MASTER BALL REVERSE HOLO CHARMANDER #4",
                     "asset_id": "706bfeae-b90d-46cd-88ef-68db0847c514",
                     "alt_value": 59.36,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#051": {
@@ -13104,7 +13110,7 @@
                     "name": "2022 POKEMON SWORD AND SHIELD LOST ABYSS JAPANESE GIRATINA V #111",
                     "asset_id": "f0822d67-5897-4cfc-9dcf-1064b3f64037",
                     "alt_value": 1430.96,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#261": {
@@ -14905,7 +14911,7 @@
                     "name": "2021 POKEMON 25TH ANNIVERSARY COLLECTION JAPANESE REVERSE FOIL COSMOG #14",
                     "asset_id": "c0894ed5-9136-43ae-b54b-88b2c75d0776",
                     "alt_value": 43.28,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         }
@@ -16699,7 +16705,7 @@
                     "name": "2000 POKEMON JAPANESE NEO HOLO TYPHLOSION #157",
                     "asset_id": "141e215d-296c-4d9b-bc47-64f53dc4578b",
                     "alt_value": 379.14,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -16787,7 +16793,7 @@
                     "name": "1999 POKEMON JAPANESE YAMABUKI CITY GYM DECK LV.9 SABRINA'S GASTLY #92",
                     "asset_id": "aa0227f4-b9c6-4324-9987-9ccb47ef1afb",
                     "alt_value": 120.26,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -17579,7 +17585,7 @@
                     "name": "2025 POKEMON BATTLE PARTNERS JAPANESE ULTRA RARE INCORRECT TEXTURE N'S ZOROARK EX #131",
                     "asset_id": "7b059383-8a4c-4549-9769-10df025bf49f",
                     "alt_value": 849.78,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             },
             "#127": {
@@ -17962,7 +17968,7 @@
                     "name": "1999 POKEMON NEO 1: GOLD, SILVER, TO A NEW WORLD JAPANESE HOLO FERALIGATR #160",
                     "asset_id": "03cf4945-59f6-4e77-9f83-c56d7f133878",
                     "alt_value": 105.41,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -20365,7 +20371,7 @@
                     "name": "2005 POKEMON JAPANESE MIRAGE FOREST ARMALDO EX #58",
                     "asset_id": "f0001a7a-a873-4595-a78a-f726bb98d60a",
                     "alt_value": 169.22,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         }
@@ -20732,6 +20738,12 @@
                     "asset_id": "80f92292-bd91-40d0-a45c-bf6134c3fe81",
                     "alt_value": 198.53,
                     "LastUpdated": "Last Updated on 21 January 2026, 08:38 AM (CET)"
+                },
+                "1st Edition Holo": {
+                    "alt_value": 198.53,
+                    "asset_id": "80f92292-bd91-40d0-a45c-bf6134c3fe81",
+                    "name": "2001 POKEMON EXPEDITION JAPANESE 1ST EDITION HOLO ARBOK #99",
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         }
@@ -20744,7 +20756,7 @@
                     "name": "2003 POKEMON RULERS OF THE HEAVENS 1ST EDITION JAPANESE AMPHAROS EX #25",
                     "asset_id": "8da16d12-d6a8-4eb6-ab4c-3350c768aa8e",
                     "alt_value": 304.02,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -22048,7 +22060,7 @@
                     "name": "1998 POKEMON JAPANESE TAMAMUSHI CITY GYM DECK LV.12 ERIKA'S ODDISH #43",
                     "asset_id": "e4c41484-d9c0-4d13-a40a-499156b5dd6d",
                     "alt_value": 94.09,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         },
@@ -24291,7 +24303,7 @@
                     "name": "2002 POKEMON SPLIT EARTH UNLIMITED JAPANESE LEDIAN #7",
                     "asset_id": "15eee10b-d0bb-472d-b3c3-d3967a953c7b",
                     "alt_value": 169.83,
-                    "LastUpdated": "Last Updated on 21 January 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 22 January 2026, 08:42 AM (CET)"
                 }
             }
         }
