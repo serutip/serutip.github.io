@@ -159,6 +159,12 @@
                     "name": "2002 POKEMON NEO DESTINY SHINING RAICHU #111",
                     "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/neo/neo4/111/high.jpg"
+                },
+                "1st Edition Holo": {
+                    "alt_value": 10274.02,
+                    "asset_id": "6cab28d3-fa49-460c-9899-8fe45e1befd8",
+                    "name": "2002 POKEMON NEO DESTINY 1ST EDITION HOLO SHINING RAICHU #111",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -286,10 +292,10 @@
             },
             "#22": {
                 "STANDARD": {
-                    "alt_value": 1328.67,
+                    "alt_value": 1307.42,
                     "asset_id": "076a88c7-971f-40fd-870c-ef1117227474",
                     "name": "2005 POKEMON EX DEOXYS GERMAN RAYQUAZA #22",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#96": {
@@ -500,8 +506,8 @@
                     "insured_value": 300.0,
                     "name": "2020 POKEMON INDONESIAN SUN & MOON SKY RULER SET A RAYQUAZA GX #208",
                     "asset_id": "07fb65c2-9336-4538-b951-18fbd1f95bef",
-                    "alt_value": 265.19,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 269.24,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -578,8 +584,8 @@
                     "insured_value": 134.0,
                     "name": "2023 POKEMON SWORD AND SHIELD CROWN ZENITH CRZ-'24 SEA SKY PC-JUMBO RAYQUAZA V #100",
                     "asset_id": "486ef14f-3a7f-4c1f-865f-b7e79a4ee217",
-                    "alt_value": 129.91,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 128.01,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh12.5/100/high.jpg"
                 }
             }
@@ -1194,8 +1200,8 @@
                     "insured_value": 306.0,
                     "name": "2004 CARDDASS POKEMON ADVANCED GENERATION ZUKAN CARD FIRERED LEAFGREEN MEWTWO #103",
                     "asset_id": "75cca6d7-59de-4814-abfc-3a6fc7148671",
-                    "alt_value": 444.61,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 441.72,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -1308,8 +1314,8 @@
                     "insured_value": 41.0,
                     "name": "2018 ULTRA POKEMON GX SHINY ALTARIA #197",
                     "asset_id": "5cb5e89a-c79f-499c-a906-dfe59a1ae606",
-                    "alt_value": 30.1,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 29.88,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -1363,8 +1369,8 @@
                     "insured_value": 65.0,
                     "name": "2018 POKEMON SUN AND MOON DRAGON MAJESTY KINGDRA GX #18",
                     "asset_id": "8dcf099c-f2cd-412d-8a5d-51a0e0604182",
-                    "alt_value": 52.14,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 143.5,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -1622,7 +1628,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET OBSIDIAN FLAMES HYPER RARE CHARIZARD EX #228",
                     "asset_id": "153445d5-5feb-4c25-8e6f-d9329841a88f",
                     "alt_value": 218.01,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03/228/high.jpg"
                 }
             },
@@ -1670,7 +1676,7 @@
                     "name": "2023 POKEMON TRADING CARD GAME CLASSIC CHARIZARD AND HO-OH EX DECK MAGMAR #6",
                     "asset_id": "935ce630-7111-42ad-9d40-71083e8d634e",
                     "alt_value": 40.82,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/006/high.jpg"
                 }
             },
@@ -1916,10 +1922,10 @@
                     "alt_value": 404.73543565594343
                 },
                 "STANDARD": {
-                    "alt_value": 609.43,
+                    "alt_value": 616.17,
                     "asset_id": "ca0e220b-38fb-4589-bbca-3818cbdf13a6",
                     "name": "2022 POKEMON INDONESIAN S PROMO CHARIZARD SR & HR CHAMPIONSHIPS WINNER PRIZE CHARIZARD V #132",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#SWSH260": {
@@ -2063,7 +2069,7 @@
                     "name": "2016 POKEMON XY EVOLUTIONS HOLO CHARIZARD #11",
                     "asset_id": "9eb57a2b-6b13-4313-a6b0-e0621b57d51a",
                     "alt_value": 3722.06,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/xy/xy12/11/high.jpg"
                 },
                 "STANDARD": {
@@ -2097,7 +2103,7 @@
                     "name": "2016 POKEMON XY EVOLUTIONS CHARIZARD EX #12",
                     "asset_id": "5ee9ffad-8d0a-4d9f-bb79-72df88390213",
                     "alt_value": 154.69,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/xy/xy12/12/high.jpg"
                 }
             },
@@ -2109,6 +2115,12 @@
                     "alt_value": 802.85,
                     "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/xy/g1/RC5/high.jpg"
+                },
+                "Holo": {
+                    "alt_value": 784.8,
+                    "asset_id": "da07b29b-f328-4519-b803-f1e9bfa13098",
+                    "name": "2016 POKEMON GENERATIONS RADIANT COLLECTION HOLO CHARIZARD #RC5",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#XY121": {
@@ -2362,8 +2374,8 @@
                     "insured_value": 960.0,
                     "name": "1996 POKEMON RED VERSION PLAYING CARDS 4 OF CLUBS CHARIZARD #6",
                     "asset_id": "a795073b-6c8f-47ce-b7b6-a0b37d94e856",
-                    "alt_value": 2058.92,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 2122.46,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -2373,8 +2385,8 @@
                     "insured_value": 446.0,
                     "name": "2004 POKEMON LEAFGREEN VERSION PLAYING CARDS KING OF HEARTS CHARIZARD",
                     "asset_id": "3721817e-2f3c-48b0-b9e7-48aeebe9040c",
-                    "alt_value": 637.34,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 609.24,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -2453,7 +2465,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS MASTER BALL REVERSE HOLO UMBREON #59",
                     "asset_id": "37c077a6-8adb-44b1-8b42-c80c4d26ca7a",
                     "alt_value": 300.18,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/059/high.jpg"
                 }
             },
@@ -2463,7 +2475,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS UMBREON EX #60",
                     "asset_id": "442ef46e-21d0-4040-8830-9d1cfbeba52f",
                     "alt_value": 70.32,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/060/high.jpg"
                 }
             },
@@ -2633,7 +2645,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET OBSIDIAN FLAMES UMBREON #130",
                     "asset_id": "12e175be-ad8d-4c7d-8de2-d3af3196327f",
                     "alt_value": 59.19,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03/130/high.jpg"
                 },
                 "Reverse Holo": {
@@ -2652,8 +2664,8 @@
                     "insured_value": 2800.0,
                     "name": "2010 POKEMON HEARTGOLD & SOULSILVER UNDAUNTED NIGHTFALL THEME DECK UMBREON #10",
                     "asset_id": "34e60763-821c-49fd-93e3-ba438708fc82",
-                    "alt_value": 2341.4,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 2350.74,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/hgss/hgss3/10/high.jpg"
                 }
             }
@@ -2849,8 +2861,8 @@
                     "insured_value": 105.0,
                     "name": "1999 POKEMON JR ORANGE CARDS JR EAST SHINKANSEN VERSION BULBASAUR & PIKACHU",
                     "asset_id": "76c3b005-1d11-4b76-98f6-355be4ee93fa",
-                    "alt_value": 180.66,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 174.12,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#44": {
@@ -2886,7 +2898,7 @@
                     "name": "2002 POKEMON EXPEDITION REVERSE HOLO BULBASAUR BULBASAUR #95",
                     "asset_id": "9b801317-57a1-4a34-b475-da1aaa78da0d",
                     "alt_value": 222.44,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ecard/ecard1/95/high.jpg"
                 }
             }
@@ -3762,10 +3774,10 @@
             "#9": {
                 "STANDARD": {
                     "insured_value": 40.0,
-                    "name": "2023 POKEMON TRADING CARD GAME CLASSIC BLASTOISE AND SUICUNE EX DECK ARTICUNO #9",
+                    "name": "2023 POKEMON TRADING CARD GAME CLASSIC BLASTOISE AND SUICUNE EX DECK ARTICUNO #009",
                     "asset_id": "b8c8f164-b632-45cd-9e35-66ed373ac158",
                     "alt_value": 53.68,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/009/high.jpg"
                 }
             },
@@ -3887,10 +3899,10 @@
             },
             "#9": {
                 "STANDARD": {
-                    "alt_value": 137.45,
+                    "alt_value": 137.92,
                     "asset_id": "a7a7a12f-dc40-4776-9596-ffdcc3b12bbe",
                     "name": "2025 POKEMON PROMO BLOOMING WATERS PREMIUM COLLECTION-JUMBO BLASTOISE EX #009",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -3997,8 +4009,8 @@
                     "insured_value": 234.0,
                     "name": "1999 POKEMON BASE SET FRENCH 1ST EDITION HOLO MAGIKARP #35",
                     "asset_id": "39d6e952-b5fc-4ff3-86ec-0d2bcce82d16",
-                    "alt_value": 315.89,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 296.28,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/35/high.jpg"
                 }
             }
@@ -4048,8 +4060,8 @@
                     "insured_value": 65.0,
                     "name": "1996 POKEMON GREEN VERSION PLAYING CARDS 2 OF HEARTS MAGIKARP #129",
                     "asset_id": "942a07b5-44e9-4d7a-bf19-0acaecec4380",
-                    "alt_value": 194.83,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 191.81,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#129A": {
@@ -4057,8 +4069,8 @@
                     "insured_value": 69.0,
                     "name": "1996 POKEMON RED VERSION PLAYING CARDS 2 OF HEARTS MAGIKARP #129A",
                     "asset_id": "c57a3686-1fc1-4ef8-b0c5-ab7915e83055",
-                    "alt_value": 159.35,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 156.43,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -4255,7 +4267,7 @@
                     "alt_value": 884.98,
                     "asset_id": "727ef034-df52-4730-95e7-310a2b075eff",
                     "name": "2024 POKEMON SCARLET AND VIOLET SURGING SPARKS SPECIAL ILLUSTRATION RARE PIKACHU EX #238",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08/238/high.jpg"
                 }
             },
@@ -4489,8 +4501,8 @@
                     "insured_value": 391.0,
                     "name": "2023 POKEMON CENTER X BEAR WALKER WORLD CHAMPIONSHIPS YOKOHAMA EXCLUSIVE CARD WCS YOKOHAMA EXCLUSIVE WC23 PIKACHU",
                     "asset_id": "382d7da9-e7be-4317-be51-878d25cf944b",
-                    "alt_value": 715.93,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 726.72,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#27": {
@@ -4499,7 +4511,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET PALDEA EVOLVED ELITE TRAINER BOX PIKACHU #027",
                     "asset_id": "2a02a8a6-f48d-4baf-aeaa-c72a5228413a",
                     "alt_value": 130.2,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/027/high.jpg"
                 }
             },
@@ -4610,7 +4622,7 @@
                     "name": "2016 POKEMON MARIO PIKACHU HANAFUDA PIKACHU #NNO",
                     "asset_id": "6447937d-2b13-44da-9616-71116349236a",
                     "alt_value": 1362.97,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#110": {
@@ -4629,7 +4641,7 @@
                     "name": "2016 POKEMON HANAFUDA MARIO PIKACHU JUNE ROSELIA",
                     "asset_id": "900508f8-2323-4f93-b9db-923960339414",
                     "alt_value": 71.12,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#RC29": {
@@ -4676,8 +4688,8 @@
                     "insured_value": 327.0,
                     "name": "2021 POKEMON FIRST PARTNER JUMBOS PIKACHU #58",
                     "asset_id": "58c671a5-ff75-4644-a860-e8005b278dd0",
-                    "alt_value": 565.98,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 543.8,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#49": {
@@ -4895,7 +4907,7 @@
                     "name": "1999 POKEMON BASE 1ST EDITION YELLOW CHEEKS PIKACHU #58",
                     "asset_id": "c3cf3685-9767-4a1e-920e-47b8f74775c5",
                     "alt_value": 4517.75,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/58/high.jpg"
                 },
                 "Shadowless": {
@@ -4910,7 +4922,7 @@
                     "name": "1999 POKEMON BASE FOURTH PRINT PIKACHU #58",
                     "asset_id": "3858e225-d583-49d4-a650-b104fa3e76e0",
                     "alt_value": 386.34,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/58/high.jpg"
                 },
                 "1st Edition Holo": {
@@ -4928,7 +4940,7 @@
                     "name": "1999 POKEMON JUNGLE 1ST EDITION PIKACHU #60",
                     "asset_id": "fafb865e-6ff6-44bd-a61a-eea297a53a80",
                     "alt_value": 946.55,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base2/60/high.jpg"
                 }
             }
@@ -5031,14 +5043,14 @@
                     "name": "2010 POKEMON PIKACHU WORLD COLLECTION SPANISH PIKACHU #NNO",
                     "asset_id": "a90ccda6-55c7-40a1-a5b1-863afd358042",
                     "alt_value": 471.52,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 },
                 "Holo": {
                     "insured_value": 365.0,
                     "name": "2010 POKEMON PIKACHU WORLD COLLECTION GERMAN HOLO PIKACHU #NNO",
                     "asset_id": "dc2a1f90-184f-4d67-81c2-6cf7df6e398b",
                     "alt_value": 748.82,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#61": {
@@ -5056,7 +5068,7 @@
                     "alt_value": 488.13,
                     "asset_id": "1870c288-135e-4b4f-b1a6-3ed09574ed8e",
                     "name": "2010 POKEMON HEARTGOLD AND SOULSILVER UNDAUNTED ITALIAN HOLO PIKACHU",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -5134,8 +5146,8 @@
                     "insured_value": 81.0,
                     "name": "2002 POKEMON CENTER PHONE CARD PIKACHU",
                     "asset_id": "2d9d74c0-31fb-49a3-8547-27b6956b062c",
-                    "alt_value": 200.01,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 206.07,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -5246,7 +5258,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS POKEMON DAY EEVEE #74",
                     "asset_id": "5bbdfc91-6ef6-4a77-a22a-5cfb8d922e0d",
                     "alt_value": 60.67,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/074/high.jpg"
                 },
                 "Reverse Holo": {
@@ -5298,7 +5310,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS SURPRISE BOX EXCLUSIVE EEVEE EX #075",
                     "asset_id": "bb992536-ea36-4239-bc6e-74feca2e5eae",
                     "alt_value": 51.9,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/075/high.jpg"
                 }
             },
@@ -5507,8 +5519,8 @@
                     "insured_value": 65.0,
                     "name": "2000 POKEMON GOLD VERSION PLAYING CARDS 4 OF HEARTS EEVEE #133",
                     "asset_id": "34d8fce8-6b1b-4f1c-aa09-fda152f6a2a6",
-                    "alt_value": 98.34,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 100.11,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#PROMO": {
@@ -5528,7 +5540,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 PROMOS POKEMON TOGETHER STAMP EEVEE #133",
                     "asset_id": "38e07c80-ca5a-4d7c-9090-b82246c9a82f",
                     "alt_value": 356.7,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/133/high.jpg"
                 }
             }
@@ -5562,7 +5574,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS GLACEON EX #26",
                     "asset_id": "057196b2-49a0-4f98-97d1-cdb622fa3ea8",
                     "alt_value": 33.15,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/026/high.jpg"
                 }
             },
@@ -5754,7 +5766,7 @@
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH GENGAR #57",
                     "asset_id": "60b35061-a608-4da7-b0a9-40b220debaf0",
                     "alt_value": 79.96,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/057/high.jpg"
                 }
             },
@@ -5893,8 +5905,8 @@
                     "insured_value": 358.0,
                     "name": "2014 POKEMON XY PHANTOM FORCES GENGAR EX #34",
                     "asset_id": "2c73fbf5-bae1-41c8-ae25-21cfc8c09a61",
-                    "alt_value": 362.38,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 366.64,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/xy/xy4/34/high.jpg"
                 }
             }
@@ -5909,10 +5921,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swshp/SWSH052/high.jpg"
                 },
                 "STANDARD": {
-                    "alt_value": 2422.21,
+                    "alt_value": 2463.8,
                     "asset_id": "02a1d8cd-1650-4241-856e-727684a9b3fa",
                     "name": "2020 POKEMON SWORD AND SHIELD BLACK STAR PROMO CHAMPION'S PATH SPECIAL PIN COLLECTION GENGAR #SWSH052",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swshp/SWSH052/high.jpg"
                 }
             }
@@ -6365,7 +6377,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS SURPRISE BOX EXCLUSIVE LEAFEON EX #6",
                     "asset_id": "fe868b68-c273-42af-8f30-cafeedc1db62",
                     "alt_value": 47.11,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/006/high.jpg"
                 }
             },
@@ -6685,8 +6697,8 @@
                     "insured_value": 33.0,
                     "name": "2024 POKEMON PLAY! POKEMON PRIZE PACK: SERIES 5 SKELEDIRGE EX #137",
                     "asset_id": "2e01baab-265b-4508-97ab-0d188ae7b3a2",
-                    "alt_value": 87.9,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 89.01,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04/137/high.jpg"
                 }
             },
@@ -6870,7 +6882,7 @@
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 ULTRA PREMIUM COLLECTION MEW EX #205",
                     "asset_id": "fe4a3f8b-b63c-45d0-90ea-dd53d5f0f9d8",
                     "alt_value": 186.75,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/205/high.jpg"
                 }
             },
@@ -6934,10 +6946,10 @@
             },
             "#198": {
                 "Art Rare": {
-                    "alt_value": 185.46,
+                    "alt_value": 187.97,
                     "asset_id": "76bef406-7c51-498d-a724-1badcdbb7479",
                     "name": "2023 POKEMON PORTUGUESE MEW PT-151 ILLUSTRATION RARE VENUSAUR EX #198",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#1": {
@@ -7573,8 +7585,8 @@
                     "insured_value": 180.0,
                     "name": "2005 CARDDASS POKEMON ADVANCED GENERATION ZUKAN CARD ENTEI UNOWN #400",
                     "asset_id": "f144d41a-7226-4d07-8a7a-48d8f0f58db1",
-                    "alt_value": 316.0,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 228.44,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -7587,7 +7599,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET BLACK STAR PROMOS POKEMON CENTER ELITE TRAINER BOX N'S ZORUA #189",
                     "asset_id": "993aad56-4bad-4a9e-9aa2-8aeaa01d06c2",
                     "alt_value": 266.0,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#142": {
@@ -8086,8 +8098,8 @@
                     "insured_value": 46.0,
                     "name": "2016 POKEMON XY POKEKYUN COLLECTION FLABEBE #21",
                     "asset_id": "3a1b74d9-d281-41cb-b1a2-7aabacbc978b",
-                    "alt_value": 73.72,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 75.85,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#PROMO": {
@@ -8107,8 +8119,8 @@
                     "insured_value": 80.0,
                     "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION GIOVANNI'S MEOWTH #43",
                     "asset_id": "54aef70b-276e-40ca-96db-31333ae0eb0b",
-                    "alt_value": 172.1,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 178.79,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/gym/gym2/43/high.jpg"
                 }
             },
@@ -8117,8 +8129,8 @@
                     "insured_value": 68.0,
                     "name": "2000 POKEMON GYM CHALLENGE 1ST EDITION GIOVANNI'S MEOWTH #74",
                     "asset_id": "04f86fe3-0986-4cd4-80d6-6adbba253aae",
-                    "alt_value": 174.0,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 177.39,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/gym/gym2/74/high.jpg"
                 }
             },
@@ -8167,8 +8179,8 @@
                     "insured_value": 200.0,
                     "name": "2004 POKEMON EX TEAM ROCKET RETURNS ROCKET'S MEOWTH #46",
                     "asset_id": "1f939c6e-75f4-4b6c-9d16-5b084232b82d",
-                    "alt_value": 267.15,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 266.82,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex7/46/high.jpg"
                 }
             }
@@ -8179,8 +8191,8 @@
                     "insured_value": 37.0,
                     "name": "1999 BICYCLE POKEMON PLAYING CARDS QUEEN OF SPADES MEOWTH",
                     "asset_id": "ef4b2668-e3c1-47f7-90f6-5b06de3e7734",
-                    "alt_value": 95.18,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 95.77,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#56": {
@@ -8373,7 +8385,7 @@
                     "name": "2023 POKEMON TRADING CARD GAME CLASSIC VENUSAUR AND LUGIA EX DECK VENUSAUR #3",
                     "asset_id": "cc0a792d-c28f-47a6-b17e-d6d859ac8073",
                     "alt_value": 118.48,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/tcgp/A1/003/high.jpg"
                 }
             },
@@ -8446,8 +8458,8 @@
                     "insured_value": 50.0,
                     "name": "2018 ULTRA POKEMON GX SHINY VENUSAUR #3",
                     "asset_id": "d3f0fc66-65e4-44ee-9f0e-43b931fe5166",
-                    "alt_value": 73.52,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 80.83,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -8619,8 +8631,8 @@
                     "insured_value": 370.0,
                     "name": "2016 POKEMON XY BREAKPOINT GRENINJA #41",
                     "asset_id": "a4a8d7f5-a578-40e5-b466-de35646f5462",
-                    "alt_value": 380.49,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 429.45,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/xy/xy9/41/high.jpg"
                 }
             },
@@ -8941,8 +8953,8 @@
                     "insured_value": 415.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 GERMAN ZAPDOS EX SIR #202",
                     "asset_id": "64096f9f-d0db-4ae6-ae57-96a5462c3cf2",
-                    "alt_value": 359.41,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 379.77,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/202/high.jpg"
                 },
                 "Art Rare": {
@@ -9037,8 +9049,8 @@
                     "insured_value": 104.0,
                     "name": "2000 POKEMON PROMO BLACK STAR NAOYO KIMURA CORRECTED ZAPDOS #23",
                     "asset_id": "fd76aaeb-ce89-4da4-b10c-b8ed4c89fb26",
-                    "alt_value": 188.96,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 184.95,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/basep/23/high.jpg"
                 }
             }
@@ -9080,7 +9092,7 @@
                     "alt_value": 72.16,
                     "asset_id": "0cdfa101-828e-4a59-8a0f-926de2ee6081",
                     "name": "2025 POKEMON SCARLET AND VIOLET DESTINED RIVALS PURCHASE CAMPAIGN ASIA TEAM ROCKET'S ZAPDOS #070",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10/070/high.jpg"
                 }
             }
@@ -9111,8 +9123,8 @@
                     "insured_value": 120.0,
                     "name": "2005 CARDDASS POKEMON ADVANCED GENERATION ZUKANCARD PART 2 ZAPDOS #386",
                     "asset_id": "2d5d2acc-6749-4103-a0cf-e27da7d4f922",
-                    "alt_value": 290.3,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 282.18,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -9283,8 +9295,8 @@
                     "insured_value": 95.0,
                     "name": "2016 POKEMON CP 4 PREMIUM CHAMPION PACK GROUDON EX #72",
                     "asset_id": "bdaac7c8-7765-49d7-aebf-d6f9f7e2b2ec",
-                    "alt_value": 99.74,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 112.28,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -9558,8 +9570,8 @@
                     "insured_value": 55.0,
                     "name": "2021 POKEMON SWORD AND SHIELD CHILLING REIGN FRENCH CELEBI VMAX #8",
                     "asset_id": "fa455a51-4630-444e-b2c2-b8edc40e9635",
-                    "alt_value": 72.27,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 70.95,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh6/8/high.jpg"
                 }
             },
@@ -9726,8 +9738,8 @@
                     "insured_value": 42.0,
                     "name": "1996 POKEMON GREEN VERSION PLAYING CARDS 4 OF DIAMONDS IVYSAUR #2",
                     "asset_id": "38b2e576-72d2-4c25-9b92-3a95ccbc2ba0",
-                    "alt_value": 118.7,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 105.79,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -10023,8 +10035,8 @@
                     "insured_value": 49.0,
                     "name": "2000 POKEMON SILVER VERSION PLAYING CARDS 10 OF SPADES RAIKOU #243",
                     "asset_id": "ad87d8ab-a107-4d5a-8b18-4f8e251bdecb",
-                    "alt_value": 65.25,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 67.58,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -10277,10 +10289,10 @@
             },
             "#37": {
                 "STANDARD": {
-                    "alt_value": 71.43,
+                    "alt_value": 71.15,
                     "asset_id": "d083c6e1-11a6-440f-a1ff-785ab9de298e",
                     "name": "2009 POKEMON KIDS DIAMOND AND PEARL NATIONAL POKEDEX 5 CHARMELEON #037",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -10327,7 +10339,7 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET BLACK STAR PROMO PALDEAN FATES ELITE TRAINER BOX MIMIKYU #75",
                     "asset_id": "976523f2-e182-40b0-b482-1246567d7a23",
                     "alt_value": 78.22,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/075/high.jpg"
                 }
             },
@@ -10345,8 +10357,8 @@
                     "insured_value": 123.0,
                     "name": "2024 POKEMON CENTER WELCOME! POKEMON CAFE ~MIXING PUZZLES~ HALLOWEEN CAMPAIGN ORIGINAL CLEAR CARDS MIMIKYU",
                     "asset_id": "d38a9539-d891-429e-8e55-1d25fff14083",
-                    "alt_value": 248.39,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 253.66,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#37": {
@@ -10526,7 +10538,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS SURPRISE BOX EXCLUSIVE FLAREON EX #14",
                     "asset_id": "4174206c-2184-4960-a403-f2d9216a1feb",
                     "alt_value": 51.64,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/014/high.jpg"
                 }
             },
@@ -10545,7 +10557,7 @@
                     "asset_id": "b0712a0b-e488-4111-8be7-cde706590cee",
                     "alt_value": 100.74,
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/013/high.jpg",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#013": {
@@ -10706,7 +10718,7 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET BLACK STAR PROMO TWILIGHT MASQUERADE POKEMON CENTER ELITE TRAINER BOX TEAL MASK OGERPON #123",
                     "asset_id": "22467267-51de-4662-9b41-7c396208079c",
                     "alt_value": 217.27,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/123/high.jpg"
                 }
             },
@@ -11241,8 +11253,8 @@
                     "insured_value": 60.0,
                     "name": "2021 POKEMON SWORD & SHIELD BATTLE STYLES SECRET RAPID STRIKE URSHIFU VMAX #169",
                     "asset_id": "4156ca97-cd14-49a3-b313-3a0289c468d7",
-                    "alt_value": 42.28,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 43.17,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh5/169/high.jpg"
                 }
             },
@@ -11585,8 +11597,8 @@
                     "insured_value": 30.0,
                     "name": "2020 POKEMON CROBAT SHINY BOX CROBAT V #152 S-P",
                     "asset_id": "44092b94-4c2b-4db5-baf8-01d8c88b2c89",
-                    "alt_value": 38.09,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 39.58,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -11700,7 +11712,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET PRISMATIC EVOLUTIONS SURPRISE BOX EXCLUSIVE JOLTEON EX #30",
                     "asset_id": "211af4aa-6f68-4eae-b8ad-86342cb44a3b",
                     "alt_value": 51.67,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/030/high.jpg"
                 }
             },
@@ -11816,8 +11828,8 @@
                     "insured_value": 182.0,
                     "name": "1999 POKEMON JUNGLE 1ST EDITION JOLTEON #20",
                     "asset_id": "cea12cbe-52de-4b22-a69d-f7d89c5d1f8f",
-                    "alt_value": 564.0,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 544.89,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base2/20/high.jpg"
                 }
             }
@@ -11828,8 +11840,8 @@
                     "insured_value": 40.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 REVERSE FOIL JOLTEON #135",
                     "asset_id": "d4ee39b4-db00-4b84-be2d-f3ee10664a09",
-                    "alt_value": 71.38,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 74.45,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/135/high.jpg"
                 }
             }
@@ -11840,8 +11852,8 @@
                     "insured_value": 87.0,
                     "name": "2024 POKEMON X CRAFTS EXHIBITION COMMEMORATION AZABUDAI HILLS POKEMON STAMP RALLY STICKERS STAMP RALLY STICKER JOLTEON",
                     "asset_id": "5ad62d5d-bc13-4a28-bb52-be799d89dcc4",
-                    "alt_value": 285.66,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 268.62,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -12039,7 +12051,7 @@
                     "alt_value": 68.22,
                     "asset_id": "b34453dc-4870-4983-9db9-e88e48c1da7e",
                     "name": "2023 POKEMON SCARLET AND VIOLET BLACK STAR PROMOS ELITE TRAINER BOX KORAIDON #014",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/014/high.jpg"
                 }
             }
@@ -12164,8 +12176,8 @@
                     "insured_value": 158.0,
                     "name": "2016 POKEMON XY FATES COLLIDE REVERSE LUCARIO #63",
                     "asset_id": "1b5960e5-9adb-4128-ba26-308413851ca1",
-                    "alt_value": 111.61,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 105.38,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/xy/xy10/63/high.jpg"
                 }
             }
@@ -12205,8 +12217,8 @@
                     "insured_value": 406.0,
                     "name": "2017 POKEMON CRIMSION INVASION THREE PACK BLISTERS LUCARIO #SM54",
                     "asset_id": "09b199bb-d33b-44e6-8b4a-a5e869a28586",
-                    "alt_value": 103.75,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 118.59,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/smp/SM54/high.jpg"
                 }
             }
@@ -12217,8 +12229,8 @@
                     "insured_value": 41.0,
                     "name": "2025 POKEMON TARUKA LUCARIO",
                     "asset_id": "141a2bd8-75d0-4ca5-ae36-412a54edc921",
-                    "alt_value": 38.01,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 39.96,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#188": {
@@ -12297,8 +12309,8 @@
                     "insured_value": 85.0,
                     "name": "2018 POKEMON GX SHINY ULTRA REVERSE LUCARIO #56",
                     "asset_id": "104d9e24-edc1-44f9-ac68-82eb8ad36f73",
-                    "alt_value": 65.29,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 68.43,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -12591,8 +12603,8 @@
                     "insured_value": 113.0,
                     "name": "2000 POKEMON GOLD VERSION PLAYING CARDS 5 OF HEARTS ESPEON #196A",
                     "asset_id": "3a0413b9-fe5c-4085-9069-9e11e005927b",
-                    "alt_value": 146.83,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 155.25,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -12775,8 +12787,8 @@
                     "insured_value": 47.0,
                     "name": "2018 ULTRA POKEMON GX SHINY SHAYMIN #6",
                     "asset_id": "f63ef072-ac4b-4e47-86c4-3b55c086be7a",
-                    "alt_value": 44.99,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 44.37,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -12854,8 +12866,8 @@
                     "insured_value": 160.0,
                     "name": "1999 POKEMON BASE SET GERMAN 1ST EDITION WARTORTLE #42",
                     "asset_id": "1a56d764-6c57-4841-a147-6a1bb7d03dd8",
-                    "alt_value": 268.1,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 261.58,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/42/high.jpg"
                 }
             }
@@ -13135,8 +13147,8 @@
                     "insured_value": 100.0,
                     "name": "2005 POKEMON EX UNSEEN FORCES GOLDEN SKY DECK TYPHLOSION #17",
                     "asset_id": "7082b433-1460-4ee6-9a68-c7e19377f2c4",
-                    "alt_value": 171.73,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 159.01,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex10/17/high.jpg"
                 }
             }
@@ -13276,7 +13288,7 @@
                     "name": "2025 POKEMON PRISMATIC EVOLUTIONS PROMO SURPRISE BOX EXCLUSIVE VAPOREON EX #23",
                     "asset_id": "db7b11d7-02be-4606-b302-4798e64edd79",
                     "alt_value": 50.01,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/023/high.jpg"
                 }
             },
@@ -13300,10 +13312,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/bw/bw5/25/high.jpg"
                 },
                 "STANDARD": {
-                    "alt_value": 2231.34,
+                    "alt_value": 2227.09,
                     "asset_id": "0cacdf81-09bb-4fe2-83fe-042f23cc630c",
                     "name": "2012 POKEMON BLACK & WHITE DARK EXPLORERS STATE PROVINCE TERRITORY CHAMPIONSHIPS-STAFF VAPOREON #25",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/bw/bw5/25/high.jpg"
                 }
             }
@@ -13408,8 +13420,8 @@
                     "insured_value": 95.0,
                     "name": "2019 POKEMON SUN AND MOON COSMIC ECLIPSE VAPOREON #42",
                     "asset_id": "19354814-ffab-4a15-b124-a9fc4d2c3689",
-                    "alt_value": 86.58,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 83.51,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm12/42/high.jpg"
                 }
             }
@@ -13568,7 +13580,7 @@
                     "alt_value": 135.09,
                     "asset_id": "7081a161-a3f4-475f-90f6-2df1feafc47e",
                     "name": "2025 POKEMON SCARLET AND VIOLET DESTINED RIVALS PROMO POKEMON CENTER EXCLUSIVE TEAM ROCKET'S TYRANITAR #096",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10/096/high.jpg"
                 }
             }
@@ -13738,7 +13750,7 @@
                     "name": "2025 POKEMON PRISMATIC EVOLUTIONS SURPRISE BOX EXCLUSIVE SYLVEON EX #41",
                     "asset_id": "a3a07d3e-f4dc-4159-b730-e43230939d81",
                     "alt_value": 45.84,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/041/high.jpg"
                 }
             },
@@ -14378,8 +14390,8 @@
                     "insured_value": 91.0,
                     "name": "2005 CARDDASS POKEMON ADVANCED GENERATION ZUKANCARD PART 2 ALAKAZAM #264",
                     "asset_id": "338711a0-9b43-4659-b1b6-4b41b2b17679",
-                    "alt_value": 233.68,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 224.15,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -14426,8 +14438,8 @@
                     "insured_value": 47.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH OINKOLOGNE #208",
                     "asset_id": "8338d447-3cc0-4fb8-bd4a-74feb412f7d2",
-                    "alt_value": 49.35,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 54.01,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/208/high.jpg"
                 }
             }
@@ -14444,10 +14456,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5w/122/high.jpg"
                 },
                 "Holo": {
-                    "alt_value": 59.53,
+                    "alt_value": 59.35,
                     "asset_id": "15aebb95-d6a3-4d51-ad5c-b183d7d39f05",
                     "name": "2025 WHITE FLARE - WHT EN - ENGLISH ILLUSTRATION RARE HOLO YAMASK #122",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5w/122/high.jpg"
                 }
             }
@@ -14461,7 +14473,7 @@
                     "name": "2024 POKEMON SCARLET AND VIOLET BLACK STAR PROMO SURGING SPARKS POKEMON CENTER ELITE TRAINER BOX MAGNETON #159",
                     "asset_id": "4d9246b8-eddc-4074-aad6-30e64f0ff99c",
                     "alt_value": 192.65,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/159/high.jpg"
                 }
             }
@@ -14525,9 +14537,9 @@
                     "insured_value": 207.0,
                     "name": "2007 POWER POKEMON EX KEEPERS REVERSE FOIL MAGNETON #16",
                     "asset_id": "03d94f0f-111d-4bbc-907b-64b7a9618117",
-                    "alt_value": 311.44,
+                    "alt_value": 330.44,
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex16/16/high.jpg",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -14710,8 +14722,8 @@
                     "insured_value": 13.0,
                     "name": "2025 POKEMON TARUKA SINISTCHA",
                     "asset_id": "e53f5b59-075a-4083-8ad5-e7d1730a5990",
-                    "alt_value": 21.18,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 20.74,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -14891,8 +14903,8 @@
                     "insured_value": 35.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 CHANSEY #113",
                     "asset_id": "bb8d9e74-7646-4c29-8e74-4f12269bc646",
-                    "alt_value": 50.82,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 57.49,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/113/high.jpg"
                 }
             }
@@ -15045,10 +15057,10 @@
             },
             "#54": {
                 "Reverse Holo": {
-                    "alt_value": 50.25,
+                    "alt_value": 54.06,
                     "asset_id": "2a550876-b7aa-42ff-b0c5-cf4b41c53b29",
                     "name": "2025 POKEMON PRISMATIC EVOLUTIONS MASTER BALL REVERSE HOLO BLOODMOON URSALUNA #054",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/054/high.jpg"
                 }
             }
@@ -15191,10 +15203,10 @@
             "#76": {
                 "STANDARD": {
                     "insured_value": 110.0,
-                    "name": "2022 POKEMON GO DRAGONITE V #76",
+                    "name": "2022 POKEMON GO ULTRA RARE DRAGONITE V #76",
                     "asset_id": "f8efbfbf-9ea6-49e4-87fa-7f0769a1291d",
-                    "alt_value": 88.82,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 89.43,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh10.5/076/high.jpg"
                 }
             },
@@ -15251,8 +15263,8 @@
                     "insured_value": 157.0,
                     "name": "2000 POKEMON SILVER VERSION PLAYING CARDS 3 OF SPADES DRAGONITE #149",
                     "asset_id": "112ad99a-e045-4c9e-a026-a5c81b80dee4",
-                    "alt_value": 318.83,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:58 AM (CET)"
+                    "alt_value": 334.19,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#22": {
@@ -15823,8 +15835,8 @@
                     "insured_value": 240.0,
                     "name": "2012 POKEMON BLACK AND WHITE BOUNDARIES CROSSED LANDORUS EX #89",
                     "asset_id": "121c7f48-12a5-4685-aa69-e61305955601",
-                    "alt_value": 177.9,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:58 AM (CET)",
+                    "alt_value": 184.05,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/bw/bw7/89/high.jpg"
                 }
             }
@@ -15910,8 +15922,8 @@
                     "insured_value": 324.0,
                     "name": "2005 POKEMON EX UNSEEN FORCES HOLO SLOWBRO #13",
                     "asset_id": "f3bf7964-d94a-444c-a081-37c815210aa5",
-                    "alt_value": 948.1,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:58 AM (CET)",
+                    "alt_value": 965.79,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex10/13/high.jpg"
                 }
             }
@@ -16009,7 +16021,7 @@
                     "name": "2019 POKEMON SUN AND MOON UNIFIED MINDS JIRACHI GX #79",
                     "asset_id": "871e7644-f1f2-4044-a7cd-a7abb9277ef6",
                     "alt_value": 120.56,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm11/79/high.jpg"
                 }
             },
@@ -16209,8 +16221,8 @@
                     "insured_value": 470.0,
                     "name": "2005 CARDDASS POKEMON ADVANCED GENERATION ZUKAN CARD RAINBOW SNORLAX #290",
                     "asset_id": "93bf88a9-5cd6-446f-a65d-47253bdf0e78",
-                    "alt_value": 1085.31,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 1193.68,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -16258,8 +16270,8 @@
                     "insured_value": 48.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH DACHSBUN #161",
                     "asset_id": "cdcfe2ff-31e8-4e81-ba53-0963243ccb88",
-                    "alt_value": 54.82,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 60.53,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/161/high.jpg"
                 }
             },
@@ -16495,7 +16507,7 @@
                     "alt_value": 373.17,
                     "asset_id": "f5f6423b-d3a4-427b-8762-08826e098147",
                     "name": "2023 POKEMON SCARLET AND VIOLET OBSIDIAN FLAMES ELITE TRAINER BOX CHARMANDER #044",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/044/high.jpg"
                 }
             },
@@ -16591,7 +16603,7 @@
                     "name": "1999 POKEMON BASE SET 1ST EDITION CHARMANDER #46",
                     "asset_id": "0c184b22-1ec8-4616-aa5c-1904b704246f",
                     "alt_value": 2746.88,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/46/high.jpg"
                 },
                 "STANDARD": {
@@ -16599,7 +16611,7 @@
                     "name": "1999 POKEMON BASE SET CHARMANDER #46",
                     "asset_id": "09d34bc8-773b-46ce-8d85-261667e420f6",
                     "alt_value": 203.46,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/46/high.jpg"
                 },
                 "Shadowless": {
@@ -16797,8 +16809,8 @@
                     "insured_value": 94.0,
                     "name": "1996 POKEMON RED VERSION PLAYING CARDS KING OF CLUBS ARCANINE #59",
                     "asset_id": "e77dab5c-86cf-403e-9c0b-a7f901a8d9e2",
-                    "alt_value": 170.46,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 167.41,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -17267,8 +17279,8 @@
                     "insured_value": 46.0,
                     "name": "2024 POKEMON PAL EN-PALDEA EVOLVED GAMESTOP EXCLUSIVE SPRIGATITO #12",
                     "asset_id": "c498a797-ce77-47d5-a5a7-b43a49a29425",
-                    "alt_value": 73.04,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 71.51,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv02/012/high.jpg"
                 }
             },
@@ -17786,10 +17798,10 @@
             },
             "#6": {
                 "Reverse Holo": {
-                    "alt_value": 36.6,
+                    "alt_value": 34.74,
                     "asset_id": "57181264-2df0-45ce-9c01-075853e5b0db",
                     "name": "2025 WHITE FLARE - WHT EN - ENGLISH MASTER BALL REVERSE HOLO DEERLING #006",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -17865,8 +17877,8 @@
                     "insured_value": 125.0,
                     "name": "2018 POKEMON SUN AND MOON CELESTIAL STORM SHIFTRY GX #152",
                     "asset_id": "463efa4f-1ab6-40f2-b198-97602f7a774b",
-                    "alt_value": 70.78,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 78.19,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm7/152/high.jpg"
                 }
             }
@@ -18045,8 +18057,8 @@
                     "insured_value": 210.0,
                     "name": "1999 POKEMON FOSSIL 1ST EDITION SLOWPOKE #55",
                     "asset_id": "db7010ea-9642-4883-8ab3-73a8f67fac90",
-                    "alt_value": 254.51,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 257.79,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base3/55/high.jpg"
                 }
             }
@@ -18211,7 +18223,7 @@
                     "name": "2024 POKEMON STELLAR CROWN BLACK STAR PROMO POKEMON CENTER ELITE TRAINER BOX NOCTOWL #141",
                     "asset_id": "3a49582e-3a16-49de-9abe-f3d2b2cee723",
                     "alt_value": 140.47,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/tcgp/A4/141/high.jpg"
                 }
             }
@@ -18244,10 +18256,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/116/high.jpg"
                 },
                 "STANDARD": {
-                    "alt_value": 314.13,
+                    "alt_value": 325.75,
                     "asset_id": "1d8f46ee-0c4e-466d-8e88-d77c1eb4f7de",
                     "name": "2024 BLACK STAR PROMOS - SCARLET & VIOLET SVP EN ENGLISH TWILIGHT MASQUERADE PRERELEASE STAFF INFERNAPE #116",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/116/high.jpg"
                 }
             }
@@ -18487,7 +18499,7 @@
                     "name": "2003 POKEMON SKYRIDGE HOLO HOUNDOOM #H11",
                     "asset_id": "0ea8707b-38a6-41c3-9a03-edb87ef875df",
                     "alt_value": 7887.22,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -18629,8 +18641,8 @@
                     "insured_value": 79.0,
                     "name": "2022 POKEMON SWORD AND SHIELD LOST ORIGIN SECRET RARE AERODACTYL VSTAR #199",
                     "asset_id": "50a71917-4c32-4625-9def-097fb467db8b",
-                    "alt_value": 59.96,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 63.01,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh11/199/high.jpg"
                 }
             }
@@ -18717,8 +18729,8 @@
                     "insured_value": 77.0,
                     "name": "2000 POKEMON GYM HEROES 1ST EDITION BROCK'S ONIX #69",
                     "asset_id": "3c37e36e-0030-4ec7-9af7-e6f939a22d07",
-                    "alt_value": 240.1,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 242.19,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/neo/neo1/69/high.jpg"
                 }
             }
@@ -18791,8 +18803,8 @@
                     "insured_value": 52.0,
                     "name": "2025 POKEMON TARUKA DARKRAI",
                     "asset_id": "03c225d0-793f-4ca5-bab6-1ce8d5d770c1",
-                    "alt_value": 36.72,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 39.66,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -18908,8 +18920,8 @@
                     "insured_value": 300.0,
                     "name": "2023 POKEMON PAR EN-PARADOX RIFT ENHANCED 2 PACK BLISTER LATIOS #73",
                     "asset_id": "a6ed782c-fac1-47b8-8e56-f508ab2c037e",
-                    "alt_value": 438.33,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 474.57,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04/073/high.jpg"
                 }
             }
@@ -19032,8 +19044,8 @@
                     "insured_value": 119.0,
                     "name": "2024 POKEMON SVP EN-SV BLACK STAR PROMO GRAND ADV COLL-JUMBO TERAPAGOS FRIENDS",
                     "asset_id": "64ffbb14-6a7d-4e61-bc19-fb70b1ae0205",
-                    "alt_value": 97.67,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 97.6,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#164": {
@@ -19125,8 +19137,8 @@
                     "insured_value": 180.0,
                     "name": "2004 POKEMON EX TEAM ROCKET RETURNS DARK DRAGONAIR #32",
                     "asset_id": "1c9a609a-9ebe-4700-ac17-823c1725e20a",
-                    "alt_value": 186.11,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 176.8,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex7/32/high.jpg"
                 }
             }
@@ -19523,8 +19535,8 @@
                     "insured_value": 70.0,
                     "name": "1999 POKEMON FRENCH 1ST EDITION PORYGON #39",
                     "asset_id": "f647b4f3-842e-4ab7-983d-50bd0c3d2b06",
-                    "alt_value": 246.23,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "alt_value": 248.65,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/39/high.jpg"
                 }
             }
@@ -19686,8 +19698,8 @@
                     "insured_value": 181.0,
                     "name": "2006 POKEMON EX LEGEND MAKER REVERSE HOLO GOLEM #6",
                     "asset_id": "0f86eff7-403f-43ca-b3f0-3f7fb07ac700",
-                    "alt_value": 491.61,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 477.34,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex12/6/high.jpg"
                 }
             }
@@ -19698,8 +19710,8 @@
                     "insured_value": 589.0,
                     "name": "2004 YU-GI-OH ANCIENT SANCTUARY 1ST EDITION GEAR GOLEM THE MOVING FORTRESS UR #AST18",
                     "asset_id": "4095f16f-4743-4b4a-b8c8-38a8a1e7d162",
-                    "alt_value": 188.07,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 181.27,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -19741,8 +19753,8 @@
                     "insured_value": 45.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET OBSIDIAN FLAMES SCIZOR #141",
                     "asset_id": "c7a1ae72-7e2b-4c67-8eb7-a5eb35705324",
-                    "alt_value": 47.69,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 47.04,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03/141/high.jpg"
                 }
             }
@@ -19836,7 +19848,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET BLACK STAR PROMO DESTINED RIVALS ELITE TRAINER BOX TEAM ROCKET'S WOBBUFFET #203",
                     "asset_id": "8c8c06cb-d80f-40e1-852b-981bba29e2ff",
                     "alt_value": 99.29,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -19996,8 +20008,8 @@
                     "insured_value": 40.0,
                     "name": "2001 POKEMON NEO REVELATION 1ST EDITION PILOSWINE #36",
                     "asset_id": "6ff14444-6142-4031-acf2-9cf4ae0d6fe4",
-                    "alt_value": 85.41,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 91.05,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/neo/neo3/36/high.jpg"
                 }
             }
@@ -20310,8 +20322,8 @@
                     "insured_value": 99.0,
                     "name": "2004 POKEMON POP SERIES 1 METAGROSS #2",
                     "asset_id": "3ab70576-f8de-4523-ae0d-543f525f1c0b",
-                    "alt_value": 266.68,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 284.62,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/pop/pop1/2/high.jpg"
                 }
             }
@@ -20455,8 +20467,8 @@
                     "insured_value": 89.0,
                     "name": "2021 POKEMON SWSH BLACK STAR PROMO CELEBRATIONS COLLECTION-JUMBO HYDREIGON C-HOLO #138",
                     "asset_id": "24e09624-2ba7-494f-87a0-3141f05649f2",
-                    "alt_value": 178.32,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 190.93,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -20600,8 +20612,8 @@
                     "insured_value": 94.0,
                     "name": "1999 POKEMON GAME BASE SET 1999-2000 GASTLY #50",
                     "asset_id": "e192b801-960f-4344-a0b1-78d8946fc6a8",
-                    "alt_value": 106.44,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 101.12,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/50/high.jpg"
                 }
             }
@@ -20892,8 +20904,8 @@
                     "insured_value": 61.0,
                     "name": "2021 POKEMON INDONESIAN SM PROMO KFC CHAKI KIDS MEAL DRATINI #185",
                     "asset_id": "22c3060d-4797-44b9-82fc-de7be11029d6",
-                    "alt_value": 54.0,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 58.05,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -20947,8 +20959,8 @@
                     "insured_value": 265.0,
                     "name": "2019 POKEMON SUN AND MOON TEAM UP AMPHAROS GX #185",
                     "asset_id": "bb409b66-c4d5-4371-ac46-800184e232bc",
-                    "alt_value": 209.01,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 219.53,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm9/185/high.jpg"
                 }
             }
@@ -21271,8 +21283,8 @@
                     "insured_value": 50.0,
                     "name": "2018 ULTRA POKEMON GX SHINY SOLGALEO GX #249",
                     "asset_id": "840d2f25-a519-422b-9e8f-c5e49c4617ca",
-                    "alt_value": 74.05,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 78.89,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -21485,8 +21497,8 @@
                     "insured_value": 101.0,
                     "name": "2018 POKEMON SUN AND MOON CELESTIAL STORM STAKATAKA GX #176",
                     "asset_id": "2bfba6d3-598c-4bda-bfca-faa52dfb7ef6",
-                    "alt_value": 109.09,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 114.62,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm7/176/high.jpg"
                 }
             }
@@ -21512,8 +21524,8 @@
                     "insured_value": 30.0,
                     "name": "2022 POKEMON CENTER SCARLET & VIOLET PRE-ORDER BONUS IN STORE FUECOCO",
                     "asset_id": "f30fa0fe-f1db-45ca-aa6d-178d70e246d4",
-                    "alt_value": 75.61,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 86.21,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -21564,7 +21576,7 @@
                     "name": "2025 POKEMON SCARLET AND VIOLET BLACK STAR BLACK BOLT PROMO POKEMON CENTER ELITE TRAINER BOX THUNDURUS #209",
                     "asset_id": "1a598083-62ca-4156-a314-d26fc4e13cdd",
                     "alt_value": 109.04,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -21588,7 +21600,7 @@
                     "name": "1999 POKEMON BASE SET 1ST EDITION POLIWAG #59",
                     "asset_id": "0f54b1f7-c762-402b-9a50-337985459c60",
                     "alt_value": 547.07,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/59/high.jpg"
                 }
             }
@@ -21864,8 +21876,8 @@
                     "insured_value": 40.0,
                     "name": "2018 ULTRA POKEMON GX SHINY SUDOWOODO #180",
                     "asset_id": "89785e18-f57d-438a-9565-82b4f98a2bad",
-                    "alt_value": 40.94,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 42.58,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -22093,8 +22105,8 @@
                     "insured_value": 100.0,
                     "name": "2023 POKEMON SVP EN-SV BLACK STAR PROMO PALDEA COLLECTION-JUMBO MIRAIDON EX",
                     "asset_id": "ab14f0b3-d59b-4477-a084-abda77a3aafa",
-                    "alt_value": 132.12,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 125.0,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             },
             "#13": {
@@ -22102,7 +22114,7 @@
                     "alt_value": 79.01,
                     "asset_id": "fb0861a4-65c7-4bbe-ba1f-786f3b681d99",
                     "name": "2023 POKEMON SCARLET AND VIOLET BLACK STAR PROMO ELITE TRAINER BOX MIRAIDON #013",
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/svp/013/high.jpg"
                 }
             }
@@ -22515,8 +22527,8 @@
                     "insured_value": 55.0,
                     "name": "2000 POKEMON NEO GENESIS 1ST EDITION WOOPER #82",
                     "asset_id": "44638088-aad6-434d-8b8b-500fc1e701ad",
-                    "alt_value": 220.39,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 233.88,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/neo/neo1/82/high.jpg"
                 }
             }
@@ -22988,8 +23000,8 @@
                     "insured_value": 24.0,
                     "name": "2023 POKEMON 2022 WORLD CHAMPIONSHIPS DECK: ADP ADP HISUIAN DECIDUEYE V #83",
                     "asset_id": "3d9c47f1-45f2-40bd-a897-8efbba062875",
-                    "alt_value": 33.41,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 28.16,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh10/083/high.jpg"
                 }
             }
@@ -23422,8 +23434,8 @@
                     "insured_value": 46.0,
                     "name": "2003 POKEMON EX RUBY AND SAPPHIRE TREECKO #76",
                     "asset_id": "06c4d74e-76ab-4f64-a2c3-a5868807f2ee",
-                    "alt_value": 201.2,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 198.1,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex1/76/high.jpg"
                 }
             },
@@ -23466,10 +23478,10 @@
             },
             "#48": {
                 "Holo": {
-                    "alt_value": 36.71,
+                    "alt_value": 35.35,
                     "asset_id": "a387a3f8-a299-43f9-b294-28b7d448101d",
                     "name": "2025 PRISMATIC EVOLUTIONS - PRE EN - ENGLISH MASTER BALL HOLO PUPITAR #048",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/048/high.jpg"
                 }
             }
@@ -23592,8 +23604,8 @@
                     "insured_value": 150.0,
                     "name": "1997 POKEMON BANDAI CARDDASS PART 3 AND 4 KOFFING #109",
                     "asset_id": "40e345ed-c982-4a39-8163-a0483c8e94c4",
-                    "alt_value": 419.32,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 397.63,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -23731,8 +23743,8 @@
                     "insured_value": 60.0,
                     "name": "1999 GEMPLUS NINTENDO POKEMON SNAP SMART CARDS BLOCKBUSTER VIDEO JIGGLYPUFF",
                     "asset_id": "e85949d0-91cc-43e9-891d-ab549deda005",
-                    "alt_value": 134.93,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 132.41,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -23771,8 +23783,8 @@
                     "insured_value": 33.0,
                     "name": "2023 POKEMON SCARLET AND VIOLET 151 REVERSE FOIL JIGGLYPUFF #39",
                     "asset_id": "618436c6-d81f-4942-9dc9-5adec1c2b105",
-                    "alt_value": 78.19,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 84.12,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03.5/039/high.jpg"
                 }
             }
@@ -23820,8 +23832,8 @@
                     "insured_value": 41.0,
                     "name": "2003 POKEMON EX RUBY AND SAPPHIRE TORCHIC #74",
                     "asset_id": "9f219e59-9b9d-4316-8c44-b35ab52b1b3f",
-                    "alt_value": 77.26,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 85.47,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex1/74/high.jpg"
                 }
             }
@@ -23846,8 +23858,8 @@
                     "insured_value": 91.0,
                     "name": "2007 CARDDASS POKEMON DIAMOND & PEARL ZUKANCARD CLEAR CARDS TURTWIG #1",
                     "asset_id": "1111e267-a25e-4f74-b448-b151c80189db",
-                    "alt_value": 191.94,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 209.38,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -24025,8 +24037,8 @@
                     "insured_value": 60.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH TINKATON #167",
                     "asset_id": "2e53b8af-acfe-4151-a71d-ff53cf7f7509",
-                    "alt_value": 44.89,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 44.72,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/167/high.jpg"
                 }
             }
@@ -24321,8 +24333,8 @@
                     "insured_value": 54.0,
                     "name": "1996 POKEMON RED VERSION PLAYING CARDS QUEEN OF DIAMONDS GLOOM #44",
                     "asset_id": "aeb5d247-00b7-4ba7-8fd4-dc5413ed155b",
-                    "alt_value": 58.33,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 55.19,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -24635,8 +24647,8 @@
                     "insured_value": 80.0,
                     "name": "2021 POKEMON SWSH BLACK STAR PROMO SHINING FATES PREMIUM COLLECTION BOX DRAGAPULT V #96",
                     "asset_id": "8cf1b7a6-641d-4ac5-80b3-f6bd0d94fdc8",
-                    "alt_value": 49.52,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 51.0,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -24868,8 +24880,8 @@
                     "insured_value": 30.0,
                     "name": "2023 OBSIDIAN FLAMES - OBF EN - ENGLISH KINGAMBIT #150",
                     "asset_id": "8ac18f59-bde3-4165-8b50-1cc6fe4bfc8d",
-                    "alt_value": 33.61,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 36.14,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv03/150/high.jpg"
                 }
             }
@@ -25124,7 +25136,7 @@
                     "name": "1999 POKEMON BASE SET 1ST EDITION RATTATA #61",
                     "asset_id": "803565ff-f175-495a-bbd0-47ce2165a16b",
                     "alt_value": 411.13,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/61/high.jpg"
                 }
             }
@@ -25252,8 +25264,8 @@
                     "insured_value": 66.0,
                     "name": "2007 POWER POKEMON EX KEEPERS REVERSE FOIL COMBUSKEN U #29",
                     "asset_id": "c586b27d-20c6-4332-a749-cc82c9a6fd96",
-                    "alt_value": 627.41,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 711.14,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex16/29/high.jpg"
                 }
             }
@@ -25537,8 +25549,8 @@
                     "insured_value": 200.0,
                     "name": "2003 POKEMON EX RUBY AND SAPPHIRE REVERSE HOLO PHANPY #62",
                     "asset_id": "29344572-0358-4d60-b411-a91fcff1958b",
-                    "alt_value": 125.06,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 118.15,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex1/62/high.jpg"
                 }
             }
@@ -25709,8 +25721,8 @@
                     "insured_value": 35.0,
                     "name": "2014 POKEMON SCRAP MEGA EVOLUTION SHINY BELDUM",
                     "asset_id": "e3969a43-4f6c-4b90-9f51-7ed6c298493d",
-                    "alt_value": 73.36,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 81.03,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -25902,8 +25914,8 @@
                     "insured_value": 42.0,
                     "name": "1999 POKEMON BASE SET GERMAN 1ST EDITION SANDSHREW #62",
                     "asset_id": "d36d0203-2f9a-4a0e-9575-3b17b815b9ba",
-                    "alt_value": 99.93,
-                    "LastUpdated": "Last Updated on 12 March 2026, 08:00 PM (CET)",
+                    "alt_value": 97.57,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/62/high.jpg"
                 },
                 "STANDARD": {
@@ -25940,10 +25952,10 @@
             },
             "#23": {
                 "Holo": {
-                    "alt_value": 18.25,
+                    "alt_value": 19.61,
                     "asset_id": "6e36cf20-0e12-46c8-8128-86d2f225029b",
                     "name": "2025 DESTINED RIVALS - DRI EN - ENGLISH HOLO ARBOLIVA EX #023",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -26558,8 +26570,8 @@
                     "insured_value": 50.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH CHARCADET #114",
                     "asset_id": "8593f0bb-c9c0-4363-8b94-24b5b432a21f",
-                    "alt_value": 46.31,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 50.22,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/114/high.jpg"
                 }
             }
@@ -26769,9 +26781,9 @@
                     "insured_value": 50.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH NOIBAT #194",
                     "asset_id": "c0f43297-83d7-4945-b0d5-1d32d8e487ed",
-                    "alt_value": 48.56,
+                    "alt_value": 48.95,
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/194/high.jpg",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -26846,8 +26858,8 @@
                     "insured_value": 32.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH RABSCA #163",
                     "asset_id": "00046c1b-8e1e-44e9-808b-a0553d28b3cd",
-                    "alt_value": 30.37,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 30.98,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/163/high.jpg"
                 }
             }
@@ -27053,8 +27065,8 @@
                     "insured_value": 40.0,
                     "name": "2006 POKEMON WORLD CHAMPIONSHIPS PROMO B-L-S PIDGEOTTO #45",
                     "asset_id": "96b8f74f-aa85-4b0a-b3db-c433604ff191",
-                    "alt_value": 77.72,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 77.52,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -27104,9 +27116,9 @@
                     "insured_value": 173.0,
                     "name": "2002 POKEMON NEO DESTINY 1ST EDITION DARK QUILAVA #39",
                     "asset_id": "bb63bf39-9166-4cf8-a34d-d36d38697ac3",
-                    "alt_value": 265.05,
+                    "alt_value": 284.14,
                     "ImageURL": "https://assets.tcgdex.net/en/neo/neo4/39/high.jpg",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -27170,8 +27182,8 @@
                     "insured_value": 81.0,
                     "name": "1999 POKEMON FOSSIL 1999-2000 COPYRIGHT TENTACOOL #56",
                     "asset_id": "ca363d33-3812-46d4-bfca-02d841805f41",
-                    "alt_value": 110.95,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 99.69,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base3/56/high.jpg"
                 }
             }
@@ -27422,8 +27434,8 @@
                     "insured_value": 31.0,
                     "name": "2021 POKEMON SWORD AND SHIELD SHINING FATES SHINY VAULT YAMPER #SV039",
                     "asset_id": "15b190f6-c6d3-428e-ae44-f2070b3d9a22",
-                    "alt_value": 87.46,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 87.76,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/swsh/swsh4.5/SV039/high.jpg"
                 }
             }
@@ -27473,8 +27485,8 @@
                     "insured_value": 45.0,
                     "name": "2024 PALDEAN FATES - PAF EN ENGLISH DOLLIV #103",
                     "asset_id": "090ceb1b-aadc-4650-8cae-da5d994149ea",
-                    "alt_value": 40.77,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 38.09,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv04.5/103/high.jpg"
                 }
             }
@@ -27507,8 +27519,8 @@
                     "insured_value": 230.0,
                     "name": "2011 POKEMON BLACK & WHITE EMBOAR #19",
                     "asset_id": "42a8cf7e-371f-40d9-b974-9d0170ca7f8a",
-                    "alt_value": 319.4,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 308.98,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/bw/bw1/19/high.jpg"
                 }
             }
@@ -27587,8 +27599,8 @@
                     "insured_value": 30.0,
                     "name": "2004 POKEMON EX FIRE RED LEAF GREEN KAKUNA #36",
                     "asset_id": "729f69b8-854e-46ed-91c5-dcdfe466a222",
-                    "alt_value": 50.4,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 56.37,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/ex/ex6/36/high.jpg"
                 }
             }
@@ -27808,8 +27820,8 @@
                     "insured_value": 110.0,
                     "name": "2018 ULTRA POKEMON SUN AND MOON PRISM CELESTEELA GX #162",
                     "asset_id": "7a4977d9-48aa-4436-8edb-e26aaf42e54a",
-                    "alt_value": 64.48,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 70.17,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm5/162/high.jpg"
                 }
             }
@@ -28289,17 +28301,17 @@
                     "insured_value": 350.0,
                     "name": "1999 POKEMON BASE SET 1ST EDITION VOLTORB #67",
                     "asset_id": "ecf5adaa-644e-49ef-becc-4bfbc2a81e7d",
-                    "alt_value": 436.79,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 458.54,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/67/high.jpg"
                 },
                 "STANDARD": {
                     "insured_value": 46.0,
                     "name": "1999 POKEMON GAME BASE SET 1999-2000 VOLTORB #67",
                     "asset_id": "1664aa40-3ce6-4015-8798-632ea6c7a6db",
-                    "alt_value": 94.87,
+                    "alt_value": 101.3,
                     "ImageURL": "https://assets.tcgdex.net/en/base/base1/67/high.jpg",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         },
@@ -28573,10 +28585,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5w/106/high.jpg"
                 },
                 "Holo": {
-                    "alt_value": 167.33,
+                    "alt_value": 171.58,
                     "asset_id": "a8422799-93ee-4460-ac05-2665cd616d85",
                     "name": "2025 WHITE FLARE - WHT EN - ENGLISH ILLUSTRATION RARE HOLO DEWOTT #106",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5w/106/high.jpg"
                 }
             }
@@ -28620,10 +28632,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5b/140/high.jpg"
                 },
                 "Holo": {
-                    "alt_value": 52.55,
+                    "alt_value": 54.34,
                     "asset_id": "d188966b-5e35-4413-8372-f506c3fdaf97",
                     "name": "2025 BLACK BOLT - BLK EN - ENGLISH ILLUSTRATION RARE HOLO KLANG #140",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5b/140/high.jpg"
                 }
             }
@@ -28765,8 +28777,8 @@
                     "insured_value": 30.0,
                     "name": "2025 PRISMATIC EVOLUTIONS ENGLISH POK^ BALL HOLO BUDEW #4",
                     "asset_id": "580d95bd-8e55-4624-a8fb-fec5a3a1ce4a",
-                    "alt_value": 29.91,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)",
+                    "alt_value": 31.46,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)",
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv08.5/004/high.jpg"
                 }
             }
@@ -28811,8 +28823,8 @@
                     "insured_value": 57.0,
                     "name": "2007 POKEMON PEARL VERSION PLAYING CARDS JACK OF SPADES LUXRAY",
                     "asset_id": "f8d919c9-2e3e-40eb-aafd-790197a4cacf",
-                    "alt_value": 61.96,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 69.27,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -28866,8 +28878,8 @@
                     "insured_value": 21.0,
                     "name": "2000 POKEMON SILVER VERSION PLAYING CARDS 7 OF HEARTS JUMPLUFF #189C",
                     "asset_id": "58e81423-322d-4d53-8ba1-8f6741247d7c",
-                    "alt_value": 39.98,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 39.16,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -28973,10 +28985,10 @@
             },
             "#9": {
                 "Reverse Holo": {
-                    "alt_value": 32.69,
+                    "alt_value": 31.19,
                     "asset_id": "9c02e364-7989-4289-b6d4-3435def63881",
                     "name": "2025 WHITE FLARE - WHT EN - ENGLISH MASTER BALL REVERSE HOLO ACCELGOR #009",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -29074,9 +29086,9 @@
                     "insured_value": 220.0,
                     "name": "2018 POKEMON SUN AND MOON LOST THUNDER VIRIZION GX #217",
                     "asset_id": "a9136fba-abd8-4ff9-b497-01749346d080",
-                    "alt_value": 159.38,
+                    "alt_value": 165.4,
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm8/217/high.jpg",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -29088,9 +29100,9 @@
                     "insured_value": 159.0,
                     "name": "2019 POKEMON SUN AND MOON COSMIC ECLIPSE VOLCARONA GX #213",
                     "asset_id": "893a51bb-2dc2-4c47-8484-4fd30a78b470",
-                    "alt_value": 55.48,
+                    "alt_value": 60.11,
                     "ImageURL": "https://assets.tcgdex.net/en/sm/sm12/213/high.jpg",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -29106,10 +29118,10 @@
                     "ImageURL": "https://assets.tcgdex.net/en/sv/sv10.5b/143/high.jpg"
                 },
                 "Holo": {
-                    "alt_value": 78.35,
+                    "alt_value": 77.36,
                     "asset_id": "ed79f7e7-94b8-47c2-872b-72e86af9bf6a",
                     "name": "2025 BLACK BOLT - BLK EN - ENGLISH ILLUSTRATION RARE HOLO BISHARP #143",
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
@@ -29121,8 +29133,8 @@
                     "insured_value": 33.0,
                     "name": "2025 POKEMON TARUKA TANDEMAUS",
                     "asset_id": "39ef10da-bc03-498f-a5e0-cb9590ee5889",
-                    "alt_value": 34.31,
-                    "LastUpdated": "Last Updated on 11 March 2026, 08:00 PM (CET)"
+                    "alt_value": 36.0,
+                    "LastUpdated": "Last Updated on 13 March 2026, 08:00 PM (CET)"
                 }
             }
         }
