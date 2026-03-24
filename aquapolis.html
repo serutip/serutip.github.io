@@ -10,10 +10,22 @@
       background: linear-gradient(135deg, #1a3c5e, #0f2a44);
       color: #fff;
       margin: 0;
-      padding: 20px;
+      padding: 15px 10px;
+      line-height: 1.4;
     }
-    h1 { text-align: center; color: #ffcb05; text-shadow: 0 0 10px #3b4cca; }
-    .subtitle { text-align: center; color: #a0d8ff; margin-bottom: 20px; }
+    h1 {
+      text-align: center;
+      color: #ffcb05;
+      text-shadow: 0 0 10px #3b4cca;
+      font-size: 1.8rem;
+      margin: 10px 0 5px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #a0d8ff;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
 
     .controls {
       max-width: 1400px;
@@ -23,99 +35,146 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    button, input[type="file"] {
-      padding: 10px 15px;
+    button, label {
+      padding: 12px 16px;
       border: none;
-      border-radius: 8px;
-      font-size: 14px;
-    }
-    button {
-      background: #ffcb05;
-      color: #1a3c5e;
+      border-radius: 10px;
+      font-size: 15px;
       font-weight: bold;
       cursor: pointer;
+      background: #ffcb05;
+      color: #1a3c5e;
     }
-    button:hover { background: #ffd633; }
+    button:hover, label:hover { background: #ffd633; }
 
     .header-info {
       text-align: center;
       background: rgba(255,255,255,0.1);
       padding: 15px;
       border-radius: 12px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       max-width: 1400px;
       margin-left: auto;
       margin-right: auto;
+      font-size: 1.05rem;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+      gap: 18px;
       max-width: 1400px;
       margin: 0 auto;
     }
+
+    /* Mobile-first responsive grid */
+    @media (max-width: 480px) {
+      .grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+      }
+      h1 { font-size: 1.6rem; }
+    }
+    @media (min-width: 600px) {
+      .grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      }
+    }
+    @media (min-width: 900px) {
+      .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+    }
+
     .card {
       background: rgba(255,255,255,0.1);
-      border-radius: 12px;
+      border-radius: 14px;
       overflow: hidden;
-      transition: all 0.3s;
+      transition: all 0.3s ease;
       text-align: center;
       position: relative;
       cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
-    .card:hover { transform: scale(1.08); box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+    .card:hover, .card:active {
+      transform: scale(1.06);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
     .card.owned {
-      border: 4px solid #00ff00;
-      box-shadow: 0 0 15px #00ff00;
+      border: 5px solid #00ff88;
+      box-shadow: 0 0 18px #00ff88;
     }
-    .card img { width: 100%; height: auto; display: block; }
-    .card-info { padding: 10px 8px; font-size: 14px; }
-    .card-name { font-weight: bold; color: #ffcb05; }
-    .card-id { font-size: 12px; color: #a0d8ff; }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .card-info {
+      padding: 12px 10px;
+      font-size: 14.5px;
+    }
+    .card-name {
+      font-weight: bold;
+      color: #ffcb05;
+      margin-bottom: 4px;
+    }
+    .card-id {
+      font-size: 12.5px;
+      color: #a0d8ff;
+    }
     .owned-badge {
       position: absolute;
-      top: 8px; right: 8px;
-      background: #00ff00; color: #000;
-      font-size: 12px; padding: 2px 8px;
-      border-radius: 12px; font-weight: bold;
+      top: 10px;
+      right: 10px;
+      background: #00ff88;
+      color: #000;
+      font-size: 13px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
-    .loading { text-align: center; font-size: 18px; margin: 50px 0; }
+    .loading {
+      text-align: center;
+      font-size: 18px;
+      margin: 60px 0;
+      padding: 20px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Aquapolis Collection Tracker</h1>
-    <p class="subtitle">E-Card Series • Click cards to toggle • Preloads aquapolis_owned.txt if present</p>
+    <h1>Aquapolis</h1>
+    <p class="subtitle">Collection Tracker • Tap cards to mark owned</p>
 
     <div class="controls">
-      <button onclick="clearCollection()">Clear My Collection</button>
-      <button onclick="showImportModal()">Import from List</button>
-      <label style="background:#ffcb05;color:#1a3c5e;padding:10px 15px;border-radius:8px;cursor:pointer;">
-        Load aquapolis_owned.txt
+      <button onclick="clearCollection()">Clear Collection</button>
+      <button onclick="showImportModal()">Import List</button>
+      <label>
+        Load .txt File
         <input type="file" id="fileInput" accept=".txt" style="display:none;" onchange="handleFileSelect(event)">
       </label>
     </div>
 
     <div class="header-info">
-      <strong>Total Cards:</strong> <span id="total-cards">0</span> &nbsp;&nbsp;
-      <strong>Owned:</strong> <span id="owned-count">0</span> / <span id="total-cards2">0</span>
+      <strong>Total:</strong> <span id="total-cards">0</span> &nbsp;&nbsp;
+      <strong>Owned:</strong> <span id="owned-count">0</span> 
       (<span id="percentage">0</span>%)
     </div>
 
-    <div id="loading" class="loading">Loading Aquapolis set...</div>
+    <div id="loading" class="loading">Loading Aquapolis cards...</div>
     <div id="grid" class="grid"></div>
   </div>
 
   <!-- Import Modal -->
-  <div id="import-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:1000; align-items:center; justify-content:center;">
-    <div style="background:#1a3c5e; padding:25px; border-radius:12px; max-width:500px; width:90%;">
+  <div id="import-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.92); z-index:1000; align-items:center; justify-content:center;">
+    <div style="background:#1a3c5e; padding:25px; border-radius:14px; max-width:480px; width:92%; max-height:85vh; overflow-y:auto;">
       <h2 style="margin-top:0; color:#ffcb05;">Import Owned Cards</h2>
-      <p>Paste your list (one per line). Supports names, localIds, or full IDs.</p>
-      <textarea id="import-text" placeholder="Ampharos&#10;50a&#10;H01&#10;ecard2-1" style="width:100%; height:120px;"></textarea>
-      <div style="margin-top:15px; text-align:right;">
-        <button onclick="hideImportModal()" style="background:#666; margin-right:10px;">Cancel</button>
-        <button onclick="importCollection()">Import</button>
+      <p style="margin-bottom:10px;">Paste one card per line (name, localId like 50a, or H01):</p>
+      <textarea id="import-text" placeholder="Ampharos&#10;Arcanine&#10;50a&#10;H01&#10;Tyranitar" style="width:100%; height:160px; font-size:15px;"></textarea>
+      <div style="margin-top:20px; text-align:right;">
+        <button onclick="hideImportModal()" style="background:#666; margin-right:10px; padding:10px 18px;">Cancel</button>
+        <button onclick="importCollection()" style="padding:10px 18px;">Import</button>
       </div>
     </div>
   </div>
@@ -144,7 +203,6 @@
       const percent = total ? Math.round((ownedCount / total) * 100) : 0;
       document.getElementById('owned-count').textContent = ownedCount;
       document.getElementById('total-cards').textContent = total;
-      document.getElementById('total-cards2').textContent = total;
       document.getElementById('percentage').textContent = percent;
     }
 
@@ -179,23 +237,17 @@
     }
 
     function preloadOwnedFromFile() {
-      // Try to auto-load aquapolis_owned.txt from same folder
       fetch('aquapolis_owned.txt')
-        .then(res => {
-          if (!res.ok) throw new Error('File not found');
-          return res.text();
-        })
+        .then(res => res.ok ? res.text() : Promise.reject())
         .then(text => {
           processOwnedList(text);
-          console.log('Preloaded aquapolis_owned.txt successfully');
+          console.log('Preloaded aquapolis_owned.txt');
         })
-        .catch(() => {
-          console.log('No aquapolis_owned.txt found in the folder (optional)');
-        });
+        .catch(() => console.log('No aquapolis_owned.txt found'));
     }
 
     function processOwnedList(text) {
-      const lines = text.split('\n').map(l => l.trim().toLowerCase()).filter(l => l);
+      const lines = text.split('\n').map(l => l.trim().toLowerCase()).filter(Boolean);
       let matched = 0;
 
       allCards.forEach(card => {
@@ -204,7 +256,9 @@
         const localLower = card.localId.toLowerCase();
 
         if (lines.some(line => 
-          nameLower.includes(line) || idLower === line || localLower === line || idLower.includes(line)
+          nameLower.includes(line) || 
+          idLower === line || 
+          localLower === line
         )) {
           owned.add(card.id);
           matched++;
@@ -214,7 +268,6 @@
       if (matched > 0) {
         saveOwned();
         renderCards();
-        console.log(`Preloaded ${matched} owned cards from file`);
       }
     }
 
@@ -229,29 +282,26 @@
         updateStats();
         loading.style.display = 'none';
 
-        // Try to preload local file AFTER cards are loaded
         preloadOwnedFromFile();
-
       } catch (err) {
-        loading.textContent = "Failed to load cards.";
-        console.error(err);
+        loading.textContent = "Failed to load cards. Check your connection.";
       }
     }
 
-    // Manual file upload
     function handleFileSelect(event) {
       const file = event.target.files[0];
       if (!file) return;
       const reader = new FileReader();
-      reader.onload = function(e) {
+      reader.onload = e => {
         processOwnedList(e.target.result);
-        alert(`Loaded ${file.name} and marked matching cards as owned!`);
+        alert(`Loaded ${file.name}`);
       };
       reader.readAsText(file);
     }
 
     function showImportModal() {
       document.getElementById('import-modal').style.display = 'flex';
+      document.getElementById('import-text').focus();
     }
 
     function hideImportModal() {
@@ -260,21 +310,18 @@
 
     function importCollection() {
       const text = document.getElementById('import-text').value.trim();
-      if (!text) return hideImportModal();
-      processOwnedList(text);
+      if (text) processOwnedList(text);
       hideImportModal();
-      alert('Import completed!');
     }
 
     function clearCollection() {
-      if (confirm("Clear entire collection?")) {
+      if (confirm("Clear your entire collection?")) {
         owned.clear();
         saveOwned();
         renderCards();
       }
     }
 
-    // Start everything
     window.onload = fetchCards;
   </script>
 </body>
