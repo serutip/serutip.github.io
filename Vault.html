@@ -3,236 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seru’s Pokémon Vault</title>
+    <title>Seru’s Vault</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
         :root {
             --bg: #f5f0e6;
             --panel: #fdfaf7;
-            --card: #efe3d5;
             --accent: #6b4e31;
             --purple: #8b6f9e;
-            --green: #5d8b4e;
-            --text: #3c2f2f;
-            --text-dim: #6b5747;
-            --border: #d9c2a7;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             background: var(--bg);
-            color: var(--text);
             font-family: 'Inter', sans-serif;
-            min-height: 100vh;
-            padding: 0.8rem;
-            font-size: 0.95rem;
+            color: var(--accent);
         }
         .container {
-            max-width: 1920px;
+            max-width: 1600px;
             margin: 0 auto;
             background: var(--panel);
-            border-radius: 24px;
-            overflow: hidden;
-            border: 1px solid var(--border);
-            box-shadow: 0 20px 60px rgba(107, 78, 49, 0.15);
-            display: flex;
-            flex-direction: column;
-            height: calc(100vh - 1.6rem);
+            min-height: 100vh;
         }
         header {
             background: linear-gradient(135deg, #8b6f47, #a67c52);
-            padding: 1.8rem 2rem 1.6rem;
+            padding: 3rem 2rem 2rem;
             text-align: center;
             color: #fff8f0;
         }
-        h1 {
-            font-size: clamp(2.4rem, 6vw, 5rem);
-            font-weight: 900;
-            letter-spacing: 6px;
-            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
-        }
-        header h2 {
-            font-size: 1.1rem;
-            font-weight: 700;
-            letter-spacing: 4px;
-            margin-top: 0.5rem;
-        }
-        .summary {
-            padding: 1.2rem 2rem;
-            background: #f0e6d2;
-            text-align: center;
-            font-weight: 600;
-            font-size: 1.1rem;
-            border-bottom: 1px solid var(--border);
-        }
-        .controls {
-            padding: 1rem 2rem;
-            background: #fdfaf7;
-            border-bottom: 1px solid var(--border);
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            align-items: center;
-            justify-content: center;
-        }
-        input[type="text"] {
-            padding: 0.7rem 1.2rem;
-            background: white;
-            border: 1.8px solid #d9c2a7;
-            border-radius: 14px;
-            font-size: 0.95rem;
-            min-width: 200px;
-        }
-        input[type="text"]:focus {
-            outline: none;
-            border-color: var(--accent);
-            box-shadow: 0 0 0 4px rgba(107, 78, 49, 0.15);
-        }
-        #lookupBtn {
-            padding: 0.7rem 2rem;
-            background: linear-gradient(135deg, #8b6f9e, #a78bfa);
-            color: white;
-            border: none;
-            border-radius: 14px;
-            font-weight: 900;
-            font-size: 0.95rem;
-            cursor: pointer;
-        }
-        #altInfo {
-            margin: 0 2rem 1rem;
-            padding: 1rem;
-            background: #f0e6d2;
-            border: 1.8px solid #d9c2a7;
-            border-radius: 16px;
-            font-size: 0.95rem;
-            line-height: 1.5;
-            text-align: center;
-        }
-        .results {
-            flex: 1;
-            overflow-y: auto;
-            padding: 2rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.5rem;
-        }
-        .vault-card {
-            background: var(--card);
-            border-radius: 20px;
-            border: 2px solid var(--border);
-            overflow: hidden;
-            transition: all 0.4s;
-            cursor: pointer;
-            box-shadow: 0 8px 20px rgba(107, 78, 49, 0.1);
+        h1 { font-size: clamp(3rem, 8vw, 6rem); font-weight: 900; letter-spacing: 8px; }
+        header h2 { font-size: 1.3rem; letter-spacing: 4px; margin-top: 0.6rem; }
+
+        .carousel-container {
             position: relative;
+            padding: 3rem 2rem;
+            background: #f8f3eb;
         }
-        .vault-card:hover {
-            transform: translateY(-12px) scale(1.03);
-            border-color: var(--accent);
-            box-shadow: 0 25px 50px rgba(107, 78, 49, 0.25);
+        .carousel {
+            display: flex;
+            gap: 2rem;
+            overflow: hidden;
         }
+        .card {
+            min-width: 18%;
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(107, 78, 49, 0.15);
+            cursor: pointer;
+        }
+        .card:hover { transform: scale(1.04); }
         .card-img {
             width: 100%;
-            height: 180px;
-            object-fit: cover;
-            display: block;
+            height: 340px;
+            object-fit: contain;
+            background: #fff;
+            padding: 20px;
         }
         .card-info {
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.6rem;
+            padding: 1.2rem;
+            text-align: center;
         }
         .card-title {
-            font-size: 0.95rem;
+            font-size: 1.05rem;
             font-weight: 800;
             color: var(--accent);
         }
-        .card-detail {
-            font-size: 0.85rem;
-            display: flex;
-            justify-content: space-between;
-        }
-        .label { color: var(--text-dim); font-weight: 600; font-size: 0.8rem; }
-        .insured { color: var(--green); font-weight: 800; }
-        .listing { color: var(--purple); font-weight: 800; }
-        .grade-badge {
-            position: absolute;
-            top: 8px;
-            left: 8px;
-            background: rgba(107, 78, 49, 0.9);
-            color: #fff8f0;
-            padding: 0.3rem 0.6rem;
-            border-radius: 10px;
-            font-weight: 900;
-            font-size: 0.75rem;
-        }
-        .footer {
-            padding: 1rem;
-            text-align: center;
-            background: #ede0d4;
-            color: var(--text-dim);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border);
-        }
-        .alt { color: var(--purple); font-weight: 800; }
-        .sale { color: var(--green); font-weight: 800; }
 
-        /* Detail Panel */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(107, 78, 49, 0.9);
+            color: white;
+            border: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            font-size: 2rem;
+            cursor: pointer;
+            z-index: 10;
+        }
+        .nav-btn.left { left: 20px; }
+        .nav-btn.right { right: 20px; }
+
+        /* Detail Panel - Made very visible */
         #detailPanel {
             position: fixed;
             top: 0;
-            right: -420px;
-            width: 420px;
+            right: -520px;
+            width: 520px;
             height: 100vh;
             background: var(--panel);
-            border-left: 1px solid var(--border);
-            box-shadow: -15px 0 40px rgba(0, 0, 0, 0.15);
-            padding: 2.5rem 2rem;
+            border-left: 3px solid var(--accent);
+            box-shadow: -30px 0 80px rgba(0,0,0,0.35);
+            padding: 3rem 2.5rem;
             transition: right 0.4s ease;
-            z-index: 100;
+            z-index: 9999;
             overflow-y: auto;
         }
         #detailPanel.open { right: 0; }
         #detailClose {
             position: absolute;
-            top: 1.2rem;
-            right: 1.8rem;
-            font-size: 2rem;
+            top: 20px;
+            right: 25px;
+            font-size: 3rem;
             cursor: pointer;
-            color: var(--text-dim);
+            color: #777;
         }
-        #detailImg { width: 100%; max-height: 300px; object-fit: contain; background: #fff; border-radius: 16px; margin-bottom: 1.5rem; }
-        #detailPanel h3 { font-size: 1.4rem; font-weight: 900; color: var(--accent); margin-bottom: 1.5rem; }
-        #detailPanel p { margin-bottom: 1rem; font-size: 1rem; line-height: 1.4; }
-        #detailPanel .value { font-weight: 800; }
-        #detailPanel button {
+        #detailImg {
             width: 100%;
-            padding: 1.1rem;
-            margin-top: 1.5rem;
-            border: none;
-            border-radius: 16px;
-            font-weight: 900;
-            font-size: 1.05rem;
-            cursor: pointer;
-        }
-        #ccBtn { background: var(--accent); color: #fff8f0; }
-        #marketBtn { background: linear-gradient(135deg, #8b6f9e, #a78bfa); color: white; }
-        #altResearchBtn { background: linear-gradient(135deg, #4a2c6d, #7b4ba8); color: white; }
-
-        @media (max-width: 768px) {
-            #detailPanel {
-                width: 100%;
-                height: 70vh;
-                bottom: -70vh;
-                top: auto;
-                right: 0;
-                transition: bottom 0.4s ease;
-            }
-            #detailPanel.open { bottom: 0; }
-            .results { grid-template-columns: 1fr; }
-            .controls { flex-direction: column; }
+            max-height: 380px;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 1.8rem;
         }
     </style>
 </head>
@@ -240,128 +127,140 @@
     <div class="container">
         <header>
             <h1>SERU’S VAULT</h1>
-            <h2>Collector Crypt | Magic Eden</h2>
+            <h2>Collector Crypt • Magic Eden</h2>
         </header>
-        <div class="summary" id="summary">
-            Loading your collection...
+
+        <div class="carousel-container">
+            <button class="nav-btn left" onclick="prevSlide()">‹</button>
+            <div class="carousel" id="carousel"></div>
+            <button class="nav-btn right" onclick="nextSlide()">›</button>
         </div>
-        <div class="controls">
-            <input type="text" id="certInput" placeholder="Enter PSA Cert Number">
-            <button id="lookupBtn">LOOKUP ALT</button>
+
+        <div class="footer" style="text-align:center; padding:1.8rem; background:#ede0d4; color:#6b5747;">
+            Wallet: 21beBQJJNCAFYpb1UvgykE5Vgrjjgq1U6cZWVcQ4ea6x • Live Collection
         </div>
-        <div id="altInfo">Enter a PSA cert number and click LOOKUP ALT to search its value.</div>
-        <div class="results" id="results"></div>
-        <div class="footer">Wallet: 21beBQJJNCAFYpb1UvgykE5Vgrjjgq1U6cZWVcQ4ea6x • December 17, 2025</div>
     </div>
 
     <!-- Detail Panel -->
     <div id="detailPanel">
-        <span id="detailClose">×</span>
-        <img id="detailImg" src="" alt="Card">
+        <span id="detailClose" onclick="closeDetail()">×</span>
+        <img id="detailImg" src="" alt="">
         <h3 id="detailTitle"></h3>
-        <p><strong>Grade:</strong> <span id="detailGrade"></span></p>
-        <p><strong>Insured Value:</strong> <span id="detailInsured" class="value insured"></span></p>
-        <p><strong>Current Listing:</strong> <span id="detailListing" class="value listing"></span></p>
-        <p><strong>ALT Value:</strong> <span id="detailAlt" class="value alt">Loading...</span></p>
-        <p><strong>Suggested Sale (97%):</strong> <span id="detailSale" class="value sale">Loading...</span></p>
+        <p><strong>Type / Grade:</strong> <span id="detailGrade"></span></p>
+        <p><strong>Insured Value:</strong> <span id="detailInsured"></span></p>
+        <p><strong>ALT Value:</strong> <span id="detailAlt"></span></p>
+        <p><strong>Suggested Sale (97%):</strong> <span id="detailSale"></span></p>
         <p><strong>NFT Address:</strong> <a id="detailNftLink" href="" target="_blank"></a></p>
-        <button id="altResearchBtn">Alt Research Page</button>
-        <button id="ccBtn">View on Collector Crypt</button>
-        <button id="marketBtn">View MagicEden Listing</button>
-        
+
+        <button onclick="viewCC()" style="width:100%; padding:1.2rem; margin-top:1.5rem; background:#6b4e31; color:white; border:none; border-radius:16px; font-weight:900;">View on Collector Crypt</button>
+        <button onclick="viewME()" style="width:100%; padding:1.2rem; margin-top:0.8rem; background:#8b6f9e; color:white; border:none; border-radius:16px; font-weight:900;">View on Magic Eden</button>
     </div>
 
     <script>
-        const WALLET = '21beBQJJNCAFYpb1UvgykE5Vgrjjgq1U6cZWVcQ4ea6x';
-        const API_URL = `https://api.collectorcrypt.com/cards/${WALLET}/?page=1&step=96&cardType=Card&orderBy=dateDesc`;
+        let allCards = [];
+        let currentIndex = 0;
 
-        let cards = [];
-
-        const results = document.getElementById('results');
-        const summary = document.getElementById('summary');
-        const altInfo = document.getElementById('altInfo');
-        const certInput = document.getElementById('certInput');
-        const lookupBtn = document.getElementById('lookupBtn');
-
-        async function fetchWalletData() {
-            const proxies = [
-                'https://api.allorigins.win/raw?url=',
-                'https://corsproxy.io/?',
-                'https://api.codetabs.com/v1/proxy?quest=',
-                'https://cors-anywhere.herokuapp.com/'
-            ];
-
-            for (const proxy of proxies) {
-                try {
-                    const url = proxy + encodeURIComponent(API_URL);
-                    const response = await fetch(url, { signal: AbortSignal.timeout(10000) });
-                    if (response.ok) {
-                        const data = await response.json();
-                        if (data.filterNFtCard && data.filterNFtCard.length > 0) {
-                            return data;
-                        }
-                    }
-                } catch (e) {
-                    console.log(`Proxy failed: ${proxy}`, e);
-                    continue;
+        async function loadData() {
+            try {
+                const res = await fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://api-mainnet.magiceden.dev/v2/wallets/21beBQJJNCAFYpb1UvgykE5Vgrjjgq1U6cZWVcQ4ea6x/tokens'));
+                if (res.ok) {
+                    const data = await res.json();
+                    processCards(data);
+                    return;
                 }
-            }
-            throw new Error('All proxies failed');
+            } catch (e) {}
+            document.getElementById('carousel').innerHTML = '<p style="text-align:center; padding:120px; color:#a00;">Failed to load live data.<br>Please refresh the page.</p>';
         }
 
-        function processCards(rawData) {
-            let rawCards = rawData.filterNFtCard || [];
-            if (rawCards.length === 0) {
-                rawCards = [];
-                summary.textContent = 'Live data unavailable – showing latest known collection (Dec 17, 2025)';
-            }
-            cards = rawCards.map(card => {
-                const title = card.itemName.split(' PSA ')[0].trim();
-                let grade = `${card.gradingCompany || 'PSA'} ${card.grade}`;
-                if (card.Tagtonft && card.Tagtonft.some(t => t.tag?.name === 'Grail')) {
-                    grade += ' • Grail Tag';
-                }
-                return {
-                    title,
-                    img: card.images?.front || '',
-                    grade,
-                    insured: `$${card.insuredValue || '0'}`,
-                    listing: card.listing ? `${card.listing.price} ${card.listing.currency}` : 'Not listed',
-                    location: (card.location || []).join(' • '),
-                    nft: card.nftAddress || '',
-                    cert: card.gradingID || '',
-                    altValue: null,
-                    assetId: null
+        function processCards(data) {
+            let packs = [];
+            let graded = [];
+
+            data.forEach(item => {
+                if (!item.collection?.includes("collector") && !item.collectionName?.includes("Collector Crypt")) return;
+
+                const card = {
+                    title: item.name || "Collector Item",
+                    img: item.image,
+                    nft: item.mintAddress,
+                    grade: item.attributes?.find(a => a.trait_type === "The Grade")?.value || "Pack",
+                    insured: item.attributes?.find(a => a.trait_type === "Insured Value")?.value ? 
+                             `$${item.attributes.find(a => a.trait_type === "Insured Value").value}` : "—",
+                    cert: item.attributes?.find(a => a.trait_type === "Grading ID")?.value || null
                 };
+
+                if (item.name?.includes("Pack") || item.collectionName?.includes("Membership Pass")) {
+                    packs.push(card);
+                } else {
+                    graded.push(card);
+                }
             });
+
+            packs.sort((a, b) => {
+                const numA = parseInt(a.title.match(/#(\d+)/)?.[1] || 999999);
+                const numB = parseInt(b.title.match(/#(\d+)/)?.[1] || 999999);
+                return numA - numB;
+            });
+
+            graded.sort((a, b) => a.title.localeCompare(b.title));
+
+            allCards = [...packs, ...graded];
+            renderCarousel();
         }
 
-        function renderCards() {
-            results.innerHTML = '';
-            cards.forEach(card => {
-                if (!card.img) return;
-                const el = document.createElement('div');
-                el.className = 'vault-card';
-                el.innerHTML = `
-                    <div style="position:relative;">
-                        <img class="card-img" src="${card.img}" alt="${card.title}" onload="this.style.opacity=1" style="opacity:0;transition:opacity 0.5s;">
-                        <div class="grade-badge">${card.grade.split(' ')[1]} ${card.grade.split(' ')[2] || ''}</div>
-                    </div>
+        function renderCarousel() {
+            const container = document.getElementById('carousel');
+            container.innerHTML = '';
+
+            for (let i = 0; i < 5; i++) {
+                const idx = (currentIndex + i) % allCards.length;
+                const card = allCards[idx];
+                if (!card) break;
+
+                const div = document.createElement('div');
+                div.className = 'card';
+                div.innerHTML = `
+                    <img class="card-img" src="${card.img}" alt="${card.title}">
                     <div class="card-info">
                         <div class="card-title">${card.title}</div>
-                        <div class="card-detail"><span class="label">Insured:</span> <span class="insured">${card.insured}</span></div>
-                        <div class="card-detail"><span class="label">Listed:</span> <span class="listing">${card.listing}</span></div>
                     </div>
                 `;
-                el.onclick = () => showDetail(card);
-                results.appendChild(el);
-            });
-            const totalInsured = cards.reduce((sum, c) => sum + parseFloat(c.insured.slice(1) || 0), 0);
-            summary.textContent = summary.textContent || `${cards.length} Cards • Total Insured Value: $${totalInsured} • All PSA Graded • Tokenized on Solana`;
+                div.onclick = () => showDetail(card);   // Direct and simple
+                container.appendChild(div);
+            }
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 5) % allCards.length;
+            renderCarousel();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 5 + allCards.length) % allCards.length;
+            renderCarousel();
+        }
+
+        async function showDetail(card) {
+            // Immediately show the panel
+            document.getElementById('detailImg').src = card.img || '';
+            document.getElementById('detailTitle').textContent = card.title;
+            document.getElementById('detailGrade').textContent = card.grade;
+            document.getElementById('detailInsured').textContent = card.insured;
+
+            const nftLink = document.getElementById('detailNftLink');
+            nftLink.textContent = card.nft ? card.nft.slice(0,8) + '...' + card.nft.slice(-8) : 'N/A';
+            nftLink.href = card.nft ? `https://solscan.io/token/${card.nft}` : '#';
+
+            // Load ALT value in background
+            const altValue = await fetchAltValue(card.cert);
+            document.getElementById('detailAlt').textContent = altValue ? `$${altValue.toFixed(2)}` : 'Not available';
+            document.getElementById('detailSale').textContent = altValue ? `$${(altValue * 0.97).toFixed(1)}` : 'Not available';
+
+            document.getElementById('detailPanel').classList.add('open');
         }
 
         async function fetchAltValue(cert) {
-            if (!cert || !/^\d{6,}$/.test(cert)) return { value: null, assetId: null };
+            if (!cert) return null;
             try {
                 const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
                     method: "POST",
@@ -369,110 +268,42 @@
                     body: JSON.stringify({
                         operationName: "Cert",
                         variables: {certNumber: cert},
-                        query: `query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id name } gradeNumber gradingCompany } }`
+                        query: `query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id } gradeNumber gradingCompany } }`
                     })
                 });
-                if (!certRes.ok) return { value: null, assetId: null };
                 const certJson = await certRes.json();
-                const certData = certJson?.data?.cert;
-                if (!certData?.asset?.id) return { value: null, assetId: null };
-
-                const assetId = certData.asset.id;
-                const grade = certData.gradeNumber || "10";
-                const company = certData.gradingCompany || "PSA";
+                const assetId = certJson?.data?.cert?.asset?.id;
+                const grade = certJson?.data?.cert?.gradeNumber; 
+                const gradeForRequest = grade ? grade.split('.')[0] : null;
+                gradingCompany = certJson?.data?.cert?.gradingCompany || null;
+                if (!assetId) return null;
 
                 const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
                     method: "POST",
                     headers: {"Content-Type": "application/json"},
                     body: JSON.stringify({
                         operationName: "AssetDetails",
-                        variables: {id: assetId, tsFilter: {gradeNumber: grade, gradingCompany: company}},
-                        query: `query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) { asset(id: $id) { altValueInfo(tsFilter: $tsFilter) { currentAltValue } } }`
+                        variables: {id: assetId, tsFilter: {gradeNumber: gradeForRequest, gradingCompany: gradingCompany}},
+                        query: "query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) { asset(id: $id) { ...AssetDetails ...AssetActiveListings __typename } } fragment AssetDetails on Asset { ...AssetBase images { ...ImageBase __typename } attributes { cardNumber printRun __typename } predictedPrice(tsFilter: $tsFilter) altValueInfo(tsFilter: $tsFilter) { currentAltValue confidenceData { currentConfidenceMetric currentErrorLowerBound currentErrorUpperBound __typename } __typename } cardPops { ...CardPopBase __typename } __typename } fragment AssetBase on Asset { id name year subject category brand variety attributes { cardNumber printRun __typename } __typename } fragment ImageBase on Image { position url __typename } fragment CardPopBase on CardPop { gradingCompany gradeNumber count __typename } fragment AssetActiveListings on Asset { activeListings { ...PublicListingBase items { ...PublicItemBase ...PublicItemAsset __typename } __typename } __typename } fragment PublicListingBase on PublicListing { id minOfferPrice listPrice state createdAt type expiresAt isEligibleForBidding depositsWaived disallowOffers subtitle description requireIdVerification listingPaymentState { state __typename } ...PublicListingLiveDetails __typename } fragment PublicListingLiveDetails on PublicListing { id __typename } fragment PublicItemBase on PublicItem { id displayNames { ...ItemDisplayNamesBase __typename } images { ...ImageBase __typename } attributes { ...ItemAttributesBase __typename } itemVaultState { ...ItemVaultStateBase __typename } timeSeriesStats { ...PublicTimeSeriesStatsBase __typename } recommendedOfferPrice __typename } fragment ItemDisplayNamesBase on ItemDisplayNames { itemName groupName assetName __typename } fragment ItemAttributesBase on ItemAttributes { gradeNumber gradingCompany serial printRun certNumber autograph centering corners edges surfaces qualifier __typename } fragment ItemVaultStateBase on ItemVaultState { createdAt state underAltCustody __ typename } fragment PublicTimeSeriesStatsBase on TimeSeriesStats { latestValue altValueConfidenceData { currentConfidenceMetric currentErrorUpperBound currentErrorLowerBound __typename } __ typename } fragment PublicItemAsset on PublicItem { asset { ...AssetBase __ typename } __ typename }"
+                  
                     })
                 });
-                if (!valueRes.ok) return { value: null, assetId };
-                const valueJson = await valueRes.json();
-                const currentValue = valueJson?.data?.asset?.altValueInfo?.currentAltValue;
-                return { value: currentValue ? parseFloat(currentValue) : null, assetId };
-            } catch (e) {
-                console.error(e);
-                return { value: null, assetId: null };
-            }
+                const valJson = await valueRes.json();
+                return valJson?.data?.asset?.altValueInfo?.currentAltValue ? parseFloat(valJson.data.asset.altValueInfo.currentAltValue) : null;
+            } catch (e) { return null; }
         }
 
-        async function loadAltValues() {
-            for (const card of cards) {
-                if (card.cert) {
-                    const result = await fetchAltValue(card.cert);
-                    card.altValue = result.value;
-                    card.assetId = result.assetId;
-                }
-            }
-        }
-
-        function showDetail(card) {
-            document.getElementById('detailImg').src = card.img;
-            document.getElementById('detailTitle').textContent = card.title;
-            document.getElementById('detailGrade').textContent = card.grade;
-            document.getElementById('detailInsured').textContent = card.insured;
-            document.getElementById('detailListing').textContent = card.listing;
-            const nftLink = document.getElementById('detailNftLink');
-            nftLink.textContent = card.nft ? `${card.nft.slice(0,8)}...${card.nft.slice(-8)}` : 'N/A';
-            nftLink.href = card.nft ? `https://solscan.io/token/${card.nft}` : '#';
-
-            const detailAlt = document.getElementById('detailAlt');
-            const detailSale = document.getElementById('detailSale');
-            const altBtn = document.getElementById('altResearchBtn');
-
-            if (card.altValue !== null && card.altValue > 0 && card.assetId) {
-                detailAlt.textContent = `$${card.altValue.toFixed(2)}`;
-                detailSale.textContent = `$${(card.altValue * 0.97).toFixed(1)}`;
-                altBtn.style.display = 'block';
-                altBtn.onclick = () => window.open(`https://app.alt.xyz/research/${card.assetId}`, '_blank');
-            } else {
-                detailAlt.textContent = 'Not found on ALT';
-                detailSale.textContent = 'N/A';
-                altBtn.style.display = 'none';
-            }
-
-            document.getElementById('ccBtn').onclick = () => window.open('https://collectorcrypt.com/assets/solana/' + card.nft, '_blank');
-            document.getElementById('marketBtn').onclick = () => window.open('https://magiceden.io/item-details/' + card.nft, '_blank');
-
-            document.getElementById('detailPanel').classList.add('open');
-        }
-
-        document.getElementById('detailClose').onclick = () => {
+        function closeDetail() {
             document.getElementById('detailPanel').classList.remove('open');
-        };
+            document.getElementById('detailAlt').textContent = '0.00'; 
+            // Value should become 0 when closing
+        }
 
-        lookupBtn.onclick = async () => {
-            const cert = certInput.value.trim();
-            if (!cert) return;
-            altInfo.innerHTML = 'Looking up...';
-            const result = await fetchAltValue(cert);
-            if (result.value !== null) {
-                const sale = (result.value * 0.97).toFixed(1);
-                altInfo.innerHTML = `<strong>ALT Value: $${result.value.toFixed(2)}</strong><br><strong>Suggested Sale (97%): $${sale}</strong>`;
-                if (result.assetId) {
-                    altInfo.innerHTML += `<br><a href="https://app.alt.xyz/browse/${result.assetId}" target="_blank" style="color: var(--purple); font-weight: 800;">Open Alt Research Page →</a>`;
-                }
-            } else {
-                altInfo.innerHTML = '<strong style="color:#a00">No ALT value found or error.</strong>';
-            }
-        };
+        function viewCC() { window.open('https://collectorcrypt.com', '_blank'); }
+        function viewME() { window.open('https://magiceden.io', '_blank'); }
 
-        (async () => {
-            try {
-                const data = await fetchWalletData();
-                processCards(data);
-            } catch (e) {
-                console.error('All live fetches failed', e);
-                processCards({ filterNFtCard: [] });
-            }
-            renderCards();
-            await loadAltValues();
-            renderCards();
-        })();
+        // Start
+        loadData();
     </script>
 </body>
 </html>
