@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seru’s Dual Vault • Cyndaquil & Manaphy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+        :root {
+    --mew-pink: #ff69b4;
+    --mew-purple: #c026d3;
+    --mew-light: #f9a8d4;
+    --gold: #ffd700;
+    --panel: #2a1b3d;
+    --card: #3f2a5a;
+    --accent: #ff69b4;
+    --text: #f8e1f0;
+    --text-dim: #d8b4d8;
+    --border: #9f7aea;
+}
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+    background: linear-gradient(135deg, #1a0f2e 0%, #3f2a5a 50%, #6b46c1 100%);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 0.8rem;
+    font-size: 0.98rem;
+    overflow-x: hidden;
+}
+
+        /* Floating Sprites */
+        .floating-sprite {
+            position: fixed;
+            z-index: 1000;
+            pointer-events: none;
+            filter: drop-shadow(0 10px 30px rgba(255, 255, 255, 0.4));
+        }
+
+        .cyndaquil-float {
+            bottom: 12%;
+            left: 6%;
+            width: 160px;
+            height: 160px;
+            animation: fireFloat 7s ease-in-out infinite;
+        }
+
+        .manaphy-float {
+            bottom: 18%;
+            right: 7%;
+            width: 170px;
+            height: 170px;
+            animation: waterFloat 9s ease-in-out infinite;
+        }
+
+        @keyframes fireFloat {
+            0%, 100% { transform: translateY(0) rotate(-12deg); }
+            50% { transform: translateY(-45px) rotate(12deg); }
+        }
+
+        @keyframes waterFloat {
+            0%, 100% { transform: translateY(0) rotate(8deg); }
+            50% { transform: translateY(-35px) rotate(-8deg); }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2.5rem auto 1.5rem auto;
+            background: var(--panel);
+            border-radius: 32px;
+            overflow: hidden;
+            border: 2px solid #4a6a9a;
+            box-shadow: 0 15px 60px rgba(255, 69, 0, 0.2),
+                        0 15px 60px rgba(0, 212, 255, 0.2);
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh;
+        }
+
+header {
+    background: linear-gradient(120deg, #6b46c1 0%, #c026d3 100%);
+    padding: 2.8rem 2rem 2.2rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: clamp(2.8rem, 7vw, 4.8rem);
+    font-weight: 900;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, #ff69b4, #ffd700, #c026d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 20px rgba(255, 105, 180, 0.6);
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 0.6rem;
+    color: #ffd700;
+}
+
+        @keyframes shimmer {
+            0% { transform: translateX(-30%); }
+            100% { transform: translateX(30%); }
+        }
+
+        .mew-float-left {
+    bottom: 12%;
+    left: 6%;
+    width: 160px;
+    height: 160px;
+    animation: mewFloatLeft 8s ease-in-out infinite;
+}
+
+.mew-float-right {
+    bottom: 18%;
+    right: 7%;
+    width: 170px;
+    height: 170px;
+    animation: mewFloatRight 10s ease-in-out infinite;
+}
+
+@keyframes mewFloatLeft {
+    0%, 100% { transform: translateY(0) rotate(-10deg); }
+    50% { transform: translateY(-40px) rotate(10deg); }
+}
+
+@keyframes mewFloatRight {
+    0%, 100% { transform: translateY(0) rotate(8deg); }
+    50% { transform: translateY(-35px) rotate(-8deg); }
+}
+
+        h1 {
+            font-size: clamp(2.8rem, 7vw, 4.8rem);
+            font-weight: 900;
+            letter-spacing: 4px;
+            background: linear-gradient(90deg, #ffcc00, #40e0d0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin-top: 0.6rem;
+            color: #ffd700;
+        }
+
+        .summary {
+            padding: 1.3rem 2rem;
+            background: rgba(255, 215, 0, 0.1);
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-bottom: 1px solid var(--border);
+            color: #ffd700;
+        }
+
+        .card-info{font-size: 0.5rem}
+
+        .controls {
+            padding: 1.2rem 2rem;
+            background: rgba(28, 42, 68, 0.95);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input[type="text"] {
+            padding: 0.8rem 1.3rem;
+            background: #0f1f38;
+            border: 2px solid #4a6a9a;
+            border-radius: 16px;
+            font-size: 0.97rem;
+            color: white;
+            min-width: 220px;
+        }
+
+        input[type="text"]:focus {
+            border-color: #ffd700;
+            box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.3);
+        }
+
+        #lookupBtn {
+            padding: 0.8rem 2.2rem;
+            background: linear-gradient(135deg, #ff4500, #00d4ff);
+            color: #003366;
+            border: none;
+            border-radius: 16px;
+            font-weight: 900;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #lookupBtn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+        }
+
+        .results {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2.2rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.2rem;
+        }
+        #altResearchBtn { background: linear-gradient(135deg, #4a2c6d, #7b4ba8); color: white; }
+        #marketBtn { background: linear-gradient(135deg, #8b6f9e, #a78bfa); color: white; }
+        #ccBtn { background: var(--accent); color: #fff8f0; }
+
+/* === CARD IMPROVEMENTS === */
+.vault-card {
+    background: var(--card);
+    border-radius: 24px;
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    transition: all 0.4s;
+    cursor: pointer;
+    min-height: 380px;           /* Makes the whole card taller */
+}
+
+.card-img {
+    width: 100%;
+    height: 260px;               /* Image size stays exactly the same */
+    object-fit: contain;
+    background: linear-gradient(135deg, #2a1a0f, #0f2b4f);
+    border-bottom: 3px solid #ffd700;
+    transition: all 0.4s;
+}
+
+.vault-card:hover .card-img {
+    filter: brightness(1.12) drop-shadow(0 0 25px #ffd700);
+    transform: scale(1.08);
+}
+
+/* Bigger and cleaner info section */
+.card-info {
+    padding: 1.1rem 1.1rem 1.4rem 1.1rem;   /* More breathing room */
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;                            /* More space between lines */
+    min-height: 118px;                       /* Ensures consistent height */
+}
+
+.card-title {
+    font-size: 1.05rem;                      /* Slightly larger title */
+    font-weight: 800;
+    color: #ffd700;
+    line-height: 1.3;
+}
+
+.card-detail {
+    font-size: 0.92rem;                      /* Bigger text */
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+}
+
+.label { 
+    color: var(--text-dim); 
+    font-weight: 600; 
+    font-size: 0.82rem; 
+}
+
+.insured { color: #7fffd4; }
+.listing { color: #ffd700; }
+.alt { color: #40e0d0; }
+
+        .grade-badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #ffd700;
+            padding: 0.35rem 0.7rem;
+            border-radius: 12px;
+            font-weight: 900;
+            font-size: 0.78rem;
+        }
+
+        .card-title { font-size: 1rem; font-weight: 800; color: #ffd700; }
+
+        #detailImg {
+    width: 100%;
+    max-height: 240px;           /* Reduced from 320px */
+    object-fit: contain;
+    background: #0a1f3a;
+    border-radius: 20px;
+    margin-bottom: 1.2rem;       /* Added spacing */
+    border: 2px solid #ffd700;
+    padding: 12px;
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.2);
+}
+        /* Detail Panel */
+        #detailPanel {
+    position: fixed;
+    top: 0;
+    right: -440px;
+    width: 440px;
+    height: 100vh;
+    background: linear-gradient(180deg, #2a1a0f, #0a1f3a);
+    border-left: 4px solid #ffd700;
+    box-shadow: -25px 0 60px rgba(255, 215, 0, 0.3);
+    color: white;
+    transition: right 0.4s ease;
+    padding: 2rem;
+    z-index: 2000;
+    overflow-y: auto;           /* ← This is the key fix */
+}
+
+        #detailPanel.open { right: 0; }
+
+        #detailClose {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2.5rem;
+            cursor: pointer;
+            color: #ffd700;
+        }
+
+        .footer {
+            padding: 1.2rem;
+            text-align: center;
+            background: rgba(10, 15, 35, 0.9);
+            color: var(--text-dim);
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 768px) {
+            .results { grid-template-columns: 1fr; }
+            #detailPanel { width: 100%; height: 75vh; bottom: -75vh; top: auto; border-radius: 20px 20px 0 0; }
+            #detailPanel.open { bottom: 0; }
+            .cyndaquil-float, .manaphy-float { width: 110px; height: 110px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Floating Mew (Left) -->
+<div class="floating-sprite mew-float-left">
+    <img src="https://www.pngmart.com/files/22/Mew-Pokemon-Transparent-Images-PNG.png" alt="Mew" style="width:100%;height:100%;object-fit:contain;">
+</div>
+
+<!-- Floating Mew (Right) -->
+<div class="floating-sprite mew-float-right">
+    <img src="https://www.pngmart.com/files/22/Mew-Pokemon-Download-PNG-Image.png" alt="Mew" style="width:100%;height:100%;object-fit:contain;">
+</div>
+
+    <div class="container">
+        <header>
+            <h1>Jordan’S Onchain Vault</h1>
+            <h2>Mew Mew Mew</h2>
+        </header>
+
+        <div class="summary" id="summary">
+            Loading your legendary collection...
+        </div>
+
+        <div class="controls">
+            <input type="text" id="certInput" placeholder="Enter PSA Cert Number">
+            <button id="lookupBtn">LOOKUP ALT</button>
+        </div>
+
+        <div id="altInfo" style="margin:0 2rem 1rem; padding:1.2rem; background:rgba(255,215,0,0.1); border:2px solid #ffd700; border-radius:18px; text-align:center; color:#ffd700;">
+            Enter a PSA cert number and click LOOKUP ALT
+        </div>
+
+        <div class="results" id="results"></div>
+
+        <div style="text-align:center; margin:1.5rem 0;">
+            <button id="prevBtn" style="padding:0.8rem 2rem; margin:0 1rem; background:linear-gradient(135deg,#ff4500,#ffaa00); color:#fff; border:none; border-radius:16px; font-weight:900; cursor:pointer;">Previous</button>
+            <button id="nextBtn" style="padding:0.8rem 2rem; margin:0 1rem; background:linear-gradient(135deg,#00d4ff,#40e0d0); color:#003366; border:none; border-radius:16px; font-weight:900; cursor:pointer;">Next</button>
+        </div>
+
+        <div class="footer">
+            Wallet: jordan.sol • Mew Dual Vault
+        </div>
+    </div>
+
+    <!-- Detail Panel -->
+    <div id="detailPanel">
+        <span id="detailClose">×</span>
+        <img id="detailImg" src="" alt="Card">
+        <h3 id="detailTitle" style="margin:1.2rem 0; color:#ffd700;"></h3>
+        
+        <p><strong>Grade:</strong> <span id="detailGrade"></span></p>
+        <p><strong>Insured Value:</strong> <span id="detailInsured" class="value insured"></span></p>
+        <p><strong>Current Listing:</strong> <span id="detailListing" class="value listing"></span></p>
+        <p><strong>ALT Value:</strong> <span id="detailAlt" class="value alt">Loading...</span></p>
+        <p><strong>Suggested Sale (97%):</strong> <span id="detailSale" class="value sale">Loading...</span></p>
+        <p><strong>NFT Address:</strong> <a id="detailNftLink" href="" target="_blank" style="color:#ffd700;"></a></p>
+
+        <button id="altResearchBtn" style="padding:0.8rem 2rem; margin:0 1rem;border:none; border-radius:16px;font-weight:900">Alt Research Page</button>
+        <button id="ccBtn" style="padding:0.8rem 2rem; margin:0 1rem; background:linear-gradient(135deg,#00d4ff,#40e0d0); color:#003366; border:none; border-radius:16px; font-weight:900; cursor:pointer;">View on Collector Crypt</button>
+        <button id="marketBtn" style="padding:0.8rem 2rem; margin:0 1rem; background:linear-gradient(135deg,#ff4500,#ffaa00); color:#fff; border:none; border-radius:16px; font-weight:900; cursor:pointer;">View MagicEden Listing</button>
+    </div>
+
+    <script>
+        // ==================== ORIGINAL SCRIPT (UNTOUCHED FUNCTIONALITY) ====================
+        const WALLET = '8rF9o8XtzLjDNhrGSJcQBz2v4BsqKBUK54FAqEJQzg4x';
+        const API_URL = `https://api.collectorcrypt.com/cards/${WALLET}/?page=1&step=96&cardType=Card&orderBy=dateDesc`;
+
+        let cards = [];
+        const results = document.getElementById('results');
+        const summary = document.getElementById('summary');
+        const altInfo = document.getElementById('altInfo');
+        const certInput = document.getElementById('certInput');
+        const lookupBtn = document.getElementById('lookupBtn');
+
+        async function fetchWalletData() {
+            const proxies = [
+                'https://api.allorigins.win/raw?url=',
+                'https://corsproxy.io/?',
+                'https://api.codetabs.com/v1/proxy?quest=',
+                'https://cors-anywhere.herokuapp.com/'
+            ];
+
+            for (const proxy of proxies) {
+                try {
+                    const url = proxy + encodeURIComponent(API_URL);
+                    const response = await fetch(url, { signal: AbortSignal.timeout(10000) });
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.filterNFtCard && data.filterNFtCard.length > 0) {
+                            return data;
+                        }
+                    }
+                } catch (e) {
+                    console.log(`Proxy failed: ${proxy}`, e);
+                    continue;
+                }
+            }
+            throw new Error('All proxies failed');
+        }
+
+        function processCards(rawData) {
+            let rawCards = rawData.filterNFtCard || [];
+            if (rawCards.length === 0) {
+                rawCards = [];
+                summary.textContent = 'Live data unavailable – showing latest known collection (Dec 17, 2025)';
+            }
+            cards = rawCards.map(card => {
+                const title = card.itemName.split(' PSA ')[0].trim();
+                let grade = `${card.gradingCompany || 'PSA'} ${card.grade}`;
+                if (card.Tagtonft && card.Tagtonft.some(t => t.tag?.name === 'Grail')) {
+                    grade += ' • Grail Tag';
+                }
+                return {
+                    title,
+                    img: card.images?.front || '',
+                    grade,
+                    insured: `$${card.insuredValue || '0'}`,
+                    listing: card.listing ? `${card.listing.price} ${card.listing.currency}` : 'Not listed',
+                    nft: card.nftAddress || '',
+                    cert: card.gradingID || '',
+                    altValue: null,
+                    assetId: null
+                };
+            });
+        }
+
+        let currentPage = 0;
+        const CARDS_PER_PAGE = 3;
+
+        function renderCards() {
+            results.innerHTML = '';
+            const start = currentPage * CARDS_PER_PAGE;
+            const end = start + CARDS_PER_PAGE;
+            const pageCards = cards.slice(start, end);
+            pageCards.forEach(card => {
+                if (!card.img) return;
+                const el = document.createElement('div');
+                el.className = 'vault-card';
+                el.innerHTML = `
+                    <div style="position:relative;">
+                        <img class="card-img" src="${card.img}" alt="${card.title}">
+                        <div class="grade-badge">${card.grade.split(' ')[1]} ${card.grade.split(' ')[2] || ''}</div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-title">${card.title}</div>
+                        <div class="card-detail"><span class="label">Insured:</span> <span class="insured">${card.insured}</span></div>
+                        <div class="card-detail"><span class="label">Listed:</span> <span class="listing">${card.listing}</span></div>
+                        <div class="card-detail"><span class="label">ALT:</span> <span class="alt">${card.altValue !== null && card.altValue > 0 ? `$${card.altValue.toFixed(2)}` : 'Loading...'}</span></div>
+                    </div>
+                `;
+                el.onclick = () => showDetail(card);
+                results.appendChild(el);
+            });
+
+            const totalInsured = cards.reduce((sum, c) => sum + parseFloat(c.insured.slice(1) || 0), 0);
+            summary.textContent = `${cards.length} Cards • Total Insured Value: $${totalInsured} • PSA Graded • Tokenized on Solana`;
+
+            document.getElementById('prevBtn').disabled = currentPage === 0;
+            document.getElementById('nextBtn').disabled = (currentPage + 1) * CARDS_PER_PAGE >= cards.length;
+        }
+
+        async function fetchAltValue(cert) {
+            if (!cert || !/^\d{6,}$/.test(cert)) return { value: null, assetId: null };
+            try {
+                const certRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/Cert", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({
+                        operationName: "Cert",
+                        variables: {certNumber: cert},
+                        query: `query Cert($certNumber: String!) { cert(certNumber: $certNumber) { asset { id name } gradeNumber gradingCompany } }`
+                    })
+                });
+                if (!certRes.ok) return { value: null, assetId: null };
+                const certJson = await certRes.json();
+                const certData = certJson?.data?.cert;
+                if (!certData?.asset?.id) return { value: null, assetId: null };
+
+                const assetId = certData.asset.id;
+                const grade = certData.gradeNumber || "10";
+                const company = certData.gradingCompany || "PSA";
+
+                const valueRes = await fetch("https://alt-platform-server.production.internal.onlyalt.com/graphql/AssetDetails", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({
+                        operationName: "AssetDetails",
+                        variables: {id: assetId, tsFilter: {gradeNumber: grade, gradingCompany: company}},
+                        query: `query AssetDetails($id: ID!, $tsFilter: TimeSeriesFilter!) { asset(id: $id) { altValueInfo(tsFilter: $tsFilter) { currentAltValue } } }`
+                    })
+                });
+                if (!valueRes.ok) return { value: null, assetId };
+                const valueJson = await valueRes.json();
+                const currentValue = valueJson?.data?.asset?.altValueInfo?.currentAltValue;
+                return { value: currentValue ? parseFloat(currentValue) : null, assetId };
+            } catch (e) {
+                console.error(e);
+                return { value: null, assetId: null };
+            }
+        }
+
+        async function loadAltValues() {
+            for (const card of cards) {
+                if (card.cert) {
+                    const result = await fetchAltValue(card.cert);
+                    card.altValue = result.value;
+                    card.assetId = result.assetId;
+                }
+            }
+        }
+
+        function showDetail(card) {
+            document.getElementById('ccBtn').onclick = () => window.open(`https://collectorcrypt.com/assets/solana/${card.nft}`, '_blank');
+            document.getElementById('marketBtn').onclick = () => window.open(`https://magiceden.io/item-details/${card.nft}`, '_blank');
+            document.getElementById('detailImg').src = card.img;
+            document.getElementById('detailTitle').textContent = card.title;
+            document.getElementById('detailGrade').textContent = card.grade;
+            document.getElementById('detailInsured').textContent = card.insured;
+            document.getElementById('detailListing').textContent = card.listing;
+            const nftLink = document.getElementById('detailNftLink');
+            nftLink.textContent = card.nft ? `${card.nft.slice(0,8)}...${card.nft.slice(-8)}` : 'N/A';
+            nftLink.href = card.nft ? `https://solscan.io/token/${card.nft}` : '#';
+
+            const detailAlt = document.getElementById('detailAlt');
+            const detailSale = document.getElementById('detailSale');
+            const altBtn = document.getElementById('altResearchBtn');
+
+            if (card.altValue !== null && card.altValue > 0 && card.assetId) {
+                detailAlt.textContent = `$${card.altValue.toFixed(2)}`;
+                detailSale.textContent = `$${(card.altValue * 0.97).toFixed(1)}`;
+                altBtn.style.display = 'block';
+                altBtn.onclick = () => window.open(`https://app.alt.xyz/research/${card.assetId}`, '_blank');
+            } else {
+                detailAlt.textContent = 'Loading...';
+                detailSale.textContent = 'N/A';
+                altBtn.style.display = 'none';
+            }
+
+            document.getElementById('detailPanel').classList.add('open');
+        }
+
+        document.getElementById('detailClose').onclick = () => {
+            document.getElementById('detailPanel').classList.remove('open');
+        };
+
+        lookupBtn.onclick = async () => {
+            const cert = certInput.value.trim();
+            if (!cert) return;
+            altInfo.innerHTML = 'Looking up...';
+            const result = await fetchAltValue(cert);
+            if (result.value !== null) {
+                const sale = (result.value * 0.97).toFixed(1);
+                altInfo.innerHTML = `<strong>ALT Value: $${result.value.toFixed(2)}</strong><br><strong>Suggested Sale (97%): $${sale}</strong>`;
+                if (result.assetId) {
+                    altInfo.innerHTML += `<br><a href="https://app.alt.xyz/browse/${result.assetId}" target="_blank" style="color:#ffd700; font-weight:800;">Open Alt Research Page →</a>`;
+                }
+            } else {
+                altInfo.innerHTML = '<strong style="color:#ff8888">No ALT value found or error.</strong>';
+            }
+        };
+
+        // Pagination
+        document.getElementById('prevBtn').onclick = () => {
+            if (currentPage > 0) {
+                currentPage--;
+                renderCards();
+            }
+        };
+        document.getElementById('nextBtn').onclick = () => {
+            if ((currentPage + 1) * CARDS_PER_PAGE < cards.length) {
+                currentPage++;
+                renderCards();
+            }
+        };
+
+        // Load everything
+        (async () => {
+            try {
+                const data = await fetchWalletData();
+                processCards(data);
+            } catch (e) {
+                console.error('Live fetch failed', e);
+                processCards({ filterNFtCard: [] });
+            }
+            renderCards();
+            await loadAltValues();
+            renderCards();
+        })();
+    </script>
+</body>
+</html>
