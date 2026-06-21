@@ -195,31 +195,28 @@
         }
 
     async function fetchPoints(walletAddress) {
-    const originalUrl = `https://gacha.collectorcrypt.com/api/getPoints?wallet=${walletAddress}`;
+    const targetUrl = `https://gacha.collectorcrypt.com/api/getPoints?wallet=${walletAddress}`;
     
-    // Using corsproxy.io + cache busting
-    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(originalUrl)}&t=${Date.now()}`;
+    // Correct format for corsproxy.io
+    const proxyUrl = `https://corsproxy.io/?url=${encodeURIComponent(targetUrl)}`;
 
     try {
         const response = await fetch(proxyUrl, {
-            cache: 'no-store',           // Prevents disk cache issues
-            headers: {
-                'Cache-Control': 'no-cache'
-            }
+            cache: 'no-store'
         });
 
         if (!response.ok) {
-            console.error(`HTTP Error for ${walletAddress}:`, response.status);
+            console.error(`HTTP Error (${response.status}) for ${walletAddress}`);
             return null;
         }
 
         return await response.json();
 
     } catch (error) {
-        console.error(`Fetch failed for ${walletAddress}:`, error);
+        console.error(`Fetch error for ${walletAddress}:`, error);
         return null;
     }
-}
+};
 
         function createWalletCard(wallet) {
             return `
