@@ -25,7 +25,6 @@
 
         <!-- Check Buttons -->
         <div class="mb-8">
-            <!-- Main Check All Button -->
             <div class="mb-4">
                 <button onclick="loadAndCheckAllWallets()" id="check-all-btn"
                         class="flex items-center gap-x-2 px-8 py-3 text-base font-medium bg-emerald-600 hover:bg-emerald-700 transition-all rounded-2xl">
@@ -34,7 +33,6 @@
                 </button>
             </div>
 
-            <!-- Individual Group Buttons -->
             <div class="flex flex-wrap gap-3">
                 <button onclick="checkSpecificGroup('alpha')"
                         class="flex items-center gap-x-2 px-5 py-2 text-sm font-medium bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-xl transition-colors">
@@ -63,9 +61,7 @@
         </div>
 
         <!-- Groups Container -->
-        <div id="groups-container" class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Populated by JavaScript -->
-        </div>
+        <div id="groups-container" class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
 
         <!-- Custom Wallet -->
         <div class="mt-10">
@@ -76,9 +72,7 @@
             
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
                 <div class="flex flex-col md:flex-row gap-3">
-                    <input id="custom-wallet-input" 
-                           type="text" 
-                           placeholder="Enter wallet address"
+                    <input id="custom-wallet-input" type="text" placeholder="Enter wallet address"
                            class="flex-1 bg-zinc-950 border border-zinc-700 focus:border-emerald-500 px-4 py-3 rounded-xl text-sm font-mono">
                     
                     <button onclick="checkCustomWallet()"
@@ -94,7 +88,6 @@
     </div>
 
     <script>
-        // ==================== CONFIGURATION ====================
     const walletGroups = [
             {
                 id: "alpha",
@@ -187,26 +180,25 @@
         ]
             }
         ];
-        // =======================================================
 
         function shortenAddress(address) {
-            if (!address) return '';
-            return address.slice(0, 6) + '...' + address.slice(-4);
+            return address ? address.slice(0, 6) + '...' + address.slice(-4) : '';
         }
 
+        // Direct API call (no proxy)
     async function fetchPoints(walletAddress) {
-    const targetUrl = `https://gacha.collectorcrypt.com/api/getPoints?wallet=${walletAddress}`;
-    
-    // Correct format for corsproxy.io
-    const proxyUrl = `https://corsproxy.io/?url=${encodeURIComponent(targetUrl)}`;
+    // ←←← CHANGE THIS TO YOUR WORKER URL ←←←
+    const workerUrl = "https://cc-proxy.wkfepf1120.workers.dev/";
+
+    const url = `${workerUrl}/?wallet=${walletAddress}`;
 
     try {
-        const response = await fetch(proxyUrl, {
+        const response = await fetch(url, {
             cache: 'no-store'
         });
 
         if (!response.ok) {
-            console.error(`HTTP Error (${response.status}) for ${walletAddress}`);
+            console.error(`Worker error: ${response.status}`);
             return null;
         }
 
@@ -216,7 +208,7 @@
         console.error(`Fetch error for ${walletAddress}:`, error);
         return null;
     }
-};
+}
 
         function createWalletCard(wallet) {
             return `
@@ -227,11 +219,9 @@
                             ${shortenAddress(wallet.address)}
                         </div>
                     </div>
-                    
                     <div>
                         <div class="text-[10px] text-zinc-400 tracking-wider">POINTS REMAINING</div>
-                        <div id="points-${wallet.id}" 
-                             class="points-value text-3xl font-semibold text-emerald-400 tabular-nums mt-0.5">
+                        <div id="points-${wallet.id}" class="points-value text-3xl font-semibold text-emerald-400 tabular-nums mt-0.5">
                             ---
                         </div>
                     </div>
@@ -252,7 +242,6 @@
                             <h3 class="font-semibold text-lg">${group.name}</h3>
                             <span class="text-xs text-zinc-500">(${group.wallets.length})</span>
                         </div>
-                        
                         <div class="grid grid-cols-1 gap-3">
                             ${group.wallets.map(wallet => createWalletCard(wallet)).join('')}
                         </div>
@@ -279,17 +268,15 @@
 
             if (data && data.pointsRemaining !== undefined) {
                 pointsEl.textContent = data.pointsRemaining.toLocaleString();
+                pointsEl.classList.remove('text-red-400');
             } else {
                 pointsEl.textContent = 'Error';
                 pointsEl.classList.add('text-red-400');
             }
         }
 
-        // Check only one specific group
         async function checkSpecificGroup(groupId) {
             const container = document.getElementById('groups-container');
-            
-            // Show groups if not visible yet
             if (container.classList.contains('hidden')) {
                 renderGroups();
             }
@@ -299,31 +286,28 @@
 
             for (const wallet of group.wallets) {
                 await checkPredefinedWallet(wallet.id);
-                await new Promise(resolve => setTimeout(resolve, 350));
+                await new Promise(resolve => setTimeout(resolve, 500));
             }
         }
 
-        // Check all groups
         async function loadAndCheckAllWallets() {
             const button = document.getElementById('check-all-btn');
-            const container = document.getElementById('groups-container');
-
             renderGroups();
 
             const originalText = button.innerHTML;
             button.disabled = true;
             button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking...`;
 
-            let totalWallets = 0;
-            walletGroups.forEach(group => totalWallets += group.wallets.length);
+            let total = 0;
+            walletGroups.forEach(g => total += g.wallets.length);
             let checked = 0;
 
             for (const group of walletGroups) {
                 for (const wallet of group.wallets) {
                     await checkPredefinedWallet(wallet.id);
                     checked++;
-                    button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking... (${checked}/${totalWallets})`;
-                    await new Promise(resolve => setTimeout(resolve, 350));
+                    button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking... (${checked}/${total})`;
+                    await new Promise(resolve => setTimeout(resolve, 500));
                 }
             }
 
@@ -336,10 +320,7 @@
             const resultDiv = document.getElementById('custom-result');
             const address = input.value.trim();
 
-            if (!address) {
-                alert('Please enter a wallet address');
-                return;
-            }
+            if (!address) return alert('Please enter a wallet address');
 
             resultDiv.classList.remove('hidden');
             resultDiv.innerHTML = `
@@ -360,8 +341,7 @@
                             <div class="text-xs text-zinc-400">Wallet Address</div>
                             <div class="font-mono text-sm text-emerald-400 break-all">${address}</div>
                         </div>
-
-                        <div class="mb-5">
+                        <div>
                             <div class="text-xs text-zinc-400">POINTS REMAINING</div>
                             <div class="text-6xl font-semibold text-emerald-400 tabular-nums">
                                 ${data.pointsRemaining.toLocaleString()}
@@ -380,7 +360,7 @@
 
         function initializeApp() {
             const input = document.getElementById('custom-wallet-input');
-            input.addEventListener('keypress', function(e) {
+            input.addEventListener('keypress', e => {
                 if (e.key === 'Enter') checkCustomWallet();
             });
         }
