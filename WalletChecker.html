@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollectorCrypt Points Checker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .font-display { font-family: 'Space Grotesk', 'Inter', sans-serif; }
+        .points-value { font-variant-numeric: tabular-nums; }
+        .wallet-card { transition: all 0.2s ease; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+    <div class="max-w-7xl mx-auto px-6 py-10">
+        
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-8">
+            <div>
+                <h1 class="text-4xl font-semibold tracking-tighter font-display">CollectorCrypt</h1>
+                <p class="text-zinc-400">Gacha Points Checker</p>
+            </div>
+        </div>
+
+        <!-- Predefined Wallets -->
+        <div class="mb-10">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-semibold flex items-center gap-x-2">
+                    <i class="fa-solid fa-wallet text-emerald-400"></i>
+                    <span>Predefined Wallets</span>
+                </h2>
+                
+                <!-- Main Button -->
+                <button onclick="checkAllWallets()" id="check-all-btn"
+                        class="flex items-center gap-x-2 px-6 py-2.5 text-sm font-medium bg-emerald-600 hover:bg-emerald-700 transition-all rounded-xl">
+                    <i class="fa-solid fa-sync-alt"></i>
+                    <span>Check All Wallets</span>
+                </button>
+            </div>
+
+            <!-- Groups Container -->
+            <div id="groups-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Custom Wallet -->
+        <div>
+            <h2 class="text-xl font-semibold mb-4 flex items-center gap-x-2">
+                <i class="fa-solid fa-search text-emerald-400"></i>
+                <span>Check Any Wallet</span>
+            </h2>
+            
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+                <div class="flex flex-col md:flex-row gap-3">
+                    <input id="custom-wallet-input" 
+                           type="text" 
+                           placeholder="Enter wallet address (0x...)"
+                           class="flex-1 bg-zinc-950 border border-zinc-700 focus:border-emerald-500 px-4 py-3 rounded-xl text-sm font-mono">
+                    
+                    <button onclick="checkCustomWallet()"
+                            class="px-8 py-3 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-xl font-medium flex items-center justify-center gap-x-2 border border-zinc-700">
+                        <i class="fa-solid fa-search"></i>
+                        <span>Check</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="custom-result" class="mt-4 hidden"></div>
+        </div>
+    </div>
+
+    <script>
+        // ==================== CONFIGURATION ====================
+        const walletGroups = [
+            {
+                id: "alpha",
+                name: "Alpha",
+                wallets: [
+                    // Original wallets
+                    { id: "alpha-1", name: "Main", address: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e" },
+                    { id: "alpha-2", name: "Secondary", address: "0x1234567890abcdef1234567890abcdef12345678" },
+                    
+                    // New wallets added
+                    { id: "alpha-3", name: "Wallet 1", address: "J1MQBdNmYgx2QFAqTUJeQzsAcnxPokxhvMcoHDj6kQq6" },
+                    { id: "alpha-4", name: "Wallet 2", address: "CgqbcifMBquyr8sYFzR36Ggp2uB3UNGVpR1dymqHPyot" },
+                    { id: "alpha-5", name: "Wallet 3", address: "AmVdCfPpoWQ1ZkBhn9W2cBT9iTfESLaPzrZrZmc3haqH" },
+                    { id: "alpha-6", name: "Wallet 4", address: "9keVT1A9rtuQf3fMKaxVWLZqoD1acYk47tmkPUqAq7ru" },
+                    { id: "alpha-7", name: "Wallet 5", address: "HqgRJY12BBySSZK6Hbn6b9T7QjHjx3faB96nSrhA66mi" },
+                    { id: "alpha-8", name: "Wallet 6", address: "8utCw76ouJXsNBFxvFAgoWfj4enfqcU1xejwRg9N2EA3" },
+                    { id: "alpha-9", name: "Wallet 7", address: "22y1f6BqoX2pW1qtWMvR2TYQK8cbmhStwZDRqmEtcsXU" },
+                    { id: "alpha-10", name: "Wallet 8", address: "61722Y5yJTxam23BAv3hXrD8V4NBkGP6axNWknRCvzio" },
+                    { id: "alpha-11", name: "Wallet 9", address: "GYVawHQUHdM3hKT5gLbuE3eXSbfG8pYEyJhxfFJC6ftT" },
+                    { id: "alpha-12", name: "Wallet 10", address: "2YeNq91jBhLkmwWLrLtkGgSddfHAZCArru1FSytSpVUk" },
+                    { id: "alpha-13", name: "Wallet 11", address: "HkodM8FJ9Tkch4tgCa1mVNvmbHk64ryfnxXzQnMQFnuG" },
+                    { id: "alpha-14", name: "Wallet 12", address: "12oUhy11ZNja8PKbnAGet3xzJjVwjGZuMwX1t3b7m4Q3" },
+                    { id: "alpha-15", name: "Wallet 13", address: "H9wF9Mq5P3xhWeEUT8LV71Lce2fWnQmfKEFDw6AsL2gQ" },
+                    { id: "alpha-16", name: "Wallet 14", address: "8i2YcZCeYHqh4CeSjtPkFPApxoiqv3j5JGvsodrmfgtp" },
+                    { id: "alpha-17", name: "Wallet 15", address: "3zkgiMmdFPRuYuerCYSFn4JNMggtaCtpcBN9QD7hDAKz" },
+                    { id: "alpha-18", name: "Wallet 16", address: "EqyVwrsKSDSFLQJYc3M79Z8ig2CMW63iv4cmekSxFwK2" },
+                    { id: "alpha-19", name: "Wallet 17", address: "7AC43e7s4qVRCuS7wsBhKtHAVjZAJii2RTNi98phs3P8" },
+                    { id: "alpha-20", name: "Wallet 18", address: "2Auu98SZ8XUUuEiYzBgCcg6DnEnhMEG8bHLXJnnYUC9s" },
+                    { id: "alpha-21", name: "Wallet 19", address: "8w1ekeM3RsQiCvD4agc6Dqr7M8Y54Z9mDsd34nAK9eeL" },
+                ]
+            },
+            {
+                id: "beta",
+                name: "Beta",
+                wallets: [
+                    { id: "beta-1", name: "Main", address: "0xabcdefabcdefabcdefabcdefabcdefabcdefabcd" },
+                ]
+            },
+            {
+                id: "gamma",
+                name: "Gamma",
+                wallets: [
+                    { id: "gamma-1", name: "Main", address: "0x9876543210fedcba9876543210fedcba98765432" },
+                ]
+            },
+            {
+                id: "delta",
+                name: "Delta",
+                wallets: [
+                    { id: "delta-1", name: "Main", address: "0x1111111111111111111111111111111111111111" },
+                ]
+            }
+        ];
+        // =======================================================
+
+        function shortenAddress(address) {
+            if (!address) return '';
+            return address.slice(0, 6) + '...' + address.slice(-4);
+        }
+
+        async function fetchPoints(walletAddress) {
+            const url = `https://gacha.collectorcrypt.com/api/getPoints?wallet=${walletAddress}`;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return await response.json();
+            } catch (error) {
+                console.error('Error fetching points:', error);
+                return null;
+            }
+        }
+
+        function createWalletCard(wallet) {
+            return `
+                <div class="wallet-card bg-zinc-900 border border-zinc-800 rounded-2xl p-4">
+                    <div class="mb-3">
+                        <div class="font-medium">${wallet.name}</div>
+                        <div onclick="copyToClipboard('${wallet.address}')" 
+                             class="text-xs font-mono text-zinc-400 hover:text-emerald-400 cursor-pointer flex items-center gap-x-1 mt-0.5">
+                            ${shortenAddress(wallet.address)}
+                            <i class="fa-solid fa-copy text-[10px]"></i>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="text-[10px] text-zinc-400 tracking-wider">POINTS REMAINING</div>
+                        <div id="points-${wallet.id}" 
+                             class="points-value text-3xl font-semibold text-emerald-400 tabular-nums mt-0.5">
+                            ---
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderGroups() {
+            const container = document.getElementById('groups-container');
+            container.innerHTML = '';
+
+            walletGroups.forEach(group => {
+                const groupHTML = `
+                    <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-5">
+                        <div class="flex items-center gap-x-2 mb-4 px-1">
+                            <div class="w-2.5 h-2.5 bg-emerald-400 rounded-full"></div>
+                            <h3 class="font-semibold text-lg">${group.name}</h3>
+                            <span class="text-xs text-zinc-500">(${group.wallets.length})</span>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 gap-3">
+                            ${group.wallets.map(wallet => createWalletCard(wallet)).join('')}
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += groupHTML;
+            });
+        }
+
+        async function checkPredefinedWallet(walletId) {
+            let wallet = null;
+            for (const group of walletGroups) {
+                wallet = group.wallets.find(w => w.id === walletId);
+                if (wallet) break;
+            }
+            if (!wallet) return;
+
+            const pointsEl = document.getElementById(`points-${walletId}`);
+            if (!pointsEl) return;
+
+            pointsEl.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-emerald-400"></i>`;
+
+            const data = await fetchPoints(wallet.address);
+
+            if (data && data.pointsRemaining !== undefined) {
+                pointsEl.textContent = data.pointsRemaining.toLocaleString();
+                pointsEl.classList.remove('text-red-400');
+            } else {
+                pointsEl.textContent = 'Error';
+                pointsEl.classList.add('text-red-400');
+            }
+        }
+
+        async function checkAllWallets() {
+            const button = document.getElementById('check-all-btn');
+            const originalText = button.innerHTML;
+            
+            button.disabled = true;
+            button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking...`;
+
+            let totalWallets = 0;
+            walletGroups.forEach(group => totalWallets += group.wallets.length);
+            let checked = 0;
+
+            for (const group of walletGroups) {
+                for (const wallet of group.wallets) {
+                    await checkPredefinedWallet(wallet.id);
+                    checked++;
+                    button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking... (${checked}/${totalWallets})`;
+                    await new Promise(resolve => setTimeout(resolve, 300));
+                }
+            }
+
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
+
+        async function checkCustomWallet() {
+            const input = document.getElementById('custom-wallet-input');
+            const resultDiv = document.getElementById('custom-result');
+            const address = input.value.trim();
+
+            if (!address) {
+                alert('Please enter a wallet address');
+                return;
+            }
+
+            resultDiv.classList.remove('hidden');
+            resultDiv.innerHTML = `
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex justify-center">
+                    <div class="flex items-center gap-x-3 text-zinc-400">
+                        <i class="fa-solid fa-spinner fa-spin"></i>
+                        <span>Fetching points...</span>
+                    </div>
+                </div>
+            `;
+
+            const data = await fetchPoints(address);
+
+            if (data && data.pointsRemaining !== undefined) {
+                resultDiv.innerHTML = `
+                    <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+                        <div class="flex justify-between mb-4">
+                            <div>
+                                <div class="text-xs text-zinc-400">Custom Wallet</div>
+                                <div onclick="copyToClipboard('${address}')" 
+                                     class="font-mono text-sm text-emerald-400 cursor-pointer hover:underline break-all">
+                                    ${address}
+                                </div>
+                            </div>
+                            <button onclick="document.getElementById('custom-result').classList.add('hidden')" class="text-zinc-400 hover:text-white">
+                                <i class="fa-solid fa-times"></i>
+                            </button>
+                        </div>
+
+                        <div class="mb-5">
+                            <div class="text-xs text-zinc-400">POINTS REMAINING</div>
+                            <div class="text-6xl font-semibold text-emerald-400 tabular-nums">
+                                ${data.pointsRemaining.toLocaleString()}
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-3 text-sm">
+                            <div><span class="text-zinc-400 text-xs">Total:</span> <span class="font-medium">${data.totalPoints?.toLocaleString() || '-'}</span></div>
+                            <div><span class="text-zinc-400 text-xs">Primary:</span> <span class="font-medium">${data.primaryPoints ?? '-'}</span></div>
+                            <div><span class="text-zinc-400 text-xs">Secondary:</span> <span class="font-medium">${data.secondaryPoints ?? '-'}</span></div>
+                            <div><span class="text-zinc-400 text-xs">Bonus:</span> <span class="font-medium">${data.bonusPoints?.toLocaleString() || '-'}</span></div>
+                            <div><span class="text-zinc-400 text-xs">Used:</span> <span class="font-medium">${data.pointsUsed?.toLocaleString() || '-'}</span></div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="bg-red-950/60 border border-red-900 rounded-2xl p-5 text-center">
+                        <p class="text-red-400">Failed to fetch data.</p>
+                        <p class="text-xs text-red-300 mt-1">Check the address or try again.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.createElement('div');
+                toast.className = `fixed bottom-6 left-1/2 -translate-x-1/2 bg-zinc-800 border border-emerald-800 text-emerald-400 px-4 py-2 rounded-full text-sm flex items-center gap-x-2`;
+                toast.innerHTML = `<i class="fa-solid fa-check mr-2"></i> Address copied!`;
+                document.body.appendChild(toast);
+                setTimeout(() => {
+                    toast.style.transition = 'opacity 0.3s';
+                    toast.style.opacity = '0';
+                    setTimeout(() => toast.remove(), 200);
+                }, 1500);
+            });
+        }
+
+        function initializeApp() {
+            renderGroups();
+
+            const input = document.getElementById('custom-wallet-input');
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') checkCustomWallet();
+            });
+        }
+
+        window.onload = initializeApp;
+    </script>
+</body>
+</html>
