@@ -10,7 +10,6 @@
         body { font-family: 'Inter', system_ui, sans-serif; }
         .font-display { font-family: 'Space Grotesk', 'Inter', sans-serif; }
         .points-value { font-variant-numeric: tabular-nums; }
-        .wallet-card { transition: all 0.2s ease; }
     </style>
 </head>
 <body class="bg-zinc-950 text-zinc-200">
@@ -24,30 +23,52 @@
             </div>
         </div>
 
-        <!-- Predefined Wallets -->
-        <div class="mb-10">
-            <div class="flex items-center justify-between mb-4">
-                <h2 class="text-xl font-semibold flex items-center gap-x-2">
-                    <i class="fa-solid fa-wallet text-emerald-400"></i>
-                    <span>Predefined Wallets</span>
-                </h2>
-                
-                <!-- Main Button -->
-                <button onclick="checkAllWallets()" id="check-all-btn"
-                        class="flex items-center gap-x-2 px-6 py-2.5 text-sm font-medium bg-emerald-600 hover:bg-emerald-700 transition-all rounded-xl">
+        <!-- Check Buttons -->
+        <div class="mb-8">
+            <!-- Main Check All Button -->
+            <div class="mb-4">
+                <button onclick="loadAndCheckAllWallets()" id="check-all-btn"
+                        class="flex items-center gap-x-2 px-8 py-3 text-base font-medium bg-emerald-600 hover:bg-emerald-700 transition-all rounded-2xl">
                     <i class="fa-solid fa-sync-alt"></i>
                     <span>Check All Wallets</span>
                 </button>
             </div>
 
-            <!-- Groups Container -->
-            <div id="groups-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Populated by JavaScript -->
+            <!-- Individual Group Buttons -->
+            <div class="flex flex-wrap gap-3">
+                <button onclick="checkSpecificGroup('alpha')"
+                        class="flex items-center gap-x-2 px-5 py-2 text-sm font-medium bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-xl transition-colors">
+                    <i class="fa-solid fa-sync-alt"></i>
+                    <span>Check Alpha</span>
+                </button>
+
+                <button onclick="checkSpecificGroup('beta')"
+                        class="flex items-center gap-x-2 px-5 py-2 text-sm font-medium bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-xl transition-colors">
+                    <i class="fa-solid fa-sync-alt"></i>
+                    <span>Check Beta</span>
+                </button>
+
+                <button onclick="checkSpecificGroup('gamma')"
+                        class="flex items-center gap-x-2 px-5 py-2 text-sm font-medium bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-xl transition-colors">
+                    <i class="fa-solid fa-sync-alt"></i>
+                    <span>Check Gamma</span>
+                </button>
+
+                <button onclick="checkSpecificGroup('delta')"
+                        class="flex items-center gap-x-2 px-5 py-2 text-sm font-medium bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-xl transition-colors">
+                    <i class="fa-solid fa-sync-alt"></i>
+                    <span>Check Delta</span>
+                </button>
             </div>
         </div>
 
+        <!-- Groups Container -->
+        <div id="groups-container" class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Populated by JavaScript -->
+        </div>
+
         <!-- Custom Wallet -->
-        <div>
+        <div class="mt-10">
             <h2 class="text-xl font-semibold mb-4 flex items-center gap-x-2">
                 <i class="fa-solid fa-search text-emerald-400"></i>
                 <span>Check Any Wallet</span>
@@ -57,7 +78,7 @@
                 <div class="flex flex-col md:flex-row gap-3">
                     <input id="custom-wallet-input" 
                            type="text" 
-                           placeholder="Enter wallet address (0x...)"
+                           placeholder="Enter wallet address"
                            class="flex-1 bg-zinc-950 border border-zinc-700 focus:border-emerald-500 px-4 py-3 rounded-xl text-sm font-mono">
                     
                     <button onclick="checkCustomWallet()"
@@ -74,57 +95,96 @@
 
     <script>
         // ==================== CONFIGURATION ====================
-        const walletGroups = [
+    const walletGroups = [
             {
                 id: "alpha",
                 name: "Alpha",
                 wallets: [
-                    // Original wallets
-                    { id: "alpha-1", name: "Main", address: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e" },
-                    { id: "alpha-2", name: "Secondary", address: "0x1234567890abcdef1234567890abcdef12345678" },
-                    
-                    // New wallets added
-                    { id: "alpha-3", name: "Wallet 1", address: "J1MQBdNmYgx2QFAqTUJeQzsAcnxPokxhvMcoHDj6kQq6" },
-                    { id: "alpha-4", name: "Wallet 2", address: "CgqbcifMBquyr8sYFzR36Ggp2uB3UNGVpR1dymqHPyot" },
-                    { id: "alpha-5", name: "Wallet 3", address: "AmVdCfPpoWQ1ZkBhn9W2cBT9iTfESLaPzrZrZmc3haqH" },
-                    { id: "alpha-6", name: "Wallet 4", address: "9keVT1A9rtuQf3fMKaxVWLZqoD1acYk47tmkPUqAq7ru" },
-                    { id: "alpha-7", name: "Wallet 5", address: "HqgRJY12BBySSZK6Hbn6b9T7QjHjx3faB96nSrhA66mi" },
-                    { id: "alpha-8", name: "Wallet 6", address: "8utCw76ouJXsNBFxvFAgoWfj4enfqcU1xejwRg9N2EA3" },
-                    { id: "alpha-9", name: "Wallet 7", address: "22y1f6BqoX2pW1qtWMvR2TYQK8cbmhStwZDRqmEtcsXU" },
-                    { id: "alpha-10", name: "Wallet 8", address: "61722Y5yJTxam23BAv3hXrD8V4NBkGP6axNWknRCvzio" },
-                    { id: "alpha-11", name: "Wallet 9", address: "GYVawHQUHdM3hKT5gLbuE3eXSbfG8pYEyJhxfFJC6ftT" },
-                    { id: "alpha-12", name: "Wallet 10", address: "2YeNq91jBhLkmwWLrLtkGgSddfHAZCArru1FSytSpVUk" },
-                    { id: "alpha-13", name: "Wallet 11", address: "HkodM8FJ9Tkch4tgCa1mVNvmbHk64ryfnxXzQnMQFnuG" },
-                    { id: "alpha-14", name: "Wallet 12", address: "12oUhy11ZNja8PKbnAGet3xzJjVwjGZuMwX1t3b7m4Q3" },
-                    { id: "alpha-15", name: "Wallet 13", address: "H9wF9Mq5P3xhWeEUT8LV71Lce2fWnQmfKEFDw6AsL2gQ" },
-                    { id: "alpha-16", name: "Wallet 14", address: "8i2YcZCeYHqh4CeSjtPkFPApxoiqv3j5JGvsodrmfgtp" },
-                    { id: "alpha-17", name: "Wallet 15", address: "3zkgiMmdFPRuYuerCYSFn4JNMggtaCtpcBN9QD7hDAKz" },
-                    { id: "alpha-18", name: "Wallet 16", address: "EqyVwrsKSDSFLQJYc3M79Z8ig2CMW63iv4cmekSxFwK2" },
-                    { id: "alpha-19", name: "Wallet 17", address: "7AC43e7s4qVRCuS7wsBhKtHAVjZAJii2RTNi98phs3P8" },
-                    { id: "alpha-20", name: "Wallet 18", address: "2Auu98SZ8XUUuEiYzBgCcg6DnEnhMEG8bHLXJnnYUC9s" },
-                    { id: "alpha-21", name: "Wallet 19", address: "8w1ekeM3RsQiCvD4agc6Dqr7M8Y54Z9mDsd34nAK9eeL" },
+                    { id: "alpha-3", name: "Wallet 1", address: "8rF9o8XtzLjDNhrGSJcQBz2v4BsqKBUK54FAqEJQzg4x" },
+                    { id: "alpha-4", name: "Wallet 2", address: "GUecUQc176srEmoYPckGJJpPKF1i9Fg2bVwg75NocbEN" },
+                    { id: "alpha-5", name: "Wallet 3", address: "6Qfz4DHfPfzRs2ckzimUrUpTDqF9HaEEnWQ5ZGgEgpzn" },
+                    { id: "alpha-6", name: "Wallet 4", address: "9Nfpb3jbcew1Yays9hywL8X8uVPaEMy6AL3pMGD4zzG3" },
+                    { id: "alpha-7", name: "Wallet 5", address: "32iH4VzzpWqiw3vGzm7YoQQ2Dq2prS8tSzhNYRaER8Uu" },
+                    { id: "alpha-8", name: "Wallet 6", address: "9fVohBgZtwpPkim4wFNaSXnAbgpZiVQhwyLSHQrN6FhY" },
+                    { id: "alpha-9", name: "Wallet 7", address: "CtjCohv1uSiRmGKaEJh8gXQETZxr3MyaFo9PcSVS64FU" },
+                    { id: "alpha-10", name: "Wallet 8", address: "DBxGGQpZTFvGSEVBS8uSYbsM1HwF6vFG81dYNxpZjTnN" },
+                    { id: "alpha-11", name: "Wallet 9", address: "Hb7gQFgfBEhA84fufrn35jcFSru8bc1hsSZ5Yu7b1DTk" },
+                    { id: "alpha-12", name: "Wallet 10", address: "8hazPyzLXfK8FsRiWmBL5WGg7JtiVNjEgVbT3BscVYGP" }
                 ]
             },
             {
                 id: "beta",
                 name: "Beta",
                 wallets: [
-                    { id: "beta-1", name: "Main", address: "0xabcdefabcdefabcdefabcdefabcdefabcdefabcd" },
-                ]
-            },
-            {
-                id: "gamma",
-                name: "Gamma",
-                wallets: [
-                    { id: "gamma-1", name: "Main", address: "0x9876543210fedcba9876543210fedcba98765432" },
-                ]
+            { id: "beta-1", name: "Wallet 1", address: "J1MQBdNmYgx2QFAqTUJeQzsAcnxPokxhvMcoHDj6kQq6" },
+            { id: "beta-2", name: "Wallet 2", address: "CgqbcifMBquyr8sYFzR36Ggp2uB3UNGVpR1dymqHPyot" },
+            { id: "beta-3", name: "Wallet 3", address: "AmVdCfPpoWQ1ZkBhn9W2cBT9iTfESLaPzrZrZmc3haqH" },
+            { id: "beta-4", name: "Wallet 4", address: "9keVT1A9rtuQf3fMKaxVWLZqoD1acYk47tmkPUqAq7ru" },
+            { id: "beta-5", name: "Wallet 5", address: "HqgRJY12BBySSZK6Hbn6b9T7QjHjx3faB96nSrhA66mi" },
+            { id: "beta-6", name: "Wallet 6", address: "8utCw76ouJXsNBFxvFAgoWfj4enfqcU1xejwRg9N2EA3" },
+            { id: "beta-7", name: "Wallet 7", address: "22y1f6BqoX2pW1qtWMvR2TYQK8cbmhStwZDRqmEtcsXU" },
+            { id: "beta-8", name: "Wallet 8", address: "61722Y5yJTxam23BAv3hXrD8V4NBkGP6axNWknRCvzio" },
+            { id: "beta-9", name: "Wallet 9", address: "GYVawHQUHdM3hKT5gLbuE3eXSbfG8pYEyJhxfFJC6ftT" },
+            { id: "beta-10", name: "Wallet 10", address: "2YeNq91jBhLkmwWLrLtkGgSddfHAZCArru1FSytSpVUk" },
+            { id: "beta-11", name: "Wallet 11", address: "HkodM8FJ9Tkch4tgCa1mVNvmbHk64ryfnxXzQnMQFnuG" },
+            { id: "beta-12", name: "Wallet 12", address: "12oUhy11ZNja8PKbnAGet3xzJjVwjGZuMwX1t3b7m4Q3" },
+            { id: "beta-13", name: "Wallet 13", address: "H9wF9Mq5P3xhWeEUT8LV71Lce2fWnQmfKEFDw6AsL2gQ" },
+            { id: "beta-14", name: "Wallet 14", address: "8i2YcZCeYHqh4CeSjtPkFPApxoiqv3j5JGvsodrmfgtp" },
+            { id: "beta-15", name: "Wallet 15", address: "3zkgiMmdFPRuYuerCYSFn4JNMggtaCtpcBN9QD7hDAKz" },
+            { id: "beta-16", name: "Wallet 16", address: "EqyVwrsKSDSFLQJYc3M79Z8ig2CMW63iv4cmekSxFwK2" },
+            { id: "beta-17", name: "Wallet 17", address: "7AC43e7s4qVRCuS7wsBhKtHAVjZAJii2RTNi98phs3P8" },
+            { id: "beta-18", name: "Wallet 18", address: "2Auu98SZ8XUUuEiYzBgCcg6DnEnhMEG8bHLXJnnYUC9s" },
+            { id: "beta-19", name: "Wallet 19", address: "8w1ekeM3RsQiCvD4agc6Dqr7M8Y54Z9mDsd34nAK9eeL" },
+        ]
             },
             {
                 id: "delta",
                 name: "Delta",
                 wallets: [
-                    { id: "delta-1", name: "Main", address: "0x1111111111111111111111111111111111111111" },
-                ]
+            { id: "delta-1", name: "Wallet 1", address: "BoWePWgUhCHKLhHqKvy7w67yBRvk59HR1E9tcyKh2nGT" },
+            { id: "delta-2", name: "Wallet 2", address: "FAobXjZqAkSAYptHbCC3gne3XUfUAAoU9RrLb1BSn7hU" },
+            { id: "delta-3", name: "Wallet 3", address: "88tJvwK7htZpq7tdWKzDG82JJ72ZeqfBsvNYNab9B2AD" },
+            { id: "delta-4", name: "Wallet 4", address: "4Mk3uRUhoUhCQwRkpPGSwjdbGo8FQh1GkwAjwCaj4Tt6" },
+            { id: "delta-5", name: "Wallet 5", address: "DT3odXRVZ9QJjJkLNAe1yPoiG9vxtQ5WWDa5ypGbkF18" },
+            { id: "delta-6", name: "Wallet 6", address: "Dukf54b9EFZeAJFaR2oydyJmRNaMNHrJ3TYUcKTF9RZw" },
+            { id: "delta-7", name: "Wallet 7", address: "FXqF4XMKCv6S4i7eX23BksDxPZxbvrs54GLduawrFJ2a" },
+            { id: "delta-8", name: "Wallet 8", address: "5KBZ7WgMTGTGbH3Cs5A3BNGnET6Z6qEq21LkuLsvB87A" },
+            { id: "delta-9", name: "Wallet 9", address: "Buj62F2aKEPtiQASQqWBzkpvaSXsxrtpxMpLb5JwFGzm" },
+            { id: "delta-10", name: "Wallet 10", address: "ErYZ8ZiLdqZRkwAJW2wyzjANnkS31UoedEFBNkdnzSRe" },
+            { id: "delta-11", name: "Wallet 11", address: "6yBx1X69AToKQcSK5bTS3d2h2wXuDAQPkMtFrsJ58Ncu" },
+            { id: "delta-12", name: "Wallet 12", address: "CBG7wjLktsqVop1eoHvooLnt3wJdBkBQj98XfGgWqesW" },
+            { id: "delta-13", name: "Wallet 13", address: "Ay3XiBQGXCewWsJbbnWSP4QZcUayR7VpKDTeMQaooBLc" },
+            { id: "delta-14", name: "Wallet 14", address: "DD3BtTfdi53DuhcBJvQ1R7PMnFYrt2FMK3ZD66zEdJ4M" },
+            { id: "delta-15", name: "Wallet 15", address: "A7pqrBdrAt1VtMSLEbbCL1rmYWC5SvyoLTP2Boro1Tye" },
+            { id: "delta-16", name: "Wallet 16", address: "EHRG2CbaehQqZ1y38kACHWD96aFpL8PibKrszrZJ7e11" },
+            { id: "delta-17", name: "Wallet 17", address: "3wnvngitc63nVsSt1oKj7NTZHHQR2A1LBWDZWL12DSGW" },
+            { id: "delta-18", name: "Wallet 18", address: "CFzmikKGedGgoeTVyCsCshT1HS8LQ1GthTN4rJ64n6fm" },
+            { id: "delta-19", name: "Wallet 19", address: "6C1SdoPLS2PviH42gpkrJ9icTQ3twnFRLYVnz4bcH46b" },
+            { id: "delta-20", name: "Wallet 20", address: "BfgA8B1ydURiXWZ1u6wN6XHuQkaRnyaB7oZZanr1MfbP" },
+        ]
+            },
+            {
+                id: "gamma",
+                name: "Gamma",
+                wallets: [
+            { id: "gamma-1", name: "Wallet 1", address: "2jP9zL3VQpT8faxzUhZePkc15aNuDHjcEFQRkG2Tef5g" },
+            { id: "gamma-2", name: "Wallet 2", address: "7Ee3iGPyMJ4hkh3Usc76WQKmSqyf3sbo8TrGE6vMHEEK" },
+            { id: "gamma-3", name: "Wallet 3", address: "9JwxvcAS7RoJoLigaXR88uCvDQZWNJevRD8kXTgYLZX2" },
+            { id: "gamma-4", name: "Wallet 4", address: "4cjGAAxdfKVVs4LNUQUTM3BB76Hc21D3nLQkr7DTmkMT" },
+            { id: "gamma-5", name: "Wallet 5", address: "HKyoNApufRVhSQofYTQyQ7BqbWoBHruR74ujomKSRchS" },
+            { id: "gamma-6", name: "Wallet 6", address: "8x9FPFZNGju6q7ZQApkvooj35jtL3fs5BBH3uXhTeJYV" },
+            { id: "gamma-7", name: "Wallet 7", address: "2oDNLJYEnbaw3rq3aP57VgomVdk9PaRyXWkLT5yq1a2q" },
+            { id: "gamma-8", name: "Wallet 8", address: "5pQEjKdvvNp6aTBUQ686fGJSoJRMdqU1sRZwRne92kqQ" },
+            { id: "gamma-9", name: "Wallet 9", address: "AFGpKFFon3Tt69h45snRBtyADTsAKb4diQUrkQzrzxFv" },
+            { id: "gamma-10", name: "Wallet 10", address: "56QhNyjj7fr4TXRLJiLdFaMLoF7pY3MD1uSYZAqM3Sc4" },
+            { id: "gamma-11", name: "Wallet 11", address: "BLBHxz62ScrE83X3zBevnR9ptwGevJznnVQa8buWeSgR" },
+            { id: "gamma-12", name: "Wallet 12", address: "BgCofhHkc24UtKnDKyGSka6pV7pSWuPPNhQTtX4Hz2ts" },
+            { id: "gamma-13", name: "Wallet 13", address: "5m3JBXYNEeQjMFCAU2PqogiQzRC2Bjq7HruUcVBtXfuZ" },
+            { id: "gamma-14", name: "Wallet 14", address: "8N22eBwZeaNGEveSYTp3f2opND1AfGfdAgojgkKZkESJ" },
+            { id: "gamma-15", name: "Wallet 15", address: "D8EEpfzRFuBT9YLwSwom98ZEHVkJYecKbyJbDLv57cUi" },
+            { id: "gamma-16", name: "Wallet 16", address: "4qh9SrsNVLT49JH7DdqXHzMXaAp6Ub3jAJjnzqB2YAZW" },
+            { id: "gamma-17", name: "Wallet 17", address: "HAtFRZbEsgoPfpohLp8migCyYkjrskgUTYBHtTcnA7F3" },
+        ]
             }
         ];
         // =======================================================
@@ -135,13 +195,14 @@
         }
 
         async function fetchPoints(walletAddress) {
-            const url = `https://gacha.collectorcrypt.com/api/getPoints?wallet=${walletAddress}`;
+            const originalUrl = `https://gacha.collectorcrypt.com/api/getPoints?wallet=${walletAddress}`;
+            const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(originalUrl)}`;
+
             try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const response = await fetch(proxyUrl);
+                if (!response.ok) return null;
                 return await response.json();
             } catch (error) {
-                console.error('Error fetching points:', error);
                 return null;
             }
         }
@@ -151,10 +212,8 @@
                 <div class="wallet-card bg-zinc-900 border border-zinc-800 rounded-2xl p-4">
                     <div class="mb-3">
                         <div class="font-medium">${wallet.name}</div>
-                        <div onclick="copyToClipboard('${wallet.address}')" 
-                             class="text-xs font-mono text-zinc-400 hover:text-emerald-400 cursor-pointer flex items-center gap-x-1 mt-0.5">
+                        <div class="text-xs font-mono text-zinc-400 mt-0.5">
                             ${shortenAddress(wallet.address)}
-                            <i class="fa-solid fa-copy text-[10px]"></i>
                         </div>
                     </div>
                     
@@ -172,6 +231,7 @@
         function renderGroups() {
             const container = document.getElementById('groups-container');
             container.innerHTML = '';
+            container.classList.remove('hidden');
 
             walletGroups.forEach(group => {
                 const groupHTML = `
@@ -208,17 +268,38 @@
 
             if (data && data.pointsRemaining !== undefined) {
                 pointsEl.textContent = data.pointsRemaining.toLocaleString();
-                pointsEl.classList.remove('text-red-400');
             } else {
                 pointsEl.textContent = 'Error';
                 pointsEl.classList.add('text-red-400');
             }
         }
 
-        async function checkAllWallets() {
-            const button = document.getElementById('check-all-btn');
-            const originalText = button.innerHTML;
+        // Check only one specific group
+        async function checkSpecificGroup(groupId) {
+            const container = document.getElementById('groups-container');
             
+            // Show groups if not visible yet
+            if (container.classList.contains('hidden')) {
+                renderGroups();
+            }
+
+            const group = walletGroups.find(g => g.id === groupId);
+            if (!group) return;
+
+            for (const wallet of group.wallets) {
+                await checkPredefinedWallet(wallet.id);
+                await new Promise(resolve => setTimeout(resolve, 350));
+            }
+        }
+
+        // Check all groups
+        async function loadAndCheckAllWallets() {
+            const button = document.getElementById('check-all-btn');
+            const container = document.getElementById('groups-container');
+
+            renderGroups();
+
+            const originalText = button.innerHTML;
             button.disabled = true;
             button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking...`;
 
@@ -231,7 +312,7 @@
                     await checkPredefinedWallet(wallet.id);
                     checked++;
                     button.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-2"></i> Checking... (${checked}/${totalWallets})`;
-                    await new Promise(resolve => setTimeout(resolve, 300));
+                    await new Promise(resolve => setTimeout(resolve, 350));
                 }
             }
 
@@ -264,17 +345,9 @@
             if (data && data.pointsRemaining !== undefined) {
                 resultDiv.innerHTML = `
                     <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
-                        <div class="flex justify-between mb-4">
-                            <div>
-                                <div class="text-xs text-zinc-400">Custom Wallet</div>
-                                <div onclick="copyToClipboard('${address}')" 
-                                     class="font-mono text-sm text-emerald-400 cursor-pointer hover:underline break-all">
-                                    ${address}
-                                </div>
-                            </div>
-                            <button onclick="document.getElementById('custom-result').classList.add('hidden')" class="text-zinc-400 hover:text-white">
-                                <i class="fa-solid fa-times"></i>
-                            </button>
+                        <div class="mb-4">
+                            <div class="text-xs text-zinc-400">Wallet Address</div>
+                            <div class="font-mono text-sm text-emerald-400 break-all">${address}</div>
                         </div>
 
                         <div class="mb-5">
@@ -283,43 +356,18 @@
                                 ${data.pointsRemaining.toLocaleString()}
                             </div>
                         </div>
-
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-3 text-sm">
-                            <div><span class="text-zinc-400 text-xs">Total:</span> <span class="font-medium">${data.totalPoints?.toLocaleString() || '-'}</span></div>
-                            <div><span class="text-zinc-400 text-xs">Primary:</span> <span class="font-medium">${data.primaryPoints ?? '-'}</span></div>
-                            <div><span class="text-zinc-400 text-xs">Secondary:</span> <span class="font-medium">${data.secondaryPoints ?? '-'}</span></div>
-                            <div><span class="text-zinc-400 text-xs">Bonus:</span> <span class="font-medium">${data.bonusPoints?.toLocaleString() || '-'}</span></div>
-                            <div><span class="text-zinc-400 text-xs">Used:</span> <span class="font-medium">${data.pointsUsed?.toLocaleString() || '-'}</span></div>
-                        </div>
                     </div>
                 `;
             } else {
                 resultDiv.innerHTML = `
                     <div class="bg-red-950/60 border border-red-900 rounded-2xl p-5 text-center">
                         <p class="text-red-400">Failed to fetch data.</p>
-                        <p class="text-xs text-red-300 mt-1">Check the address or try again.</p>
                     </div>
                 `;
             }
         }
 
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                const toast = document.createElement('div');
-                toast.className = `fixed bottom-6 left-1/2 -translate-x-1/2 bg-zinc-800 border border-emerald-800 text-emerald-400 px-4 py-2 rounded-full text-sm flex items-center gap-x-2`;
-                toast.innerHTML = `<i class="fa-solid fa-check mr-2"></i> Address copied!`;
-                document.body.appendChild(toast);
-                setTimeout(() => {
-                    toast.style.transition = 'opacity 0.3s';
-                    toast.style.opacity = '0';
-                    setTimeout(() => toast.remove(), 200);
-                }, 1500);
-            });
-        }
-
         function initializeApp() {
-            renderGroups();
-
             const input = document.getElementById('custom-wallet-input');
             input.addEventListener('keypress', function(e) {
                 if (e.key === 'Enter') checkCustomWallet();
