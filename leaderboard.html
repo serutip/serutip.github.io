@@ -188,6 +188,11 @@ const LEADERBOARD_WORKER = "https://cc-proxy.wkfepf1120.workers.dev/";
 const CACHE_TTL_MS = 60 * 1000;
 const RESULT_LIMIT = 100;
 const CACHE_PREFIX = "gap-leaderboard-cache-v1";
+const REF_CACHE_PREFIX = "gap-referral-count-v1";
+const REF_CACHE_TTL_MS = 10 * 60 * 1000;
+const REF_LOOKUP_CONCURRENCY = 8;
+const referralCounts = new Map();
+const referralPending = new Set();
 
 const $ = selector => document.querySelector(selector);
 const periodSelect = $("#periodSelect");
@@ -342,7 +347,9 @@ function renderRows() {
         { value: formatNumber(row.bonusPoints), className: Number(row.bonusPoints) < 0 ? "negative" : "" },
         { value: formatNumber(row.totalPoints), className: "total" },
         { value: formatNumber(row.nftsSent) },
-        { value: formatNumber(row.referredAccounts) }
+        { value: referralCounts.has(walletAddress)
+            ? formatNumber(referralCounts.get(walletAddress))
+            : (referralPending.has(walletAddress) ? "Loading…" : (row.referredAccounts != null ? formatNumber(row.referredAccounts) : "—")) }
       ];
       cells.forEach(cell => {
         const td = document.createElement("td");
@@ -377,11 +384,71 @@ function renderRows() {
     `Showing ${filtered.length.toLocaleString()} of ${currentRows.length.toLocaleString()} players · Top ${RESULT_LIMIT}`;
 }
 
+function readReferralCache(wallet) {
+  try {
+    const item = JSON.parse(localStorage.getItem(`${REF_CACHE_PREFIX}:${wallet}`) || "null");
+    if (!item || !Number.isFinite(item.count) || !Number.isFinite(item.fetchedAt)) return null;
+    if (Date.now() - item.fetchedAt > REF_CACHE_TTL_MS) return null;
+    return item.count;
+  } catch { return null; }
+}
+
+function writeReferralCache(wallet, count) {
+  try {
+    localStorage.setItem(`${REF_CACHE_PREFIX}:${wallet}`, JSON.stringify({ count, fetchedAt: Date.now() }));
+  } catch (error) { console.warn("Could not cache referral count:", error); }
+}
+
+async function fetchReferralCount(wallet) {
+  const url = new URL(LEADERBOARD_WORKER);
+  url.searchParams.set("walletPublicKey", wallet);
+  const response = await fetch(url.toString(), { headers: { "Accept": "application/json" }, cache: "no-store" });
+  const text = await response.text();
+  if (!response.ok) throw new Error(`Referral lookup HTTP ${response.status}: ${text.slice(0, 200)}`);
+  let data;
+  try { data = JSON.parse(text); } catch { throw new Error("Referral endpoint returned invalid JSON"); }
+  if (!Array.isArray(data?.referredWallets)) {
+    if (data?.referredWallets == null) return 0;
+    throw new Error("Referral response has an unexpected referredWallets format");
+  }
+  return data.referredWallets.length;
+}
+
+async function enrichReferralCounts(rows) {
+  const wallets = [...new Set(rows.map(row => String(row.walletAddress || "").trim()).filter(Boolean))];
+  const queue = [];
+  for (const wallet of wallets) {
+    if (referralCounts.has(wallet) || referralPending.has(wallet)) continue;
+    const cachedCount = readReferralCache(wallet);
+    if (cachedCount !== null) referralCounts.set(wallet, cachedCount);
+    else { referralPending.add(wallet); queue.push(wallet); }
+  }
+  renderRows();
+  let next = 0;
+  async function worker() {
+    while (next < queue.length) {
+      const wallet = queue[next++];
+      try {
+        const count = await fetchReferralCount(wallet);
+        referralCounts.set(wallet, count);
+        writeReferralCache(wallet, count);
+      } catch (error) {
+        console.warn("Referral count lookup failed for wallet", wallet, error);
+      } finally {
+        referralPending.delete(wallet);
+        renderRows();
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(REF_LOOKUP_CONCURRENCY, queue.length) }, worker));
+}
+
 function showPayload(payload, stateLabel) {
   currentRows = payload.leaderboard;
   renderRows();
   renderStats(currentRows, payload.fetchedAt, stateLabel);
   $("#sourcePill").textContent = stateLabel.toUpperCase();
+  enrichReferralCounts(currentRows);
 }
 
 async function loadLeaderboard(forceRefresh = false) {
