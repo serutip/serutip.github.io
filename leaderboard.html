@@ -65,6 +65,10 @@ th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
 tbody tr:hover{background:#1b2018}
 td.rank{color:var(--green);font-weight:750;width:52px}
 td.wallet{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#dfe5d8}
+td.wallet-cell{white-space:normal;min-width:290px;max-width:430px;text-align:left!important}
+.wallet-address{display:inline;overflow-wrap:anywhere;word-break:break-word;user-select:text}
+.copy-wallet-btn{display:inline-block;margin:5px 0 0;padding:5px 8px;border:1px solid #46513c;border-radius:5px;background:#242d1e;color:var(--green);font-size:10px;font-weight:700}
+.copy-wallet-btn:hover{background:#303d26}
 td.total{color:var(--green);font-weight:700}
 td.negative{color:var(--red)}
 .empty{padding:38px 20px!important;text-align:center!important;color:#8e9885!important}
@@ -242,10 +246,29 @@ function formatDate(timestamp) {
   }).format(new Date(timestamp));
 }
 
-function shortWallet(wallet) {
-  const value = String(wallet ?? "");
-  if (value.length <= 24) return value || "Unknown wallet";
-  return `${value.slice(0, 11)}…${value.slice(-9)}`;
+async function copyWalletAddress(wallet, button) {
+  const originalLabel = button.textContent;
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(wallet);
+    } else {
+      const textarea = document.createElement("textarea");
+      textarea.value = wallet;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      const copied = document.execCommand("copy");
+      textarea.remove();
+      if (!copied) throw new Error("Clipboard access is unavailable");
+    }
+    button.textContent = "Copied!";
+    window.setTimeout(() => { button.textContent = originalLabel; }, 1400);
+  } catch (error) {
+    console.error("Could not copy wallet address:", error);
+    button.textContent = "Copy failed";
+    window.setTimeout(() => { button.textContent = originalLabel; }, 1800);
+  }
 }
 
 function periodLabel(period) {
@@ -310,9 +333,10 @@ function renderRows() {
     const fragment = document.createDocumentFragment();
     filtered.forEach((row, index) => {
       const tr = document.createElement("tr");
+      const walletAddress = String(row.walletAddress ?? "");
       const cells = [
         { value: index + 1, className: "rank" },
-        { value: shortWallet(row.walletAddress), className: "wallet", title: row.walletAddress || "" },
+        { wallet: true },
         { value: formatNumber(row.primaryPoints) },
         { value: formatNumber(row.secondaryPoints) },
         { value: formatNumber(row.bonusPoints), className: Number(row.bonusPoints) < 0 ? "negative" : "" },
@@ -322,9 +346,26 @@ function renderRows() {
       ];
       cells.forEach(cell => {
         const td = document.createElement("td");
-        td.textContent = cell.value;
-        if (cell.className) td.className = cell.className;
-        if (cell.title) td.title = cell.title;
+        if (cell.wallet) {
+          td.className = "wallet wallet-cell";
+          const address = document.createElement("span");
+          address.className = "wallet-address";
+          address.textContent = walletAddress || "Unknown wallet";
+          td.appendChild(address);
+          if (walletAddress) {
+            const copy = document.createElement("button");
+            copy.type = "button";
+            copy.className = "copy-wallet-btn";
+            copy.textContent = "Copy address";
+            copy.setAttribute("aria-label", `Copy full wallet address ${walletAddress}`);
+            copy.addEventListener("click", () => copyWalletAddress(walletAddress, copy));
+            td.appendChild(document.createElement("br"));
+            td.appendChild(copy);
+          }
+        } else {
+          td.textContent = cell.value;
+          if (cell.className) td.className = cell.className;
+        }
         tr.appendChild(td);
       });
       fragment.appendChild(tr);
