@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10120f">
-  <title>GAP · Leaderboard</title>
+  <title>CollectorCrypt · Leaderboard</title>
   <style>
 :root{--bg:#10120f;--panel:#171a16;--panel2:#1b1f1a;--line:#2b3028;--text:#f0f2eb;--muted:#8c9486;--green:#b5f36c;--green2:#8dcf4b;--orange:#e9b66a;--red:#ee8b80;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);font-synthesis:none}
 *{box-sizing:border-box}
@@ -87,7 +87,7 @@ footer .muted{color:#596151}.save-dot{width:5px;height:5px;margin-left:6px}
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <a class="brand" href="#"><span class="brand-mark">G</span><span>GAP <small>LEADERBOARD</small></span></a>
+      <a class="brand" href="#"><span class="brand-mark">G</span><span>COLLECTORCRYPT <small>LEADERBOARD</small></span></a>
       <div class="nav-label">WORKSPACE</div>
       <div class="nav-item active"><span>▤</span> Leaderboard</div>
       <div class="side-bottom">
@@ -179,9 +179,8 @@ footer .muted{color:#596151}.save-dot{width:5px;height:5px;margin-left:6px}
   </div>
   <script>
 /* Collector Crypt Leaderboard — standalone edition.
-   Uses the existing production Cloudflare Worker, following the supplied
-   Points Checker fetch pattern. */
-const WORKER_URL = "https://cc-proxy.wkfepf1120.workers.dev/";
+   Calls the existing Cloudflare Worker leaderboard route. The Worker can also continue serving the separate wallet points route. */
+const LEADERBOARD_WORKER = "https://cc-proxy.wkfepf1120.workers.dev/";
 const CACHE_TTL_MS = 60 * 1000;
 const RESULT_LIMIT = 100;
 const CACHE_PREFIX = "gap-leaderboard-cache-v1";
@@ -371,9 +370,8 @@ async function loadLeaderboard(forceRefresh = false) {
     return;
   }
 
-  // Same Worker URL and root-query pattern as the production Points Checker.
-  // This leaderboard route is expected to accept type, limit, and sort.
-  const url = new URL(WORKER_URL);
+  // Call the existing Cloudflare Worker with only leaderboard parameters.
+  const url = new URL(LEADERBOARD_WORKER);
   url.searchParams.set("type", period);
   url.searchParams.set("limit", String(RESULT_LIMIT));
   url.searchParams.set("sort", sort);
@@ -382,20 +380,40 @@ async function loadLeaderboard(forceRefresh = false) {
   refreshBtn.textContent = "Loading…";
 
   try {
-    // Match production Worker usage: fetch the Worker root with query parameters
-    // and disable browser HTTP caching; app-level localStorage caching remains active.
+    // The Worker forwards this request to the Gacha leaderboard API.
+    // Browser HTTP caching is disabled; app-level localStorage caching remains active.
     const response = await fetch(url.toString(), {
+      headers: { "Accept": "application/json" },
       cache: "no-store"
     });
-    if (!response.ok) throw new Error(`Leaderboard endpoint returned HTTP ${response.status}`);
+    const responseText = await response.text();
+    if (!response.ok) {
+      throw new Error(`Leaderboard Worker returned HTTP ${response.status}: ${responseText.slice(0, 300)}`);
+    }
 
-    const result = await response.json();
-    if (!Array.isArray(result?.leaderboard)) {
-      throw new Error("Leaderboard API response did not contain a leaderboard array.");
+    let result;
+    try {
+      result = JSON.parse(responseText);
+    } catch {
+      throw new Error(`Leaderboard Worker did not return valid JSON: ${responseText.slice(0, 300)}`);
+    }
+
+    // Accept the common response shapes: a raw array, { leaderboard: [...] },
+    // or a nested { data: { leaderboard: [...] } } response.
+    const rows = Array.isArray(result) ? result
+      : Array.isArray(result?.leaderboard) ? result.leaderboard
+      : Array.isArray(result?.data?.leaderboard) ? result.data.leaderboard
+      : Array.isArray(result?.data) ? result.data
+      : Array.isArray(result?.results) ? result.results
+      : null;
+
+    if (!rows) {
+      const detail = result?.error || result?.message || JSON.stringify(result).slice(0, 300);
+      throw new Error(`Leaderboard API response did not contain a recognizable leaderboard array. Response: ${detail}`);
     }
 
     const payload = {
-      leaderboard: result.leaderboard,
+      leaderboard: rows,
       fetchedAt: Date.now()
     };
     writeCache(period, sort, payload);
@@ -405,14 +423,14 @@ async function loadLeaderboard(forceRefresh = false) {
       setNotice("✓", "Leaderboard updated", `Successfully fetched ${payload.leaderboard.length} entries from Collector Crypt at ${formatDate(payload.fetchedAt)}.`, "notice-success");
     }
   } catch (error) {
-    console.error("Leaderboard request failed:", error);
+    console.error("Leaderboard request failed:", { url, error });
     if (sequence === requestSequence) {
       if (cached) {
         showPayload(cached, "Cached · API unavailable");
         setNotice("ⓘ", "Could not refresh live data", `${error.message} Showing the last successfully cached response instead.`, "notice-warning");
       } else {
         renderStats([], null, "Unavailable");
-        setNotice("ⓘ", "Live API unavailable in this browser", `${error.message} The request was sent to your existing Cloudflare Worker. Check that the Worker is online and that its leaderboard route accepts the selected type, limit, and sort parameters.`, "notice-warning");
+        setNotice("ⓘ", "Live API unavailable in this browser", `${error.message} Request: ${url}`, "notice-warning");
         tbody.innerHTML = '<tr><td class="empty" colspan="8">Could not load leaderboard. Check the API connection or CORS permissions.</td></tr>';
         $("#resultCount").textContent = "Could not load leaderboard";
       }
