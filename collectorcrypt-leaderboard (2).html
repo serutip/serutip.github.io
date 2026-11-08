@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <title>GAP · Leaderboard</title>
+  <style>
+:root{--bg:#10120f;--panel:#171a16;--panel2:#1b1f1a;--line:#2b3028;--text:#f0f2eb;--muted:#8c9486;--green:#b5f36c;--green2:#8dcf4b;--orange:#e9b66a;--red:#ee8b80;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 85% 0%,#20291a 0,transparent 28%),var(--bg)}
+button,input,select{font:inherit}button{cursor:pointer}
+.app-shell{min-height:100vh}
+.sidebar{width:238px;position:fixed;inset:0 auto 0 0;border-right:1px solid var(--line);padding:27px 16px 18px;background:#11130f;display:flex;flex-direction:column;z-index:3}
+.brand{display:flex;align-items:center;gap:11px;padding:0 8px 40px;text-decoration:none;color:var(--text);font-size:16px;font-weight:850;letter-spacing:.04em}
+.brand-mark{width:34px;height:34px;border-radius:10px;background:var(--green);color:#15200d;display:grid;place-items:center;font-size:22px;font-weight:950}
+.brand small{display:block;font-size:9px;letter-spacing:.19em;color:var(--muted);margin-top:3px}
+.nav-label,.eyebrow{font-size:10px;letter-spacing:.16em;font-weight:750;color:#899281}
+.nav-label{padding:0 10px 11px}
+.nav-item{border:0;background:#242b1e;color:var(--green);text-align:left;padding:12px 11px;border-radius:8px;display:flex;align-items:center;gap:12px;margin:2px 0;font-size:13px}
+.nav-item>span{font-size:17px;width:18px;text-align:center}
+.side-bottom{margin-top:auto}
+.source-card{display:flex;gap:10px;align-items:center;padding:13px 9px;border-top:1px solid var(--line);margin-bottom:12px}
+.source-card b,.source-card small{display:block}
+.source-card b{font-size:11px;font-weight:650}
+.source-card small{font-size:10px;color:var(--muted);margin-top:4px}
+.pulse,.save-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px #b5f36c55}
+.main{margin-left:238px;max-width:1800px;padding:0 38px}
+.topbar{height:68px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #252a22}
+.crumb{font-size:11px;color:var(--muted)}.crumb span{margin:0 10px;color:#596052}.crumb b{color:#dce0d6;font-weight:600}
+.top-actions{display:flex;align-items:center;gap:15px}
+.local-tag{font-size:9px;letter-spacing:.12em;color:#a2ad98;display:flex;align-items:center;gap:7px}
+.local-tag i{width:6px;height:6px;background:var(--green);border-radius:50%}
+.avatar{border:1px solid #3b4433;border-radius:50%;width:30px;height:30px;background:#252d1e;color:var(--green);font-weight:750;display:grid;place-items:center;font-size:12px}
+.page-head{display:flex;justify-content:space-between;align-items:end;padding:35px 0 25px;gap:20px}
+.eyebrow{display:flex;align-items:center;gap:8px}.eyebrow-dot{width:6px;height:6px;background:var(--green);border-radius:50%}
+h1{font-size:clamp(29px,3vw,39px);letter-spacing:-.045em;line-height:1.1;margin:12px 0 9px;font-weight:720}.title-period{color:var(--green)}
+.page-head p,.panel-heading p{color:var(--muted);font-size:12px;margin:0}
+.primary-btn{border:0;border-radius:7px;background:var(--green);color:#17200f;font-size:12px;font-weight:750;padding:12px 15px;white-space:nowrap;box-shadow:0 5px 20px #9be85212}
+.primary-btn:hover{background:#c6ff83}.primary-btn:disabled{opacity:.6;cursor:wait}.primary-btn span{font-size:15px;margin-right:5px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-bottom:25px}
+.stat-card{border:1px solid var(--line);border-radius:10px;padding:17px 17px 15px;background:linear-gradient(140deg,#1a1e17,#151713 75%);min-height:124px;min-width:0}
+.stat-top{display:flex;justify-content:space-between;align-items:center;color:#8f9886;font-size:9px;font-weight:750;letter-spacing:.11em}
+.stat-icon{color:#a2c879;font-size:17px}
+.stat-number{font-size:29px;font-weight:730;letter-spacing:-.04em;margin:11px 0 2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stat-word{font-size:25px}.stat-time{font-size:24px}
+.stat-note{font-size:10px;color:#747d6d}
+.inventory-panel{border:1px solid var(--line);border-radius:10px;background:#151713;overflow:hidden}
+.panel-heading{display:flex;align-items:center;justify-content:space-between;padding:20px 20px 16px}
+.panel-heading h2{font-size:15px;letter-spacing:-.02em;margin:0 0 6px;font-weight:700}
+.result-pill{border:1px solid #3c4931;border-radius:5px;color:var(--green);padding:5px 8px;font-size:9px;letter-spacing:.08em;font-weight:750}
+.toolbar{display:flex;align-items:end;gap:12px;padding:0 20px 17px;border-bottom:1px solid var(--line)}
+.control{display:grid;gap:6px;min-width:155px}.control>span{font-size:9px;color:#899281;font-weight:750;letter-spacing:.12em}
+.toolbar select{height:38px;background:#191d17;border:1px solid #343a30;color:#bdc4b5;border-radius:7px;padding:0 28px 0 10px;font-size:11px;outline:none}
+.search{display:flex;align-items:center;gap:8px;flex:1;min-width:130px;border:1px solid #343a30;background:#10120f;border-radius:7px;padding:0 11px;color:#8f9986;height:38px}
+.search>span{font-size:21px}.search input{width:100%;background:transparent;border:0;outline:0;color:var(--text);font-size:11px;padding:11px 0}
+.notice{margin:17px 20px 0;display:flex;gap:11px;align-items:flex-start;border:1px solid #3d492e;background:#20271a;border-radius:8px;padding:12px 13px;color:var(--green)}
+.notice>span{font-size:15px}.notice b{font-size:11px;font-weight:700}.notice p{color:#a5ae9b;font-size:11px;line-height:1.6;margin:4px 0 0}
+.notice-success{border-color:#3d492e;background:#20271a}.notice-warning{border-color:#59452e;background:#292219;color:var(--orange)}
+.table-wrap{overflow-x:auto;padding:8px 20px 15px}
+table{width:100%;border-collapse:collapse;min-width:950px}
+th{padding:12px 10px 9px;color:#6f7869;font-size:9px;letter-spacing:.1em;font-weight:750;text-align:right;white-space:nowrap}
+td{padding:13px 10px;border-top:1px solid #272c24;color:#cbd2c3;font-size:11px;text-align:right;white-space:nowrap}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+tbody tr:hover{background:#1b2018}
+td.rank{color:var(--green);font-weight:750;width:52px}
+td.wallet{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#dfe5d8}
+td.total{color:var(--green);font-weight:700}
+td.negative{color:var(--red)}
+.empty{padding:38px 20px!important;text-align:center!important;color:#8e9885!important}
+footer{display:flex;justify-content:space-between;padding:21px 2px 24px;font-size:9px;letter-spacing:.1em;color:#8d9784}
+footer .muted{color:#596151}.save-dot{width:5px;height:5px;margin-left:6px}
+@media(max-width:1050px){.main{padding:0 23px}.sidebar{width:205px}.main{margin-left:205px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){
+.sidebar{position:static;width:auto;height:auto;padding:12px 15px;display:block;border-right:0;border-bottom:1px solid var(--line)}
+.brand{padding:0 3px 12px}.nav-label,.side-bottom{display:none}.main{margin:0;padding:0 14px}
+.topbar{height:48px}.page-head{padding:27px 0 20px;align-items:start;flex-direction:column}
+.page-head p{max-width:340px;line-height:1.5}.page-head .primary-btn{align-self:stretch}
+.stats{gap:8px}.stat-card{padding:13px;min-height:112px}.stat-number{font-size:25px}
+.toolbar{flex-wrap:wrap;padding:0 12px 13px}.control{flex:1;min-width:calc(50% - 6px)}.control select{width:100%}
+.search{flex-basis:100%}.panel-heading{padding:16px 13px}.notice{margin:12px 12px 0}
+.table-wrap{padding:5px 10px 10px}footer{font-size:8px;gap:15px;line-height:1.5}footer span:last-child{text-align:right}
+}
+
+</style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#"><span class="brand-mark">G</span><span>GAP <small>LEADERBOARD</small></span></a>
+      <div class="nav-label">WORKSPACE</div>
+      <div class="nav-item active"><span>▤</span> Leaderboard</div>
+      <div class="side-bottom">
+        <div class="source-card"><span class="pulse"></span><div><b>Collector Crypt API</b><small>Live leaderboard data</small></div></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="crumb">Workspace <span>/</span> <b>Leaderboard</b></div>
+        <div class="top-actions"><span class="local-tag"><i></i> LIVE API</span><span class="avatar">G</span></div>
+      </header>
+
+      <section class="page-head">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span> COLLECTOR CRYPT</div>
+          <h1>Leaderboard<span class="title-period">.</span></h1>
+          <p>Explore player rankings across different time periods and point categories.</p>
+        </div>
+        <button class="primary-btn" id="refreshBtn" type="button"><span>↻</span> Refresh leaderboard</button>
+      </section>
+
+      <section class="stats">
+        <article class="stat-card">
+          <div class="stat-top"><span>PLAYERS SHOWN</span><span class="stat-icon">♙</span></div>
+          <div class="stat-number" id="statPlayers">—</div>
+          <div class="stat-note">Entries in this leaderboard</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>TOP SCORE</span><span class="stat-icon">✦</span></div>
+          <div class="stat-number" id="statTopScore">—</div>
+          <div class="stat-note" id="statSortLabel">Sorted by primary points</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>TIME PERIOD</span><span class="stat-icon">◷</span></div>
+          <div class="stat-number stat-word" id="statPeriod">1 Week</div>
+          <div class="stat-note">Selected leaderboard period</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>LAST FETCHED</span><span class="stat-icon">↻</span></div>
+          <div class="stat-number stat-time" id="statFetched">—</div>
+          <div class="stat-note" id="cacheStatus">Waiting for API response</div>
+        </article>
+      </section>
+
+      <section class="inventory-panel">
+        <div class="panel-heading">
+          <div><h2>Player rankings</h2><p id="resultCount">Loading leaderboard…</p></div>
+          <span class="result-pill" id="sourcePill">API</span>
+        </div>
+        <div class="toolbar">
+          <label class="control"><span>TIME PERIOD</span>
+            <select id="periodSelect">
+              <option value="1day">1 Day</option>
+              <option value="1week" selected>1 Week</option>
+              <option value="1month">1 Month</option>
+            </select>
+          </label>
+          <label class="control"><span>SORT BY</span>
+            <select id="sortSelect">
+              <option value="primaryPoints">Primary Points</option>
+              <option value="bonusPoints">Bonus Points</option>
+              <option value="secondaryPoints">Secondary Points</option>
+              <option value="totalPoints">Total Points</option>
+            </select>
+          </label>
+          <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search wallet address…" autocomplete="off"></label>
+        </div>
+        <div class="notice" id="dataNotice" role="status" aria-live="polite">
+          <span>↻</span><div><b>Connecting to leaderboard</b><p>Requesting the selected period and ranking from Collector Crypt.</p></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th>Rank</th><th>Wallet address</th><th>Primary points</th><th>Secondary points</th>
+              <th>Bonus points</th><th>Total points</th><th>NFTs sent</th><th>Referrals</th>
+            </tr></thead>
+            <tbody id="leaderboardBody">
+              <tr><td class="empty" colspan="8">Loading leaderboard…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <footer>
+        <span>GAP LEADERBOARD <span class="muted">· STANDALONE EDITION</span></span>
+        <span>Data from Collector Crypt <span class="save-dot"></span></span>
+      </footer>
+    </main>
+  </div>
+  <script>
+/* Collector Crypt Leaderboard — standalone edition.
+   Uses the existing production Cloudflare Worker, following the supplied
+   Points Checker fetch pattern. */
+const WORKER_URL = "https://cc-proxy.wkfepf1120.workers.dev/";
+const CACHE_TTL_MS = 60 * 1000;
+const RESULT_LIMIT = 100;
+const CACHE_PREFIX = "gap-leaderboard-cache-v1";
+
+const $ = selector => document.querySelector(selector);
+const periodSelect = $("#periodSelect");
+const sortSelect = $("#sortSelect");
+const searchInput = $("#searchInput");
+const refreshBtn = $("#refreshBtn");
+const tbody = $("#leaderboardBody");
+
+let currentRows = [];
+let requestSequence = 0;
+let loading = false;
+
+const numberFormat = new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 });
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  })[char]);
+}
+
+function cacheKey(period, sort) {
+  return `${CACHE_PREFIX}:${period}:${sort}`;
+}
+
+function readCache(period, sort) {
+  try {
+    const raw = localStorage.getItem(cacheKey(period, sort));
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed.leaderboard) || !Number.isFinite(parsed.fetchedAt)) return null;
+    return parsed;
+  } catch (error) {
+    console.warn("Could not read leaderboard cache:", error);
+    return null;
+  }
+}
+
+function writeCache(period, sort, payload) {
+  try {
+    localStorage.setItem(cacheKey(period, sort), JSON.stringify(payload));
+  } catch (error) {
+    console.warn("Could not save leaderboard cache:", error);
+    setNotice("ⓘ", "Browser cache unavailable", "The leaderboard is still usable, but this browser could not save the cached response.");
+  }
+}
+
+function formatNumber(value) {
+  const number = Number(value ?? 0);
+  return Number.isFinite(number) ? numberFormat.format(number) : "—";
+}
+
+function formatDate(timestamp) {
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: "medium",
+    timeStyle: "medium"
+  }).format(new Date(timestamp));
+}
+
+function shortWallet(wallet) {
+  const value = String(wallet ?? "");
+  if (value.length <= 24) return value || "Unknown wallet";
+  return `${value.slice(0, 11)}…${value.slice(-9)}`;
+}
+
+function periodLabel(period) {
+  return ({ "1day":"1 Day", "1week":"1 Week", "1month":"1 Month" })[period] || period;
+}
+
+function sortLabel(sort) {
+  return ({
+    primaryPoints:"primary points",
+    bonusPoints:"bonus points",
+    secondaryPoints:"secondary points",
+    totalPoints:"total points"
+  })[sort] || sort;
+}
+
+function setNotice(symbol, title, description, kind = "") {
+  const notice = $("#dataNotice");
+  notice.className = `notice ${kind}`.trim();
+  notice.replaceChildren();
+
+  const icon = document.createElement("span");
+  icon.textContent = symbol;
+  const content = document.createElement("div");
+  const heading = document.createElement("b");
+  heading.textContent = title;
+  const paragraph = document.createElement("p");
+  paragraph.textContent = description;
+  content.append(heading, paragraph);
+  notice.append(icon, content);
+}
+
+function renderStats(rows, fetchedAt, stateLabel) {
+  $("#statPlayers").textContent = numberFormat.format(rows.length);
+  const sort = sortSelect.value;
+  const top = rows.length ? Math.max(...rows.map(row => Number(row?.[sort]) || 0)) : null;
+  $("#statTopScore").textContent = top === null ? "—" : formatNumber(top);
+  $("#statSortLabel").textContent = `Highest ${sortLabel(sort)}`;
+  $("#statPeriod").textContent = periodLabel(periodSelect.value);
+  $("#statFetched").textContent = fetchedAt ? new Intl.DateTimeFormat(undefined, {
+    hour: "2-digit", minute: "2-digit"
+  }).format(new Date(fetchedAt)) : "—";
+  $("#statFetched").title = fetchedAt ? formatDate(fetchedAt) : "";
+  $("#cacheStatus").textContent = stateLabel;
+}
+
+function renderRows() {
+  const query = searchInput.value.trim().toLowerCase();
+  const filtered = currentRows.filter(row =>
+    String(row.walletAddress ?? "").toLowerCase().includes(query)
+  );
+
+  tbody.replaceChildren();
+  if (!filtered.length) {
+    const tr = document.createElement("tr");
+    const td = document.createElement("td");
+    td.colSpan = 8;
+    td.className = "empty";
+    td.textContent = query ? "No wallets match your search." : "No leaderboard entries were returned.";
+    tr.appendChild(td);
+    tbody.appendChild(tr);
+  } else {
+    const fragment = document.createDocumentFragment();
+    filtered.forEach((row, index) => {
+      const tr = document.createElement("tr");
+      const cells = [
+        { value: index + 1, className: "rank" },
+        { value: shortWallet(row.walletAddress), className: "wallet", title: row.walletAddress || "" },
+        { value: formatNumber(row.primaryPoints) },
+        { value: formatNumber(row.secondaryPoints) },
+        { value: formatNumber(row.bonusPoints), className: Number(row.bonusPoints) < 0 ? "negative" : "" },
+        { value: formatNumber(row.totalPoints), className: "total" },
+        { value: formatNumber(row.nftsSent) },
+        { value: formatNumber(row.referredAccounts) }
+      ];
+      cells.forEach(cell => {
+        const td = document.createElement("td");
+        td.textContent = cell.value;
+        if (cell.className) td.className = cell.className;
+        if (cell.title) td.title = cell.title;
+        tr.appendChild(td);
+      });
+      fragment.appendChild(tr);
+    });
+    tbody.appendChild(fragment);
+  }
+
+  $("#resultCount").textContent =
+    `Showing ${filtered.length.toLocaleString()} of ${currentRows.length.toLocaleString()} players · Top ${RESULT_LIMIT}`;
+}
+
+function showPayload(payload, stateLabel) {
+  currentRows = payload.leaderboard;
+  renderRows();
+  renderStats(currentRows, payload.fetchedAt, stateLabel);
+  $("#sourcePill").textContent = stateLabel.toUpperCase();
+}
+
+async function loadLeaderboard(forceRefresh = false) {
+  if (loading) return;
+  loading = true;
+  const sequence = ++requestSequence;
+  const period = periodSelect.value;
+  const sort = sortSelect.value;
+  const cached = readCache(period, sort);
+  const cacheAge = cached ? Date.now() - cached.fetchedAt : Infinity;
+  const isFresh = cached && cacheAge >= 0 && cacheAge < CACHE_TTL_MS;
+
+  if (cached) {
+    showPayload(cached, isFresh ? "Cached · fresh" : "Cached · stale");
+    setNotice("✓", "Showing saved leaderboard", isFresh
+      ? "This cached result is still within the 60-second refresh window."
+      : "Showing the last saved result while checking for updated data.", "notice-success");
+  } else {
+    currentRows = [];
+    renderRows();
+    renderStats([], null, "Fetching data");
+    setNotice("↻", "Connecting to leaderboard", "Requesting the selected period and ranking from Collector Crypt.");
+  }
+
+  if (!forceRefresh && isFresh) {
+    loading = false;
+    return;
+  }
+
+  // Same Worker URL and root-query pattern as the production Points Checker.
+  // This leaderboard route is expected to accept type, limit, and sort.
+  const url = new URL(WORKER_URL);
+  url.searchParams.set("type", period);
+  url.searchParams.set("limit", String(RESULT_LIMIT));
+  url.searchParams.set("sort", sort);
+
+  refreshBtn.disabled = true;
+  refreshBtn.textContent = "Loading…";
+
+  try {
+    // Match production Worker usage: fetch the Worker root with query parameters
+    // and disable browser HTTP caching; app-level localStorage caching remains active.
+    const response = await fetch(url.toString(), {
+      cache: "no-store"
+    });
+    if (!response.ok) throw new Error(`Leaderboard endpoint returned HTTP ${response.status}`);
+
+    const result = await response.json();
+    if (!Array.isArray(result?.leaderboard)) {
+      throw new Error("Leaderboard API response did not contain a leaderboard array.");
+    }
+
+    const payload = {
+      leaderboard: result.leaderboard,
+      fetchedAt: Date.now()
+    };
+    writeCache(period, sort, payload);
+
+    if (sequence === requestSequence) {
+      showPayload(payload, "Live");
+      setNotice("✓", "Leaderboard updated", `Successfully fetched ${payload.leaderboard.length} entries from Collector Crypt at ${formatDate(payload.fetchedAt)}.`, "notice-success");
+    }
+  } catch (error) {
+    console.error("Leaderboard request failed:", error);
+    if (sequence === requestSequence) {
+      if (cached) {
+        showPayload(cached, "Cached · API unavailable");
+        setNotice("ⓘ", "Could not refresh live data", `${error.message} Showing the last successfully cached response instead.`, "notice-warning");
+      } else {
+        renderStats([], null, "Unavailable");
+        setNotice("ⓘ", "Live API unavailable in this browser", `${error.message} The request was sent to your existing Cloudflare Worker. Check that the Worker is online and that its leaderboard route accepts the selected type, limit, and sort parameters.`, "notice-warning");
+        tbody.innerHTML = '<tr><td class="empty" colspan="8">Could not load leaderboard. Check the API connection or CORS permissions.</td></tr>';
+        $("#resultCount").textContent = "Could not load leaderboard";
+      }
+    }
+  } finally {
+    if (sequence === requestSequence) {
+      refreshBtn.disabled = false;
+      refreshBtn.innerHTML = "<span>↻</span> Refresh leaderboard";
+      loading = false;
+    }
+  }
+}
+
+periodSelect.addEventListener("change", () => loadLeaderboard());
+sortSelect.addEventListener("change", () => loadLeaderboard());
+searchInput.addEventListener("input", renderRows);
+refreshBtn.addEventListener("click", () => loadLeaderboard(true));
+
+loadLeaderboard();
+
+</script>
+</body>
+</html>
